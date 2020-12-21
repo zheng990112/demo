@@ -1,0 +1,117 @@
+.cl {
+	clear: both;
+	height: 0px;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.comWidth {
+	padding: 0 .3rem;
+}
+
+.img-block {
+	width: 100%;
+	display: block;
+}
+
+.none {
+	display: none!important;
+}
+
+.all {
+	width: 100%;
+}
+
+.all2 {
+	width: 100%;
+}
+
+.common_top {
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+	margin-top: .5rem;
+	background: url(../img/hzgy/a1.png) no-repeat;
+	background-size: 100% .6rem;
+}
+
+.common_top1 {
+	margin-bottom: .4rem;
+}
+
+.common_top p {
+	color: #fff;
+	height: .7rem;
+	padding-left: .2rem;
+	font-size: .28rem;
+	font-weight: bold;
+	line-height: .6rem;
+}
+
+.coomon_button_qb {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: .7rem;
+	height: 1rem;
+}
+
+.common_button {
+	width: 25%;
+	float: left;
+	display: inline-block;
+	height: .6rem;
+	line-height: .6rem;
+	border-radius: .3rem;
+	background: #241714;
+	margin-top: .3rem;
+}
+
+.common_button a {
+	color: #d3d1d0;
+	font-size: .3rem;
+}
+
+.common_button img {
+	width: .22rem;
+	padding-left: .3rem;
+	vertical-align: middle;
+	margin-right: .1rem;
+}
+
+.common_button1 {
+	margin-left: 24%;
+	margin-right: 2%;
+}
+.common_top2 {
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+	margin-top: .5rem;
+	background: url(../img/xm/a1.png) no-repeat;
+	background-size: 100% .6rem;
+}
+
+.common_top1 {
+	margin-bottom: .4rem;
+}
+
+.common_top2 p {
+	height: .6rem;
+	padding-left: .2rem;
+	font-size: .26rem;
+	font-weight: bold;
+	line-height: .6rem;
+}

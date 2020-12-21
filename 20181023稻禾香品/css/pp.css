@@ -1,0 +1,323 @@
+
+
+
+.part1 img{
+	width: 6.09rem;
+	display: block;
+	margin:0 auto;
+}
+.part1 .p1{
+	width: 6.09rem;
+	background-color: #c30d23;
+	margin:0 auto;
+	line-height: 0.4rem;
+	padding-left: 0.3rem;
+	padding-right: 0.2rem;
+	box-sizing: border-box;
+	margin-top: 0.1rem;
+}
+.part1 .p1 span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 109%;
+	margin-left: -4%;
+}
+
+
+.part2 .part2-title{
+	text-align: center;
+}
+.part2 .part2-title p{
+	font-size: 0.63rem;
+	line-height: 0.63rem;
+	display: inline-block;
+	vertical-align: bottom;
+	color:#c30d23;
+	font-weight: bold;
+}
+.part2 .part2-title p span{
+	color:#3e3a39;
+	display: inline-block;
+	vertical-align: middle;
+}
+.part2 .part2-title .b1-img{
+	display: inline-block;
+	vertical-align: bottom;
+	width: 2.21rem;
+	margin-left: 0.2rem;
+}
+.part2 .part2-title .b0-img{
+	width: 2.67rem;
+	height: 0.68rem;
+	display: inline-block;
+	vertical-align: middle;
+}
+.part2 .part-img{
+	margin-top: 0.2rem;
+	margin-bottom: 0.1rem;
+}
+.part2 .p1{
+	width: 6.4rem;
+	margin:0 auto;
+	color:#3e3a39;
+	line-height: 0.36rem;
+	margin-bottom: 0.1rem;
+}
+.part2 .p1 span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+}
+
+
+
+.part3 .part3-title{
+	font-size: 0.4rem;
+	color:#3d3a39;
+	font-weight: bold;
+	text-align: center;
+}
+.part3 .part3-title span{
+	display: inline-block;
+	vertical-align: middle;
+}
+.part3 .part3-title img{
+	width: 1.93rem;
+	height: 0.55rem;
+	display: inline-block;
+	vertical-align: middle;
+}
+.part3 .part3-title2{
+	color:#595757;
+	font-size: 0.3rem;
+	text-align: center;
+}
+.part3 .part3-img{
+	display: block;
+	width: 6.75rem;
+	margin:0 auto;
+	margin-top: 0.25rem;
+}
+.part3 .part3-main{
+	width: 7.2rem;
+	height: 3.55rem;
+	background: url(../img/pp/c2.jpg) no-repeat;
+	background-size: 100% 100%;
+	margin:0 auto;
+	margin-top: 0.2rem;
+	text-align: center;
+	font-size: 0;
+	padding-top: 0.8rem;
+	box-sizing: border-box;
+}
+.part3 .part3-main ul li{
+	display: inline-block;
+	vertical-align: top;
+	width: 2.2rem;
+	color:#3e3a39;
+	padding:0 0.3rem;
+	box-sizing: border-box;
+	
+}
+.part3 .part3-main ul li .p1{
+	margin-bottom: -0.3rem;
+    line-height: 0.3rem;
+}
+.part3 .part3-main ul li .p1 span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 109%;
+	margin-left: -4%;
+}
+.part3 .part3-main ul li .p2{
+	line-height: 0.36rem;
+}
+.part3 .part3-main ul li .p2 span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+	width: 130%;
+	margin-left: -15%;
+	text-align: left;
+}
+.part3 .part3-main ul li:nth-child(2){
+	margin:0 0.3rem;
+}
+
+
+
+.part4 .part4-title1{
+	font-size: 0.4rem;
+	color:#3e3a39;
+	font-weight: bold;
+	text-align: center;
+}
+.part4 .part4-title1 .d0-img{
+	width: 1.94rem;
+	height: 0.51rem;
+}
+.part4 .part4-title1 .d01-img{
+	width: 1.9rem;
+	height: 0.55rem;
+}
+.part4 .part4-title1 img{
+	position:relative;
+	top: 0.1rem;
+}
+.part4 .part4-title2{
+	font-size: 0.3rem;
+	color:#595757;
+	text-align: center;
+}
+.part4 .part4-img{
+	display: block;
+	width: 6.68rem;
+	margin:0 auto;
+}
+.part4 .part4-img-font{
+	width: 6.68rem;
+	margin:0 auto;
+	border:1px solid #3e3a39;
+	color:#3e3a39;
+	box-sizing: border-box;
+	margin-top: 0.1rem;
+}
+.part4 .part4-img-font span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+	width: 130%;
+	margin-left: -15%;
+}
+.part4 .part4-main{
+	width: 7.25rem;
+	height: 3.85rem;
+	background: url(../img/pp/d2.jpg) no-repeat;
+	background-size: 100% 100%;
+	margin:0 auto;
+	margin-top: 0.4rem;
+	margin-bottom: 0.6rem;
+}
+
+.part4 .part4-main .p1{
+	text-align: center;
+}
+.part4 .part4-main .p1 p{
+	display: inline-block;
+    color: #231815;
+    margin: 0 0.9rem;
+    margin-top: 0.4rem;
+
+}
+.part4 .part4-main .p1 span{
+	display:block;
+	font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+	width: 130%;
+	margin-left: -15%;
+}
+
+.part4 .part4-main .p2{
+	text-align: center;
+	margin-top: 0.8rem;
+}
+.part4 .part4-main .p2 p{
+	display: inline-block;
+	color:#c30d23;
+	font-weight: bold;
+	width: 1.2rem;
+	height: 0.28rem;
+	line-height: 0.28rem;
+	border:2px solid #f29600;
+	border-radius: 0.14rem;
+}
+.part4 .part4-main .p2 p span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+}
+.part4 .part4-main .p2 p:nth-child(2){
+	margin: 0 1.6rem;
+}
+
+.part4 .part4-main .p3{
+	text-align: center;
+	margin-top: 2.1rem;
+}
+.part4 .part4-main .p3 p{
+	display: inline-block;
+	color:#c30d23;
+	font-weight: bold;
+	width: 1.2rem;
+	height: 0.28rem;
+	line-height: 0.28rem;
+	border:2px solid #f29600;
+	border-radius: 0.14rem;
+}
+.part4 .part4-main .p3 p span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+}
+
+
+
+
+@media (max-width:320px) {
+	.part2 .p1{
+		width: 6.5rem;
+	}
+	.part3 .part3-main ul li{
+		padding: 0 0.2rem;
+	}
+	.part4 .part4-main .p2 p,
+	.part4 .part4-main .p3 p{
+		line-height: 0.36rem;
+	}
+	.part4 .part4-main .p2 p:nth-child(2) {
+	    margin: 0 1.5rem;
+	}
+	.part4 .part4-main{
+		margin-bottom: 1.2rem;
+	}
+}

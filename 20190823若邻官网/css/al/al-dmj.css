@@ -1,0 +1,71 @@
+
+
+.mt01{
+	margin-top: 0.1rem;
+}
+.mt02{
+	margin-top: 0.2rem;
+}
+.mt05{
+	margin-top: 0.5rem;
+}
+.mt07{
+	margin-top: 0.7rem;
+}
+.reading{
+	color:#7f7f7f;
+	line-height: 0.34rem;
+}
+.part-img{
+	display: block;
+	width: 100%;
+}
+.p1{
+	font-family: myfont_Light;
+	color:#515151;
+	line-height: 0.34rem;
+}
+.p1 b{
+	color:#231815;
+	font-family: myfont_Medium;
+	font-weight: bold;
+}
+.p1 i{
+	font-family: myfont_Medium;
+	color:#ba1a1f;
+	font-weight: bold;
+}
+.img2{
+	display: block;
+	width: 5.88rem;
+	margin:0 auto;
+	margin-top: 0.5rem;
+}
+.center{
+	text-align: center;
+	margin-top: 0.3rem;
+}
+
+.p2{
+	font-family: myfont_Medium;
+	font-weight: bold;
+	color:#000000;
+	padding-left: 0.3rem;
+	position:relative;
+	margin-top: 0.15rem;
+}
+.p2::before{
+	content:'';
+	display: inline-block;
+	width: 0.2rem;
+	height: 0.2rem;
+	background: url(../../img/al/dmj/icon.png) no-repeat;
+	background-size:100% 100%;
+	position:absolute;
+	top: 50%;
+	margin-top: -0.1rem;
+	left: 0;
+}
+.part1{
+	padding-bottom: 0.5rem;
+}

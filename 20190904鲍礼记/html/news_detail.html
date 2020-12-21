@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no,email=no,adress=no" />
+    <link rel="stylesheet" href="../css/swiper-3.3.1.min.css" type="text/css" />
+    <link rel="stylesheet" href="../css/common.css" type="text/css" />
+    <link rel="stylesheet" href="../css/news_detail.css" type="text/css">
+    <script type="text/javascript">
+        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + 'px';
+    </script>
+</head>
+
+<body>
+    <!-- <div class="header">
+        <div class="logo"><img src="../img/logo.png" alt="" /></div>
+        <div class="tel">
+            <img src="../img/tel.png" alt="" />
+            <p>
+                <span class="span1">合作热线</span>
+                <span class="span2">400-012-5788</span>
+            </p>
+        </div>
+        <div class="nav menu-img">
+            <img src="../img/menu.png" alt="" />
+        </div>
+        <div class="menu">
+            <ul>
+                <li class="active"><a href="index.html">首     页</a></li>
+                <li><a href="pp.html">鲍礼记</a></li>
+                <li><a href="hz.html">无店合作</a></li>
+                <li><a href="cp.html">产品中心</a></li>
+                <li><a href="pl.html">网友点评</a></li>
+                <li><a href="news.html">新闻中心</a></li>
+                <li><a href="jr.html">申请合作</a></li>
+            </ul>
+        </div>
+    </div> -->
+
+    <!-- <div class="banner">
+        <div class="swiper-container banner-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="../img/banner.jpg" alt="" /></div>
+                <div class="swiper-slide"><img src="../img/banner.jpg" alt="" /></div>
+                <div class="swiper-slide"><img src="../img/banner.jpg" alt="" /></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div> -->
+
+    <div class="content">
+        <img class="bg" src="../img/news_bg.jpg" alt="" width="100%">
+
+        <div class="info">
+            <div class="title">
+                <p>【鲍礼记】普通小白领也能天天吃御膳！</p>
+            </div>
+            <div class="author">
+                <span>来源于：鲍礼记</span>
+                <span>发布于：2019-10-1</span>
+            </div>
+            <div class="main">
+                <p>普通小白领也能天天吃御膳！普通小白领也能天天吃御膳！普通小白领也能天天吃御膳！普通小白领也能天天吃御膳！普通小白领也能天天吃御膳！普通小白领也能天天吃御膳！普通小白领也能天天吃御膳！普通小白领也能天天吃御膳！普通小白领也能天天吃御膳！</p>
+                <img src="../img/news/news.jpg" alt="" width="100%">
+                <p>普通小白领也能天天吃御膳！普通小白领也能天天吃御膳！普通小白领也能天天吃御膳！普通小白领也能天天吃御膳！普通小白领也能天天吃御膳！普通小白领也能天天吃御膳！普通小白领也能天天吃御膳！普通小白领也能天天吃御膳！普通小白领也能天天吃御膳！</p>
+            </div>
+        </div>
+
+        <div class="btns">
+            <div class="btn">
+                <img src="../img/menu_btn.png" alt="" width="100%">
+                <a href="javascript:history.go(-1);">返回</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- <div class="bg"></div>
+    <div class="foot clearfix">
+        <div class="fl-lt foot-l">
+            <a href="">
+                <img src="../img/foot_msg.png" alt="" />
+                <span>在线留言</span>
+            </a>
+        </div>
+        <div class="fl-rt foot-r">
+            <a href="">
+                <img src="../img/foot_tel.png" alt="" />
+                <span>一键拨号</span>
+            </a>
+        </div>
+    </div> -->
+
+
+
+    <script src="../js/jquery-1.11.2.min.js"></script>
+    <script src="../js/swiper-3.3.1.jquery.min.js"></script>
+    <script src="../js/common.js"></script>
+
+    <script>
+        window.onload = function() {
+            let info = document.getElementsByClassName('info')[0];
+            let btn = document.getElementsByClassName('btns')[0];
+
+            let info_H = info.clientHeight;
+            let btn_H = btn.clientHeight;
+
+            let window_H = window.screen.height;
+
+            if (window_H - btn_H < info_H) {
+                btn.style.position = 'static';
+            } else {
+                btn.style.position = 'fixed';
+            }
+            console.log(window.screen.height);
+
+        }
+    </script>
+</body>
+
+</html>

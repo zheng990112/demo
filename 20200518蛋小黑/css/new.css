@@ -1,0 +1,39 @@
+.content {
+  width: 100%;
+  position: fixed;
+  top: 1.2rem;
+  bottom: 1.07rem;
+  overflow-y: auto;
+  background: url("./../img/about/bg.png") no-repeat;
+  background-size: cover;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+.content .title {
+  color: #fff;
+  text-align: center;
+  font-size: 0.35rem;
+  font-weight: bold;
+  height: 1rem;
+  line-height: 1rem;
+  letter-spacing: 0.1rem;
+}
+.content .desc {
+  text-align: center;
+  margin-bottom: 0.2rem;
+  color: #fff;
+}
+.content .desc i {
+  font-style: normal;
+}
+.content .desc .date {
+  margin: 0.3rem;
+}
+.content .pic {
+  display: block;
+  width: 100%;
+}
+.content .info {
+  margin-top: 0.2rem;
+  color: #fff;
+}

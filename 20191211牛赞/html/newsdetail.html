@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!--网站开启对 web app 程序的支持-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!--改变顶部状态条的颜色-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no,email=no,adress=no" />
+    <script>
+        (function() {
+            function b_resize() {
+                document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + 'px';
+                document.documentElement.setAttribute('data-dpr', 1);
+            }
+            window.onresize = b_resize;
+            b_resize();
+        })(window, document);
+    </script>
+    <link rel="stylesheet" href="../css/swiper-3.3.1.min.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/index.css">
+	<body>
+		<div class="swiper-container container">
+			<div class="header">
+				<div class="logo"><img src="../img/logo.png" alt="" /></div>
+				<div class="menu"><a href="index.html"><span class="span1">首页</span></a></div>
+				<div class="nav">
+					<div>
+						<p class="en">Catalog</p>
+						<p class="cn">目录</p>
+					</div>
+					<ul>
+						<li><a href="pp.html">品牌文化</a></li>
+						<li><a href="cp.html">产品系列</a></li>
+						<li><a href="md.html">门店实况</a></li>
+						<li><a href="qy.html">企业实力</a></li>
+						<li><a href="hz.html">合作优势</a></li>
+						<li><a href="fc.html">创业扶持</a></li>
+						<li class="active"><a href="news.html">新闻动态</a></li>
+						<li><a href="ly.html">合作留言</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="swiper-wrapper">
+				<div class="swiper-slide newsdetail er-ye">
+					<div class="public-title">
+						<p class="p1">新闻动态</p>
+						<p class="p2">Industry dynamics</p>
+					</div>
+					
+					<div class="time"><span>时间：2019-12-12</span><span>浏览人数：999</span></div>
+					<img src="../img/news/a1.jpg" alt="" />
+					<p class="fonts">
+						新闻动态新闻动态新闻动态新闻动态新闻动态新闻动态新闻动态新闻动态新闻动态新闻动态新闻动态新闻动态新闻动态新闻动态新闻动态新闻动态新闻动态新闻动态新闻动态新闻动态
+					</p>
+					<p class="fonts">
+						新闻动态新闻动态新闻动态新闻动态新闻动态新闻动态新闻动态新闻动态新闻动态新闻动态新闻动态新闻动态新闻动态新闻动态新闻动态新闻动态新闻动态新闻动态新闻动态新闻动态
+					</p>
+				</div>
+			</div>
+		</div>
+					
+		
+		
+		<script src="../js/jquery-1.11.2.min.js"></script>
+		<!--<script src="../js/nav.js"></script>-->
+	</body>
+</html>

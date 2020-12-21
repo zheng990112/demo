@@ -1,0 +1,297 @@
+
+
+
+.jx-title{
+	text-align: center;
+	width: 6.3rem;
+	margin:0 auto;
+}
+.jx-title .p1{
+	font-size: 0.35rem;
+	color:#372e8d;
+	font-weight: bold;
+	position:relative;
+}
+.jx-title .p1 p{
+	position:relative;
+}
+.jx-title .p1 .line{
+	content:"";
+	display: inline-block;
+	width: 1.3rem;
+	height: 1px;
+	background-color: #eeb033;
+	position:absolute;
+	top: 50%;
+}
+.jx-title .p1 .lineL{
+	left: 0;
+}
+.jx-title .p1 .lineR{
+	right: 0;
+}
+.jx-title .p1 .lineL::after{
+	content:"";
+	display: inline-block;
+	width: 0.34rem;
+	height: 0.07rem;
+	background-color: #eeb033;
+	position:absolute;
+	bottom: -0.02rem;
+	right: 0.13rem;
+}
+.jx-title .p1 .lineR::before{
+	content:"";
+	display: inline-block;
+	width: 0.34rem;
+	height: 0.07rem;
+	background-color: #eeb033;
+	position:absolute;
+	bottom: -0.02rem;
+	left: 0.13rem;
+}
+.jx-title .p2{
+	font-size: 0.32rem;
+	color:#eeb033;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.fenye-box{
+	margin-top: 0.9rem;
+	margin-bottom: 0.45rem;
+}
+.main {
+    margin-top: 0.3rem;
+}
+
+
+
+
+
+.jx1 .jx-title .p1 .line{
+	width: 1rem;
+}
+.jx1 .jx1-main img{
+	display: block;
+	width:100%;
+	margin-top: 0.3rem;
+}
+.jx1 .jx1-main p{
+	text-align: center;
+	font-size: 0.28rem;
+	line-height: 0.4rem;
+	color:#3e3a39;
+	margin-top: 0.5rem;
+	position:relative;
+}
+.jx1 .jx1-main p span{
+	display: block;
+	font-size: 0.32rem;
+	color:#eeb033;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 0.1rem;
+}
+.jx1 .jx1-main p::after{
+	content:"";
+	display: inline-block;
+	width: 100%;
+	height: 0.4rem;
+	background: url(../img/jx/a2.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	bottom: 0;
+	left: 0;
+}
+
+
+.jx2 .jx2-main img{
+	display: block;
+	width:100%;
+	margin-top: 0.3rem;
+}
+.jx2 .box{
+	position:relative;
+	border-top:1px solid #c9c9c9;
+	white-space:nowrap;
+	padding-top: 0.5rem;
+    width: 6.4rem;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+}
+.jx2 .box img{
+	display: block;
+	width: 100%;
+	margin:0 auto;
+	margin-top: 0;
+}
+
+.jx4 .box img{
+	width: 5.2rem;
+}
+
+.jx5 .jx5-top{
+	text-align: center;
+	color:#eeb033;
+}
+.jx5 .jx5-top .p1{
+	font-size: 0.3rem;
+	line-height: 0.52rem;
+	font-weight: bold;
+}
+.jx5 .jx5-top .p2{
+	display: inline-block;
+	text-transform: uppercase;
+}
+.jx5 .jx5-top .p2 span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.67);
+	-webkit-transform: scale(.67);
+	-o-transform: scale(.67);
+	-moz-transform: scale(.67);
+	-ms-transform: scale(.67);
+	width:150%;
+	margin-left:-25%;
+}
+.jx5 .jx5-top img{
+	display: block;
+	width: 3.3rem;
+	margin:0 auto;
+	margin-top: 0.5rem;
+}
+.jx5 .jx5-top .p3{
+	font-size: 0.4rem;
+	font-weight: bold;
+	position:relative;
+	display: inline-block;
+	line-height: 0.42rem;
+	height: 0.42rem;
+	margin-top: 0.25rem;
+}
+.jx5 .jx5-top .p3::before{
+	content:"";
+	display: inline-block;
+	width: 4rem;
+	height: 0.42rem;
+	background: url(../img/jx/e2.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	top: 0;
+	left: -0.3rem;
+}
+.jx5 .jx5-main{
+	border-top:1px solid #c9c9c9;
+	white-space:nowrap;
+	padding-top: 0.4rem;
+    width: 6.4rem;
+    margin: 0 auto;
+    margin-top: 0.4rem;
+    text-align:center;
+}
+.jx5 .jx5-main img{
+	display:block;
+	width: 1.64rem;
+	margin:0 auto;
+	margin-bottom: 0.25rem;
+}
+.jx5 .jx5-main p{
+	margin-left: 1.4rem;
+	position:relative;
+	text-align: left;
+	line-height: 0.32rem;
+}
+.jx5 .jx5-main p span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 109%;
+	margin-left: -4%;
+}
+.jx5 .jx5-main p::before{
+	content:"";
+	display: inline-block;
+	width: 0.1rem;
+	height: 0.1rem;
+	background-color: #eeb033;
+	border-radius: 50%;
+	position:absolute;
+	top: 50%;
+	margin-top: -0.05rem;
+	left:-0.15rem;
+}
+.jx5 .fenye-box{
+	margin-top: 0.5rem;
+}
+
+
+
+.jx6 .jx6-img{
+	display: block;
+	width: 100%;
+}
+.jx6 .jx6-main{
+	border-top:1px solid #c9c9c9;
+	white-space:nowrap;
+	padding-top: 0.4rem;
+    width: 6.4rem;
+    margin: 0 auto;
+    margin-top: 0.4rem;
+    text-align:center;
+}
+.jx6 .jx6-main img{
+	display:block;
+	width: 1.88rem;
+	margin:0 auto;
+	margin-bottom: 0.25rem;
+}
+.jx6 .jx6-main .font1{
+	font-size: 0.24rem;
+	color:#eeb033;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 0.3rem;
+}
+.jx6 .jx6-main p{
+	margin-left:0.4rem;
+	position:relative;
+	text-align: left;
+    line-height: 0.4rem;
+}
+.jx6 .jx6-main p span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 109%;
+	margin-left: -4%;
+}
+.jx6 .jx6-main p::before{
+	content:"";
+	display: inline-block;
+	width: 0.1rem;
+	height: 0.1rem;
+	background-color: #eeb033;
+	border-radius: 50%;
+	position:absolute;
+	top: 50%;
+	margin-top: -0.05rem;
+	left:-0.15rem;
+}
+.jx6 .fenye-box{
+	margin-top: 0.5rem;
+}
+
+
+@media (max-width:320px) {
+	.jx6 .jx6-main p{
+		margin-left: 0;
+	}
+}

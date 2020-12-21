@@ -1,0 +1,98 @@
+
+
+@keyframes bottom{
+	from{bottom: 0.4rem;}
+	to{bottom: 0.6rem;}
+}
+.page1 .bottom{
+	position:absolute;
+	width: 0.21rem;
+	height: 2.35rem;
+	right: 0.7rem;
+	bottom: 0.6rem;
+	animation:bottom 1s infinite;
+	-webkit-animation:bottom 1s infinite linear;
+}
+
+
+@keyframes fade{
+	from{scl:1;}
+	to{opacity: 0.5;}
+}
+.page2 .b1-img{
+	width: 3.16rem;
+	height: 1.1rem;
+	position:absolute;
+	left: 0.7rem;
+	top: 1.5rem;
+	animation:fade 1s infinite;
+	-webkit-animation:fade 1s infinite linear;
+}
+.page2{
+	position:relative;
+}
+.page2 a{
+	width: 2rem;
+	height: 2rem;
+	position:absolute;
+	border:1px solid red;
+	/*box-sizing: border-box;*/
+}
+.page2 a.zw{
+	right: 0.9rem;
+	top: 1.8rem;
+}
+.page2 a.ms{
+	right: 2.9rem;
+	top: 3.2rem;
+}
+.page2 a.ys{
+	right: 4.9rem;
+	top: 4.6rem;
+}
+.page2 a.hz{
+	right: 0.8rem;
+	top: 4.5rem;
+}
+.page2 a.rx{
+	right: 2.8rem;
+	top: 5.9rem;
+}
+
+.page2 .btn-box{
+	position:absolute;
+	bottom: 0.4rem;
+	z-index: 5;
+	left: 50%;
+	margin-left: -0.83rem;
+}
+
+
+
+
+/*20181123*/
+.page1 .a2-img{
+	width: 7.05rem;
+	height: 10.93rem;
+	position:absolute;
+	top:1.1rem;
+	left: 50%;
+	margin-left:-3.5rem;
+}
+.page1 .a2-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.page2 .b2-img{
+	width: 6.75rem;
+	height: 9.83rem;
+	position:absolute;
+	top: 1.5rem;
+	left: 0;
+}
+.page2 .b2-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}

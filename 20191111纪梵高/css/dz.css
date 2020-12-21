@@ -1,0 +1,186 @@
+
+
+
+.main{
+	padding-bottom:1.6rem;
+}
+
+.part1-title{
+	font-size: 0.47rem;
+	color:#d9d9d9;
+	text-align: center;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+.part1-title span{
+	font-weight: bold;
+}
+.part1-title img{
+	display: block;
+	width: 100%;
+	margin-top: 0.1rem;
+}
+
+.fl-lt{
+	float:left;
+}
+.fl-rt{
+	float:right;
+}
+.dz2 .part1{
+	width: 6.6rem;
+	margin:0 auto;
+	margin-top: 0.35rem;
+}
+
+.dz2 .picScroll-left{
+	position: relative;
+	width: 2.43rem;
+	display: inline-block;
+	border:0.05rem solid #c8c8c8;
+}
+.dz2 .picScroll-left .bd{
+	width: 2.43rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.dz2 .picScroll-left .bd li{
+	float: left;
+	position: relative;
+	text-align: center;
+	width:2.43rem;
+	height:1.67rem;
+	cursor: pointer;
+}
+.dz2 .picScroll-left .bd li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.dz2 .picScroll-left .hd{
+	text-align: center;
+	font-size: 0;
+	width: 100%;
+	position:absolute;
+	bottom: 0.1rem;
+}
+.dz2 .picScroll-left .hd ul li{
+	width: 0.1rem;
+	height: 0.1rem;
+	background-color: #d0d0d0;
+	display: inline-block;
+	border-radius: 50%;
+	margin:0.04rem;
+}
+.dz2 .picScroll-left .hd ul li.on{
+	background-color: #b99064;
+}
+
+
+.dz2 .part1 .part1-fonts{
+	width: 3.6rem;
+}
+.dz2 .part1 .fonts-top{
+	border-bottom: 1px solid #d9c1a7;
+	white-space: nowrap;
+	padding-bottom: 0.1rem;
+}
+.dz2 .part1 .fonts-top .p1{
+	width: 1.14rem;
+	height: 0.28rem;
+	border-radius: 0 0.14rem 0.14rem 0;
+	background-color: #b99064;
+	color:#fff;
+	line-height: 0.26rem;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+}
+.dz2 .part1 .fonts-top .p1 span{
+	display: block;
+	/*font-size: 0.22rem;*/
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 109%;
+	margin-left: -4%;
+}
+.dz2 .part1 .fonts-top .p2 {
+	display: inline-block;
+	vertical-align: middle;
+	color:#d6d6d6;
+}
+.dz2 .part1 .fonts-top .p2 span{
+	display:block;
+	font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+	width: 130%;
+	margin-left: -15%;
+}
+.dz2 .part1 .part1-fonts a{
+	display: block;
+    width:3.6rem;
+	/*font-size: 0.24rem;*/
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 109%;
+	margin-left: -4%;
+	margin-top: 0.08rem;
+}
+
+
+
+.dz_detail .part1{
+	padding:0 0.24rem;
+	margin-top: 0.2rem;
+}
+.dz_detail .part1 .p1{
+	font-size: 0.28rem;
+	color:#d8d8d8;
+}
+.dz_detail .part1 .p1 span{
+	font-weight: bold;
+}
+.dz_detail .part1 .p2{
+	font-size: 0.41rem;
+	color:#bf9665;
+	font-weight: bold;
+}
+.dz_detail .part1 .time{
+	margin-right: 0.1rem;
+	font-size: 0.24rem;
+	color:#d8d8d8;
+	margin-top: 0.1rem;
+}
+.dz_detail .part1 .time span{
+	margin-right: 0.1rem;
+}
+.dz_detail .part1 img{
+	display: block;
+	width: 7rem;
+	margin:0 auto;
+	margin-top: 0.2rem;
+}
+.dz_detail .part1 .fonts{
+	margin:0 auto;
+	width: 7rem;
+	font-size: 0.24rem;
+	color:#595757;
+	text-align: justify;
+	line-height: 0.36rem;
+	margin-top: 0.25rem;
+}

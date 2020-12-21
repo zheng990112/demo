@@ -1,0 +1,137 @@
+@import './px2rem.scss';
+.main.padding{
+	padding:px2rem(79) px2rem(70) px2rem(130);
+	box-sizing: border-box;
+}
+.top-icon {
+    position: absolute;
+    right: 0;
+    top: 1.0666666667rem;
+    // z-index: -1;
+    width: 8.96rem;
+}
+
+
+
+
+
+
+
+
+.sec1 .part3{
+	margin-top:px2rem(70);
+	position: relative;
+}
+.sec1 .part3 .cp-title .p1{
+	line-height: px2rem(32);
+}
+.sec1 .part3 .part3-p{
+	font-size:px2rem(20);
+	color:#717071;
+	line-height: px2rem(37);
+	text-indent: px2rem(40);
+	margin-top:px2rem(40);
+}
+.sec1 .part3 ul{
+	display: block;
+	width: px2rem(650);
+	margin-left: px2rem(-20);
+	margin-top: px2rem(40);
+}
+.sec1 .part3 ul li{
+	float:left;
+	width: px2rem(320);
+	height:px2rem(166);
+	position:relative;
+	margin-right:px2rem(10);
+	margin-top: px2rem(10);
+}
+.sec1 .part3 ul li:nth-child(2n){
+	margin-right: 0;
+}
+.sec1 .part3 ul li .li-img{
+	display: block;
+	width: 100%;
+	height:100%;
+}
+.sec1 .part3 ul li p{
+	width:px2rem(151);
+	height:px2rem(36);
+	background: url(../img/cp/a3-11.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	top:px2rem(0);
+	left:px2rem(0);
+	font-size: px2rem(24);
+	color:#878787;
+	line-height:px2rem(36);
+	padding-left:px2rem(20);
+	box-sizing: border-box;
+}
+.sec1 .part4{
+	width:px2rem(750);
+	margin-left: px2rem(-70);
+	margin-top:px2rem(50);
+}
+.sec1 .part4 img{
+	display:block;
+	width:100%;
+}
+
+.flex-title{
+	white-space: nowrap;
+}
+.flex-title .sec-title{
+	display: inline-block;
+	vertical-align: middle;
+}
+.flex-title .cp-title{
+	display: inline-block;
+	vertical-align: middle;
+}
+.flex-title .cp-title .p1{
+	font-size:px2rem(29);
+	font-weight: bold;
+	color:#315acd;
+}
+.sec7{
+	margin-top: px2rem(60);
+	position:relative;
+}
+.sec7 .sec7-icon{
+	width: px2rem(238);
+	position:absolute;
+	bottom:px2rem(-20);
+	right:px2rem(20);
+	z-index: -1;
+}
+.sec7 .flex-title .cp-title{
+	margin-left: px2rem(30);
+}
+.sec7 .flex-title .cp-title .p0{
+	font-size: px2rem(30);
+	color:#595757;
+}
+.sec7 ul li{
+	float:left;
+	width: 33.3%;
+	text-align: center;
+	margin-top: px2rem(45);
+}
+.sec7 ul li img{
+	display: block;
+	width: px2rem(90);
+	height:px2rem(78);
+	margin:0 auto;
+}
+.sec7 ul li .p1{
+	font-size: px2rem(29);
+	color:#000000;
+	font-weight: bold;
+	margin-top: px2rem(10);
+}
+.sec7 ul li .p2{
+	font-size: px2rem(32);
+	line-height: px2rem(50);
+	color:#4d4d4d;
+}

@@ -1,0 +1,115 @@
+.content{
+	padding-bottom: 1.4rem;
+}
+.er-nav{
+	text-align: center;
+}
+.er-nav .er-nav-l{
+	width: 1.8rem;
+}
+
+
+.part1{
+	position:relative;
+	width: 100%;
+	height: 2.3rem;
+	background: url(../img/sc/a1.jpg) no-repeat;
+	background-size: 100% 100%;
+	padding-top: 0.3rem;
+	box-sizing: border-box;
+}
+.part1 .part1-top{
+	padding:0 0.24rem;
+}
+.part1 .p1 p{
+	display: inline-block;
+	vertical-align: middle;
+}
+.part1 .p1 .p1-0{
+	font-size: 0.38rem;
+	color:#d84f4c;
+	font-family: "方正粗圆简体";
+	text-transform: uppercase;
+}
+.part1 .p1 .line{
+	width: 2.3rem;
+	height: 2px;
+	background-color: #d84f4c;
+}
+.part1 .p2{
+	font-size: 0.38rem;
+	font-family: "方正粗圆简体";
+	color:#d84f4c;
+	margin-top: 0.1rem;
+}
+.part1 .p2 span{
+	color:#727171;
+}
+.part1 .p3{
+	color:#595757;
+	margin-top: 0.1rem;
+}
+.part1 .p3 span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+	width: 130%;
+	margin-left: -15%;
+}
+.part1 .part1-img{
+    width: 1.69rem;
+    height: 2.08rem;
+    position: absolute;
+    top: -0.9rem;
+    right:0;
+}
+.part1 .part1-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.part2{
+	position:relative;	
+}
+.part2 .more{
+	font-size: 0.4rem;
+	font-family: "方正粗圆简体";
+	width: 1.7rem;
+	height: 0.66rem;
+	background-color: #d84f4c;
+	border-radius: 0.1rem;
+	text-align: center;
+	line-height: 0.66rem;
+	position:absolute;
+    bottom: 1.4rem;
+    left: 1.1rem;
+	
+}
+.part2 .more a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color:#fff;
+}
+
+
+
+
+
+/*20181126*/
+.er-nav2 .er-nav-l{
+	width: 2.2rem;
+}
+
+
+
+@media (max-width:320px) {
+	.er-nav2 .er-nav-l{
+		width: 2.7rem;
+	}
+}

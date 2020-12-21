@@ -1,0 +1,103 @@
+
+
+.part1 .public-title{
+	margin-top: 0.15rem;
+}
+.part1 .img-block{
+	margin-top: 0.2rem;
+}
+.part1 .part1-main{
+	position:relative;
+}
+.part1 .a2-img{
+	width: 2.7rem;
+	margin-top: 0.15rem;
+}
+.part1 .part1-main div{
+	margin-top: 0.15rem;
+}
+.part1 .part1-main div span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);	
+	width: 109%;
+	margin-left: -4.5%;
+	line-height: 0.4rem;
+}
+.part1 .part1-main .a3-img{
+	position:absolute;
+	width: 3.32rem;
+	height: 3.05rem;
+	right: 0;
+	top: 0.1rem;
+	z-index: -1;
+}
+
+
+
+
+.part2{
+	margin-top: 0.4rem;
+	position:relative;
+}
+.part2 .b1-img{
+	width: 0.41rem;
+	height: 1.99rem;
+	position:absolute;
+	right: 0;
+	top:-1rem;
+	z-index: -1;
+}
+.part2 .part2-top{
+	font-size: 0.34rem;
+	color:#000;
+	font-weight: bold;
+	margin-top: 0.1rem;
+}
+.part2 .part2-top span{
+	display: inline-block;
+	vertical-align: middle;
+}
+.part2 .part2-top img{
+	display: inline-block;
+	vertical-align: middle;
+	width: 2.03rem;
+	margin-left: 0.2rem;
+}
+.part2 .part2-main{
+	margin-top: 0.3rem;
+	position:relative;
+}
+.part2 .part2-main div span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);	
+	width: 109%;
+	margin-left: -4.5%;
+	margin-top: -4.5%;
+	line-height: 0.4rem;
+}
+.part2 .part2-main .b3-img{
+	width: 4.36rem;
+	position:absolute;
+	right:-0.5rem;
+	top:0.5rem;
+	z-index: -1;
+	
+}
+
+
+@media (max-width:320px) {
+	.part2 .part2-main .b3-img{
+		width: 3.76rem;
+		top: 0.9rem;
+	}
+}

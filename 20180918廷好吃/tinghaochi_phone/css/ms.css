@@ -1,0 +1,182 @@
+@font-face{
+	font-family: '汉仪雅酷黑W';
+	src: url('../fonts/HanYiYaKuHeiW.ttf');
+}
+.public-title{
+	text-align: center;
+}
+.public-title .public-p1{
+	font-size: 0.26rem;
+	background-color: #c73b51;
+	display: inline-block;
+	line-height: 0.44rem;
+	padding:0 0.2rem;
+	border-radius: 0.22rem;
+	color:#fff;
+}
+.public-title .public-p2{
+	font-size: 0.36rem;
+    color: #231815;
+    font-family: "汉仪雅酷黑W";
+    text-align: center;
+    margin-top: 0.4rem;
+}
+.public-title .public-p2 span{
+	font-size: 0.46rem;
+	color:#c73b51;
+}
+.public-title .public-p3{
+	font-size: 0.24rem;
+	color:#231815;
+	margin-top: 0.1rem;
+}
+.public-title .p3{
+	font-size: 0.24rem;
+	color:#c19b26;
+	text-transform: uppercase;
+}
+.public-title .p3-1{
+	letter-spacing: 0.1rem;
+}
+.part-img{
+	display: block;
+	width: 100%;
+}
+.part{
+	position:relative;
+	margin-top: 0.3rem;
+}
+.comWidth{
+	padding: 0 .24rem;
+	box-sizing: border-box;
+}
+.dian{
+	position:absolute;
+	width: 100%;
+	height: 2.8rem;
+	top: -2.8rem;
+	left: 0;
+	z-index: -1;
+}
+
+
+
+.ms{
+	margin-top: 2.8rem;
+}
+.part1 .bigSmall{
+	background: #c33b51;
+	width: 7.06rem;
+	margin: 0 auto;
+	padding: 0.15rem 0;
+}
+.part1 .bigSmall .large_box{
+	width: 6.8rem;
+	margin: 0 auto 0.15rem;
+	overflow: hidden;
+	height: 4.23rem;
+	position: relative;
+}
+.part1 .bigSmall .large_box ul{
+	position: relative;
+}
+.part1 .bigSmall .large_box ul li{
+	position: relative;
+	width: 6.8rem;
+	height: 4.23rem; 
+}
+.part1 .bigSmall .large_box ul li p{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: rgba(0,0,0,.65);
+	color: #fff;
+	text-align: center;
+	height: 0.42rem;
+	line-height: 0.42rem;
+	font-size: 0.24rem;
+}
+
+.part1 .bigSmall .small_box{
+	width: 6.8rem;
+	margin: 0 auto;
+	position: relative;
+}
+.part1 .bigSmall .small_box .small_list{
+	width: 6.8rem;
+	height: 1.34rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.part1 .bigSmall .small_box .small_list ul{
+	position: relative;
+}
+.part1 .bigSmall .small_box .small_list ul li{
+	width: 2.16rem;
+	height: 1.34rem;
+	position: relative;
+	float: left;
+	cursor: pointer;
+	margin-right: 0.15rem;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.part1 .bigSmall .small_box .small_list ul li p{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 2;
+	width: 100%;
+	background: rgba(0,0,0,.65);
+	color: #fff;
+	text-align: center;
+	height: 0.38rem;
+	line-height: 0.38rem;
+	font-size: 0.24rem;
+}
+.part1 .bigSmall .small_box ul li.on p{
+	color: #F7CA00;
+}
+.part1 .bigSmall li img{
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+.part1 .large_box .arrow{
+	position: absolute;
+	top:50%; 
+	margin-top: -0.3rem;
+	z-index: 2;
+	width: 0.4rem;
+	height: 0.6rem;
+}
+.part1 .arrow img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.part1 .arrow-left{
+	left: 0.1rem;
+}
+.part1 .arrow-right{
+	right: 0.1rem;
+} 
+
+
+
+
+.part5 p{
+	/*	font-size: .2rem;*/
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+	color: #595757;
+	line-height: 0.28rem;
+	margin-top: 0.2rem;
+}

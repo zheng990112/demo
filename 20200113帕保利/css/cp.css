@@ -1,0 +1,168 @@
+.cp-title{
+	text-align: center;
+}
+.cp-title span{
+	display: inline-block;
+	font-size: 0.39rem;
+	line-height: 0.39rem;
+	position:relative;
+	color:#000000;
+}
+.cp-title span::before,
+.cp-title span::after{
+	content:"";
+	display: inline-block;
+	width: 0.76rem;
+	height:1px;
+	background-color: #000;
+	position:absolute;
+	top: 50%;
+}
+.cp-title span::before{
+	left: -1rem;
+}
+.cp-title span::after{
+	right: -1rem;
+}
+
+
+
+
+.cp{
+	padding-top: 0.6rem;
+}
+.top1{
+	margin:0 auto;
+}
+.top1 img{
+	display: block;
+	width: 100%;
+}
+.top2{
+	text-align: center;
+	color:#231815;
+	margin-top: 0.2rem;
+}
+.top2 .span1{
+	font-size: 1.07rem;
+	font-weight: bold;
+	display: block;
+}
+.top2 .span2{
+	font-size: 0.6rem;
+}
+
+
+
+
+
+.part1 .top1{
+	width: 4.79rem;
+	margin-top: 0.6rem;
+}
+.part .box{
+	width: 6.8rem;
+	margin:0 auto;
+	margin-top: 0.7rem;
+}
+.part .box-title{
+	font-size: 0.34rem;
+	color:#231815;
+	border-bottom: 1px solid #231815;
+	padding-bottom: 0.1rem;
+}
+.part .box-title span.on{
+	font-weight: bold;
+}
+.part .box-title span:first-child{
+	padding-right: 0.1rem;
+	border-right:1px solid #231815;
+	margin-right: 0.1rem;
+}
+.part .box ul{
+	height: 8.3rem;
+	overflow: auto;
+	display: none;
+	padding-top: 0.3rem;
+}
+.part .box ul.block{
+	display: block;
+}
+.part .box ul li{
+	float:left;
+	width: 2.98rem;
+	height: 3.78rem;
+	position:relative;
+	margin-right: 0.74rem;
+	margin-bottom: 0.4rem;
+}
+.part .box ul li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.part .box ul li::after{
+	content:"";
+	display: inline-block;
+	width: 2.98rem;
+	height: 3.78rem;
+	border:1px solid #a68e88;
+	box-sizing: border-box;
+	position:absolute;
+	right: -0.1rem;
+	top: 0.1rem;
+	z-index: -1;
+}
+.part .box ul li:nth-child(2n){
+	margin-right: 0.1rem;
+}
+
+.part .box .fenye{
+	margin-top:0.7rem;
+    text-align: center;
+    font-size: 0;
+}
+.part .box .fenye a {
+    display: inline-block;
+    width: 0.42rem;
+    height: 0.42rem;
+    border: 1px solid #bba7a0;
+    box-sizing: border-box;
+    line-height: 0.42rem;
+    font-size: 0.2rem;
+    color: #717071;
+    margin: 0 0.05rem;
+}
+.part .box .fenye a.on {
+    border: none;
+}
+.part .box .fenye a:first-child,
+.part .box .fenye a:last-child {
+    width: 1.3rem;
+}
+
+
+
+.part2{
+	margin-top: 1.3rem;
+}
+.part2 .top1{
+	width:5.23rem;
+	margin-top: 0.6rem;
+}
+
+.part3{
+	margin-top: 1.3rem;
+}
+.part3 .top1{
+	width:5.61rem;
+	margin-top: 0.6rem;
+}
+
+.part4{
+	margin-top: 1.3rem;
+}
+.part4 .top1{
+	width:5.23rem;
+	margin-top: 0.6rem;
+}

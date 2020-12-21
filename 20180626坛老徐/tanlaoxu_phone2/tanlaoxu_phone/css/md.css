@@ -1,0 +1,143 @@
+.er-nav{
+	padding: .24rem .08rem;
+}
+.er-nav a{
+	width: 100%;
+}
+
+
+.md .title{
+	text-align: center;
+	margin-bottom: .4rem;
+}
+.md .title .box{
+	margin: 0 auto .2rem;
+	width: 4.2rem;
+	position: relative;
+}
+.md .title .box:before,
+.md .title .box:after{
+    content: '';
+    width: .6rem;
+    height: .42rem;
+    border-top: 2px solid #341F0B;
+    position: absolute;
+    top: .22rem;
+}
+.md .title .box:before{
+	border-left: 2px solid #341F0B;
+	left: -.6rem;
+}
+.md .title .box:after{
+	border-right: 2px solid #341F0B;
+	right: -.6rem;
+}
+.md .title .box p{
+	font-weight: bold;
+	font-size: .34rem;
+	letter-spacing: 3px;
+	padding-left: 3px;
+	height: .44rem;
+	line-height: .44rem;
+}
+.md .title .box .p2{
+	position: relative;
+}
+.md .title .box .p2:before,
+.md .title .box .p2:after{
+	content: '';
+	position: absolute;
+	bottom: .16rem;
+	height: 2px;
+	width: .3rem;
+	background: #341F0B;
+}
+.md .title .box .p2:before{
+	left: -.6rem;
+}
+.md .title .box .p2:after{
+	right: -.6rem;
+}
+
+.md .title .p3{
+	font-size: .24rem;
+	font-weight: bold;
+	line-height: .4rem;
+	margin-top: .16rem;
+}
+
+.md .bigSmall{
+	margin-bottom: .24rem;
+}
+.md .bigSmall .large_box{
+	width: 6.8rem;
+	margin: 0 auto .24rem auto;
+	overflow: hidden;
+	height: 3.54rem;
+}
+.md .bigSmall .large_box ul{
+	position: relative;
+}
+.md .bigSmall .large_box ul li{
+	position: relative;
+	width: 6.8rem;
+	height: 3.54rem;; 
+	border: 2px solid #9F1F24;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.md .bigSmall .small_box{
+	width: 6.8rem;
+	margin: 0 auto;
+	position: relative;
+}
+.md .bigSmall .small_box .small_list{
+	width: 6rem;
+	height: 1.42rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.md .bigSmall .small_box .small_list ul{
+	position: relative;
+}
+.md .bigSmall .small_box .small_list ul li{
+	width: 2.84rem;
+	height: 1.42rem;
+	position: relative;
+	float: left;
+	cursor: pointer;
+	margin: 0 .08rem;
+	overflow: hidden;
+	border: 2px solid transparent;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.md .bigSmall .small_box ul li.on{
+	border:2px solid #9F1F24;
+}
+.md .bigSmall ul li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.md .arrow{
+	position: absolute;
+	top: 0;
+	line-height: 1.42rem;
+	height: 1.42rem;
+	width: .3rem;
+	text-align: center;
+	background: #341F0B;
+	cursor: pointer;
+}
+.md .arrow-left{
+	left: 0;
+}
+.md .arrow-right{
+	right: 0;
+} 
+.md .arrow span{
+	display: block;
+	font-size: .3rem;
+	color: #F1C71D;
+}

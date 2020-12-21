@@ -1,0 +1,120 @@
+.part-img{
+	display: block;
+	width: 100%;
+}
+.md .title{
+	width: 5rem;
+	height: 0.61rem;
+	margin:0.4rem auto;
+	position:relative;
+}
+.md .title img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.md .title .title-fonts{
+	width: 5rem;
+	height: 0.61rem;
+	line-height: 0.61rem;
+	position:absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	font-size: 0.34rem;
+	color:#fff;
+}
+
+.md .md-title{
+	font-size: 0.24rem;
+	color:#fff;
+	text-align: center;
+	margin-top: -0.3rem;
+	margin-bottom: 0.2rem;
+}
+.md .md-title span{
+	color:#dd0011;
+	display: block;
+}
+
+
+
+
+
+.md .part1-main{
+	padding-top: 0.1rem;
+	padding-bottom: 0.1rem;
+	padding-left: 0.2rem;
+	background-color: #dd0011;
+	margin-top: 0.2rem;
+}
+.md .part1-main .swiper-slide{
+	border:2px solid #fff;
+	width: 2.60rem;
+	height: 1.78rem;
+}
+.md .part1-main  img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.md .part2-main{
+	padding:0 0.32rem;
+	box-sizing: border-box;
+}
+.md .part2-main .items{
+	width: 100%;
+	height: 2.9rem;
+	border:1px solid #fff;
+	border-radius: 0.2rem;
+	margin-top: 0.2rem;
+}
+.md .part2-main .items .items-img{
+	width: 3.44rem;
+	height: 2.9rem;
+}
+.md .part2-main .item1 .items-img{
+	border-radius: 0.15rem 0 0 0.15rem;
+}
+.md .part2-main .items .fonts-box{
+	width: 3.4rem;
+	text-align: center;
+	padding-top: 0.7rem;
+	box-sizing: border-box;
+}
+.md .part2-main .items .p1{
+	font-size: 0.34rem;
+	color:#dd0011;
+}
+.md .part2-main .items .p2{
+	font-size: 0.24rem;
+	margin-top: 0.2rem;
+}
+
+.md .part2-main .item2 .items-img{
+	border-radius:0 0.15rem 0.15rem 0;
+}
+
+.md .part3{
+	position:relative;
+}
+.md .part3 .part3-main{
+    position: absolute;
+    left: 0.6rem;
+    top: 3rem;
+}
+.md .part3 .part3-main p{
+	font-size: 0.34rem;
+	color:#fff;
+	margin:0.1rem 0;
+}
+.md .part3 .part3-main p::before{
+	content:"";
+	width: 0.22rem;
+	height: 0.22rem;
+	background: url(../img/index/d3.png) no-repeat;
+	background-size: 100% 100%;
+	display: inline-block;
+	margin-right: 0.2rem;
+}

@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: arial, serif, 'Microsoft Yahei';
+    font-size: 0.24rem;
+    background-color: #ffffff;
+    color: #333333;
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/* 自定义标签样式 */
+
+a {
+    text-decoration: none;
+    color: #000;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+}
+
+label {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ul li,
+ol li {
+    list-style: none;
+}
+
+input,
+img,
+textarea,
+button {
+    outline: none;
+    border: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-appearance: none;
+}
+
+button {
+    background: none;
+    outline: none;
+}
+
+b {
+    font-weight: normal;
+}
+
+u {
+    text-decoration: none;
+}
+
+
+/* 自定义公共类名样式 */
+
+.fl-lt {
+    float: left;
+}
+
+.fl-rt {
+    float: right;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/* header css start */
+
+header {
+    width: 100%;
+    height: 0.86rem;
+    background-color: #7D0021;
+    box-sizing: border-box;
+    padding-left: 0.49rem;
+    padding-right: 0.69rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+header .phone-box {
+    display: flex;
+    align-items: center;
+}
+
+header .phone-box .phone-icon {
+    width: 0.37rem;
+    font-size: 0;
+}
+
+header .phone-box .phone-info p {
+    font-size: 0.19rem;
+    color: #F8BD2C;
+    font-weight: bold;
+    margin-left: 0.06rem;
+}
+
+header .logo {
+    width: 0.76rem;
+    font-size: 0;
+    margin-left: -0.60rem;
+}
+
+header .menu-btn {
+    width: 0.67rem;
+    font-size: 0;
+}
+
+
+/* header css end */
+
+
+/* footer css start */
+
+footer {
+    width: 100%;
+    height: 0.85rem;
+    background-color: #7D0021;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: 0.15rem solid #F8B300;
+    z-index: 999;
+    display: flex;
+}
+
+footer .item {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+footer .item .icon {
+    width: 0.44rem;
+    vertical-align: top;
+    margin: 0 0.05rem;
+}
+
+footer .item span {
+    font-size: 0.23rem;
+    color: #F8B300;
+    margin: 0 0.05rem;
+}
+
+footer .item::after {
+    content: '';
+    display: block;
+    width: 0.02rem;
+    height: 0.36rem;
+    background-color: #F8B300;
+    position: absolute;
+    right: -0.015rem;
+}
+
+footer .item:last-of-type::after {
+    display: none;
+}
+
+
+/* footer css end */
+
+
+/* menu css start */
+
+.menu-box {
+    width: 100%;
+    position: fixed;
+    top: 0.86rem;
+    background-color: rgba(125, 0, 33, 0.8);
+    /* height: 0; */
+    overflow: hidden;
+    display: none;
+    z-index: 999;
+}
+
+.menu-box .menu-list {
+    /* box-sizing: border-box; */
+    padding: 0.20rem 0;
+}
+
+.menu-list .nav {
+    width: 100%;
+}
+
+.menu-list .nav>a {
+    font-size: 0.32rem;
+    color: #F8B300;
+    margin-left: 0.2rem;
+    line-height: 0.65rem;
+    font-weight: bold;
+}
+
+.menu-list .nav .er-nav-box {
+    display: none;
+}
+
+.menu-list .nav .er-nav {
+    width: 100%;
+}
+
+.menu-list .nav .er-nav>a {
+    display: block;
+    width: 100%;
+    height: 0.58rem;
+    font-size: 0.26rem;
+    color: #F8BD2C;
+    line-height: 0.58rem;
+    margin-left: 0.6rem;
+}
+
+.menu-list .nav>a.active,
+.menu-list .nav .er-nav>a.on {
+    color: #ffffff;
+}
+
+
+/* menu css end */
+
+
+/* container common css start  */
+
+.container {
+    width: 100%;
+    padding: 0.86rem 0 1rem;
+    position: relative;
+}
+
+
+/* container common css end  */

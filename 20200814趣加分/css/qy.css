@@ -1,0 +1,260 @@
+
+
+.qy-title{
+	text-align: center;
+	width: 6.3rem;
+	margin:0 auto;
+}
+.qy-title .p1{
+	font-size: 0.35rem;
+	color:#372e8d;
+	font-weight: bold;
+	position:relative;
+}
+.qy-title .p1 p{
+	position:relative;
+}
+.qy-title .p1 .line{
+	content:"";
+	display: inline-block;
+	width: 1.3rem;
+	height: 1px;
+	background-color: #eeb033;
+	position:absolute;
+	top: 50%;
+}
+.qy-title .p1 .lineL{
+	left: 0;
+}
+.qy-title .p1 .lineR{
+	right: 0;
+}
+.qy-title .p1 .lineL::after{
+	content:"";
+	display: inline-block;
+	width: 0.34rem;
+	height: 0.07rem;
+	background-color: #eeb033;
+	position:absolute;
+	bottom: -0.02rem;
+	right: 0.13rem;
+}
+.qy-title .p1 .lineR::before{
+	content:"";
+	display: inline-block;
+	width: 0.34rem;
+	height: 0.07rem;
+	background-color: #eeb033;
+	position:absolute;
+	bottom: -0.02rem;
+	left: 0.13rem;
+}
+.qy-title .p2{
+	font-size: 0.32rem;
+	color:#eeb033;
+	font-weight: bold;
+}
+.fenye-box{
+	margin-top: 0.9rem;
+	margin-bottom: 0.45rem;
+}
+
+
+
+.main{
+	margin-top: 0.3rem;
+}
+
+.qy1 .qy1-main{
+	width: 6.3rem;
+	margin:0 auto;
+}
+.qy1 .qy1-main .p1{
+	font-size: 0.24rem;
+	color:#595757;
+	line-height: 0.32rem;
+	text-align: justify;
+	margin-top: 0.3rem;
+}
+.qy1 .qy1-main img{
+	display: block;
+	width: 100%;
+	margin-top: 0.2rem;
+}
+
+
+.qy2 .qy-title .p1 .line{
+	width: 2rem;
+}
+.qy2 .qy2-main{
+	width: 6.3rem;
+	margin:0 auto;
+}
+.qy2 .qy2-main ul li{
+	float:left;
+	width: 2.02rem;
+	margin-right: 0.12rem;
+	margin-top: 0.3rem;
+}
+.qy2 .qy2-main ul li:nth-child(3n){
+	margin-right: 0;
+}
+.qy2 .qy2-main ul li .li-img{
+	width: 2.02rem;
+	height: 1.35rem;
+}
+.qy2 .qy2-main ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.qy2 .qy2-main ul li p{
+    border: 1px solid #eeb033;
+    height: 0.34rem;
+    box-sizing: border-box;
+    line-height: 0.32rem;
+    text-align: center;
+    font-size: 0.24rem;
+}
+.qy2 .qy2-main ul li p span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.67);
+	-webkit-transform: scale(.67);
+	-o-transform: scale(.67);
+	-moz-transform: scale(.67);
+	-ms-transform: scale(.67);
+	width:150%;
+	margin-left:-25%;
+}
+
+.qy2 .qy2-main .fenye{
+	text-align: center;
+	margin-top: 0.4rem;
+}
+.qy2 .qy2-main .fenye p{
+	display: inline-block;
+}
+.qy2 .qy2-main .fenye p span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+}
+.qy2 .qy2-main .fenye p span a{
+	min-width: 0.3rem;
+}
+.qy2 .qy2-main .fenye p.on a{
+	background-color: #322283;
+	color:#fff;
+}
+.qy2 .fenye-box{
+	margin-top: 0.5rem;
+}
+
+
+.qy3 ul{
+	width: 6.3rem;
+	margin:0 auto;
+	margin-top: 0.8rem;
+}
+.qy3 ul li{
+	float:left;
+	width:3.12rem;
+	height:3.3rem;
+	margin-right: 0.06rem;
+}
+.qy3 ul li:nth-child(2n){
+	margin-right: 0;
+}
+.qy3 ul li .li-img{
+	width:3.12rem;
+	height: 1.86rem;
+}
+.qy3 ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.qy3 ul li .p1{
+	font-size: 0.24rem;
+	color:#e2e2e2;
+	position:relative;
+	border-bottom: 1px solid #000;
+	line-height: 0.4rem;
+	height: 0.4rem;
+	z-index: 3;
+	margin-top: 0.2rem;
+}
+.qy3 ul li .p1::before{
+	content:"";
+	display: inline-block;
+	width: 0.5rem;
+	height: 0.41rem;
+	background:url(../img/qy/c-icon.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+    left: -0.05rem;
+	z-index: -1;
+}
+.qy3 ul li .p1 span{
+	font-size: 0.27rem;
+	color:#000000;
+	margin-right: 0.1rem;
+	margin-left: 0.3rem;
+}
+.qy3 ul li .p2{
+	color:#000;
+	font-weight: lighter;
+	margin-top: 0.05rem;
+}
+.qy3 ul li .p2 span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 109%;
+	margin-left: -4%;
+}
+
+
+
+.qy4 .qy4-main .box{
+	width: 6.3rem;
+	margin:0 auto;
+	margin-bottom: 0.25rem;
+}
+.qy4 .qy4-main .box .qy-title{
+	margin-bottom: 0.25rem;
+}
+.qy4 .qy4-main .box img{
+	display: block;
+	width: 100%;
+}
+.qy4 .qy4-main .box .p2{
+	text-align: center;
+	font-size: 0.24rem;
+	color:#595757;
+	line-height: 0.32rem;
+	margin-top:0.1rem;
+	margin-bottom: 0.2rem;
+}
+
+.qy4 .qy4-main .box:last-child .qy-title .p1 .line{
+	width: 0.9rem;
+}
+.qy4 .qy4-main .box:nth-child(2) .p2,
+.qy4 .qy4-main .box:last-child .p2{
+	text-align: left;
+}
+.qy4 .qy4-main .box:last-child{
+	margin-bottom: 0;
+}

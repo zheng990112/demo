@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>业务端合伙人调查表</title>
+		<meta http-equiv="X-UA-Compatitle" content="IE=edge">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<!--网站开启对 web app 程序的支持-->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no,email=no,adress=no" />
+		<link rel="stylesheet" href="../css/index.css" type="text/css" />
+		<script type="text/javascript">
+			document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + 'px';
+		</script>
+	</head>
+	<body>
+		<div class="content form">
+			
+			
+			<div class="part01">
+				<div class="public-title"><span></span><p>核心城市</p></div>
+				<p class="p1">深圳、广州、上海、成都、西安。</p>
+			</div>
+			
+			<div class="part02">
+				<div class="public-title"><span></span><p>要求：</p></div>
+				<p class="p1">对若邻品牌有强烈的认同感。</p>
+				<p class="p1">具备一定财务条件，不低于人民币300万元财务成本，无不良记录。</p>
+				<p class="p1">所在区域良好人脉资源优势；</p>
+			</div>
+			
+			<div class="part03">
+				<div class="public-title"><span></span><p>荣誉与收益:</p></div>
+				<div class="div">
+					<span>1</span>
+					<p class="p">您将获得若邻所在区域公司独董身份；</p>
+				</div>
+				<div class="div">
+					<span>2</span>
+					<p class="p">您将获得若邻所在区域公司持续分红。</p>
+				</div>
+				<p class="p1">合作微信：david8975（请注明，合作意向）。</p>
+			</div>
+			
+			
+			
+			<div class="part1">
+				<p class="p1">业务端合伙人申请表</p>
+				<p class="p2"><span>业务端合伙人编号：20190409-001</span></p>
+			</div>
+			<div class="part2">
+				<div class="box box1 clearfix">
+					<div class="box1-div fl-lt">
+						<p>姓名：</p>
+						<input type="text" class="required" id="required1"/>
+					</div>
+					<div class="box1-div fl-rt">
+						<p>年龄：</p>
+						<input type="text" class="required" id="required2"/>
+					</div>
+				</div>
+				<div class="box box1 clearfix">
+					<div class="box1-div fl-lt">
+						<p>学历：</p>
+						<input type="text" class="required" id="required3"/>
+					</div>
+					<div class="box1-div fl-rt">
+						<p>电话：</p>
+						<input type="text" class="required" id="required4"/>
+					</div>
+				</div>
+				<div class="box box3">
+					<p>微信：</p>
+					<input type="text" class="required" id="required5"/>
+				</div>
+				<div class="box box3">
+					<p>邮箱：</p>
+					<input type="text" class="required" id="required6"/>
+				</div>
+				<div class="box box4">
+					<p>目前从事的事业：</p>
+					<input type="text" class="required" id="required7"/>
+				</div>
+				<div class="box box4">
+					<p>从业时间：</p>
+					<input type="text" class="required" id="required8"/>
+				</div>
+			</div>
+			<div class="part3">
+				<div class="box box1">
+					<p>简单描述一下目前事业的情况</p>
+					<textarea name="" rows="" cols="" class="required" id="required9"></textarea>
+				</div>
+				<button class="btn">确认提交</button>
+			</div>
+		</div>
+		
+		
+		<script src="../js/jquery-1.11.2.min.js"></script>
+		<script src="../layer.js"></script>
+		<script>
+			$(".btn").click(function(){
+				var x = document.getElementsByClassName("required");
+				for (i = 0; i < x.length; i++) {
+					if(required1.value==""){$("#required1").css("border","1px solid red")};
+					if(required2.value==""){$("#required2").css("border","1px solid red")};
+					if(required3.value==""){$("#required3").css("border","1px solid red")};
+					if(required4.value==""){$("#required4").css("border","1px solid red")};
+					if(required5.value==""){$("#required5").css("border","1px solid red")};
+					if(required6.value==""){$("#required6").css("border","1px solid red")};
+					if(required7.value==""){$("#required7").css("border","1px solid red")};
+					if(required8.value==""){$("#required8").css("border","1px solid red")};
+					if(required9.value==""){$("#required9").css("border","1px solid red")};
+					if(x[i].value==""){
+						layer.open({
+							content:'你有未填项，请检查后再提交！'
+							,skin:'msg'
+							,time:3
+							,style:'bottom:0;'
+						});
+						return true;
+	           		}else{
+	           			layer.open({
+							content:'提交成功！！！'
+							,skin:'msg'
+							,time:3
+							,style:'bottom:0;'
+						});
+	           		};
+				}
+			});
+			$("#required1").blur(function(){$("#required1").css("border","1px solid #ccc")})
+			$("#required2").blur(function(){$("#required2").css("border","1px solid #ccc")})
+			$("#required3").blur(function(){$("#required3").css("border","1px solid #ccc")})
+			$("#required4").blur(function(){$("#required4").css("border","1px solid #ccc")})
+			$("#required5").blur(function(){$("#required5").css("border","1px solid #ccc")})
+			$("#required6").blur(function(){$("#required6").css("border","1px solid #ccc")})
+			$("#required7").blur(function(){$("#required7").css("border","1px solid #ccc")})
+			$("#required8").blur(function(){$("#required8").css("border","1px solid #ccc")})
+			$("#required9").blur(function(){$("#required9").css("border","1px solid #ccc")})
+			
+		</script>
+	</body>
+</html>

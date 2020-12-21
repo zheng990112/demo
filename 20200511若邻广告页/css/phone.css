@@ -1,0 +1,199 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    background: #000;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.main {
+    font-size: 0;
+}
+
+.bg_img {
+    display: block;
+    width: 100%;
+}
+
+.part {
+    position: relative;
+    width: 100%;
+}
+
+.part1 .box {
+    position: absolute;
+    right: 1.2rem;
+    top: 2rem;
+    width: 1.4rem;
+}
+
+.part1 .box ul li {
+    width: 1.38rem;
+    float: right;
+    margin-bottom: 0.4rem;
+}
+
+.part1 .box ul li:first-child {
+    width: 0.81rem;
+    height: 0.55rem;
+}
+
+.part1 .box ul li:nth-child(2) {
+    width: 1.38rem;
+    height: 0.77rem;
+}
+
+.part1 .box ul li:last-child {
+    width: 0.96rem;
+    height: 0.78rem;
+}
+
+.part1 .box ul li img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.part .tel_img {
+    position: absolute;
+    width: 6.94rem;
+    left: 50%;
+    margin-left: -3.47rem;
+    z-index: 99;
+}
+
+.part4 .tel_img {
+    top: 0.14rem;
+}
+
+.part6 .icon {
+    position: absolute;
+    display: block;
+    width: 6.98rem;
+    left: 50%;
+    margin-left: -3.49rem;
+    top: 0;
+}
+
+.part8 .tel_img {
+    top: 0.1rem;
+}
+
+.part10 .icon {
+    position: absolute;
+    display: block;
+    width: 7rem;
+    left: 50%;
+    margin-left: -3.4rem;
+    top: 0;
+}
+
+.part11 .icon {
+    position: absolute;
+    display: block;
+    width: 7rem;
+    left: 50%;
+    margin-left: -3.4rem;
+    top: 0;
+}
+
+.part12 .icon {
+    position: absolute;
+    display: block;
+    width: 7rem;
+    left: 50%;
+    margin-left: -3.4rem;
+    bottom: 0.2rem;
+}
+
+.part13 .icon {
+    position: absolute;
+    display: block;
+    width: 7rem;
+    left: 50%;
+    margin-left: -3.4rem;
+    bottom: 0;
+}
+
+.part15 .icon {
+    position: absolute;
+    display: block;
+    width: 7rem;
+    left: 50%;
+    margin-left: -3.4rem;
+    bottom: 0.3rem;
+}
+
+.part16 .tel_img {
+    top: 0.35rem;
+}
+
+.part18 .icon {
+    position: absolute;
+    display: block;
+    width: 6.24rem;
+    left: 50%;
+    margin-left: -3rem;
+    top: 0.2rem;
+}
+
+.main {
+    padding-bottom: 1rem;
+}
+
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 1rem;
+    background-color: #fff;
+    font-size: 0;
+    z-index: 999;
+}
+
+.footer a {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding-top: 0.2rem;
+    box-sizing: border-box;
+}
+
+.footer a img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 0.6rem;
+    height: 0.6rem;
+}
+
+.footer a span {
+    font-size: 0.3rem;
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    margin-left: 0.2rem;
+}
+
+.footer a:first-child {
+    background-color: #ff0707;
+}
+
+.footer a#codeBtn {
+    background-color: #52b318;
+}
+
+.footer i {
+    opacity: 0;
+    position: absolute;
+    z-index:-1;
+}
+
+body .layui-m-layer .layui-m-layer-msg{
+	background-color: #fff;
+}

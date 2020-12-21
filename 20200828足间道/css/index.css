@@ -1,0 +1,762 @@
+.pate1 .img1 {
+  display: block;
+  width: 6.2rem;
+  margin: auto;
+  margin-top: 0.25rem;
+}
+
+.pate1 .listPic {
+  width: 6.2rem;
+  margin: auto;
+  margin-top: 0.25rem;
+}
+
+.pate1 .listPic li {
+  float: left;
+  width: 100%;
+  margin-top: 0.1rem;
+  height: 0.62rem;
+}
+
+.pate1 .listPic img {
+  width: 1.13rem;
+  height: 0.62rem;
+  float: left;
+}
+
+.pate1 .listPic a {
+  float: right;
+  width: 4.9rem;
+  height: 0.61rem;
+  border-bottom: 0.01rem dashed #595757;
+}
+
+.pate1 .listPic p {
+  padding-top: 0.15rem;
+  color: #595757;
+  font-size: 0.24rem;
+  float: left;
+}
+
+.pate1 .listPic p span {
+  display: block;
+  font-size: 0.24rem;
+  transform: scale(0.75);
+  -webkit-transform: scale(0.75);
+  -o-transform: scale(0.75);
+  -moz-transform: scale(0.75);
+  -ms-transform: scale(0.75);
+  width: 133%;
+  margin-left: -16.5%;
+}
+
+.pate1 .listPic .p1 span {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.pate1 .listPic .p1 {
+  width: 3.5rem;
+}
+
+.pate1 .listPic .p2 {
+  float: right;
+  width: 1.2rem;
+}
+
+.pate1 .listPic a.on p {
+  color: #c01b2a;
+}
+
+.pate1 .more {
+  width: 6.2rem;
+  margin: auto;
+  margin-top: 0.15rem;
+  text-align: center;
+}
+
+.pate1 .more a {
+  float: right;
+  height: 0.34rem;
+  width: 1rem;
+  font-size: 0.24rem;
+  line-height: 1;
+  text-transform: uppercase;
+  margin: auto;
+  border: 1px solid #c01b2a;
+  color: #c01b2a;
+  border-radius: 0.2rem;
+}
+
+.pate2 {
+  margin-top: 0.3rem;
+  padding-top: 0.55rem;
+  width: 100%;
+  height: 8.53rem;
+  background: url(../img/index/b-bg.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+.pate2 .img-first {
+  display: block;
+  width: 5.97rem;
+  height: 0.9rem;
+  margin: auto;
+}
+
+.pate2 .listPic {
+  width: 5.14rem;
+  margin: auto;
+  margin-top: 0.2rem;
+}
+
+.pate2 .listPic li {
+  width: 2.35rem;
+  float: left;
+  margin-top: 0.4rem;
+}
+
+.pate2 .listPic li:nth-child(2n) {
+  float: right;
+}
+
+.pate2 .listPic li img {
+  width: 2.35rem;
+  height: 2.35rem;
+  border-radius: 50%;
+  display: block;
+}
+
+.pate2 .listPic li p {
+  margin: auto;
+  margin-top: 0.2rem;
+  width: 1.84rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  text-align: center;
+  font-size: 0.24rem;
+  color: #ffffff;
+  background-color: #c01b2a;
+  border-radius: 0.1rem;
+}
+
+.pate3-header {
+  width: 100%;
+  height: 2.44rem;
+  padding-top: 0.9rem;
+  position: relative;
+}
+
+.pate3-header::before {
+  content: "";
+  width: 2.8rem;
+  height: 2.24rem;
+  background: url(../img/index/c-bg.jpg) no-repeat;
+  background-size: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -2;
+}
+
+.pate3-header::after {
+  content: "";
+  width: 6.3rem;
+  height: 0.26rem;
+  position: absolute;
+  z-index: -1;
+  background-color: #c01b2a;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3.15rem;
+}
+
+.pate3-header .p1 {
+  font-weight: bold;
+  margin-left: 0.6rem;
+}
+
+.pate3-header .p1 p {
+  display: inline-block;
+}
+
+.pate3-header .p1 p span {
+  display: block;
+  font-size: 0.35rem;
+  color: #595757;
+}
+
+.pate3-header .p1 .span2 {
+  display: inline-block;
+  font-size: 0.76rem;
+  margin-top: -0.76rem;
+  color: #c01b2a;
+  vertical-align: middle;
+}
+
+.pate3-header .p2 {
+  font-weight: bold;
+  margin-left: 0.6rem;
+}
+
+.pate3-header .p2 p {
+  display: inline-block;
+}
+
+.pate3-header .p2 p span {
+  display: block;
+  font-size: 0.3rem;
+  color: #595757;
+}
+
+.pate3 .p2 .span2 {
+  display: inline-block;
+  font-size: 0.67rem;
+  margin-top: -0.67rem;
+  color: #c01b2a;
+  vertical-align: middle;
+}
+
+.pate3-header .p3 {
+  font-size: 0.24rem;
+  color: #595757;
+  margin-left: 0.6rem;
+  line-height: 0.36rem;
+  margin-top: -0.2rem;
+}
+
+.pate3-header .p3 span {
+  display: block;
+  transform: scale(0.33);
+  -webkit-transform: scale(0.33);
+  -o-transform: scale(0.33);
+  -moz-transform: scale(0.33);
+  -ms-transform: scale(0.33);
+  width: 303%;
+  margin-left: -101%;
+}
+
+.pate3-header .img1 {
+  position: absolute;
+  bottom: 0;
+  right: 0.3rem;
+  width: 2.54rem;
+  height: 2.97rem;
+}
+
+.pate3 .listPic {
+  width: 6.3rem;
+  margin: auto;
+  padding-top: 0.12rem;
+}
+
+.pate3 .listPic li {
+  width: 3rem;
+  height: 4.86rem;
+  float: left;
+  border: 1px solid #bcbcbc;
+  border-radius: 0.1rem;
+  margin-top: 0.34rem;
+  text-align: center;
+}
+
+.pate3 .listPic li:nth-child(2n) {
+  float: right;
+}
+
+.pate3 .listPic .p1 {
+  font-size: 0.42rem;
+  color: #c01b2a;
+  font-weight: bold;
+  margin-top: 0.2rem;
+  margin-bottom: 0.1rem;
+}
+
+.pate3 .listPic .p2 {
+  color: #595757;
+  font-size: 0.24rem;
+  line-height: 0.37rem;
+}
+
+.pate3 .listPic .img1 {
+  width: 0.27rem;
+  height: 0.27rem;
+  display: block;
+  margin: auto;
+  margin-top: 0.1rem;
+}
+
+.pate3 .listPic .img2 {
+  margin: auto;
+  width: 2.75rem;
+  height: 2.25rem;
+  margin-top: 0.16rem;
+}
+
+.pate3 .titleSymbol {
+  margin-top: 0.5rem;
+}
+
+.pate4 {
+  width: 100%;
+  height: 4.14rem;
+  margin-top: 0.45rem;
+  position: relative;
+}
+
+.pate4::before {
+  content: "";
+  width: 100%;
+  height: 4.14rem;
+  background: url(../img/index/d-bg.jpg) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.pate4 .fl-lt {
+  width: 4.4rem;
+  padding-top: 0.75rem;
+}
+
+.pate4 .img1 {
+  margin-left: 0.7rem;
+  display: block;
+  width: 2.98rem;
+  height: 0.74rem;
+}
+
+.pate4 .p1 {
+  color: #ffffff;
+  font-size: 0.42rem;
+  margin-left: 0.7rem;
+  font-weight: bold;
+}
+
+.pate4 .p2 {
+  margin-left: 0.7rem;
+  font-size: 0.24rem;
+  line-height: 0.24rem;
+  color: #ffffff;
+}
+
+.pate4 .p2 span {
+  display: block;
+  transform: scale(0.5);
+  -webkit-transform: scale(0.5);
+  -o-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  width: 200%;
+  margin-left: -50%;
+}
+
+.pate4 .p3 {
+  margin-left: 0.7rem;
+  margin-top: 0.2rem;
+  font-size: 0.24rem;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 1;
+}
+
+.pate4 .p3 img {
+  display: inline-block;
+  width: 0.4rem;
+  height: 0.33rem;
+  vertical-align: middle;
+  margin-right: 0.1rem;
+}
+
+.pate4 .fl-rt {
+  padding-top: 0.2rem;
+}
+
+.pate4 .img2 {
+  display: block;
+  width: 0.51rem;
+  height: 0.56rem;
+  float: left;
+  margin-top: 2.1rem;
+}
+
+.pate4 .img3 {
+  display: block;
+  width: 2.05rem;
+  height: 3.64rem;
+  float: right;
+  margin-right: 0.5rem;
+}
+
+.pate4 .doubleTitle {
+  margin-top: 0.1rem;
+}
+
+.pate5 .titleSymbol {
+  margin-top: 0.5rem;
+}
+
+.pate5 .doubleTitle {
+  margin-top: 0.2rem;
+}
+
+.pate5 .font8 {
+  display: inline-block;
+  font-size: 0.24rem;
+  text-align: center;
+}
+
+.pate5 .font8 span {
+  display: block;
+  transform: scale(0.33);
+  -webkit-transform: scale(0.33);
+  -o-transform: scale(0.33);
+  -moz-transform: scale(0.33);
+  -ms-transform: scale(0.33);
+  width: 302%;
+  margin-left: -101%;
+}
+
+.pate5 .listPic {
+  width: 6.3rem;
+  margin: auto;
+  margin-top: 0.2rem;
+}
+
+.pate5 .listPic li {
+  width: 3.1rem;
+  float: left;
+  margin-bottom: 0.4rem;
+}
+
+.pate5 .listPic li:first-child {
+  width: 100%;
+}
+
+.pate5 .listPic li:nth-child(2n+1) {
+  float: right
+}
+
+.pate5 .listPic li img {
+  width: 100%;
+  height: 2.98rem;
+  display: block;
+}
+
+.pate5 .listPic .p1 {
+  text-align: center;
+  height: 0.6rem;
+  width: 100%;
+  line-height: 0.6rem;
+  background-color: #cd4955;
+  font-size: 0.33rem;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.pate5 .listPic .p2 {
+  text-align: center;
+  color: #595759;
+  font-size: 0.28rem;
+  line-height: 0.36rem;
+}
+
+.pate6 {
+  width: 100%;
+  padding-top: 0.68rem;
+  background: url(../img/index/f-bg.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+.pate6>.p1 {
+  width: 6.3rem;
+  margin: auto;
+  line-height: 0.5rem;
+  height: 0.5rem;
+  color: #ffffff;
+  margin-top: 0.28rem;
+  background-color: #c01b2a;
+  text-align: center;
+}
+
+.pate6 .listPic {
+  width: 6.2rem;
+  margin: auto;
+}
+
+.pate6 .listPic li {
+  width: 2.9rem;
+  height: 2.9rem;
+  text-align: center;
+  position: relative;
+  float: left;
+  margin-bottom: 0.4rem;
+}
+
+.pate6 .listPic li:nth-child(2n) {
+  float: right;
+}
+
+.pate6 .listPic li:first-child::before {
+  content: "";
+  width: 1px;
+  height: 1.55rem;
+  background-color: #595757;
+  display: inline-block;
+  position: absolute;
+  right: -0.2rem;
+  top: 0.46rem;
+}
+
+.pate6 .listPic .p1 {
+  font-size: 0.3rem;
+  font-weight: bold;
+  line-height: 0.36rem;
+  color: #c01b2a;
+  padding-top: 0.46rem;
+}
+
+.pate6 .listPic .p2 {
+  font-size: 0.24rem;
+  color: #595757;
+  line-height: 0.36rem;
+  margin-top: 0.1rem;
+}
+
+.pate6 .listPic .p2 span {
+  display: block;
+  transform: scale(0.83);
+  -webkit-transform: scale(0.83);
+  -o-transform: scale(0.83);
+  -moz-transform: scale(0.83);
+  -ms-transform: scale(0.83);
+  width: 120%;
+  margin-left: -10%;
+}
+
+.pate6 .listPic .img1 {
+  display: block;
+  margin: auto;
+  width: 0.27rem;
+  height: 0.27rem;
+  margin-top: 0.1rem;
+}
+
+.pate6 .listPic .solid {
+  width: 2.88rem;
+  height: 2.88rem;
+  border: 0.01rem solid #c01b2a;
+  border-radius: 50%;
+  float: left;
+}
+
+.pate6 .listPic .solid img {
+  display: block;
+  margin: auto;
+  width: 2.69rem;
+  height: 2.69rem;
+  border-radius: 50%;
+  margin-top: 0.095rem;
+}
+
+.pate7 {
+  width: 100%;
+  background: url(../img/index/g-bg.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+.pate7>.p1 {
+  text-align: center;
+  padding-top: 0.8rem;
+  color: #ffffff;
+  font-size: 0.5338rem;
+  font-weight: bold;
+}
+
+.pate7>.p2 {
+  text-align: center;
+  font-size: 0.24rem;
+  color: #ffffff;
+}
+
+.pate7>.p2 span {
+  display: block;
+  transform: scale(0.5);
+  -webkit-transform: scale(0.5);
+  -o-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  width: 200%;
+  margin-left: -50%;
+}
+
+.pate7>.img1 {
+  display: block;
+  margin: auto;
+  width: 4.16rem;
+  height: 0.16rem;
+  margin-top: 0.1rem;
+}
+
+.pate7 .listPic {
+  width: 6.3rem;
+  margin: auto;
+  margin-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+.pate7 .listPic li {
+  width: 3.08rem;
+  height: 4rem;
+  background-color: #ffffff;
+  border-radius: 0.3rem;
+  float: left;
+  text-align: center;
+  margin-bottom: 0.45rem;
+}
+
+.pate7 .listPic li:nth-child(2n) {
+  float: right;
+}
+
+.pate7 .listPic .p1 {
+  font-size: 0.34rem;
+  color: #c01b2a;
+  font-weight: bold;
+  padding-top: 0.3rem;
+  line-height: 0.44rem;
+}
+
+.pate7 .listPic .p2 {
+  font-size: 0.24rem;
+  line-height: 0.38rem;
+  color: #595757;
+}
+
+.pate7 .listPic .p2 span {
+  display: block;
+  transform: scale(0.83);
+  -webkit-transform: scale(0.83);
+  -o-transform: scale(0.83);
+  -moz-transform: scale(0.83);
+  -ms-transform: scale(0.83);
+  width: 120%;
+  margin-left: -10%;
+}
+
+.pate7 .listPic li img {
+  width: 2.94rem;
+  height: 1.61rem;
+  margin: auto;
+  margin-top: 0.05rem;
+  border-bottom-left-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+
+.pate8 {
+  padding-bottom: 0.5rem;
+  background: url(../img/index/i-bg.jpg) left bottom no-repeat;
+  background-size: 100% 0.5rem;
+}
+
+.pate8 .p1 {
+  text-align: center;
+  margin-top: 0.6rem;
+  color: #c01b2a;
+  font-size: 0.5rem;
+  font-weight: bold;
+}
+
+.pate8 .p2 {
+  text-align: center;
+  font-size: 0.24rem;
+  color: #595759;
+}
+
+.pate8 .p2 span {
+  display: block;
+  transform: scale(0.5);
+  -webkit-transform: scale(0.5);
+  -o-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  width: 200%;
+  margin-left: -50%;
+}
+
+.pate8 .img1 {
+  display: block;
+  margin: auto;
+  width: 3.48rem;
+  height: 0.14rem;
+  margin-top: 0.2rem;
+}
+
+.pate8 .banner2 {
+  position: relative;
+  width: 5.7rem;
+  height: 3.92rem;
+  margin: auto;
+  margin-top: 0.4rem;
+  margin-bottom: 0.6rem;
+}
+
+.pate8 .banner2 .swiper-container {
+  width: 5.7rem;
+  height: 3.92rem;
+}
+
+.pate8 .banner2 .swiper-container .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.pate8 .banner2 .btn_box {
+  position: absolute;
+  width: 7rem;
+  height: 0.42rem;
+  top: 50%;
+  margin-top: -0.21rem;
+  left: -0.65rem;
+}
+
+.pate8 .banner2 .btn_box .swiper-button-prev {
+  width: 0.42rem;
+  height: 0.42rem;
+  margin: 0;
+  top: 0;
+  left: 0;
+  background-image: url(../img/index/prev.png);
+  background-size: 0.42rem 0.42rem;
+}
+
+.pate8 .banner2 .btn_box .swiper-button-next {
+  width: 0.42rem;
+  height: 0.42rem;
+  margin: 0;
+  top: 0;
+  right: 0;
+  background-image: url(../img/index/next.png);
+  background-size: 0.42rem 0.42rem;
+}
+
+.pate8 .banner2 .btn_box div:focus {
+  outline: none;
+}
+
+@media (max-width: 360px) {
+  .pate3 .listPic .p2 span {
+    display: block;
+    transform: scale(0.83);
+    -webkit-transform: scale(0.83);
+    -o-transform: scale(0.83);
+    -moz-transform: scale(0.83);
+    -ms-transform: scale(0.83);
+    width: 120%;
+    margin-left: -10%;
+  }
+}

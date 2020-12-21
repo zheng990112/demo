@@ -1,0 +1,414 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Microsoft Yahei", "Hiragino Sans GB";
+	color: #282828;
+	background: #fff;
+	-webkit-font-smoothing: antialiased;
+	font-size: 12px;
+	-webkit-text-size-adjust: none;
+	overflow-x: hidden;
+}
+body{
+	overflow-x: hidden;
+}
+@font-face {
+	font-family: myfont;
+	src: url('../fonts/SourceHanSerifSC-Light.otf');
+	/*font-weight:600;*/
+}
+a {
+	text-decoration: none;
+	color: #000;
+	-webkit-tap-highlight-color: transparent;
+	display: block;
+}
+
+label {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ul li,
+ol li {
+	list-style: none;
+}
+
+input,
+img,
+textarea,
+button {
+	outline: none;
+	border: 0;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-appearance: none;
+}
+
+button {
+	background: none;
+	outline: none;
+}
+
+b {
+	font-weight: normal;
+}
+
+u {
+	text-decoration: none;
+}
+
+em,
+i {
+	font-style: normal;
+}
+
+.fl-lt {
+	float: left;
+}
+
+.fl-rt {
+	float: right;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.comWidth {
+	padding: 0 .32rem;
+}
+
+.img-block {
+	width: 100%;
+	display: block;
+}
+
+.none {
+	display: none!important;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+.block{
+	display: block!important;
+}
+.none{
+	display: none!important;
+}
+.bg{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	background-color: rgba(0,0,0,0.5);
+	display: none;
+}
+/*header*/
+.header{
+	position:fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	width: 100%;
+}
+.header .header-bg{
+	display: block;
+	width: 100%;
+	height: 0.88rem;
+}
+.header .tel-btn{
+	width: 1.82rem;
+	height: 0.88rem;
+	position:absolute;
+	top: 0;
+	left:0.1rem;
+}
+.header .tel-btn img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.header .nav-img{
+	position:absolute;
+	width: 1.57rem;
+	height: 0.67rem;
+	right: 0.1rem;
+	top: 0.1rem;
+}
+.header .nav-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.header .logo{
+	position:absolute;
+	top:5px;
+	left: 50%;
+	width: 2.05rem;
+	height: 0.72rem;
+	margin-left:-1rem;
+}
+.header .logo img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.header .logo p{
+	font-size: 0.5rem;
+	color:#fff;
+}
+/*导航*/
+.menu{
+	position: fixed;
+	left: -51%;
+	top: 1.2rem;
+	z-index: 100;
+	width: 3.93rem;
+	text-align: center;
+}
+.menu .menu-bg{
+	display: block;
+	width: 100%;
+}
+.menu ul{
+	position:absolute;
+	width: 100%;
+	top:3.7rem;
+}
+.menu ul li a{
+	font-size: 0.4rem;
+	color:#fff;
+	line-height: 0.8rem;
+}
+.menu ul li.active a{
+	color:#ffb852;
+}
+
+/*banner*/
+.banner{
+	width: 100%;
+	height:12.08rem;
+	margin-top: .88rem;
+}
+.banner .banner-swiper{
+	height:12.08rem;
+}
+.banner .banner-swiper img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/*banner btn*/
+.swiper-pagination-bullets{
+	text-align: center;
+}
+.swiper-pagination-bullet{
+	background: #fff;
+	opacity: 1;
+	width: .14rem;
+	height: .14rem;
+	display: inline-block;
+	vertical-align: middle;
+}
+.swiper-pagination-bullet-active{
+	background: transparent;
+	opacity: 1;
+	border: 1px solid #fff;
+}
+.swiper-pagination-bullets span{
+	margin: 0 .06rem!important;
+}
+.swiper-pagination-bullets{
+	bottom: .2rem!important;
+}
+
+
+/*footer*/
+.footer{
+	position:fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 99;
+}
+.footer .foot-bg{
+	display: block;
+	height: 0.88rem;
+	width: 100%;
+}
+.footer .foot1{
+	width: 1.31rem;
+	height: 0.31rem;
+	position:absolute;
+	left: 0.5rem;
+	bottom:0.285rem;
+}
+.footer .foot2{
+	width: 1.34rem;
+	height: 0.26rem;
+	position:absolute;
+	right: 0.5rem;
+	bottom:0.31rem;
+}
+.footer .to-top{
+	width: 2.68rem;
+	height: 1.48rem;
+	position:absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -1.38rem;
+}
+.footer .foot1 img,
+.footer .foot2 img,
+.footer .to-top img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+
+.content{
+	padding-bottom: 1.6rem;
+}
+.part{
+	position:relative;
+}
+
+.public-title{
+	font-family: myfont;
+	font-weight: bold;
+	font-size: 0.44rem;
+	line-height: 1.14rem;
+	width: 2.78rem;
+	text-align: center;
+	margin:0 auto;
+	color:#ffbf52;
+	background: url(../img/title.png) no-repeat;
+	background-size: 100% 100%;
+	position:relative;
+	z-index: 2;
+	margin-top: 0.25rem;
+}
+
+.mao{
+	width: 100%;
+	height: 1.4rem;
+	position:absolute;
+	top: -1.4rem;
+	left: 0;
+	z-index:-1;
+}
+
+
+
+
+/*超两行显省略号*/
+
+.two-ellipsis {
+	text-overflow: -o-ellipsis-lastline;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+
+/*字体为12像素*/
+
+.font_12 {
+	/*	font-size: .18rem;*/
+	font-size: .24rem;
+	transform: scale(.5);
+	-webkit-transform: scale(.5);
+	-o-transform: scale(.5);
+	-moz-transform: scale(.5);
+	-ms-transform: scale(.5);
+	width: 200%;
+	margin-left: -50%;
+}
+
+
+/*字体为14像素*/
+
+.font_14 {
+	/*	font-size: .18rem;*/
+	font-size: .24rem;
+	transform: scale(.58);
+	-webkit-transform: scale(.58);
+	-o-transform: scale(.58);
+	-moz-transform: scale(.58);
+	-ms-transform: scale(.58);
+	width: 170%;
+	margin-left: -35%;
+}
+
+
+/*字体为16像素*/
+
+.font_16 {
+	/*	font-size: .18rem;*/
+	font-size: .24rem;
+	transform: scale(.67);
+	-webkit-transform: scale(.67);
+	-o-transform: scale(.67);
+	-moz-transform: scale(.67);
+	-ms-transform: scale(.67);
+	width: 150%;
+	margin-left: -25%;
+}
+
+
+/*字体为18像素*/
+
+.font_18 {
+	/*	font-size: .18rem;*/
+	font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+	width: 130%;
+	margin-left: -15%;
+}
+
+
+/*字体为20像素*/
+
+.font_20 {
+	/*	font-size: .2rem;*/
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+}
+
+
+/*字体为22像素*/
+
+.font_22 {
+	/*	font-size: .22rem;*/
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 110%;
+	margin-left: -5%;
+}

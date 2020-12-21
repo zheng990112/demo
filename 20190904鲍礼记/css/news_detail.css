@@ -1,0 +1,101 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    vertical-align: top;
+}
+
+.content .bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: -1;
+}
+
+.content .info {
+    padding: 0.70rem 0.32rem 0;
+}
+
+.info .title {
+    padding-bottom: 0.25rem;
+    border-bottom: 1px solid #999491;
+    color: #bb8040;
+    font-size: 0.30rem;
+    font-family: myfont2;
+    letter-spacing: 0.02rem;
+}
+
+.info .author {
+    font-size: .24rem;
+    transform: scale(.75);
+    -webkit-transform: scale(.75);
+    -o-transform: scale(.75);
+    -moz-transform: scale(.75);
+    -ms-transform: scale(.75);
+    width: 130%;
+    margin-left: -15%;
+    font-family: myfont2;
+    margin-top: 0.20rem;
+}
+
+.info .author span+span {
+    margin-left: 0.52rem;
+}
+
+.info .main {
+    margin-top: 0.35rem;
+}
+
+.info .main p {
+    font-size: 0.24rem;
+    font-family: myfont2;
+    line-height: 0.38rem;
+    font-weight: lighter;
+}
+
+.info .main img {
+    padding: 0.32rem 0;
+}
+
+.content .btns {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0.35rem 0 0.55rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .btns .btn {
+    width: 1.75rem;
+    height: 0.85rem;
+    position: relative;
+}
+
+.content .btns .btn a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 0.85rem;
+    font-size: 0.28rem;
+    font-family: myfont2;
+    font-weight: bold;
+    color: #bb8040;
+}

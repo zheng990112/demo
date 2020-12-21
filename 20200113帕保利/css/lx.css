@@ -1,0 +1,147 @@
+
+.lx-title{
+	text-align: center;
+}
+.lx-title span{
+	display: inline-block;
+	font-size: 0.39rem;
+	line-height: 0.39rem;
+	position:relative;
+	color:#000000;
+}
+.lx-title span::before,
+.lx-title span::after{
+	content:"";
+	display: inline-block;
+	width: 0.76rem;
+	height:1px;
+	background-color: #000;
+	position:absolute;
+	top: 50%;
+}
+.lx-title span::before{
+	left: -1rem;
+}
+.lx-title span::after{
+	right: -1rem;
+}
+
+
+
+.part1{
+	padding-top: 0.8rem;
+}
+.part1 .part1-box{
+	width: 6.8rem;
+	margin:0 auto;
+	margin-top: 0.6rem;
+}
+.part1 .part1-box .map-btn span{
+	display: inline-block;
+	vertical-align: top;
+	width: 0.86rem;
+	height: 0.38rem;
+	color:#231815;
+	border:1px solid #231815;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 0.38rem;
+	margin-right: 0.12rem;
+}
+.part1 .part1-box .map-btn span#wh{
+	background-color:#008bd5;
+}
+.part1 .part1-box .map-icon{
+	font-size: 0.22rem;
+	color:#9a8178;
+	margin-top: 0.1rem;
+}
+.part1 .part1-box .map{
+	height: 3.3rem;
+	margin-top: 0.2rem;
+}
+.part1 .part1-box .part1-fonts{
+	margin-top: 0.4rem;
+	position:relative;
+}
+.part1 .part1-box .part1-fonts .erweima-img{
+	display: block;
+	width: 1.33rem;
+	height: 1.33rem;
+	position:absolute;
+	right: 0.75rem;
+	top: 1.1rem;
+}
+.part1 .part1-box .part1-fonts .p1{
+	font-size: 0.25rem;
+	color:#231815;
+	line-height: 0.38rem;
+	font-weight: bold;
+	display: inline-block;
+	border-bottom: 1px solid #231815;
+	margin-bottom: 0.3rem;
+}
+.part1 .part1-box .part1-fonts .p2 img{
+	display: inline-block;
+	vertical-align:-0.15rem;
+	width: 0.3rem;
+	height: 0.3rem;
+}
+.part1 .part1-box .part1-fonts .p2 span{
+	display: inline-block;
+	vertical-align:top;
+	font-size: 0.25rem;
+	line-height: 0.44rem;
+	margin-left: 0.1rem;
+}
+.part1 .part1-box .part1-fonts .p2 span b{
+	font-weight: bold;
+}
+
+
+.part2{
+	margin-top: 0.8rem;
+}
+.part2 .form{
+	width: 6.8rem;
+	margin:0 auto;
+	
+}
+.part2 .form .inp{
+	font-size: 0;
+}
+.part2 .form input{
+	width: 1.8rem;
+	height: 0.4rem;
+	background: transparent;
+    border: 1px solid #6e6c6c;
+    display: inline-block;
+    font-size: 0.25rem;
+    color: #000000;
+    padding-left: 0.1rem;
+    box-sizing: border-box;
+    margin-right:0.4rem;
+    margin-top:0.6rem;
+}
+.part2 .form textarea {
+    display: block;
+    width: 100%;
+    height:1.7rem;
+    background: transparent;
+    border: 1px solid #6e6c6c;
+    font-size: 0.25rem;
+    color: #000000;
+    padding-left: 0.1rem;
+    padding-top: 0.15rem;
+    box-sizing: border-box;
+    margin-top: 0.3rem;
+    resize: none;
+}
+.part2 .form button {
+    font-size: 0.25rem;
+    color: #fff;
+    width: 1.3rem;
+    height: 0.36rem;
+    background-color: #848484;
+    margin-top: 0.25rem;
+}

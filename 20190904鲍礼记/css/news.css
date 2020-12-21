@@ -1,0 +1,102 @@
+.content {
+    padding-top: 0.60rem;
+    padding-bottom: 0.64rem;
+}
+
+.part1 .public-title .p2 span {
+    letter-spacing: 0.06rem;
+}
+
+.part-info {
+    padding: 0.55rem 0.34rem 0;
+    /* font-size: 0; */
+}
+
+.news_list {
+    margin-top: 0.33rem;
+}
+
+.news_list a.item {
+    display: block;
+    border-bottom: 1px solid #928e8c;
+    color: #3e3a39;
+}
+
+.news_list .item.active {
+    color: #bb8040;
+}
+
+.news_list .item+.item {
+    margin-top: 0.25rem;
+}
+
+.news_list .item p {
+    /* padding: 0.15rem 0; */
+    font-size: 0.24rem;
+    font-family: myfont2;
+    font-weight: lighter;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 0.54rem;
+}
+
+.news_list .item p.time {
+    line-height: 0.48rem;
+}
+
+.btn-control {
+    margin-top: 0.40rem;
+    display: flex;
+    align-items: center;
+}
+
+.btn-control a {
+    display: block;
+    padding: 0.05rem 0.12rem;
+    background-color: #bb8040;
+    font-size: 0.30rem;
+    color: #ffffff;
+    margin-right: 0.13rem;
+    line-height: 0.35rem;
+}
+
+.btn-control .pages {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.part2 {
+    margin-top: 0.68rem;
+}
+
+.content .btns {
+    width: 5.40rem;
+    margin: 0 auto;
+    padding: 0.65rem 0 0.55rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .btns .btn {
+    width: 1.75rem;
+    height: 0.85rem;
+    position: relative;
+}
+
+.content .btns .btn a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 0.85rem;
+    font-size: 0.28rem;
+    font-family: myfont2;
+    font-weight: bold;
+    color: #bb8040;
+}

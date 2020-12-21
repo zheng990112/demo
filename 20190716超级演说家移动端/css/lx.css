@@ -1,0 +1,216 @@
+.section1 .info-main {
+    padding-bottom: 0.61rem;
+}
+
+.section1 .info-main .picScroll {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 0.60rem;
+}
+
+.section1 .info-main .picScroll .bd {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.section1 .info-main .picScroll .bd li {
+    float: left;
+    background: #eeeeee;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    /* height: 405px; */
+}
+
+.section1 .info-main .picScroll .bd li img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.section1 .info-main .picScroll .hd {
+    text-align: center;
+}
+
+.section1 .info-main .picScroll .hd ul li {
+    display: inline-block;
+    width: 0.41rem;
+    height: 0.08rem;
+    background-color: #dbc59c;
+    font-size: 0;
+    margin: 0 5px;
+    margin-top: 0.28rem;
+}
+
+.section1 .info-main .picScroll .hd ul li.on {
+    background-color: #2d58a1;
+}
+
+.section1 .info-main .news {
+    margin-top: 0.25rem;
+}
+
+.section1 .info-main .news .news-list ul>li {
+    padding: 0.28rem 0 0.16rem;
+}
+
+.section1 .info-main .news .news-list ul>li+li {
+    border-top: 0.03rem dashed #c2c2c2;
+}
+
+.section1 .info-main .news .news-list ul>li a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section1 .info-main .news .news-list ul>li a span.title {
+    flex: 1;
+    font-size: 0.22rem;
+    font-weight: 500;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.section1 .info-main .news .news-list ul>li a span.time {
+    font-size: 0.18rem;
+}
+
+.section1 .info-main .news .news-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.67rem;
+}
+
+.section1 .info-main .news .news-btn ul {
+    display: flex;
+    padding: 0 0.30rem;
+}
+
+.section1 .info-main .news .news-btn ul>li {
+    padding: 0 0.07rem;
+}
+
+.section1 .info-main .news .news-btn .prev-btn,
+.section1 .info-main .news .news-btn .next-btn {
+    color: #2d58a1;
+}
+
+.section1 .info-main .news .news-btn ul>li.on a {
+    color: #2d58a1;
+}
+
+.section2 .info-title {
+    margin-top: 0.30rem;
+}
+
+.section2 .info-main {
+    padding-bottom: 0.83rem;
+}
+
+.section2 .info-main .map {
+    width: 100%;
+    height: 3.0rem;
+    margin-top: 0.3rem;
+}
+
+.section2 .info-main .p-box {
+    font-size: 0.26rem;
+    line-height: 0.40rem;
+    text-align: center;
+    margin-top: 0.50rem;
+}
+
+.section2 .info-main .form-box {
+    margin-top: 0.90rem;
+}
+
+.section2 .info-main .form-box .form-title {
+    text-align: center;
+    color: #c69a48;
+    font-size: 0.34rem;
+    line-height: 1.03rem;
+}
+
+.section2 .info-main .form-box .form-container {
+    padding: 0.37rem 0.58rem;
+    background-color: #2d58a1;
+    border-radius: 0.30rem;
+}
+
+.section2 .info-main .form-box .form-container .input-group {
+    padding: 0 0.26rem;
+    height: 0.50rem;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.section2 .info-main .form-box .form-container .input-group+.input-group {
+    margin-top: 0.20rem;
+}
+
+.section2 .info-main .form-box .form-container .input-group label {
+    letter-spacing: 0.22rem;
+    font-size: 0.28rem;
+    color: #2d58a1;
+}
+
+.section2 .info-main .form-box .form-container .input-group input {
+    flex: 1;
+    height: 0.50rem;
+    width: auto;
+    min-width: 0.1rem;
+    font-size: 0.28rem;
+}
+
+.section2 .info-main .form-box .changes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.34rem;
+}
+
+.section2 .info-main .form-box .changes .radios {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section2 .info-main .form-box .changes .radio {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.section2 .info-main .form-box .changes .radio label {
+    margin-left: 0.17rem;
+}
+
+.section2 .info-main .form-box .changes .radio+.radio {
+    margin-left: 0.20rem;
+}
+
+.section2 .info-main .form-box .changes .btn button {
+    width: 1.64rem;
+    height: 0.35rem;
+    background-color: #c69a48;
+    color: #ffffff;
+    font-size: 0.28rem;
+    border-radius: 0.35rem;
+}
+
+
+
+/* 2020/10/27 */
+.section2 .pic{
+  display: block;
+  width: 100%;
+  margin-top: 0.3rem;
+}
+.section2 .info-main1{
+  padding-bottom: 0.3rem;
+}

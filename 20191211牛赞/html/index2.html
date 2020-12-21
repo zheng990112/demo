@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!--网站开启对 web app 程序的支持-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!--改变顶部状态条的颜色-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no,email=no,adress=no" />
+    <script>
+        (function() {
+            function b_resize() {
+                document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + 'px';
+                document.documentElement.setAttribute('data-dpr', 1);
+            }
+            window.onresize = b_resize;
+            b_resize();
+        })(window, document);
+    </script>
+    <link rel="stylesheet" href="../css/swiper-3.3.1.min.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/index.css">
+	<body>
+		<div class="swiper-container container">
+			<div class="header">
+				<div class="logo"><img src="../img/logo.png" alt="" /></div>
+				<div class="menu"><span class="span1">目录</span><span class="span2">收起</span></div>
+				<div class="nav">
+					<div>
+						<p class="en">Catalog</p>
+						<p class="cn">目录</p>
+					</div>
+					<ul>
+						<li class="topp"><a href="#pp">品牌文化</a></li>
+						<li class="tocp"><a href="#cp">产品系列</a></li>
+						<li class="tomd"><a href="#md">门店实况</a></li>
+						<li class="toqy"><a href="#qy">企业实力</a></li>
+						<li class="tohz"><a href="#hz">合作优势</a></li>
+						<li class="tofc"><a href="#fc">创业扶持</a></li>
+						<li class="tonews"><a href="#news">新闻动态</a></li>
+						<li class="toly"><a href="#hz">合作留言</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="swiper-wrapper">
+				
+				<div class="swiper-slide page1">
+					<div class="swiper-container banner">
+					    <div class="swiper-wrapper">
+					      <div class="swiper-slide"><img src="../img/banner.jpg" alt="" /></div>
+					      <div class="swiper-slide"><img src="../img/banner.jpg" alt="" /></div>
+					      <div class="swiper-slide"><img src="../img/banner.jpg" alt="" /></div>
+					    </div>
+					    <div class="swiper-pagination"></div>
+					</div>
+					<img src="../img/next.png" alt="" class="next_icon"/>
+				</div>
+				
+				
+				<!--<div class="swiper-slide pp er-ye">
+					<div class="anchor" id="pp"></div>
+					<div class="public-title" >
+						<p class="p1">品牌文化</p>
+						<p class="p2">Brand culture</p>
+					</div>
+					<div class="part1">
+						<div class="part1-title">
+							<img src="../img/pp/a1.jpg" alt="" />
+							<p>不负自己，为梦想加油</p>
+						</div>
+						<div class="part1-main">
+							<img src="../img/pp/a2.jpg" alt="" />
+							<p>牛赞是鼎盛传奇餐饮集团旗下一个创新品牌,以原汤牛肉饭为特色,以好汤、好肉、好饭为核心,为消费者打造一碗好饭。作为引领牛肉快餐消费新时代的品牌,牛赞满足了绝大多数人消费牛肉的需求,迅速成长为牛肉快餐消费行业的佼佼者。</p>
+							<p>吃碗好饭来牛赞,吃完牛赞点个赞,都市快生活节奏,打造消费者不将就的生活态度。四大主打牛肉套餐,12款口味汤底,4种主食，好汤、好肉、好饭,让每一个空虚的胃满足。更有早餐系列硬核加入,从早餐开始,就可以来牛赞打卡营养健康美食了,午餐、晚餐、夜宵,超长经营时间,全方位营收,打造合作商的超级盈利模式。更有线上线下全线接单系统,外卖+堂食+打包,三线盈利,为门店赋能。</p>
+							<p><span>一碗好饭,为梦想加油,为明天努力!牛赞,高品质快餐,只为一碗好饭!</span></p>
+						</div>
+					</div>
+					<div class="part2">
+						<div class="public-title2">
+							<p class="p1">好牛肉  新快餐</p>
+							<p class="p2">吃碗好饭来牛赞<br />吃完牛赞点个赞</p>
+							<p class="p3">Product praise</p>
+						</div>
+						<div class="box clearfix">
+							<div class="box-img fl-lt"><img src="../img/pp/d1.jpg" alt="" /></div>
+							<div class="box-line fl-lt"></div>
+							<div class="box-fonts fl-rt">
+								<p class="p1">好汤——浓香原汤</p>
+								<p class="p2">Good soup</p>
+								<p class="p3">牛赞所有原汤选用含髓量高的牛骨，秘制配方，文火熬制数十个小时。入口生津，鲜香满嘴四溢。</p>
+							</div>
+						</div>
+						<div class="box clearfix">
+							<div class="box-fonts fl-lt">
+								<p class="p1">好肉——上好牛肉</p>
+								<p class="p2">Good meat</p>
+								<p class="p3">牛赞选择上好的牛里脊肉，没有肥肉，去酸排水，整块现切。完美口感，肉质细嫩美味。</p>
+							</div>
+							<div class="box-line fl-lt"></div>
+							<div class="box-img fl-rt"><img src="../img/pp/d2.jpg" alt="" /></div>
+						</div>
+						<div class="box clearfix">
+							<div class="box-img fl-lt"><img src="../img/pp/d3.jpg" alt="" /></div>
+							<div class="box-line fl-lt"></div>
+							<div class="box-fonts fl-rt">
+								<p class="p1">好饭——五常大米</p>
+								<p class="p2">Good meal</p>
+								<p class="p3">国家A级水稻产地，世界三大黑土地带，富含多种矿物元素，自然山泉水灌溉，米粒晶莹饱满，米饭香味浓郁。 </p>
+							</div>
+						</div>
+						<div class="public-btn">
+							<p class="tocp"><a href="#cp">下一章</a></p>
+						</div>
+					</div>
+				</div>-->
+				
+				<!--<div class="swiper-slide cp er-ye">
+					<div class="anchor" id="cp"></div>
+					<div class="public-title">
+						<p class="p1">产品系列</p>
+						<p class="p2">Product line</p>
+					</div>
+					<div class="part1">
+						<div class="public-title2">
+							<p class="p1">人气爆款</p>
+							<p class="p2">美味会圈粉<br />12款美味圈住地星人</p>
+							<p class="p3">Popular explosion</p>
+						</div>
+						<div class="part1-main">
+							<img src="../img/cp/a1.jpg" alt="" />
+							<img src="../img/cp/a2.jpg" alt="" />
+							<img src="../img/cp/a3.jpg" alt="" />
+						</div>
+					</div>
+					
+					<div class="part2">
+						<div class="public-title2">
+							<p class="p1">主打套餐</p>
+							<p class="p2">四大主打套餐<br />干掉选择困难症</p>
+							<p class="p3">Main package</p>
+						</div>
+						<div class="part2-main">
+							<div class="box clearfix">
+								<div class="fl-lt box-img"><img src="../img/cp/a1.png" alt="" /></div>
+								<div class="box-fonts fl-rt">
+									<p class="p1"><img src="../img/cp/a5.png" alt="" /><span>去火麻辣牛肉套餐</span></p>
+									<p class="p2">精品小份凉菜  蜂蜜龟苓膏<br />主食  麻辣牛肉</p>
+									<p class="p3">SPICY</p>
+								</div>
+							</div>
+							<div class="box clearfix">
+								<div class="box-fonts fl-lt">
+									<p class="p1"><img src="../img/cp/a5.png" alt="" /><span>酸奶藤椒牛肉套餐</span></p>
+									<p class="p2">精品小份凉菜  手工酸奶<br />主食  藤椒牛肉</p>
+									<p class="p3">PEPPER</p>
+								</div>
+								<div class="fl-rt box-img"><img src="../img/cp/a2.png" alt="" /></div>
+							</div>
+							<div class="box clearfix">
+								<div class="fl-lt box-img"><img src="../img/cp/a3.png" alt="" /></div>
+								<div class="box-fonts fl-rt">
+									<p class="p1"><img src="../img/cp/a5.png" alt="" /><span>元气番茄牛肉套餐</span></p>
+									<p class="p2">精品小份凉菜  元气蒸蛋<br />主食  番茄牛肉</p>
+									<p class="p3">TOMATO</p>
+								</div>
+							</div>
+							<div class="box clearfix">
+								<div class="box-fonts fl-lt">
+									<p class="p1"><img src="../img/cp/a5.png" alt="" /><span>雪莉金汤牛肉套餐</span></p>
+									<p class="p2">精品小份凉菜  银耳雪梨汤<br />主食  金汤牛肉</p>
+									<p class="p3">TASTY SOUP</p>
+								</div>
+								<div class="fl-rt box-img"><img src="../img/cp/a4.png" alt="" /></div>
+							</div>
+						</div>
+					</div>
+					<div class="part3">
+						<div class="public-title2">
+							<p class="p1">主打套餐</p>
+							<p class="p2">早餐套餐硬核加入</p>
+							<p class="p3">超长经营时间，门店盈利蹭蹭涨</p>
+						</div>
+						<div class="part3-main">
+							<img src="../img/cp/c1.jpg" alt="" />
+						</div>
+					</div>
+					<div class="public-btn">
+						<p class="topp"><a href="#pp">上一章</a></p>
+						<p class="tomd"><a href="#md">下一章</a></p>
+					</div>
+				</div>-->
+				
+				<!--<div class="swiper-slide md er-ye">
+					<div class="anchor" id="md"></div>
+					<div class="public-title">
+						<p class="p1">门店实况</p>
+						<p class="p2">Store situation</p>
+					</div>
+					<div class="part1">
+						<div class="public-title2">
+							<p class="p1">开店即火爆</p>
+							<p class="p2">潮人必打卡<br />吃货必签到</p>
+							<p class="p3">Hot shop</p>
+						</div>
+						<div class="part1-main">
+							<div class="picScroll-left" id="multipleColumn">
+							    <div class="bd">
+							    	<div class="picList">
+							            <li><img src="../img/md/a1.jpg" alt="" /></li>
+							            <li><img src="../img/md/a1.jpg" alt="" /></li>
+							            <li><img src="../img/md/a1.jpg" alt="" /></li>
+							            <li><img src="../img/md/a1.jpg" alt="" /></li>
+							            <li><img src="../img/md/a1.jpg" alt="" /></li>
+							    	</div>
+							    </div>
+							     <div class="hd">
+						        	<a class="prev arrow arrow-left"><img src="../img/md/arrowL.png" alt="" /></a>
+									<a class="next arrow arrow-right"><img src="../img/md/arrowR.png" alt="" /></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="part2">
+						<div class="public-title2">
+							<p class="p1">魅力不可阻挡</p>
+							<p class="p2">空间设计高大上<br />个性独特效果好</p>
+							<p class="p3">Unique personality</p>
+						</div>
+						<div class="part2-main">
+							<div class="swiper-container gallery-top">
+							    <div class="swiper-wrapper">
+							      <div class="swiper-slide" style="background-image:url(../img/md/b1.jpg)"></div>
+							      <div class="swiper-slide" style="background-image:url(../img/md/b1.jpg)"></div>
+							      <div class="swiper-slide" style="background-image:url(../img/md/b1.jpg)"></div>
+							    </div>
+							    
+							</div>
+							<div class="swiper-container gallery-thumbs">
+							    <div class="swiper-wrapper">
+							      <div class="swiper-slide" style="background-image:url(../img/md/b1.jpg)"></div>
+							      <div class="swiper-slide" style="background-image:url(../img/md/b1.jpg)"></div>
+							      <div class="swiper-slide" style="background-image:url(../img/md/b1.jpg)"></div>
+							    </div>
+							</div>
+						    <div class="swiper-button-next swiper-button-white"></div>
+						    <div class="swiper-button-prev swiper-button-white"></div>
+						</div>
+						
+						<div class="public-btn">
+							<p class="tocp"><a href="#cp">上一章</a></p>
+							<p class="toqy"><a href="#qy">下一章</a></p>
+						</div>
+					</div>
+				</div>-->
+				
+				<!--<div class="swiper-slide qy er-ye">
+					<div class="anchor" id="qy"></div>
+					<div class="public-title">
+						<p class="p1">企业实力</p>
+						<p class="p2">Enterprise strength</p>
+					</div>
+					<div class="part1">
+						<div class="public-title2">
+							<p class="p1">鼎盛传奇谱写传奇</p>
+							<p class="p2">上交所挂牌企业<br />实力操盘</p>
+							<p class="p3">Strength trader</p>
+						</div>
+						<div class="part1-main">
+							<div class="img"><img src="../img/qy/a1.jpg" alt="" /></div>
+							<div class="fonts">
+								鼎盛传奇是中国品质餐饮创业服务商，在北京和广州均设有公司，拥有500多名精英管理团队，采用多元化的服务形式，以客户的成功为宗旨，帮助餐饮合作创业者营运升级，不断发展，成功创业！鼎盛传奇凭借其独具魅力的品牌战略和优质服务，挖掘餐饮产业被低估的价值，助推餐饮品牌正能量发展，打造中国餐饮行业的模范企业，以星星之火掀起燎原之势！
+							</div>
+						</div>
+					</div>
+					<div class="public-btn">
+						<p class="tomd"><a href="#md">上一章</a></p>
+						<p class="tohz"><a href="#hz">下一章</a></p>
+					</div>
+				</div>-->
+				
+				<!--<div class="swiper-slide hz er-ye">
+					<div class="anchor" id="hz"></div>
+					<div class="public-title">
+						<p class="p1">合作优势</p>
+						<p class="p2">Cooperation advantage</p>
+					</div>
+					<div class="part1">
+						<div class="public-title2">
+							<p class="p1">模式赞</p>
+							<p class="p2">牛粉宠爱硬上位<br />线上线下齐发力</p>
+							<p class="p3">堂食+外卖+外带三线营收</p>
+						</div>
+						<div class="part1-main">
+							<img src="../img/hz/a1.jpg" alt="" />
+							<img src="../img/hz/a2.jpg" alt="" />
+						</div>
+					</div>
+					<div class="part2">
+						<div class="public-title2">
+							<p class="p1">服务赞</p>
+							<p class="p2">时间短翻台快<br />超高利润获大赞</p>
+							<p class="p3">全新模式无需大厨，最低两人快速开店</p>
+						</div>
+						<div class="part2-main">
+							<ul >
+								<li>
+									<div class="li-img"><img src="../img/hz/b1.jpg" alt="" /></div>
+									<p class="li-p">上餐快速</p>
+								</li>
+								<li>
+									<div class="li-img"><img src="../img/hz/b2.jpg" alt="" /></div>
+									<p class="li-p">料包直供</p>
+								</li>
+								
+								<li>
+									<div class="li-img"><img src="../img/hz/b3.jpg" alt="" /></div>
+									<p class="li-p">操作简单</p>
+								</li>
+								<li>
+									<div class="li-img"><img src="../img/hz/b4.jpg" alt="" /></div>
+									<p class="li-p">菜品丰富</p>
+								</li>
+								
+								<li>
+									<div class="li-img"><img src="../img/hz/b5.jpg" alt="" /></div>
+									<p class="li-p">消费便捷</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="public-btn">
+						<p class="toqy"><a href="#qy">上一章</a></p>
+						<p class="tofc"><a href="#fc">下一章</a></p>
+					</div>
+				</div>-->
+				
+				<!--<div class="swiper-slide fc er-ye">
+					<div class="anchor" id="fc"></div>
+					<div class="public-title">
+						<p class="p1">创业扶持</p>
+						<p class="p2">Entrepreneurship support</p>
+					</div>
+					<div class="part1">
+						<div class="public-title2">
+							<p class="p1">帮扶赞</p>
+							<p class="p2">我们的帮扶<br />就是帮到你服</p>
+							<p class="p3">持续输出影响力<br />全程跟踪省心当掌柜</p>
+						</div>
+						<div class="part1-main">
+							<img src="../img/fc/a1.jpg" alt="" />
+							<ul>
+								<li>选址支持</li>
+								<li>装修支持</li>
+								<li>培训支持</li>
+								<li>广告支持</li>
+								<li>营销支持</li>
+								<li>开业支持</li>
+								<li>研发支持</li>
+								<li>配送支持</li>
+								<li>运营支持</li>
+								<li>区域支持</li>
+							</ul>
+						</div>
+					</div>
+					<div class="part2">
+						<div class="public-title2">
+							<p class="p1">牛赞商学院</p>
+							<p class="p2">让成功简单复制</p>
+							<p class="p3">完成餐饮小白到大神的蜕变</p>
+						</div>
+						<div class="part2-main">
+							<div class="box clearfix">
+								<div class="box-img fl-lt"><img src="../img/fc/b1.jpg" alt="" /></div>
+								<div class="box-line fl-lt"></div>
+								<div class="box-fonts fl-rt">
+									<p class="p1">不会管理，不用担心</p>
+									<p class="p2">Administration</p>
+									<p class="p3">一对一培训，不怕学不会，招招让你变创业高手。</p>
+								</div>
+							</div>
+							<div class="box clearfix">
+								<div class="box-fonts fl-lt">
+									<p class="p1">不懂经营，不用担心</p>
+									<p class="p2">Management</p>
+									<p class="p3">专业团队带店经营，任何难题，都扼杀在摇篮里。</p>
+								</div>
+								<div class="box-line fl-lt"></div>
+								<div class="box-img fl-rt"><img src="../img/fc/b2.jpg" alt="" /></div>
+							</div>
+							<div class="box clearfix">
+								<div class="box-img fl-lt"><img src="../img/fc/b3.jpg" alt="" /></div>
+								<div class="box-line fl-lt"></div>
+								<div class="box-fonts fl-rt">
+									<p class="p1">没有经验，不用担心</p>
+									<p class="p2">experience</p>
+									<p class="p3">整店输出，专业督导，不需要经验，一样能干好。</p>
+								</div>
+							</div>
+							
+							<img src="../img/fc/b4.jpg" alt="" class="b4-img"/>
+						</div>
+					</div>
+					<div class="public-btn">
+						<p class="tohz"><a href="#hz">上一章</a></p>
+						<p class="tonews"><a href="#news">下一章</a></p>
+					</div>
+				</div>-->
+				
+				<!--<div class="swiper-slide news er-ye">
+					<div class="anchor" id="news"></div>
+					<div class="public-title">
+						<p class="p1">新闻动态</p>
+						<p class="p2">News information</p>
+					</div>
+					<div class="part1">
+						<div class="news-title">
+							<span class="span1">品牌资讯</span>
+							<span class="span2">Brand information</span>
+						</div>
+						<div class="part1-main">
+							<div class="swiper-container news">
+							    <div class="swiper-wrapper">
+							      <div class="swiper-slide"><img src="../img/news/a1.jpg" alt="" /></div>
+							      <div class="swiper-slide"><img src="../img/news/a1.jpg" alt="" /></div>
+							      <div class="swiper-slide"><img src="../img/news/a1.jpg" alt="" /></div>
+							    </div>
+							    <div class="swiper-pagination"></div>
+							</div>
+							<ul>
+								<li>
+									<a href="newsdetail.html">
+										<p class="li-time">2019-10-1 </p>
+										<p class="li-fonts">牛肉消费总额增长，已成肉类消费新选择已成肉类消费新选择已成肉类消费新选择</p>
+									</a>
+								</li>
+								<li>
+									<a href="newsdetail.html">
+										<p class="li-time">2019-10-1 </p>
+										<p class="li-fonts">牛肉消费总额增长，已成肉类消费新选择</p>
+									</a>
+								</li>
+								<li>
+									<a href="newsdetail.html">
+										<p class="li-time">2019-10-1 </p>
+										<p class="li-fonts">牛肉消费总额增长，已成肉类消费新选择</p>
+									</a>
+								</li>
+								<li>
+									<a href="newsdetail.html">
+										<p class="li-time">2019-10-1 </p>
+										<p class="li-fonts">牛肉消费总额增长，已成肉类消费新选择</p>
+									</a>
+								</li>
+							</ul>
+							<div class="fenye">
+								<a href="">上一页</a>
+								<a href="">1</a>
+								<a href="">2</a>
+								<a href="">3</a>
+								<a href="">下一页</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="part1">
+						<div class="news-title">
+							<span class="span1">行业动态</span>
+							<span class="span2">Industry dynamics</span>
+						</div>
+						<div class="part1-main">
+							<div class="swiper-container news">
+							    <div class="swiper-wrapper">
+							      <div class="swiper-slide"><img src="../img/news/a1.jpg" alt="" /></div>
+							      <div class="swiper-slide"><img src="../img/news/a1.jpg" alt="" /></div>
+							      <div class="swiper-slide"><img src="../img/news/a1.jpg" alt="" /></div>
+							    </div>
+							    <div class="swiper-pagination"></div>
+							</div>
+							<ul>
+								<li>
+									<a href="newsdetail.html">
+										<p class="li-time">2019-10-1 </p>
+										<p class="li-fonts">牛肉消费总额增长，已成肉类消费新选择已成肉类消费新选择已成肉类消费新选择</p>
+									</a>
+								</li>
+								<li>
+									<a href="newsdetail.html">
+										<p class="li-time">2019-10-1 </p>
+										<p class="li-fonts">牛肉消费总额增长，已成肉类消费新选择</p>
+									</a>
+								</li>
+								<li>
+									<a href="newsdetail.html">
+										<p class="li-time">2019-10-1 </p>
+										<p class="li-fonts">牛肉消费总额增长，已成肉类消费新选择</p>
+									</a>
+								</li>
+								<li>
+									<a href="newsdetail.html">
+										<p class="li-time">2019-10-1 </p>
+										<p class="li-fonts">牛肉消费总额增长，已成肉类消费新选择</p>
+									</a>
+								</li>
+							</ul>
+							<div class="fenye">
+								<a href="">上一页</a>
+								<a href="">1</a>
+								<a href="">2</a>
+								<a href="">3</a>
+								<a href="">下一页</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="part3">
+						<div class="public-title2">
+							<p class="p1">牛赞</p>
+							<p class="p2">天天排队的牛肉饭<br />终于来了</p>
+						</div>
+						<div class="part3-main">
+							<ul>
+								<li><img src="../img/news/b1.jpg" alt="" /></li>
+								<li><img src="../img/news/b2.jpg" alt="" /></li>
+								<li><img src="../img/news/b3.jpg" alt="" /></li>
+								<li><img src="../img/news/b4.jpg" alt="" /></li>
+							</ul>
+						</div>
+					</div>
+					<div class="public-btn">
+						<p class="tofc"><a href="#fc">上一章</a></p>
+						<p class="toly"><a href="#ly">下一章</a></p>
+					</div>
+				</div>-->
+				
+				<!--<div class="swiper-slide ly er-ye">
+					<div class="anchor" id="ly"></div>
+					<div class="public-title">
+						<p class="p1">合作留言</p>
+						<p class="p2">Cooperative message</p>
+					</div>
+					<div class="form">
+						<input type="text" placeholder="姓名 / Name" class="inp1"/>
+						<input type="text" placeholder="手机 / Phone" class="inp2"/>
+						<input type="text" placeholder="邮箱 / Email"/>
+						<textarea name="" rows="" cols="" placeholder="留言 / Message"></textarea>
+						<button>提交</button>
+					</div>
+					<div class="address">
+						<p class="p1">广州鼎盛传奇餐饮管理有限公司</p>
+						<p class="p2">招商热线：400-698-2013</p>
+						<p class="p3">广州市白云区<br />黄石立交黄园路9号国际单位2期A9栋302厅</p>
+						<p class="line"></p>
+						<p class="p1">北京鼎盛传奇餐饮管理有限公司</p>
+						<p class="p2">招商热线：400-698-4888</p>
+						<p class="p3">北京市亦庄经济技术开发区<br />科创四街36号菁英梦谷1号楼6层整层</p>
+					</div>
+					<img src="../img/news/erweima.jpg" alt="" class="erweima_img"/>
+					<div class="public-btn">
+						<p class="tonews"><a href="#news">上一章</a></p>
+						<p class="toindex">返回首页</p>
+					</div>
+				</div>-->
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+		</div>
+		
+		
+		
+		<script src="../js/jquery-1.11.2.min.js"></script>
+		<script src="../js/swiper.min.js"></script>
+		<script src="../js/jquery.SuperSlide.2.1.1.js"></script>
+		<script src="../js/common.js"></script>
+		<script src="../js/nav.js"></script>
+		<script>
+			jQuery("#multipleColumn .bd li").each(function(i){ jQuery("#multipleColumn .bd li").slice(i*4,i*4+4).wrapAll("<ul></ul>");});
+			jQuery("#multipleColumn").slide({titCell:".hd ul",mainCell:".bd .picList",autoPage:true,effect:"leftLoop"});
+		</script>
+		<script>
+			//	门店缩略图控制
+			var galleryThumbs = new Swiper('.gallery-thumbs', {
+				spaceBetween: 5,
+				slidesPerView:2,
+				direction: 'horizontal',
+				loop: true,
+				freeMode: true,
+				loopedSlides: 5, //looped slides should be the same
+				watchSlidesVisibility: true,
+				watchSlidesProgress: true,
+			});
+			var galleryTop = new Swiper('.gallery-top', {
+				spaceBetween: 5,
+				loop: true,
+				direction: 'horizontal',
+				loopedSlides: 5, //looped slides should be the same
+				navigation: {
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev',
+				},
+				thumbs: {
+					swiper: galleryThumbs,
+				},
+			});
+		</script>
+		<script>
+			//  news 页面切换
+		    var newsSwiper = new Swiper('.news',{
+		      slidesPerView: 1,
+		      spaceBetween: 30,
+		      loop: true,
+		      pagination: {
+		        el: '.swiper-pagination',
+		        clickable: true,
+		      },
+		    });
+		</script>
+	</body>
+</html>

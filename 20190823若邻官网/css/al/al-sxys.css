@@ -1,0 +1,35 @@
+
+
+.mt01{
+	margin-top: 0.1rem;
+}
+.mt02{
+	margin-top: 0.2rem!important;
+}
+.reading{
+	margin-top: 0;
+}
+.reading b{
+	font-family: myfont_Medium;
+	color:#ba1a1f;
+	font-weight: bold;
+}
+
+.p1{
+	font-family: myfont_Light;
+	color:#515151;
+	
+}
+.part1 .p2{
+	font-family: myfont_Medium;
+	font-weight: bold;
+	font-size: 0.24rem;
+	color:#221714;
+}
+.part1-img{
+	display: block;
+	width: 100%;
+}
+.part1{
+	padding-bottom: 0.8rem;
+}

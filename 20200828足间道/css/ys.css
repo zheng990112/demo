@@ -1,0 +1,498 @@
+.main {
+  position: relative;
+  overflow: hidden;
+}
+
+.main::before {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 11.71rem;
+  background: url(../img/pp/bg.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0.15rem;
+  left: 0;
+  z-index: -1;
+}
+
+.fenye-box {
+  margin-top: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.ys1 .pate1 .subTitle .p1 {
+  font-size: 0.6rem;
+}
+
+.ys1 .pate1 .subTitle .p2 {
+  font-size: 0.29rem;
+}
+
+.ys1 .pate1 .theme-box {
+  width: 6.2rem;
+  height: 0.45rem;
+  margin: auto;
+  background-color: #c11b2a;
+  color: #ffffff;
+  text-align: center;
+  font-size: 0.24rem;
+  line-height: 0.45rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.ys1 .pate1 .listPic {
+  width: 6.4rem;
+  margin: auto;
+  text-align: center;
+}
+
+.ys1 .pate1 .listPic li {
+  width: 3.2rem;
+  float: left;
+  margin-top: 0.25rem;
+}
+
+.ys1 .pate1 .listPic .p1 {
+  font-size: 0.3rem;
+  color: #c11b2a;
+  line-height: 0.36rem;
+  font-weight: bold;
+}
+
+.ys1 .pate1 .listPic .p1:nth-child(2) {
+  margin-bottom: 0.15rem;
+}
+
+.ys1 .pate1 .listPic .p2 {
+  font-size: 0.24rem;
+  color: #595757;
+  line-height: 0.27rem;
+}
+
+.ys1 .pate1 .listPic .p2 span {
+  display: block;
+  transform: scale(0.83);
+  -webkit-transform: scale(0.83);
+  -o-transform: scale(0.83);
+  -moz-transform: scale(0.83);
+  -ms-transform: scale(0.83);
+  width: 120%;
+  margin-left: -10%;
+}
+
+.ys1 .pate1 .listPic .p3 {
+  width: 2.9rem;
+  height: 2.9rem;
+  border: 0.01rem solid #c11b2a;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.ys1 .pate1 .listPic .img1 {
+  width: 0.27rem;
+  height: 0.27rem;
+  display: block;
+  margin: auto;
+  margin-top: 0.1rem;
+  margin-bottom: 0.2rem;
+}
+
+.ys1 .pate1 .listPic .p3 img {
+  width: 2.68rem;
+  height: 2.68rem;
+  margin: auto;
+  display: block;
+  border-radius: 50%;
+  margin-top: 0.1rem;
+}
+
+.ys1 .pate1 .listPic li:first-child div.text {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.ys1 .pate1 .listPic li:first-child div.text::before {
+  content: "";
+  width: 1px;
+  height: 100%;
+  background-color: #cccccc;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.ys1 .pate1 .listPic li:last-child {
+  width: 100%;
+  margin-top: 0.45rem;
+}
+
+.ys1 .pate1 .listPic li:last-child>div {
+  float: right;
+  width: 3.2rem;
+  margin-top: 0.4rem;
+}
+
+.ys1 .pate1 .listPic li:last-child .p3 {
+  float: left;
+  margin-left: 0.15rem;
+}
+
+.ys2 .pate1 .subTitle .p4 {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.ys2 .pate1 .listPic {
+  width: 6.4rem;
+  margin: auto;
+}
+
+.ys2 .pate1 .listPic li {
+  width: 3.2rem;
+  float: left;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.ys2 .pate1 .listPic li div {
+  width: 3.2rem;
+  position: relative;
+}
+
+.ys2 .pate1 .listPic li:nth-child(2n) div::before {
+  content: "";
+  width: 1px;
+  height: 100%;
+  background-color: #cccccc;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.ys2 .pate1 .listPic .p1 {
+  color: #595757;
+  font-size: 0.28rem;
+  font-weight: bold;
+}
+
+.ys2 .pate1 .listPic .p2 {
+  color: #c11b2a;
+  font-size: 0.48rem;
+  font-weight: bold;
+}
+
+.ys2 .pate1 .listPic .img1 {
+  display: block;
+  margin: auto;
+  width: 0.27rem;
+  height: 0.27rem;
+  margin-top: 0.1rem;
+  margin-bottom: 0.2rem;
+}
+
+.ys2 .pate1 .listPic .img2 {
+  width: 2.45rem;
+  height: 2.45rem;
+  display: block;
+  margin: auto;
+  border: 0.2rem solid #dbdcdc;
+  border-radius: 50%;
+}
+
+.ys2 .pate1 .listPic li:first-child {
+  width: 100%;
+  position: relative;
+}
+
+.ys2 .pate1 .listPic li:first-child div {
+  float: right;
+  margin-top: 0.7rem;
+}
+
+.ys2 .pate1 .listPic li:first-child .img1 {
+  position: absolute;
+  right: 1.6rem;
+  top: 1.68rem;
+  margin-right: -0.135rem;
+}
+
+.ys2 .pate1 .listPic li:first-child .img2 {
+  float: left;
+}
+
+.ys2 .pate1 .last-box {
+  width: 100%;
+  height: 1.5rem;
+  margin-top: 0.6rem;
+  margin-bottom: 0.15rem;
+  background: url(../img/ys/b5.png) center no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.ys2 .pate1 .last-box div {
+  padding-top: 0.28rem;
+  display: inline-block;
+  height: 100%;
+  margin: 0 0.2rem;
+}
+
+.ys2 .pate1 .last-box div:first-child {
+  margin-left: 0;
+}
+
+.ys2 .pate1 .last-box div:last-child {
+  margin-right: 0;
+}
+
+.ys2 .pate1 .last-box div img {
+  display: inline-block;
+  width: 0.94rem;
+  height: 0.94rem;
+  vertical-align: middle;
+}
+
+.ys2 .pate1 .last-box div p {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0.24rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.ys3 .pate1 .subTitle .p1 {
+  font-size: 0.78rem;
+}
+
+.ys3 .pate1 .subTitle .p2 {
+  font-size: 0.32rem;
+}
+
+.ys3 .pate1 .subTitle {
+  padding-top: 0.2rem;
+  padding-bottom: 0.3rem;
+}
+
+.ys3 .pate1 .str {
+  width: 6.4rem;
+  margin: auto;
+  text-align: center;
+  font-size: 0.24rem;
+  line-height: 0.38rem;
+  font-weight: bold;
+  color: #595759;
+}
+
+.ys3 .pate1 .img-last {
+  display: block;
+  width: 6.4rem;
+  margin: auto;
+  margin-top: 0.5rem;
+}
+
+.ys4 .subTitle .p4 .span1 {
+  font-size: 0.68rem;
+}
+
+.ys4 .subTitle .p4 p {
+  font-size: 0.32rem;
+}
+
+.ys4 .subTitle .p4 div {
+  margin-top: -0.3rem;
+}
+
+.ys4 .subTitle {
+  padding-top: 0.2rem;
+}
+
+.ys4 .first-img {
+  position: relative;
+  padding-top: 0.48rem;
+  padding-bottom: 0.48rem;
+  margin-top: 0.45rem;
+}
+
+.ys4 .first-img::after,
+.ys4 .first-img::before {
+  content: "";
+  width: 100%;
+  height: 0.49rem;
+  background: url(../img/ys/d1.jpg) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+}
+
+.ys4 .first-img::after {
+  bottom: 0;
+}
+
+.ys4 .first-img::before {
+  top: 0;
+}
+
+.ys4 .first-img img {
+  display: block;
+  width: 100%;
+}
+
+.ys4 .pate2 .subTitle {
+  margin-top: 0.5rem;
+}
+
+.ys4 .pate2 .subTitle .p1 {
+  font-size: 0.59rem;
+}
+
+.ys4 .pate2 .str-box {
+  width: 6.3rem;
+  margin: auto;
+  margin-top: 0.2rem;
+}
+
+.ys4 .pate2 .str-box .p1 {
+  font-size: 0.5rem;
+  color: #c11b2a;
+  font-weight: bold;
+  padding-bottom: 0.1rem;
+  border-bottom: 1px solid #cccccc;
+}
+
+.ys4 .pate2 .str-box .p1 span {
+  font-size: 0.26rem;
+  color: #595757;
+  text-transform: uppercase;
+}
+
+.ys4 .pate2 .str-box .p2 {
+  font-size: 0.24rem;
+  line-height: 0.39rem;
+  color: #595757;
+  margin-top: 0.1rem;
+  text-align: justify;
+}
+
+.ys4 .pate2 .str-box .p2 span {
+  display: block;
+  transform: scale(0.83);
+  -webkit-transform: scale(0.83);
+  -o-transform: scale(0.83);
+  -moz-transform: scale(0.83);
+  -ms-transform: scale(0.83);
+  width: 120%;
+  margin-left: -10%;
+}
+
+.ys4 .pate2 .str-box img {
+  display: block;
+  width: 100%;
+  margin-top: 0.2rem;
+  margin-bottom: 0.6rem;
+}
+
+.ys5 .subTitle .p1 {
+  font-size: 0.46rem;
+}
+
+.ys5 .subTitle .p2 {
+  font-size: 0.34rem;
+}
+
+.ys5 .listPic {
+  width: 6.3rem;
+  margin: auto;
+  margin-top: 0.35rem;
+}
+
+.ys5 .listPic li {
+  float: left;
+  width: 2rem;
+  margin-left: 0.08rem;
+  height: 3.18rem;
+  border: 1px solid #cccccc;
+  border-radius: 0.2rem;
+  text-align: center;
+}
+
+.ys5 .listPic li:nth-child(3n+1) {
+  margin-left: 0;
+}
+
+.ys5 .listPic .p1 {
+  font-size: 0.3rem;
+  color: #c11b2a;
+  font-weight: bold;
+  padding-top: 0.1rem;
+  padding-bottom: 0.05rem;
+}
+
+.ys5 .listPic .p2 {
+  color: #595757;
+  line-height: 0.24rem;
+  font-size: 0.24rem;
+}
+
+.ys5 .listPic .p2 span {
+  display: block;
+  transform: scale(0.67);
+  -webkit-transform: scale(0.67);
+  -o-transform: scale(0.67);
+  -moz-transform: scale(0.67);
+  -ms-transform: scale(0.67);
+  width: 149%;
+  margin-left: -24.5%;
+}
+
+.ys5 .listPic .img1 {
+  display: block;
+  margin: auto;
+  width: 0.27rem;
+  height: 0.27rem;
+  margin-top: 0.1rem;
+  margin-bottom: 0.15rem;
+}
+
+.ys5 .listPic .img2 {
+  width: 1.9rem;
+  height: 1.56rem;
+  display: block;
+  margin: auto;
+  border-bottom-left-radius: 0.2rem;
+  border-bottom-right-radius: 0.2rem;
+}
+
+@media (max-width:340px) {
+  .ys5 .listPic .p2 span {
+    display: block;
+    transform: scale(0.58);
+    -webkit-transform: scale(0.58);
+    -o-transform: scale(0.58);
+    -moz-transform: scale(0.58);
+    -ms-transform: scale(0.58);
+    width: 172%;
+    margin-left: -36%;
+  }
+}
+
+@media (max-width:360px) {
+  .ys2 .pate1 .last-box {
+    background: url(../img/ys/b5.png) center no-repeat;
+    background-size: 110% 100%;
+  }
+  .ys2 .pate1 .last-box div p span {
+    display: block;
+    transform: scale(0.91);
+    -webkit-transform: scale(0.91);
+    -o-transform: scale(0.91);
+    -moz-transform: scale(0.91);
+    -ms-transform: scale(0.91);
+    width: 110%;
+    margin-left: -5%;
+  }
+}

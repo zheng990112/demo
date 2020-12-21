@@ -1,0 +1,33 @@
+
+.mt02{
+	margin-top: 0.2rem;
+}
+.mt05{
+	margin-top: 0.5rem;
+}
+.mt03{
+	margin-top: 0.3rem;
+}
+.mb02{
+	margin-bottom: 0.2rem;
+}
+.part1 .p1{
+	color:#7e7f80;
+	font-family: myfont_Light;
+}
+.part1 .part1-img{
+	display: block;
+	width: 100%;
+}
+.part1 .p2{
+	font-family: myfont_Medium;
+	color:#515151;
+	font-weight: bold;
+}
+.part1 .p3{
+	font-family: myfont_Light;
+	color:#515151;
+}
+.part1{
+	padding-bottom: 1rem;
+}

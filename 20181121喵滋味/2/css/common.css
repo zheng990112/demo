@@ -1,0 +1,344 @@
+/*引入字体*/
+@font-face{
+	font-family: myfont;
+	src: url('../fonts/E111AGIO.TTF');
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family:"Microsoft Yahei";
+	color: #333;
+	background: #fff;
+	-webkit-font-smoothing: antialiased;
+	font-size: 12px;
+	-webkit-text-size-adjust: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+	-webkit-tap-highlight-color: transparent;
+	display: block;
+}
+label{
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+ul li,
+ol li{
+	list-style: none;
+}
+input,img,textarea,button{
+	outline: none;
+	border: 0;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	-webkit-appearance: none;
+}
+button{
+	background: none;
+	outline: none;
+}
+b{
+	font-weight: normal;
+}
+u{
+	text-decoration: none;
+}
+em,i{
+	font-style: normal;
+}
+.fl-lt{
+	float: left;
+}
+.fl-rt{
+	float: right;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.comWidth{
+	padding: 0 .6rem;
+}
+.comWidth2{
+	padding: 0 .4rem;
+}
+.img-block{
+	width: 100%;
+	display: block;
+}
+.none{
+	display: none!important;
+}
+
+
+
+
+
+
+
+html,
+body {
+	position: relative;
+	height: 100%;
+}
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide{
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+	position:relative;
+}
+
+.bg-img{
+	display: block;
+	width:100%;
+	height: 100%;
+	position:absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.menu-img{
+	position:fixed;
+	width: 1.14rem;
+	height: 1.58rem;
+	top: 0.3rem;
+	right: 0.3rem;
+	z-index: 99;
+}
+.menu-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/*导航*/
+.menu{
+	position: fixed;
+	right: -50%;
+	top: 1.9rem;
+	z-index: 222!important;
+	width:1.14rem;
+	background-color:rgba(0,0,0,0.5);
+	text-align: center;
+	border-radius:0.57rem;
+	padding:0.25rem 0;
+	border:0.1rem solid rgba(255,255,255,0.5);
+}
+.menu ul li{
+	height: 0.4rem;
+	margin:0 auto;
+	line-height: 0.4rem;
+}
+.menu ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color:#fff;
+}
+.menu ul li a span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+}
+.menu ul li.active a{
+	color:red;
+}
+
+
+
+.bg{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,.0);
+    z-index: 99;
+    display: none;
+}
+
+
+
+
+/*header*/
+.header .header-title{
+	width: 4.04rem;
+	height: 0.88rem;
+	background: url(../img/title.png) no-repeat;
+	background-size: 100% 100%;
+	margin:0 auto;
+	margin-top: 0.4rem;
+	text-align: center;
+	line-height: 1rem;
+	font-size: 0.36rem;
+	font-weight: bold;
+}
+.public-title{
+	position:relative;
+}
+.public-title .title-l{
+	width: 1.5rem;
+	height: 0.4rem;
+	background-color: #000;
+	border-radius: 0.2rem;
+	color:#fff;
+	font-size: 0.28rem;
+	font-weight: bold;
+	text-align: center;
+	line-height: 0.4rem;
+	position:relative;
+	z-index: 2;
+}
+.public-title .title-r{
+	width: 100%;
+	height: 1px;
+	position:absolute;
+	top:0.2rem;
+	right: 0;
+	background-color: #000;
+}
+
+
+
+/*btn*/
+.btn-box{
+	text-align: center;
+	margin:0.4rem 0;
+}
+.btn-box div{
+	display:inline-block;
+	width: 1.66rem;
+	height: 0.54rem;
+	text-align: center;
+	line-height: 0.54rem;
+	border-radius:0.27rem;
+	background-color: #231815;
+	margin:0 0.1rem;
+}
+.btn-box div a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color:#fff;
+}
+.btn-box div span{
+	display: inline-block;
+	vertical-align: middle;
+}
+.btn-box div img{
+	width: 0.18rem;
+	height: 0.32rem;
+	display: inline-block;
+	vertical-align: middle;
+}
+.btn-box div.prev img{
+	margin-right: 0.1rem;
+}
+.btn-box div.next img{
+	margin-left: 0.1rem;
+}
+
+
+
+
+
+
+
+
+
+/*超两行显省略号*/
+.two-ellipsis{
+	text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+/*字体为12像素*/
+.font_12{
+/*	font-size: .18rem;*/
+	font-size: .24rem;
+	transform: scale(.5);
+	-webkit-transform: scale(.5);
+	-o-transform: scale(.5);
+	-moz-transform: scale(.5);
+	-ms-transform: scale(.5);
+	width: 200%;
+	margin-left: -50%;
+}
+/*字体为14像素*/
+.font_14{
+/*	font-size: .18rem;*/
+	font-size: .24rem;
+	transform: scale(.58);
+	-webkit-transform: scale(.58);
+	-o-transform: scale(.58);
+	-moz-transform: scale(.58);
+	-ms-transform: scale(.58);
+	width: 170%;
+	margin-left: -35%;
+}
+
+/*字体为16像素*/
+.font_16{
+/*	font-size: .18rem;*/
+	font-size: .24rem;
+	transform: scale(.67);
+	-webkit-transform: scale(.67);
+	-o-transform: scale(.67);
+	-moz-transform: scale(.67);
+	-ms-transform: scale(.67);
+	width: 150%;
+	margin-left: -25%;
+}
+
+/*字体为18像素*/
+.font_18{
+/*	font-size: .18rem;*/
+	font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+}
+
+/*字体为20像素*/
+.font_20{
+	/*	font-size: .2rem;*/
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+}
+
+/*字体为22像素*/
+.font_22{
+	/*	font-size: .22rem;*/
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+}
+
+

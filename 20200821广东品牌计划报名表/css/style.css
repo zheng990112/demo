@@ -1,0 +1,421 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    font-family: 'Microsoft Yahei';
+    font-size: 0.24rem;
+    background-color: #ffffff;
+    color: #000000;
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* 自定义标签样式 */
+
+a {
+    text-decoration: none;
+    color: #000;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+}
+
+label {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ul li,
+ol li {
+    list-style: none;
+}
+
+input,
+img,
+textarea,
+button {
+    outline: none;
+    border: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-appearance: none;
+}
+
+button {
+    background: none;
+    outline: none;
+}
+
+b {
+    font-weight: normal;
+}
+
+u {
+    text-decoration: none;
+}
+
+
+/*自定义选框*/
+label input{
+	display: none;
+}
+label{
+	display: inline-block;
+	position:relative;
+}
+label input + i::after{
+	content:"";
+	display: inline-block;
+	width: 0.22rem;
+	height: 0.22rem;
+	background: url(../img/active.png) no-repeat;
+	background-size: 100% 100%; 
+}
+label input:checked + i:after{
+    content: "";
+    display: inline-block;
+    width: 0.22rem;
+    height: 0.22rem;
+    background: url(../img/active-on.png) no-repeat;
+    background-size: 100% 100%;
+}
+label{
+	font-size: 0.24rem;
+	line-height: 0.22rem;
+	color:#000000;
+	padding-left: 0.3rem;
+}
+label input + i::after{
+	position:absolute;
+	top: 50%;
+	left:0;
+	margin-top: -0.11rem;
+}
+label input:checked + i:after{
+	position:absolute;
+	top: 50%;
+	left:0;
+	margin-top: -0.11rem;
+}
+
+
+
+
+.header{
+	width: 7rem;
+	margin:0 auto;
+}
+.header .p1{
+	font-size: 0.3rem;
+    color: #808080;
+    border-bottom: 1px solid #808080;
+    line-height: 1.2rem;
+    height: 1.2rem;
+    position: relative;
+}
+.header .p1 img{
+	width:0.9rem;
+	display: block;
+	position:absolute;
+	right: 0;
+	bottom: 0.1rem;
+}
+.header .p2{
+	text-align: center;
+	font-size: 0.3rem;
+	color:#000;
+	line-height: 0.6rem;
+	height: 0.6rem;
+	
+}
+
+.part1{
+	width: 7rem;
+	margin:0 auto;
+	margin-top: 0.2rem;
+}
+.part1 .top_p1{
+	font-size: 0.28rem;
+	font-weight: bold;
+	color:#000;
+}
+.part1 .top_p2{
+	font-size: 0.24rem;
+	line-height: 0.36rem;
+	margin-top: 0.2rem;
+}
+.part1 .top_p2 span{
+	display: inline-block;
+	vertical-align: top;
+}
+.part1 .top_p2 .fonts{
+	width: 6.5rem;
+	text-align: justify;
+}
+.part1 .top_p3{
+	margin-top: 0.2rem;
+}
+.part1 .top_p3 span{
+	display: inline-block;
+	text-align: justify;
+	font-size: 0.24rem;
+	line-height: 0.36rem;
+	text-indent:0.48rem;
+	
+}
+
+input::-webkit-input-placeholder ,
+textarea::-webkit-input-placeholder {
+	color:#c2c2c2;
+    font-family: 'Microsoft Yahei';
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+/* FF 4-18 */
+	color:#c2c2c2;
+    font-family: 'Microsoft Yahei';
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+/* FF 19+ */
+	color:#c2c2c2;
+    font-family: 'Microsoft Yahei';
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+/* IE 10+ */
+	color:#c2c2c2;
+    font-family: 'Microsoft Yahei';
+}
+
+
+.radio label{
+	margin-right: 0.2rem;
+}
+
+
+.table{
+	width: 100%;
+	border: 1px solid #000;
+    margin-top: 0.4rem;
+}
+.table p{
+	float:left;
+	border-bottom:1px solid #000;
+	border-right:1px solid #000;
+	text-align: center;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    box-sizing: border-box;
+}
+.table p:last-child{
+	border-right:none;
+}
+.table .tr:last-child p{
+	border-bottom: none;
+}
+.table p.fonts{
+	width:20%;
+}
+.table .tr{
+	font-size: 0.24rem;
+	color:#000;
+}
+.table .tr::after{
+	content:"";
+	display: block;
+	clear:both;
+}
+.table .tr .inp{
+	width:30%;
+}
+.table .tr .inp input{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.table .tr .radio1,
+.table .tr .radio2{
+	width: 80%;
+}
+.table .textarea-box{
+	display: block;
+	height: 1.4rem;
+}
+.table .textarea-box p{
+	width: 100%;
+	height: 100%;
+}
+.table .textarea-box p textarea{
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding-left: 0.1rem;
+	padding-top: 0.1rem;
+	box-sizing: border-box;
+	resize: none;
+}
+.table .satisfied p{
+	width: 100%;
+	text-align: left;
+	padding-left: 0.1rem;
+	box-sizing: border-box;
+	border-right: none;
+}
+.table .satisfied p input{
+	display: inline-block;
+	width: 1.2rem;
+	height: 0.28rem;
+	border-bottom: 1px solid #000;
+	text-align: center;
+}
+.table .satisfied .radio6 input{
+	display: none;
+}
+.table .satisfied div{
+	width: 100%;
+	border-bottom: 1px solid #000;
+	height: 0.6rem;
+	line-height: 0.6rem;
+}
+.table .tr .p_title{
+	display: block;
+	width: 100%;
+	text-align: left;
+	padding-left: 0.1rem;
+	box-sizing: border-box;
+	border:none;
+}
+.table .tr .radio3{
+	width: 100%;
+	text-align: left;
+	padding-left: 0.1rem;
+	box-sizing: border-box;
+	padding-bottom: 0.2rem;
+	height:1rem;
+	line-height: 0.4rem;
+}
+.table .tr .radio3 .radio_inp{
+	display: inline-block;
+	width: 1.2rem;
+	height: 0.28rem;
+	border-bottom: 1px solid #000;
+	text-align: center;
+}
+.table .anticipatory{
+	text-align: left;
+	box-sizing: border-box;
+}
+.table .tr .stage{
+	width: 100%;
+	text-align: left;
+	padding-left: 0.1rem;
+	box-sizing: border-box;
+	font-weight: bold;
+}
+.table .tr .choice{
+	display: block;
+	width: 100%;
+	text-align: left;
+	padding-left: 0.1rem;
+	box-sizing: border-box;
+}
+.table .tr .radio4{
+	height: 1rem;
+	line-height: 0.4rem;
+	text-align: left;
+	padding-left: 0.1rem;
+	box-sizing: border-box;
+	
+}
+.table .tr .radio4 .radio_inp {
+    display: inline-block;
+    width: 1.2rem;
+    height: 0.28rem;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+
+.table .tr .radio5{
+	height: 1rem;
+	line-height: 0.4rem;
+	text-align: left;
+	padding-left: 0.1rem;
+	box-sizing: border-box;
+}
+.table .tr .radio5 .radio_inp {
+    display: inline-block;
+    width: 1rem;
+    height: 0.28rem;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+.table .tr .radio3 .three_inp1,
+.table .tr .radio3 .three_inp2,
+.table .tr .radio3 .three_inp3,
+.table .tr .radio3 .three_inp4,
+.table .tr .radio4 .four_inp1,
+.table .tr .radio5 .five_inp1{
+	position:absolute;
+	width:100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	background-color:transparent;
+	border:none;
+}
+
+
+
+.contact{
+	width: 7rem;
+	margin:0 auto;
+	border-top: 2px solid #000;
+	padding-top: 0.1rem;
+	margin-top: 0.4rem;
+	padding-bottom: 1rem;
+}
+.contact .p1{
+	font-size: 0.24rem;
+    line-height: 0.36rem;
+}
+.contact .btn{
+	font-size: 0.32rem;
+	color:#fff;
+	width: 2rem;
+	height: 0.5rem;
+	background-color: #d61518;	
+	border-radius: 0.25rem;
+	display: block;
+	margin:0.4rem auto;
+}
+
+
+.border_bottom{
+	border:none!important;
+	border-bottom: 1px solid #000!important;
+}
+.table .textarea-box p textarea{
+	color: #000;
+    font-family: 'Microsoft Yahei';
+}
+
+
+.table .tr .radio4 .radio_inp{
+	width: 3.5rem;
+}
+.table .tr .radio5 .radio_inp{
+	width: 3.5rem;
+}
+.table .tr .radio5{
+	height: 1.3rem;
+}
+@media (max-width:320px){
+	.table .tr .choice{
+		height: 0.8rem;
+    	line-height: 0.4rem;
+	}
+}

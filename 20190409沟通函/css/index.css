@@ -1,0 +1,574 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "Microsoft Yahei", "Hiragino Sans GB";
+	color: #282828;
+	background: #fff;
+	-webkit-font-smoothing: antialiased;
+	font-size: 12px;
+	-webkit-text-size-adjust: none;
+	overflow-x: hidden;
+}
+body{
+	overflow-x: hidden;
+}
+a {
+	text-decoration: none;
+	color: #000;
+	-webkit-tap-highlight-color: transparent;
+	display: block;
+}
+
+label {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ul li,
+ol li {
+	list-style: none;
+}
+
+input,
+img,
+textarea,
+button {
+	outline: none;
+	border: 0;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-appearance: none;
+}
+
+button {
+	background: none;
+	outline: none;
+}
+
+b {
+	font-weight: normal;
+}
+
+u {
+	text-decoration: none;
+}
+
+em,
+i {
+	font-style: normal;
+}
+
+.fl-lt {
+	float: left;
+}
+
+.fl-rt {
+	float: right;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+
+/*public*/
+.line-img{
+	width: 100%;
+	margin-top: 0.4rem;
+}
+/*占位符默认样式设置*/
+input::-webkit-input-placeholder ,
+textarea::-webkit-input-placeholder {
+	font-family: "微软雅黑"
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+/* FF 4-18 */
+	font-family: "微软雅黑"
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+/* FF 19+ */
+	font-family: "微软雅黑"
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+/* IE 10+ */
+	font-family: "微软雅黑"
+}
+
+
+/*自定义选框*/
+label input{
+	display: none;
+}
+label{
+	display: inline-block;
+	position:relative;
+}
+label input + i::after{
+	content:"";
+	display: inline-block;
+	width: 0.3rem;
+	height: 0.3rem;
+	background: url(../img/active.png) no-repeat;
+	background-size: 100% 100%; 
+}
+label input:checked + i:after{
+    content: "";
+    display: inline-block;
+    width: 0.3rem;
+    height: 0.3rem;
+    background: url(../img/active-on.png) no-repeat;
+    background-size: 100% 100%;
+}
+label{
+	font-size: 0.3rem;
+	line-height: 0.3rem;
+	color:#000000;
+	padding-left: 0.4rem;
+}
+label input + i::after{
+	position:absolute;
+	top: 0;
+	left: 0;
+}
+label input:checked + i:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+/*header*/
+.header .header-top{
+	display: inline-block;
+	padding:0 0.2rem;
+	background-color: #d61518;
+	border-radius:0 0.15rem 0.15rem 0;
+	font-size: 0.24rem;
+	text-align:center;
+	line-height: 0.3rem;
+	color:#fff;
+	margin-top: 0.4rem;
+}
+.header .header-fonts{
+	font-size: 0.26rem;
+	color:#333333;
+	width: 90%;
+	margin:0 auto;
+	margin-top: 0.3rem;
+	line-height: 0.36rem;
+}
+
+
+
+/*.part1*/
+.part1{
+	padding:0 0.3rem;
+	box-sizing: border-box;
+}
+.part1 .box span{
+	font-size: 0.28rem;
+	color:#333333;
+	display: inline-block;
+	vertical-align: middle;
+}
+.part1 .box input{
+	width: 4.9rem;
+	height: 0.4rem;
+	background-color: #efefef;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left:0.1rem;
+	box-sizing: border-box;
+}
+.part1 .box .shuru_img{
+	display: inline-block;
+	vertical-align: middle;
+	width: 0.3rem;
+	height: 0.3rem;
+	margin-left: 0.1rem;
+}
+.part1 .box{
+	margin-top: 0.4rem;
+	position:relative;
+}
+.part1 .fw .shuru_img{
+    position: absolute;
+    right: 0.7rem;
+    margin-top: 0.05rem;
+}
+.part1 .fw p{
+	font-size: 0.28rem;
+	color:#333333;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 0.1rem;
+}
+.part1 .textarea-box p{
+	font-size: 0.28rem;
+	color:#333333;
+}
+.part1 textarea{
+	width: 100%;
+	height: 2.3rem;
+	background-color: #efefef;
+	margin-top: 0.25rem;
+	padding:0.2rem;
+	box-sizing: border-box;
+	resize: none;
+}
+
+
+.part2{
+	margin-top: 0.5rem;
+	padding:0 0.3rem;
+	box-sizing: border-box;
+}
+.part2 .part2-title{
+	margin-bottom: 0.4rem;
+}
+.part2 .part2-title .line{
+	width: 2px;
+	height: 0.34rem;
+	background-color: #d61518;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 0.2rem;
+}
+.part2 .part2-title p{
+	font-size: 0.32rem;
+	font-weight: bold;
+	color:#333333;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 0.34rem;
+}
+.part2 .part2-radio label{
+	margin-right: 0.2rem;
+}
+
+.part2 .textarea-box{
+	margin-top: 0.5rem;
+}
+.part2 .textarea-box p{
+	font-size: 0.28rem;
+	color:#333333;
+}
+.part2 textarea{
+	width: 100%;
+	height: 2.3rem;
+	background-color: #efefef;
+	margin-top: 0.25rem;
+	padding:0.2rem;
+	box-sizing: border-box;
+	resize: none;
+}
+
+
+
+
+/*.part3*/
+.part3{
+	padding:0 0.3rem;
+	box-sizing: border-box;
+}
+.part3 .part3-main{
+	font-size: 0.28rem;
+	color:#333333;
+	margin-top: 0.5rem;
+}
+.part3 input{
+	width: 4.9rem;
+	height: 0.4rem;
+	background-color: #efefef;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left:0.1rem;
+	box-sizing: border-box;
+}
+.part3 .shuru_img{
+	display: inline-block;
+	vertical-align: middle;
+	width: 0.3rem;
+	height: 0.3rem;
+	margin-left: 0.1rem;
+}
+.part3 .box1 p,
+.part3 .box1 input{
+	display: inline-block;
+	vertical-align: middle;
+}
+.part3 .box1 input{
+	width: 4.4rem;
+}
+
+.part3 .box2{
+	margin-top: 0.4rem;
+}
+.part3 .box2 input{
+	display: none;
+}
+.part3 .box2 .radio-top{
+	display: flex;
+	justify-content:space-between;
+	margin:0.25rem 0;
+}
+.part3 .box2 input.inp{
+	display: inline-block;
+	width: 4.7rem;
+	background-color: transparent;
+	border-bottom: 1px solid #cccccc;
+}
+.part3 .box2 .two{
+	position:relative;
+}
+.part3 .box2 .two .shuru_img{
+	width: 0.3rem;
+	height: 0.3rem;
+	position:absolute;
+	right: 0;
+	top: 0.05rem;
+}
+
+
+.part3 .box3{
+	margin:0.35rem 0;
+}
+
+.part3 .box4 p{
+	margin-bottom: 0.3rem;
+}
+.part3 .box4 input{
+	width: 6.4rem;
+}
+.part3 .box5{
+	margin-top: 0.3rem;
+}
+.part3 .box5 div{
+	margin-top: 0.3rem;
+}
+.part3 .box5 div p{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 0.4rem;
+}
+.part3 .box5 div input{
+	width: 5.35rem;
+}
+
+
+.part3 .box6{
+	margin-top: 0.3rem;
+}
+.part3 .box6 .box6-radio{
+	margin-left: 0.4rem;
+}
+.part3 .box6 .box6-radio input{
+	display: none;
+}
+.part3 .box6 .box6-radio input.inp{
+	display: inline-block;
+	width:5.4rem;
+	background-color: transparent;
+    border-bottom: 1px solid #666666;
+}
+.part3 .box6 .box6-radio .three{
+	position:relative;
+	margin-top: 0.3rem;
+}
+.part3 .box6 .box6-radio .three .shuru_img{
+    width: 0.3rem;
+    height: 0.3rem;
+    position: absolute;
+    right: 0;
+    top: 0.05rem;
+}
+
+.part3 .box7{
+	margin-top: 0.3rem;
+}
+.part3 .box7 p{
+	margin-bottom: 0.3rem;
+}
+.part3 .box7 input{
+	width: 6.4rem;
+}
+
+.part3 .box8{
+	margin-top: 0.3rem;
+}
+.part3 .box8 p{
+	display: inline-block;
+}
+.part3 .box8 input{
+	width: 3.9rem;
+}
+.part3 .box8-2{
+	margin-left: 0.5rem;
+}
+.part3 .box8-2 input{
+	width: 4.4rem;
+}
+
+
+.part3 .box9{
+	margin-top: 0.3rem;
+}
+.part3 .box9 textarea{
+    width: 100%;
+    height: 1.5rem;
+    background-color: #efefef;
+    margin-top: 0.25rem;
+    padding: 0.2rem;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.part3 .box10{
+	margin-top: 0.2rem;
+}
+.part3 .box10 input{
+	display: none;
+}
+.part3 .box10 label{
+	display:block;
+	margin-left: 0.4rem;
+	margin-top: 0.26rem;
+	color:#666666;
+	position:relative;
+}
+.part3 .box10 input.inp{
+	display: inline-block;
+	background-color: transparent;
+    border-bottom: 1px solid #666666;
+    width:3.9rem;
+}
+.part3 .box10 label.four  .shuru_img{
+	width: 0.3rem;
+    height: 0.3rem;
+    position: absolute;
+    right: 0;
+    top: 0.05rem;
+}
+
+.part3 .box11{
+	margin-top: 0.3rem;
+}
+.part3 .box11 p{
+	margin-bottom: 0.3rem;
+}
+.part3 .box11 .input-box{
+	position:relative;
+	display: inline-block;
+	vertical-align: middle;
+}
+.part3 .box11 span{
+	display: inline-block;
+	vertical-align: middle;
+}
+.part3 .box11 .input-box .shuru_img {
+    width: 0.3rem;
+    height: 0.3rem;
+    position: absolute;
+    right: 0;
+    top:0.05rem;
+}
+.part3 .box11 .input-box input{
+	width: 5rem;
+}
+
+
+
+.part4{
+	padding:0 0.3rem;
+	box-sizing: border-box;
+}
+.part4 p{
+	font-size: 0.28rem;
+    color: #333333;
+    margin-top: 0.5rem;
+}
+.part4 label{
+	display: block;
+	position:relative;
+	margin-left: 0.5rem;
+	margin-top: 0.3rem;
+	color:#666;
+}
+.part4 label input.inp {
+    display: inline-block;
+    background-color: transparent;
+    border-bottom: 1px solid #666666;
+    width: 4.7rem;
+}
+.part4 label .shuru_img {
+    width: 0.3rem;
+    height: 0.3rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.part4 textarea{
+	width: 100%;
+    height:2.4rem;
+    background-color: #efefef;
+    margin-top: 0.25rem;
+    padding: 0.2rem;
+    box-sizing: border-box;
+    resize: none;
+}
+.part5{
+	padding:0 0.3rem;
+	box-sizing: border-box;
+	padding-top: 0.3rem;
+}
+.part5 div{
+	margin-bottom: 0.4rem;
+}
+.part5 div p {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0.28rem;
+    color: #333333;
+}
+.part5 div input {
+    width:5.4rem;
+    height: 0.4rem;
+    background-color: #efefef;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 0.1rem;
+    box-sizing: border-box;
+}
+.part5 div .shuru_img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 0.3rem;
+    height: 0.3rem;
+    margin-left: 0.1rem;
+}
+
+.foot{
+	width: 100%;
+	height: 1.3rem;
+	background-color: #efefef;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.foot .btn{
+	display:block;
+	width: 6.9rem;
+	height: 0.7rem;
+	background-color: #d61518;
+	font-size: 0.32rem;
+	color:#ffffff;
+}

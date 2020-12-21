@@ -1,0 +1,33 @@
+section {
+    padding-bottom: 0.76rem;
+}
+
+.news-title {
+    font-size: 0.36rem;
+    font-weight: bold;
+    padding: 0.2rem 0;
+    text-align: center;
+}
+
+.news-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-desc {
+    margin-top: 15px;
+}
+
+.news-desc .p-box {
+    font-size: 0.26rem;
+    color: #333333;
+    line-height: 0.40rem;
+}
+
+.news-desc .p-box p+p {
+    margin-top: 0.1rem;
+}
+
+.news-desc .img-box {
+    padding: 0.1rem 0;
+}

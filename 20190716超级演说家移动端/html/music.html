@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <button>播放</button>
+    <audio class="music" src="../audio/music.mp3" autoplay loop controls></audio>
+</body>
+
+<script>
+    var play_status = false;
+
+    function play(_this) {
+        var music = document.getElementsByClassName('music')[0];
+
+        if (play_status) {
+            music.pause();
+            _this.classList.remove('bofang-animate');
+            play_status = 0;
+        } else {
+            music.play();
+            _this.classList.add('bofang-animate');
+            play_status = 1;
+        }
+
+    }
+</script>
+
+</html>

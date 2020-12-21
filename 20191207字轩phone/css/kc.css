@@ -1,0 +1,128 @@
+
+.container{
+	padding-top:1rem;
+	padding-bottom: 1.9rem;
+}
+
+.fenye{
+	width: 6.9rem;
+	margin:0 auto;
+	position:relative;
+	font-size: 0.32rem;
+	text-align: center;
+	font-family: myfont;
+	margin-top: 0.5rem;
+}
+.fenye a{
+	display: inline-block;
+	vertical-align: middle;
+	position:relative;
+	margin:0 0.2rem;
+}
+.fenye a:first-child,
+.fenye a:last-child{
+	width: 1.36rem;
+	height: 0.42rem;
+	background: #b19662;
+	color:#f8f7f5;
+	line-height: 0.42rem;
+	position:absolute;
+	margin: 0;
+}
+.fenye a:first-child{
+	left: 0;
+}
+.fenye a:last-child{
+	right: 0;
+}
+.fenye a.on::after{
+	content:"";
+	display: inline-block;
+	width: 0.25rem;
+	height: 0.24rem;
+	background: url(../img/icon1.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	bottom: 0;
+	right: -0.05rem;
+}
+
+
+
+.kc-title{
+	width: 6.9rem;
+	height: 0.78rem;
+	border:1px solid #b19662;
+	margin:0 auto;
+	text-align: center;
+	font-family: myfont;
+	color:#b19662;
+	margin-top: 0.6rem;
+}
+.kc-title .p1{
+	font-size: 0.66rem;
+	background-color: #f8f7f5;
+	display: inline-block;
+	line-height: 1;
+	margin-top: -0.4rem;
+	padding:0 0.1rem;
+	position:relative;
+}
+.kc-title .p1::after{
+    content: "";
+    display: inline-block;
+    width: 0.25rem;
+    height: 0.24rem;
+    background: url(../img/icon1.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 0.1rem;
+    bottom:0;
+}
+.kc-title .p2 span{
+	color:#333333;
+	font-size: 0.3rem;
+	background-color: #f8f7f5;
+	display: inline-block;
+	line-height: 1;
+	margin-top:0.3rem;
+	padding:0 0.1rem;
+}
+
+
+.kc-main{
+	width: 6.9rem;
+	margin:0 auto;
+	margin-top: 0.5rem;
+}
+.kc-main .swiper-slide{
+	width: 6.9rem;
+	height: 5rem;
+}
+.kc-main .swiper-slide img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.kc-main .swiper-button-prev,
+.kc-main .swiper-container-rtl .swiper-button-next{
+	width: 0.64rem;
+	height: 0.64rem;
+	background: url(../img/kc/arrowL.png) no-repeat;
+	background-size: 100% 100%;
+}
+.kc-main .swiper-button-next,
+.kc-main  .swiper-container-rtl .swiper-button-prev{
+	width: 0.64rem;
+	height: 0.64rem;
+	background: url(../img/kc/arrowR.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+
+.kc2 .kc-main{
+	margin-top: 0.7rem;
+}
+.kc5 .kc-main{
+	margin-top: 0.9rem;
+}

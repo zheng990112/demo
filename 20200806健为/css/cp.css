@@ -1,0 +1,259 @@
+.btn_page {
+	margin-top: 0.5rem;
+}
+
+.cp_title {
+	text-align: center;
+}
+
+.cp_title .p1 {
+	padding-top: 0.5rem;
+	font-size: 0.54rem;
+	color: #bd986c;
+	line-height: 1;
+}
+
+.cp_title .p1 span {
+	color: #006857;
+	font-weight: bold;
+}
+
+.cp_title .p2 {
+	padding-top: 0.2rem;
+	text-transform: uppercase;
+	font-size: 0.34rem;
+	color: #006857;
+}
+
+.cp_title .p2 span {
+	vertical-align: middle;
+	margin: 0.1rem;
+}
+
+.cp_title .p2 img {
+	display: inline-block;
+	width: 0.36rem;
+	height: 0.26rem;
+	vertical-align: middle;
+}
+.cp_main{
+	width: 6.3rem;
+	margin:0 auto; 
+	
+}
+.box1{
+	position:relative;
+}
+.box1::after{
+	content:"";
+	display: inline-block;
+	width: 100%;
+	height: 1px;
+	background-color: #ceaf87;
+	position:absolute;
+	bottom: -0.2rem;
+	left: 0;
+}
+.box1-top{
+	margin-top: 0.3rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.box1-top .title{
+	width:4.14rem;
+	height:0.42rem;
+	background: url(../img/cp/top_bg.png) no-repeat;
+	background-size: 100% 100%;
+	position:relative;
+}
+.box1-top .title::before{
+	content:"";
+	display: inline-block;
+	width:6.3rem;
+	height:0.04rem;
+	background-color: #006857;
+	position:absolute;
+	left: 0;
+	bottom:0;
+}
+.box1-top .title .num{
+	display: inline-block;
+	vertical-align: middle;
+	height: 0.18rem;
+	margin-left:0.15rem;
+}
+.box1-top .title .cn{
+	display: inline-block;
+	vertical-align: middle;
+	font-size:0.24rem;
+	color:#f4e0c3;
+	line-height:0.42rem;
+	font-weight: bold;
+	margin-left: 0.1rem;
+}
+.box1-top .title .en{
+	display: inline-block;
+	vertical-align: middle;
+	height: 0.17rem;
+	margin-left:0.1rem;
+}
+.box1-top .title .en img{
+	display: block;
+	height: 100%;
+}
+.box1-top .title .icon{
+	display: inline-block;
+	vertical-align: middle;
+	width:0.2rem;
+	margin-left:0.3rem;
+}
+.box1-top .title .des{
+	display: inline-block;
+	vertical-align: middle;
+	color:#f4e0c3;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    line-height: 0.42rem;
+}
+.box1-top .title .des span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+}
+.box1-top .tab_btn p {
+	display: inline-block;
+	line-height: 0.42rem;
+}
+.box1-top .tab_btn p a{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	color:#006857;
+	
+}
+.box1-top .tab_btn p.on a{
+	color:#bd986c;
+}
+.tab_box{
+	height: 2.3rem;
+	width:6.3rem;
+	overflow: hidden;
+}
+.tab_box img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.box2{
+	margin-top:0.4rem;
+}
+.box2 ul li{
+	float:left;
+	text-align: center;
+	width:3.1rem;
+	margin-right:0.1rem;
+	margin-bottom: 0.5rem;
+}
+.box2 ul li:nth-child(2n){
+	margin-right: 0;
+}
+.box2 ul li .li-img{
+	width: 3.1rem;
+	height:2.4rem;
+	overflow: hidden;
+}
+.box2 ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.box2 ul li .li-p{
+	display:inline-block;
+	font-size:0.26rem;
+	color:#595757;
+	height:0.5rem;
+	padding:0 0.15rem;
+	border:1px solid #595757;
+	border-radius:0.14rem;
+	line-height:0.5rem;
+	margin-top:0.3rem;
+}
+
+
+
+
+
+.fenye-box{
+	text-align: center;
+	font-size: 0;
+	margin-top:0.4rem;
+}
+.fenye-box a{
+	display: inline-block;
+	vertical-align: middle;
+	font-size:0.24rem;
+	color:#eedabd;
+	background-color: #595757;
+	height:0.36rem;
+	line-height:0.36rem;
+	padding:0 0.15rem;
+	margin:0 0.04rem;
+}
+.fenye-box a:first-child,
+.fenye-box a:last-child{
+	margin:0 0.15rem;
+	background-color: #006857;
+}
+.fenye-box a.on{
+	background-color: #b7926c;
+}
+
+
+
+.cp3 .box1-top .title .icon{
+	margin-left: 0.2rem;
+}
+
+
+
+
+@media (max-width:320px) {
+	.cp1 .box1-top .title .icon{
+		margin-left: 0.1rem;
+	}
+	.box1-top{
+		width: 6.5rem;
+	}
+	.cp3 .box1-top .title .icon{
+		margin-left: 0.05rem;
+	}
+	.cp3 .box1-top .title .en{
+		margin-left: 0rem;
+	}
+	.box1-top .title .en{
+		margin-left: 0.05rem;
+	}
+	.box1-top .title .cn{
+		margin-left: 0.05rem;
+	}
+	.box1-top .title .num{
+		margin-left: 0.05rem;
+	}
+	
+	
+	
+}

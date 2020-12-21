@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+		<script src="../js/hotcss.js"></script>
+		<link rel="stylesheet" href="../css/swiper-3.3.1.min.css" />
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/view.css" />
+		
+	</head>
+	<body>
+		<div class="header">
+			<div class="logo"><img src="../img/logo.jpg" alt="" /></div>
+			<div class="top"><img src="../img/top.png" alt="" /></div>
+			<div class="nav"><div class="img1"><p>导航</p><img src="../img/nav-icon.png" alt="" /></div><div class="img2"><img src="../img/close.png" alt="" /></div></div>
+		</div>
+		<div class="menu">
+			<div class="menu-box">
+				<div class="menu-title">导航</div>
+				<ul>
+					<li class="menu-item"><a href="index.html" class="title">首页</a></li>
+					<li class="menu-item"><a href="pp.html" class="title">小拌自述</a></li>
+					<li class="menu-item"><a href="cp.html" class="title">花拌食尚</a></li>
+					<li class="menu-item active"><a href="view.html" class="title">视觉展示</a></li>
+					<li class="menu-item"><a href="ys.html" class="title">核心优势</a></li>
+					<li class="menu-item"><a href="hz.html" class="title">合作共赢</a></li>
+					<li class="menu-item"><a href="news.html" class="title">品牌动态</a></li>
+					<li class="menu-item"><a href="lx.html" class="title">联系我们</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer">
+			<a href="tel:123456"><img src="../img/tel.png" alt="" /></a>
+			<a href="index.html"><img src="../img/index.png" alt="" /></a>
+			<a href="lx.html"><img src="../img/msg.png" alt="" /></a>
+		</div>
+		<div class="swiper-container container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide view1">
+					<div class="public-title">店面视觉</div>
+					<div class="view-box">
+						<div class="view1-title">
+							<p class="p1">一见倾心的门店</p>
+							<img src="../img/view/a1.png" alt="" />
+						</div>
+						<div class="view-main">
+							<div class="top-box">
+								<div class="swiper-container gallery-top">
+								    <div class="swiper-wrapper">
+								        <div class="swiper-slide" style="background-image:url(../img/view/a2.jpg)"></div>
+								        <div class="swiper-slide" style="background-image:url(../img/view/a2.jpg)"></div>
+								        <div class="swiper-slide" style="background-image:url(../img/view/a2.jpg)"></div>
+								        <div class="swiper-slide" style="background-image:url(../img/view/a2.jpg)"></div>
+								        <div class="swiper-slide" style="background-image:url(../img/view/a2.jpg)"></div>
+								    </div>
+								    
+								</div>
+							</div>
+							<div class="thumbs-box">
+								<div class="swiper-container gallery-thumbs">
+								    <div class="swiper-wrapper">
+								        <div class="swiper-slide" style="background-image:url(../img/view/a2.jpg)"></div>
+								        <div class="swiper-slide" style="background-image:url(../img/view/a2.jpg)"></div>
+								        <div class="swiper-slide" style="background-image:url(../img/view/a2.jpg)"></div>
+								        <div class="swiper-slide" style="background-image:url(../img/view/a2.jpg)"></div>
+								        <div class="swiper-slide" style="background-image:url(../img/view/a2.jpg)"></div>
+								    </div>
+								</div>
+								<!-- Add Arrows -->
+								<div class="swiper-button-next swiper-button-white next"></div>
+							    <div class="swiper-button-prev swiper-button-white prev"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="swiper-slide view2">
+					<div class="public-title">VI展示</div>
+					<div class="view-box">
+						<div class="view2-title"><img src="../img/view/b1.png" alt="" /></div>
+						<div class="view2-main">
+							<div class="picScroll-left" id="multipleColumn">
+						        <div class="hd">
+						        	<ul></ul>
+								</div>
+							    <div class="bd">
+							    	<div class="picList">
+							            <li><img src="../img/view/b2.jpg" alt="" /></li>
+							            <li><img src="../img/view/b2.jpg" alt="" /></li>
+							            <li><img src="../img/view/b2.jpg" alt="" /></li>
+							            <li><img src="../img/view/b2.jpg" alt="" /></li>
+							            <li><img src="../img/view/b2.jpg" alt="" /></li>
+							            <li><img src="../img/view/b2.jpg" alt="" /></li>
+							            <li><img src="../img/view/b2.jpg" alt="" /></li>
+							            <li><img src="../img/view/b2.jpg" alt="" /></li>
+							    	</div>
+							    </div>
+							</div>
+						</div>
+					</div>
+					<div class="public-btn">
+						<a href="cp.html">上一页</a>
+						<a href="ys.html">下一页</a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+		
+		
+		<script src="../js/jquery-1.11.2.min.js"></script>
+		<script src="../js/swiper.min.js"></script>
+		<!--<script src="../js/pic_tab.js"></script>-->
+		<script src="../js/jquery.SuperSlide.2.1.1.js"></script>
+		<script src="../js/common.js"></script>
+		<script>
+		    var galleryThumbs = new Swiper('.gallery-thumbs', {
+		      spaceBetween: 10,
+		      slidesPerView:2,
+		//		      direction:'vertical',
+		      loop: true,
+		      freeMode: true,
+		      loopedSlides: 5, //looped slides should be the same
+		      watchSlidesVisibility: true,
+		      watchSlidesProgress: true,
+		    });
+		    var galleryTop = new Swiper('.gallery-top', {
+		      spaceBetween: 10,
+		      loop:true,
+		//		      direction:'vertical',
+		      loopedSlides: 5, //looped slides should be the same
+		      navigation: {
+		        nextEl: '.next',
+		        prevEl: '.prev',
+		      },
+		      thumbs: {
+		        swiper: galleryThumbs,
+		      },
+		    });
+		  </script>
+		<!--<script type="text/javascript">
+			$('#demo1').banqh({
+				box:"#demo1",//总框架
+				pic:"#ban_pic1",//大图框架
+				pnum:"#ban_num1",//小图框架
+				prev_btn:"#arrow_left1",//小图左箭头
+				next_btn:"#arrow_right1",//小图右箭头
+				autoPlay:true,
+				interTime:1000,//图片自动切换间隔
+				delayTime:400,//切换一张图片时间
+				pop_delayTime:400,//弹出框切换一张图片时间
+				min_picnum:2,//小图显示数量
+			})
+		</script>
+		<script>
+			$(function(){
+				var liw = Math.floor($('.large_box li').width())
+				var liw2 = Math.floor($('.small_list li').width())
+				$('.large_box li').width(liw)
+				$('.small_list li').width(liw2)
+			})
+		</script>-->
+		<script>
+			jQuery("#multipleColumn .bd li").each(function(i){ jQuery("#multipleColumn .bd li").slice(i*4,i*4+4).wrapAll("<ul></ul>");});
+			jQuery("#multipleColumn").slide({titCell:".hd ul",mainCell:".bd .picList",autoPage:true,effect:"leftLoop"});
+		</script>
+	</body>
+</html>

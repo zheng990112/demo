@@ -1,0 +1,58 @@
+body{width: 100%;height: 100%;background: #fbc400;}
+.part{position: relative;height: 100%;}
+.big1{
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+	height: 10.42rem;
+	left: 0;
+}
+.index1 .part1{position: relative;top: .8rem;text-align: center;height: 10.42rem;}
+.index1 .part1 .div1 h3{font-size: .84rem;color: #fff;font-weight: 400;font-family: myfont;transform: skew(-24deg);
+    /* -webkit-transform: skew(-24deg); */
+    -moz-transform: skew(-24deg);
+    -o-transform: skew(-24deg);
+    -ms-transform: skew(-24deg);margin-left: -.6rem;}
+.index1 .part1 .div1  h4{font-size: .84rem;color: #fff;font-weight: 400;font-family: myfont;transform: skew(-24deg);
+    /* -webkit-transform: skew(-24deg); */
+    -moz-transform: skew(-24deg);
+    -o-transform: skew(-24deg);
+    -ms-transform: skew(-24deg);}
+.index1 .part1 .div1 p{font-size: .35rem;color: #ffffff;height: .86rem;line-height: .86rem;vertical-align: middle ;}
+.index1 .part1 .div1 img{width:1.19rem;height: .86rem;vertical-align:top ;}
+/*vidio*/
+
+.vedio-box{ width:6.74rem; height: 3.31rem; position: relative;background:transparent;display: block;margin: 0 auto;}
+.vedio-img{ width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 0;}
+.vedio-box video, .vedio-box embed{ width: 100%!important; height: 100%!important;}
+.vedio-box .play{ position: absolute; left: 56%; top: 58%; width: .83rem; height:.54rem; display: block; margin-top: -35px; margin-left: -35px; cursor: pointer; z-index: 12;}
+.video .picScroll-left .arrow{ position: absolute; top: 50%; width: 144px; height: 100px; cursor: pointer; margin-top: -35px;}
+.video .picScroll-left .arrow img{ width: 144px; height: 50px; display: block; margin: 25px auto;}
+.video .picScroll-left .arrow-left{ left: -230px;}
+.video .picScroll-left .arrow-right{ right: -230px;}
+.video .list1 li{ display: inline-block; width: 288px; height: auto; padding: 5px; border: 1px solid #fff; margin: 40px;}
+.video .list1 li:hover{ border: 1px solid #e1c563;}
+.video .list1 li .year{ height: 60px; margin: 0px; margin-top: -10px;}
+.video .list1 li .year .left{ font-family: 'Constantia'; font-size: 48px; color: #4a1670; float: left; margin-left: 10px;}
+.video .list1 li .year .right{ font-family: 'Constantia'; font-size: 48px; color: #4a1670; text-decoration: line-through; float: right; margin-right: 40px;}
+.video .list1 li .content{ font-family: '微软雅黑'; font-size: 16px; color: #888888; margin: 10px; text-align: left;}
+
+/*vidio*/
+.index1 .part1 .div2{position: absolute;bottom:0rem;position: absolute; width: 6.74rem;
+    height: 3.82rem;  
+    bottom:.5rem;
+    left: 50%;
+    margin-left: -3.37rem;z-index: 1}
+.index1 .part1 .div3{position: absolute;bottom: -1rem;width: 100%;}
+.index1 .part1 .div3 img{display: block;margin: 0 auto;width: .5rem;height: .5rem;}
+
+
+
+/*20190416*/
+html{
+    width:100%;
+    height:100%;
+}
+html,body{
+    overflow-x:hidden; 
+}

@@ -1,0 +1,38 @@
+.nei_banner{width: 100%;margin-top: .2rem;}
+.nei_banner img{width: 100%;}
+.mj1 .part1_left{height: 2.81rem;width: 4.18rem;}
+.mj1 .part1_right{height: 2.81rem;width: 3.13rem;}
+.mj1 .part1_left img{width: 100%;height: 100%;}
+.mj1 .part1_right img{width: 100%;height: 100%;}
+.mj1 .part2{width: 100%;margin-top: .2rem;margin-bottom: .15rem;}
+.mj1 .part2 img{width: 100%;height: 100%;}
+.mj1 .part3_left{height: 3.58rem;width: 3.58rem;}
+.mj1 .part3_right{height: 3.58rem;width: 3.68rem;}
+.mj1 .part3_left img{width: 100%;height: 100%;}
+.mj1 .part3_right img{width: 100%;height: 100%;}
+.mj1{margin-bottom: .4rem;}
+.mj2 .part1 h3{font-size: .5rem;color: #000000;background: url(../img/mj/b1.jpg) no-repeat center;background-size: 7.1rem 1.93rem;height: 1.93rem;text-align: center;font-weight: 400;}
+.mj2 .part1{margin-top: .66rem;}
+.mj2 .part2{width: 6.4rem;display: block;margin: 0 auto;margin-top: .46rem;}
+.mj2 .part2 ul li{float: left;width: 2.8rem;height: 2.81rem;}
+.mj2 .part2 ul li img{width: 100%;height: 100%;}
+.mj2 .part2 ul li:nth-child(2n){margin-left: .8rem;}
+.mj2 .part2 ul li:nth-of-type(1){margin-bottom: .36rem;}
+.mj2 .part2 ul li:nth-of-type(2){margin-bottom: .36rem;}
+.mj2 .part3{width: 100%;margin-bottom: .1rem;margin-top: .44rem;}
+.mj2 .part3 img{width: 100%;}
+.mj3 .part1 h3{font-size: .5rem;color: #000000;background: url(../img/mj/c1.jpg) no-repeat center;background-size: 7.1rem 1.93rem;height: 1.93rem;text-align: center;font-weight: 400;}
+.mj3 .part1{margin-top: .66rem;}
+.mj3 .part2{width: 6.36rem;display: block;margin: 0 auto;margin-top: .5rem;}
+.mj3 .part2 img{width: 100%;margin-bottom: .44rem;vertical-align: middle;}
+.mj3{position: relative;}
+.mj3 .bg1{position: absolute;left: 0;bottom: 2.2rem;width: .09rem;height: 1.11rem;}
+
+.mj2 .picScroll-left{ position: relative; }
+.mj2 .picScroll-left .bd{ width: 100%; margin: 0px auto; overflow: hidden;}
+.mj2 .picScroll-left .bd li{ float: left; position: relative; text-align: center; width: 100%;  cursor: pointer;width: 7.4rem;height: 4.72rem;display: block;margin: 0 auto;}
+.mj2 .picScroll-left .bd li .box{ position: relative; width: 100%;}
+.mj2 .picScroll-left .bd li img{ display: block; width: 100%; height: 100%;}
+.mj2 .picScroll-left .hd{ position: absolute; left: 50%; transform: translateX(-50%); -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); -moz-transform: translateX(-50%); bottom: 0;}
+.mj2 .picScroll-left .hd ul li{ font-size: 0; width: 20px; height: 20px; border-radius: 50%; margin: 0 10px; background-color: #e5e5e5; display: inline-block;}
+.mj2 .picScroll-left .hd ul li.on{ background-color: #7c182b;}

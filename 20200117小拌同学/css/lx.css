@@ -1,0 +1,135 @@
+html,body,.swiper-container,.swiper-wrapper,
+.swiper-slide{
+	width: 100%;
+	height: 100%!important;
+}
+
+.lx1{
+	padding-top:2rem;
+	box-sizing: border-box;
+}
+.lx1-title{
+	font-size: 0.58rem;
+	color:#000000;
+	text-align: center;
+	line-height: 0.74rem;
+}
+.lx1-title span{
+	color:#309dcf;
+	font-weight: bold;
+	display: block;
+}
+.lx1-main{
+	width: 6.9rem;
+	margin:0 auto;
+}
+.lx1-main p{
+	font-size: 0.22rem;
+	color:#000000;
+	line-height: 0.44rem;
+	position:relative;
+	white-space: nowrap;
+}
+.lx1-main p::before{
+	content:"";
+	display: inline-block;
+	width: 0.15rem;
+	height: 0.15rem;
+	border-radius: 50%;
+	background-color: #ffd817;
+	position:absolute;
+	bottom:0.05rem;
+	left: 0;
+	z-index: -1;
+}
+.lx1-main .form{
+	width: 6.9rem;
+	height: 4.3rem;
+	border-radius: 0.15rem;
+	border:1px solid #57afd8;
+	box-sizing: border-box;
+	margin-top: 0.5rem;
+}
+.lx1-main .form input,
+.lx1-main .form div,
+.lx1-main .form textarea{
+	width: 6.05rem;
+	margin:0 auto;
+	font-size: 0.27rem;
+	display: block;
+	margin-top: 0.2rem;
+}
+.lx1-main .form input,
+.lx1-main .form textarea{
+	padding-left: 0.2rem;
+	box-sizing: border-box;
+	height: 0.54rem;
+	background-color: #eaeaea;
+	border-radius: 0.1rem;
+}
+.lx1-main .form .inp1{
+	width: 2.88rem;
+	margin-top: 0;
+}
+.lx1-main .form textarea{
+	height: 1.7rem;
+	padding-top: 0.2rem;
+	box-sizing: border-box;
+}
+.lx1-main .form button{
+	width: 1.68rem;
+	line-height: 0.38rem;
+	background-color: #fff;
+	font-size: 0.22rem;
+	color:#333333;
+	background: #ffd817;
+	border-radius:0.19rem;
+	margin:0 auto;
+	display: block;
+	margin-top: 0.2rem;
+}
+
+
+
+.lx2{
+	padding-top:2.2rem;
+	box-sizing: border-box;
+}
+.lx2-top{
+	width: 100%;
+}
+.lx2-top img{
+	display: block;
+	width: 100%;
+}
+.lx2-main img{
+	display: block;
+	width: 1.44rem;
+	margin:0 auto;
+	margin-top: 0.25rem; 
+}
+.lx2-main .p1{
+	width: 3.8rem;
+	height: 0.42rem;
+	border-radius: 0.21rem;
+	background:#ffd817;
+	font-size: 0.28rem;
+	margin:0 auto;
+	color:#000;
+	text-align:center;
+	line-height: 0.42rem;
+	margin-top: 0.2rem;
+}
+.lx2-main .p2{
+	font-size: 0.35rem;
+	text-align: center;
+	color:#000;
+	font-weight: bold;
+	margin-top: 0.2rem;
+}
+.lx2-main .p3{
+	font-size: 0.27rem;
+	text-align:center;
+	color:#333333;
+	margin-top: 0.1rem;
+}

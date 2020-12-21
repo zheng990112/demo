@@ -1,0 +1,509 @@
+html,
+body,
+.swiper-slide,
+.container,
+.swiper-wrapper {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.content {
+	background: transparent;
+	padding: 0;
+}
+
+.containerBtn {
+	width: 100%;
+	height: 0.42rem;
+	position: absolute;
+	left: 0;
+	bottom: 1.8rem;
+	z-index: 1;
+}
+
+.containerBtn .home {
+	display: block;
+	width: 1.18rem;
+	height: 0.36rem;
+	margin: auto;
+}
+
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+	width: 0.64rem;
+	height: 0.42rem;
+	margin: 0;
+	top: 0;
+	left: 1.2rem;
+	background-image: url(../img/index/prev.png);
+	background-size: 100% 100%;
+}
+
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+	width: 0.64rem;
+	height: 0.42rem;
+	margin: 0;
+	top: 0;
+	right: 1.2rem;
+	background-image: url(../img/index/next.png);
+	background-size: 100% 100%;
+}
+
+.swiper-button-prev:focus,
+.swiper-button-next:focus {
+	outline: none;
+}
+
+.page_main {
+	padding-top: 1.25rem;
+}
+
+.bg-img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.page2 {
+	background: url(../img/index/b_bg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+
+.page2 .video {
+	width: 5.5rem;
+	margin: auto;
+	background-color: #000000;
+	padding: 0.03rem 0;
+	position: relative;
+	margin-top: 0.68rem;
+}
+
+.page2 .video img {
+	width: 5.44rem;
+	display: block;
+	margin: auto;
+}
+
+.page2 .video a img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 1.02rem;
+	height: 1.02rem;
+	margin-top: -0.51rem;
+	margin-left: -0.51rem;
+}
+
+.page2 .p1 {
+	width: 5.5rem;
+	margin: auto;
+	font-size: 0.5665rem;
+	color: #a72024;
+	font-family: "myfont_Magpie";
+	margin-top: 0.4rem;
+	padding-bottom: 0.1rem;
+	border-bottom: 1px solid #000000;
+}
+
+.page2 ul {
+	width: 5.5rem;
+	margin: auto;
+}
+
+.page2 ul li {
+	float: left;
+	width: 100%;
+	line-height: 0.32rem;
+	margin-top: 0.1rem;
+	font-family: "myfont_Magpie";
+	color: #000000;
+}
+
+.page2 ul li .p2 {
+	width: 4.2rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	float: left;
+}
+
+.page2 ul li .p3 {
+	float: right;
+	width: 1.3rem;
+	text-align: right;
+}
+
+.page2 ul li a.on p {
+	color: #a72024;
+}
+
+.page2 .img_box {
+	width: 5.5rem;
+	margin: auto;
+	margin-top: 0.2rem;
+}
+
+.page2 .img_box img {
+	float: left;
+	margin-right: 0.1rem;
+	width: 1.7rem;
+	height: 1.02rem;
+	border: 0.04rem #000000 solid;
+}
+
+.page2 .img_box a {
+	float: right;
+	width: 1.2rem;
+	height: 0.36rem;
+	text-align: center;
+	line-height: 0.36rem;
+	color: #ffffff;
+	background-color: #a72024;
+	border-radius: 0.3rem;
+	margin-top: 0.74rem;
+}
+
+.page3 {
+	background: url(../img/index/c_bg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+
+.page3 .str {
+	text-align: center;
+}
+
+.page3 .str .p1 {
+	font-size: 0.58rem;
+	color: #ffffff;
+	font-family: "myfont_Magpie";
+	padding-top: 0.5rem;
+	display: inline-block;
+	position: relative;
+	position: relative;
+	padding-bottom: 0.4rem;
+}
+
+.page3 .str .p1::after {
+	content: "";
+	width: 3.77rem;
+	height: 0.09rem;
+	background: url(../img/index/c_icon1.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.page3 .str .p2 {
+	display: inline-block;
+	font-size: 0.355rem;
+	color: #ffffff;
+	font-family: "myfont_Magpie";
+	text-align: left;
+	margin-top: 0.35rem;
+	vertical-align: top;
+}
+
+.page3 .str .p2 span {
+	font-size: 0.45rem;
+}
+
+.page3 .str img {
+	width: 2.38rem;
+	height: 2.9rem;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: -0.2rem;
+	margin-left: 0.5rem;
+}
+
+.page3 ul {
+	width: 5.5rem;
+	margin: auto;
+	margin-top: 2.5rem;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.page3 ul li {
+	display: inline-block;
+	width: 1.3rem;
+
+}
+
+.page3 ul li img {
+	display: block;
+	width: 1.2rem;
+	height: 1.92rem;
+	border-radius: 0.6rem;
+	border: 0.05rem solid #dadad9;
+}
+
+.page3 ul li p {
+	padding-top: 0.1rem;
+	font-size: 0.29rem;
+	color: #000000;
+	font-family: "myfont_Magpie";
+}
+
+.page4 {
+	background: url(../img/index/d_bg.jpg) no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+}
+
+.page4 .p1 {
+	font-size: 0.54rem;
+	color: #ffffff;
+	font-family: "myfont_Magpie";
+	margin-top: 0.8rem;
+}
+
+.page4 .p2 {
+	font-size: 0.55rem;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.page4 ul {
+	width: 5.5rem;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-top: 0.2rem;
+}
+
+.page4 ul li {
+	width: 2.56rem;
+	margin-top: 0.2rem;
+}
+
+.page4 ul li img {
+	display: block;
+	width: 2.46rem;
+	height: 2.46rem;
+	border: 0.05rem solid #c6c6c6;
+	border-radius: 50%;
+}
+
+.page4 ul li p {
+	font-size: 0.48rem;
+	color: #ffffff;
+	font-family: "myfont_Magpie";
+	position: relative;
+	padding-top: 0.3rem;
+}
+
+.page4 ul li p::after {
+	content: "";
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	background-color: #ffffff;
+	position: absolute;
+	top: 0.2rem;
+	left: 50%;
+	margin-left: -0.05rem;
+}
+
+.page4 ul li:first-child {
+	position: relative;
+	z-index: 0;
+}
+
+.page4 ul li:first-child::after {
+	content: '';
+	width: 1.77rem;
+	height: 4.19rem;
+	background: url(../img/index/d_icon.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	right: 1.8rem;
+	bottom: -2.4rem;
+	z-index: -1;
+}
+
+.page5 {
+	background: url(../img/index/e_bg.jpg) no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+}
+
+.page5 .p1 {
+	font-size: 0.55rem;
+	color: #ffffff;
+	margin-top: 0.28rem;
+}
+
+.page5 .p2 {
+	font-size: 0.5rem;
+	font-family: "myfont_Magpie";
+	color: #ffffff;
+	margin-top: 0.15rem;
+}
+
+.page5 .p2 span {
+	color: #a62024;
+}
+
+.page5 ul {
+	width: 6rem;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.page5 ul li {
+	width: 2.78rem;
+	margin-top: 0.25rem;
+	position: relative;
+}
+
+.page5 ul li:nth-child(2n)::after {
+	content: "+";
+	font-weight: bold;
+	color: #a62024;
+	font-size: 0.33rem;
+	position: absolute;
+	left: -0.3rem;
+	top: -0.3rem;
+}
+
+.page5 ul li:nth-child(2)::after {
+	display: none;
+}
+
+.page5 ul li p {
+	width: 2.78rem;
+	height: 0.9rem;
+	background: url(../img/index/e_icon1.png) no-repeat;
+	background-size: 100% 100%;
+	line-height: 0.35rem;
+	color: #ffffff;
+	font-family: "myfont_Magpie";
+	font-size: 0.32rem;
+}
+
+.page5 ul li p span {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.page5 ul li p img {
+	display: inline-block;
+	vertical-align: middle;
+	height: 0.28rem;
+}
+
+.page5 ul li>img {
+	display: block;
+	margin: auto;
+	width: 2.5rem;
+	height: 1.12rem;
+	border: 0.05rem solid #a62024;
+	border-bottom-left-radius: 0.2rem;
+	border-bottom-right-radius: 0.2rem;
+}
+
+.page6 {
+	background: url(../img/index/f_bg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+
+.page6 .p1 {
+	font-size: 0.77rem;
+	font-family: "myfont_Magpie";
+	color: #a62024;
+	margin-top: 1.8rem;
+	margin-left: 0.74rem;
+}
+
+.page6 ul {
+	width: 4.3rem;
+	margin-left: 0.74rem;
+	padding-top: 0.5rem;
+}
+
+.page6 ul li {
+	float: left;
+	margin-right: 0.24rem;
+	width: 0.83rem;
+	margin-top: 0.3rem;
+	padding-top: 0.24rem;
+	height: 1.9rem;
+	background: url(../img/index/f_icon.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.page6 ul li:nth-child(3) {
+	margin-right: 1rem;
+}
+
+.page6 ul li a {
+	display: block;
+	font-size: 0.38rem;
+	width: 0.5rem;
+	margin: auto;
+	color: #ffffff;
+	font-family: "myfont_Magpie";
+	text-align: center;
+	margin-top: 0.1rem;
+	line-height: 0.38rem;
+}
+
+.page6 ul li:first-child a {
+	line-height: 0.72rem;
+}
+/* 20201023 */
+.page3 {
+	position: relative;
+}
+
+.page3 ul {
+	position: absolute;
+	left: 50%;
+	bottom: 2.4rem;
+	margin-left: -2.75rem;
+}
+
+
+.page2 .vedio-box {
+	margin:0 auto;
+	width:5.44rem;
+	height: 3.3rem;
+	position: relative;
+	margin-top: 0.68rem;
+}
+
+.page2 .vedio-img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.page2 .vedio-box video,
+.page2 .vedio-box embed {
+	width: 100%!important;
+	height: 100%!important;
+}
+
+.page2 .play {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width:1.16rem;
+	height:1.16rem
+	display: block;
+	margin-top:-0.58rem;
+	margin-left:-0.58rem;
+	cursor: pointer;
+	z-index: 12;
+}

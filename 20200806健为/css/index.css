@@ -1,0 +1,132 @@
+.page {
+  width: 7.5rem;
+  padding-bottom: 2.2rem;
+  position: relative;
+}
+.page::before {
+  content: "";
+  display: inline-block;
+  width: 7.5rem;
+  height: 12.4rem;
+  background: url(../img/index/bg1.jpg) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.page .p1 {
+  padding: 0 0.56rem;
+  padding-top: 0.6rem;
+  font-size: 0.28rem;
+  color: #006857;
+  text-transform: uppercase;
+  line-height: 1;
+}
+.page .p1 span {
+  width: 0.25rem;
+  line-height: 1;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+}
+.page .p1 span::after {
+  content: "";
+  display: inline-block;
+  width: 0.02rem;
+  line-height: 1;
+  height: 0.2rem;
+  background-color: #006857;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -0.01rem;
+}
+.page .vedio-box {
+  margin: auto;
+  margin-top: 0.2rem;
+  border: 0.1rem solid #d2ad7c;
+  width: 6.25rem;
+  height: 3.5rem;
+  position: relative;
+}
+.page .vedio-img {
+  width: 6.25rem;
+  height: 3.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.page .vedio-box video {
+  width: 100% !important;
+  height: 100% !important;
+  background-color: #d2ad7c;
+}
+.page .play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 0.68rem;
+  height: 0.68rem;
+  display: block;
+  margin-top: -0.34rem;
+  margin-left: -0.34rem;
+  cursor: pointer;
+  z-index: 2;
+}
+.page .p2 {
+  padding-top: 0.4rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.28rem;
+  color: #006857;
+}
+.page .p2 span {
+  vertical-align: middle;
+}
+.page .p2 img {
+  display: inline-block;
+  width: 0.36rem;
+  height: 0.26rem;
+  vertical-align: middle;
+}
+.page .ellipse {
+  height: 1.5rem;
+}
+.page .ellipse1 {
+  width: 7.1rem;
+  margin-top: 0.5rem;
+  background: url(../img/index/a1.png) bottom center no-repeat;
+  background-size: 7.1rem 1.1rem;
+}
+.page .ellipse2 {
+  margin-left: 0.7rem;
+  width: 6.8rem;
+  margin-top: 0.1rem;
+  background: url(../img/index/a2.png) bottom center no-repeat;
+  background-size: 6.8rem 1.1rem;
+}
+.page .ellipse div {
+  width: 1.25rem;
+  height: 1.17rem;
+  background: url(../img/index/a3.png) center no-repeat;
+  background-size: 100%;
+  float: left;
+  margin-left: 0.4rem;
+}
+.page .ellipse1 div:first-child {
+  margin-left: 1.3rem;
+}
+.page .ellipse2 div:first-child {
+  margin-left: 1.15rem;
+}
+.page .ellipse p {
+  text-align: center;
+  font-size: 0.28rem;
+  color: #ffffff;
+  width: 0.74rem;
+  line-height: 0.37rem;
+  margin: auto;
+  margin-top: 0.215rem;
+}

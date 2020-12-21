@@ -1,0 +1,236 @@
+.font_32 {
+  font-size: 0.32rem;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 0.2rem;
+}
+.pate1 .imgBox {
+  position: relative;
+  width: 6.2rem;
+  margin: 0.6rem auto 0.2rem;
+  height: 2.54rem;
+  border: 0.01rem solid #ffffff;
+}
+.pate1 .imgBox .img1 {
+  width: 6.04rem;
+  height: 2.38rem;
+  display: block;
+  margin: 0.08rem auto;
+}
+.pate1 .imgBox .img2 {
+  position: absolute;
+  width: 1.45rem;
+  height: 2.98rem;
+  bottom: 0.08rem;
+  left: 0.94rem;
+}
+.pate1 .text {
+  padding: 0 0.65rem;
+  font-size: 0.24rem;
+  color: #ffffff;
+  text-align: justify;
+  line-height: 0.4rem;
+}
+.pate1 .solid {
+  margin-top: 0.45rem;
+}
+.pate2 .listPic {
+  background: url(../img/qy/qy_05.png) center no-repeat;
+  background-size: 6.2rem 100%;
+  width: 6.2rem;
+     margin: 0 auto;
+  margin-top: 0.75rem;
+  padding: 0 0.65rem;
+
+}
+.pate2 .listPic li {
+  margin-top: 0.8rem;
+  min-height:4.35rem;
+  width: 2.8rem;
+  float: left;
+  color: #ffffff;
+  text-align: center;
+}
+.pate2 .listPic li:nth-child(1),
+.pate2 .listPic li:nth-child(2) {
+  margin-top: 0;
+}
+.pate2 .listPic li:nth-child(2n) {
+  float: right;
+}
+.pate2 .listPic li div {
+  width: 1.92rem;
+  height: 1.92rem;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+.pate2 .listPic li img {
+  width: 1.76rem;
+  height: 1.76rem;
+  border-radius: 50%;
+  border: 0.01rem #a48068 solid;
+  margin: 0.06rem auto;
+}
+.pate2 .listPic li .p1 {
+  font-size: 0.32rem;
+  margin-top: 0.3rem;
+}
+.pate2 .listPic li .p2 {
+  font-size: 0.24rem;
+  margin-top: 0.4rem;
+  line-height: 0.36rem;
+  text-align: justify;
+}
+.pate3 {
+  background: url(../img/qy/qy_10.png) 0 0 no-repeat;
+  background-size: 4.02rem 6.44rem;
+  position: relative;
+  padding: 0 0.65rem;
+  margin-top: 0.3rem;
+}
+.pate3::before {
+  position: absolute;
+  top: 0.25rem;
+  left: 0.6rem;
+  content: "";
+  width: 6.2rem;
+  height: 0;
+  border-bottom: 0.01rem solid #c1a582;
+}
+.pate3 .top1 {
+  float: right;
+  font-size: 0.52rem;
+  margin-top: 1.3rem;
+  color: #ffffff;
+}
+.pate3 .solid1 {
+  float: right;
+  margin: 0;
+  margin-top: 0.2rem;
+  width: 3.7rem;
+}
+.pate3 .top2 {
+  float: right;
+  margin-top: 0.2rem;
+  font-size: 0.32rem;
+  color: #ffffff;
+}
+.pate3 .listPic {
+  float: right;
+  padding-top: 0.3rem;
+     width: 6.2rem;
+    margin: 0 auto;
+}
+.pate3 .listPic li {
+  margin-top: 0.3rem;
+  width: 1.8rem;
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  margin-left: 0.4rem;
+}
+.pate3 .listPic li:nth-child(3n + 1) {
+  margin-left: 0;
+}
+.pate3 .listPic li div {
+  width: 1.78rem;
+  height: 1.78rem;
+  border: 0.01rem solid #ffffff;
+  border-radius: 50%;
+}
+.pate3 .listPic li div img {
+  width: 1.56rem;
+  height: 1.56rem;
+  border-radius: 50%;
+  display: block;
+  margin: 0.11rem auto;
+}
+.pate3 .listPic li .p1 {
+  margin-top: 0.2rem;
+  font-size: 0.24rem;
+}
+.pate3 .listPic li .img2 {
+  height: 0.08rem;
+  display: block;
+  margin: 0.1rem auto;
+}
+.pate3 .listPic li:last-child {
+  margin-left: 0.3rem;
+}
+.pate3 .listPic li:last-child img {
+  width: 2.6rem;
+  height: 2.03rem;
+  display: block;
+  margin-top: 0.45rem;
+}
+.pate3 .solid2 {
+  float: left;
+  margin-top: 0.4rem;
+}
+.pate4 .img1 {
+  width: 6.2rem;
+  height: 3.12rem;
+  display: block;
+  margin: 0.4rem auto 0;
+}
+.pate4 .listPic {
+  padding: 0 0.65rem;
+  position: relative;
+     width: 6.2rem;
+    margin: 0 auto;
+}
+.pate4 .listPic::after {
+  position: absolute;
+  content: "";
+  width: 4.6rem;
+  right: 0;
+  top: 2.6rem;
+  height: 0.01rem;
+  background-color: #c1a582;
+}
+.pate4 .listPic li {
+  float: left;
+  width: 1.8rem;
+  height: 2.6rem;
+  margin-top: 0.2rem;
+  margin-left: 0.4rem;
+  font-size: 0.24rem;
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 0.3rem;
+}
+.pate4 .listPic img {
+  display: block;
+  margin: 0 auto;
+  width: 1.3rem;
+  height: 1.3rem;
+  border-radius: 50%;
+  margin-bottom: 0.2rem;
+}
+.pate4 .listPic li:nth-child(3n + 1) {
+  margin-left: 0;
+}
+.pate4 .listPic li p {
+	width: 2.1rem;
+	margin-left: -0.15rem;
+  line-height: 0.36rem;
+}
+.pate4 .listPic li p span {
+  display: block;
+  font-size: 0.24rem;
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  width: 110%;
+  margin-left: -5%;
+}
+.pate4 .listPic li:last-child img {
+  border-radius: 0;
+  margin-left: -0.05rem;
+  margin-top: 0.1rem;
+  width: 1.89rem;
+  height: 1.63rem;
+}

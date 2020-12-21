@@ -1,0 +1,160 @@
+.mt05{
+	margin-top: 0.5rem;
+}
+.mb03{
+	margin-bottom: 0.3rem;
+}
+
+
+.part1 .p1 span{
+	display: inline-block;
+	vertical-align: top;
+	color:#7e7f80;
+	font-family: myfont_Light;
+	font-size: 0.24rem;
+}
+.part1 .p1 span:last-child{
+	width: 5.6rem;
+	white-space: nowrap;
+}
+
+.part1 .p1 span:first-child{
+	width: 1.2rem;
+}
+.part1 .p1:first-child span{
+	font-family: myfont_Medium;
+	color:#ba1a1f;
+	margin-top: 0.2rem;
+}
+.part1 .p1{
+	margin-top: 0.15rem;
+}
+
+.part1 .p2{
+	color:#231815;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	margin-top: 0.2rem;
+}
+.part1 .p3{
+	color:#515151;
+	font-family: myfont_Light;
+	margin-top: 0.1rem;
+}
+.part1 img{
+	display: block;
+	width: 100%;
+	margin-top: 0.25rem;
+}
+
+.part1 .p4{
+	color:#515151;
+	font-family: myfont_Light;
+	margin-top: 0.1rem;
+}
+.part1 .p4 b{
+	color:#221714;
+	font-family: myfont_Medium;
+	font-weight: bold;
+}
+
+
+
+.part2 .p1{
+	color:#221714;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	margin-top: 0.3rem;
+}
+.part2 .p2 {
+	color:#515151;
+	font-family: myfont_Light;
+	margin-top: 0.05rem;
+}
+.part2 .p3 img{
+	display: inline-block;
+	vertical-align: middle;
+	width: 0.19rem;
+	height: 0.19rem;
+	
+}
+.part2 .p3 span{
+	display: inline-block;
+	vertical-align: top;
+	color:#b41c21;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	margin-left: 0.1rem;
+	width: 6.5rem;
+}
+.part2 .p4{
+	color:#515151;
+	font-family: myfont_Light;
+	margin-top: 0.1rem;
+}
+.part2 .part2-img{
+	display: block;
+	width: 100%;
+	margin-top: 0.25rem;
+}
+.part3 .part3-icon{
+	display: block;
+	width: 0.5rem;
+	margin:0 auto;
+	margin-top: 0.35rem;
+}
+.part3 .p1{
+	font-size: 0.24rem;
+	color:#221714;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	text-align: center;
+}
+.part3 .part3-img{
+	display: block;
+	width: 100%;
+	margin:0.3rem 0;
+}
+.part3 .p2{
+	color:#221714;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	
+}
+.part3 .p3{
+	color:#515151;
+	font-family: myfont_Light;
+	margin-top: 0.1rem;
+}
+.part3 .p4{
+	color:#231815;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	margin-top: 0.1rem;
+}
+.part3 .p5{
+	color:#515151;
+	font-family: myfont_Light;
+	line-height: 0.34rem;
+	
+}
+.part3{
+	padding-bottom: 0.5rem;
+}
+
+
+@media (max-width:320px) {
+	.part1 .p1 span{
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	}
+	.part1 .p1 span:last-child{
+		margin-left: -7%;
+	}
+	.part1 .p1{
+		margin-top: 0.1rem;
+	}
+}

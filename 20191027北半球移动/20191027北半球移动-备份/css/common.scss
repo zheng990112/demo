@@ -1,0 +1,220 @@
+@import './px2rem.scss';
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: "Microsoft Yahei", arial, serif;
+    color: #333;
+    width: 100%;
+    height: 100%;
+	background: #fff;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+i {
+    font-style: normal;
+}
+
+img {
+    border: none;
+}
+
+input,
+button,
+textarea {
+    border: 0;
+    outline: none;
+}
+
+b {
+    font-weight: normal;
+}
+
+em {
+    font-style: normal;
+}
+
+.flex {
+    display: flex;
+    &-column {
+        flex-direction: column;
+    }
+}
+
+.align-items {
+    &-center {
+        align-items: center;
+    }
+    &-end {
+        align-items: flex-end;
+    }
+}
+
+.justify-content {
+    &-sb {
+        justify-content: space-between;
+    }
+    &-center {
+        justify-content: center;
+    }
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: px2rem(79);
+    background: linear-gradient(top, #2236a2, #315ad2);
+    background: -webkit-linear-gradient(top, #2236a2, #315ad2);
+    .header-box {
+        padding: 0 px2rem(77) 0 px2rem(80);
+        height: 100%;
+        .logo-box {
+            font-size: 0;
+            .back-img {
+                width: px2rem(27);
+            }
+            .logo-img {
+                width: px2rem(228);
+                margin-left: px2rem(23);
+            }
+        }
+        .phone-box {
+            .phone-img {
+                width: px2rem(35);
+                font-size: 0;
+            }
+            .phone-info {
+                margin-left: px2rem(3);
+                p {
+                    color: #ffffff;
+                    &:nth-child(1) {
+                        font-size: px2rem(10);
+                    }
+                    &:nth-child(2) {
+                        font-size: px2rem(22);
+                        line-height: px2rem(22);
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+        .menu-box {
+            position: relative;
+            height: 100%;
+            line-height: px2rem(79);
+            .menu-icon {
+                width: px2rem(53);
+            }
+            .menu-list {
+                width: px2rem(150);
+                background: linear-gradient(top, #315ad2, #2236a2);
+                background: -webkit-linear-gradient(top, #315ad2, #2236a2);
+                padding: px2rem(13) 0 px2rem(22);
+                border-bottom-left-radius: px2rem(15);
+                border-bottom-right-radius: px2rem(15);
+                position: fixed;
+				right:-50%;
+                top: px2rem(69);
+                a {
+                    display: block;
+                    text-align: center;
+                    color: #ffffff;
+                    font-size: px2rem(26);
+                    line-height: px2rem(46);
+                    padding: px2rem(10) 0;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    height: px2rem(78);
+    background: linear-gradient(top, #315ad2, #2236a2);
+    background: -webkit-linear-gradient(top, #315ad2, #2236a2);
+    .footer-box {
+        height: px2rem(78);
+        padding: 0 px2rem(89);
+        .next-page,
+        .prev-page {
+            display: block;
+            width: px2rem(49);
+            font-size: 0;
+        }
+		.home {
+			display: block;
+		    width: px2rem(118);
+		    font-size: 0;
+		}
+    }
+}
+footer.fixed{
+	position:fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+}
+.main {
+    min-height: px2rem(500);
+    width: 100%;
+}
+.main.padding{
+	padding:px2rem(79) px2rem(68) 0;
+	box-sizing: border-box;
+}
+.padding-header {
+    padding-top: px2rem(79);
+}
+header .header-box .menu-box .menu-list a.on{
+	font-weight: bold;
+	color:#bd2c27;
+}
+
+.sec-title {
+        width: px2rem(275);
+        position: relative;
+        font-size: 0;
+        &-main {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: px2rem(94);
+            color: #315ACD;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: px2rem(24);
+            .cn {
+                font-size: px2rem(32);
+                line-height: px2rem(35);
+                font-weight: bold;
+            }
+            .en {
+                font-size: px2rem(22);
+                line-height: px2rem(24);
+                margin-top: px2rem(8);
+            }
+        }
+    }

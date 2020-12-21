@@ -1,0 +1,325 @@
+.content{
+	width: 100%;
+	background: url(../img/bg.jpg) repeat-y;
+	padding-bottom: 1.5rem;
+	padding-top: 0.9rem;
+}  
+
+
+.top{
+	width: 100%;
+	margin-bottom: 0.4rem;
+}
+.top img{
+	width: 100%;
+}
+
+
+.part1 .a1-img{
+	width: 6.14rem;
+	display: block;
+	margin:0 auto;
+}
+.part1 .a2-img{
+	width: 100%;
+	margin-top: 0.3rem;
+}
+.part1 .part1-main{
+	-webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: vertical-lr;
+    writing-mode: tb-lr;
+	width: 5.72rem;
+	height: 3.6rem;
+	color:#333;
+	letter-spacing:1px;
+	font-weight: bold;
+	margin:0 auto;
+}
+.part1 .part1-main p{
+	position:relative;
+	font-family: 宋体;
+}
+.part1 .part1-main p span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	/*width: 109%;*/
+	/*margin-left: -4%;*/
+	line-height:0.44rem;
+}
+.part1 .part1-main p b{
+	background-color: #e60012;
+	color:#fff;
+	padding:0.1rem 0;
+}
+.part1 .part1-main p::after{
+	content:"";
+	display: inline-block;
+	width: 1px;
+	height: 100%;
+	background-color: #333333;
+	position:absolute;
+	left: 0;
+	top: 0;
+}
+.part1 .part1-main p:last-child::after{
+	background-color: transparent;
+}
+
+
+
+.part2 .b1-img{
+	width: 100%;
+	display: block;
+	margin-top: 0.5rem;
+}
+.part2 .b2-img{
+	width: 5.5rem;
+	height: 0.89rem;
+	display: block;
+	margin:0 auto;
+	margin-top: 0.4rem;
+
+}
+.part2 p{
+	font-size: 0.26rem;
+    color: #333333;
+    font-family: 宋体;
+    padding: 0 0.24rem;
+    letter-spacing: 0.04rem;
+    box-sizing: border-box;
+    margin-top: 0.4rem;
+    line-height: 0.4rem;
+}
+	
+	
+.part3{
+	margin-top: 0.4rem;
+}
+.part3 .c1-img{
+	width: 6.24rem;
+	display: block;
+	margin:0 auto;
+}
+.part3 .c2-img{
+	width: 100%;
+	margin-top: 0.3rem;
+}
+.part3 .part3-main ul li{
+	text-align: center;
+	margin-top: 0.3rem;
+}
+.part3 .part3-main ul li .li-img{
+	width: 2.34rem;
+	height: 2.34rem;
+	display: inline-block;
+	vertical-align: middle;
+	
+}
+.part3 .part3-main ul li .li-img img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.part3 .part3-main ul li .li-font{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 0.2rem;
+	width:4rem;
+	text-align: left;
+}
+.part3 .part3-main ul li .li-font .font-top{
+	color:#334b6e;
+	position:relative;
+	border-bottom: 1px solid #292929;
+	padding-left: 0.4rem;
+	padding-bottom: 0.1rem;
+	white-space: nowrap;
+}
+.part3 .part3-main ul li .li-font .font-top .p1{
+	font-size: 0.34rem;
+	display: inline-block;
+}
+.part3 .part3-main ul li .li-font .font-top .p2{
+	display: inline-block;
+	text-transform: uppercase;
+}
+.part3 .part3-main ul li .li-font .font-top .p2 span{
+	display:block;
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+}
+.part3 .part3-main ul li .li-font .font-top::before{
+	content:"";
+	display: inline-block;
+	width: 0.26rem;
+	height: 0.51rem;
+	background: url(../img/pp/c7.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	left:0;
+}
+.part3 .part3-main ul li .li-font .font-b{
+	font-size: 0.24rem;
+    color: #333333;
+    line-height: 0.36rem;
+    margin-top: 0.1rem;
+}
+.part3 .part3-main ul li .li-font .font-b span{
+	color:#e60012;
+}
+
+
+
+/*.part4{}*/
+.part4 .d1-img{
+	width: 5.34rem;
+	display: block;
+	margin:0 auto;
+	margin-top: 0.8rem;
+}
+.part4 .d2-img{
+	width: 6.39rem;
+	display: block;
+	margin:0 auto;
+	margin-top: 0.1rem;
+}
+
+
+
+
+
+
+.part4 .part4-main{
+	text-align: center;
+}
+.part4 .part4-main ul li{
+	width: 1.48rem;
+	display: inline-block;
+	margin:0 0.1rem;
+	margin-top:0.35rem;
+}
+.part4 .part4-main ul li .li-img img{
+	display: block;
+	width: 1.48rem;
+	height: 1.48rem;
+	border-radius: 50%;
+}
+.part4 .part4-main ul li .li-font{
+	/*writing-mode: tb-rl;*/
+	-webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: vertical-lr;
+    writing-mode: tb-lr;
+	font-family: "宋体";
+	font-weight: bold;
+	display: inline-block;
+	margin-top: 0.15rem;
+	height:2.6rem;
+	text-align: left;
+}
+.part4 .part4-main ul li .li-font .p1{
+	font-size: 0.28rem;
+	color:#334b6e;
+	border-left: 1px solid #334b6e;
+	padding-left: 0.1rem;
+}
+.part4 .part4-main ul li .li-font .p2{
+	font-size: 0.24rem;
+	color:#334b6e;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+.part4 .part4-main ul li .li-font .p2 span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.67);
+	-webkit-transform: scale(.67);
+	-o-transform: scale(.67);
+	-moz-transform: scale(.67);
+	-ms-transform: scale(.67);
+	height:150%;
+	margin-top: -25%;
+}
+
+
+
+
+.part4 .d8-img{
+	width: 100%;
+	margin-top:0.8rem;
+}
+.part4 .slide-carousel {
+	width: 100%;overflow: hidden;
+  	height:3.24rem;
+  	position: relative;
+  	margin-top: -2.9rem;
+}
+
+.part4 .slide-3d .item-list li{
+	width: 4.4rem;
+	height: 3.24rem;
+	transition: all 0.5s ease-out;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left:50%;
+	margin-left:-2.2rem;
+	background-color: #f0c300;
+}
+
+.part4 .slide-3d .item-list li.item0 {
+  transform: translate3d(0rem, 0, 0) scale(0.9);
+}
+.part4 .slide-3d .item-list li.item1 {
+  transform: translate3d(-4.4rem, 0, 0) scale(0.9);
+  transform-origin: 0 50%;
+  opacity: 1;
+  z-index: 2;
+}
+.part4 .slide-3d .item-list li.item2 {
+  transform: translate3d(0rem, 0, 0) scale(1);
+  transform-origin: 0 50%;
+  opacity: 1;
+  z-index: 3;
+}
+.part4 .slide-3d .item-list li.item3 {
+  transform: translate3d(4.4rem, 0, 0) scale(0.9);
+  transform-origin: 100% 50%;
+  opacity: 1;
+  z-index: 2;
+}
+.part4 .slide-3d .item-list li .cover-img{
+	display: block;
+	width: 4.4rem;
+	height: 3.24rem;
+}
+.part4 .slide-3d .item-list li.item3 .cover-img{
+	margin-left: 0;
+}
+
+
+
+@media (max-width:320px){
+	.part1 .part1-main{
+		height: 4.2rem;
+		width: 6.24rem;
+	}
+	.part1 .part1-main p span{
+		line-height: 0.48rem;
+	}
+	
+	.part3 .part3-main ul li .li-font{
+		margin-left: 0.1rem;
+    	width: 4.5rem;
+	}
+}

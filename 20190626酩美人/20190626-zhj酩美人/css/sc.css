@@ -1,0 +1,245 @@
+
+
+.content{
+	padding-top: 1.07rem;
+	padding-bottom: 1rem;
+}
+
+.part1-title{
+	text-align: center;
+	padding-top: 4.4rem;
+}
+.part1-title .title1{
+	display: inline-block;
+	vertical-align: middle;		
+	width: 3.13rem;
+	height: 0.79rem;
+	background: url(../img/sc/a2.jpg) no-repeat;
+	background-size: 100% 100%;
+	border-radius: 0.1rem;
+	color:#fff;
+}
+.part1-title .title1 .p1{
+    font-size: 0.36rem;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 0.46rem;
+    font-weight: lighter;
+    letter-spacing: 0.02rem;
+}
+.part1-title .title1 .p2{
+	width: 2.8rem;
+	margin:0 auto;
+	text-align: right;
+	line-height: 0.2rem;
+}
+.part1-title .title1 .p2 .line{
+	display: inline-block;
+	vertical-align: middle;
+	width: 1rem;
+	height: 1px;
+	background-color: #fff;
+}
+.part1-title .title1 .p2 p{
+	display: inline-block;
+	vertical-align: middle;
+}
+.part1-title .title1 .p2 p span{
+	display: block;
+	/*	font-size: .22rem;*/
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 110%;
+	margin-left: -5%;
+} 
+.part1-title .title2{
+	display: inline-block;
+	vertical-align: middle;
+}
+.part1-title .title2 img{
+	display: inline-block;
+	vertical-align: middle;
+	width: 0.24rem;
+	margin:0 0.2rem;
+}
+.part1-title .title2 span{
+	font-size: 0.36rem;
+	display: inline-block;
+	vertical-align: middle;
+	color:#fff;
+}
+.sc .part1{
+	width: 100%;
+	height: 12.28rem;
+	position:relative;
+}
+.sc .part1 .part1-bg{
+	display: block;
+	width: 100%;
+	position:absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+.sc .part1 .part1-main{
+	padding-left: 2.2rem;
+	margin-top: 0.8rem;
+	color:#fff;
+	position:relative;
+}
+.sc .part1 .part1-main .p1{
+	font-size: 0.28rem;
+}
+.sc .part1 .part1-main .p2{
+	font-size: 0.26rem;
+	text-transform: uppercase;
+	color:#9d9e9e;
+	line-height: 0.32rem;
+	margin:0.1rem 0;
+}
+.sc .part1 .part1-main .p3 span{
+	display: block;
+	/*	font-size: .18rem;*/
+	font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+	width: 130%;
+	margin-left: -15%;
+	color:#f4daaf;
+}
+.sc .part1 .part1-main .p4 span{
+	display: block;
+	/*	font-size: .18rem;*/
+	font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+	width: 130%;
+	margin-left: -15%;
+}
+.sc .part1 .part1-icon1{
+	width: 6.24rem;
+	position:absolute;
+	left: 50%;
+	margin-left: -3.12rem;
+	top: 5.3rem;
+}
+.sc .part1 .part1-icon2{
+	width: 1.26rem;
+	position:absolute;
+	top: 7.1rem;
+	left: 0.7rem;
+}
+
+
+
+.sc .part2{
+	width: 100%;
+	height: 13rem;
+	position:relative;
+	padding-top: 0.7rem;
+	box-sizing: border-box;
+}
+.sc .part2 .part2-bg{
+	display: block;
+	width: 100%;
+	position:absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+.sc .part2 .part2-title{
+	margin-left: 0.75rem;
+}
+.sc .part2 .part2-title img{
+	display: inline-block;
+	vertical-align: middle;
+	width: 0.24rem;
+	
+}
+.sc .part2 .part2-title span{
+	font-size: 0.36rem;
+	display: inline-block;
+	vertical-align: middle;
+	color:#fff;
+	margin-left: 0.2rem;
+}
+.sc .part2 .top{
+	font-size: 0.5rem;
+	color:#fff;
+	font-weight: lighter;
+	margin-left: 0.5rem;
+	margin-top: 0.5rem;
+}
+.sc .part2 .top span{
+	font-weight: bold;
+}
+
+.sc .part2 .part2-main{
+	margin-top: 7rem;
+}
+.sc .part2 .part2-main .p1{
+	width: 4.61rem;
+	height: 0.52rem;
+	background: url(../img/sc/b2.jpg) no-repeat;
+	background-size: 100% 100%;
+	border-radius: 0.1rem;
+	margin:0 auto;
+	color:#fff;
+	font-size: 0.33rem;
+	text-align: center;
+	line-height: 0.52rem;
+}
+.sc .part2 .part2-main .p1 span{
+	display:inline-block;
+	vertical-align: middle;
+}
+.sc .part2 .part2-main .p1 img{
+	display: inline-block;
+	vertical-align: middle;
+	width: 0.18rem;
+}
+.sc .part2 .part2-main .p1 span.span1{
+	font-weight: bold;
+}
+.sc .part2 .part2-main .p2{
+	text-align: center;
+	color:#fff;
+	line-height: 0.44rem;
+}
+.sc .part2 .part2-main .p2 span{
+	display: block;
+	/*	font-size: .2rem;*/
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+}
+
+
+
+.btn{
+	text-align:center;
+}
+.btn a{
+	display: inline-block;
+	margin:0 1rem;
+	margin-top: 0.5rem;
+}
+.btn img{
+	display: inline-block;
+	width: 1.07rem;
+}

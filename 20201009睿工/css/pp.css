@@ -1,0 +1,114 @@
+.pp1 .part1 img,
+.pp2 .part1 img,
+.pp3 .part1 img{
+  display: block;
+  width: 6.6rem;
+  margin: auto;
+  margin-top: 0.3rem;
+}
+.pp1 .part1 p,
+.pp2 .part1 p{
+  width: 6.6rem;
+  margin: auto;
+  text-align: justify;
+  font-size: 0.24rem;
+  line-height: 0.36rem;
+  color: #595757;
+  margin-top: 0.4rem;
+}
+.pp3 ul{
+  width: 6.6rem;
+  margin: auto;
+  padding-top: 0.22rem;
+}
+.pp3 ul li{
+  float: left;
+  width: 2.2rem;
+  min-height: 2.6rem;
+  padding-top: 0.3rem;
+  border-bottom: 0.01rem solid #d5d5d6;
+}
+.pp3 ul li:nth-last-child(3n+2){
+  width: 2.18rem;
+  border-left: 0.01rem solid #d5d5d6;
+  border-right: 0.01rem solid #d5d5d6;
+}
+.pp3 ul li:last-child,
+.pp3 ul li:nth-last-child(2),
+.pp3 ul li:nth-last-child(3){
+  border-bottom: none;
+}
+.pp3 ul li .p1{
+  width: 1.4rem;
+  height: 1.4rem;
+  margin: auto;
+  background: url(../img/pp/c_icon1.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+.pp3 ul li .p1 span{
+  font-size: 0.29rem;
+  color: #074c98;
+  line-height: 0.34rem;
+  display: block;
+  margin: auto;
+  width: 0.6rem;
+  margin-top: 0.36rem;
+}
+.pp3 ul li .p2{
+  font-size: 0.24rem;
+  line-height: 0.36rem;
+  color: #595757;
+  text-align: center;
+  margin-top: 0.2rem;
+}
+.pp3 .fenye-box {
+  padding-top: 1.2rem;
+}
+.pp4 .subTitile .p3 span{
+  display: block;
+  transform: scale(0.58);
+  -webkit-transform: scale(0.58);
+  -o-transform: scale(0.58);
+  -moz-transform: scale(0.58);
+  -ms-transform: scale(0.58);
+  width: 172%;
+  margin-left: -36%;
+}
+.pp4 ul{
+  width: 6.6rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 0;
+  padding-top: 0.15rem;
+}
+.pp4 ul li{
+  display: inline-block;
+  width: 2.1rem;
+  height: 2.95rem;
+  border: 1px solid #1081c9;
+  border-radius: 0.1rem;
+  margin-top: 0.1rem;
+}
+.pp4 ul li .p1{
+  width: 2.03rem;
+  height: 0.9rem;
+  margin: auto;
+  margin-top: 0.06rem;
+  background: url(../img/pp/d_icon1.png) no-repeat;
+  background-size: 100% 100%;
+  font-size: 0.32rem;
+  line-height: 0.36rem;
+  color: #18448c;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 0.15rem;
+}
+.pp4 ul li img{
+  display: block;
+  margin: auto;
+  width: 2.03rem;
+  height: 1.78rem;
+}

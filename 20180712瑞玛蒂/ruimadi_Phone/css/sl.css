@@ -1,0 +1,111 @@
+.content .er-nav ul li{
+	width: 25%;
+}
+
+
+/*sl1*/
+.sl1 .part img{
+	display: block;
+	width: 100%;
+	margin-top: 0.2rem;
+}
+.sl1 .part .p1{
+	color:#595757;
+	font-size: 0.24rem;
+	margin-top: 0.2rem;
+	line-height: 0.36rem;
+}
+
+
+
+/*.sl2*/
+.sl2 .part .p1{
+	font-size: 0.24rem;
+	color:#595757;
+	margin-top: 0.2rem;
+	line-height: 0.36rem;
+}
+.sl2 .part img{
+	display: block;
+	width: 100%;
+	margin-top: 0.2rem;
+}
+.sl2 .part .part-main{
+	position:relative;
+}
+.sl2 .part ul{
+	width: 100%;
+	position: absolute;
+	top:0.7rem;
+	left: 0;
+}
+.sl2 .part ul li{
+	float: left;
+	width: 22%;
+	margin-right: 4%;
+	text-align: center;
+	
+	color:#030000;
+}
+.sl2 .part ul li.li2{
+	margin-top: 1.1rem;
+}
+.sl2 .part ul li:nth-child(4n){
+	margin-right: 0;
+}
+.sl2 .part ul li:nth-child(2n){
+	color:#fff;
+}
+.sl2 .part ul li .li-fonts{
+	font-size: 0.32rem;
+}
+
+
+/*sl3*/
+.sl3 .part{
+	margin-top: 0.4rem;
+	width: 100%;
+}
+.sl3 .part .part-left{
+	width: 40%;
+	
+}
+.sl3 .part .part-left img{
+	width: 100%;
+}
+.sl3 .part .part-right{
+	width: 55%;
+	color:#595757;
+}
+.sl3 .part .part-right .p1{
+	font-size: 0.36rem;
+}
+.sl3 .part .part-right .p2{
+	font-size: 0.24rem;
+	margin-top: 0.1rem;
+	text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    line-height: 0.36rem;
+}
+
+
+/*sl4*/
+.sl4 .part{
+	margin-top: 0.2rem;
+	color:#595757;
+}
+.sl4 .part img{
+	display: block;
+	width: 100%;
+}
+.sl4 .part .p1{
+	margin-top: 0.3rem;
+	line-height: 0.36rem;
+}
+.sl4 .title2{
+	margin-top: 0.5rem;
+}

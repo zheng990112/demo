@@ -1,0 +1,73 @@
+
+
+.mt01{
+	margin-top: 0.1rem;
+}
+.mt02{
+	margin-top: 0.2rem;
+}
+.mt03{
+	margin-top: 0.3rem;
+}
+.mt04{
+	margin-top: 0.4rem;
+}
+.mt05{
+	margin-top: 0.5rem;
+}
+.mt06{
+	margin-top: 0.6rem;
+}
+.mt07{
+	margin-top: 0.7rem;
+}
+
+.p1{
+	color:#515151;
+	font-family: myfont_Light;
+	line-height: 0.34rem;
+}
+.p1 b{
+	font-family: myfont_Medium;
+	color:#0c0c0c;
+}
+.part-img{
+	display: block;
+	width: 100%;
+}
+
+
+.box{
+	padding-left: 0.25rem;
+	box-sizing: border-box;
+	font-family: myfont_Light;
+}
+.box .box-p1{
+	font-size: 0.24rem;
+	color:#ba1a1f;
+	position:relative;
+	font-family: myfont_Medium;
+}
+.box .box-p1::before{
+	content:"";
+	display: inline-block;
+	width: 0.08rem;
+	height: 0.08rem;
+	background-color: #b51c21;
+	position:absolute;
+	top:0.12rem;
+	margin-left: -0.2rem;
+}
+.box .box-p2{
+	color:#515151; 
+	line-height: 0.36rem;
+	margin-top: 0.1rem;
+}
+.box .box-p2 b{
+	color:#0c0c0c;
+	font-family: myfont_Medium;
+}
+
+.part1{
+	padding-bottom: 1rem;
+}

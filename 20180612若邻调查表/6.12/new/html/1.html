@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+ <title>test</title> 
+    <script language="javascript" type="text/javascript">
+       var isChecked = false;
+    function setChecked (obj) {
+        isChecked = isChecked ? false : true;
+        obj.checked = isChecked;
+    };
+</script>
+<body>
+	<input type="radio" name="isTest" id="isTest1" onclick="setChecked(this);"/>
+	<input type="radio" name="isTest" id="isTest2" onclick="setChecked(this);"/>
+	<input type="radio" name="isTest" id="isTest3" onclick="setChecked(this);"/>
+	<input type="radio" name="isTest" id="isTest4" onclick="setChecked(this);"/>
+</body>
+</html>

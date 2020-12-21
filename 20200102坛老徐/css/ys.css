@@ -1,0 +1,304 @@
+.container .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0.44rem;
+}
+
+.part-tag {
+    width: 2.04rem;
+    height: 0.60rem;
+    background-color: #F8B300;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.60rem;
+    font-size: 0.36rem;
+    margin-top: 0.71rem;
+}
+
+.part-title {
+    margin-top: 0.34rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.part-title .title-main {
+    font-size: 0.42rem;
+    color: #F8B300;
+    font-weight: bold;
+    line-height: 0.42rem;
+    background-color: #ffffff;
+    padding: 0 0.20rem;
+}
+
+.part-title .title-sub {
+    font-size: 0.26rem;
+    color: #7D0021;
+    line-height: 0.26rem;
+    margin-top: 0.13rem;
+    background-color: #ffffff;
+    padding: 0 0.50rem;
+}
+
+.part-title::before {
+    content: '';
+    display: block;
+    width: 6.18rem;
+    height: 0.53rem;
+    box-sizing: border-box;
+    border: 0.02rem solid #F8B300;
+    border-radius: 0.1rem;
+    position: absolute;
+    top: 0.16rem;
+    z-index: -1;
+}
+
+.part-title-en {
+    width: 6.16rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.25rem;
+    color: #C8C9CA;
+    line-height: 0.25rem;
+    margin-top: 0.1rem;
+    white-space: nowrap;
+}
+
+.part-title-en::before,
+.part-title-en::after {
+    content: '';
+    display: block;
+    width: 0.45rem;
+    height: 0.19rem;
+    background-size: 100% 100%;
+}
+
+.part-title-en::before {
+    background-image: url(../img/title_left_icon.png);
+}
+
+.part-title-en::after {
+    background-image: url(../img/title_right_icon.png);
+}
+
+.ys4 .icon-01 {
+    width: 2.29rem;
+    vertical-align: top;
+    position: absolute;
+    right: 0;
+    top: 0.80rem;
+    z-index: -1;
+}
+
+.ys4 .services {
+    width: 5.78rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    margin-top: 0.20rem;
+}
+
+.ys4 .services .item {
+    width: 2.34rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.13rem;
+}
+
+.ys4 .services .item .item-icon {
+    width: 0.86rem;
+    font-size: 0;
+}
+
+.ys4 .services .item .item-name {
+    font-size: 0.26rem;
+    line-height: 0.26rem;
+    color: #7D0021;
+    margin-top: 0.1rem;
+}
+
+.ys4 .services .item .item-desc {
+    font-size: 0.20rem;
+    text-align: justify;
+    line-height: 0.26rem;
+    margin-top: 0.1rem;
+}
+
+.ys4 .services::before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 100%;
+    border-right: 0.02rem dashed #7D0021;
+    position: absolute;
+    left: 49.5%;
+    top: 0;
+    margin-left: -0.01rem;
+}
+
+.ys3 .icon-01 {
+    width: 1.94rem;
+    vertical-align: top;
+    position: absolute;
+    left: 0;
+    top: 1.17rem;
+    z-index: -1;
+}
+
+.ys3 .operations {
+    width: 6.95rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: -0.20rem;
+}
+
+.ys3 .operations .item {
+    width: 3.34rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.49rem;
+}
+
+.ys3 .operations .item .item-img {
+    width: 100%;
+    height: 1.27rem;
+    font-size: 0;
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.ys3 .operations .item .item-img::before {
+    content: '';
+    display: block;
+    width: 0.72rem;
+    height: 0.09rem;
+    background-color: #7D0021;
+    position: absolute;
+    left: 50%;
+    top: -0.04rem;
+    margin-left: -0.36rem;
+}
+
+.ys3 .operations .item .item-name {
+    font-size: 0.26rem;
+    color: #F8B300;
+    line-height: 0.26rem;
+    margin-top: 0.20rem;
+}
+
+.ys3 .operations .item .item-desc {
+    font-size: 0.20rem;
+    color: #333;
+    line-height: 0.34rem;
+    margin-top: 0.1rem;
+    text-align: justify;
+}
+
+.ys2 .icon-01 {
+    width: 2.15rem;
+    vertical-align: top;
+    position: absolute;
+    left: 0.16rem;
+    top: 1.04rem;
+    z-index: -1;
+}
+
+.ys2 .icon-02 {
+    width: 1.39rem;
+    vertical-align: top;
+    position: absolute;
+    right: 0;
+    top: 10.67rem;
+    z-index: -1;
+}
+
+.ys2 .profit {
+    width: 6.97rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.ys2 .profit .item {
+    width: 3.35rem;
+    margin-top: 0.30rem;
+}
+
+.ys2 .profit .item .item-img {
+    width: 100%;
+    height: 1.26rem;
+    font-size: 0;
+    position: relative;
+}
+
+.ys2 .profit .item .item-img .item-name {
+    width: 100%;
+    height: 0.41rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(125, 0, 33, 0.6);
+    font-size: 0.26rem;
+    color: #F8B300;
+    text-align: center;
+    line-height: 0.41rem;
+}
+
+.ys2 .profit .item .item-desc {
+    font-size: 0.20rem;
+    line-height: 0.30rem;
+    text-align: justify;
+    margin-top: 0.19rem;
+}
+
+.ys1 .projects {
+    width: 6.97rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.ys1 .projects .item {
+    width: 3.35rem;
+    margin-top: 0.30rem;
+}
+
+.ys1 .projects .item .item-img {
+    width: 100%;
+    height: 1.43rem;
+    font-size: 0;
+    position: relative;
+}
+
+.ys1 .projects .item .item-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.ys1 .projects .item .item-name {
+    width: 100%;
+    height: 0.41rem;
+    background-color: #F8B300;
+    font-size: 0.26rem;
+    color: #7D0021;
+    text-align: center;
+    line-height: 0.41rem;
+}
+
+.ys1 .projects .item .item-desc {
+    font-size: 0.20rem;
+    line-height: 0.30rem;
+    text-align: justify;
+    margin-top: 0.15rem;
+}

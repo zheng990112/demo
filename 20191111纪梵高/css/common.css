@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: "Microsoft Yahei", arial, serif;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    color: #595757;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+i {
+    font-style: normal;
+}
+
+img {
+    border: none;
+}
+
+input,
+button,
+textarea {
+    border: 0;
+    outline: none;
+}
+
+b {
+    font-weight: normal;
+}
+
+em {
+    font-style: normal;
+}
+
+@font-face {
+    font-family: dinBold;
+    src: url("../font/din-bold_.otf");
+}
+
+@font-face {
+    font-family: hyliliangheij;
+    src: url("../font/hyliliangheij.ttf");
+}
+
+header {
+    width: 100%;
+    height: 0.86rem;
+    background: linear-gradient(top, #231815, #3e3a39);
+    background: -webkit-linear-gradient(top, #231815, #3e3a39);
+    background: -moz-linear-gradient(top, #231815, #3e3a39);
+    background: -o-linear-gradient(top, #231815, #3e3a39);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+header .header-box {
+    padding: 0 0.70rem 0 0.46rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0;
+}
+
+header .header-box .logo {
+    width: 1.26rem;
+}
+
+header .header-box .desc {
+    width: 1.76rem;
+}
+
+header .header-box .phone-box {
+    display: flex;
+    align-items: center;
+    color: #C59C65;
+}
+
+header .header-box .phone-box .phone-icon {
+    width: 0.34rem;
+}
+
+header .header-box .phone-box .phone-info {
+    width: 1.54rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.05rem;
+}
+
+header .header-box .phone-box .phone-tag {
+    display: block;
+    font-size: 0.20rem;
+    transform: scale(0.5);
+    margin-left: -32%;
+    line-height: 0.10rem;
+}
+
+header .header-box .phone-box .phone-num {
+    display: inline-block;
+    font-size: 0.22rem;
+    line-height: 0.22rem;
+    margin-top: 0.04rem;
+    font-family: dinBold;
+}
+
+header .header-box .menu-box {
+    width: 0.67rem;
+    height: 100%;
+    position: relative;
+}
+
+header .header-box .menu-box .menu-icon {
+    margin-top: 0.23rem;
+}
+
+.menu-list {
+    width: 1.34rem;
+    position: absolute;
+    top: 0.86rem;
+    right: -425%;
+    margin-right: -0.67rem;
+    padding: 0.09rem 0 0.14rem 0;
+    background-color: rgba(62, 58, 57, 0.8);
+    border-radius: 0 0 0.12rem 0.12rem;
+}
+
+.menu-list .menu-item {
+    display: block;
+    font-size: 0.26rem;
+    color: #C59C65;
+    text-align: center;
+    padding: 0.1rem 0;
+}
+
+.menu-list .menu-item.active {
+    color: #EAEAEA;
+}
+
+
+
+.menu-list ul li{
+	position: relative;
+	width: 100%;
+    text-align: center;
+}
+.menu-list ul li .title{
+	color: #C59C65;
+	font-size: .26rem;
+	font-weight: normal;
+	line-height: .56rem;
+	margin-bottom: .08rem;
+	display: block;
+	width: 100%;
+}
+.menu-list ul li:last-child .title{
+	margin-bottom: 0;
+}
+.menu-list ul li .item{
+	display: none;
+	position: absolute;
+	left: -1.4rem;
+	top: -.1rem;
+	width: 1.4rem;
+	background:rgba(62, 58, 57, 0.8);
+	padding: .16rem 0;
+}
+.menu-list ul li .item a{
+	display: block;
+	color: #C59C65;
+	font-size: .26rem;
+	line-height:0.52rem;
+}
+.menu-list ul li.active .item{
+	display: block;
+}
+.menu-list ul li .item a.on,
+.menu-list ul li.active .title{
+	color: #EAEAEA;
+}
+.bg{
+	width: 100%;
+	height: 100%;
+	background-color:rgba(0,0,0,0.5);
+	position:fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	display: none;
+}
+
+
+
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #241916;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 0;
+    z-index: 999;
+}
+
+.footer-box {
+    display: flex;
+    height: 0.85rem;
+}
+
+.footer-box .page {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-size: 0;
+    cursor: pointer;
+}
+
+.footer-box .page .page-icon {
+    width: 0.44rem;
+    margin: 0 0.05rem;
+}
+
+.footer-box .page span {
+    font-size: 0.22rem;
+    color: #C59C65;
+    margin: 0 0.05rem;
+}
+
+.footer-box .home-page {
+    position: relative;
+}
+
+.footer-box .home-page .page-icon {
+    width: 0.42rem;
+}
+
+.footer-box .home-page::before,
+.footer-box .home-page::after {
+    content: '';
+    height: 0.36rem;
+    width: 1px;
+    background-color: #C59C65;
+    position: absolute;
+    top: 50%;
+    margin-top: -0.18rem;
+}
+
+.footer-box .home-page::before {
+    left: -0.5px;
+}
+
+.footer-box .home-page::after {
+    right: -0.5px;
+}
+
+.main {
+    padding-top: 0.86rem;
+    padding-bottom: 0.85rem;
+}
+
+.main .main-img {
+    padding: 0 0.24rem;
+    margin-top: 0.19rem;
+}

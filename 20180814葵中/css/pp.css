@@ -1,0 +1,169 @@
+.pp .title{
+	position: relative;
+	height: .6rem;
+	margin-top: .48rem;
+	margin-bottom: .28rem;
+	text-align: center;
+}
+.pp .title img{
+	display: block;
+	height: 100%;
+	margin: 0 auto;
+}
+.pp .title p{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+	font-size: .34rem;
+	height: .6rem;
+	line-height: .6rem;
+}
+
+.pp .part1 .p1{
+	text-align: center;
+	margin: .28rem 0;
+	font-size: .34rem;
+	color: #E60012;
+}
+.pp .part1 ul{
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-around;
+	margin-bottom: .2rem;
+}
+.pp .part1 ul li{
+	display: flex;
+	align-items: center;
+}
+.pp .part1 ul li img{
+	height: .22rem;
+	width: .22rem;
+	margin-right: .08rem;
+}
+.pp .part1 .list2{
+	padding: 0 16%;
+}
+
+
+.pp .part2 .img1{
+	height: 1.72rem;
+	display: block;
+	margin: -.16rem auto .2rem;
+}
+.pp .part2 ul li{
+	margin-bottom: .32rem;
+}
+.pp .part2 ul li .p1{
+	padding-bottom: .12rem;
+	border-bottom: 1px solid #fff;
+	font-size: .34rem;
+	margin-top: .12rem;
+	margin-bottom: .12rem;
+}
+.pp .part2 ul li .p1 span{
+	font-size: .24rem;
+	margin-left: .12rem;
+}
+.pp .part2 ul li .p2{
+	font-size: .24rem;
+}
+.pp .part2 .item{
+	border: 1px solid #E60012;
+	margin: .48rem .4rem;
+	position: relative;
+	height: 1.02rem;
+	text-align: center;
+}
+.pp .part2 .item2{
+	margin-top: .64rem;
+}
+.pp .part2 .item .p1{
+	width: 2.9rem;
+	height: .68rem;
+	text-align: center;
+	line-height: .68rem;
+	background: #E60012;
+	border-radius: .08rem;
+	font-size: .34rem;
+	position: absolute;
+	left: 50%;
+	top: -.34rem;
+	margin-left: -1.45rem;
+	z-index: 2;
+}
+.pp .part2 .item .p2{
+	margin-top: .34rem;
+	font-size: .24rem;
+	line-height: .68rem;
+}
+
+.pp .part3{
+	text-align: center;
+}
+.pp .part3 .img1{
+	height: 2.06rem;
+	display: block;
+	margin: 0 auto -1.28rem;
+}
+.pp .part3 .p1{
+	margin-top: -.12rem;
+}
+.pp .part3 .box{
+	margin: .4rem .24rem .52rem;
+}
+.pp .part3 .box img{
+	margin-bottom: .2rem;
+}
+
+.pp .part4 .box{
+	text-align: center;
+	margin-bottom: .28rem;
+}
+.pp .part4 .box p{
+	font-size: .34rem;
+}
+.pp .part4 .box img{
+	height: 1.48rem;
+	margin: -.08rem auto 0;
+	display: block;
+	position: relative;
+	z-index: -1;
+}
+
+.pp .part4 ul{
+	margin: .32rem .24rem;
+}
+.pp .part4 ul li{
+	margin-bottom: .28rem;
+}
+.pp .part4 ul li .top{
+	border-bottom: 1px solid #E60012;
+}
+.pp .part4 ul li .top p{
+	width: 2.44rem;
+	height: .72rem;
+	line-height: .72rem;
+	border-radius: .08rem;
+	background: #E60012;
+	text-align: center;
+	font-size: .34rem;
+}
+.pp .part4 ul li .top p span{
+	margin-left: .08rem;
+	font-size: .24rem;
+}
+.pp .part4 ul li .p1{
+	padding-left: .12rem;
+	font-size: .24rem;
+	line-height: .48rem;
+	margin-top: .12rem;
+}
+
+.pp .part5{
+	margin-bottom: .4rem;
+}
+
+
+

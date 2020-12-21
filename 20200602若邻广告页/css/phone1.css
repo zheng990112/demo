@@ -1,0 +1,341 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    background: #000;
+    width: 100%;
+    overflow-x: hidden;
+    color:#fff;
+}
+.main {
+    font-size: 0;
+}
+
+.bg_img {
+    display: block;
+    width: 100%;
+}
+.tel_img{
+	display: block;
+	margin:0 auto;
+	width: 6.47rem;
+	
+}
+
+
+
+.part{
+	position:relative;
+}
+.part1 .box{
+	position:absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	text-align: center;
+}
+.part1 .box .logo{
+	display: block;
+	width: 3.23rem;
+	position:absolute;
+	right: 0.5rem;
+	top: 0.8rem;
+}
+.part1 .box .a1_img{
+	display: block;
+	width: 4rem;
+	position:absolute;
+	right: 0.5rem;
+	top: 1.8rem;
+	
+}
+.part1 .box .a2_img{
+	display: block;
+	width:5.76rem;
+	position:absolute;
+	top: 6.25rem;
+	left: 50%;
+	margin-left: -2.88rem;
+}
+.part1 .box .p1{
+	font-size: 0.43rem;
+	width: 100%;
+	line-height: 1;
+	/*display: inline-block;*/
+	/*position:relative;*/
+	position:absolute;
+	top: 7rem;
+	/*margin-top:7rem;*/
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+}
+.part1 .box .p1::before{
+	content:"";
+	display: inline-block;
+	width: 6.3rem;
+	height: 0.03rem;
+	background: url(../img/phone/a3.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	bottom: -0.1rem;
+	left: 50%;
+	margin-left: -3.15rem;
+}
+.part1 .box .p2{
+	position:absolute;
+	top: 8rem;
+	width: 100%;
+	text-align: left;
+	font-size: 0;
+}
+.part1 .box .p2 span{
+	font-size: 0.3rem;
+	line-height: 0.42rem;
+	margin-left: 0.5rem;
+}
+.part1 .box .p2 span:first-child{
+	margin-left: 0.65rem;
+}
+.part1 .box .p2::before{
+	content:"";
+	display: inline-block;
+	width: 7.18rem;
+	height: 0.35rem;
+	background: url(../img/phone/a4.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	right: 0;
+	bottom: -0.05rem;
+}
+
+
+
+.part2{
+	width: 100%;
+	height:7.1rem;
+	background: url(../img/phone/bg_2.png) no-repeat;
+	background-size: 100% 100%;
+	padding-top: 0.3rem;
+	box-sizing: border-box;
+}
+.part2 .p1{ 
+	text-align: center;
+	font-size: 0.37rem;
+	letter-spacing: 0.15rem;	
+	line-height: 1;
+}
+.part2 .p2{
+	font-size: 1.08rem;
+	text-align: center;
+	color:#d71718;
+	line-height: 1;
+	margin-top: 0.1rem;
+}
+.part2 .tel_img{
+	margin-top: 0.6rem;
+}
+.part2 .p3{
+	position:absolute;
+	right: 0.6rem;
+	bottom: 0.3rem;
+	text-align: right;
+}
+.part2 .p3 .span1{
+	font-size: 0.4rem;
+	display: block;
+	line-height:0.6rem;
+    letter-spacing: 0.05rem;
+}
+.part2 .p3 .span2{
+	font-size: 0.85rem;
+	color:#d71718;
+	display: block;
+	line-height: 1;
+}
+
+
+.part3{
+	width: 100%;
+	height:9.07rem;
+	background: url(../img/phone/bg_3.jpg) no-repeat;
+	background-size: 100% 100%;
+	padding-top: 0.25rem;
+	box-sizing: border-box;
+}
+.part3 .p1{
+	font-size: 0.54rem;
+	line-height: 1;
+	color:#d71718;
+	margin-left: 0.6rem;
+	font-weight: bold;
+}
+.part3 .p2{
+	font-size: 0.7rem;
+	line-height: 1;
+	font-weight:lighter;
+	margin-left: 0.6rem;
+	margin-top: 0.1rem;
+}
+.part3 ul{
+	text-align: center;
+	font-size: 0;
+	margin-top: 0.3rem;
+}
+.part3 ul li{
+	display: inline-block;
+	width: 1.82rem;
+	height: 1.81rem;
+	background: url(../img/phone/c1.png) no-repeat;
+	background-size:100% 100%;
+	font-size: 0.38rem;
+	line-height: 0.42rem;
+	padding-top: 0.45rem;
+	box-sizing: border-box;
+	margin:0 0.25rem;
+	margin-top: 0.1rem;
+}
+.part3 ul li:nth-child(2),
+.part3 ul li:nth-child(5){
+	background: url(../img/phone/c2.png) no-repeat;
+	background-size:100% 100%;
+}
+.part3 ul li span{
+	color:#d71718;
+	display: block;
+}
+.part3 .p3{
+	margin-left: 0.6rem;
+	margin-top: 0.6rem;
+}
+.part3 .p3 span{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 0.54rem;
+	
+}
+.part3 .p3 img{
+	display:inline-block;
+	vertical-align: middle;
+	width: 0.66rem;
+	margin-left: 0.3rem;
+	
+}
+.part3 .p4{
+	margin-left:1.15rem;
+	font-size: 0.34rem;
+	line-height: 1;
+	margin-top: 0.34rem;
+}
+
+.part4{
+	padding-bottom: 0.9rem;
+}
+.part4 .d-icon{
+	display: block;
+	width: 0.68rem;
+	position:absolute;
+	left: 0.8rem;
+	top: 0.85rem;
+}
+.part4 .p1{
+	font-size: 0.54rem;
+	line-height: 1;
+	color:#d71718;
+	margin-right: 0.8rem;
+	font-weight: bold;
+	text-align: right;
+}
+.part4 .p2{
+	text-align: right;
+	font-size: 0.7rem;
+	line-height: 1;
+	font-weight:lighter;
+	margin-right: 0.5rem;
+	margin-top: 0.1rem;
+}
+.part4 ul{
+	text-align: center;
+	font-size: 0;
+	margin-top: 0.3rem;
+}
+.part4 ul li{
+	display: inline-block;
+	vertical-align: top;
+	width: 1.82rem;
+	height: 1.81rem;
+	background: url(../img/phone/c1.png) no-repeat;
+	background-size:100% 100%;
+	font-size: 0.35rem;
+	line-height: 0.39rem;
+	padding-top: 0.45rem;
+	box-sizing: border-box;
+	margin:0.2rem 0.25rem;
+}
+.part4 ul li:nth-child(3),
+.part4 ul li:nth-child(4){
+	padding-top: 0.35rem;
+}
+.part4 ul li:nth-child(2n){
+	background: url(../img/phone/c2.png) no-repeat;
+	background-size:100% 100%;
+}
+.part4 ul li span{
+	color:#d71718;
+}
+.part4 .p3{
+	margin-left: 0.6rem;
+	margin-top: 0.1rem;
+}
+.part4 .p3 span{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 0.54rem;
+}
+.part4 .p3 img{
+	display:inline-block;
+	vertical-align: middle;
+	width: 0.66rem;
+	margin-left: 0.3rem;
+	
+}
+.part4 .p4{
+	line-height: 1;
+	margin-top: 0.2rem;
+	position:relative;
+}
+.part4 .p4 span{
+	display: inline-block;
+	margin-left:1.15rem;
+	font-size: 0.34rem;
+	line-height: 1;
+}
+.part4 .p4::after{
+	content:"";
+	display: inline-block;
+	width: 6.8rem;
+	height: 0.46rem;
+	background: url(../img/phone/d1.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	right: 0;
+	
+}
+.part6 .tel_img{
+	position:absolute;
+	left: 50%;
+	margin-left: -3.23rem;
+	top: 0.2rem;
+}
+.part7 .tel_img{
+	position:absolute;
+	left: 50%;
+	margin-left: -3.23rem;
+	bottom:1.55rem;
+}

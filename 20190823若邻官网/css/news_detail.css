@@ -1,0 +1,34 @@
+.content {
+    /* width: 100%; */
+    min-height: 100%;
+    padding: 0 0.30rem;
+}
+
+.content-info {
+    padding-top: 1.48rem;
+}
+
+.content-info .title {
+    margin-top: 0.2rem;
+    font-size: 0.52rem;
+    text-align: center;
+    padding: 0 0.2rem;
+}
+
+.content-info .info {
+    padding: 0 0.20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.2rem;
+    font-size: 0.30rem;
+}
+
+.content-info p {
+    font-size: 0.26rem;
+    padding: 0.15rem 0;
+}
+
+.content-info img {
+    padding: 0.1rem 0;
+}

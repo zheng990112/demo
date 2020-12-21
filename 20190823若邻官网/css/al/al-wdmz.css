@@ -1,0 +1,45 @@
+
+
+.mt01{
+	margin-top: 0.1rem;
+}
+.mt02{
+	margin-top: 0.2rem;
+}
+.mt04{
+	margin-top: 0.4rem;
+}
+.mt08{
+	margin-top: 0.8rem;
+}
+.big_title{
+	font-size: 0.37rem;
+}
+.p0{
+	color:#7e7f80;
+	font-family: myfont_Light;
+	line-height: 0.34rem;
+}
+.p0 b{
+	font-family: myfont_Medium;
+	font-weight: bold;
+}
+.p1{
+	color:#515151;
+	font-family: myfont_Light;
+	line-height: 0.34rem;
+}
+.part-img{
+	display: block;
+	width: 100%;
+}
+.p2{
+	color:#231815;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	line-height: 0.42rem;
+	margin-top: 0.4rem;
+}
+.part1{
+	padding-bottom: 0.7rem;
+}

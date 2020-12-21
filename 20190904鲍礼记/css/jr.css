@@ -1,0 +1,315 @@
+.content {
+    background-color: #0a4324;
+    padding-top: 0.60rem;
+    padding-bottom: 0.64rem;
+    position: relative;
+}
+
+.content .float {
+    width: 1.96rem;
+    height: 2.24rem;
+    position: absolute;
+    right: 0;
+    top: 8.7rem;
+}
+
+.public-title .p2 {
+    color: #bb8040;
+    border-top: 2px solid #bb8040;
+    border-bottom: 2px solid #bb8040;
+}
+
+.public-title .p2 span {
+    display: block;
+    border-top: 1px solid #bb8040;
+    border-bottom: 1px solid #bb8040;
+}
+
+.part1 .map-box {
+    width: 100%;
+    /* height: 3.25rem; */
+    background-color: #ffffff;
+    margin-top: 0.64rem;
+}
+
+.part1 .map-box .map {
+    width: 100%;
+    height: 3.25rem;
+    z-index: 0;
+}
+
+.part1 .map-box span {
+    display: block;
+    width: 100%;
+    background-color: #c58340;
+    text-align: center;
+    font-size: 0.26rem;
+    color: #0a4324;
+    height: 0.40rem;
+    line-height: 0.40rem;
+    font-family: myfont2;
+    z-index: 99999;
+}
+
+.part1 .lx-flex {
+    padding: 0 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.35rem;
+}
+
+.lx-flex .tab {
+    position: relative;
+    width: 3.32rem;
+    height: 0.62rem;
+    font-size: 0;
+}
+
+.lx-flex .tab img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.lx-flex .tab .text {
+    width: 100%;
+    font-size: 0.27rem;
+    position: absolute;
+    z-index: 2;
+    font-family: myfont2;
+    line-height: 0.46rem;
+    text-align: center;
+    letter-spacing: 0.01rem;
+}
+
+.lx-flex .phone {
+    font-size: 0.65rem;
+    color: #bb8040;
+    font-family: myfont;
+    font-weight: bold;
+    letter-spacing: 0.01rem;
+    line-height: 0.68rem;
+    margin-top: 0.15rem;
+}
+
+.lx-flex .addr {
+    font-size: 0.27rem;
+    color: #bb8040;
+    font-family: myfont;
+    font-weight: bold;
+    letter-spacing: 0.01rem;
+    margin-top: 0.1rem;
+    line-height: 0.30rem;
+}
+
+.lx-flex .right {
+    width: 1.40rem;
+    height: 1.78rem;
+    border: 1px solid #bb8040;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lx-flex .right img {
+    width: 1.26rem;
+    height: 1.26rem;
+}
+
+.lx-flex .right span {
+    font-size: 0.24rem;
+    transform: scale(.92);
+    -webkit-transform: scale(.92);
+    -o-transform: scale(.92);
+    -moz-transform: scale(.92);
+    -ms-transform: scale(.92);
+    width: 110%;
+    /* margin-left: -4%; */
+    text-align: center;
+    color: #bb8040;
+    padding: 0.1rem 0 0;
+}
+
+.part2 {
+    margin-top: 0.70rem;
+}
+
+.part2 .sub-title {
+    width: 6.7rem;
+    height: 1.3rem;
+    margin: 0.48rem auto 0;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.part2 .sub-title i {
+    display: block;
+    width: 0.30rem;
+    height: 0.30rem;
+    background-color: #0a4324;
+    border: 0.03rem solid #bb8040;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 999;
+}
+
+.part2 .sub-title .info {
+    width: 6.64rem;
+    height: 1.24rem;
+    border: 0.03rem solid #bb8040;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.part2 .sub-title .info p {
+    color: #bb8040;
+    font-family: mtfont2;
+    /* font-weight: bold; */
+    margin-top: -0.10rem;
+    letter-spacing: 0.01rem;
+}
+
+.part2 .sub-title .info p:first-of-type {
+    font-size: 0.45rem;
+}
+
+.part2 .sub-title .info p:last-of-type {
+    font-size: 0.30rem;
+    line-height: 0.36rem;
+    padding-top: 0.10rem;
+}
+
+.part2 form {
+    width: 6.7rem;
+    margin: 0.35rem auto 0;
+}
+
+.part2 form .input-control {
+    /* width: 100%; */
+    padding: 0 0.30rem;
+    height: 0.68rem;
+    border-radius: 0.15rem;
+    background-color: #bb8040;
+}
+
+.part2 form .textarea-control {
+    /* width: 100%; */
+    padding: 0 0.30rem;
+    height: 2.28rem;
+    border-radius: 0.15rem;
+    background-color: #bb8040;
+    margin-top: 0.15rem;
+}
+
+.part2 form .input-control+.input-control {
+    margin-top: 0.15rem;
+}
+
+.part2 form .input-control input,
+.part2 form .textarea-control textarea {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    color: #0a4324;
+    font-size: 0.40rem;
+    font-family: myfont2;
+    font-weight: lighter;
+    line-height: 0.68rem;
+}
+
+.part2 form .sub_btn {
+    margin-top: 0.24rem;
+    text-align: center;
+}
+
+.part2 form .sub_btn button {
+    width: 2.58rem;
+    height: 0.58rem;
+    background-color: #bb8040;
+    color: #0a4324;
+    border-radius: 0.15rem;
+    font-size: 0.40rem;
+    font-family: myfont2;
+    font-weight: lighter;
+    line-height: 0.58rem;
+}
+
+.content .btns {
+    width: 5.40rem;
+    margin: 0 auto;
+    padding: 0.65rem 0 0.55rem;
+}
+
+.content .btns {
+    width: 5.40rem;
+    margin: 0 auto;
+    padding: 0.65rem 0 0.55rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .btns .btn {
+    width: 1.75rem;
+    height: 0.85rem;
+    position: relative;
+}
+
+.content .btns .btn a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 0.85rem;
+    font-size: 0.28rem;
+    font-family: myfont2;
+    font-weight: bold;
+    color: #bb8040;
+}
+
+@media (max-width: 320px) {
+    .part2 .sub-title .info p:last-of-type {
+        font-size: 0.28rem;
+    }
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #0a4324;
+    opacity: .6;
+    line-height: 0.68rem;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #0a4324;
+    opacity: .6;
+    line-height: 0.68rem;
+}
+
+input::-ms-input-placeholder,
+textarea::-ms-input-placeholder {
+    /* IE 10+ */
+    color: #0a4324;
+    opacity: .6;
+    line-height: 0.68rem;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+    /* Firefox 18- */
+    color: #0a4324;
+    opacity: .6;
+    line-height: 0.68rem;
+}

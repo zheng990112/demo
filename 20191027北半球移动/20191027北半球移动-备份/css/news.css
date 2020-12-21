@@ -1,0 +1,146 @@
+.main.padding {
+  padding: 1.6853333333rem 1.4933333333rem 2.7733333333rem;
+  box-sizing: border-box;
+}
+
+.top-icon {
+  position: absolute;
+  right: 0;
+  top: 1.0666666667rem;
+  /* z-index: -1; */
+  width: 8.96rem;
+}
+
+.part1 {
+  margin-top: 1.4933333333rem;
+  position: relative;
+}
+
+.part1 .part1-icon {
+  width: 8.96rem;
+  position: absolute;
+  top: 8.96rem;
+  left: -1.4933333333rem;
+  z-index: -1;
+}
+
+.picScroll-left {
+  position: relative;
+  width: 12.9066666667rem;
+  display: inline-block;
+  margin: 0.5333333333rem 0;
+}
+
+.picScroll-left .bd {
+  width: 12.9066666667rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.picScroll-left .bd li {
+  float: left;
+  position: relative;
+  text-align: center;
+  width: 12.9066666667rem;
+  height: 5.9306666667rem;
+  cursor: pointer;
+}
+
+.picScroll-left .bd li img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.picScroll-left .hd {
+  text-align: center;
+}
+
+.picScroll-left .hd ul li {
+  font-size: 0;
+  width: 0.8533333333rem;
+  height: 0.1706666667rem;
+  background: #b8b8b8;
+  display: inline-block;
+  margin: 0 0.0853333333rem;
+}
+
+.picScroll-left .hd ul li.on {
+  background-color: #315acd;
+}
+
+.part1 .list {
+  display: block;
+  width: 12.9066666667rem;
+  margin: 0 auto;
+  height: 1.3653333333rem;
+  line-height: 1.3653333333rem;
+  border-bottom: 1px dotted #b1b1b1;
+}
+
+.part1 .list a {
+  display: block;
+  color: #333333;
+}
+
+.part1 .list a .news-fonts {
+  float: left;
+  font-size: 0.4266666667rem;
+}
+
+.part1 .list a .news-time {
+  float: right;
+  font-size: 0.4266666667rem;
+}
+
+.fenye-btn {
+  text-align: center;
+  margin-top: 0.4266666667rem;
+}
+
+.fenye-btn a {
+  font-size: 0.448rem;
+  display: inline-block;
+}
+
+.fenye-btn a:first-child,
+.fenye-btn a:last-child {
+  margin: 0 0.4266666667rem;
+}
+
+.part2 {
+  margin-top: 0.8533333333rem;
+}
+
+.detail-title {
+  font-size: 0.6186666667rem;
+  color: #315acd;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px dotted #315acd;
+  padding-bottom: 0.2133333333rem;
+}
+
+.detail-time {
+  font-size: 0.384rem;
+  color: #666666;
+  margin-top: 0.32rem;
+}
+
+.detail-time span {
+  margin-right: 0.4266666667rem;
+}
+
+.detail-img {
+  display: block;
+  width: 100%;
+  margin: 0.4266666667rem 0;
+}
+
+.detail-p {
+  font-size: 0.4266666667rem;
+  color: #717071;
+  line-height: 0.6826666667rem;
+}
+
+/*# sourceMappingURL=news.css.map */

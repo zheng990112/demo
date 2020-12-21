@@ -1,0 +1,32 @@
+
+.newsdetail{
+	padding-top: 0.2rem;
+	width: 6.9rem;
+	margin:0 auto;
+}
+.newsdetail-title{
+	font-size: 0.4rem;
+	text-align: center;
+	font-weight: bold;
+	color:#595757;
+	margin-top: 0.3rem;
+}
+.newsdetail-time{
+	text-align:center;
+}
+.newsdetail-time span{
+	font-size: 0.24rem;
+	color:#595757;
+	margin:0.2rem;
+}
+.newsdetail img{
+	display: block;
+	width: 100%;
+	margin-top: 0.2rem;
+}
+.newsdetail p{
+	font-size: 0.24rem;
+	line-height: 0.28rem;
+	margin-top: 0.2rem;
+	text-align: justify;
+}

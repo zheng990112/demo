@@ -1,0 +1,161 @@
+
+
+.part2 {
+	width: 6.8rem;
+	margin:0 auto;
+	position:relative;
+	z-index: 6;
+	padding-bottom: 0.4rem;
+}
+.part2 ul li{
+	/*float:left;*/
+	width: 6.8rem;
+	margin-right: 0.2rem;
+	margin-top: 0.4rem;
+}
+.part2 ul li:nth-child(2n){
+	margin-right: 0;
+}
+.part2 ul li .li-title{
+	text-align: center;
+	line-height: 1;
+	font-weight: bold;
+}
+.part2 ul li .li-title span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 109%;
+	margin-left: -4%;
+}
+.part2 ul li .li-img{
+	width:100%;
+	height: 3.48rem;
+	border:1px solid #c79f62;
+	box-sizing: border-box;
+	margin-top: 0.15rem;
+	margin-bottom: 0.1rem;
+}
+.part2 ul li .li-img img{
+	display: block;
+	width: 3.25rem;
+	height: 3.44rem;
+	margin:0 auto;
+}
+.part2 ul li .li-p span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+	text-align: justify;
+}
+.part2 ul li .li-p span b{
+	display:inline-block;
+	vertical-align: top;
+	background-color: #c79f62;
+	color:#fff;
+	padding:0 0.05rem;
+	height: 0.36rem;
+	line-height: 0.36rem;
+	width:1.2rem;
+	text-align: center;
+}
+.part2 ul li .li-p span i{
+	font-style: normal;
+	display: inline-block;
+	vertical-align: top;
+	width:6.8rem;
+}
+
+
+
+
+.cp1{
+	padding-top: 0.4rem;
+}
+.cp1 .part1{
+	padding-bottom: 0.4rem;
+}
+.cp1 .box{
+	width: 6.4rem;
+	margin:0 auto;
+}
+.cp1 .box .p1{
+	font-size: 0.52rem;
+	color:#d7d7d8;
+	line-height: 1;
+	margin-top: 0.55rem;
+}
+.cp1 .box .p2{
+	display: flex;
+	justify-content: space-between;
+}
+.cp1 .box .p2 span{
+	font-size: 0.56rem;
+	color:#c79f62;
+	font-weight:bold;
+}
+.cp1 .box .p2 img{
+	display: block;
+	width: 0.76rem;
+	height: 0.72rem;
+}
+.cp1 .box .p3{
+	font-size: 0.28rem;
+	text-align:justify;
+	color:#595757;
+	line-height: 0.54rem;
+	margin-top: 0.3rem;
+}
+.cp1 .box img{
+	display: block;
+	width: 100%;
+	margin-top: 0.1rem;
+}
+
+
+
+
+/*.cp_detail*/
+.cp_detail{
+	padding-top: 0.5rem;
+	width: 6.9rem;
+	margin:0 auto;
+	padding-bottom: 0.5rem;
+}
+.cp_detail-title{
+	font-size: 0.48rem;
+	text-align:center;
+	color:#575757;
+	font-weight: bold;
+	
+}
+.cp_detail-time{
+	text-align: center;
+}
+.cp_detail-time span{
+	font-size: 0.28rem;
+	color:#575757;
+	display: inline-block;
+	margin:0.1rem 0.2rem;
+}
+.cp_detail img{
+	display: block;
+	width: 100%;
+}
+
+.cp_detail p{
+	font-size: 0.24rem;
+	line-height: 0.32rem;
+	text-align:justify;
+	margin-top: 0.2rem;
+}

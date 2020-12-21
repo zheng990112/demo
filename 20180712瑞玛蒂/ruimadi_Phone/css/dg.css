@@ -1,0 +1,220 @@
+/*.dg1*/
+.dg1 .part1 .img1{
+	display: block;
+	width: 100%;
+	margin-top: 0.2rem;
+}
+.dg1 .part1 .p1{
+	margin-top: 0.3rem;
+	font-size: 0.24rem;
+	color:#595757;
+	line-height: 0.36rem;
+}
+
+
+/*.dg2*/
+.dg2 .part1{
+	width: 100%;
+	height: 4.9rem;
+	position:relative;
+	margin-top: 0.3rem;
+}
+.dg2 .part1 img{
+	width: 100%;
+	display: block;
+}
+.dg2 .part1 ul{
+	position:absolute;
+	width: 100%;
+	top: 0.3rem;
+	left: 0;
+}
+.dg2 .part1 ul li{
+	float: left;
+	width: 49%;
+	height: 2rem;
+	margin-right: 2%;
+	text-align: center;
+}
+.dg2 .part1 ul li:last-child{
+	margin-right: 0;
+}
+.dg2 .part1 ul li .p1{
+		/*	font-size: .2rem;*/
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+}
+.dg2 .part1 ul li .p2{
+	font-size: 0.48rem;
+	font-family: "宋体";
+}
+.dg2 .part1 ul li .p3{
+	font-size: 0.28rem;
+}
+.dg2 .part1 ul li .p4{
+	font-size: 0.24rem;
+	color:#595757;
+	line-height: 0.36rem;
+	margin-top: 2.1rem;
+	text-align: left;
+}
+.dg2 .part1 ul li .li-top2{
+	color:#fff;
+}
+
+
+/*dg3*/
+.dg3 .part1 ul li .dg3-p1{
+	font-size: 0.36rem;
+	font-family: "宋体";
+}
+.dg3 .part1 ul li .p4{
+	margin-top: 1.7rem;
+}
+.dg3 .part1 ul{
+	top: 0.4rem;
+}
+.dg3 .part1{
+	height: 5.6rem;
+}
+
+
+
+/*dg4*/
+.dg4 .title .p3 .p3-fonts{
+	width: 25%;
+	font-size: 0.24rem;
+	color:#888988;
+	display: inline-block;
+}
+.dg4 .title .p3 .line{
+	display: inline-block;
+	width: 20%;
+	height: 1px;
+	background-color: #888988;
+	vertical-align: middle;
+}
+.content .dg4 .title .p2{
+	margin-bottom: 0;
+	color:#888988;
+}
+.dg4 .title .p4{
+	font-size: 0.24rem;
+	color:#888988;
+}
+.dg4 .part .picScroll-left{
+	width: 100%;
+	position: relative;
+	margin-top: 0.4rem;
+}
+.dg4 .part .picScroll-left .bd{
+	width:80%;
+	margin:0 auto;
+	overflow: hidden;
+}
+.dg4 .part .picScroll-left .bd li{
+	float: left;
+	position: relative;
+	text-align: center;
+	width: 100%;
+	cursor: pointer;
+}
+
+.dg4 .part .picScroll-left .bd li img{
+	display: block;
+	width: 100%;
+}
+.dg4 .part .picScroll-left .bd li .li-b{
+	font-size: 0.24rem;
+	display: inline-block;
+	border:1px solid #888988;
+	color:#888988;
+	padding:0 0.2rem;
+	margin-top: 0.3rem;
+}
+.dg4 .part .picScroll-left .arrow{
+	position: absolute;
+	top: 50%;
+	width: 0.23rem;
+	height: 0.33rem;
+	cursor: pointer;
+	margin-top:-0.17rem;
+}
+.dg4 .part .picScroll-left .arrow img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.dg4 .part .picScroll-left .arrow-left{
+	left: 0;
+}
+.dg4 .part .picScroll-left .arrow-right{
+	right: 0;
+}
+
+/*.dg5*/
+.content .dg5 .title{
+	text-align: left;
+	margin-top: 0.3rem;
+}
+.dg5 .title .dg5-p1{
+	font-size: 0.24rem;
+	color:#888988;
+}
+.dg5 .title .dg5-p1 span{
+	font-size: 0.4rem;
+	font-family: "宋体";
+	color:#1d1d1d;
+}
+.dg5 .part{
+	padding-bottom: 0.4rem;
+	border-bottom: 1px solid #888988;
+}
+.dg5 .part img{
+	display: block;
+	width: 100%;
+	margin-top: 0.1rem;
+}
+.dg5 .part ul{
+	margin-top: 0.2rem;
+	height: 3rem;
+	overflow-y: auto;
+}
+.dg5 .part ul li{
+	font-size: 0.24rem;
+	line-height: 0.5rem;
+	height: 0.5rem;
+	width: 100%;
+    position:relative;
+    text-align: left;
+}
+.dg5 .part ul li .div1{
+	width: 80%;
+	white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.dg5 .part ul li .div2{
+	position:absolute;
+	right: 0;
+	top: 0;
+}
+
+
+.newsDetail .part{
+	border:none;
+}
+
+
+
+@media(max-width:320px){
+	.dg4 .title .p3 .p3-fonts{
+		width: 28%;
+	}
+}

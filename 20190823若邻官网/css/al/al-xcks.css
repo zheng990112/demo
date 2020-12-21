@@ -1,0 +1,37 @@
+.big_title::after{
+	background: url(../../img/al/icon2.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+
+.reading{
+	margin-top: 0;
+}
+.mt02{
+	margin-top: 0.2rem!important;
+}
+.mt03{
+	margin-top: 0.3rem;
+}
+.mt04{
+	margin-top: 0.4rem;
+}
+.p1{
+	font-family: myfont_Light;
+	color:#515151;
+}
+.part1 .part1-img{
+	display: block;
+	width: 100%;
+}
+.part1 .p2{
+	font-family: myfont_Medium;
+	font-weight: bold;
+	color:#221714;
+}
+.part1{
+	padding-bottom: 0.6rem;
+}
+.al-title span{
+	line-height: 0.3rem;
+}

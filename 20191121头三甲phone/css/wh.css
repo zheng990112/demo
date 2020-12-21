@@ -1,0 +1,278 @@
+.sec-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    z-index: -1;
+}
+
+.part {
+    position: relative;
+}
+
+.part1 {
+    width: 100%;
+    height: 11.40rem;
+}
+
+.part1 .part-main {
+    box-sizing: border-box;
+    padding-top: 2.82rem;
+    margin-left: 0.92rem;
+}
+
+.part1 .main-title {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.part1 .main-title img {
+    display: block;
+    width: 1.60rem;
+}
+
+.part1 .main-title p {
+    font-size: 0.5rem;
+    font-family: zhaopaiti;
+    color: #ffffff;
+    writing-mode: tb-rl;
+    letter-spacing: -0.1rem;
+    margin-left: 0.9rem;
+    margin-top: -0.6rem;
+}
+
+.part1 .main-info {
+    display: inline-block;
+    text-align: left;
+    font-size: 0.26rem;
+    font-family: juzhenti;
+    color: #ffffff;
+    writing-mode: tb-rl;
+    line-height: 0.38rem;
+    margin-left: 0.23rem;
+    margin-top: 0.87rem;
+}
+
+.part1 .main-info .p1 {
+    margin-left: 0.4rem;
+}
+
+.part1 .main-info .span1 {
+    font-family: zhaopaiti;
+    font-size: 0.37rem;
+    color: #fff;
+    letter-spacing: -0.1rem;
+}
+
+.part1 .main-info img {
+    width: 0.20rem;
+    /* vertical-align: top; */
+}
+
+.part2 {
+    height: 11.37rem;
+}
+
+.part2 .part-main {
+    box-sizing: border-box;
+    padding-top: 1.87rem;
+    margin-left: 0.92rem;
+}
+
+.part2 .main-title {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.part2 .main-title img {
+    display: block;
+    width: 1.60rem;
+}
+
+.part2 .main-title p {
+    font-size: 0.5rem;
+    font-family: zhaopaiti;
+    color: #ffffff;
+    writing-mode: tb-rl;
+    letter-spacing: -0.1rem;
+    margin-left: 0.9rem;
+    margin-top: -0.6rem;
+}
+
+.part2 .main-info {
+    display: inline-block;
+    text-align: left;
+    font-size: 0.26rem;
+    font-family: juzhenti;
+    color: #ffffff;
+    writing-mode: tb-rl;
+    line-height: 0.38rem;
+    margin-left: 1.25rem;
+    margin-top: 0.88rem;
+}
+
+.part2 .main-info img {
+    width: 0.2rem;
+    /* margin-top: 0.05rem; */
+}
+
+.part3 {
+    height: 11.33rem;
+}
+
+.part3 .part-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1.84rem;
+}
+
+.part3 .part-main .part3-icon {
+    width: 3.03rem;
+    vertical-align: top;
+}
+
+.part3 .part-main .part3-icon_02 {
+    width: 3.09rem;
+    vertical-align: top;
+    margin-top: 0.14rem;
+}
+
+.part3 .part-main .part3-title {
+    width: 6.69rem;
+    vertical-align: top;
+    margin-top: 0.81rem;
+}
+
+.part3 .tags {
+    position: relative;
+    margin-top: 0.49rem;
+}
+
+.part3 .tags::before {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 4.4rem;
+    background-color: #AB8040;
+    position: absolute;
+    top: 0.31rem;
+    left: 0.1rem;
+}
+
+.part3 .tags .tag {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.part3 .tags .tag+.tag {
+    margin-top: 0.82rem;
+}
+
+.part3 .tags .tag .tag-icon {
+    width: 0.21rem;
+    height: .21rem;
+    box-sizing: border-box;
+    border: 0.02rem solid #AB8040;
+    background-color: #FFE7D6;
+    border-radius: 50%;
+}
+
+.part3 .tags .tag .tag-name {
+    font-size: 0.41rem;
+    color: #AB8040;
+    font-family: zhaopaiti;
+    margin-left: 0.37rem;
+}
+
+.part3 .tags .tag .tag-desc {
+    font-size: 0.25rem;
+    color: #3E3A39;
+    font-family: juzhenti;
+    margin-left: 0.46rem;
+}
+
+.part3 .icon {
+    position: absolute;
+    top: 1.05rem;
+    left: 0.87rem;
+}
+
+.part3 .icon::before {
+    content: '';
+    display: block;
+    height: 1.91rem;
+    width: 0.02rem;
+    background-color: #AB8040;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 0;
+    top: -1rem;
+}
+
+.part3 .icon p {
+    font-size: 0.5rem;
+    font-family: zhaopaiti;
+    color: #231815;
+    writing-mode: tb-rl;
+    letter-spacing: -0.1rem;
+    line-height: 0.5rem;
+}
+
+.part4 {
+    height: 11.36rem;
+}
+
+.part4 .part-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2.52rem;
+}
+
+.part4 .part-main .main-title {
+    width: 5.75rem;
+    font-size: 0;
+}
+
+.part4 .part-main .main-info {
+    margin-top: 0.54rem;
+    text-align: center;
+}
+
+.part4 .part-main .main-info .p1 {
+    font-size: 0.49rem;
+    color: #231815;
+    font-family: zhaopaiti;
+}
+
+.part4 .part-main .main-info .p2 {
+    font-size: 0.25rem;
+    color: #8A6134;
+    font-family: juzhenti;
+    margin-top: 0.31rem;
+    line-height: 0.40rem;
+}
+
+.part4 .icon {
+    font-size: 0.5rem;
+    font-family: zhaopaiti;
+    color: #231815;
+    /* writing-mode: tb-rl; */
+    /* letter-spacing: -0.1rem; */
+    line-height: 0.5rem;
+    position: absolute;
+    top: 0.61rem;
+    right: 0.53rem;
+}
+
+.part4 .part4-line {
+    position: absolute;
+    width: 3.53rem;
+    left: 1.13rem;
+    top: 0;
+}

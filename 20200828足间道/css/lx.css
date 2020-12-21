@@ -1,0 +1,346 @@
+
+
+.lx .part1{
+	width: 6.3rem;
+	margin:0 auto;
+	position:relative;
+    margin-top: 0.8rem;
+}
+.lx .part1 .p1 img{
+	display: inline-block;
+	vertical-align: middle;
+	width: 0.45rem;
+}
+.lx .part1 .p1 p{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 0.24rem;
+	color:#c11b2a;
+	margin-left: 0.1rem;
+}
+.lx .part1 .p1 p span{
+	font-size: 0.3rem;
+	font-weight: bold;
+}
+.lx .part1 .p2{
+	font-size: 0.26rem;
+	color:#bc1b2a;
+	font-weight: bold;
+}
+.lx .part1 .erweima_box{
+	margin:0.2rem 0;
+}
+.lx .part1 .erweima_box img{
+	display:inline-block;
+	vertical-align: middle;
+	width: 1.06rem;
+	height: 1.06rem;
+}
+.lx .part1 .erweima_box p{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 0.28rem;
+	color:#595757;
+}
+.lx .part1 .erweima_box p span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+}
+.lx .part1 .map-box{
+	width: 6.3rem;
+	height: 2.65rem;
+	border:0.1rem solid #d7d7d7;
+	box-sizing: border-box;
+	position:relative;
+}
+.lx .part1 .map-box::before{
+	content:"";
+	display: inline-block;
+	width: 4rem;
+	height: 2.56rem;
+	background: url(../img/lx/a2.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	right:-0.3rem;
+	top: -2.66rem;
+}
+.lx .part1 .map{
+	width:100%;
+	height:100%;
+}
+
+
+.lx .part1 .address{
+	white-space: nowrap;
+	margin-top: 0.1rem;
+}
+.lx .part1 .address img{
+	display: inline-block;
+	vertical-align: middle;
+	width: 0.18rem;
+}
+.lx .part1 .address p{
+	display: inline-block;
+	vertical-align: middle;
+	color:#595757;
+}
+.lx .part1 .address p span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+}
+.lx .part1 .address p span b{
+	font-weight: bold;
+}
+
+
+.lx .part2{
+	margin-top: 0.4rem;
+}
+.lx .part2-top{
+	display: block;
+	width: 4.48rem;
+	margin:0 auto;
+}
+.lx .part2-title{
+	font-size: 0.28rem;
+	color:#c11b2a;
+	line-height: 0.4rem;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 0.3rem;
+}
+.lx .part2 .form{
+	width: 6.4rem;
+	margin:0 auto;
+	background-color: #d7d7d7;
+	padding-top: 0.5rem;
+	padding-bottom: 0.2rem;
+	margin-top: 0.3rem;
+}
+.lx .part2 .form .input_box{
+	width:5.7rem;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.lx .part2 .form .input_box p{
+	width: 1.85rem;
+	height: 0.34rem;
+	background-color: #fff;
+	white-space: nowrap;
+}
+.lx .part2 .form .input_box p img{
+	display: inline-block;
+	vertical-align: middle;
+	width: 0.26rem;
+	height: 0.26rem;
+	margin-left: 0.05rem;
+}
+.lx .part2 .form .input_box p input{
+	display:inline-block;
+	height: 100%;
+	width: 1.5rem;
+	color:#a6a7a7;
+	
+}
+.lx .part2 .form .text-box{
+	width: 5.7rem;
+	margin:0 auto;
+	background-color: #fff;
+	height: 1.65rem;
+	margin-top: 0.15rem;
+	padding-top: 0.1rem;
+	padding-left: 0.1rem;
+}
+.lx .part2 .form .text-box img{
+	display:inline-block;
+	vertical-align: top;
+	width: 0.26rem;
+	height: 0.26rem;
+}
+.lx .part2 .form .text-box textarea{
+	width: 5.3rem;
+	height: 100%;
+	background: #FFF;
+	resize: none;
+}
+.lx .part2 .form button{
+	font-size: 0.24rem;
+	width: 2.6rem;
+	height: 0.36rem;
+	background-color: #c11b2a;
+	display: block;
+	color:#fff;
+	margin:0 auto;
+	margin-top: 0.15rem;
+}
+
+
+
+.lx .fenye-box{
+	margin-top: 0.65rem;
+	margin-bottom: 0.5rem;
+}
+.main {
+  position: relative;
+}
+
+.main::before {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 11.71rem;
+  background: url(../img/pp/bg.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: 1.58rem;
+  left: 0;
+  z-index: -1;
+}
+
+
+
+.zs6 .subTitle .p1{
+	font-size: 0.26rem;
+	margin-top: 0.4rem;
+}
+.zs6 .subTitle .p2{
+	font-size: 0.6rem;
+	color:#bc1b2a;
+}
+.zs6-main{
+	width: 6.4rem;
+	margin:0 auto;
+	margin-top: 0.4rem;
+}
+.zs6-main .zs6_top{
+	display: block;
+	width: 100%;
+}
+.zs6-main ul li{
+	float:left;
+	width: 2.95rem;
+	height: 0.86rem;
+	border-radius: 0.43rem;
+	background-color: #595757;
+	white-space: nowrap;
+	margin-right: 0.5rem;
+	margin-top: 0.5rem;
+	position:relative;
+}
+.zs6-main ul li:nth-child(1)::after,
+.zs6-main ul li:nth-child(5)::after{
+	content:"";
+	display: inline-block;
+	width: 0.34rem;
+	height: 0.26rem;
+	background: url(../img/lx/icon-right.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	top: 50%;
+	margin-top: -0.13rem;
+	right: -0.42rem;
+}
+.zs6-main ul li:nth-child(2)::after,
+.zs6-main ul li:nth-child(3)::after{
+	content:"";
+	display: inline-block;
+	width: 0.26rem;
+	height: 0.34rem;
+	background: url(../img/lx/icon-up.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	left: 50%;
+	margin-left: -0.13rem;
+	bottom: -0.42rem;
+}
+.zs6-main ul li:nth-child(4)::after{
+	content:"";
+	display: inline-block;
+	width: 0.34rem;
+	height: 0.26rem;
+	background: url(../img/lx/icon-left.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	top: 50%;
+	margin-top: -0.17rem;
+	left: -0.42rem;
+}
+.zs6-main ul li:nth-child(2n){
+	margin-right: 0;
+}
+.zs6-main ul li .num{
+	width: 0.74rem;
+	height: 0.74rem;
+	border-radius: 50%;
+	background-color: #bc1b2a;
+	margin-left: 0.06rem;
+	margin-top: 0.06rem;
+	font-size: 0.37rem;
+	color:#fff;
+	line-height: 0.74rem;
+	text-align: center;
+	font-weight: bold;	
+	display: inline-block;
+	vertical-align: middle;
+}
+.zs6-main ul li .li-fonts{
+	display: inline-block;
+	vertical-align: middle;
+	color:#fff;
+	
+}
+.zs6-main ul li .li-fonts span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+	width:130%;
+	margin-left:-15%;
+}
+.zs6 .fenye-box{
+	margin-top: 0.75rem;
+	margin-bottom: 0.5rem;
+}
+
+
+
+@media (max-width:320px) {
+	.zs6-main ul li .li-fonts span{
+		font-size: .24rem;
+		transform: scale(.67);
+		-webkit-transform: scale(.67);
+		-o-transform: scale(.67);
+		-moz-transform: scale(.67);
+		-ms-transform: scale(.67);
+		width:150%;
+		margin-left:-25%;
+	}
+	.lx .part1 .address p span{
+		font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+	width:130%;
+	margin-left:-15%;
+	}
+}

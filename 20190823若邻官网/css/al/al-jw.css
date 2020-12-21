@@ -1,0 +1,26 @@
+.part1{
+  padding-bottom: 0.6rem;
+}
+.part1 img{
+	display: block;
+	width: 100%;
+	margin-top: 0.3rem;
+}
+.part1 .p1{
+  color:#515151;
+	line-height: 0.34rem;
+	font-family: myfont_Light;
+	margin-top: 0.1rem;
+}
+.part1 .p1 b{
+  color: #b81c21;
+  font-weight: bold;
+}
+.part1 .p2{
+  margin-top: 0.35rem;
+  line-height: 0.36rem;
+  color: #231815;
+  font-weight: bold;
+	font-family: myfont_Medium;
+}
+

@@ -1,0 +1,127 @@
+
+
+.part2{
+	position:relative;
+	z-index: 6;
+}
+.part2 .box{
+	width: 6.9rem;
+	margin:0 auto;
+	margin-top: 0.35rem;
+}
+.part2 .box-l{
+	width: 2.86rem;
+	height:1.78rem;
+}
+.banner-swiper{
+	width: 2.86rem;
+	height:1.78rem;
+}
+.banner-swiper img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.banner-swiper .swiper-slide{
+	width: 2.86rem;
+	height:1.78rem;
+}
+.banner-swiper .swiper-pagination-bullet{
+	background-color: #fff;
+	opacity: 1;
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+}
+
+.banner-swiper .swiper-pagination-bullet.swiper-pagination-bullet-active{
+	background-color: #c79f62;
+}
+.banner-swiper .swiper-container-horizontal>.swiper-pagination-bullets,
+.banner-swiper .swiper-pagination-custom,
+.banner-swiper .swiper-pagination-fraction{
+	bottom: 0.3rem;
+}
+
+.part2 .box-r{
+	width: 3.9rem;
+}
+.part2 .box-r .news-title{
+	position:relative;
+}
+.part2 .box-r .news-title .cn{
+	width: 1.1rem;
+	height: 0.3rem;
+	background-color: #c79f62;
+	color:#fff;
+	text-align: center;
+	line-height: 0.3rem;
+}
+.part2 .box-r .news-title .cn span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+}
+.part2 .box-r .news-title .en{
+	width: 2.7rem;
+	position:absolute;
+	bottom: 0;
+	right: 0;
+	border-bottom: 1px solid #cecece;
+}
+.part2 .box-r .news-title .en::after{
+	content:"";
+	display: inline-block;
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	background-color: #cecece;
+	position:absolute;
+	right: 0;
+	bottom: -0.06rem;
+}
+.part2 .box-r .news-title .en span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.58);
+	-webkit-transform: scale(.58);
+	-o-transform: scale(.58);
+	-moz-transform: scale(.58);
+	-ms-transform: scale(.58);
+	width: 170%;
+	margin-left: -35%;
+	color:#cecece;
+}
+.part2 .box-r .news-item{
+	/*margin-top: 0.1rem;*/
+}
+.part2 .box-r .news-item a{
+	display: block;
+	color:#666666;
+	/*font-size: .24rem;
+	transform: scale(.67);
+	-webkit-transform: scale(.67);
+	-o-transform: scale(.67);
+	-moz-transform: scale(.67);
+	-ms-transform: scale(.67);
+	width: 150%;
+	margin-left: -25%;*/
+	font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+	width:130%;
+	margin-left:-15%;
+	line-height: 0.32rem;
+	overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}

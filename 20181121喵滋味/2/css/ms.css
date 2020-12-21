@@ -1,0 +1,246 @@
+
+.ms-title .p1{
+	display: inline-block;
+	vertical-align: middle;
+	width: 2.6rem;
+	height: 0.4rem;
+	border:2px solid #000;
+	border-radius: 0.2rem;
+	font-size: 0.28rem;
+	position:relative;
+	text-align: center;
+}
+.ms-title .p1::after{
+	content:"";
+	display: inline-block;
+	width: 0.4rem;
+	height: 1px;
+	background: #000;
+	position:absolute;
+	right: -0.4rem;
+	top:0.18rem;
+}
+.ms-title .p2{
+	font-size: 0.3rem;
+	display:inline-block;
+	vertical-align: middle;
+	margin-left: 0.6rem;	
+}
+
+
+
+
+
+.part1 .ms-title{
+	margin-top:0.2rem;
+}
+.part1 .part1-top{
+	margin-top: 0.1rem;
+}
+.part1 .part1-top .p1{
+	font-size: 0.42rem;
+	display:inline-block;
+	vertical-align: middle;
+}
+.part1 .part1-top .p1 b{
+	font-weight: bold;
+}
+.part1 .part1-top img{
+	display:inline-block;
+	vertical-align: middle;
+	width: 1.8rem;
+}
+.part1 .part1-main{
+	text-align: center;
+	margin-top: 0.3rem;
+}
+.part1 .part1-main .main-title{
+	display: inline-block;
+	font-size: 0.24rem;
+	width: 2.3rem;
+	height: 0.36rem;
+	border-radius: 0.18rem;
+	background-color: #000;
+	line-height: 0.36rem;	
+	color:#fff;
+	position:relative;
+	margin-bottom: 0.1rem;
+}
+.part1 .part1-main .main-title::before,
+.part1 .part1-main .main-title::after{
+	content:"";
+	display: inline-block;
+	width: 0.6rem;
+	height: 0.4rem;
+	border-top:1px solid #000;
+	position:absolute;
+	top:0.18rem;
+	z-index: -1;
+}
+.part1 .part1-main .main-title::before{
+	left: -0.6rem;
+	border-left:1px solid #000;
+}
+.part1 .part1-main .main-title::after{
+	right: -0.6rem;
+	border-right:1px solid #000;
+}
+
+
+
+.part1 .part1-main ul li{
+	float:left;
+	margin-right: 0.22rem;
+	margin-top: 0.1rem;
+}
+.part1 .part1-main ul li:nth-child(2n){
+	margin-right: 0;
+}
+.part1 .part1-main ul li .li-img{
+	width: 3.24rem;
+	height: 1.86rem;
+}
+.part1 .part1-main ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.part1 .part1-main ul li .li-font{
+	height: 0.44rem;
+	border:1px solid #000;
+	box-sizing: border-box;
+	font-size: 0.26rem;
+	line-height: 0.44rem;
+}
+
+
+
+.part2 .title-img{
+	width: 100%;
+	margin-top: 0.3rem;
+}
+.part2 .ms-title{
+	margin-top:0.1rem;
+}
+.part2 .ms-title .p1{
+	width: 2.2rem;
+}
+.part2 .ms-title .p2{
+	font-size: 0.26rem;
+	margin-left: 0.5rem;
+}
+.part2 .part2-main{
+	margin-top: 0.3rem;
+}
+.part2 .part2-main .main-top{
+	position:relative;
+}
+.part2 .part2-main .main-top img{
+	width: 100%;
+}
+.part2 .part2-main .main-top p{
+	width: 2.7rem;
+	position:absolute;
+	font-size: 0.28rem;
+	line-height: 0.4rem;
+	background-color: #f8b62d;
+	border-radius:0.14rem;
+	text-align: center;
+	bottom: -0.2rem;
+	left: 50%;
+	margin-left:-1.35rem;
+	color:#fff;
+}
+.part2 .part2-main ul li{
+	float: left;
+	width: 2.1rem;
+	margin-right: 0.2rem;
+	border:1px solid #000;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 0.26rem;
+	margin-top: 0.3rem;
+	padding:0.1rem 0;
+	line-height: 0.4rem;
+}
+.part2 .part2-main ul li:nth-child(3n){
+	margin-right: 0;
+}
+
+
+
+
+
+.part3 .title-img{
+	width: 100%;
+	margin-top: 0.3rem;
+}
+.part3 .ms-title{
+	margin-top:0.2rem;
+}
+.part3 .ms-title .p1{
+	width: 2.2rem;
+}
+.part3 .ms-title .p2{
+	font-size: 0.26rem;
+	margin-left: 0.5rem;
+}
+.part3 .part3-main{
+	margin-top: 0.2rem;
+}
+.part3 .part3-main img{
+	width: 100%;
+	
+}
+.part3 .part3-main div{
+	border:1px solid #000;
+	box-sizing: border-box;
+	margin-top: -0.1rem;
+	padding:0.2rem 0.1rem;
+}
+.part3 .part3-main div span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+}
+
+
+
+
+
+
+
+
+
+
+
+/*20181123*/
+.part2 .part2-main ul li{
+	font-size: 0.24rem;
+}
+
+
+@media (max-width:320px){
+	.part2 .ms-title .p2{
+		margin-left: 0.3rem;
+	}
+	.part2 .part2-main ul li span{
+		display: block;
+		font-size: .24rem;
+		transform: scale(.92);
+		-webkit-transform: scale(.92);
+		-o-transform: scale(.92);
+		-moz-transform: scale(.92);
+		-ms-transform: scale(.92);
+		width:109%;
+		margin-left: -4.5%;
+	}
+	.part2 .part2-main ul li{
+	    width: 2.2rem;
+    	margin-right: 0.05rem;
+	}
+}

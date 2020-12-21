@@ -1,0 +1,130 @@
+.mt03{
+	margin-top: 0.3rem;
+}
+.mt0{
+	margin-top: 0;
+}
+.mb03{
+	margin-bottom: 0.3rem;
+}
+
+
+
+.part1 .p1{
+	color:#515151;
+	line-height: 0.34rem;
+	font-family: myfont_Light;
+	margin-top: 0.1rem;
+}
+.part1 .p1 b{
+    color: #b81c21;
+    font-weight: bold;
+}
+.part1 .al-title2{
+	margin-top: 0.6rem;
+}
+
+.part1 .p2{
+	color:#221714;
+	line-height: 0.34rem;
+	font-family: myfont_Medium;
+	font-weight: bold;
+}
+
+.part1 img{
+	display: block;
+	width: 100%;
+	border-top:1px solid #827f80;
+	border-bottom:1px solid #827f80;
+	margin-top: 0.3rem;
+}
+.part1 .p3{
+    color:#221714;
+	line-height: 0.34rem;
+	font-family: myfont_Medium;
+    font-weight: bold;
+    margin-top: 0.2rem;
+    padding-left: 0.6rem;
+    position: relative;
+}
+.part1 .p4{
+    color:#515151;
+	line-height: 0.34rem;
+	font-family: myfont_Light;
+    margin-top: 0.1rem;
+    padding-left: 0.6rem;
+    padding-bottom: 0.1rem;
+    border-bottom: 1px solid #dcdddd;
+
+}
+.part1 .p3::after{
+    content: "";
+    display: inline-block;
+    width: 0.06rem;
+    height: 0.06rem;
+    background-color: #b81c21;
+    position: absolute;
+    top: 50%;
+    margin-top: -0.03rem;
+    left: 0.3rem;
+}
+.part1 .listBox li{
+    width: 3.3rem;
+    float: left;
+}
+.part1 .listBox li:nth-child(2n){
+    float: right;
+}
+.part1 .listBox p{
+    padding-left: 0.4rem;
+}
+.part1 .listP1{
+    margin-top: 0.2rem;
+    color:#221714;
+	line-height: 0.34rem;
+	font-family: myfont_Medium;
+    font-weight: bold;
+    position: relative;
+}
+.part1 .listP1::after{
+    content: "";
+    display: inline-block;
+    width: 0.06rem;
+    height: 0.06rem;
+    background-color: #b81c21;
+    position: absolute;
+    top: 50%;
+    margin-top: -0.03rem;
+    left: 0.1rem;
+}
+.part1 .listP2{
+    color:#515151;
+	line-height: 0.34rem;
+	font-family: myfont_Light;
+    margin-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    border-bottom: 1px solid #dcdddd;
+}
+.part1 .p5{
+    font-family: myfont_Medium;
+    font-weight: bold;
+    color: #231815;
+    position: relative;
+    padding-left: 0.4rem;
+    line-height: 0.4rem;
+    margin-top: 0.1rem;
+}
+.part1 .p5::after {
+    content: "";
+
+    display: inline-block;
+    width: 0.06rem;
+    height: 0.06rem;
+    background-color: #b51c21;
+    position: absolute;
+    left: 0.16rem;
+    top: 0.18rem;
+}
+.last-p{
+    padding-bottom: 0.3rem;
+}

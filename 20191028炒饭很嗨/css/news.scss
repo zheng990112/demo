@@ -1,0 +1,122 @@
+@import './px2rem.scss';
+html,body{
+	background: #fff;
+}
+// .lx{
+// 	padding-bottom:px2rem(140);
+// }
+
+.part1 .news-img{
+	display: block;
+	width:px2rem(693);
+	height:px2rem(385);
+	margin:0 auto;
+}
+.part1 .part1-main{
+	width:px2rem(693);
+	margin:0 auto;
+}
+.part1 .news-btn{
+	font-size: px2rem(28);
+	color:#fff;
+	margin-top:px2rem(40);
+}
+.part1 .news-btn p{
+	display:inline-block;
+	vertical-align: middle;
+	width:px2rem(185);
+	height:px2rem(54);
+	border-radius: px2rem(27);
+	text-align: center;
+	line-height: px2rem(54);
+}
+.part1 .news-btn p.on{
+	background: #d8621c;
+	color:#fff;
+	font-size: px2rem(36);
+}
+.part1 .box{
+	font-size: px2rem(24);
+}
+.part1 .box a{
+	display: block;
+	
+	color:#666666;
+	border-bottom: 1px dotted #666666;
+	line-height: px2rem(70);
+}
+.part1 .box .news-fonts{
+	float:left;
+	width:px2rem(470);
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.part1 .box .news-time{
+	float:right;
+}
+.part1 .hide{
+	display: none;
+}
+.part1 .fenye-btn{
+	text-align: center;
+}
+.part1 .fenye-btn a{
+	display:inline-block;
+	font-size: px2rem(22);
+	margin:0 px2rem(5);
+}
+.part1 .fenye-btn a:first-child,
+.part1 .fenye-btn a:last-child{
+	color:#fff;
+	background-color: #d8631c;
+	width:px2rem(128);
+	height:px2rem(34);
+	border-radius: px2rem(17);
+	margin:0 px2rem(20);
+	
+}
+
+
+.news-b{
+	height:px2rem(230);
+	position:relative;
+	margin-top: px2rem(80);
+}
+.news-b .btn-bg{
+	position:absolute;
+	display: block;
+	width:100%;
+}
+.main .control-page .control-box a{
+	background-color: #fff;
+}
+.main .control-page .control-box a span{
+	color:#d8621c;
+}
+
+
+.newsdetail{
+	width:px2rem(693);
+	margin:0 auto;
+	margin-top: px2rem(30);
+}
+.newsdetail-tile{
+	font-size: px2rem(34);
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: px2rem(20);
+	border-bottom:1px solid #000;
+}
+.newsdetail-time{
+	font-size: px2rem(20);
+	line-height: px2rem(60);
+}
+.newsdetail-time span{
+	margin-right: px2rem(20);
+}
+.newsdetail-fonts{
+	font-size: px2rem(22);
+	text-align: justify;
+	margin-top: px2rem(10);
+}

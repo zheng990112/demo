@@ -1,0 +1,283 @@
+.hz{
+  padding: 0 0.65rem;
+}
+.public-title{
+  text-transform: uppercase;
+}
+
+
+.hz .public-title .p1{
+  margin-bottom: 0.2rem;
+}
+/* hz1 */
+.hz1 .listBox{
+  padding-top: 0.45rem;
+ margin-bottom: -0.1rem;
+}
+.hz1 .listBox li{
+  width: 1.82rem;
+  float: left;
+  margin-bottom: 0.55rem;
+  background: url(../img/hz/hz1_01.jpg) center top no-repeat;
+  background-size: 1.82rem 1.58rem;
+  margin-left: 0.37rem;
+  position: relative;
+}
+.hz1 .listBox li::before{
+  left: -0.35rem;
+  top: 0.6rem;
+  content: "";
+  position: absolute;
+  width: 0.33rem;
+  height: 0.32rem;
+  background: url(../img/hz/hz1_07.jpg) center no-repeat;
+  background-size: 0.33rem 0.32rem;
+}
+.hz1 .listBox li:nth-child(3n+1){
+  margin-left: 0;
+}
+.hz1 .listBox li:nth-child(3n+1)::before{
+  display: none;
+}
+.hz1 .listBox li img{
+  width: 1.1rem;
+  height: 1.1rem;
+  display: block;
+  margin: 0.24rem auto;
+  border-radius: 50%;
+}
+.hz1 .listBox li p{
+  padding-top: 0.2rem;
+  color: #595757;
+  font-size: 0.27rem;
+  text-align: center;
+  line-height: 0.36rem;
+}
+.hz1 .listBox li p span{
+  display: inline-block;
+  width: 0.36rem;
+  height: 0.36rem;
+  line-height: 0.36rem;
+  background-color: #008e31;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: .24rem;
+  transform: scale(.833);
+  -webkit-transform: scale(.833);
+  -o-transform: scale(.833);
+  -moz-transform: scale(.833);
+  -ms-transform: scale(.833);
+}
+.hz1 .listBox .rImg{
+  width: 2.12rem;
+  height: 2.88rem;
+  float: right;
+  margin-top: -0.15rem;
+}
+
+/* hz2 */
+.hz2 .public-title{
+  font-size: .24rem;
+  transform: scale(.75);
+  -webkit-transform: scale(.75);
+  -o-transform: scale(.75);
+  -moz-transform: scale(.75);
+  -ms-transform: scale(.75);
+  width: 140%;
+  margin-left: -20%;
+}
+.hz2 .listBox{
+  padding-top: 0.6rem;
+}
+.hz2 .listBox ol{
+  width: 100%;
+  float: left;
+}
+.hz2 .listBox li{
+  float: left;
+  width: 2.97rem;
+  text-align: center;
+}
+.hz2 .listBox li:nth-child(2n){
+  float: right;
+}
+.hz2 .listBox li span{
+  width: 100%;
+  height: 0.66rem;
+  line-height: 0.5rem;
+  color: #ffffff;
+  font-size: 0.24rem;
+  float: left;
+  background: url(../img/hz/hz2_01.jpg) center no-repeat;
+  background-size: 2.85rem 0.66rem;
+}
+.hz2 .listBox li span.now{
+  background: url(../img/hz/hz2_02.jpg) center no-repeat;
+  background-size: 2.85rem 0.66rem;
+}
+.hz2 .listBox li img{
+  width: 2.97rem;
+  height: 1.86rem;
+  float: left;
+  margin-top: 0.3rem;
+  margin-bottom: 0.25rem;
+}
+.hz2 .listBox li p{
+  margin-bottom: 0.55rem;
+  font-size: 0.24rem;
+  color: #595757;
+  line-height: 0.42rem;
+  text-align: justify;
+}
+
+/* hz3  */
+.hz3 .listBox{
+  padding-top: 0.7rem;
+}
+.hz3 .listBox li{
+  height: 100%;
+  padding-bottom: 0.35rem;
+}
+.hz3 .listBox li img{
+  width: 100%;
+  height: 2.6rem;
+  display: block;
+}
+.hz3 .listBox li div{
+  width: 100%;
+  height: 0.72rem;
+  background: url(../img/hz/hz3_04.jpg) center no-repeat;
+  background-size: 100% 0.72rem;
+}
+.hz3 .listBox li p{
+  font-size: 0.27rem;
+  color: #ffffff;
+}
+.hz3 .listBox li .p1{
+  width: 2.7rem;
+  height: 0.72rem;
+  text-align: center;
+  float: left;
+}
+.hz3 .listBox li .p1 span{
+  line-height: 0.72rem;
+  position: relative;
+}
+.hz3 .listBox li span::after,
+.hz3 .listBox li span::before{
+  content: "";
+  width: 0.1rem;
+  height: 0.31rem;
+  position: absolute;
+  top: 50%;
+  margin-top: -0.155rem;
+}
+.hz3 .listBox li span::after{
+  background: url(../img/hz/hz3_05.png) center no-repeat;
+  background-size: 0.1rem 0.31rem;
+  left: -0.15rem;
+}
+.hz3 .listBox li span::before{
+  background: url(../img/hz/hz3_06.png) center no-repeat;
+  background-size: 0.1rem 0.31rem;
+  right: -0.15rem;
+}
+.hz3 .listBox li .p2{
+  float: right;
+  width: 3rem;
+}
+
+/* hz4  */
+.hz4 .public-title{
+  font-size: .24rem;
+  transform: scale(.75);
+  -webkit-transform: scale(.75);
+  -o-transform: scale(.75);
+  -moz-transform: scale(.75);
+  -ms-transform: scale(.75);
+  width: 140%;
+  margin-left: -20%;
+}
+.hz4 .lixtBox{
+  padding-top: 0.5rem;
+}
+.hz4 .lixtBox li{
+  float: left;
+  width: 2.9rem;
+  height: 0.7rem;
+  border-radius: 0.3rem;
+  background: url(../img/hz/hz4_01.jpg) center no-repeat;
+  background-size: 2.9rem 0.7rem;
+  margin-bottom: 0.35rem;
+  font-size: 0.384rem;
+  color: #ffffff;
+  line-height: 0.6rem;
+  text-align: center;
+}
+.hz4 .lixtBox li:nth-child(2n){
+  float: right;
+}
+.hz4 .lixtBox li.now{
+  background: url(../img/hz/hz4_02.jpg) center no-repeat;
+  background-size: 2.9rem 0.7rem;
+}
+.hz4 .lixtTitle{
+  padding-top: 0.45rem;
+  margin-bottom: -0.1rem;
+}
+.hz4 .lixtTitle ol{
+  float: left;
+  width: 100%;
+  padding-bottom: 0.6rem;
+}
+.hz4 .lixtTitle ol:last-child{
+  padding-bottom: 0;
+}
+.hz4 .lixtTitle ol>li{
+  float: left;
+  width: 2.9rem;
+}
+.hz4 .lixtTitle ol>li:nth-child(2n){
+  float: right;
+}
+.hz4 .lixtTitle ol li img{
+  width: 2.9rem;
+  height: 3.27rem;
+  display: block;
+}
+.hz4 .lixtTitle div{
+  margin-top: 0.4rem;
+  padding-left: 0.25rem;
+  border-left: 0.02rem solid #008e31;
+}
+.hz4 .lixtTitle div p{
+  color: #008e31;
+}
+.hz4 .lixtTitle div .p1{
+  font-size: 0.35rem;
+}
+.hz4 .lixtTitle div .p2{
+  font-size: .24rem;
+	transform: scale(.67);
+	-webkit-transform: scale(.67);
+	-o-transform: scale(.67);
+	-moz-transform: scale(.67);
+  -ms-transform: scale(.67);
+  width: 140%;
+  margin-left: -22%;
+}
+.hz4 .lixtTitle ul{
+  margin-left: 0.3rem;
+  padding-top: 0.1rem;
+}
+.hz4 .lixtTitle ul li{
+  line-height: 0.45rem;
+  color: #595757;
+  font-size: 0.24rem;
+  list-style-image: url(../img/hz/hz4_08.png);
+}
+.hz4 .lixtTitle .buttomImg{
+  float: right;
+  width: 3.12rem;
+  height: 6.4rem;
+}

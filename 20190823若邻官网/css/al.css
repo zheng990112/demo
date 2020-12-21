@@ -1,0 +1,238 @@
+
+.al-banner{
+	width: 6.8rem;
+	margin:0 auto;
+	margin-top:2.5rem;
+}
+.al-banner img{
+	display: block;
+	width: 100%;
+}
+
+
+.big_title{
+	width: 6.8rem;
+	margin:0 auto;
+	font-size: 0.38rem;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	color:#515151;
+	line-height: 0.48rem;
+	position:relative;
+	margin-top:0.8rem;
+	padding-bottom: 0.3rem;
+	border-bottom: 1px solid #c7c6c7;
+	z-index: 2;
+}
+.big_title::after{
+	content:"";
+	display: inline-block;
+	width: 1.45rem;
+	height: 1.63rem;
+	background: url(../img/al/icon1.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	right: 0;
+	bottom: -0.15rem;
+	z-index: -1;
+}
+
+.part{
+	padding:0 0.35rem;
+	box-sizing: border-box;
+}
+.reading{
+	margin-top: 0.25rem;
+	color:#7e7f80;
+	line-height: 0.34rem;
+	font-family: myfont_Light;
+}
+p{
+	text-align: justify;
+}
+.al-title{
+	font-family: myfont_Medium;
+	font-size: 0.24rem;
+	color:#c21a1f;
+	font-weight: bold;
+	margin-top:0.35rem;
+}
+.al-title span {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 0.2rem;
+    margin-right: 0.05rem;
+}
+
+
+
+/*.al-nav{
+	background-color: #fff;
+	height: 1.1rem;
+	position:fixed;
+	top: 1.2rem;
+	width: 100%;
+	z-index: 99;
+	padding-top: 0.1rem;
+}
+.al-nav .picScroll-left{
+	height: 1.1rem;
+	width:90%;
+	margin:0 auto;
+	position: relative;
+}
+.al-nav .picScroll-left .bd{
+	width: 100%;
+	overflow: hidden;
+}
+.al-nav .picScroll-left .bd li{
+	float: left;
+	position: relative;
+	text-align: center;
+	width:100%;
+}
+.al-nav .picScroll-left .bd li p{
+	float:left;
+	width:33%;
+	font-size: 0.26rem;
+	line-height: 0.44rem;
+	text-align: center;
+}
+.al-nav .picScroll-left .bd li p a{
+	color:#000;
+	position:relative;
+	z-index: 90;
+}
+.al-nav .picScroll-left .bd li p.on a{
+	color:#cf111b;
+}
+.al-nav .picScroll-left .hd{
+	text-align: center;
+	position:absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+}
+.al-nav .picScroll-left .hd ul{
+	width: 100%;
+	position:absolute;
+	bottom: 0;
+}
+.al-nav .picScroll-left .hd ul li{
+	display: inline-block;
+	font-size: 0;
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	background-color: #000;
+	margin:0.05rem;
+}
+.al-nav .picScroll-left .hd ul li.on{
+	background-color:#cf111b;
+}
+.al-nav .picScroll-left .arrow{
+	position: absolute;
+	width: 0.5rem;
+	height:0.5rem;
+	top:0.15rem;
+	z-index: 99;
+}
+.al-nav .picScroll-left .arrow img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.al-nav .picScroll-left .arrow-left{
+	left:-0.3rem;
+}
+.al-nav .picScroll-left .arrow-right{
+	right:-0.3rem;
+}*/
+
+
+
+
+
+
+
+/*20200702*/
+.al-nav{
+	background-color: #fff;
+	height: 1.1rem;
+	position:fixed;
+	top: 1.2rem;
+	width: 100%;
+	z-index: 99;
+	padding-top: 0.1rem;
+}
+.al-nav .swiper-container{
+	height: 1.1rem;
+	width:90%;
+	margin:0 auto;
+	position: relative;
+}
+.al-nav .swiper-container .swiper-wrapper{
+	margin:0 auto;
+}
+.al-nav .swiper-container .swiper-wrapper .swiper-slide{
+	float: left;
+	position: relative;
+	text-align: center;
+	width:100%!important;
+}
+.al-nav .swiper-container .swiper-wrapper .swiper-slide p{
+	float:left;
+	width:33%;
+	font-size: 0.26rem;
+	line-height: 0.44rem;
+	text-align: center;
+	position:relative;
+	z-index: 3;
+}
+.al-nav .swiper-container .swiper-wrapper .swiper-slide p a{
+	color:#000;
+	position:relative;
+	z-index: 90;
+}
+.al-nav .swiper-container .swiper-wrapper .swiper-slide p.on a{
+	color:#cf111b;
+}
+.al-nav .swiper-button-prev,
+.al-nav .swiper-container-rtl .swiper-button-next{
+	width: 0.5rem;
+	height: 0.5rem;
+	background: url(../img/al/arrowL.png) no-repeat;
+	background-size: 100% 100%;
+	left:0.1rem;
+	top: 0.15rem;
+}
+.al-nav .swiper-button-next,
+.al-nav .swiper-container-rtl .swiper-button-prev{
+	width: 0.5rem;
+	height: 0.5rem;
+	background: url(../img/al/arrowR.png) no-repeat;
+	background-size: 100% 100%;
+	right:0.1rem;
+	top: 0.15rem;
+}
+.al-nav .swiper-pagination-bullets{
+	bottom: 0!important;
+    width: 100%;
+    text-align: center;
+}
+.al-nav .swiper-button-next,
+.al-nav  .swiper-button-prev{
+	top: 0.25rem;
+	margin-top: 0;
+}
+.al-nav .swiper-pagination-bullet{
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	background-color: #000;
+	border:none;
+}
+.al-nav .swiper-pagination-bullet-active{
+	background-color: #cf111b;
+}
+

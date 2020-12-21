@@ -1,0 +1,141 @@
+
+
+.mt01{
+	margin-top: 0.1rem;
+}
+.mt02{
+	margin-top: 0.2rem;
+}
+.mt03{
+	margin-top: 0.3rem;
+}
+.mt04{
+	margin-top: 0.4rem;
+}
+
+.part-img{
+	display: block;
+	width: 100%;
+}
+
+
+.part1 .p1 span{
+	display: inline-block;
+	vertical-align: top;
+	color:#515151;
+	font-family: myfont_Light;
+}
+.part1 .p1 span:last-child{
+	width: 5.6rem;
+}
+.part1 .p1:first-child span{
+	font-family: myfont_Medium;
+	color:#ba1a1f;
+	font-size: 0.24rem;
+}
+
+.part1 .p2{
+	margin-top: 0.7rem;
+}
+.part1 .p2 img{
+	display: inline-block;
+	vertical-align: middle;
+	width: 0.2rem;
+	height: 0.2rem;
+}
+.part1 .p2 span{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 0.24rem;
+	font-family: myfont_Light;
+	margin-left: 0.1rem;
+}
+
+.part1 .p3{
+	color:#515151;
+	font-family: myfont_Light;
+}
+
+.part1 .p3 b{
+	color:#ba1a1f;
+}
+.part1 .p4{
+	line-height: 0.4rem;
+}
+.part1 .box{
+	background-color: #e7e7e7;
+	padding-top: 0.3rem;
+	text-align:center;
+	padding-bottom: 0.6rem;
+}
+.part1 .box .box-p1{
+	color:#515151;
+	font-family: myfont_Light;
+	line-height: 0.36rem;
+	text-align:center;
+	margin-bottom: 0.3rem;
+}
+.part1 .box .circle{
+	display: inline-block;
+	vertical-align: middle;
+	width: 1.45rem;
+	height: 1.45rem;
+	border-radius: 50%;
+	background-color: #ba1a1f;
+	text-align: center;
+	color:#fff;
+	padding-top: 0.45rem;
+	box-sizing:border-box;
+}
+.part1 .box .circle .circle-p1{
+	text-align: center;
+	font-family: myfont_Light;
+	line-height: 0.24rem;
+}
+.part1 .box .circle .circle-p2{
+	text-align: center;
+	font-size: 0.28rem;
+	
+}
+.part1 .box .circle-center{
+	display: inline-block;
+	vertical-align: middle;
+	width: 1.7rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	border-top:1px solid #919191;
+	border-bottom:1px solid #919191;
+	margin:0 0.25rem;
+}
+.part1 .p5{
+	color:#515151;
+	font-family: myfont_Light;
+	line-height: 0.4rem;
+}
+.part1 .p6{
+	color:#515151;
+	font-family: myfont_Light;
+	padding-left: 0.3rem;
+	position:relative;
+}
+.part1 .p6::before{
+	content:"";
+	display: inline-block;
+	width: 0.08rem;
+	height: 0.08rem;
+	background-color: #b51c21;
+	position:absolute;
+	top: 50%;
+	margin-top: -0.04rem;
+	left:0rem;
+}
+.part1{
+	padding-bottom: 1rem;
+}
+
+
+@media  (max-width:320px){
+	.part1 .p1 span:last-child{
+		width: 5.3rem;
+	}
+}

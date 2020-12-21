@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Document</title>
+		<script src="../js/hotcss.js"></script>
+
+		<link rel="stylesheet" href="../css/common.css">
+		<link rel="stylesheet" href="../css/lx.css">
+		<!-- <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=6ALaE7y1e8N171T2CfPrHqZC3Ed000Cl"></script> -->
+	</head>
+
+	<body>
+		<header>
+			<div class="header-box flex justify-content-sb align-items-center">
+				<div class="logo-box flex align-items-center">
+					<div class="back-img" onclick="javascript:history.back(-1)">
+						<img src="../img/back-icon.png" width="100%" class="back-icon" alt="">
+					</div>
+					<div class="logo-img">
+						<img src="../img/logo.png" width="100%" class="logo" alt="">
+					</div>
+				</div>
+				<div class="phone-box flex align-items-center">
+					<div class="phone-img">
+						<img src="../img/phone-icon.png" width="100%" width="phone-icon" alt="">
+					</div>
+					<div class="phone-info">
+						<p>全国统一服务专线</p>
+						<p>400-0662-256</p>
+					</div>
+				</div>
+				<div class="menu-box">
+					<div class="menu-icon">
+						<img src="../img/menu-icon.png" width="100%" alt="">
+					</div>
+					<div class="menu-list">
+						<a href="index.html"><span>首页</span></a>
+						<a href="about.html"><span>关于我们</span></a>
+						<a href="cp.html"><span>产品介绍</span></a>
+						<a href="ys.html"><span>项目优势</span></a>
+						<a href="pp.html"><span>品牌实况</span></a>
+						<a href="news.html"><span>新闻快讯</span></a>
+						<a href="addus.html" class="on"><span>加入我们</span></a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="main padding-header padding">
+			<div class="part1">
+				<img src="../img/lx/top-icon.jpg" alt="" class="top-icon_L">
+				<img src="../img/lx/top-icon.jpg" alt="" class="top-icon">
+				<div class="lx-title">
+					<p class="p1">咨询留言</p>
+					<p class="p2">24小时客服在线</p>
+				</div>
+				<div class="part1-main">
+					<input type="text" placeholder="姓 名：">
+					<input type="text" placeholder="手 机：">
+					<textarea rows="" cols="" placeholder="留 言："></textarea>
+					<button>提交</button>
+				</div>
+			</div>
+
+			<div class="part2">
+				<div class="lx-title">
+					<p class="p1">电话咨询 </p>
+				</div>
+				<!-- <div class="map" id="map"></div> -->
+				<p class="tel">财富热线：<span>400-0662-256</span></p>
+				<p class="address"><span>圣诺曼底能源科技（武汉）有限公司</span></p>
+				<!-- <p class="address"><span>圣诺曼底能源科技（武汉）有限公司</span>公司地址： 武汉东湖新技术开发区关山二路特一号<br>国际企业中心3幢一单元二层202号</p> -->
+				<img src="../img/lx/erweima.jpg" alt="" class="erweima-img">
+				<img src="../img/lx/icon.jpg" alt="" class="icon-img">
+			</div>
+		</div>
+		<footer class="fixed">
+			<div class="footer-box flex justify-content-sb align-items-center">
+				<a href="news.html" class="prev-page">
+					<img src="../img/prev-page.png" width="100%" alt="">
+				</a>
+				<a href="index.html" class="home">
+					<img src="../img/home.png" width="100%" alt="">
+				</a>
+			</div>
+		</footer>
+	</body>
+	<script src="../js/jquery-1.11.3.min.js"></script>
+	<script src="../js/common.js"></script>
+	<!-- script>
+		var map = new BMap.Map("map"); // 创建Map实例
+		var point = new BMap.Point(114.420908, 30.489297);
+		map.centerAndZoom(point, 15);
+		var marker = new BMap.Marker(point); // 创建标注
+		map.addOverlay(marker); // 将标注添加到地图中
+		marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+		map.panTo(point);
+		// map.addControl(new BMap.NavigationControl()); // 添加默认缩放平移控件
+		map.enableScrollWheelZoom(true); //开启鼠标滚轮缩放
+	</script> -->
+</html>

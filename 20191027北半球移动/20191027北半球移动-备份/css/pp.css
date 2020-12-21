@@ -1,0 +1,125 @@
+.main.padding {
+  padding: 1.6853333333rem 1.4933333333rem 2.7733333333rem;
+  box-sizing: border-box;
+}
+
+.top-icon {
+  position: absolute;
+  right: 0;
+  top: 1.0666666667rem;
+  width: 8.96rem;
+}
+
+.pp .part1 {
+  margin-top: 1.4933333333rem;
+  position: relative;
+}
+
+.part1 .part1-top {
+  white-space: nowrap;
+}
+
+.part1 .sec-title {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.part1 .pp-title {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.part1 .pp-title .p1 {
+  font-size: 0.6186666667rem;
+  color: #315acd;
+  font-weight: bold;
+}
+
+.part1 .pp-title .p2 {
+  font-size: 0.512rem;
+  color: #595757;
+}
+
+.part1 ul {
+  margin-top: 0.4266666667rem;
+}
+
+.part1 ul li {
+  float: left;
+  width: 6.1866666667rem;
+  margin-right: 0.64rem;
+  margin-top: 0.5333333333rem;
+}
+
+.part1 ul li:nth-child(2n) {
+  margin-right: 0;
+}
+
+.part1 ul li .li-img {
+  position: relative;
+}
+
+.part1 ul li .li-img .img1 {
+  display: block;
+  width: 6.1866666667rem;
+  height: 3.6693333333rem;
+}
+
+.part1 ul li .li-img .li-icon {
+  width: 0.9386666667rem;
+  height: 0.9386666667rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -0.4693333333rem;
+  margin-left: -0.4693333333rem;
+}
+
+.part1 ul li p {
+  font-size: 0.512rem;
+  color: #ffffff;
+  line-height: 0.8106666667rem;
+  background-color: #2a49bb;
+  text-align: center;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.part1 {
+  margin-top: 0.64rem;
+  position: relative;
+}
+
+.pp-top p {
+  font-size: 0.6186666667rem;
+  color: #315acd;
+  text-align: center;
+  font-weight: bold;
+}
+
+.pp-top img {
+  display: block;
+  width: 100%;
+  margin-top: 0.0853333333rem;
+  margin-bottom: 0.32rem;
+}
+
+.part-img {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.2133333333rem;
+}
+
+.pp4 .part-img {
+  margin-bottom: 0.4266666667rem;
+}
+
+footer .footer-box .next-page1,
+footer .footer-box .prev-page1 {
+  width: 1.7706666667rem;
+}
+
+/*# sourceMappingURL=pp.css.map */

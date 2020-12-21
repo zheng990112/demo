@@ -1,0 +1,150 @@
+.content_right{
+	overflow: hidden;    
+}
+
+.icon1{
+	display: block;
+	width: 0.5rem;
+	margin:0.2rem auto;
+}
+.part1 .part1-top{
+	text-align: center;
+}
+
+.part1 .part1-top .p1{
+	font-size: 0.28rem;
+	font-weight: bold;
+}
+.part1 .part1-top .p2{
+	font-size: 0.28rem;
+}
+.part1 .part1-top img{
+	display: block;
+	width: 100%;
+	margin-top: 0.2rem;
+}
+.part1 .part1-main{
+	width: 5.5rem;
+	margin:0 auto;
+	position:relative;
+}
+.part1 .part1-main .img1{
+	width: 3.86rem;
+}
+.part1 .part1-main .img2{
+	margin-top: 0.1rem;
+	width: 3.86rem;
+}
+.part1 .part1-main .a4-img{
+    position: absolute;
+    width: 3.17rem;
+    top: 2.1rem;
+    left: 1.2rem;
+}
+.part1 .part1-main .a5-img{
+    position: absolute;
+    width: 1.26rem;
+    top: 1rem;
+    left: 4.1rem;
+}
+.part1 .part1-main .a6-img{
+    position: absolute;
+    width: 0.63rem;
+    top: 3.1rem;
+    left: 0.5rem;
+}
+.part1 .bg-img{
+	position: absolute;
+    width: 100%;
+    top: 5.4rem;
+    z-index: -1;
+}
+
+
+
+
+.part2 .part2-main .p1{
+	font-size: 0.28rem;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0.2rem;
+}
+.part2 .part2-main{
+	width: 4.7rem;
+	margin:0 auto;
+	margin-bottom: 0.6rem;
+}
+.part2 .part2-main .img1{
+	display: block;
+	width: 100%;
+}
+.part2 .part2-main .box{
+	font-size: 0;
+	position:relative;
+}
+.part2 .part2-main .box .box-l_top{
+	position:absolute;
+	width: 0.76rem;
+	top: 0.4rem;
+	left:0.4rem;
+}
+.part2 .part2-main .box .box-l_top img{
+	display: block;
+	width: 100%;
+}
+.part2 .part2-main .box .box-l{
+	display: inline-block;
+	vertical-align: bottom;
+	width: 1.44rem;
+	margin-right: 0.23rem;
+	margin-top: 0.2rem;
+}
+
+.part2 .part2-main .box .box-l img{
+	display:block;
+	width: 100%;
+}
+.part2 .part2-main .box .box-r{
+	display:inline-block;
+	vertical-align: bottom;
+	width: 3.03rem;
+}
+.part2 .part2-main .box .box-r img{
+	display: block;
+	width: 100%;
+	margin-top: 0.2rem;
+}
+
+
+
+.part2-box{
+	color:#050b26;
+	margin-top: 0.3rem;
+}
+.part2-box .box-p1 span{
+	display: block;
+	/*	font-size: .2rem;*/
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+	font-weight: bold;
+}
+.part2-box .box-p2 span{
+	display: block;
+	/*	font-size: .2rem;*/
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+	text-align: justify;
+	line-height: 0.4rem;
+}

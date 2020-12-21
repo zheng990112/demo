@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: arial, serif, 'Microsoft Yahei';
+    font-size: 0.24rem;
+    background-color: #ffffff;
+    color: #333333;
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+}
+
+label {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ul li,
+ol li {
+    list-style: none;
+}
+
+input,
+img,
+textarea,
+button {
+    outline: none;
+    border: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-appearance: none;
+}
+
+button {
+    background: none;
+    outline: none;
+}
+
+b {
+    font-weight: normal;
+}
+
+u {
+    text-decoration: none;
+}
+.fl-lt {
+	float: left;
+}
+
+.fl-rt {
+	float: right;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* 自定义字体 */
+
+@font-face {
+    font-family: myfont;
+    src: url(../fonts/SourceHanSerifCN-Bold.otf)
+}
+
+@font-face {
+    font-family: myfont2;
+    src: url(../fonts/xiquezhaopaiti.ttf);
+}
+
+
+/* header css start */
+
+header {
+    width: 100%;
+    height: 0.86rem;
+    background-color: #DF3139;
+    background-image: url(../img/header_bg.jpg);
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    padding-left: 0.48rem;
+    padding-right: 0.70rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+
+header .logo {
+    width: 1.18rem;
+    font-size: 0;
+}
+
+header .logo-desc {
+    width: 1.71rem;
+    font-size: 0;
+}
+
+header .phone-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header .phone-box .phone-icon {
+    width: 0.34rem;
+    font-size: 0;
+    margin-right: 0.05rem;
+}
+
+header .phone-box .phone-info {
+    display: flex;
+    flex-direction: column;
+}
+
+header .phone-box .phone-info img {
+    width: 0.73rem;
+    vertical-align: top;
+}
+
+header .phone-box .phone-info p {
+    font-size: 0.22rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+header .menu-btn {
+    width: 0.67rem;
+    font-size: 0;
+}
+
+
+/* header css end */
+
+
+/* footer css start */
+
+footer {
+    width: 100%;
+    height: 0.86rem;
+    background-color: #DF3139;
+    background-image: url(../img/footer_bg.jpg);
+    background-size: 100% 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+}
+
+footer a {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a img {
+    width: 0.44rem;
+    vertical-align: top;
+    margin: 0 0.05rem;
+}
+
+footer a span {
+    font-size: 0.23rem;
+    color: #ffffff;
+    margin: 0 0.05rem;
+}
+
+
+/* footer css end */
+
+
+/* menu css start */
+
+.menu-box {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 998;
+    display: none;
+}
+
+.menu-box .menu-mask {
+    box-sizing: border-box;
+    padding-top: 0.86rem;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.menu-box .menu-mask .menu-list {
+    width: 2.16rem;
+    box-sizing: border-box;
+    padding-top: 0.44rem;
+    padding-bottom: 0.28rem;
+    background-color: rgba(0, 0, 0, 0.57);
+    position: absolute;
+    /* right: 0; */
+    right: -2.16rem;
+    top: 0.85rem;
+    border-radius: 0 0 0.40rem 0.40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-box .menu-mask .menu-list a {
+    display: block;
+    width: 1.80rem;
+    text-align: center;
+    padding: 0.18rem 0;
+    border-bottom: 0.02rem solid #ffffff;
+    color: #ffffff;
+    font-size: 0.34rem;
+}
+
+.menu-box .menu-mask .menu-list a:last-of-type {
+    border-bottom: none;
+}
+
+.menu-box .menu-mask .menu-list a.on {
+    color: #F29600;
+}
+
+
+/* menu css end */
+
+
+/* container css start */
+
+.container {
+    width: 100%;
+    min-height: 100%;
+    box-sizing: border-box;
+    padding-top: 0.86rem;
+    padding-bottom: 0.86rem;
+    background-image: url(../img/container_bg.jpg);
+    background-size: 100% auto;
+}
+
+
+/* container css end */

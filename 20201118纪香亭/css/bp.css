@@ -1,0 +1,270 @@
+.bp1 .part1 .sub-title {
+  margin-bottom: 0.26rem;
+}
+
+.bp1 .part1 .first_img {
+  display: block;
+  width: 100%;
+}
+
+
+.bp .pic_box {
+  width: 6.5rem;
+  margin: auto;
+  position: relative;
+  font-family: 'MagpieAggregate';
+  margin-top: 0.24rem;
+}
+
+.bp .pic_box img {
+  display: block;
+  width: 100%;
+}
+
+.bp ul {
+  width: 6.5rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  font-family: 'MagpieAggregate';
+  margin-top: 0.32rem;
+  margin-bottom: 0.6rem;
+}
+
+.bp ul li {
+  position: relative;
+}
+
+.bp ul li::after {
+  content: "";
+  width: 0.8rem;
+  height: 0.8rem;
+  background: url(../img/bp/a_icon1.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: -0.52rem;
+  top: 1.34rem;
+  z-index: 2;
+}
+
+.bp ul li:nth-child(2n)::after {
+  display: none;
+}
+
+.bp ul img {
+  display: block;
+  width: 3.12rem;
+  height: 4.2rem;
+}
+
+.bp ul .p2 {
+  font-size: 0.26rem;
+  color: #000000;
+  padding-top: 0.1rem;
+}
+
+.bp .pic_box:last-child {
+  margin-bottom: 0.55rem;
+}
+
+/* 
+.bp .pic_box {
+  width: 6.5rem;
+  margin: auto;
+  position: relative;
+  font-family: 'MagpieAggregate';
+  margin-top: 0.24rem;
+}
+
+.bp .pic_box img {
+  display: block;
+  width: 100%;
+}
+
+.bp .pic_box .pic_title{
+  position: absolute;
+  z-index: 2;
+  left: 0.36rem;
+  bottom: 0.48rem;
+  text-align: center;
+}
+.bp .pic_box .pic_title span{
+  line-height: 0.4rem;
+  width: 0.44rem;
+  height: 0.44rem;
+  border: 1px solid #cab293;
+  background: #bd0d23;
+  color: #ffffff;
+  border-radius: 50%;
+  float: left;
+  font-size: 0.36rem;
+}
+
+.bp .pic_box .str {
+  width: 100%;
+  height: 0.6rem;
+  background: #bd0d23;
+  display: flex;
+  align-items: center;
+  font-size: 0.24rem;
+  color: #ffffff;
+  position: relative;
+}
+.bp .pic_box .str::after {
+  content: "";
+  background: #cab293;
+  width: 1.5rem;
+  height: 1px;
+  position: absolute; 
+  top: 50%;
+  right: 0;
+}
+.bp .pic_box .str::before{
+  content: "";
+  width: 0.8rem;
+  height: 0.8rem;
+  background: url(../img/bp/a_icon1.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: -0.1rem;
+  right: 0.35rem;
+  z-index: 1;
+}
+.bp .pic_box .p1 {
+  width: 2.2rem;
+  margin-left: 0.3rem;
+}
+.bp .pic_box .p1  span{
+  display: block;
+  transform: scale(0.91);
+  -webkit-transform: scale(0.91);
+  -o-transform: scale(0.91);
+  -moz-transform: scale(0.91);
+  -ms-transform: scale(0.91);
+  width: 110%;
+  margin-left: -5%;
+}
+
+.bp .pic_box .p2 {
+  font-size: 0.32rem;
+  margin-left: 0.2rem;
+}
+.bp ul{
+  width: 6.5rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  font-family: 'MagpieAggregate';
+  margin-top: 0.32rem;
+  margin-bottom: 0.6rem;
+}
+.bp ul li{
+  position: relative;
+}
+.bp ul li::after{
+  content: "";
+  width: 0.8rem;
+  height: 0.8rem;
+  background: url(../img/bp/a_icon1.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: -0.52rem;
+  top: 1.34rem;
+  z-index: 2;
+}
+.bp ul li:nth-child(2n)::after{
+  display: none;
+}
+.bp ul img{
+  display: block;
+  width: 3.12rem;
+  height: 4.2rem;
+}
+.bp ul div{
+  width: 100%;
+  height: 0.7rem;
+  background: #bd0d23;
+  border-top: #cab293 1px solid;
+  position: relative;
+}
+
+.bp ul .p1{
+  font-size: 0.32rem;
+  color: #ffffff;
+  padding-top: 0.24rem;
+}
+.bp ul .list_title{
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  left: 0;
+  top: -0.24rem;
+  text-align: center;
+  font-size: 0;
+}
+.bp ul .list_title span{
+  line-height: 0.4rem;
+  width: 0.44rem;
+  height: 0.44rem;
+  font-size: 0.36rem;
+  display: inline-block;
+  border: 1px solid #cab293;
+  background: #bd0d23;
+  color: #ffffff;
+  border-radius: 50%;
+}
+.bp ul .p2{
+  font-size: 0.26rem;
+  color: #000000;
+  padding-top: 0.1rem;
+} */
+
+.bp3 .box {
+  display: flex;
+  justify-content: space-between;
+  width: 6.5rem;
+  margin: auto;
+  margin-top: 0.4rem;
+  margin-bottom: 0.7rem;
+}
+
+.bp3 .box p {
+  width: 3rem;
+  font-family: 'MagpieAggregate';
+}
+
+.bp3 .box p:first-child span {
+  font-size: 0.52rem;
+  line-height: 1;
+  color: #bd0d23;
+}
+.bp3 .box p:first-child img{
+  display: block;
+  width: 4.16rem;
+  height: 2.54rem;
+  margin-top: 0.2rem;
+}
+.bp3 .box p:last-child img{
+  display: block;
+  width: 4.16rem;
+  height: 2.54rem;
+  float: right;
+  margin-top: 0.3rem;
+}
+.bp3 .box p:last-child span{
+  float: right;
+  text-align: right;
+  margin-top: 0.2rem;
+  margin-right: 0.18rem;
+  width: 100%;
+}
+.bp3 .box p:last-child img:last-child{
+  width: 0.4rem;
+  height: 0.14rem;
+  margin-top: 0.1rem;
+  margin-right: 0.2rem;
+}

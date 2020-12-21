@@ -1,0 +1,50 @@
+.banner{position: relative;width: 100%;height:12.44rem ;padding-top: 1.07rem;}
+.banner .img1{position: absolute;width:7.5rem;margin-left: -3.75rem;left: 50%;z-index: 0;;}
+.banner .div1{width: 4.2rem;height: 1.05rem;background: url(../img/md/z1.png) no-repeat;background-size:4.2rem 1.05rem;position: relative ;top: .7rem;left: .46rem;}
+.banner .div1 p{font-size: .36rem;color: #ffffff;text-align: center;text-transform: uppercase;}
+.banner .div1 h3{font-size: .28rem;color: #ffffff;text-align: right;padding-right: .2rem;}
+.banner .div2{position: relative;top: .6rem;left: .7rem;width: 2.6rem;z-index: 9;}
+.banner .div2 p{font-size: .36rem;color: #ffffff;display: inline-block;float: left;width: 1.54rem;}
+.banner .div2 .img2{width: .69rem;height: .36rem;display: inline-block;float: left;vertical-align: middle;margin-left: .1rem;}
+.banner .div3{position: absolute;top: .8rem;left: .9rem;z-index: 9;width: 2rem;background: rgba(0,0,0,0.7);padding: .3rem 0;display: none;}
+.banner .div3  a{font-size: .32rem;color: #fff;display: block;width: 100%;text-align: center;line-height: .5rem;}
+.main{background: #000000;}
+.cp .part1{background: url(../img/cp/a3.png) no-repeat center;background-size:5.63rem 4.61rem ;height: 4.61rem;position: relative;z-index: 1;}
+.cp .part1 .div1{padding-top: .2rem;}
+.cp .part1 .div1 p{font-size: .24rem;color: #fff;text-align: center;line-height: .44rem;}
+.cp .part1 h3{text-align: center;font-size: .42rem;color: #fff;padding-top: .27rem;}
+.cp .part2{margin-top: .47rem;}
+
+
+
+.cp .part3{width: 100%;position: relative;}
+.cp .part3 img{width: 100%;}
+.cp .part4{top: -.8rem;z-index: 0;}
+.cp .part5{background: url(../img/cp/a4.png) no-repeat center;background-size:5.63rem 3.72rem ;height: 3.72rem;position: relative;z-index: 1;}
+.cp .part5 .div1{padding-top: .2rem;}
+.cp .part5 .div1 p{font-size: .24rem;color: #fff;text-align: center;line-height: .44rem;}
+.cp .part5 h3{text-align: center;font-size: .42rem;color: #fff;padding-top: .27rem;}
+
+
+ .fenye a {
+	display: inline-block;
+}
+
+ .fenye img {
+	display: inline-block;
+	width: 1.07rem;
+	height: .38rem;
+	vertical-align: middle;
+}
+
+ .fenye p {
+	display: inline-block;
+	font-size: .24rem;
+	color: #727171;
+	margin: 0 .2rem;
+}
+
+ .fenye {
+	text-align: center;padding-bottom: 2rem;
+	margin-top: .6rem;
+}

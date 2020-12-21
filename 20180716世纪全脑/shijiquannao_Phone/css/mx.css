@@ -1,0 +1,39 @@
+.mx .title{
+	font-size: .28rem;
+	color:#7a272c;
+	border-bottom: 1px solid #7a272c;
+	padding-bottom: .06rem;
+	padding-left: .3rem;
+	margin-bottom: .32rem;
+}
+.mx .title span{
+	display: inline-block;
+	margin-left: -.2rem;
+	color: #666;
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+}
+.mx .title2 span{
+	margin-left: -.1rem;
+}
+.mx .box{
+	padding: 0 .3rem;
+	margin-bottom: .2rem;
+}
+.mx .box img{
+	width: 31.66%;
+	float: left;
+	margin-right: 2.5%;
+	margin-bottom: .16rem;
+}
+.mx .box img:nth-child(3n){
+	margin-right: 0;
+}
+
+
+
+

@@ -1,0 +1,44 @@
+.mt03{
+	margin-top: 0.3rem;
+}
+.mt0{
+	margin-top: 0;
+}
+.mb03{
+	margin-bottom: 0.3rem;
+}
+
+
+
+.part1 .p1{
+	color:#515151;
+	line-height: 0.34rem;
+	font-family: myfont_Light;
+	margin-top: 0.1rem;
+}
+.part1 .p1 b{
+    color:#221714;
+    font-family: myfont_Medium;
+    font-weight: bold;
+}
+.part1 .al-title2{
+	margin-top: 0.6rem;
+}
+
+.part1 .p2{
+	color:#221714;
+	line-height: 0.34rem;
+	font-family: myfont_Medium;
+	font-weight: bold;
+}
+
+.part1 img{
+	display: block;
+	width: 100%;
+	border-top:1px solid #827f80;
+	border-bottom:1px solid #827f80;
+	margin-top: 0.3rem;
+}
+.last-p{
+    padding-bottom: 0.3rem;
+}

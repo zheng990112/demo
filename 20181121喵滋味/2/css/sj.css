@@ -1,0 +1,76 @@
+
+
+.part1 .part1-top{
+	position:relative;
+}
+.part1 .part1-top .p1{
+	font-size: 0.33rem;
+	font-weight: bold;
+	margin-top: 0.2rem;
+}
+.part1 .part1-top .p2{
+	display: inline-block;
+	border:1px solid #000;
+	line-height: 0.3rem;
+	border-radius: 0.18rem;
+	margin-left: 1rem;
+	position:relative;
+	margin-top: 0.15rem;
+}
+.part1 .part1-top .p2::before,
+.part1 .part1-top .p2::after{
+	content:"";
+	display:inline-block;
+	position:absolute;
+	width: 0.8rem;
+	height: 1px;
+	background-color: #000;
+	top:0.18rem;
+}
+.part1 .part1-top .p2::before{
+	left: -0.8rem;
+}
+.part1 .part1-top .p2::after{
+	right: -0.8rem;
+}
+.part1 .part1-top .p2 span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+}
+.part1 .part1-top img{
+	width: 1.25rem;
+	height: 0.73rem;
+	position:absolute;
+	right: 0;
+	bottom: -0.4rem;
+	z-index:-1;
+}
+.part1 .a2-img{
+	width: 100%;
+	margin-top: 0.2rem;
+}
+
+
+.part2{
+	position:relative;
+}
+.part2 .top-img{
+	width: 100%;
+	
+}
+.part2 .part2-main img{
+	display: block;
+	width: 100%;
+	margin-top: 0.1rem;
+}
+.part2 .b1-img{
+	width: 0.4rem;
+	position:absolute;
+	left:-0.1rem;
+	top:5rem;
+}

@@ -1,0 +1,104 @@
+.part1 .al-sub-title {
+  font-family: "myfont_Medium";
+  font-weight: bold;
+  color: #000000;
+  margin-top: 0.20rem;
+}
+
+.part1 .reading {
+  margin-top: 0.10rem;
+}
+
+.part1 .img-box {
+  margin-top: 0.75rem;
+}
+
+.part1 p.bold {
+  font-family: "myfont_Medium";
+  font-weight: bold;
+  color: #000000;
+  margin-top: 0.80rem;
+  line-height: 0.34rem;
+}
+
+.part2,
+.part3,
+.part4 {
+  padding-top: 0.80rem;
+}
+
+.part2 .img-box,
+.part3 .img-box {
+  margin-top: 0.80rem;
+}
+
+
+
+.part2 .ul1 li{
+	float:left;
+	width: 100%;
+  border-bottom: 0.01rem solid #c9cacb;
+  margin-bottom: 0.4rem;
+}
+.part2 .ul1 li p{
+  text-align: justify;
+  padding-left: 0.6rem;
+}
+.part2 .ul1 .listP1{
+  padding-top: 0.18ren;
+  padding-bottom: .1rem;
+  color: #000000;
+  font-weight: bold;
+  font-family: myfont_Medium;
+  font-weight: bold;
+  position: relative;
+}
+.part2 .ul1 .listP2{
+  color: #7e7f80;;
+  line-height: 0.28rem;
+  font-family: myfont_Light;
+  margin-bottom: 0.3rem;
+  line-height: 0.4rem;
+}
+.part2 .ul1 li .listP1::after{
+	content:"";
+	display: inline-block;
+	width: 0.06rem;
+	height: 0.06rem;
+	background-color: #b51c21;
+	position:absolute;
+	left: 0.36rem;
+  top: 0.18rem;
+}
+
+.part2 .p1{
+  position: relative;
+  color: #000000;
+  font-weight: bold;
+  font-family: myfont_Medium;
+  line-height: 0.4rem;
+  padding-left: 0.3rem;
+  padding-top: 0.2rem;
+  line-height: 0.34rem;
+}
+.part2 .p1::after{
+  content:"";
+	display: inline-block;
+	width: 0.06rem;
+	height: 0.06rem;
+	background-color: #b51c21;
+	position:absolute;
+	left: 0;
+  top: 0.35rem;
+}
+
+.part2{
+  padding-bottom: 0.50rem;
+}
+
+.part2 .al-sub-title {
+  font-family: "myfont_Medium";
+  font-weight: bold;
+  color: #000000;
+  margin-top: 0.20rem;
+}

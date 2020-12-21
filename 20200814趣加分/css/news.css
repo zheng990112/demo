@@ -1,0 +1,134 @@
+.news .news_img1 {
+  display: block;
+  width: 6.3rem;
+  margin: auto;
+  margin-top: 0.65rem;
+}
+
+.news .listPic {
+  width: 6.3rem;
+  margin: auto;
+  margin-top: 0.35rem;
+}
+
+.news .listPic li {
+  float: left;
+  width: 100%;
+  margin-top: 0.1rem;
+  height: 0.63rem;
+}
+
+.news .listPic img {
+  width: 1.17rem;
+  height: 0.63rem;
+  float: left;
+}
+
+.news .listPic a {
+  float: right;
+  width: 4.9rem;
+  height: 0.62rem;
+  border-bottom: 0.01rem dashed #595757;
+}
+
+.news .listPic p {
+  padding-top: 0.15rem;
+  color: #595757;
+  font-size: 0.24rem;
+  float: left;
+}
+
+.news .listPic p span {
+  display: block;
+  font-size: 0.24rem;
+  transform: scale(0.75);
+  -webkit-transform: scale(0.75);
+  -o-transform: scale(0.75);
+  -moz-transform: scale(0.75);
+  -ms-transform: scale(0.75);
+  width: 133%;
+  margin-left: -16.5%;
+}
+
+.news .listPic .p1 span {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.news .listPic .p1 {
+  width: 3.5rem;
+}
+
+.news .listPic .p2 {
+  float: right;
+  width: 1.2rem;
+}
+
+.news_btn {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 0.4rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 0.05rem #eaeaea solid;
+}
+
+.news_btn a,
+.news_btn span {
+  display: inline-block;
+  min-width: 0.25rem;
+  margin: 0 0.1rem;
+  color: #595757;
+  font-size: 0.24rem;
+  height: 0.25rem;
+  line-height: 0.25rem;
+}
+
+.news_btn a.now {
+  color: #ffffff;
+  background-color: #322283;
+}
+
+.news_text h1 {
+  text-align: center;
+  font-size: 0.38rem;
+  color: #474747;
+  margin-top: 0.3rem;
+}
+
+.news_text h3 {
+  width: 5rem;
+  margin: auto;
+  font-size: 0.26rem;
+  margin-top: 0.2rem;
+  color: #707070;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.news_text img {
+  width: 6.3rem;
+  display: block;
+  margin: auto;
+  margin-top: 0.2rem;
+}
+
+.news_text p {
+  text-align: justify;
+  font-size: 0.24rem;
+  color: #707070;
+  line-height: 1.5;
+  width: 6.3rem;
+  margin: auto;
+  margin-top: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.fenye-box {
+  margin-top: 0.75rem;
+  margin-bottom: 0.43rem;
+}

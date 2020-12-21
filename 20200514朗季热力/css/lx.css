@@ -1,0 +1,62 @@
+
+
+
+.form{
+	width: 6.46rem;
+	height: 3.6rem;
+	/*background:url(../img/index/16-1.jpg) no-repeat;*/
+	/*background-size:100% 100%;*/
+	position:absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -3.23rem;
+}
+.form input{
+    font-size: 0.18rem;
+    width: 1.52rem;
+    height: 0.36rem;
+    background-color: transparent;
+    color: #a6a7a7;
+    position: absolute;
+    top: 0.23rem;
+}
+.form .inp1{
+	left:0.68rem;
+}
+.form .inp2{
+	left:2.63rem;
+}
+.form .inp3{
+	left:4.58rem;
+}
+.form textarea{
+    width: 5.4rem;
+    height: 1.6rem;
+    font-size: 0.2rem;
+    background-color:transparent;
+    color: #a6a7a7;
+    position: absolute;
+    left: 0.7rem;
+    top: 0.85rem;
+    resize: none;
+}
+.form button{
+	width: 2.4rem;
+	height: 0.3rem;
+	font-size: 0.22rem;
+	background-color: #b81521;
+	color:#fff;
+	position:absolute;
+	top:3.05rem;
+	left: 50%;
+	margin-left: -1.2rem;
+}
+
+.map{
+	width: 6.44rem;
+	height: 2.14rem;
+	position:absolute;
+	left: 50%;
+	margin-left: -3.22rem;
+	bottom: 1.55rem;
+}

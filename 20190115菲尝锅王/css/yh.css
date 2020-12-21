@@ -1,0 +1,254 @@
+
+
+.part1 .part1-main .main-top .a1-img{
+	display: block;
+	width: 3.57rem;
+	margin:0 auto;
+	margin-top: 0.4rem;
+}
+.title-p{
+	width: 4rem;
+	/*height: 0.52rem;*/
+	margin:0 auto;
+	text-align: center;
+	background-color: #231815;
+	color:#fff;
+	margin-top: 0.1rem;
+}
+.title-p span{
+	display: block;
+	/*	font-size: .2rem;*/
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+    line-height: 0.32rem;
+}
+.title-img{
+	display: block;
+	width: 2.59rem;
+	margin:0 auto;
+	margin-top: 0.1rem;
+}
+.table_box{
+	width: 4rem;
+	margin:0 auto;
+	border:1px solid #c8c8c9;
+	margin-top: 0.2rem;
+}
+.table_box div{
+	float: left;
+	border:0.5px solid #c8c8c9;
+	width: 2rem;
+	box-sizing: border-box;
+	line-height: 0.36rem;
+}
+.table_box div span{
+	display:block;
+	/*	font-size: .18rem;*/
+	font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+	width: 130%;
+	margin-left: -15%;
+	text-align:center;
+}
+
+
+.picScroll-left{
+	width:100%;
+	position:relative;
+    height:3.5rem;
+    margin:0 auto;
+    margin-top: 0.2rem;
+}
+.picScroll-left .bd{
+	width: 100%;
+	height: 2.74rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.picScroll-left .bd li{
+	float: left;
+	position: relative;
+	text-align: center;
+	width: 100%;
+	height: 2.74rem;
+	cursor: pointer;
+	z-index: 2;
+	/*margin:0 0.1rem;*/
+}
+
+.picScroll-left .bd li img{
+	display: block;
+	width: 3.65rem;
+	height: 2.74rem;
+}
+.picScroll-left .bd li img:first-child{
+	float:left;
+}
+.picScroll-left .bd li img:last-child{
+	float:right;
+}
+.picScroll-left .hd{
+	text-align: center;
+	margin-top: 0.2rem;
+}
+.picScroll-left .hd ul{
+	font-size: 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+.picScroll-left .hd ul li{
+	display: inline-block;
+	width: 0.2rem;
+	height: 0.2rem;
+	border-radius:50%;
+	margin:0 0.05rem;
+	background-color: #888889;
+}
+.picScroll-left .hd ul li.on{
+	background-color: #e00012;
+}
+.picScroll-left .arrow{
+	width: 0.4rem;
+	height:0.4rem;
+	z-index: 99;
+	display: inline-block;
+	vertical-align: middle;
+}
+.picScroll-left .arrow img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+
+
+
+
+
+
+/*.part2*/
+.part2  .b1-img{
+	display: block;
+	width: 3.54rem;
+	margin:0 auto;
+	margin-top: 0.4rem;
+}
+
+.part3 .c1-img{
+	display: block;
+	width: 5.22rem;
+	margin:0 auto;
+	margin-top: 0.2rem;
+}
+.part3 .title-p{
+	width: 5.5rem;
+}
+
+.part4 .d1-img{
+	display: block;
+	width: 5.22rem;
+	margin:0 auto;
+	margin-top: 0.3rem;
+}
+
+.part4 .main-box{
+	text-align: center;
+}
+.part4 .main-box div{
+	display: inline-block;
+	vertical-align: middle;
+	margin:0 0.1rem;
+}
+.part4 .main-box .box-img{
+	width: 2.8rem;
+	
+}
+.part4 .main-box .box-img img{
+	display: block;
+	width: 100%;
+}
+.part4 .main-box .box-font{
+	width: 2.9rem;
+	height: 1.36rem;
+	position:relative;
+}
+.part4 .main-box .box-font img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	top: 0;
+	left: 0;
+}
+.part4 .main-box .box-font .p1{
+	margin-top: 0.36rem;
+}
+.part4 .main-box .box-font .p1 span{
+	display:block;
+	/*	font-size: .22rem;*/
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 109%;
+	margin-left: -4.5%;
+	color:#231815;
+	font-weight: bold;
+}
+.part4 .main-box .box-font .p2 span{
+	display:block;
+	/*	font-size: .2rem;*/
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+	color:#231815;
+}
+.part4 .main-box{
+	margin-top: -0.6rem;
+}
+.part4 .main-box1{
+	margin-top: 0;
+}
+.part4 .main-box1 .box-font .p1{
+	margin-top: 0.5rem;
+}
+
+
+
+@media (max-width:320px){
+	.part4 .main-box .box-font .p1 span{
+		/*	font-size: .2rem;*/
+		font-size: .24rem;
+		transform: scale(.833);
+		-webkit-transform: scale(.833);
+		-o-transform: scale(.833);
+		-moz-transform: scale(.833);
+		-ms-transform: scale(.833);
+		width: 120%;
+		margin-left: -10%;
+	}
+	.part4 .main-box .box-font .p1 {
+	    margin-top: 0.4rem;
+	}
+	.part4 .main-box .box-font{
+		width: 3.2rem;
+    	height: 1.66rem;
+	}
+}

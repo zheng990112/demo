@@ -1,0 +1,194 @@
+*{padding:0;margin:0;}
+body{
+	font-family:"Microsoft Yahei";
+	color: #333;
+	-webkit-font-smoothing: antialiased;
+	font-size: 12px;
+	-webkit-text-size-adjust: none;
+}
+input,img,textarea,button{
+	outline: none;
+	border: 0;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+ul li,
+ol li{
+	list-style: none;
+}
+.fl-lt{
+	float: left;
+}
+.fl-rt{
+	float: right;
+}
+.clearfix::after{
+	content: "";
+	display: block;
+	clear:both;
+}
+
+/*header部分*/
+.header{
+	width: 100%;
+	margin:0.5rem 0;
+	border-bottom: 0.3rem solid #d61518;
+	padding-bottom: 0.5rem;
+}
+.header .left{
+	display: inline-block;
+	color:#d61518;
+	vertical-align: middle;
+	line-height: 0.38rem;
+	width: 51%;
+	text-align: right;
+}
+.header .left .p1{
+	font-size: 0.36rem;
+	font-weight: bold;
+}
+.header .left .p2{
+	font-size: 0.26rem;
+}
+.header .header-line{
+	width: 1px;
+	height: 0.9rem;
+	display: inline-block;
+	vertical-align: middle;
+	margin:0 5%;
+}
+.header .header-line img{
+	width: 100%;
+	height: 100%;
+}
+.header .right{
+	display: inline-block;
+	vertical-align: middle;
+	width: 30%;
+}
+.header .right img{
+	width: 100%;
+} 
+.main{
+	padding:0 0.5rem;
+}
+.main .part1{
+	font-size: 0.28rem;
+	text-indent: 0.56rem;
+	line-height: 0.44rem;
+}
+.main .part1 span{
+	color:#d61518;
+} 
+.main .line{
+	width: 70%;
+	height: 1px;
+	margin:0.4rem auto;
+}
+.main .line img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.main .part2,
+.main .part3{
+	color:#d61518;
+	box-sizing: border-box;
+	font-size: 0.3rem;
+	margin-bottom: 0.5rem;
+}
+.main input{
+	border-bottom:1px solid #4f4f4f;
+}
+.main  span{
+	color:#4f4f4f;
+}
+.main .flex{
+	display: flex;
+	display:-webkit-flex;
+	margin-bottom: 0.1rem;
+}
+.main .part2 .nd .inp1{
+	width: 30%;
+	flex: 1;
+}
+.main .part2 .nd .inp2{
+	width: 10%;
+	flex: 1;
+}
+.main .part2 .dh input,
+.main .part2 .yx input,
+.main .part2 .ms input{
+	flex: 1;
+}
+.main .part2 .ms .inp1{
+	width: 50%;
+}
+.main .part2 .flex input{
+	flex: 1;
+}
+.main .part2 .part2-c{
+	width: 0.5rem;
+}
+
+
+.main .part3 .hy input{
+	flex: 1;
+}
+.main .part3 .marginL{
+	margin-left: 0.32rem;
+}
+.main .part3 .flex label{
+	color:#4f4f4f;
+	font-size: 0.3rem;
+	vertical-align: middle;
+}
+.main .part3 .flex input{
+	vertical-align: middle;
+}
+.main .part3 .qt .inp1{
+	width: 50%;
+	flex: 1;
+}
+.main .part3 .inp1{
+	flex:1;
+}
+.main .part3 .kh1 .inp1{
+	width: 25%;
+	flex:1;
+}
+.main .part3 .kh2 .inp2{
+	width: 25%;
+	flex: 1;
+}
+.main .part3 .xs .inp1{
+	width: 50%;
+}
+.main .part3 .marginL input,
+.main .part3 .marginL label{
+	display: inline-block;
+	vertical-align: 7;
+}
+.main .part3 .xw .inp1{
+	width: 50%;
+}
+.main .part3 .ys .inp1{
+	width: 20%;
+}
+
+.footer{
+	width: 100%;
+	height: 1.5rem;
+	background-color: #d61518;
+	padding-top: 0.30rem;
+	box-sizing: border-box;
+}
+.footer button{
+	display: block;
+	width: 40%;
+	height: 0.8rem;
+	font-size: 0.3rem;
+	color:#d61518;
+	letter-spacing: 0.1rem;
+	margin:0 auto;
+}

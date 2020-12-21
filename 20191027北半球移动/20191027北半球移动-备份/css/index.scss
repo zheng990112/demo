@@ -1,0 +1,162 @@
+@import './px2rem.scss';
+.page-banner {
+    width: 100%;
+    position: relative;
+    .message-box {
+        position: absolute;
+        right: px2rem(63);
+        bottom: px2rem(94);
+        width: px2rem(267);
+        height: px2rem(113);
+        background: linear-gradient(right, #315ad2, #2236a2);
+        background: -webkit-linear-gradient(right, #315ad2, #2236a2);
+        border-radius: 0 px2rem(20) px2rem(20) 0;
+        display: flex;
+        align-items: center;
+        z-index: 99;
+        .tags {
+            width: px2rem(183);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: px2rem(53);
+            margin-top: px2rem(-7);
+            a {
+                display: block;
+                width: px2rem(89);
+                height: px2rem(37);
+                font-size: px2rem(22);
+                background-color: #ffffff;
+                color: #315AD2;
+                line-height: px2rem(37);
+                text-align: center;
+                border-radius: px2rem(18.5);
+                margin-top: px2rem(7);
+                font-weight: bold;
+            }
+        }
+        .qie {
+            width: px2rem(158);
+            position: absolute;
+            left: px2rem(-93);
+            top: px2rem(-113);
+            z-index: 3;
+        }
+    }
+    .banner-box {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        .swiper-slide {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            img {
+                height: 100%;
+            }
+        }
+    }
+    .down {
+        position: absolute;
+        bottom: px2rem(84);
+        left: 50%;
+        width: px2rem(82);
+        margin-left: px2rem(-41);
+        z-index: 99;
+        animation: jump 2s infinite linear;
+    }
+}
+
+@keyframes jump {
+    0% {
+        bottom: px2rem(84);
+    }
+    50% {
+        bottom: px2rem(74);
+    }
+    100% {
+        bottom: px2rem(84);
+    }
+}
+
+.page-menu {
+    position: relative;
+    .bg {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+    }
+    footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .page-main {
+        .video-box {
+            width: px2rem(658);
+            font-size: 0;
+            margin: px2rem(81) auto 0;
+            position: relative;
+            .mask {
+                position: absolute;
+                left: 0;
+                top: 0;
+                background-color: rgba($color: #000000, $alpha: .5);
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .play-icon {
+                    width: px2rem(68);
+                }
+            }
+            .video {
+                width: 100%;
+                height: 100%;
+                background-color: #000000;
+                position: absolute;
+                left: 0;
+                top: 0;
+                display: none;
+            }
+        }
+        .menu-box {
+						width: px2rem(652);
+						margin: 0 auto;
+            margin-top: px2rem(157);
+						.title-box {
+						    font-size: px2rem(46);
+						    color: #315AD2;
+						    font-weight: bold;
+								text-align: center;
+						}
+						.menu-list {
+							display: flex;
+							justify-content: space-between;
+							align-items: flex-start;
+							margin-top: px2rem(60);
+							.menu-item {
+							    display: flex;
+							    width: px2rem(72);
+							    height: px2rem(194);
+							    background: linear-gradient(top, #315ad2, #2236a2);
+							    background: -webkit-linear-gradient(top, #315ad2, #2236a2);
+							    align-items: center;
+							    justify-content: center;
+							    color: #ffffff;
+							    font-size: px2rem(24);
+									span {
+										width: px2rem(24);
+									}
+							}
+						}
+            
+        }
+    }
+}

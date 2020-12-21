@@ -1,0 +1,273 @@
+
+.pp1{
+	padding-bottom: 0.5rem;
+}
+.pp1 .pp1-main{
+	width: 6.22rem;
+	margin:0 auto;
+}
+.pp1 .pp1-main img{
+	display: block;
+	width: 100%;
+	margin-top: 0.6rem;
+}
+.pp1 .pp1-main p{
+	font-size: 0.24rem;
+	line-height: 0.4rem;
+	text-align: justify;
+	margin-top: 0.35rem;
+}
+.pp1 .pp1-main .en {
+	text-align: right;
+	margin-top: 0.3rem;
+}
+.pp1 .pp1-main .en span{
+	position:relative;
+	font-size: 0.56rem;
+	color:#e9e9e9;
+	line-height: 1;
+}
+.pp1 .pp1-main .en span::before{
+	content:"";
+	display: inline-block;
+	width: 0.45rem;
+	height: 0.12rem;
+	background: url(../img/pp/a2.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	bottom:0.15rem;
+	left: -0.8rem;
+}
+
+
+.pp2{
+	padding-bottom: 0.7rem;
+}
+.pp2 .public-title .p2 span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+	width:130%;
+	margin-left:-15%;
+}
+.pp2 .pp2-main .box p{
+	margin-top: 0.2rem;
+	padding-left: 0.65rem;
+	box-sizing: border-box;
+}
+.pp2 .pp2-main .box p .span1{
+	font-size:0.28rem;
+	display: inline-block;
+	vertical-align: middle;
+	width:1.9rem;
+	height:0.52rem;
+	border-radius:0.26rem;
+	background-color: #008e31;
+	color:#fff;
+	text-align: center;
+	line-height:0.52rem;
+}
+.pp2 .pp2-main .box p:nth-child(2n) .span1{
+	background-color: #f0bd19;
+}
+.pp2 .pp2-main .box p .span2{
+	display: inline-block;
+	vertical-align: middle;
+	font-size:0.26rem;
+	height:0.52rem;
+	line-height:0.52rem;
+	color:#595757;
+	position:relative;
+	margin-left:0.25rem;
+}
+.pp2 .pp2-main .box p .span2::after{
+	content:"";
+	display: inline-block;
+	width: 3.86rem;
+	height: 1px;
+	background-color: #ddddde;
+	position:absolute;
+	bottom:-0.1rem;
+	left: 0;
+}
+.pp2 .pp2-main .img{
+	display: block;
+	width:6.22rem;
+	height: 4.6rem;
+	margin:0 auto;
+	position:relative;
+	margin-top: 0.6rem;
+}
+.pp2 .pp2-main .img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position:relative;
+	z-index: 2;
+}
+
+
+
+.pp3{
+	padding-bottom: 0.7rem;
+}
+.pp3 .public-title .p2 span{
+	text-transform: uppercase;
+	display: block;
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+}
+.pp3 .pp3-main{
+	width: 6.2rem;
+	margin:0 auto; 
+}
+.pp3 .pp3-main .top{
+	font-size:0.24rem;
+	color:#595757;
+	text-align: justify;
+	line-height: 0.4rem;
+	margin-top:0.35rem;
+}
+.pp3 .pp3-main ul li{
+	float:left;
+	margin-right:0.3rem;
+	margin-top:0.4rem;
+}
+.pp3 .pp3-main ul li:nth-child(2n){
+	margin-right: 0;
+}
+.pp3 .pp3-main ul li .li-img{
+	width:2.95rem;
+	height:2rem;
+}
+.pp3 .pp3-main ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.pp3 .pp3-main ul li .li-p{
+	font-size: 0.24rem;
+	color:#008e31;
+	text-align: center;
+	font-weight: bold;
+	border-bottom: 1px solid #d6d7d7;
+	position:relative;
+	padding-bottom:0.15rem;
+	line-height: 1;
+	margin-top:0.15rem;
+}
+.pp3 .pp3-main ul li .li-p::after{
+	content:"";
+	display: inline-block;
+	width: 0.4rem;
+	height:0.04rem;
+	background-color: #f0bd19;
+	position:absolute;
+	bottom:-0.02rem;
+	left: 50%;
+	margin-left:-0.2rem;
+}
+
+.pp3 .pp3-main2{
+	margin-top: 0.6rem;
+	
+}
+.pp3 .pp3-main2 ul{
+	width: 6.2rem;
+	margin:0 auto;
+}
+.pp3 .pp3-main2 ul li{
+	float:left;
+	margin-right: 0.2rem;
+	margin-top: 0.4rem;
+}
+.pp3 .pp3-main2 ul li:nth-child(2n){
+	margin-right: 0;
+}
+.pp3 .pp3-main2 ul li .li-img{
+	width: 3rem;
+	height: 5.3rem;
+	overflow: hidden;
+}
+.pp3 .pp3-main2 ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.pp3 .pp3-main2 ul li .li-fonts{
+	height:0.62rem;
+	background-color: #008e31;
+	padding-top:0.05rem;
+	box-sizing: border-box;
+}
+.pp3 .pp3-main2 ul li .li-fonts .box{
+	width: 2.9rem;
+	height:0.5rem;
+	border:1px solid #7fc698;
+	margin:0 auto;
+	text-align: center;
+}
+.pp3 .pp3-main2 ul li .li-fonts .box img{
+	display: inline-block;
+	vertical-align: middle;
+	width: 0.33rem;
+	height:0.33rem;
+}
+.pp3 .pp3-main2 ul li .li-fonts .box span{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 0.5rem;
+	color:#fff;
+	font-size: 0.28rem;
+	margin-left:0.05rem;
+}
+
+
+
+
+
+
+
+
+
+.newsdetail{
+	width: 6.2rem;
+	margin:0 auto;
+	padding-bottom: 0.5rem;
+}
+.newsdetail-title{
+	font-size: 0.4rem;
+	color:#575757;
+	font-weight: bold;
+	text-align:center;
+}
+.newsdetail-time{
+	text-align: center;
+}
+.newsdetail-time span{
+	display: inline-block;
+	font-size: 0.28rem;
+	color:#575757;
+	margin:0.2rem;
+}
+.newsdetail img{
+	display: block;
+	width: 100%;
+}
+.newsdetail p{
+	color:#575757;
+	text-align: justify;
+	font-size: 0.26rem;
+	line-height: 0.32rem;
+	margin-top: 0.2rem;
+}

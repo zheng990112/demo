@@ -1,0 +1,76 @@
+.app .box{
+  padding: 0 0.75rem;
+}
+.app .box .img_logo{
+  margin: 0.6rem auto 0;
+  width: 3.7rem;
+  height: 0.97rem;
+  margin-left: 1.15rem;
+}
+.app .box .p1{
+  color: #008e31;
+  font-size: 0.6272rem;
+  text-align: center;
+  padding-bottom: 0.3rem;
+}
+.app .box div p{
+  float: left;
+  line-height: 0.58rem;
+  text-align: center;
+  border-radius: 0.4rem;
+  color: #ffffff;
+  font-size: 0.35rem;
+  width: 2.63rem;
+  height: 0.64rem;
+  background: url(../img/app/app_02.jpg) center no-repeat;
+  background-size: 2.63rem 0.64rem;
+}
+.app .box div p:last-child{
+  float: right;
+}
+.app .box .p2{
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  color: #595757;
+  font-size: 0.28rem;
+  line-height: 0.5rem;
+}
+.app .code{
+  padding-left: 0.3rem;
+  padding-right: 0.43rem;
+  margin-bottom: -0.1rem;
+}
+.app .code .leftImg{
+  float: left;
+  width: 3.49rem;
+  height: 5.98rem;
+}
+.app .code div{
+  float: right;
+  width: 3.1rem;
+}
+.app .code div .img1{
+  display: block;
+  margin-top: 0.1rem;
+  margin-left: 0.76rem;
+  width: 1.58rem;
+  height: 1.58rem;
+}
+.app .code div .img2{
+  display: block;
+  margin-top: 0.1rem;
+  margin-left: 0.71rem;
+  width: 1.68rem;
+  height: 1.68rem;
+}
+.app .code div .p1{
+  text-align: center;
+  color: #008e31;
+  font-size: 0.24rem;
+  padding-bottom: 0.2rem;
+}
+.app .code div .p2{
+  text-align: justify;
+  color: #595757;
+  font-size: 0.24rem;
+}

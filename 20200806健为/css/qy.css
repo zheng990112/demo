@@ -1,0 +1,252 @@
+.page {
+  position: relative;
+  z-index: 8;
+  overflow-x: hidden;
+}
+.qy_title {
+  text-align: center;
+}
+
+.qy_title .p1 {
+  padding-top: 0.5rem;
+  font-size: 0.54rem;
+  color: #bd986c;
+  text-align: center;
+  line-height: 1;
+}
+.qy_title .p1 span {
+  color: #006857;
+  font-weight: bold;
+}
+.qy_title .p2 {
+  padding-top: 0.2rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.34rem;
+  color: #006857;
+}
+.qy_title .p2 span {
+  vertical-align: middle;
+  margin: 0.25rem;
+}
+.qy_title .p2 img {
+  display: inline-block;
+  width: 0.36rem;
+  height: 0.26rem;
+  vertical-align: middle;
+}
+
+.qy_title .img1 {
+  width: 7.5rem;
+  height: 0.1rem;
+  display: block;
+  margin: auto;
+  margin-top: 0.2rem;
+}
+.qy_title .p3 {
+  font-size: 0.24rem;
+  text-transform: uppercase;
+  color: #bd986c;
+}
+.qy_title .p3 span {
+  display: inline-block;
+  font-size: 0.24rem;
+  transform: scale(0.5);
+  -webkit-transform: scale(0.5);
+  -o-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  width: 200%;
+  margin-left: -50%;
+}
+.qy_title div {
+  margin-top: 0.6rem;
+}
+.qy_title div p {
+  display: inline-block;
+  color: #006857;
+  font-size: 0.7351rem;
+  line-height: 1;
+  vertical-align: top;
+}
+.qy_title div span {
+  display: block;
+}
+.qy_title div .span1 {
+  font-size: 0.2646rem;
+}
+.qy_title div .span2 {
+  color: #cfa676;
+  font-size: 0.5465rem;
+}
+.qy1 .qy_box .img1 {
+  width: 6.3rem;
+  height: 3.1rem;
+  display: block;
+  margin: auto;
+}
+.qy1 .qy_box p {
+  font-size: 0.24rem;
+  color: #595757;
+  text-align: justify;
+  width: 6.3rem;
+  margin: auto;
+  line-height: 0.4rem;
+  margin-top: 0.46rem;
+}
+.qy2 .page::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 6.25rem;
+  background: url(../img/qy/qy2_bg.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  left: 0;
+}
+.qy2 .qy_box {
+  padding-bottom: 2.1rem;
+}
+.qy2 .qy_box .p1 {
+  padding-left: 0.6rem;
+  font-size: 0.3rem;
+  color: #595757;
+  line-height: 0.5rem;
+}
+.qy2 .qy_box .p1 span {
+  color: #006857;
+}
+.qy2 .qy_box .p2 {
+  margin-top: 0.6rem;
+  padding-left: 0.6rem;
+  color: #cfa676;
+  font-size: 0.38rem;
+  text-transform: uppercase;
+}
+.qy3 .listPic {
+  width: 6.3rem;
+  margin: auto;
+}
+.qy3 .listPic li {
+  width: 3.1rem;
+  height: 2.3rem;
+  margin-top: 0.2rem;
+  float: left;
+  position: relative;
+}
+.qy3 .listPic li:first-child {
+  width: 6.3rem;
+}
+.qy3 .listPic li:nth-child(2n) {
+  margin-right: 0.1rem;
+}
+.qy3 .listPic li img {
+  width: 100%;
+  height: 2.3rem;
+  display: block;
+}
+.qy3 .listPic li p {
+  width: 100%;
+  height: 0.56rem;
+  line-height: 0.56rem;
+  text-align: center;
+  background-color: #006857;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  opacity: 0.8;
+  color: #cfa676;
+}
+.qy3 .listPic li p span {
+  display: inline-block;
+  font-size: 0.24rem;
+  transform: scale(0.75);
+  -webkit-transform: scale(0.75);
+  -o-transform: scale(0.75);
+  -moz-transform: scale(0.75);
+  -ms-transform: scale(0.75);
+  width: 133%;
+  margin-left: -16.5%;
+}
+.qy4-main {
+  width: 5.7rem;
+  margin: 0 auto;
+  padding-bottom: 0.6rem;
+}
+.slide-carousel {
+  width: 5.7rem;
+  margin: 0 auto;
+  height: 2.2rem;
+  position: relative;
+  margin-top: 0.4rem;
+}
+
+.slide-3d .item-list li {
+  width: 2.96rem;
+  height: 2.2rem;
+  transition: all 0.5s ease-out;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -1.48rem;
+}
+
+.slide-3d .item-list li.item0 {
+  transform: translate3d(0, 0, 0) scale(0.8);
+}
+
+.slide-3d .item-list li.item1 {
+  transform: translate3d(-1.4rem, 0, 0) scale(0.8);
+  transform-origin: 0 50%;
+  opacity: 0.6;
+  z-index: 2;
+}
+
+.slide-3d .item-list li.item2 {
+  transform: translate3d(0, 0, 0) scale(1);
+  transform-origin: 0 50%;
+  opacity: 1;
+  z-index: 3;
+}
+
+.slide-3d .item-list li.item3 {
+  transform: translate3d(1.4rem, 0, 0) scale(0.8);
+  transform-origin: 100% 50%;
+  opacity: 0.6;
+  z-index: 2;
+}
+
+.slide-3d .item-list li .cover-img {
+  display: block;
+  width: 2.96rem;
+  height: 2.2rem;
+}
+
+.qy4 .arrow {
+  position: absolute;
+  width: 0.22rem;
+  height: 0.24rem;
+  z-index: 10;
+  top: 50%;
+  margin-top: -0.12rem;
+}
+.qy4 .arrow-left {
+  left: -0.6rem;
+}
+.qy4 .arrow-right {
+  right: -0.6rem;
+}
+.arrow img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.slide-3d .item-list li p {
+  text-align: center;
+  line-height: 0.6rem;
+  font-size: 0.24rem;
+  color: #595757;
+}

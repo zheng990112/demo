@@ -1,0 +1,104 @@
+.container{
+	padding-top:1rem;
+	padding-bottom: 1.9rem;
+}
+
+
+.part1-main{
+	width: 6.9rem;
+	margin:0 auto;
+	font-size: 0;
+	text-align: center;
+	background-color: #fff;
+	padding:0.2rem 0;
+	margin-top: 0.25rem;
+}
+.part1-main ul li{
+	width: 3.17rem;
+	height: 4.54rem;
+	display: inline-block;
+	margin:0.05rem;
+	
+}
+.part1-main ul li img{
+	display:block;
+	width: 100%;
+	height: 100%;
+}
+
+
+.fenye{
+	width: 6.9rem;
+	margin:0 auto;
+	position:relative;
+	font-size: 0.32rem;
+	text-align: center;
+	font-family: myfont;
+	margin-top: 0.5rem;
+}
+.fenye a{
+	display: inline-block;
+	vertical-align: middle;
+	position:relative;
+	margin:0 0.2rem;
+}
+.fenye a:first-child,
+.fenye a:last-child{
+	width: 1.36rem;
+	height: 0.42rem;
+	background: #b19662;
+	color:#f8f7f5;
+	line-height: 0.42rem;
+	position:absolute;
+	margin: 0;
+}
+.fenye a:first-child{
+	left: 0;
+}
+.fenye a:last-child{
+	right: 0;
+}
+.fenye a.on::after{
+	content:"";
+	display: inline-block;
+	width: 0.25rem;
+	height: 0.24rem;
+	background: url(../img/icon1.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	bottom: 0;
+	right: -0.05rem;
+}
+
+
+
+.qy .top{
+	font-size: 0.3rem;
+	text-align: center;
+	font-family: myfont;
+	color:#333;
+	margin-top: 0.3rem;
+}
+
+
+
+.fc1 .part1-main{
+	width: 6.9rem;
+	margin:0 auto;
+	font-size: 0;
+	text-align: center;
+	background-color: #fff;
+	padding:0.2rem 0;
+	margin-top: 0.25rem;
+}
+.fc1 .part1-main ul li{
+	width: 3.28rem;
+	height: 2.49rem;
+	display: inline-block;
+	margin:0.05rem;
+}
+.fc1 .part1-main ul li img{
+	display:block;
+	width: 100%;
+	height: 100%;
+}

@@ -1,0 +1,31 @@
+.news_text1{
+	text-align: center;
+}
+.news_text1>p.news_text1_head{
+	margin-top: 0.67rem;
+	color: #aaaaab;
+	font-size: 0.14rem;
+}
+.news_text1>h3{
+	margin-top: 0.1rem;
+	color: #231815;
+	font-size: 0.3rem;
+}
+.news_text1>img.dt{
+	margin: 0.48rem auto;
+	width: 3.69rem;
+}
+.news_text1>p.text{
+	text-align: left;
+	color: #383838;
+	padding: 0 0.35rem;
+	font-size: 0.24rem;
+	line-height: 0.4rem;
+}
+.news_text1>p.text i{
+	padding: 0 0.2rem;
+}
+.news_text1>img.painting{
+	width: 6.8rem;
+	margin: 0.15rem auto 0;
+}

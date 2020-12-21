@@ -1,0 +1,160 @@
+.pate1 .code {
+  margin-top: 0.3rem;
+  font-size: 0;
+}
+
+.pate1 .code img {
+  display: inline-block;
+  margin-left: 1.1rem;
+  width: 2.36rem;
+  height: 1.19rem;
+  vertical-align: top;
+}
+
+.pate1 .code p {
+  margin-left: 0.1rem;
+  padding-top: 0.3rem;
+  display: inline-block;
+  font-size: 0.25rem;
+  line-height: 0.35rem;
+  color: #666666;
+}
+
+.pate1 .hz_text .p1 img,
+.pate1 .hz_text .p1 span {
+  display: inline-block;
+}
+
+.pate1 .hz_text .p1 img {
+  width: 0.26rem;
+  height: 0.26rem;
+}
+
+.pate1 .hz_text {
+  padding-left: 0.8rem;
+  margin-top: 0.45rem;
+}
+
+.pate1 .hz_text .p1 .span1 {
+  font-size: 0.25rem;
+  color: #231815;
+  font-weight: bold;
+}
+
+.pate1 .hz_text .p1 .span2 {
+  font-size: 0.5342rem;
+  color: #ffa300;
+  font-weight: bold;
+}
+
+.pate1 .hz_text div {
+  font-size: 0;
+  line-height: 0.25rem;
+  margin-top: 0.34rem;
+}
+
+.pate1 .hz_text div span {
+  display: inline-block;
+  font-size: 0.24rem;
+  transform: scale(0.875);
+  -webkit-transform: scale(0.875);
+  -o-transform: scale(0.875);
+  -moz-transform: scale(0.875);
+  -ms-transform: scale(0.875);
+  width: 114%;
+  margin-left: -7%;
+}
+
+.pate1 .hz_text img {
+  display: inline-block;
+  width: 0.19rem;
+  height: 0.23rem;
+  margin-right: 0.11rem;
+  vertical-align: text-bottom;
+}
+
+.pate1 .hz_text .p2 {
+  display: inline-block;
+  font-weight: bold;
+  color: #231815;
+}
+
+.pate1 .hz_text .p3 {
+  padding-left: 0.3rem;
+  color: #666666;
+}
+
+.pate1 form {
+  width: 5.5rem;
+  margin: auto;
+  margin-top: 0.66rem;
+  font-size: 0;
+}
+
+.pate1 form p {
+  text-align: center;
+  color: #666666;
+  font-size: 0.24rem;
+  margin-bottom: 0.07rem;
+}
+
+.pate1 form p img {
+  display: inline-block;
+  margin: 0 0.1rem;
+  width: 0.21rem;
+  height: 0.05rem;
+  vertical-align: middle;
+}
+
+.pate1 form input {
+  padding-left: 0.2rem;
+  width: 5.28rem;
+  height: 0.4rem;
+  border: 0.01rem solid #d3d3d3;
+  border-radius: 0.05rem;
+  margin-top: 0.13rem;
+  color: #666666;
+  font-size: 0.24rem;
+}
+
+.pate1 form textarea {
+  color: #666666;
+  font-size: 0.24rem;
+  padding: 0.1rem 0.2rem;
+  width: 5.08rem;
+  border: 0.01rem solid #d3d3d3;
+  border-radius: 0.05rem;
+  height: 1.5rem;
+  resize: none;
+  margin-top: 0.13rem;
+}
+
+.pate1 form input:last-child {
+  padding: 0;
+  border: none;
+  width: 5.5rem;
+  background-color: #faee00;
+  height: 0.52rem;
+  font-size: 0.26rem;
+  color: #231815;
+  font-weight: bold;
+}
+
+.btn-box {
+  margin-top: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+
+@media (max-width:320px) {
+	.pate1 .hz_text div span{
+		font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+	width:130%;
+	margin-left:-15%;
+	}
+}

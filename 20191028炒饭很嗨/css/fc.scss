@@ -1,0 +1,38 @@
+@import './px2rem.scss';
+html,body{
+	background: #fff;
+}
+.fc{
+	padding-bottom:px2rem(140);
+}
+.main .sub-title-main{
+	padding: 0 px2rem(0);
+	
+}
+.main .sub-title-main span{
+	padding: 0 px2rem(14);
+	background: #fff;
+	position:relative;
+	z-index:2;
+}
+.main .sub-title-main::after{
+	content: '';
+	display: inline-block;
+	width: px2rem(560);
+	height: px2rem(80);
+	border: 1px solid #d8621c;
+	position: absolute;
+	bottom: px2rem(-60);
+	left: 50%;
+	margin-left: px2rem(-279.5);
+	z-index:1;
+}
+.sub-center{
+	font-size: px2rem(24);
+	color:#000000;
+	margin-top: px2rem(10);
+}
+.part1 img{
+	display:block;
+	width:100%;
+}

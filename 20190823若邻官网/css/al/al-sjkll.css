@@ -1,0 +1,177 @@
+.reading {
+  margin-top: 0.10rem;
+  line-height: 0.40rem;
+}
+
+.part1 .al-sub-title {
+  font-family: "mtfont_Medium";
+  font-weight: bold;
+  margin-top: 0.20rem;
+}
+
+.part1 .mt01 span.bold {
+  font-family: "mtfont_Medium";
+  font-weight: bold;
+  color: #000000;
+}
+
+.part1 .mt01 span.bold.color {
+  color: #bb1a1f;
+}
+
+.part1 .mt02 {
+  margin-top: 0.40rem;
+}
+
+.part1 .mt02 span.bold {
+  font-family: "mtfont_Medium";
+  font-weight: bold;
+  color: #000000;
+}
+
+.part1 .mt02 span.bold.color {
+  color: #bb1a1f;
+}
+
+.part1 .hr {
+  width: 100%;
+  height: 1px;
+  background-color: #acabab;
+  margin-top: 0.25rem;
+}
+
+.part1 .img-box {
+  margin-top: 0.45rem;
+}
+
+.al-title span.light {
+  /* font-family: "myfont_Light"; */
+  font-weight: lighter;
+  display: inline;
+}
+
+
+
+.part1 .listBox ol{
+  width: 100%;
+  float: left;
+  border-bottom: 0.01rem solid #d1d1d2;
+}
+.part1 .listBox ol:last-child{
+  border-bottom: none;
+  margin-top: 0.3rem;
+}
+.part1 .listBox li{
+  width: 3.3rem;
+  float: left;
+
+}
+.part1 .listBox li:nth-child(2n){
+  float: right;
+}
+
+.part1 .listBox li img{
+  width: 3.3rem;
+  height: 2.16rem;
+  float: left;
+}
+.part1 .listBox li p{
+  float: left;
+}
+.part1 .listBox li p:last-child{
+  margin-bottom: 0.2rem;
+}
+
+
+
+.part1 .list{
+  margin-top: 0.3rem;
+}
+.part1 .list .item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.part1 .list .item+.item {
+  margin-top: 0.15rem;
+}
+
+.part1 .list .item .icon {
+  height: 0.36rem;
+  display: flex;
+  align-items: center;
+}
+
+.part1 .list .item .icon .tag {
+  width: 0.06rem;
+  height: 0.06rem;
+  background-color: #b51c21;
+  margin: auto 0;
+  margin-right: 0.20rem;
+}
+
+.part1 .list .item .text {
+  flex: 1;
+  line-height: 0.36rem;
+}
+
+.part1{
+  padding-bottom: 0.65rem;
+}
+
+
+
+.part1 .styles {
+  margin-top: 0.55rem;
+}
+
+.part1 .styles .style {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-bottom: 1px solid #e4e4e5;
+  margin-top: 0.20rem;
+  padding-bottom: 0.15rem;
+}
+
+.part1 .style+.style {
+  margin-top: 0.15rem;
+}
+
+.part1 .style .icon {
+  height: 0.38rem;
+  display: flex;
+  align-items: center;
+}
+
+.part1 .style .icon .tag {
+  width: 0.06rem;
+  height: 0.06rem;
+  background-color: #b51c21;
+  margin: auto 0;
+  margin-right: 0.20rem;
+}
+
+.part1 .style .text span:first-of-type {
+  font-family: "myfont_Medium";
+  font-weight: bold;
+}
+
+.part1 .style .text span:nth-child(2),
+.part1 .style .text span:nth-child(3){
+  font-family: "myfont_Light";
+  color: #515151;
+  margin-top: 0.15rem;
+  line-height: 0.34rem;
+}
+
+.part1 .img_Box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0;
+}
+.part1 .img_Box img {
+  width: 3.32rem;
+}

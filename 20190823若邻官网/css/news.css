@@ -1,0 +1,135 @@
+.content {
+    padding-left: 0.34rem;
+    padding-right: 0.34rem;
+}
+
+.banner-img {
+    font-size: 0;
+}
+
+.content .title {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding-top: 0.30rem;
+    padding-bottom: 0.30rem;
+    margin-top: 0.28rem;
+    border-bottom: 0.02rem solid #dddcdc;
+}
+
+.content .title .line {
+    width: 0.09rem;
+    height: 0.39rem;
+    background-color: #cf111b;
+}
+
+.content .title .title-main {
+    font-size: 0.39rem;
+    color: #231815;
+    /* font-weight: bold; */
+    margin-left: 0.16rem;
+    font-family: "myfont_Medium";
+    line-height: 0.39rem;
+}
+
+.content .title .title-sub {
+    font-size: 0.40rem;
+    color: #bdbdbd;
+    margin-left: 0.29rem;
+    font-family: "myfont_Light";
+    line-height: 0.40rem;
+}
+
+.content .news .news-item {
+    padding-top: 0.37rem;
+    padding-bottom: 0.20rem;
+    border-bottom: 0.02rem solid #d6d6d6;
+}
+
+.content .news-item .news-title {
+    color: #cf111b;
+    font-size: 0.36rem;
+    font-family: "myfont_Medium";
+    font-weight: bold;
+    padding-top: 0.36rem;
+}
+
+.content .news-item .news-detail {
+    font-size: 0.24rem;
+    transform: scale(.92);
+    -webkit-transform: scale(.92);
+    -o-transform: scale(.92);
+    -moz-transform: scale(.92);
+    -ms-transform: scale(.92);
+    width: 110%;
+    margin-left: -5%;
+    font-family: "myfont_Medium";
+    line-height: 0.34rem;
+    padding-top: 0.30rem;
+}
+
+.content .news-item .news-time {
+    font-size: 0.24rem;
+    transform: scale(.92);
+    -webkit-transform: scale(.92);
+    -o-transform: scale(.92);
+    -moz-transform: scale(.92);
+    -ms-transform: scale(.92);
+    width: 110%;
+    margin-left: -5%;
+    font-family: "myfont_Medium";
+    line-height: 0.34rem;
+    padding-top: 0.30rem;
+    color: #9f9fa0;
+    text-align: right;
+}
+
+.pages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.4rem;
+}
+
+.pages a {
+    display: block;
+    padding: 0.1rem 0.2rem;
+    border: 0.01rem solid #595757;
+    font-family: "myfont_Light";
+}
+
+.pages a.active {
+    background-color: #595757;
+    color: #ffffff;
+}
+
+.pages a span {
+    font-size: .24rem;
+    transform: scale(.92);
+    -webkit-transform: scale(.92);
+    -o-transform: scale(.92);
+    -moz-transform: scale(.92);
+    -ms-transform: scale(.92);
+    /* width: 110%;
+    margin-left: -5%; */
+}
+
+.content .info {
+    padding-top: 0.27rem;
+    text-align: center;
+    font-size: .24rem;
+    transform: scale(.92);
+    -webkit-transform: scale(.92);
+    -o-transform: scale(.92);
+    -moz-transform: scale(.92);
+    -ms-transform: scale(.92);
+    font-family: "myfont_Light";
+    color: #717071;
+}
+
+.address_box {
+    margin-left: -0.34rem;
+    margin-right: -0.34rem;
+    background-color: #d6d6d6;
+    margin-top: 0.75rem;
+}

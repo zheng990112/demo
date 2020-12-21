@@ -1,0 +1,231 @@
+.er-nav{
+	text-align: center;
+}
+.er-nav ul li{
+	margin:0 0.1rem;
+	margin-top: 0.02rem;
+}
+.er-nav ul{
+	padding-left: 0.2rem;
+	box-sizing: border-box;
+}
+.pp-title{
+	margin-bottom: 0.1rem;
+	position:relative;
+}
+.pp-title .title-bg{
+	width: 3.75rem;
+	height: 0.3rem;
+	background-color: #e5e5e5;
+	margin:0 auto;
+}
+.pp-title .title-top{
+    position: absolute;
+    top: -0.22rem;
+    width: 2.8rem;
+    left: 50%;
+    margin-left: -1.4rem;
+    text-align: center;
+}
+.pp-title .title-top .p1{
+	font-size: 0.26rem;
+	color:#727171;
+	font-weight: bold;
+}
+.pp-title .title-top .p1::before,
+.pp-title .title-top .p1::after{
+	content:"";
+	display: inline-block;
+	width: 0.8rem;
+	height: 0.4rem;
+	border-top:1px solid #727171;
+	position:absolute;
+	top:0.15rem;
+}
+.pp-title .title-top .p1::before{
+	left: 0;
+	border-left:1px solid #727171;
+}
+.pp-title .title-top .p1::after{
+	right: 0;
+	border-right:1px solid #727171;
+}
+.pp-title .title-top .p2{
+	text-align: center;
+	margin-top: 0.02rem;
+}
+.pp-title .title-top .p2 span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+	text-transform:uppercase;
+	color:#727171;
+	text-align:center;
+}
+.pp-title .title-top .p2::after,
+.pp-title .title-top .p2::before{
+	content:"";
+	display: inline-block;
+	width: 0.3rem;
+	border-bottom:1px solid #727171;
+	position:absolute;
+	bottom: 0.09rem;
+}
+.pp-title .title-top .p2::before{
+	left: 0;
+}
+.pp-title .title-top .p2::after{
+	right: 0;
+}
+.part-title .p1{
+	font-size: 0.24rem;
+	text-align: center;
+}
+.part-title .p1 span{
+	font-weight: bold;
+}
+.part-title .p2{
+	width: 3.3rem;
+	height: 0.05rem;
+	border:1px solid #b6b6b6;
+	margin:0.05rem auto;
+}
+.part-title .p3{
+	font-size: .24rem;
+	transform: scale(.67);
+	-webkit-transform: scale(.67);
+	-o-transform: scale(.67);
+	-moz-transform: scale(.67);
+	-ms-transform: scale(.67);
+	width: 149%;
+	margin-left: -25%;
+	text-transform: uppercase;
+	text-align: center;
+	color:#b6b6b6;
+}
+
+/*.part1*/
+
+.part1 .part1-main .main-top{
+	width: 95%;
+	border:1px solid #eeeeee;
+	margin:0 auto;
+	padding:0 0.2rem;
+	padding-top: 0.2rem;
+	box-sizing: border-box;
+}
+.part1 .part1-main .main-top .p1{
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+	margin-top: -0.2rem;
+}
+.part1 .part1-main .p2{
+	width: 100%;
+	height: 0.66rem;
+	background-color: #eeeeee;
+	text-align: center;
+	margin-bottom: 0.2rem;
+}
+.part1 .part1-main .p2 span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.67);
+	-webkit-transform: scale(.67);
+	-o-transform: scale(.67);
+	-moz-transform: scale(.67);
+	-ms-transform: scale(.67);
+	width: 149%;
+	margin-left: -25%;
+	line-height: 0.66rem;
+}
+
+
+.part2 .pp-title{
+	
+}
+.part2 .pp-title .title-top{
+	width: 3.9rem;
+    margin-left: -1.95rem;
+}
+.part2 .pp-title .title-top .p1::before,
+.part2 .pp-title .title-top .p1::after{
+	width: 1.3rem;
+}
+.part2 .pp-title .title-top .p2::after, 
+.part2 .pp-title .title-top .p2::before{
+	width: 0.5rem;
+}
+
+
+.part3 .part-title .p3{
+	margin-bottom: 0.2rem;
+}
+.part3 .pp-title .title-top{
+	width: 3.9rem;
+    margin-left: -1.95rem;
+}
+.part3 .pp-title .title-top .p1::before,
+.part3 .pp-title .title-top .p1::after{
+	width: 1.3rem;
+}
+.part3 .pp-title .title-top .p2::after, .part3 .pp-title .title-top .p2::before{
+	width: 1rem;
+}
+.part3 .part3-main{
+	padding: 0 0.2rem;
+	box-sizing: border-box;
+	margin-top: -0.3rem;
+}
+.part3 .part3-main .p1 span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 119%;
+	margin-left: -10%;
+}
+.part3 .part3-main .line{
+	width: 1.2rem;
+	height: 0.08rem;
+	background-color: #a0a0a0;
+	margin-bottom: 0.1rem;
+}
+
+
+
+
+.part4 .part4-top{
+	width: 100%;
+	height: 5.68rem;
+	background: url(../img/pp/d1.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.part4 .part-title .p1{
+	line-height: 0.36rem;
+}
+.part4 .part-title .p2{
+	margin:0.1rem auto;
+}
+
+
+/*
+@media (max-width:320px) {
+	.pp-title .title-top{
+		
+	}
+}*/

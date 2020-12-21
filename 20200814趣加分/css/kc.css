@@ -1,0 +1,152 @@
+.subTitle {
+  width: 6.3rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 0.4rem;
+}
+
+.subTitle .p1 {
+  font-size: 0.35rem;
+  color: #372e8d;
+  font-weight: bold;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.subTitle .p1 p {
+  position: relative;
+}
+
+.subTitle .p1 .line {
+  content: "";
+  display: inline-block;
+  width: 2rem;
+  height: 1px;
+  background-color: #eeb033;
+  position: absolute;
+  top: 50%;
+}
+
+.subTitle .p1 .lineL {
+  left: 0;
+}
+
+.subTitle .p1 .lineR {
+  right: 0;
+}
+
+.subTitle .p1 .lineL::after {
+  content: "";
+  display: inline-block;
+  width: 0.34rem;
+  height: 0.07rem;
+  background-color: #eeb033;
+  position: absolute;
+  bottom: -0.02rem;
+  right: 0.13rem;
+}
+
+.subTitle .p1 .lineR::before {
+  content: "";
+  display: inline-block;
+  width: 0.34rem;
+  height: 0.07rem;
+  background-color: #eeb033;
+  position: absolute;
+  bottom: -0.02rem;
+  left: 0.13rem;
+}
+
+.subTitle .p2 {
+  font-size: 0.3rem;
+  color: #eeb033;
+  font-weight: bold;
+  margin-top: 0.1rem;
+}
+
+.kc .listPic {
+  width: 6.3rem;
+  margin: auto;
+}
+
+.kc .listPic li {
+  width: 1.9rem;
+  float: left;
+  margin-left: 0.2rem;
+  margin-top: 0.6rem;
+}
+
+.kc .listPic li:nth-child(3n+1) {
+  margin-left: 0;
+}
+
+.kc .listPic li img {
+  display: block;
+  width: 1.9rem;
+  height: 2.5rem;
+}
+
+.kc .listPic li p {
+  padding-left: 0.2rem;
+  text-align: center;
+  color: #333333;
+  background: url(../img/kc/kc_icon.jpg) 0.1rem 0.15rem no-repeat;
+  background-size: 0.14rem 0.13rem;
+}
+
+.kc .listPic li p span {
+  display: block;
+  font-size: 0.24rem;
+  transform: scale(0.83);
+  -webkit-transform: scale(0.83);
+  -o-transform: scale(0.83);
+  -moz-transform: scale(0.83);
+  -ms-transform: scale(0.83);
+  width: 120%;
+  margin-left: -10%;
+}
+
+.kc_btn {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 0.4rem;
+}
+
+.kc_btn a,
+.kc_btn span {
+  display: inline-block;
+  min-width: 0.25rem;
+  margin: 0 0.1rem;
+  color: #595757;
+  font-size: 0.24rem;
+  height: 0.25rem;
+  line-height: 0.25rem;
+}
+
+.kc_btn a.now {
+  color: #ffffff;
+  background-color: #322283;
+}
+
+.fenye-box {
+  margin-top: 0.3rem;
+  margin-bottom: 0.4rem;
+}
+
+.main_top p {
+  float: right;
+  width: 3.5rem;
+}
+
+.main_top p span {
+  display: block;
+  font-size: 0.24rem;
+  transform: scale(0.83);
+  -webkit-transform: scale(0.83);
+  -o-transform: scale(0.83);
+  -moz-transform: scale(0.83);
+  -ms-transform: scale(0.83);
+  width: 120%;
+  margin-left: -10%;
+}

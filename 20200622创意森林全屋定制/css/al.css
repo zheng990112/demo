@@ -1,0 +1,66 @@
+.content{
+	background: url(../img/al/bg01.jpg) right 0.2rem no-repeat;
+	background-size: 3.29rem 3.69rem;
+}
+.al1{
+	padding-left: 0.95rem;
+}
+.al1 .text{
+	position: relative;
+	padding-bottom: 0.3rem;
+}
+
+.al1 .text::after{
+	content: "";
+	display: inline-block;
+	width: 0.35rem;
+	height: 0.04rem;
+	background-color: #f0bf70;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.al1 .text .p1,
+.al1 .text .p2{
+	font-size: 0.472rem;
+	color: #454545;
+}
+.al1 .text .p1{
+	margin-top: 0.1rem;
+}
+.al1 .text .p2 span{
+	color: #f0bf70;
+}
+
+.al1 .hf{
+	color: #454545;
+	font-size: 0.26rem;
+	padding: 0.3rem 0;
+}
+.al1 .listBox{
+	padding-top: 0.4rem;
+	padding-right: 0.95rem;
+	padding-bottom: 0.8rem;
+}
+
+.al1 .listBox li{
+	width: 2.69rem;
+	float: left;
+	margin-bottom: 0.2rem;
+}
+.al1 .listBox li:nth-child(2n){
+	float: right;
+}
+.al1 .listBox li img{
+	width: 2.69rem;
+	height: 1.56rem;
+	float: left;
+}
+.al1 .listBox li p{
+	width: 2.69rem;
+	float: left;
+	font-size: 0.3528rem;
+	color: #333333;
+	background: url(../img/al/al_right.jpg) right center no-repeat;
+	background-size: 1.06rem 0.11rem;
+}

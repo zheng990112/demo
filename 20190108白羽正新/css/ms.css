@@ -1,0 +1,108 @@
+
+
+.title-p{
+	font-size: 0.5rem;
+	font-family: myfont;
+	color:#333333;
+	text-align: center;
+}
+.public-title2 .public-box .public-nei span{
+	color:#e30019;
+}
+
+
+
+
+.part1 .part1-main ul li{
+	float: left;
+	width: 3.33rem;
+	height: 3.34rem;
+	margin-right: 0.17rem;
+	position:relative;
+	margin-top: 0.3rem;
+}
+.part1 .part1-main ul li .li-bg{
+	position:absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+.part1 .part1-main ul li:nth-child(2n){
+	margin-right: 0;
+}
+.part1 .part1-main ul li .li-font{
+	font-size: 0.3rem;
+	font-family: myfont;
+	text-align: center;
+	line-height: 0.56rem;
+	color:#fff;
+}
+.part1 .part1-main ul li .li-img{
+	width: 3.03rem;
+	height: 2.45rem;
+	position:absolute;
+	left: 0.15rem;
+	top: 0.7rem;
+}
+.part1 .part1-main ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.part1 .part1-main ul li:last-child .last-img{
+	display:block;
+	width: 3.42rem;
+	height: 3.24rem;
+	position:absolute;
+	right: -0.45rem;
+	top: 0;
+}
+
+
+
+.part2{
+	margin-top: 0.4rem;
+}
+
+
+.part3{
+	margin-top: 0.6rem;
+}
+.part3 .part1-main ul li .li-font{
+	letter-spacing: 0.05rem;
+}
+
+.part4{
+	margin-top: 0.6rem;
+}
+.part4 .part4-main .part4-img{
+	width: 100%;
+	display: block;
+	margin-top: 0.3rem;
+}
+.part4 .part4-main .box{
+	width: 100%;
+	border:1px solid #e30019;
+	box-sizing: border-box;
+	margin-top: -1px;
+	font-size: 0.4rem;
+	font-family:myfont;
+	padding:0.1rem 0;
+	line-height: 0.48rem;
+}
+.part4 .part4-main .box .box-l{
+	width: 47%;
+	text-align:right;
+}
+.part4 .part4-main .box .box-r{
+	width: 47%;
+	text-align:left;
+}
+
+
+.part11 .box2{
+	text-align: center;
+	margin-top: 0.15rem;
+}

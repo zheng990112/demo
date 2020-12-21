@@ -1,0 +1,265 @@
+.subTitle {
+  padding-top: 0.001rem;
+  text-align: center;
+  font-family: 'MagpieAggregate';
+}
+
+.subTitle .p1 {
+  font-size: 0.24rem;
+  color: #c00e12;
+  text-transform: uppercase;
+}
+
+.subTitle .p1 span {
+  display: block;
+  transform: scale(0.67);
+  -webkit-transform: scale(0.67);
+  -o-transform: scale(0.67);
+  -moz-transform: scale(0.67);
+  -ms-transform: scale(0.67);
+  width: 149%;
+  margin-left: -24.5%;
+}
+
+.subTitle .p2 {
+  width: 6.34rem;
+  height: 1.1rem;
+  margin: auto;
+  font-size: 0.34rem;
+  color: #ffffff;
+  background: url(../img/subTitle.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+  margin-top: -0.2rem;
+  margin-bottom: -0.1rem;
+}
+
+.subTitle .p2 span {
+  display: inline-block;
+  margin-top: 0.38rem;
+}
+
+.subTitle .p3 {
+  font-size: 0.36rem;
+  color: #595757;
+}
+
+.main {
+  padding-top: 2.1rem;
+}
+
+.part1 .pic {
+  width: 6.46rem;
+  height: 4.21rem;
+  margin: auto;
+  background: #d4b996;
+  padding-top: 0.01rem;
+  margin-top: 0.5rem;
+}
+
+.part1 .pic img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-left: -0.1rem;
+  margin-top: -0.1rem;
+}
+
+.part1 .str {
+  width: 6.5rem;
+  margin: auto;
+  color: #595757;
+  line-height: 0.38rem;
+  font-size: 0.24rem;
+  margin-top: 0.38rem;
+}
+
+.part1 .subTitle2 {
+  margin-top: 0.4rem;
+}
+
+.part2 {
+  position: relative;
+  z-index: 0;
+  padding-top: 1.6rem;
+  margin-top: 0.3rem;
+}
+
+.part2::after {
+  content: "";
+  width: 100%;
+  height: 12.66rem;
+  background: url(../img/yh/b_bg.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.part2 .subTitle .p1,
+.part2 .subTitle .p3 {
+  color: #ffffff;
+}
+
+.part2 .pic {
+  width: 6.46rem;
+  height: 3.3rem;
+  margin: auto;
+  background: #d4b996;
+  padding-top: 0.01rem;
+  margin-top: 0.5rem;
+  position: relative;
+}
+
+.part2 .pic::after {
+  content: "";
+  width: 1.64rem;
+  height: 0.92rem;
+  background: url(../img/yh/b_icon1.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0.04rem;
+  bottom: -0.4rem;
+}
+
+.part2 .pic img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-left: -0.1rem;
+  margin-top: -0.1rem;
+}
+
+.part2 ul {
+  width: 6.6rem;
+  margin-left: 0.5rem;
+  padding-top: 0.42rem;
+  padding-bottom: 1rem;
+}
+
+.part2 ul li {
+  margin-top: 0.14rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.part2 ul .p1 {
+  width: 2.26rem;
+  height: 0.52rem;
+  line-height: 0.48rem;
+  background: url(../img/yh/b_icon2.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.part2 ul li:nth-child(2n+2) .p1 {
+  background-image: url(../img/yh/b_icon3.png);
+}
+
+.part2 ul .p1 span {
+  display: block;
+  width: 1.84rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: 0.32rem;
+  font-family: 'MagpieAggregate';
+}
+
+.part2 ul .p2 {
+  width: 4.1rem;
+  font-size: 0.24rem;
+  color: #ffffff;
+  font-family: 'MagpieAggregate';
+  padding-top: 0.1rem;
+}
+
+.part2 ul .p2 span {
+  display: block;
+  transform: scale(0.91);
+  -webkit-transform: scale(0.91);
+  -o-transform: scale(0.91);
+  -moz-transform: scale(0.91);
+  -ms-transform: scale(0.91);
+  width: 110%;
+  margin-left: -5%;
+}
+
+.part3 {
+  margin-top: 0.3rem;
+}
+
+.part3 .subTitle .p3 span {
+  color: #c00e12;
+}
+
+.part3 .str {
+  width: 6.5rem;
+  margin: auto;
+  color: #595757;
+  line-height: 0.38rem;
+  font-size: 0.24rem;
+  margin-top: 0.38rem;
+}
+.part3 ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 6.5rem;
+  margin: auto;
+  margin-top: 0.3rem;
+  padding-bottom: 0.6rem;
+}
+.part3 ul p{
+  text-align: center;
+  color: #595757;
+  font-size: 0.24rem;
+  font-family: 'MagpieAggregate';
+  line-height: 0.4rem;
+  padding-bottom: 0.1rem;
+}
+.part3 ul img{
+  display: block;
+  width: 2.86rem;
+  height: 1.62rem;
+  border-radius: 0.46rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 340px) {
+  .part2 ul .p2 {
+    padding: 0;
+  }
+
+  .part2 ul .p2 span {
+    line-height: 0.36rem;
+    transform: scale(0.83);
+    -webkit-transform: scale(0.83);
+    -o-transform: scale(0.83);
+    -moz-transform: scale(0.83);
+    -ms-transform: scale(0.83);
+    width: 120%;
+    margin-left: -10%;
+  }
+}

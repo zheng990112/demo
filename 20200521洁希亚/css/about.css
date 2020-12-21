@@ -1,0 +1,288 @@
+
+.lazy{
+	display: block;
+	width: 100%;
+}
+
+
+.part2{
+	width: 100%;
+	height: 7.23rem;
+	background: url(../img/about/bg_13.jpg) no-repeat;
+	background-size: 100% 100%;
+	padding-top: 2.5rem;
+	box-sizing: border-box;
+	
+}
+
+.part2 .tab_box{
+	position:relative;
+	width: 6.6rem;
+	margin: 0 auto;
+	z-index: 6;
+}
+.part2 .swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+.part2 .gallery-top {
+	width:6.55rem;
+	height:3.4rem;
+}
+.part2 .gallery-thumbs{
+	width:6.55rem;
+	height:1.15rem;
+	margin-top: 0.1rem;
+}
+.part2 .swiper-button-prev.swiper-button-white,
+.part2 .swiper-container-rtl .swiper-button-next.swiper-button-white{
+	background: url(../img/about/arrowL.png) no-repeat;
+	background-size: 100% 100%;
+	left: -0.2rem;
+}
+.part2 .swiper-button-next.swiper-button-white, 
+.part2 .swiper-container-rtl .swiper-button-prev.swiper-button-white{
+	background: url(../img/about/arrowR.png) no-repeat;
+	background-size: 100% 100%;
+	right: -0.2rem;
+}
+.part2 .swiper-button-next,
+.part2 .swiper-button-prev{
+	width: 0.18rem;
+	height: 0.35rem;
+	top:auto;
+	margin-top: 0;
+	bottom: 0.25rem;
+}
+.part2 .gallery-thumbs .swiper-slide{
+	position:relative;
+}
+
+
+
+
+.part3 .picScroll-left{
+	width:6.54rem;
+	margin: 0 auto;
+	margin-top: 0.45rem;
+	position: relative;
+	margin-top: -1.1rem;
+	z-index: 6;
+}
+.part3 .picScroll-left .bd{
+	width:6.54rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.part3 .picScroll-left .bd li{
+	float: left;
+	position: relative;
+	text-align: center;
+	width:2.08rem;
+	height:1.08rem;
+	cursor: pointer;
+	margin:0 0.05rem;
+}
+.part3 .picScroll-left .bd li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.part3 .picScroll-left .arrow{
+	position: absolute;
+	width:0.18rem;
+	height:0.35rem;
+	cursor: pointer;
+	z-index: 9;
+	top: 50%;
+	margin-top: -0.18rem;
+}
+.part3 .picScroll-left .arrow img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.part3 .picScroll-left .arrow-left{
+	left:-0.2rem;
+}
+.part3 .picScroll-left .arrow-right{
+	right:-0.2rem;
+}
+
+
+.part4{
+	height: 8.51rem;
+	background: url(../img/about/bg_17.jpg) no-repeat;
+	background-size: 100% 100%;
+	padding-top: 1.6rem;
+	box-sizing:border-box;
+}
+
+
+.part4 .box{
+	position:relative;
+	z-index: 6;
+}
+.part4 .picScroll-left{
+	width:6.28rem;
+	margin: 0 auto;
+	position: relative;
+	border-radius: 0.1rem;
+	margin-top: 0.1rem;
+}
+.part4 .picScroll-left .bd{
+	width:6.28rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.part4 .picScroll-left .bd li{
+	float: left;
+	position: relative;
+	text-align: center;
+	width:6.28rem;
+	height:3.13rem;
+}
+.part4 .picScroll-left .bd li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.part4 .picScroll-left .hd{
+	width: 100%;
+	position:absolute;
+	left: 0;
+	bottom: 0.08rem;
+	font-size: 0;
+	z-index: 9;
+	text-align: center;
+}
+.part4 .picScroll-left .hd ul li{
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius:50%;
+	background-color: #fff;
+	display: inline-block;
+	margin:0 0.05rem;
+}
+.part4 .picScroll-left .hd ul li.on{
+	background-color: #d09764;
+}
+
+
+.part4 .box-title{
+	width:5.2rem;
+	margin: 0 auto;
+	margin-top: 0.2rem;
+}
+.part4 .box-title::after{
+	content:"";
+	display: block;
+	clear: both;
+}
+.part4 .box-title .cn{
+	width:1.1rem;
+	height: 0.3rem;
+	background-color: #c79f62;
+	border-radius: 0.05rem;
+	text-align: center;
+	line-height: 0.3rem;
+	color:#fff;
+	float: left;
+}
+.part4 .box-title .cn span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+}
+.part4 .box-title .en{
+	float:right;
+	width:3.9rem;
+	height: 0.24rem;
+	border-bottom: 1px solid #cecece;
+	position:relative;
+	text-align: left;
+	color:#cecece;
+	line-height: 0.24rem;
+	margin-right: 0.1rem;
+}
+.part4 .box-title .en span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.67);
+	-webkit-transform: scale(.67);
+	-o-transform: scale(.67);
+	-moz-transform: scale(.67);
+	-ms-transform: scale(.67);
+	width: 150%;
+	margin-left: -25%;
+}
+.part4 .box-title .en::after{
+	content:"";
+	display: inline-block;
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	background-color: #cecece;
+	position:absolute;
+	bottom: -0.05rem;
+	right: -0.05rem;
+}
+.part4 .box-item{
+	width: 5.2rem;
+	margin:0 auto;
+	margin-top: 0.25rem;
+}
+.part4 .box-item a{
+	display: block;
+	/*font-size: 0.15rem;*/
+	width:5.2rem;
+    color:#666;
+    line-height: 0.4rem;
+}
+.part4 .box-item a span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 109%;
+	margin-left: -4%;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+.part4 .fenye{
+	text-align: center;
+	margin-top: 0.1rem;
+}
+.part4 .fenye a{
+	display: inline-block;
+	margin:0 0.05rem;
+}
+.part4 .fenye a:first-child,
+.part4 .fenye a:last-child{
+	padding:0.05rem;
+	text-align: center;
+	line-height: 0.24rem;
+	background-color: #c79f62;
+	color:#fff;
+}
+
+
+
+.part5{
+	height:7.61rem;
+	background: url(../img/about/bg_18.jpg) no-repeat;
+	background-size: 100% 100%;
+	padding-top:0.4rem;
+	box-sizing:border-box;
+}

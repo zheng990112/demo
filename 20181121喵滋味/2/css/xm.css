@@ -1,0 +1,185 @@
+.hzgy1 {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	margin-top: .3rem;
+	position: relative;
+}
+
+.hzgy1 img {
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.hzgy1 h3 {
+	font-size: .47rem;
+	color: #000000;
+	position: absolute;
+	top: .82rem;
+	left: .5rem;
+}
+
+.hzgy1 p {
+	font-size: .24rem;
+	color: #000000;
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 109%;
+	margin-left: -4%;
+	display: block;
+}
+
+.hzgy2 {
+	position: absolute;
+	top: 1.6rem;
+	left: .5rem;
+}
+
+.hzgy33 {
+	width: 100%;
+	margin-top: .46rem;
+}
+
+.hzgy33 img {
+	width: 100%;
+}
+
+.hzgy4 {
+	width: 100%;
+	position: relative;
+}
+
+.hzgy4 img {
+	width: 100%;
+	margin-top: .3rem;
+}
+
+.hzgy3 {
+	width: 100%;
+	margin-top: .46rem;
+}
+
+.hzgy3 img {
+	width: 100%;
+}
+
+.hzgy3_txt {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+}
+
+.hzgy3_txt h3 {
+	font-size: .47rem;
+	color: #000000;
+	margin: .1rem 0;
+}
+
+.hzgy3_txt span {
+	color: #000000;
+	font-size: .24rem;
+}
+
+.hzgy3_txt p {
+	font-size: .24rem;
+	color: #000000;
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 109%;
+	margin-left: -4%;
+	display: block;
+	margin-top: .1rem;
+}
+
+.hzgy3_txt img {
+	width: 100%;
+}
+
+.hzgy5 {
+	width: 100%;
+}
+
+.hzgy5 h3 {
+	font-size: .47rem;
+	color: #000000;
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+}
+
+.hzgy5 .hzgy5_img {
+	width: 100%;
+	margin-top: -.7rem;
+}
+
+.hzgy5 img {
+	width: 100%;
+	margin-top: .5rem;
+}
+
+.part5 img {
+	width: 100%;
+}
+
+.part5 h3 {
+	font-size: .6rem;
+	color: #000;
+	padding-left: 10%;
+}
+
+.part5 p {
+	display: block;
+	margin: 0 auto;
+	color: #fff;
+	background: #e7a52e;
+	height: .6rem;
+	line-height: 0.6rem;
+	padding: 0 .3rem;
+	border-radius: .3rem;
+	width: 28%;
+	font-size: .38rem;
+	text-align: center;
+	margin-top: .2rem;
+}
+
+.part6 img {
+	width: 100%;
+	margin-top: .44rem;
+}
+
+.part6 h3 {
+	font-size: .4rem;
+	color: #000;
+	padding-left: 10%;
+	padding-bottom: .1rem;
+}
+
+.part6 p {
+	font-size: .24rem;
+	color: #000;
+	padding-left: 10%;
+	line-height: .4rem;
+}
+@media (max-width: 330px) {
+	.hzgy1 h3{top: .6rem;}
+	.hzgy2{top: 1.4rem;z-index: 999;}
+	.hzgy1 p {
+		font-size: .24rem;
+		transform: scale(.833);
+		-webkit-transform: scale(.833);
+		-o-transform: scale(.833);
+		-moz-transform: scale(.833);
+		-ms-transform: scale(.833);
+		width: 120%;
+		margin-left: -11%;
+	}
+}

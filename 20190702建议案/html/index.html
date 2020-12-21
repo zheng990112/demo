@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title></title>
+		<meta http-equiv="X-UA-Compatitle" content="IE=edge">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<!--网站开启对 web app 程序的支持-->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no,email=no,adress=no" />
+		<link rel="stylesheet" href="../css/layui.css" />
+		<link rel="stylesheet" href="../css/index.css" type="text/css" />
+		<script type="text/javascript">
+			document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + 'px';
+		</script>
+	</head>
+	<body>
+		<div class="header">
+			<p class="p1">获得免费建议案</p>
+			<p class="p4"><span>
+				请允许我们占用您几分钟时间，如实说明以下情况；我们会为您的信息绝对保密，并承诺不会透露给任何第三方。我们会在三个工作日内联络您。
+			</span></p>
+		</div>
+		
+		<div class="content">
+			<div class="part1">
+				<div class="top clearfix">
+					<div class="box box1 fl-lt">
+						<p>您的职位：</p><input type="text" class="required" id="required1"/>
+					</div>
+					<div class="box box2 fl-rt">
+						<p>服务企业：</p><input type="text" class="required" id="required2"/><span>年</span>
+					</div>
+				</div>
+				<div class="box box3">
+					<p>工作电话：</p>
+					<input type="text" class="required" id="required3"/>
+					<img src="../img/shuru.png" alt="" class="shuru_img"/>
+				</div>
+				<div class="box box3">
+					<p>工作邮箱：</p>
+					<input type="text" class="required" id="required4"/>
+					<img src="../img/shuru.png" alt="" class="shuru_img"/>
+				</div>
+				<div class="box box4">
+					<p>简单描述企业发展史：</p>
+					<input type="text" class="required" id="required5"/>
+					<img src="../img/shuru.png" alt="" class="shuru_img"/>
+				</div>
+				<div class="box box5">
+					<p>品牌现状：</p>
+					<div class="box5-radio" id="required6">
+						<label class="one"><input type="radio" name="one" value="1"/><i></i><span>初创</span></label>
+						<label class="one"><input type="radio" name="one" value="2"/><i></i><span>发展</span></label>
+						<label class="one"><input type="radio" name="one" value="3"/><i></i><span>成熟</span></label>
+					</div>
+				</div>
+				<div class="box box6">
+					<p>简单描述：</p>
+					<div class="inp_box">
+						<input type="text" class="required" id="required7"/>
+						<img src="../img/shuru.png" alt="" class="shuru_img"/>
+					</div>
+				</div>
+				<div class="box box6">
+					<p>核心竞争优势<br />（创始人、团队、技术开发、产品研发、专利）:</p>
+					<div class="inp_box">
+						<input type="text" class="required" id="required8"/>
+						<img src="../img/shuru.png" alt="" class="shuru_img"/>
+					</div>
+				</div>
+			</div>
+			
+			<div class="part2">
+				<div class="box box1">
+					<p>1、所属行业：</p>
+					<input type="text" class="required" id="required9"/>
+					<img src="../img/shuru.png" alt="" class="shuru_img"/>
+				</div>
+				<div class="box box2">
+					<p>2、商业模式:</p>
+					<div class="box2-radio" id="required10">
+						<label class="two"><input type="radio" name="two" value="1"/><i></i><span>招商</span></label>
+						<label class="two"><input type="radio" name="two" value="2"/><i></i><span>直营</span></label>
+						<label class="two"><input type="radio" name="two" value="3"/><i></i><span>直营连锁</span></label>
+						<label class="two"><input type="radio" name="two" value="4"/><i></i><span>产品代理</span></label>
+						<label class="two">
+							<input type="radio" name="two" value="5"/><i></i>
+							<span>其他(请注明)</span>
+							<input type="text" class="inp" id="two_inp"/>
+							<p class="two_p"></p>
+							<img src="../img/shuru.png" alt="" class="shuru_img"/>
+						</label>
+					</div>
+				</div>
+				<div class="box box3">
+					<p>3、企业网址：</p>
+					<input type="text" class="required" id="required11"/>
+					<img src="../img/shuru.png" alt="" class="shuru_img"/>
+				</div>
+				<div class="box box4">
+					<p>4、目前采用的获客方式：</p>
+					<div class="box4-radio" id="required12">
+						<label class="add1 add1-1">
+							<input type="radio" name="add1" value="1"/><i></i>
+							<span>销售团队拓展，</span>
+							<input type="text" class="inp" id="add1-1_inp"/>
+							<p class="add1_p add1-1_p"></p>
+							<img src="../img/shuru.png" alt="" class="shuru_img"/>
+							<span>人</span>
+						</label>
+						<label class="add1 add1-2">
+							<input type="radio" name="add1" value="2"/><i></i>
+							<span>广告获客，年度投入</span>
+							<input type="text" class="inp" id="add1-2_inp"/>
+							<p class="add1_p add1-2_p"></p>
+							<img src="../img/shuru.png" alt="" class="shuru_img"/>
+							<span>元</span>
+						</label>
+					</div>
+					
+					<!--<div class="inp_box">
+						<input type="text" class="required" id="required12"/>
+						<img src="../img/shuru.png" alt="" class="shuru_img"/>
+					</div>-->
+				</div>
+				<div class="box box5">
+					<p>5、客户画像:</p>
+					<div class="box5-main" id="box5-main">
+						<p>年龄</p>
+						<input type="text" class="required" id="required13"/>
+						<img src="../img/shuru.png" alt="" class="shuru_img"/>
+						<p>性别</p>
+						<input type="text" class="required" id="required14"/>
+						<img src="../img/shuru.png" alt="" class="shuru_img"/>
+						<p>收入</p>
+						<input type="text" class="required" id="required15"/>
+						<img src="../img/shuru.png" alt="" class="shuru_img"/>
+					</div>
+				</div>
+				<div class="box box6">
+					<p>6、市场范围：</p>
+					<div class="box6-radio" id="required16">
+						<label class="three">
+							<input type="radio" name="three" value="1"/><i></i>
+							<span>全国</span>
+							<input type="text" class="inp" id="three_inp1"/>
+							<p class="three_p1"></p>
+							<img src="../img/shuru.png" alt="" class="shuru_img"/>
+						</label>
+						<label class="three">
+							<input type="radio" name="three" value="2"/><i></i>
+							<span>区域</span>
+							<input type="text" class="inp" id="three_inp2"/>
+							<p class="three_p2"></p>
+							<img src="../img/shuru.png" alt="" class="shuru_img"/>
+						</label>
+					</div>
+				</div>
+				<div class="box box4">
+					<p>7、上一年度销售业绩：</p>
+					<div class="inp_box">
+						<input type="text" class="required" id="required17"/>
+						<img src="../img/shuru.png" alt="" class="shuru_img"/>
+					</div>
+				</div>
+				<div class="box box4">
+					<p>8、下一阶段目标：</p>
+					<div class="inp_box">
+						<input type="text" class="required" id="required18"/>
+						<img src="../img/shuru.png" alt="" class="shuru_img"/>
+					</div>
+				</div>
+				<div class="box box4">
+					<p>9、想要多少时间内达成何种目标（同行3个品牌）：</p>
+					<div class="inp_box">
+						<input type="text" class="required" id="required19"/>
+						<img src="../img/shuru.png" alt="" class="shuru_img"/>
+					</div>
+				</div>
+				<div class="box box10">
+					<p>10、您希望若邻帮您做什么？</p>
+					<div class="box10-radio" id="required20">
+						<label class="four four_l"><input type="radio" name="four" value="1"/><i></i><span>商业模式设计</span></label>
+						<label class="four"><input type="radio" name="four" value="2"/><i></i><span>顶层设计</span></label><br />
+						<label class="four"><input type="radio" name="four" value="3"/><i></i><span>品牌定位</span></label><br />
+						<label class="four four_l"><input type="radio" name="four" value="4"/><i></i><span>品牌创建（新生）&重塑（老品牌）</span></label>
+						<label class="four"><input type="radio" name="four" value="5"/><i></i><span>招商破亿系统搭建（渠道搭建）</span></label><br />
+						<label class="four four_l"><input type="radio" name="four" value="6"/><i></i><span>营销推广（精准营销）</span></label>
+						<label class="four"><input type="radio" name="four" value="7"/><i></i><span>广告投放与媒体购买</span></label><br />
+						<label class="four four_l"><input type="radio" name="four" value="8"/><i></i><span>招商会策划与执行</span></label><br />
+						<label class="four">
+							<input type="radio" name="four" value="9"/><i></i>
+							<span>其 他（请注明）:</span>
+							<input type="text" class="inp" id="four_inp"/>
+							<p class="four_p"></p>
+							<img src="../img/shuru.png" alt="" class="shuru_img"/>
+						</label>
+					</div>
+				</div>
+				
+				<div class="box box11">
+					<p>11. 预 算（不含媒体费用、物理投入）:</p>
+					<div class="box11-b">
+						<div class="inp_box">
+							<input type="text" class="required" id="required21"/>
+							<img src="../img/shuru.png" alt="" class="shuru_img"/>
+						</div>
+						<p><span>人民币/元</span></p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="part3">
+				<div class="box box1">
+					<p>从哪里了解到的若邻:</p>
+					<div class="inp_box">
+						<input type="text" class="required" id="required22"/>
+						<img src="../img/shuru.png" alt="" class="shuru_img"/>
+						<!--<label class="five fl-lt"><input type="radio" name="five" value="1"/><i></i><span>线上</span></label>
+						<label class="five fl-rt">
+							<input type="radio" name="five" value="2"/><i></i>
+							<span>朋友介绍</span>
+							<input type="text" class="inp" id="five_inp"/>
+							<p class="five_p"></p>
+							<img src="../img/shuru.png" alt="" class="shuru_img"/>
+						</label>-->
+					</div>
+				</div>
+				<div class="box box2">
+					<p>若邻最吸引您的是:</p>
+					<div class="inp_box">
+						<input type="text" class="required" id="required23"/>
+						<img src="../img/shuru.png" alt="" class="shuru_img"/>
+					</div>
+				</div>
+			</div>
+			<div class="part4">
+				<div class="box box1">
+					<p>日期：</p>
+					<div class="inp_box layui-inline" id="required24">
+					    <div class="layui-input-inline">
+					        <input type="text" class="layui-input required" id="test5"  readonly="readonly">
+					        <img src="../img/riqi.png" alt="" class="riqi_img"/>
+					    </div>
+					</div>
+				</div>
+				<div class="box box1">
+					<p>签名：</p>
+					<div class="inp_box">
+						<input type="text" class="required" id="required25"/>
+						<img src="../img/shuru.png" alt="" class="shuru_img"/>
+					</div>
+				</div>
+				<!--<input type="submit" class="btn" onclick="getElements()" value="确认">-->
+				
+				<button class="btn" onclick="getElements()">确认</button>
+			</div>
+		</div>
+		<script src="../js/jquery-1.11.2.min.js"></script>
+		<script src="../layer.js"></script>
+		<script src="../js/layui.js"></script>
+		<!--<script>
+			
+			function loadCSS() {
+				if((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|wOSBrowser|BrowserNG|WebOS)/i))) {
+					document.write(' <link href = "../css/index.css" rel = "stylesheet" type = "text/css" media = "screen" / > '); 
+				}else { 
+					document.write(' <link href = "../css/proposal.css" rel = "stylesheet" type = "text/css" media = "screen" / > '); 
+					} 
+			};
+			loadCSS();
+		
+		</script>-->
+		<script>
+			layui.use('laydate', function(){
+  				var laydate = layui.laydate;
+  				//日期时间选择器
+				laydate.render({
+				  elem: '#test5'
+				  ,type: 'datetime'
+				});	
+  			})
+		</script>
+		<script>
+			function getElements(){
+				var one = $('input:radio[name="one"]:checked').val();
+				var two = $('input:radio[name="two"]:checked').val();
+				var three = $('input:radio[name="three"]:checked').val();
+				var four = $('input:radio[name="four"]:checked').val();
+				var five = $('input:radio[name="five"]:checked').val();
+				var add1 = $('input:radio[name="add1"]:checked').val();
+				
+				var x = document.getElementsByClassName("required");
+				
+				
+				for (i = 0; i < x.length; i++) {
+					
+					if(required1.value==""){window.location.href = '#required1';$("#required1").css("border","1px solid red");};
+					if(required2.value==""){window.location.href = '#required2';$("#required2").css("border","1px solid red");};
+					if(required3.value==""){window.location.href = '#required3';$("#required3").css("border","1px solid red");};
+					if(required4.value==""){window.location.href = '#required4';$("#required4").css("border","1px solid red");};
+					if(required5.value==""){window.location.href = '#required5';$("#required5").css("border","1px solid red");};
+					
+					if(required7.value==""){window.location.href = '#required7';$("#required7").css("border","1px solid red");};
+					if(required8.value==""){window.location.href = '#required8';$("#required8").css("border","1px solid red");};
+					if(required9.value==""){window.location.href = '#required9';$("#required9").css("border","1px solid red");};
+					
+					if(required11.value==""){window.location.href = '#required11';$("#required11").css("border","1px solid red");};
+//					if(required12.value==""){window.location.href = '#required12';$("#required12").css("border","1px solid red");};
+					if(required13.value==""){window.location.href = '#box5-main';$("#box5-main").css("border","1px solid red");};
+					if(required14.value==""){window.location.href = '#box5-main';$("#box5-main").css("border","1px solid red");};
+					if(required15.value==""){window.location.href = '#box5-main';$("#box5-main").css("border","1px solid red");};
+					
+					if(required17.value==""){window.location.href = '#required17';$("#required17").css("border","1px solid red");};
+					if(required18.value==""){window.location.href = '#required18';$("#required18").css("border","1px solid red");};
+					if(required19.value==""){window.location.href = '#required19';$("#required19").css("border","1px solid red");};
+					
+					if(required21.value==""){window.location.href = '#required21';$("#required21").css("border","1px solid red");};
+					
+					if(required22.value==""){window.location.href = '#required22';$("#required22").css("border","1px solid red");};
+					
+//					if(required22.value==""){window.location.href = '#required22';$("#required22").css("border","1px solid red");};
+
+					if(required23.value==""){window.location.href = '#required23';$("#required23").css("border","1px solid red");};
+					if(test5.value==""){window.location.href = '#test5';$("#test5").css("border","1px solid red");};
+					if(required25.value==""){window.location.href = '#required25';$("#required25").css("border","1px solid red");};
+					
+					if(one==null){window.location.href = '#required6';$("#required6").css("border","1px solid red");}
+					if(two==null){window.location.href = '#required10';$("#required10").css("border","1px solid red");}
+					if(three==null){window.location.href = '#required16';$("#required16").css("border","1px solid red");}
+					if(four==null){window.location.href = '#required20';$("#required20").css("border","1px solid red");}
+					if(five==null){window.location.href = '#required22';$("#required22").css("border","1px solid red");}
+					
+					
+					
+					
+					if(add1==null){window.location.href = '#required12';$("#required12").css("border","1px solid red");}
+					
+	               	if(x[i].value=="" || one==null || two==null || three==null || four==null  || add1==null){
+						layer.open({
+							content:'你有未填项，请检查后再提交！'
+							,skin:'msg'
+							,time:3
+							,style:'bottom:0;'
+						});
+						return true;
+	           		}else{
+	           			layer.open({
+							content:'提交成功！！！'
+							,skin:'msg'
+							,time:3
+							,style:'bottom:0;'
+						});
+//						window.location.href = 'index.html'
+						window.location.reload();
+	           		};
+	           		
+	           		
+	           	};
+				
+	      	};
+			
+			$(".two_p").click(function(){
+				$(".two_p").css("display","none");
+				$("#two_inp").focus();
+			});
+			
+				
+			$(".three_p1").click(function(){
+				$(".three_p1").css("display","none");
+				$("#three_inp1").focus();
+			});
+			$(".three_p2").click(function(){
+				$(".three_p2").css("display","none");
+				$("#three_inp2").focus();
+			});
+			$(".four_p").click(function(){
+				$(".four_p").css("display","none");
+				$("#four_inp").focus();
+			});
+//			$(".five_p").click(function(){
+//				$(".five_p").css("display","none");
+//				$("#five_inp").focus();
+//			});
+			
+			
+			$("#two_inp").blur(function(){$(".two_p").css("display","block")});
+			$("#three_inp1").blur(function(){$(".three_p1").css("display","block")});
+			$("#three_inp2").blur(function(){$(".three_p2").css("display","block")});
+			$("#four_inp").blur(function(){$(".four_p").css("display","block")});
+//			$("#five_inp").blur(function(){$(".five_p").css("display","block")});
+			
+			
+			
+			
+	
+		</script>
+		
+		<script>
+			window.onload = function() {
+				
+				
+		
+				//定时器每秒调用一次fnDate()
+				setInterval(function() {
+					fnDate();
+				}, 1000);
+			}
+			
+			var test5 = document.getElementById("test5");
+		
+			//js 获取当前时间
+			function fnDate() {
+				var oDiv = document.getElementById("time");
+				var date = new Date();
+				var year = date.getFullYear(); //当前年份
+				var month = date.getMonth(); //当前月份
+				var data = date.getDate(); //天
+				var hours = date.getHours(); //小时
+				var minute = date.getMinutes(); //分
+				var second = date.getSeconds(); //秒
+				var time = year + "-" + fnW((month + 1)) + "-" + fnW(data) + " " + fnW(hours) + ":" + fnW(minute) + ":" + fnW(second);
+				//			oDiv.innerHTML = time;
+				test5.value=time
+		
+			}
+			//补位 当某个字段不是两位数时补0
+			function fnW(str) {
+				var num;
+				str > 10 ? num = str : num = "0" + str;
+				return num;
+			}
+		</script>
+		
+		
+		
+		
+		<!--20190702-->
+		<script type="text/javascript">
+				$(".add1-1 .add1_p").click(function(){
+					$(".add1-1_p").css("display","none");
+					$("#add1-1_inp").focus();
+				});
+				$(".add1-2 .add1_p").click(function(){
+					$(".add1-2_p").css("display","none");
+					$("#add1-2_inp").focus();
+				});
+				
+				
+				$("#add1-1_inp").blur(function(){$(".add1-1 .add1_p").css("display","block")});
+				$("#add1-2_inp").blur(function(){$(".add1-2 .add1_p").css("display","block")});
+		</script>
+	</body>
+</html>

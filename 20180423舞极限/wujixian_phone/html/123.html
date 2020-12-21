@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			.banner{
+	width: 100%;
+	height: 5rem;
+	margin-top: 1.2rem;
+	position: relative;
+}
+.banner .banner-swiper{
+	height: 5rem;
+}
+.banner .banner-swiper img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+		</style>
+	</head>
+	<body>
+		
+		<div class="banner">
+			<div class="swiper-container banner-swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="../img/banner.jpg" alt="" /></div>
+					<div class="swiper-slide"><img src="../img/banner.jpg" alt="" /></div>
+					<div class="swiper-slide"><img src="../img/banner.jpg" alt="" /></div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+	</body>
+		<script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="../js/swiper-3.3.1.jquery.min.js"></script>
+		<script type="text/javascript" src="../js/common.js"></script>
+		<script>
+			var bannerSwiper = new Swiper('.banner-swiper',{
+				pagination: '.swiper-pagination',
+				autoplay: 3000,
+				loop: true
+			})
+		</script>
+</html>

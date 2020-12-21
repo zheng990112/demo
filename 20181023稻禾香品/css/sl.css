@@ -1,0 +1,139 @@
+.content{
+	padding-bottom: 1.4rem;
+}
+
+.part1 .part1-top{
+	font-size: 0.4rem;
+	color:#3d3a39;
+	text-align: center;
+}
+.part1 .part1-img{
+	width: 6.97rem;
+	display: block;
+	margin:0 auto;
+	margin-top: 0.2rem;
+}
+.part1 .p1{
+	color:#3d3a39;
+	width: 6.97rem;
+	margin:0 auto;
+	text-indent: 0.48rem;
+}
+.part1 .p1 span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+	width: 130%;
+	margin-left: -15%;
+}
+
+
+
+.part2 .part2-top{
+	font-size: 0.4rem;
+	color:#3d3a39;
+	text-align: center;
+	font-weight: bold;
+}
+.part2 .part2-top span{
+	font-size: 0.48rem;
+	color:#c30d23;
+}
+.part2 .part2-main ul{
+	text-align: center;
+}
+.part2 .part2-main ul li{
+	display: inline-block;
+	vertical-align: top;
+	width: 3.16rem;
+	height: 3.8rem;
+	border:2px solid #e0b36a;
+	margin:0 0.1rem;
+	margin-top: 0.4rem;
+	color:#3d3a39;
+}
+.part2 .part2-main ul li .li-img{
+	width: 3.16rem;
+	height: 2.3rem;
+	border-bottom: 2px solid #e0b36a; 
+}
+.part2 .part2-main ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.part2 .part2-main ul li .li-fonts .p1{
+	text-align: center;
+	font-size: 0.32rem;
+	margin-top: 0.1rem;
+	font-weight: bold;
+	line-height: 0.48rem;
+}
+.part2 .part2-main ul li .li-fonts .p2{
+	padding:0 0.1rem;
+	box-sizing: border-box;
+}
+.part2 .part2-main ul li .li-fonts .p2 span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+}
+
+
+
+
+.part3 .part3-top{
+	font-size: 0.49rem;
+	color:#3d3a39;
+	font-weight: bold;
+	text-align: center;
+}
+.part3 .part3-top span{
+	font-size: 0.6rem;
+	color:#c30d23;
+}
+.part3 .part3-top2{
+	font-size: 0.29rem;
+	color:#595757;
+	text-align: center;
+}
+.part3 .part3-img{
+	display: block;
+	width: 6.7rem;
+	margin:0.2rem auto;
+}
+
+.part3 .part3-main{
+	margin-top: 0.3rem;
+}
+
+
+
+
+
+
+@media (max-width:320px){
+	.part2 .part2-main ul li .li-fonts .p2{
+		padding:0;
+	}
+	.part2 .part2-main ul li .li-fonts .p2 span{
+		font-size: .24rem;
+		transform: scale(.75);
+		-webkit-transform: scale(.75);
+		-o-transform: scale(.75);
+		-moz-transform: scale(.75);
+		-ms-transform: scale(.75);
+		width: 130%;
+		margin-left: -15%;
+	}
+}

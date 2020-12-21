@@ -1,0 +1,93 @@
+.part1 .al-sub-title {
+    font-family: "myfont_Medium";
+    font-weight: bold;
+    color: #000000;
+    margin-top: 0.20rem;
+}
+
+.part1 .reading {
+    margin-top: 0.10rem;
+}
+
+.part1 .img-box {
+    margin-top: 0.75rem;
+}
+
+.part1 p.bold {
+    font-family: "myfont_Medium";
+    font-weight: bold;
+    color: #000000;
+    margin-top: 0.80rem;
+    line-height: 0.34rem;
+}
+
+.way {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.way+.way {
+    margin-top: 0.40rem;
+}
+
+.way .icon {
+    height: 0.38rem;
+    display: flex;
+    align-items: center;
+}
+
+.way .icon .tag {
+    width: 0.06rem;
+    height: 0.06rem;
+    background-color: #b51c21;
+    margin: auto 0;
+    margin-right: 0.22rem;
+}
+
+.way .text span {
+    font-family: "myfont_Light";
+    color: #515151;
+    /* margin-top: 0.10rem; */
+    line-height: 0.34rem;
+}
+
+.way .text span:first-of-type {
+    font-family: "myfont_Medium";
+    font-weight: bold;
+    margin-top: 0;
+    color: #b51c21;
+}
+
+.way .text span.bold {
+    font-family: "myfont_Medium";
+    font-weight: bold;
+    color: #000000;
+    margin-top: 0.10rem;
+}
+
+.part2,
+.part3,
+.part4 {
+    padding-top: 0.80rem;
+}
+
+.part2 .img-box,
+.part3 .img-box {
+    margin-top: 0.80rem;
+}
+
+.part4 {
+    padding-bottom: 0.50rem;
+}
+
+.part4 .p-box p {
+    font-family: "myfont_Light";
+    line-height: 0.34rem;
+}
+
+.part4 .p-box p.bold {
+    font-family: "myfont_Medium";
+    font-weight: bold;
+    color: #b51c21;
+}

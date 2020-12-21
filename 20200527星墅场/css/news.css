@@ -1,0 +1,90 @@
+.news1{
+	text-align: center;
+}
+.news1>p.news1_half{
+	margin-top: 0.6rem;
+	color: #b2b2b3;
+	font-size: 0.3037rem;
+	height: 0.28rem;
+	overflow: hidden;
+}
+.news1>h3{
+	margin-top: 0.1rem;
+	color: #323232;
+	font-size: 0.32rem;
+}
+.news1>img.dt{
+	margin: 0.48rem auto;
+	width: 6.81rem;
+}
+.news1 ul.text{
+	padding: 0 0.355rem;
+}
+.news1 ul.text li{
+	position:relative;
+	height: 0.5rem;
+	line-height: 0.5rem;
+}
+.news1 ul.text li::before{
+	content:"";
+	display: inline-block;
+	width: 0.06rem;
+	height: 0.06rem;
+	background:url(../img/news/02.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	top: 50%;
+	margin-top: -0.03rem;
+	left: 0;
+}
+.news1 ul.text li a{
+	font-size: 0.24rem;
+	height: 0.5rem;
+	line-height: 0.48rem;
+	border-bottom: 0.01rem dashed #ccc;
+	color: #3e3a39;
+}
+.news1 ul.text li a:nth-child(5){
+	border-bottom: none;
+}
+.news1 ul.text li p{
+	text-align: left;
+	float: left;
+	width: 5.2rem;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	padding-left: 0.1rem;
+	box-sizing: border-box;
+}
+.news1 ul.text li span{
+	float: right;
+}
+.news1 .btn{
+	width: 3.4rem;
+	height: 0.2791rem;
+	color: #000000;
+	margin: 0.5rem auto;
+	position: relative;
+}
+.news1 .btn .left{
+	float: left;
+}
+.news1 .btn .right{
+	float: right;
+}
+.news1 .btn div {
+	width: 1.3rem;
+	height: 100%;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -0.65rem;
+}
+.news1 .btn div a{
+	display: inline-block;
+	width: 0.2rem;
+}

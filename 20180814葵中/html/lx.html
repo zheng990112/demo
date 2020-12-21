@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+   		<meta charset="utf-8">
+	    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	    <title></title>
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no,email=no,adress=no" />
+	    <link rel="stylesheet" href="../css/common.css" type="text/css"/>
+	    <link rel="stylesheet" href="../css/lx.css" type="text/css"/>
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=6ALaE7y1e8N171T2CfPrHqZC3Ed000Cl"></script>
+	   	<script>
+	   		document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	   	</script>
+	</head>
+	<body>
+		<div class="header">
+			<img src="../img/top.jpg" alt="" class="img0"/>
+			<p class="header-title">联系我们</p>
+			<img src="../img/logo.png" alt="" class="logo-img"/>
+			<div class="menu-img">
+				<img src="../img/nav.png" alt="" class="img2"/>
+				<img src="../img/close.png" alt="" class="img3 none"/>
+			</div>
+		</div>
+		<div class="menu">
+			<ul>
+				<li>
+					<div class="title"><a href="index.html">返回首页</a></div>
+				</li>
+				<li>
+					<div class="title"><a href="kz.html">人民葵中</a></div>
+				</li>
+				<li>
+					<div class="title"><a href="sj.html">鱼蛙双椒</a></div>
+				</li>
+				<li>
+					<div class="title"><a href="md.html">直营门店</a></div>
+				</li>
+				<li>
+					<div class="title"><a href="cj.html">超级坪效</a></div>
+				</li>
+				<li>
+					<div class="title"><a href="pp.html">品牌招商</a></div>
+				</li>
+				<li class="active">
+					<div class="title"><a href="lx.html">联系我们</a></div>
+				</li>
+			</ul>
+		</div>	
+		
+		<div class="content lx">
+			<div class="banner">
+				<img src="../img/six/banner.jpg" alt="" />
+			</div>
+			<div class="comWidth">
+				<div class="box box1">
+					<div class="title">
+						<img src="../img/icon1.png" alt=""/>
+						<p>大国品牌崛起</p>
+					</div>
+					<img src="../img/six/a1.jpg" alt="" class="img-block"/>
+					<p class="p1">是由沃网联合若邻广告、中国精准扶贫基金会、盛世万开集团及中国投行联盟发起的“新实体创业综合体”，平台接受人民网、新华网、中青网、CCTV网等媒体监督，严选市场反响优秀，直营店收益可观的优质品牌，为全国的投资者提供“真实、靠谱、成熟、优质”的合作品牌，助其创业成功。</p>
+				</div>
+				<div class="box box2">
+					<div class="title">
+						<img src="../img/icon1.png" alt=""/>
+						<p>让创业不走弯路</p>
+					</div>
+					<img src="../img/six/a2.jpg" alt="" class="img1"/>
+					<p class="p2">地址：</p>
+					<p class="p3">北京文化创新工场万开基地A座1-2层</p>
+					<p class="p2">电话：</p>
+					<p class="p3">027-0000-0000</p>
+					<div class="angle"></div>
+					<div id="map" class="map"></div>
+				</div>
+				<div class="box box3">
+					<div class="title">
+						<img src="../img/icon1.png" alt=""/>
+						<p>品牌合作</p>
+					</div>
+					<div class="item">
+						<p class="p1">在线留言</p>
+						<p class="p2 font_20">Online Message</p>
+						<input type="text" placeholder="姓 名 / Name"/>
+						<input type="text" placeholder="电 话 / Telephone"/>
+						<textarea placeholder="留 言 / Message"></textarea>
+					</div>
+					<div class="submit">确认留言</div>
+				</div>			
+			</div>						
+		</div>
+		
+		<div class="footer clearfix">
+			<img src="../img/foot.jpg" alt="" class="img0"/>
+			<div class="foot-box">
+				<div class="fl-lt foot1">
+					<a href="javascript:;">
+						<div class="foot1-img">
+							<img src="../img/foot1.png" alt="" />
+						</div>
+						<div class="foot1-fonts">点击导航</div>
+					</a>
+				</div>
+				<div class="fl-rt foot1">
+					<a href="javascript:;">
+						<div class="foot1-img">
+							<img src="../img/foot3.png" alt="" />
+						</div>
+						<div class="foot1-fonts">在线留言</div>
+					</a>
+				</div>
+				<div class="fl-rt foot2">
+					<a href="tel:40000000">
+						<div class="foot2-img">
+							<img src="../img/foot2.png" alt="" />
+						</div>
+						<div class="foot2-fonts">来电 / Call</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="../js/common.js"></script>
+		<script type="text/javascript">
+			var map = new BMap.Map("map");    // 创建Map实例
+		    var point = new BMap.Point(116.2633149950,39.8836762902);
+		    map.centerAndZoom(point, 15);
+		    var marker = new BMap.Marker(point); // 创建标注
+		    map.addOverlay(marker); // 将标注添加到地图中
+		    marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+		    map.panTo(point);
+		    map.addControl(new BMap.NavigationControl()); // 添加默认缩放平移控件
+		    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放  
+		</script>
+	</body>
+</html>

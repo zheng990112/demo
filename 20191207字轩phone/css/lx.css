@@ -1,0 +1,125 @@
+
+
+.lx {
+	padding-top:1rem;
+	padding-bottom: 1.9rem;
+}
+
+.lx-title{
+	width: 6.9rem;
+	height: 0.92rem;
+	border:1px solid #b19662;
+	margin:0 auto;
+	text-align: center;
+	font-family: myfont;
+	color:#b19662;
+	margin-top: 0.6rem;
+}
+.lx-title .p1{
+	font-size: 0.66rem;
+	background-color: #f8f7f5;
+	display: inline-block;
+	line-height: 1;
+	margin-top: -0.4rem;
+	padding:0 0.1rem;
+	position:relative;
+}
+.lx-title .p1::after{
+    content: "";
+    display: inline-block;
+    width: 0.25rem;
+    height: 0.24rem;
+    background: url(../img/icon1.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 0.2rem;
+    bottom: -0.1rem;
+}
+.lx-title .p2{
+	font-size: 0.66rem;
+	background-color: #f8f7f5;
+	display: inline-block;
+	line-height: 1;
+	margin-top:0.2rem;
+	padding:0 0.1rem;
+}
+
+.part1{
+	margin-top: 0.5rem;
+}
+.part1 .p1{
+	font-family: myfont;
+	font-size: 0.4rem;
+	color:#333333;
+	text-align: center;
+}
+.part1 .p2{
+	font-size: 0.24rem;
+	line-height:0.42rem;
+	text-align: center;
+	color:#333333;
+	margin-top: 0.15rem;
+}
+.part1 .map{
+	width: 6.9rem;
+	height: 3.5rem;
+	margin:0 auto;
+	margin-top: 0.25rem;
+	position:relative;
+	z-index: 2;
+}
+.part1 .part1-img{
+	display: block;
+	width: 100%;
+	margin-top: -1.35rem;
+}
+
+.part2 .p1{
+	font-size: 0.34rem;
+	color:#333333;
+	line-height: 0.48rem;
+	text-align: center;
+	margin-top: -0.35rem;
+}
+.part2 .form{
+	width: 6.9rem;
+	margin:0 auto;
+	margin-top: 0.45rem;
+}
+.part2 .form input{
+	width: 100%;
+	height: 0.8rem;
+	display: block;
+	background:#dfdfdf;
+	border-radius:0.1rem;
+	margin-bottom: 0.2rem;
+	font-size: 0.3rem;
+	color:#7f7f7f;
+	padding-left:0.4rem;
+	box-sizing: border-box;
+}
+.part2 .form textarea{
+	width: 100%;
+	height: 3.65rem;
+	display: block;
+	background:#dfdfdf;
+	border-radius:0.1rem;
+	margin-bottom: 0.2rem;
+	font-size: 0.3rem;
+	color:#7f7f7f;
+	padding-left:0.4rem;
+	padding-top: 0.2rem;
+	box-sizing: border-box;
+	resize: none;
+}
+.part2 .form button{
+	display: block;
+	width: 1.96rem;
+	height: 0.66rem;
+	background-color: #b19662;
+	border-radius: 0.1rem;
+	margin:0 auto;
+	font-size: 0.34rem;
+	color:#fff;
+	margin-top: 0.5rem;
+}

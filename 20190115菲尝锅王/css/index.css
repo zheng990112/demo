@@ -1,0 +1,82 @@
+html,
+body {
+	height: 100%;
+}
+
+@keyframes bottom{
+	from{bottom: 0.4rem;}
+	to{bottom: 0.6rem;}
+}
+.page1 .bottom{
+	position:absolute;
+	width: 0.62rem;
+	height: 0.66rem;
+	bottom: 0.6rem;
+	animation:bottom 1s infinite;
+	-webkit-animation:bottom 1s infinite linear;
+	left: 50%;
+	margin-left: -0.31rem;
+}
+.page1 .logo{
+	display: block;
+	width: 1.82rem;
+	height: 2.25rem;
+	position:absolute;
+	top: 0;
+	left: 50%;
+	margin-left:-0.91rem;
+}
+
+
+
+.page2 .logo{
+	position:absolute;
+	top: 0;
+	left:0.7rem;
+	width: 1.81rem;
+	height: 2.55rem;
+}
+.page2 .b2-img{
+	width: 1.97rem;
+	height: 2.24rem;
+	position:absolute;
+	top: 0;
+	right: 0.5rem;
+}
+.page2 .page2-main{
+	width: 6.44rem;
+	height: 4.79rem;
+	background: url(../img/index/b3.png) no-repeat;
+	background-size: 100% 100%;
+	margin:0 auto;
+	margin-top:4.6rem;
+	position:relative;
+    padding-top: 0.555rem;
+    box-sizing: border-box;
+	
+}
+.page2 .page2-main ul{
+	width: 5.89rem;
+	height: 3.88rem;
+	margin:0 auto;
+}
+.page2 .page2-main ul li{
+	float:left;
+	width: 1.83rem;
+	height: 1.74rem;
+	margin-right: 0.2rem;
+	margin-top: 0.2rem;
+}
+.page2 .page2-main ul li:nth-child(3n){
+	margin-right: 0;
+}
+.page2 .page2-main ul li a,
+.page2 .page2-main ul li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.btn-box{
+	margin-top: 1rem;
+}

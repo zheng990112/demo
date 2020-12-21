@@ -1,0 +1,337 @@
+
+
+.container{
+	padding-top:1rem;
+	padding-bottom: 1.9rem;
+}
+.hz-title{
+	width: 6.9rem;
+	height: 0.78rem;
+	border:1px solid #b19662;
+	margin:0 auto;
+	text-align: center;
+	font-family: myfont;
+	color:#b19662;
+	margin-top: 0.6rem;
+}
+.hz-title .p1{
+	font-size: 0.66rem;
+	background-color: #f8f7f5;
+	display: inline-block;
+	line-height: 1;
+	margin-top: -0.4rem;
+	padding:0 0.1rem;
+	position:relative;
+}
+.hz-title .p1::after{
+    content: "";
+    display: inline-block;
+    width: 0.25rem;
+    height: 0.24rem;
+    background: url(../img/icon1.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 0.1rem;
+    bottom: 0.1rem;
+}
+.hz-title .p2 span{
+	color:#333333;
+	font-size: 0.3rem;
+	background-color: #f8f7f5;
+	display: inline-block;
+	line-height: 1;
+	margin-top:0.3rem;
+	padding:0 0.1rem;
+}
+
+
+.hz1 .hz1-main{
+	width: 6.9rem;
+	margin:0 auto;
+	margin-top: 0.45rem;
+	font-family: myfont;
+}
+.hz1 .hz1-main img{
+	display: block;
+	width: 100%;
+}
+.hz1 .hz1-main ul li{
+	margin-top: 0.35rem;
+	height: 0.6rem;
+}
+.hz1 .hz1-main ul li .fl-lt{
+	width: 3.2rem;
+}
+.hz1 .hz1-main ul li .fl-rt{
+	width: 3.7rem;
+}
+.hz1 .hz1-main ul li .li-num{
+	font-size: 0.4rem;
+	color:#f8f7f5;
+	width: 0.66rem;
+	height: 0.6rem;
+	background-color: #b19662;
+	border-bottom:2px solid #000;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 0.6rem;
+	display: inline-block;
+	vertical-align: middle;
+}
+.hz1 .hz1-main ul li .li-fonts{
+	font-size: 0.28rem;
+	color:#b19662;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+
+/*hz2*/
+.hz2{
+	padding-bottom: 1.6rem;
+}
+.hz2 .hz-title .p1::after{
+	right: 1.9rem;
+}
+
+.hz2-title{
+	width: 6.9rem;
+	height: 0.72rem;
+	margin:0 auto;
+	border:1px solid #b19662;
+	box-sizing: border-box;
+	font-family: myfont;
+	font-size: 0;
+	position:relative;
+}
+.hz2-title .cn{
+    font-size: 0.5rem;
+    color: #fff;
+    height: 0.64rem;
+    line-height: 0.64rem;
+    background-color: #b19662;
+    width: 1.96rem;
+    margin-left: 0.03rem;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    margin-top: -0.32rem;
+}
+.hz2-title .en{
+	font-size: 0.2rem;
+	text-transform: uppercase;
+	color:#b19662;
+	display: inline-block;
+	margin-left:2.1rem;
+    line-height: 0.72rem;
+}
+.hz2 .part1{
+	margin-top: 0.6rem;
+}
+.hz2 .part1 .part1-main{
+	width: 6.9rem;
+	margin:0 auto;
+}
+.hz2 .part1 .part1-main .p1{
+	font-size:0.34rem;
+	color:#b19662;
+	font-family: myfont;
+	margin-top: 0.15rem;
+}
+.hz2 .part1 .part1-main .p2{
+	font-size: 0.24rem;
+	color:#333333;
+	line-height: 0.44rem;
+}
+.hz2 .part1 .part1-main .line{
+	width: 100%;
+	height: 1px;
+	background-color: #b19662;
+	margin-top: 0.15rem;
+}
+.hz2 .part2 .hz-title .p1::after{
+	bottom: 0;
+	right: 0.1rem;
+}
+.hz2 .part2 .top{
+	font-size: 0.24rem;
+	color:#333333;
+	line-height: 0.4rem;
+	text-align: center;
+	margin-top: 0.05rem;
+}
+.hz2 .part2 .part2-img{
+	display: block;
+	width:6.9rem;
+	margin:0 auto;
+	margin-top: 0.1rem;
+}
+.hz2 .part2 .part2-main{
+	width: 6.9rem;
+	margin:0 auto;
+	text-align: center;
+	margin-top: 0.3rem;
+}
+.hz2 .part2 .part2-main ul li{
+	display: inline-block;
+	width: 2.2rem;
+	height: 3.9rem;
+	background: url(../img/hz/b2.jpg) no-repeat;
+	background-size: 100% 100%;
+	position:relative;
+	margin-top: 0.12rem;
+}
+.hz2 .part2 .part2-main ul li .li-p1{
+	font-size: 0.34rem;
+	text-align: center;
+	color:#b19662;
+	font-family: myfont;
+	line-height: 0.4rem;
+	position:relative;
+	height:2rem;
+}
+.hz2 .part2 .part2-main ul li .li-p1 span{
+	display:block;
+	width: 100%;
+	position:absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+}
+.hz2 .part2 .part2-main ul li .li-p2{
+	position:absolute;
+	font-size: 0.04rem;
+	line-height: 0.38rem;
+	color:#000;
+	padding:0 0.15rem;
+	box-sizing: border-box;
+	text-align: left;
+	text-align: justify;
+	position:absolute;
+	width: 100%;
+	top:2.35rem;
+}
+
+
+.hz2 .part3{
+	margin-top: 0.35rem;
+}
+.hz2 .part3 .hz2-title{
+	margin-bottom:0.4rem;
+}
+.hz2 .part3-main ul li{
+	margin-bottom: 0.15rem;
+}
+.hz2 .part3-main ul li .li-img{
+	width: 6.9rem;
+	height: 4.3rem;
+	background: url(../img/hz/b3.jpg) no-repeat;
+	background-size: 100% 100%;
+	margin:0 auto;
+	padding-top: 0.2rem;
+	box-sizing: border-box;
+}
+.hz2 .part3-main ul li .li-img img{
+	display: block;
+	width: 6.5rem;
+	height: 3.92rem;
+	margin:0 auto;
+}
+.hz2 .part3-main ul li .li-fonts{
+	text-align: center;
+}
+.hz2 .part3-main ul li .li-fonts .p1{
+	font-size: 0.34rem;
+	color:#b19662;
+	font-family: myfont;
+	margin:0 0.1rem;
+}
+.hz2 .part3-main ul li .li-fonts .p2{
+	font-size: 0.24rem;
+	line-height: 0.32rem;
+	color:#333;
+	
+}
+
+
+
+
+/*.hz3*/
+.hz3 .hz-title .p1::after{
+	right: 0.8rem;
+}
+.hz3 .part1 .part1-img{
+	display: block;
+	width: 6.9rem;
+	margin:0 auto;
+	margin-top: 0.45rem;
+}
+.hz3 .part1 .part1-fonts{
+	width: 6.9rem;
+	margin:0 auto;
+	line-height: 0.44rem;
+}
+.hz3 .part1 .part1-fonts .p1{
+	font-size: 0.29rem;
+	color:#b19662;
+}
+.hz3 .part1 .part1-fonts .p2{
+	font-size: 0.24rem;
+	color:#000;
+}
+
+
+
+.hz4 .public-title::before{
+	width: 3.8rem;
+	margin-left: -1.9rem;
+}
+.hz4 .hz-title .p1::after{
+	right: 0.2rem;
+}
+.hz4 .part1-img{
+	display:block;
+	width: 6.9rem;
+	margin:0 auto;
+	margin-top: 0.45rem;
+}
+.hz4 ul{
+	display: block;
+	width: 6.9rem;
+	margin:0 auto;
+	margin-top: 0.25rem;
+}
+.hz4 ul li{
+	width: 3.35rem;
+	height: 2.45rem;
+	background-color: #fff;
+	float:left;
+	margin-right: 0.2rem;
+	margin-top: 0.1rem;
+}
+.hz4 ul li:nth-child(2n){
+	margin-right: 0;
+}
+.hz4 ul li .li-p1{
+	font-size: 0.34rem;
+	font-family:myfont;
+	color:#f8f7f5;
+	line-height: 0.6rem;
+	height: 0.6rem;
+	background-color: #b19662;
+	text-align:center;
+}
+.hz4 ul li .li-p2{
+	font-size: 0.24rem;
+	line-height: 0.36rem;
+	color:#333;
+	text-align: justify;
+	padding:0 0.2rem;
+	box-sizing: border-box;
+}

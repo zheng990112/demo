@@ -1,0 +1,147 @@
+.listPic {
+  margin: 0 0.95rem;
+  border-top: 0.01rem solid #c1a582;
+  width: 6rem;
+  margin: 0 auto;
+  margin-top: 0.3rem;
+}
+.listPic li {
+  float: left;
+  width: 2.8rem;
+  margin-top: 0.5rem;
+}
+.listPic li img {
+  width: 1.93rem;
+  height: 1.93rem;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  margin-bottom: 0.1rem;
+}
+.listPic li p {
+  margin: 0 auto;
+  font-size: 0.26rem;
+  color: #ffffff;
+  width: 2.1rem;
+  text-align: center;
+  line-height: 0.35rem;
+}
+.listPic li p span {
+  display: block;
+  font-size: 0.24rem;
+  transform: scale(0.83);
+  -webkit-transform: scale(0.83);
+  -o-transform: scale(0.83);
+  -moz-transform: scale(0.83);
+  -ms-transform: scale(0.83);
+  width: 120%;
+  margin-left: -10%;
+}
+.solid {
+  width: 6.2rem;
+  height: 0;
+  margin: 0.6rem auto;
+  border-bottom: 0.01rem solid #c1a582;
+}
+.pWord {
+  color: #ffffff;
+  text-align: center;
+  font-size: 0.5rem;
+  margin-top: 0.2rem;
+}
+
+.fenye-box {
+  width: 5.6rem;
+  margin: 0 auto;
+}
+
+.swiperBanner1 {
+  width: 6.9rem;
+  height: 5.4rem;
+  margin: 0.3rem auto;
+}
+.swiper-button-prev,
+.swiperBanner1 .swiper-container-rtl .swiper-button-next {
+  background-image: url(../img/xg/xg101_07.png);
+  background-size: 0.35rem 0.39rem;
+  left: 0;
+}
+.swiper-button-next,
+.swiperBanner1 .swiper-container-rtl .swiper-button-prev {
+  background-image: url(../img/xg/xg101_08.png);
+  background-size: 0.35rem 0.39rem;
+  right: 0;
+}
+.swiperBanner1 .swiper-slide .left {
+  float: left;
+  width: 2.6rem;
+  margin-left: 0.6rem;
+}
+.swiperBanner1 .swiper-slide .right {
+  float: right;
+  width: 2.6rem;
+  margin-right: 0.6rem;
+}
+.swiper-slide div div {
+  width: 2.58rem;
+  height: 2.58rem;
+  border: 0.01rem solid #ffffff;
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 0.1rem;
+}
+.swiper-slide img {
+  display: block;
+  width: 2.24rem;
+  height: 2.24rem;
+  border-radius: 50%;
+  margin: 0.17rem auto;
+}
+.swiper-slide p {
+  text-align: center;
+  font-size: 0.24rem;
+  color: #ffffff;
+}
+.swiper-slide .p1 {
+  line-height: 0.32rem;
+}
+.swiper-slide .p2 {
+  margin-top: 0.2rem;
+  padding-top: 0.1rem;
+  text-align: justify;
+  border-top: 0.01rem solid #ffffff;
+}
+.swiper-slide .p2 span {
+  display: block;
+  font-size: 0.24rem;
+  transform: scale(0.75);
+  -webkit-transform: scale(0.75);
+  -o-transform: scale(0.75);
+  -moz-transform: scale(0.75);
+  -ms-transform: scale(0.75);
+  width: 125%;
+  margin-left: -12%;
+}
+
+.swiperBanner2 {
+  width: 4rem;
+  margin: auto;
+}
+.swiperBanner2 .swiper-slide .imgBox {
+  width: 2.6rem;
+  margin: auto;
+}
+.fenye-box {
+  margin-top: 0.6rem;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  width: 0.35rem;
+  height: 0.4rem;
+  margin-top: -0.2rem;
+}
+
+.swiper-button-next:focus,
+.swiper-button-prev:focus {
+  outline: none;
+}

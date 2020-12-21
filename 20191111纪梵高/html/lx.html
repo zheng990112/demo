@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../js/hotcss.js"></script>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/lx.css">
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=6ALaE7y1e8N171T2CfPrHqZC3Ed000Cl"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-box">
+            <div class="logo">
+                <img src="../img/logo.png" width="100%" alt="">
+            </div>
+            <div class="desc">
+                <img src="../img/desc.png" width="100%" alt="">
+            </div>
+            <div class="phone-box">
+                <div class="phone-icon">
+                    <img src="../img/phone_small.png" width="100%" alt="">
+                </div>
+                <div class="phone-info">
+                    <span class="phone-tag">纪梵高24H 合作热线：</span>
+                    <span class="phone-num">400-027-9088</span>
+                </div>
+            </div>
+            <div class="menu-box">
+                <div class="menu-icon">
+                    <img src="../img/menu_icon.png" width="100%" alt="">
+                </div>
+                <div class="menu-list">
+                	<ul>
+                		<li>
+                			<a href="index.html" class="title">首页</a>
+                		</li>
+                		<li>
+                			<a href="jj.html" class="title">企业简介</a>
+                		</li>
+                		<li>
+                			<a href="cp.html" class="title">产品系列</a>
+                		</li>
+                		<li>
+                			<a href="javascript:;" class="title">定制攻略</a>
+                			<div class="item">
+                				<a href="bdxl.html" class="on">八大系列</a>
+                				<a href="zxgl.html">装修攻略</a>
+                			</div>
+                		</li>
+                		<li>
+                			<a href="ysj.html" class="title">AR云设计</a>
+                		</li>
+                		<li>
+                			<a href="hz.html" class="title">招商合作</a>
+                		</li>
+                		<li>
+                			<a href="al.html" class="title">实景案例</a>
+                		</li>
+                		<li class="active">
+                			<a href="lx.html" class="title">联系我们</a>
+                		</li>
+                	</ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="main-img">
+            <img src="../img/al/a1.jpg" width="100%" alt="">
+        </div>
+        <div class="part1">
+        	<div class="part1-title">欢迎给我们留言<br />我们会在24小时内给您回电！</div>
+        	<div class="form">
+        		<input type="text" placeholder="姓名"/>
+        		<input type="text" placeholder="电话"/>
+        		<input type="text" placeholder="地区"/>
+        		<textarea name="" rows="" cols="" placeholder="留言"></textarea>
+        		<button>提交</button>
+        	</div>
+			<div class="map" id="map"></div>
+        </div>
+        
+        <div class="part2">
+        	<div class="part2-l">
+        		<p class="p1">武汉维度美宅住宅科技有限公司</p>
+        		<p class="p2"><span>Wuhan Dimension Meizhai Residential Technology Co., Ltd.</span></p>
+        		
+        		<div>
+        			<img src="../img/al/b1.png" alt="" />
+        			<p>
+        				<span class="span1">纪梵高24H 合作热线：</span>
+        				<span class="span2">400-027-9088</span>
+        			</p>
+        		</div>
+        	</div>
+        	<div class="part2-r"><img src="../img/al/erweima.jpg" alt="" /></div>
+        </div>
+    </div>
+
+	<div class="bg"></div>
+    <footer>
+        <img src="../img/footer_img.jpg" width="100%" alt="">
+        <div class="footer-box">
+            <a href="" class="page prev-page">
+                <img src="../img/prev_next.png" class="page-icon" alt="">
+                <span>上一页</span>
+            </a>
+            <a href="index.html" class="page home-page">
+                <img src="../img/home.png" class="page-icon" alt="">
+                <span>回首页</span>
+            </a>
+            <a href="" class="page next-page">
+                <span>下一页</span>
+                <img src="../img/next_page.png" class="page-icon" alt="">
+            </a>
+        </div>
+    </footer>
+</body>
+<script src="../js/jquery-1.11.3.min.js"></script>
+<script src="../js/common.js"></script>
+<script>
+		var map = new BMap.Map("map"); // 创建Map实例
+		var point = new BMap.Point(113.9895190000,30.6892180000);
+		map.centerAndZoom(point, 15);
+		var marker = new BMap.Marker(point); // 创建标注
+		map.addOverlay(marker); // 将标注添加到地图中
+		marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+		map.panTo(point);
+		 map.addControl(new BMap.NavigationControl()); // 添加默认缩放平移控件
+		map.enableScrollWheelZoom(true); //开启鼠标滚轮缩放
+</script>
+
+</html>

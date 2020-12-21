@@ -1,0 +1,113 @@
+.content .lxWord{
+	text-align: center;
+}
+.content .lxWord h5{
+	margin-top: 0.2rem;
+	font-size: 0.541rem;
+}
+.content .lxWord p.dispersed{
+	color: #f0bf70;
+	font-size: .24rem;
+	transform: scale(.5);
+	-webkit-transform: scale(.5);
+	-o-transform: scale(.5);
+	-moz-transform: scale(.5);
+	-ms-transform: scale(.5);
+	width: 200%;
+	margin-left: -50%;
+	text-align: center;
+	letter-spacing: 0.18rem;
+}
+
+.content .table{
+	width: 6.46rem;
+	padding-top: 0.4rem;
+	padding-bottom: 0.6rem;
+	margin: auto;
+	font-size: 0.24rem;
+}
+.content .table input{
+	margin-left: 0.05rem;
+	width: 2.02rem;
+	height: 0.55rem;
+	float: left; 
+	background-color: #f5f5f5;
+	border-radius: 0.15rem;
+	padding-left: 0.1rem;
+}
+.content .table input:first-child{
+	margin-left: 0;
+}
+.content .table textarea{
+	resize: none;
+	width: 6.06rem;
+	height: 1.76rem;
+	margin-top: 0.05rem;
+	background-color: #f5f5f5;
+	border-radius: 0.15rem;
+	padding: 0.2rem;
+}
+.content .table input:last-child{
+	background: url(../img/lx/lx_05.jpg) center no-repeat;
+	background-size: 6.46rem 0.55rem;
+	color: #FFFFFF;
+	width: 6.46rem;
+	margin-left: 0;
+	letter-spacing: 0.3rem;
+}
+
+.content .map{
+	width: 6.48rem;
+	height: 1.77rem;
+	margin: 0 auto;
+	border-radius: 0.2rem;
+}
+.content .ht{
+	display: block;
+	width: 6.48rem;
+	height: 0.11rem;
+	margin: 0.5rem auto 0;
+}
+
+.content .bottom_text{
+	padding-top: 0.2rem;
+	color: #595757;
+	padding-left: 0.5rem;
+	font-size: 0.24rem;
+	margin-bottom: 0.2rem;
+}
+.content .foter_box{
+	width: 6.48rem;
+	height: 1.53rem;
+	margin: 0 auto;
+	padding-bottom: 0.7rem;
+}
+.content .foter_box div{
+	float: left;
+}
+.content .foter_box p{
+	line-height: 0.5rem;
+	font-size: 0.24rem;
+}
+.content .foter_box p em{
+	display: inline-block;
+	margin-right: 0.2rem;
+	width: 0.3rem;
+	height: 0.3rem;
+	background: url(../img/lx/lx_02.jpg) left center no-repeat;
+	background-size: 0.3rem 0.3rem;
+}
+.content .foter_box p:nth-child(2) em{
+	background: url(../img/lx/lx_04.jpg) 0.05rem center no-repeat;
+	background-size: 0.2rem 0.3rem;
+}
+.content .foter_box p:last-child em{
+	background: url(../img/lx/lx_03.jpg) left center no-repeat;
+	background-size: 0.3rem 0.3rem;
+}
+.content .foter_box img{
+	float: right;
+	width: 1.53rem;
+	height: 1.53rem;
+	border: 0.01rem solid #CCCCCC;
+}

@@ -1,0 +1,274 @@
+
+html,body,.swiper-container,.swiper-wrapper,
+.swiper-slide{
+	width: 100%;
+	height: 100%!important;
+}
+
+
+.hz1{
+	padding-top: 1.2rem;
+	box-sizing: border-box;
+}
+.hz1 .public-title{
+	color:#fff;
+}
+.hz1 .hz1-top .img1{
+	display: block;
+	width: 100%;
+}
+.hz1 .hz1-top p{
+	font-size: 0.57rem;
+	color:#000000;
+	text-align: center;
+	height: 0.88rem;
+	line-height: 0.88rem;
+	background-color: #ffd817;
+	font-weight: bold;
+}
+.hz1 .hz1-top .img2{
+	display: block;
+	width: 4.73rem;
+	margin:0 auto;
+	margin-top: 0.15rem;
+}
+.hz1 .hz1-main{
+	width: 6.95rem;
+	margin:0 auto;
+	margin-top: 0.2rem;
+}
+.hz1 .hz1-main .hz1-btn{
+	width: 100%;
+	height: 0.65rem;
+	line-height: 0.65rem;
+	background-color: #d3d3d3;
+	border-radius: 0.2rem 0.2rem 0 0;
+}
+.hz1 .hz1-main .hz1-btn p{
+	float:left;
+	width: 33.33%;
+	font-size: 0.3rem;
+	color:#ffffff;
+	text-align: center;
+}
+.hz1 .hz1-main .hz1-btn p span{
+	display: inline-block;
+	position:relative;
+}
+.hz1 .hz1-main .hz1-btn p:first-child{
+	border-radius: 0.2rem 0 0 0; 
+}
+.hz1 .hz1-main .hz1-btn p:last-child{
+	border-radius:0 0.2rem 0 0; 
+}
+.hz1 .hz1-main .hz1-btn p.on{
+	background-color: #309dcf;
+	font-size: 0.37rem;
+}
+.hz1 .hz1-main .hz1-btn p.on span::before,
+.hz1 .hz1-main .hz1-btn p.on span::after{
+	content:"";
+	display: inline-block;
+	width: 0.18rem;
+	height: 0.18rem;
+	background: url(../img/hz/a-icon.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	top: 50%;
+	margin-top: -0.09rem;
+}
+.hz1 .hz1-main .hz1-btn p.on span::before{
+	left:-0.36rem;
+}
+.hz1 .hz1-main .hz1-btn p.on span::after{
+	right:-0.36rem;
+}
+.hz1 .hz1-main .item .box .box-img{
+	width: 6.95rem;
+	height: 4.02rem;
+	border:2px solid #309dcf;
+	box-sizing: border-box;
+}
+.hz1 .hz1-main .item .box .box-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.hz1 .hz1-main .item .box p{
+	font-size: 0.3rem;
+	color:#333333;
+	text-align: center;
+	margin-top: 0.1rem;
+}
+.hz1 .hz1-main .item .box{
+	display: none;
+}
+.hz1 .hz1-main .item .box.block{
+	display: block;
+}
+
+
+
+.hz2{
+	padding-top: 1.2rem;
+	box-sizing: border-box;
+}
+.hz2 .public-title{
+	color:#fff;
+}
+.hz2 .hz2-top img{
+	display: block;
+	width: 100%;
+}
+.hz2 .hz2-main{
+	text-align: center;
+	font-size: 0;
+}
+.hz2 .hz2-main .box{
+	display:inline-block;
+	margin:0 0.18rem;
+	vertical-align: top;
+	margin-top: 0.4rem;
+}
+.hz2 .hz2-main .box .p1{
+	width: 1.92rem;
+	height: 0.74rem;
+	margin-bottom: 0.25rem;
+}
+.hz2 .hz2-main .box .p1 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.hz2 .hz2-main .box .p2{
+	font-size: 0.22rem;
+	width: 1.56rem;
+	height: 0.46rem;
+	background-color: #ffd817;
+	text-align: center;
+	line-height: 0.46rem;
+	color:#000;
+	margin:0 auto;
+	border-radius: 0.1rem;
+	margin-bottom: 0.15rem;
+}
+
+
+.hz3{
+	padding-top: 2.1rem;
+	box-sizing: border-box;
+}
+.hz3-title{
+	text-align: center;
+}
+.hz3-title .p1{
+	font-size: 0.62rem;
+	color:#333333;
+	font-weight: bold;
+}
+.hz3-title .p2{
+	font-size: 0.5rem;
+	color:#e5e5e5;
+	text-transform: uppercase;
+}
+.hz3-main{
+	width: 6.9rem;
+	margin:0 auto;
+	font-size: 0;
+}
+.hz3-main img{
+	display: block;
+	width: 100%;
+	margin-top: 0.3rem;
+}
+.hz3-main ul li{
+	float:left;
+	width: 3.3rem;
+	height: 0.58rem;
+	line-height: 0.58rem;
+	background-color: #e5e5e5;
+	text-align: center;
+	margin-right: 0.3rem;
+	margin-top: 0.3rem;
+}
+.hz3-main ul li:nth-child(2n){
+	margin-right: 0;
+}
+.hz3-main ul li .li-num{
+	display:inline-block;
+	font-size: 0.4rem;
+	width: 0.72rem;
+	height:0.58rem;
+	line-height: 0.58rem;
+	background-color: #ffd817;
+	float:left;
+}
+.hz3-main ul li .li-fonts{
+	line-height: 0.58rem;
+	font-size: 0.26rem;
+	color:#333333;
+	display: inline-block;
+	width: 2.58rem;
+	float:left;
+}
+
+
+.hz4{
+	padding-top: 2.2rem;
+	box-sizing: border-box;
+}
+.hz4 .picScroll-left{
+	width:6.9rem;
+	position: relative;
+	margin:0 auto; 
+}
+.hz4 .picScroll-left .bd{
+	width: 6.9rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.hz4 .picScroll-left .bd li{
+	float: left;
+	position: relative;
+	text-align: center;
+	width:6.9rem;
+	height:4.12rem;
+	cursor: pointer;
+}
+.hz4 .picScroll-left .bd li img{
+	display: block;
+	width:6.9rem;
+	height:3.28rem;
+}
+.hz4 .picScroll-left .bd li .p1{
+	font-size: 0.24rem;
+	color:#333333;
+	font-weight: bold;
+	margin-top: 0.1rem;
+}
+.hz4 .picScroll-left .bd li .p2{
+	font-size: 0.22rem;
+	color:#666666;
+	margin-top: 0.1rem;
+}
+.hz4 .picScroll-left .arrow{
+	position: absolute;
+	width: 0.6rem;
+	height: 0.6rem;
+	cursor: pointer;
+	bottom:0;
+}
+.hz4 .picScroll-left .arrow img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.hz4 .picScroll-left .arrow-left{
+	left:0;
+}
+.hz4 .picScroll-left .arrow-right{
+	right:0;
+}
+.hz4 .picScroll-left.tab2{
+	margin-top: 0.2rem;
+}

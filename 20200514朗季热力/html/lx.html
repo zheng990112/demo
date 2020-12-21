@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+		<script src="../js/hotcss.js"></script>
+		<link rel="stylesheet" href="../css/swiper-3.3.1.min.css" />
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/lx.css" />
+    	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=rj0ZPRGEFwNsfrlqhsISjfHKOHpST2b9"></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="menu-box">
+	            <img src="../img/menu_img.png" alt="" class="img1"/>
+	            <img src="../img/close.png" alt="" class="img2"/>
+	        </div>
+	        <div class="menu">
+	        	<ul>
+	        		<li><a href="index.html"><p class="cn"><span>首页</span></p><p class="en"><span>HOME</span></p></a></li>
+	        		<li><a href="about.html"><p class="cn"><span>关于我们</span></p><p class="en"><span>About Us</span></p></a></li>
+	        		<li><a href="news.html"><p class="cn"><span>新闻动态</span></p><p class="en"><span>News</span></p></a></li>
+	        		<li><a href="cp.html"><p class="cn"><span>产品中心</span></p><p class="en"><span>Product</span></p></a></li>
+	        		<li><a href="al.html"><p class="cn"><span>工程案例</span></p><p class="en"><span>Case</span></p></a></li>
+	        		<li><a href="hz.html"><p class="cn"><span>招商合作</span></p><p class="en"><span>Cooperation</span></p></a></li>
+	        		<li class="active"><a href="lx.html"><p class="cn"><span>联系我们</span></p><p class="en"><span>Contact us</span></p></a></li>
+	        	</ul>
+		    </div>
+		</div>
+		
+		<div class="content">
+			<div class="part part1">
+				<img src="../img/lx/bg_02.jpg" alt="" class="bg_img"/>
+				<img src="../img/lx/bg_03.jpg" alt="" class="bg_img"/>
+				<div class="form">
+					<input type="text" placeholder="姓名" class="inp1"/>
+					<input type="text" placeholder="电话" class="inp2"/>
+					<input type="text" placeholder="地区" class="inp3"/>
+					<textarea name="" rows="" cols="" placeholder="留言"></textarea>
+					<button>提  交</button>
+				</div>
+						
+			</div>
+			
+			
+			<div class="part part2">
+				<img src="../img/lx/bg_04.jpg" alt="" class="bg_img"/>
+				<img src="../img/lx/bg_05.jpg" alt="" class="bg_img"/>
+				<div class="map" id="map"></div>
+				<div class="btn-box clearfix">
+					<a href="hz.html" class="fl-lt"><img src="../img/prev.png" alt="" /></a>
+					<a href="index.htmnl" class="fl-rt"><img src="../img/index.png" alt="" /></a>
+				</div>		
+			</div>
+			
+		</div>
+		
+		
+		<div class="bg"></div>
+		<div class="footer">
+			<img src="../img/foot.jpg" alt="" />
+		</div>
+		
+		
+		<script src="../js/jquery-1.11.2.min.js"></script>
+		<script src="../js/swiper-3.3.1.jquery.min.js"></script>
+		<script src="../js/jquery.SuperSlide.2.1.1.js"></script>
+		<script src="../js/common.js"></script>
+		<script>
+	        var map = new BMap.Map("map"); // 创建Map实例
+	        var point = new BMap.Point(116.52067,39.797405);
+	        map.centerAndZoom(point, 15);
+	        var marker = new BMap.Marker(point); // 创建标注
+	        map.addOverlay(marker); // 将标注添加到地图中
+	        marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+	        map.panTo(point);
+	        // map.addControl(new BMap.NavigationControl()); // 添加默认缩放平移控件
+	        map.enableScrollWheelZoom(true); //开启鼠标滚轮缩放
+	    </script>
+	</body>
+</html>

@@ -1,0 +1,298 @@
+.pp-title {
+	width: 7.2rem;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 0.3rem;
+}
+
+.pp-title .p1 {
+	display: inline-block;
+	font-size: 0.34rem;
+	color: #ffa300;
+	font-weight: bold;
+	position: relative;
+}
+
+.pp-title .p1 p {
+	position: relative;
+}
+
+.pp-title .p1 .line {
+	content: "";
+	display: inline-block;
+	width: 1.3rem;
+	height: 1px;
+	background-color: #eeb033;
+	position: absolute;
+	top: 50%;
+}
+
+.pp-title .p1 .lineL {
+	left: -1.4rem;
+}
+
+.pp-title .p1 .lineR {
+	right: -1.4rem;
+}
+
+.pp-title .p1 .lineL::after {
+	content: "";
+	display: inline-block;
+	width: 0.34rem;
+	height: 0.07rem;
+	background-color: #eeb033;
+	position: absolute;
+	bottom: -0.02rem;
+	right: 0.13rem;
+}
+
+.pp-title .p1 .lineR::before {
+	content: "";
+	display: inline-block;
+	width: 0.34rem;
+	height: 0.07rem;
+	background-color: #eeb033;
+	position: absolute;
+	bottom: -0.02rem;
+	left: 0.13rem;
+}
+
+.pp-title .p2 {
+	font-size: 0.32rem;
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.btn-box {
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+}
+
+
+/*pp3*/
+
+.pp3 .part1 {
+	width: 6.5rem;
+	margin: 0 auto;
+}
+
+.pp3 .part1 p {
+	color: #000;
+	text-align: justify;
+	margin-top: 0.2rem;
+}
+
+.pp3 .part1 p span {
+	display: block;
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 109%;
+	margin-left: -4%;
+}
+
+.pp3 .part1 img {
+	display: block;
+	width: 100%;
+	margin-top: 0.2rem;
+}
+
+.pp3 .part2 ul {
+	width: 5.5rem;
+	margin: auto;
+	margin-top: 0.3rem;
+}
+
+.pp3 .part2 li {
+	width: 2.65rem;
+	float: left;
+	color: #000000;
+	margin-top: 0.2rem;
+	margin-right: 0.2rem;
+	text-align: center;
+}
+
+.pp3 .part2 li:nth-child(2n) {
+	margin-right: 0;
+}
+
+.pp3 .part2 ul img {
+	width: 2.65rem;
+	height: 1.67rem;
+}
+
+.pp3 .part2 ul .p1 {
+	font-size: 0.3rem;
+	width: 1.53rem;
+	margin: 0 auto;
+	text-align: center;
+	height: 0.38rem;
+	line-height: 0.38rem;
+	background: url(../img/pp/c8.png) no-repeat;
+	background-size: 100%;
+	margin-top: 0.3rem;
+}
+
+.pp3 .part2 ul .p1 span {
+	display: block;
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 109%;
+	margin-left: -4%;
+}
+
+.pp3 .part2 ul .p2 {
+	font-size: 0.24rem;
+	line-height: 0.36rem;
+	color: #000;
+	margin-top: 0.1rem;
+}
+
+
+/*.pp4*/
+
+.pp4-main {
+	background-color: #f4f4f4;
+	padding-bottom: 0.2rem;
+}
+
+.pp4 .des {
+	width: 6.5rem;
+	text-align: right;
+	margin-top: 0.4rem;
+}
+
+.pp4 .des .p1 {
+	display: inline-block;
+	color: #ffa100;
+	font-size: 0.4rem;
+	font-weight: bold;
+	line-height: 0.56rem;
+	position: relative;
+	padding-bottom: 0.05rem;
+}
+
+.pp4 .des .p1::before {
+	content: "";
+	display: inline-block;
+	width: 1.5rem;
+	height: 1px;
+	background-color: #ffa100;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.pp4 .des .p2 {
+	color: #000000;
+	font-size: 0.24rem;
+	margin-top: 0.2rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.pp4-main .img1 {
+	display: block;
+	width: 100%;
+	margin-top: 0.3rem;
+}
+
+.pp4 ul {
+	width: 6.6rem;
+	margin: auto;
+}
+
+.pp4 ul li {
+	width: 3.04rem;
+	height: 2.05rem;
+	float: left;
+	margin-top: 0.25rem;
+}
+
+.pp4 ul li:nth-child(2) {
+	margin-right: 0.52rem;
+}
+
+.pp4 ul li:first-child {
+	width: 6.6rem;
+	height: 2.6rem;
+}
+
+.pp4 ul li img {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+
+/*pp5*/
+
+.pp5 .listPic {
+	width: 5.5rem;
+	margin: auto;
+}
+
+.pp5 .listPic li {
+	float: left;
+	margin-top: 0.3rem;
+	width: 2.55rem;
+	margin-right: 0.4rem;
+}
+
+.pp5 .listPic li:nth-child(2n) {
+	margin-right: 0;
+}
+
+.pp5 .listPic li img {
+	display: block;
+	width: 2.55rem;
+	height: 1.2rem;
+	margin-top: 0.15rem;
+}
+
+.pp5 .listPic .p1 {
+	width: 2.55rem;
+	height: 0.55rem;
+	background: url(../img/pp/e-icon1.png) center no-repeat;
+	background-size: 100%;
+	font-size: 0.18rem;
+	font-weight: bold;
+	color: #000000;
+	margin: auto;
+	text-align: center;
+	line-height: 0.36rem;
+}
+
+.pp5 .listPic li:nth-child(2n) .p1 {
+	background: url(../img/pp/e-icon2.png) center no-repeat;
+	background-size: 100%;
+}
+
+.pp5 .listPic .p2 {
+	margin-top: 0.1rem;
+	color: #606060;
+	font-size: 0.16rem;
+	text-align: justify;
+	line-height: 1.3;
+}
+
+.pp5 .listPic .p1 span,
+.pp5 .listPic .p2 span {
+	display: block;
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 109%;
+	margin-left: -4%;
+}

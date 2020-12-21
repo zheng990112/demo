@@ -1,0 +1,329 @@
+.textTile {
+  font-size: 0.42rem;
+}
+.gn1 .pRight {
+  color: #ffffff;
+  margin-top: 0.2rem;
+  font-size: 0.32rem;
+  margin-left: 3.4rem;
+}
+.gn1 .bgImg {
+  margin-top: 0.15rem;
+  width: 7.5rem;
+  height: 5.8rem;
+}
+.gn1 .fenye-box {
+  margin-top: 0.6rem;
+}
+.gn2 .colorTitle {
+  color: #cabbab;
+  font-size: 0.3rem;
+  margin-top: 0.23rem;
+  text-align: center;
+}
+.gn2 .listPic {
+  padding: 0 0.7rem;
+  padding-top: 0.7rem;
+}
+.gn2 .listPic li {
+  float: left;
+  margin-top: -0.15rem;
+}
+.gn2 .listPic li div {
+  width: 2.88rem;
+  height: 2.88rem;
+  border-radius: 50%;
+  border: 0.01rem solid #ffffff;
+  float: left;
+}
+.gn2 .listPic li p {
+  margin-left: 0.2rem;
+  margin-right: 0;
+}
+.gn2 .listPic li.now div {
+  float: right;
+}
+.gn2 .listPic li.now p {
+  margin-left: 0;
+  margin-right: 0.2rem;
+}
+.gn2 .listPic li img {
+  width: 2.53rem;
+  height: 2.53rem;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  margin-top: 0.175rem;
+}
+.gn2 .listPic .p1 {
+  float: left;
+  font-size: 0.28rem;
+  width: 2.97rem;
+  color: #ffffff;
+  padding-top: 0.5rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 0.01rem solid #ffffff;
+}
+.gn2 .listPic .p2 {
+  float: left;
+  width: 2.97rem;
+  padding-top: 0.2rem;
+  font-size: 0.24rem;
+  line-height: 0.32rem;
+  text-align: justify;
+  color: #ffffff;
+}
+
+.gn2 .solid1 {
+  margin-bottom: 0;
+}
+.gn2 .textBox {
+  padding-left: 0.6rem;
+  height: 7.48rem;
+}
+.gn2 .textBox div {
+  padding-top: 0.6rem;
+  height: 6.88rem;
+}
+.gn2 .textBox .p1 {
+  font-size: 0.5rem;
+  color: #d9bd98;
+}
+.gn2 .textBox .p2 {
+  font-size: 0.34rem;
+  color: #ffffff;
+  line-height: 0.7rem;
+}
+.gn2 .textBox .p3 {
+  font-size: 0.28rem;
+  width: 2.14rem;
+  height: 0.46rem;
+  color: #000000;
+  text-align: center;
+  line-height: 0.46rem;
+  margin-top: 0.6rem;
+  background: url(../img/gn/gn2_05.jpg) center no-repeat;
+  background-size: 100%;
+}
+.gn2 .textBox .p4 {
+  font-size: 0.14rem;
+  color: #ffffff;
+  line-height: 0.5rem;
+}
+.gn2 .textBox .p5,
+.gn2 .textBox .p6 {
+  width: 2.14rem;
+  margin-top: 0.05rem;
+  text-align: justify;
+  color: #ffffff;
+  font-size: 0.24rem;
+  line-height: 0.3rem;
+}
+.gn2 .textBox .p6 {
+  width: 2.5rem;
+}
+.gn2 .imgBg1 {
+  width: 4.63rem;
+  height: 7.48rem;
+  float: right;
+  margin-top: -7.48rem;
+}
+.gn2 .solid2 {
+  margin-top: 0.2rem;
+}
+.gn2 .font_30 {
+  color: #ffffff;
+  font-size: 0.3rem;
+  text-align: center;
+  margin-top: 0.2rem;
+}
+.gn2 .listImg {
+    width: 6rem;
+    margin: 0 auto;
+    padding: 0 0.7rem;
+    font-size: 0;
+}
+.gn2 .listImg li {
+  width: 2.6rem;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 0.6rem;
+  margin-bottom: 0.2rem;
+  display: inline-block;
+}
+.gn2 .listImg li:nth-child(2n) {
+  margin-left: 0.8rem;
+}
+.gn2 .listImg li:nth-last-child(2) {
+  margin-left: 3.6rem;
+}
+.gn2 .listImg li img {
+  display: inline-block;
+  width: 1.9rem;
+  height: 2.28rem;
+}
+.gn2 .listImg .p1 {
+  font-size: 0.32rem;
+  padding: 0.3rem 0;
+}
+.gn2 .listImg .p2 {
+  font-size: 0.26rem;
+  line-height: 0.4rem;
+  white-space: nowrap;
+
+}
+.gn2 .listImg .lastImg {
+  width: 4.56rem;
+  height: 6.54rem;
+  float: left;
+  margin-left: -0.75rem;
+  margin-top: -6rem;
+}
+.gn2 .solid3 {
+  margin-top: 0;
+}
+
+.gn2 .listPic2 {
+     padding: 0.5rem 0.6rem 0;
+    width: 6.3rem;
+    margin: 0 auto;
+}
+.gn2 .listPic2 li {
+  float: left;
+  margin-left: 0.24rem;
+  width: 1.395rem;
+  text-align: center;
+}
+.gn2 .listPic2 li:first-child {
+  margin-left: 0;
+}
+.gn2 .listPic2 li div {
+  width: 1.375rem;
+  height: 1.375rem;
+  border: 0.01rem solid #ffffff;
+  border-radius: 50%;
+}
+.gn2 .listPic2 li img {
+  border-radius: 50%;
+  display: block;
+  margin: 0.045rem auto;
+  width: 1.28rem;
+  height: 1.28rem;
+}
+.gn2 .listPic2 li .p1 {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  border-bottom: 0.01rem solid #ffffff;
+  font-size: 0.26rem;
+  color: #ffffff;
+}
+.gn2 .listPic2 li .p2 {
+  padding: 0.1rem 0;
+  color: #ffffff;
+}
+.gn2 .listPic2 li .p2 span {
+  font-size: 0.24rem;
+  transform: scale(0.5);
+  -webkit-transform: scale(0.5);
+  -o-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+}
+.gn2 .shopping {
+  display: block;
+  width: 6.36rem;
+  height: 6.71rem;
+  margin: auto;
+  margin-top: 0.5rem;
+}
+.pTitle.color {
+  color: #d0b390;
+  margin-bottom: 0.2rem;
+}
+.font_34 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 0.34rem;
+}
+.listCircle {
+    width: 6.5rem;
+    margin: 0 auto;
+    margin-top: 0.4rem;
+}
+.listCircle li {
+  float: left;
+  height: 1.35rem;
+  width: 3.25rem;
+  border-right: 0.01rem solid #c4b8b1;
+  border-bottom: 0.01rem solid #c4b8b1;
+  box-sizing: border-box;
+}
+.listCircle li:nth-child(2n) {
+  border-right: none;
+}
+.listCircle li img {
+  float: left;
+  margin-left: 0.1rem;
+  margin-top: 0.39rem;
+  width: 0.56rem;
+  height: 0.56rem;
+}
+.listCircle li div {
+  margin-top: 0.35rem;
+  color: #ffffff;
+  position: relative;
+  float: left;
+  height: 0.64rem;
+    margin-left: 0.1rem;
+    padding-left: 0.1rem;
+}
+.listCircle li div::after {
+  content: "";
+  width: 0.01rem;
+  height: 0.2rem;
+  background-color: #ffffff;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -0.1rem;
+}
+.listCircle li .p1 {
+  font-size: 0.24rem;
+}
+.listCircle li .p2 {
+  color: #b8aba0;
+}
+.listCircle li .p2 span {
+  display: block;
+  font-size: 0.24rem;
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  width: 110%;
+  margin-left: -5%;
+}
+.fenye-box {
+  position: relative;
+  width: 4.8rem;
+  margin: auto;
+  margin-top: 1.4rem;
+  height: 0.4rem;
+}
+.content {
+  padding-bottom: 0;
+}
+.gn2 {
+  padding-bottom: 2rem;
+  background: url(../img/gn/gn2_24.png) 4.5rem bottom no-repeat;
+  background-size: 2.6rem 4.8rem;
+}
+
+
+
+@media (max-width:320px) {
+	.gn2 .textBox .p5, .gn2 .textBox .p6{
+		line-height: 0.34rem;
+	}
+}

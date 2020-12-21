@@ -1,0 +1,497 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+	overflow-x: hidden;
+}
+
+body {
+	font-family: "Microsoft Yahei", "Hiragino Sans GB";
+	color: #282828;
+	background: #fff;
+	-webkit-font-smoothing: antialiased;
+	font-size: 12px;
+	-webkit-text-size-adjust: none;
+}
+@font-face{
+	font-family: "myfont_Medium";
+	src: url('../font/PingFang Medium.ttf');
+}
+@font-face{
+	font-family: "myfont_Light";
+	src: url('../font/PingFang Light.ttf');
+}
+a {
+	text-decoration: none;
+	color: #000;
+	-webkit-tap-highlight-color: transparent;
+	display: block;
+}
+
+label {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ul li,
+ol li {
+	list-style: none;
+}
+
+input,
+img,
+textarea,
+button {
+	outline: none;
+	border: 0;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-appearance: none;
+}
+
+button {
+	background: none;
+	outline: none;
+}
+
+b {
+	font-weight: normal;
+}
+
+u {
+	text-decoration: none;
+}
+
+em,
+i {
+	font-style: normal;
+}
+
+.fl-lt {
+	float: left;
+}
+
+.fl-rt {
+	float: right;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+
+/*header*/
+.header{
+	width: 100%;
+	height: 1.2rem;
+	background-color: #cf111b;
+	position:fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.header .logo{
+	width: 2.68rem;
+	height: 0.35rem;
+	margin-top: 0.42rem;
+	margin-left: 0.5rem;
+}
+.header .logo img{
+	display:block;
+	width: 100%;
+	height: 100%;
+}
+.header .nav{
+	margin-right: 0.5rem;
+	height: 0.36rem;
+	padding-top: 0.42rem;
+	box-sizing: border-box;
+}
+.header .nav a{
+	display: inline-block;
+	vertical-align: middle;
+	width: 0.32rem;
+	height: 0.36rem;
+}
+.header .nav a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.header .nav .header_nav{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 0.35rem;
+	width: 0.38rem;
+	height: 0.24rem;
+}
+.header .menu{
+	position:fixed;
+	width: 100%;
+	top: 1.2rem;
+	background-color: #000;
+	padding:0.2rem 0;
+	padding-left: 0.4rem;
+	box-sizing: border-box;
+	font-size: 0.28rem;
+	left: 100%;
+}
+
+.header .menu a.title{
+	color:#fff;
+	line-height: 0.48rem;
+	font-weight: bold;
+}
+.header .menu .active a.title{
+	color:#cf111b;
+}
+.header .menu .item{
+	margin-bottom: 0.2rem;
+}
+.header .menu .item p{
+	display: inline-block;
+	font-size: 0.26rem;
+	width: 20%;
+}
+.header .menu .item p a{
+	color:#fff;
+}
+.header .menu .item p.on a{
+	color:#cf111b;
+}
+.bg{
+	width: 100%;
+	height: 100%;
+	position:fixed;
+	background-color:rgba(0,0,0,0.3);
+	top: 0;
+	left: 0;
+	z-index:998;
+	display:none;
+}
+
+
+.banner{
+	margin-top:1.2rem;
+}
+.banner img{
+	display: block;
+	width: 100%;
+}
+.banner .banner-swiper img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/*banner btn*/
+.swiper-pagination-bullets{
+	text-align: center;
+}
+.swiper-pagination-bullet{
+	background: transparent;
+	border:1px solid #a4a4a4;
+	box-sizing: border-box;
+	opacity: 1;
+	width: .15rem;
+	height: .15rem;
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.swiper-pagination-bullet-active{
+	background: #cf111b;
+	opacity: 1;
+	border: 1px solid #cf111b;
+	box-sizing: border-box;
+}
+.swiper-pagination-bullets span{
+	margin: 0 .06rem!important;
+}
+.swiper-pagination-bullets{
+	bottom: .2rem!important;
+}
+
+
+/*footer*/
+.footer{
+	width: 100%;
+	height: 1.15rem;
+	background-color: #fff;
+	position:fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+	-moz-box-shadow: 0px 0px 0.15rem rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 0px 0.15rem rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 0.15rem rgba(0,0,0,0.2);
+}
+
+.footer .foot-l{
+	margin-left: 0.7rem;
+	padding-top: 0.27rem;
+	box-sizing: border-box;
+}
+.footer .foot-l .foot1-img{
+	display: inline-block;
+	vertical-align: middle;
+	width: 1.33rem;
+	height: 0.6rem;
+	
+}
+.footer .foot-l .foot-tel{
+	display: inline-block;
+	vertical-align: middle;
+	width: 0.2rem;
+	height: 0.22rem;
+	margin-left: 0.3rem;
+	margin-right: 0.24rem;
+}
+
+.footer .foot-l .foot-msg{
+	display: inline-block;
+	vertical-align: middle;
+	width: 0.23rem;
+	height: 0.21rem;
+}
+.footer .foot-l .foot-tel img,
+.footer .foot-l .foot-msg img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.footer .foot-r{
+	width: 2.6rem;
+	height: 0.5rem;
+	background-color: #cf111b;
+	margin-top: 0.325rem;
+	margin-right: 0.5rem;
+	line-height: 0.4rem;
+	position:relative;
+}
+.footer .foot-r a{
+	display:block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.footer .foot-r p{
+	position:relative;
+	height: 100%;
+	height: 100%;
+	text-align: center;
+}
+.footer .foot-r p span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 110%;
+	margin-left: -5%;
+	color:#fff;
+	height: 110%;
+	line-height: 0.5rem;
+}
+.footer .foot-r::after{
+	content:"";
+	display: inline-block;
+	width: 0.07rem;
+	height: 0.12rem;
+	background: url(../img/icon.png) no-repeat;
+	background-size:100% 100%;
+	position:absolute;
+	right: 0.2rem;
+	top: 50%;
+	margin-top: -0.06rem;
+}
+
+.content{
+	padding-bottom: 1.2rem;
+}
+
+
+
+
+/*底部地址*/
+.address_box{
+	padding-bottom: 0.4rem;
+	background-color: #d6d6d8;
+}
+.address_box .address-top{
+	width: 6.5rem;
+	margin:0 auto;
+	text-align: center;
+	padding-top: 0.5rem;
+}
+.address_box .address-top .erweima{
+	display: inline-block;
+	vertical-align: top;
+	width: 2.72rem;
+}
+.address_box .address-top .erweima .logo_img{
+	width: 2.72rem;
+	display: inline-block;
+}
+.address_box .address-top .erweima .erweima_img{
+	display: inline-block;
+	width: 1.67rem;
+	margin-top: 0.2rem;
+}
+.address_box .address-top .address{
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	width: 2.9rem;
+	margin-left: 0.4rem;
+}
+
+.address_box .address-top .address .p1{
+	font-size: 0.24rem;
+	color:#c21a1f;
+	font-family: myfont_Medium;
+}
+.address_box .address-top .address .p1 span{
+	font-family: myfont_Light;
+}
+.address_box .address-top .address .p2{
+	color:#515151;
+	font-family: myfont_Light;
+}
+.address_box .address-top .address p:nth-child(3){
+	margin-top: 0.2rem;
+}
+.address_box .copy{
+	text-align: center;
+	color:#9e9ea7;
+	margin-top: 0.3rem;
+	font-family: myfont_Medium;
+}
+
+
+
+
+
+
+
+/*字体为12像素*/
+
+.font_12 {
+	display: block;
+	/*	font-size: .18rem;*/
+	font-size: .24rem;
+	transform: scale(.5);
+	-webkit-transform: scale(.5);
+	-o-transform: scale(.5);
+	-moz-transform: scale(.5);
+	-ms-transform: scale(.5);
+	width: 200%;
+	margin-left: -50%;
+}
+
+
+/*字体为14像素*/
+
+.font_14 {
+	display: block;
+	/*	font-size: .18rem;*/
+	font-size: .24rem;
+	transform: scale(.58);
+	-webkit-transform: scale(.58);
+	-o-transform: scale(.58);
+	-moz-transform: scale(.58);
+	-ms-transform: scale(.58);
+	width: 170%;
+	margin-left: -35%;
+}
+
+
+/*字体为16像素*/
+
+.font_16 {
+	display: block;
+	/*	font-size: .18rem;*/
+	font-size: .24rem;
+	transform: scale(.67);
+	-webkit-transform: scale(.67);
+	-o-transform: scale(.67);
+	-moz-transform: scale(.67);
+	-ms-transform: scale(.67);
+	width: 150%;
+	margin-left: -25%;
+}
+
+
+/*字体为18像素*/
+
+.font_18 {
+	display: block;
+	/*	font-size: .18rem;*/
+	font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+	width: 130%;
+	margin-left: -15%;
+}
+
+
+/*字体为20像素*/
+
+.font_20 {
+	display: block;
+	/*	font-size: .2rem;*/
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+}
+
+
+/*字体为22像素*/
+
+.font_22 {
+	display: block;
+	/*	font-size: .22rem;*/
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 109%;
+	margin-left: -4.5%;
+}
+
+
+/*20200622*/
+.address_box .address-top .erweima .erweima_img{
+	width: 2.2rem;
+}
+.address_box .address-top .address p:nth-child(3),
+.address_box .address-top .address p:nth-child(5){
+	margin-top: 0.1rem;
+}
+
+@media (max-width:320px){
+	.address_box .address-top .address{
+		width: 3.4rem;
+		margin-left: 0.2rem;
+	}
+	.address_box .address-top .address p:nth-child(3) {
+	    margin-top: 0.1rem;
+	}
+	.address_box .copy{
+		margin-top: 0.2rem;
+	}
+}

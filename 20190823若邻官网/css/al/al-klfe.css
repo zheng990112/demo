@@ -1,0 +1,91 @@
+
+.mt01{
+	margin-top: 0.1rem;
+}
+.mt02{
+	margin-top: 0.2rem;
+}
+.mt03{
+	margin-top: 0.3rem;
+}
+.mt04{
+	margin-top: 0.4rem;
+}
+.mt05{
+	margin-top: 0.5rem;
+}
+.part1 .p1{
+	color:#515151;
+	font-family: myfont_Light;
+}
+.part1 .part1-img{
+	display: block;
+	width: 100%;
+}
+.part1 .p2{
+	color:#221714;
+	font-family: myfont_Medium;
+	font-weight: bold;
+}
+
+
+.part2{
+	width: 6.8rem;
+	margin:0 auto;
+	background-color: #e8e8e8;
+	padding:0.3rem 0;
+	padding-left: 0.6rem;
+	box-sizing: border-box;
+	color:#7f7f7f;
+	margin-top: 0.3rem;
+}
+.part2 .p1{
+	font-family: myfont_Medium;
+	font-weight: bold;
+	position:relative;
+}
+.part2 .p1::before{
+	content:"";
+	display: inline-block;
+	width: 0.1rem;
+	height: 0.1rem;
+	background-color: #b51c21;
+	position:absolute;
+	top: 50%;
+	margin-top: -0.05rem;
+	left: -0.2rem;
+}
+.part2 .p2{
+	font-family: myfont_Light;
+	
+}
+
+
+
+.part3 .p1{
+	color:#515151;
+	font-family: myfont_Light;
+}
+.part3 .p1 b{
+	font-family: myfont_Medium;
+	font-weight: bold;
+	margin-right: 0.1rem;
+}
+.part3 .part3-img{
+	display: block;
+	width: 100%;
+}
+.center{
+	text-align:center;
+}
+
+
+.part3{
+	padding-bottom: 0.8rem;
+}
+
+@media (max-width:320px){
+	.part2{
+		padding-left: 0.3rem;
+	}
+}

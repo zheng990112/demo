@@ -1,0 +1,339 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face{
+	font-family:"宋体";
+	src: url('../font/SourceHanSerifSC-Light.otf');
+	font-weight: 100;
+}
+body{
+	width: 100%;overflow-x: hidden;
+	font-family: "Hiragino Sans GB","Microsoft Yahei";
+	color: #fff;
+	-webkit-font-smoothing: antialiased;
+	font-size: 12px;
+	-webkit-text-size-adjust: none;
+}
+a{
+	text-decoration: none;
+}
+
+label{
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+ul li,
+ol li{
+	list-style: none;
+}
+input,img,textarea,button{
+	outline: none;
+	border: 0;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	-webkit-appearance: none;
+}
+button{
+	background: none;
+	outline: none;
+}
+
+u{
+	text-decoration: none;
+}
+em,i{
+	font-style: normal;
+}
+.fl-lt{
+	float: left;
+}
+.fl-rt{
+	float: right;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*header*/
+.header{
+	width: 100%;
+	height: 0.9rem;
+	background:url(../img/head.jpg) no-repeat;
+	background-size: 100% 100%;
+	position:fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+.header .logo{
+	width: 1.98rem;
+	height: 0.66rem;
+}
+.header .logo img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position:relative;
+	top:0.12rem;
+	left: 0.2rem;
+}
+.header .top-title{
+	font-size: 0.4rem;
+	line-height: 0.9rem;
+	text-align: center;
+	color:#1b365d;
+	position:absolute;
+	top: 0;
+	left: 50%;
+	width: 2rem;
+	margin-left: -1rem;
+	font-weight: bold;
+}
+.header .menu-img{
+	position:absolute;
+	width: 0.36rem;
+	height: 0.17rem;
+	right: 0.2rem;
+	top:0.36rem;
+}
+.header .menu-img img{
+	display:block;
+	width: 100%;
+	height: 100%;
+}
+/*导航*/
+.menu{
+	position: fixed;
+	right: -50%;
+	top: 1rem;
+	z-index: 100;
+	width:1.88rem;
+	background-color: #e3e3e3;
+	text-align: center;
+	padding:0.15rem 0;
+	z-index: 111;
+}
+.menu ul li{
+	width: 1.3rem;
+	height: 0.4rem;
+	margin:0 auto;
+	margin-top: 0.06rem;
+	line-height: 0.4rem;
+	border:1px solid #e60012;
+}
+.menu ul li.active{
+	background-color: #e60012;
+	font-weight: bold;
+}
+.menu ul li.active .title a{
+	color:#fff;
+}
+.menu ul li .title a{
+	color: #000;
+}
+.menu ul li .title a{
+	display: block;
+    font-size: 0.24rem;
+}
+
+
+
+
+
+
+/*banner*/
+.banner{
+	width: 100%;
+	height:11.06rem;
+	background-color: #000;
+	margin-top: 0.9rem;
+}
+.banner .banner-swiper{
+	height:100%;
+	position:relative;
+}
+.banner .banner-swiper img{
+	display: block;
+	width: 100%;
+	height:  11.06rem;
+}
+                           
+
+.bg{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,.0);
+    z-index: 99;
+    display: none;
+}
+
+/*footer*/
+.footer{
+	width: 100%;
+	height: 0.98rem;
+	background: url(../img/foot.jpg) no-repeat;
+	background-size: 100% 100%;
+	position:fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 99;
+}       
+.footer div{
+	width: 1.66rem;
+	height: 0.58rem;
+	background: url(../img/foot-btn.jpg) no-repeat;
+	background-size: 100% 100%;
+	border-radius: 0.1rem;
+	font-size: 0.28rem;
+	text-align: center;
+	line-height: 0.58rem;
+	position:absolute;
+	top: 0.2rem;
+}
+.footer div a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color:#1b365d;
+}
+.footer div.ly{
+	left: 50%;
+	margin-left: -0.83rem;
+}
+.footer div.dh{
+	left: 0.2rem;
+}
+.footer div.tel{
+	right: 0.2rem;
+}
+/*超两行显省略号*/
+.two-ellipsis{
+	text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+/*分页导航*/
+.page-wrapper{
+	font-size: 0;
+	text-align: center;
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+}
+.page-wrapper .page-duan{
+	border: 1px solid #999;
+	padding: .04rem;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: .24rem;
+	margin: 0 .04rem;
+}
+.page-wrapper ul{
+	display: inline-block;
+	vertical-align: middle;
+}
+.page-wrapper ul li{
+	border: 1px solid #999;
+	padding: .04rem .14rem;
+	font-size: .24rem;
+	margin: 0 .04rem;
+	display: inline-block;
+	vertical-align: middle;
+}
+.page-wrapper li.active a,
+.page-wrapper li.active{
+	color: #fff;
+	background: #333;
+}
+.page-wrapper li.active{
+	border: 1px solid #333;
+}
+
+/*字体为12像素*/
+.font_12{
+/*	font-size: .18rem;*/
+	font-size: .24rem;
+	transform: scale(.5);
+	-webkit-transform: scale(.5);
+	-o-transform: scale(.5);
+	-moz-transform: scale(.5);
+	-ms-transform: scale(.5);
+	width: 200%;
+	margin-left: -50%;
+}
+/*字体为14像素*/
+.font_14{
+/*	font-size: .18rem;*/
+	font-size: .24rem;
+	transform: scale(.58);
+	-webkit-transform: scale(.58);
+	-o-transform: scale(.58);
+	-moz-transform: scale(.58);
+	-ms-transform: scale(.58);
+	width: 170%;
+	margin-left: -35%;
+}
+
+/*字体为16像素*/
+.font_16{
+/*	font-size: .16rem;*/
+	font-size: .24rem;
+	transform: scale(.67);
+	-webkit-transform: scale(.67);
+	-o-transform: scale(.67);
+	-moz-transform: scale(.67);
+	-ms-transform: scale(.67);
+	width: 150%;
+	margin-left: -25%;
+}
+
+/*字体为18像素*/
+.font_18{
+/*	font-size: .18rem;*/
+	font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+	width: 130%;
+	margin-left: -15%;
+}
+
+/*字体为20像素*/
+.font_20{
+	/*	font-size: .2rem;*/
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+}
+
+/*字体为22像素*/
+.font_22{
+	/*	font-size: .22rem;*/
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 109%;
+	margin-left: -4%;
+}
+

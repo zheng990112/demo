@@ -1,0 +1,153 @@
+.er-nav{
+	padding: .24rem .08rem;
+}
+.er-nav a{
+	width: 50%;
+}
+
+/*行业资讯 & 品牌动态*/
+.news .title{
+	text-align: center;
+	margin-bottom: .4rem;
+}
+.news .title .box{
+	position: relative;
+	margin: 0 auto .2rem;
+}
+.news .title .box p{
+	font-size: .34rem;
+	font-weight: bold;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	line-height: .6rem;
+}
+.news .title .box img{
+	display: block;
+	margin: 0 auto;
+	width: 2.5rem;
+}
+.news .list1 li{
+	clear: both;
+	overflow: hidden;
+	border-bottom: 1px dashed #341F0B;
+	padding-bottom: .28rem;
+	margin-bottom: .28rem;
+	height: 1.45rem;
+}
+.news .list1 li:last-child{
+	/*border-bottom: 0;*/
+}
+.news .list1 li a{
+	display: block;
+	height: 100%;
+	color: #341F0B;
+}
+.news .list1 li .fl-lt{
+	width: 37%;
+	height: 100%;
+}
+.news .list1 li .li-con{
+	width: 60%;
+	position: relative;
+	height: 100%;
+}
+.news .list1 li .li-con .p1{
+	font-weight: bold;
+	font-size: .26rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.news .list1 li .li-con .p2{
+	line-height: .36rem;
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 109%;
+	margin-left: -4.5%;
+	margin-bottom: .04rem;
+	margin-top: .04rem;
+}
+
+.news .list1 li .li-con .more{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: .98rem;
+	height: .34rem;
+	line-height: .34rem;
+	text-align: center;
+	color: #F9CC00;
+	background: #000;
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+}
+.news .page-wrapper{
+	margin-bottom: .24rem;
+	margin-top: .4rem;
+}
+
+/*新闻详情*/
+.detail .con{
+	padding: 0 .24rem;
+	color: #40210F;
+	margin-top: .16rem;
+	margin-bottom: .24rem;
+}
+.detail .part1{
+	text-align: center;
+}
+.detail .part1 h3{
+	font-size: .3rem;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.detail .part1 .box{
+	font-size: .24rem;
+	margin-top: .08rem;
+}
+.detail .part1 .box span{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 .12rem;
+}
+.detail .part2{
+	margin-top: .36rem;
+	font-size: 0;
+}
+.detail .part2 p{
+	font-size: .24rem;
+	text-indent: .48rem;
+	margin-bottom: .2rem;
+	line-height: .44rem;
+}
+.detail .part2 img{
+	display: block;
+	max-width: 100%;
+	margin: .2rem auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

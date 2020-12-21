@@ -1,0 +1,222 @@
+.fenye-box{
+  margin-top: 0.7rem;
+}
+.zp1 .part1 ul{
+  width: 6.5rem;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 0.4rem;
+}
+.zp1 .part1 ul li{
+  display: inline-block;
+  margin-top: 0.3rem;
+  width: 3.1rem;
+}
+.zp1 .part1 ul img{
+  display: block;
+  width: 3.1rem;
+  height: 1.69rem;
+}
+.zp1 .part1 ul .p1{
+  width: 3.1rem;
+  height: 0.55rem;
+  position: relative;
+}
+.zp1 .part1 ul .p1 img{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.zp1 .part1 ul .p1::after{
+  content: "";
+  width: 0.07rem;
+  height: 0.63rem;
+  background: url(../img/zp/a_icon.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0;
+  bottom: -0.63rem;
+}
+
+.zp1 .part1 ul .p2{
+  color: #3e3a39;
+  margin-left: 0.1rem;
+  width: 2.9rem;
+  font-size: 0.24rem;
+  margin-top: 0.2rem;
+  font-family: "myfont_Magpie";
+}
+.zp1 .part1 ul .p2 span{
+  display: block;
+  transform: scale(0.91);
+  -webkit-transform: scale(0.91);
+  -o-transform: scale(0.91);
+  -moz-transform: scale(0.91);
+  -ms-transform: scale(0.91);
+  width: 110%;
+  margin-left: -5%;
+}
+.zp2 .part1 .str{
+  margin-left: 0.6rem;
+  padding-top: 0.36rem;
+  position: relative;
+  z-index: 0;
+}
+.zp2 .part1 .str::after{
+  content: "";
+  width: 3rem;
+  height: 3.76rem;
+  background: url(../img/zp/b_icon1.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0.36rem;
+  right: 0;
+  z-index: -1;
+}
+.zp2 .part1 .str .p1{
+  margin-top: 0.24rem;
+  font-size: 0.31rem;
+  width: 1.75rem;
+  padding-left: 0.15rem;
+  height: 0.38rem;
+  background: #b12124;
+  color: #ffffff;
+  line-height: 0.38rem;
+	font-family: "myfont_Magpie";
+}
+.zp2 .part1 .str .p2{
+  font-size: 0.28rem;
+  color: #595757;
+  line-height: 0.48rem;
+}
+.zp2 .part1 .list_Pic{
+  width: 5.6rem;
+  margin: auto;
+  margin-top: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+}
+.zp2 .part1 .list_Pic div{
+  display: inline-block;
+  width: 2.66rem;
+}
+.zp2 .part1 .list_Pic img{
+  display: block;
+  width: 2.66rem;
+  height: 4.14rem;
+}
+.zp2 .part1 .list_Pic p{
+  padding-top: 0.6rem;
+  background: url(../img/zp/b_icon2.png) center top no-repeat;
+  background-size: 2.42rem 0.79rem;
+  font-size: 0.3rem;
+  color: #3e3a39;
+  font-family: "myfont_Magpie";
+  text-align: center;
+}
+.zp2 .part1 ul{
+  margin: auto;
+  width: 6.3rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.35rem;
+}
+.zp2 .part1 ul li{
+  display: inline-block;
+  width: 2.01rem;
+}
+.zp2 .part1 ul li img{
+  display: block;
+  width: 2.01rem;
+  height: 3.13rem;
+}
+.zp2 .part1 ul li p{
+  padding-top: 0.38rem;
+  background: url(../img/zp/b_icon2.png) center top no-repeat;
+  background-size: 1.82rem 0.68rem;
+  font-size: 0.3rem;
+  color: #3e3a39;
+  font-family: "myfont_Magpie";
+  text-align: center;
+}
+.zp .part1 .str{
+  margin-left: 0.6rem;
+  margin-top: 0.6rem;
+  position: relative;
+  z-index: -1;
+}
+.zp .part1 .str::after{
+  content: "";
+  width: 3.71rem;
+  height: 2.81rem;
+  background: url(../img/zp/c1.jpg) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0;
+  top: 0.38rem;
+}
+.zp .part1 .str .p1{
+  margin-top: 0.24rem;
+  font-size: 0.31rem;
+  width: 1.75rem;
+  padding-left: 0.15rem;
+  height: 0.38rem;
+  background: #b12124;
+  color: #ffffff;
+  line-height: 0.38rem;
+	font-family: "myfont_Magpie";
+}
+.zp .part1 .str .p2{
+  margin-top: 0.3rem;
+  font-size: 0.28rem;
+  line-height: 0.36rem;
+  color: #595757;
+}
+.zp .part1 ul{
+  width: 6.3rem;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 0.75rem;
+}
+.zp .part1 ul li{
+  display: inline-block;
+  width: 2.01rem;
+}
+.zp .part1 ul li img{
+  display: block;
+  width: 2.01rem;
+  height: 3.13rem;
+}
+.zp .part1 ul li p{
+  padding-top: 0.38rem;
+  background: url(../img/zp/b_icon2.png) center top no-repeat;
+  background-size: 1.82rem 0.68rem;
+  font-size: 0.3rem;
+  color: #3e3a39;
+  font-family: "myfont_Magpie";
+  text-align: center;
+}
+
+.zp4 .part1 .str::after{
+  content: "";
+  width: 3.71rem;
+  height: 2.81rem;
+  background: url(../img/zp/d1.jpg) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0;
+  top: 0.38rem;
+}
+.zp5 .part1 .str::after{
+  content: "";
+  width: 3.71rem;
+  height: 2.81rem;
+  background: url(../img/zp/e1.jpg) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0;
+  top: 0.38rem;
+}

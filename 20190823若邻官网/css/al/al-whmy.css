@@ -1,0 +1,55 @@
+
+
+.mt01{
+	margin-top: 0.1rem;
+}
+.mt02{
+	margin-top: 0.2rem;
+}
+.mt05{
+	margin-top: 0.5rem;
+}
+.mt08{
+	margin-top: 0.8rem;
+}
+.p1{
+	color:#515151;
+	font-family: myfont_Light;
+	line-height: 0.36rem;
+}
+.p1 b{
+	color:#0c0c0c;
+	font-family: myfont_Medium;
+}
+
+.p2{
+	padding-left: 0.25rem;
+	box-sizing: border-box;
+	position:relative;
+	margin-top: 0.1rem;
+}
+.p2::before{
+	content:"";
+	display: inline-block;
+	width: 0.2rem;
+	height: 0.2rem;
+	background: url(../../img/al/whmy/icon.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	top:0.1rem;
+	left:0;
+}
+.p2 p{
+	display: inline-block;
+	vertical-align: top;
+	color:#515151;
+	line-height: 0.36rem;
+	font-family: myfont_Light;
+}
+.part-img{
+	display: block;
+	width: 100%;
+}
+.part1{
+	padding-bottom: 1rem;
+}

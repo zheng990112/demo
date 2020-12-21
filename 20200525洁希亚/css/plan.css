@@ -1,0 +1,62 @@
+/*20200713*/
+.plan {
+  padding-top: 0.6rem;
+}
+.plan p.titleBox{
+  background-color: #c79f62;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  margin: 0.4rem auto 0;
+  width: 6.7rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: 0.3rem;
+}
+.plan .word{
+  position: relative;
+}
+.plan .word p{
+  padding-left: 0.2rem;
+  background: url(../img/plan/plan1_02.jpg) left center no-repeat;
+  background-size: 0.1rem 0.11rem;
+  line-height: 0.43rem;
+  font-size: .24rem;
+  transform: scale(.75);
+  -webkit-transform: scale(.75);
+  -o-transform: scale(.75);
+  -moz-transform: scale(.75);
+  -ms-transform: scale(.75);
+  width: 120%;
+  margin-left: -10%;
+}
+.plan .word p span{
+  color: #c79f62;
+}
+.plan .word img{
+  width: 3.22rem;
+  height: 1.78rem;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -0.89rem;
+}
+
+.plan .word2{
+  padding: 0.3rem 0;
+}
+.plan .word2 p{
+  line-height: 0.45rem;
+  color: #595757;
+  font-size: .24rem;
+  transform: scale(.83);
+  -webkit-transform: scale(.83);
+  -o-transform: scale(.83);
+  -moz-transform: scale(.83);
+  -ms-transform: scale(.83);
+}
+.plan .word2 p span{
+  color: #2490d0;
+}
+.plans>img{
+  margin-bottom: 0.5rem;
+}

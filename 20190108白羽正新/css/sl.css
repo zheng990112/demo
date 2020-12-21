@@ -1,0 +1,225 @@
+
+
+.public-title .public-box .public-nei{
+	font-size: 0.34rem;
+}
+
+
+.part1 .part1-main .a1-img{
+	display: block;
+	width: 100%;
+	margin-top: 0.1rem;
+}
+.part1 .part1-main .p1{
+	padding:0 0.5rem;
+	text-indent: 0.44rem;
+	line-height: 0.36rem;
+	margin-top: 0.1rem;
+}
+.part1 .part1-main .p1 span{ 
+	display: block;
+	/*	font-size: .22rem;*/
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 109%;
+	margin-left: -4.5%;
+	position:relative;
+}
+.part1 .part1-main .p1 span::before{
+	content:"";
+	display:inline-block;
+	width: 0.18rem;
+	height: 0.18rem;
+	background: url(../img/pp/b1.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	left: 0;
+	top:0.1rem;
+}
+
+.part2 .part2-main{
+	width: 6.8rem;
+	margin:0 auto;
+}
+.part2 .part2-main ul li{
+	float: left;
+	width: 3.3rem;
+	height: 3.84rem;
+	border:1px solid #09767c;
+	box-sizing: border-box;
+	margin-right: 0.2rem;
+	position:relative;
+	text-align: center;
+	margin-top: 0.6rem;
+}
+.part2 .part2-main ul li:nth-child(2n){
+	margin-right: 0;
+}
+
+.part2 .part2-main ul li .li-top{
+	width: 2.58rem;
+	height: 0.53rem;
+	background: url(../img/sl/b1.jpg) no-repeat;
+	background-size: 100% 100%;
+	color:#fff;
+	font-family: myfont;
+	margin:0 auto;
+	margin-top: -0.26rem;
+	line-height: 0.58rem;
+	font-size: 0.28rem;
+	letter-spacing: 0.05rem;
+}
+.part2 .part2-main ul li .li-p1 span{
+	display: block;
+	/*	font-size: .18rem;*/
+	font-size: .24rem;
+	transform: scale(.67);
+	-webkit-transform: scale(.67);
+	-o-transform: scale(.67);
+	-moz-transform: scale(.67);
+	-ms-transform: scale(.67);
+	width: 150%;
+	margin-left: -25%;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: myfont;
+	color:#333333;
+	margin-top: 0.1rem;
+	white-space: nowrap;
+}
+.part2 .part2-main ul li .li-img{
+	width: 3.02rem;
+	height: 2.21rem;
+	margin:0 auto;
+	margin-top: 0.1rem;
+}
+.part2 .part2-main ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.part2 .part2-main ul li .li-p2 span{
+	display: block;
+	/*	font-size: .22rem;*/
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 109%;
+	margin-left: -4.5%;
+	text-align: center;
+	margin-top: 0.1rem;
+	white-space: nowrap;
+}
+
+
+.part2 .part2-main ul.ul1 li:nth-child(2n){
+	border:1px solid #d57b3a;
+}
+.part2 .part2-main ul.ul1 li:nth-child(2n) .li-top{
+	background: url(../img/sl/b2.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.part2 .part2-main ul.ul1 li:nth-child(2n) .li-p1 span{
+	color:#d57b3a;
+}
+
+
+.part2 .part2-main ul.ul2 li:nth-child(2n+1){
+	border:1px solid #d57b3a;
+}
+.part2 .part2-main ul.ul2 li:nth-child(2n+1) .li-top{
+	background: url(../img/sl/b2.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.part2 .part2-main ul.ul2 li:nth-child(2n+1) .li-p1 span{
+	color:#d57b3a;
+}
+
+.part3 .part3-top{
+	width: 7rem;
+	margin:0 auto;
+	border-bottom: 2px solid #a3a3a3;
+	padding-bottom: 0.04rem;
+	margin-top: 0.3rem;
+}
+.part3 .part3-top img{
+	display:inline-block;
+	vertical-align: middle;
+	width: 0.52rem;
+	height: 0.61rem;
+}
+.part3 .part3-top span{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 0.5rem;
+	font-family:myfont;
+}
+.part3 .part3-top .p1{
+	font-size: 0.24rem;
+	color:#a3a3a3;
+	font-family: myfont;
+	line-height: 0.4rem;
+	white-space: nowrap;
+}
+.part3 .part3-top .line{
+	width: 100%;
+	height: 1px;
+	background-color: #a3a3a3;
+}
+.part3 .part3-main{
+	width: 7rem;
+	margin:0 auto;
+}
+.part3 .part3-main ul li{
+	width: 3.41rem;
+	height: 2.14rem;
+	float: left;
+	margin-right: 0.18rem;
+	margin-top: 0.15rem;
+}
+.part3 .part3-main ul li:nth-child(2n){
+	margin-right: 0;
+}
+.part3 .part3-main ul li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.part3 .part3-top2{
+	margin-top: 0.6rem;
+}
+.part3 .part3-main2 ul li{
+	width: 3.37rem;
+	height: 2.39rem;
+	margin-right: 0.26rem;
+}
+.part3 .last_img{
+	display: block;
+	width: 100%;
+	margin-top: 0.2rem;
+}
+
+
+@media (max-width:320px) {
+	.part2 .part2-main ul li .li-p2 span{
+		display: block;
+		/*	font-size: .2rem;*/
+		font-size: .24rem;
+		transform: scale(.833);
+		-webkit-transform: scale(.833);
+		-o-transform: scale(.833);
+		-moz-transform: scale(.833);
+		-ms-transform: scale(.833);
+		width: 120%;
+		margin-left: -10%;
+		margin-top: 0;
+	}
+}

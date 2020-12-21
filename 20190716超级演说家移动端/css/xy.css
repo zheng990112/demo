@@ -1,0 +1,105 @@
+.section1 .section-info {
+    padding-bottom: 0.37rem;
+}
+
+.section1 .section-info .info-title {
+    margin-top: 0.26rem;
+}
+
+.section1 .section-info .info-main .p-box {
+    margin-top: 0.47rem;
+}
+
+.section1 .section-info .info-main .img-box {
+    margin-top: 0.37rem;
+}
+
+.section2 .section-info {
+    padding-bottom: 0.32rem;
+}
+
+.section2 .section-info .info-title {
+    margin-top: 0.43rem;
+}
+
+.section2 .section-info .info-main .p-box {
+    margin-top: 0.27rem;
+}
+
+.section2 .section-info .info-main .img-box {
+    margin-top: 0.45rem;
+}
+
+.section3 .section-info {
+    padding-bottom: 0.32rem;
+}
+
+.section3 .section-info .info-main .p-box {
+    margin-top: 0.50rem;
+}
+
+.section3 .section-info .info-main .p-box p+p {
+    margin-top: 0.28rem;
+}
+
+.section3 .section-info .info-main .p-box p span.color {
+    color: #c69a48;
+}
+
+.section3 .section-info .info-main .img-box {
+    margin-top: 0.55rem;
+}
+
+.section4 .info-main {
+    padding-bottom: 0.49rem;
+}
+
+.section4 .section-info .info-title {
+    margin-top: 0.30rem;
+}
+
+.section4 .info-main .instructors {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 0.13rem;
+}
+
+.section4 .info-main .instructors .instructor {
+    width: 3.08rem;
+    margin-top: 0.37rem;
+}
+
+.section4 .info-main .instructor .instructor-desc {
+    text-align: center;
+    margin-top: 0.32rem;
+}
+
+.section4 .info-main .instructor .instructor-desc p.name {
+    font-size: 0.24rem;
+    font-weight: bold;
+    line-height: 0.41rem;
+}
+
+.section4 .info-main .instructor .instructor-desc p.desc {
+    font-size: 0.20rem;
+    line-height: 0.33rem;
+    margin-top: 0.20rem;
+}
+
+.section4 .info-main .instructors .instructor:last-of-type {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section4 .info-main .instructors .instructor:last-of-type .instructor-img {
+    width: 3.08rem;
+}
+
+.section4 .info-main .instructors .instructor:last-of-type .instructor-desc {
+    width: 3.08rem;
+}

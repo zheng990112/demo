@@ -1,0 +1,163 @@
+.content {
+    background-color: #0a4324;
+    padding-top: 0.60rem;
+    padding-bottom: 0.64rem;
+    /* position: relative; */
+    background-image: url('../img/cp/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 100%;
+}
+
+.title {
+    width: 5.90rem;
+    height: 1.65rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.title .text {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 1.65rem;
+    font-size: 0.83rem;
+    font-family: myfont2;
+    /* font-weight: bold; */
+    color: #bb8040;
+    letter-spacing: 0.01rem;
+}
+
+.title .text p {
+    font-size: 0.55rem;
+    background-image: -webkit-linear-gradient(left, #cc7413, #c5833f);
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title .text p .big {
+    font-size: 0.83rem;
+}
+
+.title .sub_title {
+    position: absolute;
+    top: 1.43rem;
+    left: 50%;
+    width: 3.95rem;
+    height: 0.40rem;
+    margin-left: -1.925rem;
+}
+
+.title .sub_title .text {
+    margin-top: 0.03rem;
+    line-height: 0.40rem;
+    font-size: 0.24rem;
+    background-image: -webkit-linear-gradient(bottom, #cc7413, #c5833f);
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0.01rem 0px 0px #bb8040, -0.003rem 0px 0px #fff;
+    ;
+}
+
+.main {
+    padding: 0.75rem 0.32rem 0;
+    text-align: center;
+    font-size: 0;
+}
+
+.hr {
+    width: 5.77rem;
+    margin-top: 0.26rem;
+}
+
+.list {
+    margin-top: 0.02rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.list .item {
+    background-color: #bb8040;
+    color: #0a4324;
+    font-size: 0.24rem;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0.18rem;
+    height: 0.50rem;
+    line-height: 0.50rem;
+}
+
+.list.list1 .item {
+    width: 2.16rem;
+}
+
+.list.list2 .item {
+    width: 1.65rem;
+}
+
+.list.list3 .item {
+    width: 3.30rem;
+}
+
+.list.list4 .item {
+    width: 100%;
+}
+
+.main .img.mtimg {
+    margin-top: 0.40rem;
+}
+
+.part2 {
+    margin-top: 1.15rem;
+}
+
+.part3 {
+    margin-top: 1.12rem;
+}
+
+.part4 {
+    margin-top: 1.23rem;
+}
+
+.part5 {
+    margin-top: 1.05rem;
+}
+
+.content .btns {
+    width: 5.40rem;
+    margin: 0 auto;
+    padding: 0.65rem 0 0.55rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .btns .btn {
+    width: 1.75rem;
+    height: 0.85rem;
+    position: relative;
+}
+
+.content .btns .btn a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 0.85rem;
+    font-size: 0.28rem;
+    font-family: myfont2;
+    font-weight: bold;
+    color: #bb8040;
+}

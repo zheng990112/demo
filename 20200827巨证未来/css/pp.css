@@ -1,0 +1,148 @@
+
+.pp1{
+	height: 100%;
+	position:relative;
+}
+.pp1 .pp1-bg{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.pp1 .public-title .p1,
+.pp1 .public-title .p2{
+	color:#fff;
+}
+.pp1 .box{
+	width: 5.9rem;
+	height: 1.3rem;
+	background: url(../img/pp/a2.png) no-repeat;
+	background-size: 100% 100%;
+	margin:0 auto;
+	text-align: center;
+	margin-top: 0.5rem;
+}
+.pp1 .box .p1{
+	line-height: 0.54rem;
+	color:#fff;
+}
+.pp1 .box .p1 b{
+	font-size: 0.28rem;
+	display: inline-block;
+	vertical-align: middle;
+    font-weight: bold;
+}
+.pp1 .box .p1 p{
+	display: inline-block;
+	vertical-align: middle;
+}
+.pp1 .box .p1 p span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+	margin-left:-20%;
+	text-transform: uppercase;
+}
+.pp1 .box .p2{
+	font-size: 0.28rem;
+	color:#333333;
+	line-height: 0.75rem;
+	font-weight: bold;
+}
+
+
+
+.pp2 .pp2-main{
+	width:6.9rem;
+	margin:0 auto;
+}
+.pp2 .pp2-main ul li{
+	width:6.9rem;
+	height: 5rem;
+	border-radius: 0.1rem;
+	-moz-box-shadow: 0px 0px 0.1rem #888888;
+    box-shadow: 0px 0px 0.1rem #888888;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+.pp2 .pp2-main ul li .li-img{
+	width:6.9rem;
+	height:3.87rem;
+	border-radius: 0.1rem 0.1rem 0 0;
+}
+.pp2 .pp2-main ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 0.1rem 0.1rem 0 0;
+}
+.pp2 .pp2-main ul li .li-p1{
+	font-size: 0.28rem;
+	color:#333;
+	font-weight: bold;
+    margin-top: 0.15rem;
+}
+.pp2 .pp2-main ul li .li-p2{
+	font-size: 0.24rem;
+    margin-top: 0.05rem;
+    color:#c30d23;
+}
+
+
+
+.pp3 ul li{
+	width: 6.9rem;
+	height: 6.4rem;
+	margin:0 auto;
+	background: url(../img/pp/c1.png) no-repeat;
+	background-size: 100% 100%;
+	color:#fff;
+	margin-top: 0.4rem;
+}
+.pp3 ul li:nth-child(2n){
+	background: url(../img/pp/c2.png) no-repeat;
+	background-size: 100% 100%;
+}
+.pp3 ul li .p1{
+	font-size: 0.34rem;
+	font-weight: bold;
+	line-height: 0.8rem;
+	padding-left: 0.55rem;
+	box-sizing: border-box;
+}
+.pp3 ul li img{
+	display: block;
+	width: 100%;
+	position:relative;
+}
+.pp3 ul li .p2{
+	font-size: 0.24rem;
+	padding-left: 0.55rem;
+	box-sizing: border-box;
+	margin-top: 0.2rem;
+	line-height: 0.36rem;
+}
+.pp3 ul li .p2 span{
+	font-size: 0.28rem;
+	font-weight: bold;
+	position:relative;
+}
+.pp3 ul li .p2 span::before{
+	content:"";
+	display: inline-block;
+	width: 0.12rem;
+	height: 0.24rem;
+	background: url(../img/pp/c-icon.png) no-repeat;
+	background-size:100% 100%;
+	position:absolute;
+	top: 50%;
+	margin-top: -0.12rem;
+	left: -0.3rem;
+}

@@ -1,0 +1,41 @@
+.subTitle {
+  font-size: 0.42rem;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 0.3rem;
+}
+.pic {
+  margin: auto;
+  width: 5.98rem;
+  height: 3.35rem;
+  border: 0.01rem #b69979 solid;
+  margin-top: 0.35rem;
+}
+.pic img {
+  display: block;
+  width: 5.88rem;
+  height: 3.25rem;
+  margin: auto;
+  margin-top: 0.05rem;
+}
+.btn {
+  width: 3.8rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  margin: auto;
+  margin-top: 0.2rem;
+}
+.btn p {
+  color: #ffffff;
+  font-size: 0.28rem;
+  float: left;
+}
+.btn img {
+  width: 1.92rem;
+  height: 0.4rem;
+  float: right;
+  border-radius: 0.3rem;
+}
+.fenye-box {
+  margin-top: 0.6rem;
+}

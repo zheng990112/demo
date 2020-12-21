@@ -1,0 +1,390 @@
+.subTitle {
+  width: 5.24rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 0.25rem;
+}
+
+.subTitle65 {
+  width: 6.5rem;
+}
+
+.subTitle .p1 {
+  font-size: 0.34rem;
+  color: #ffa300;
+  font-weight: bold;
+  position: relative;
+  text-transform: uppercase;
+  line-height: 0.388rem;
+}
+
+.subTitle .p1 p {
+  position: relative;
+}
+
+.subTitle .p1 .line {
+  content: "";
+  display: inline-block;
+  width: 1.3rem;
+  height: 1px;
+  background-color: #ffa300;
+  position: absolute;
+  top: 50%;
+}
+
+.subTitle .p1 .lineL {
+  left: 0;
+}
+
+.subTitle .p1 .lineR {
+  right: 0;
+}
+
+.subTitle .p1 .lineL::after {
+  content: "";
+  display: inline-block;
+  width: 0.34rem;
+  height: 0.07rem;
+  background-color: #ffa300;
+  position: absolute;
+  bottom: -0.02rem;
+  right: 0.13rem;
+}
+
+.subTitle .p1 .lineR::before {
+  content: "";
+  display: inline-block;
+  width: 0.34rem;
+  height: 0.07rem;
+  background-color: #ffa300;
+  position: absolute;
+  bottom: -0.02rem;
+  left: 0.13rem;
+}
+
+.subTitle .p2 {
+  font-size: 0.34rem;
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 0.388rem;
+}
+
+.first-p1 {
+  color: #000000;
+  line-height: 0.4rem;
+  width: 6.5rem;
+  margin: auto;
+  margin-top: 0.3rem;
+  text-align: justify;
+}
+
+.first-p1 span {
+  display: block;
+  transform: scale(0.91);
+  -webkit-transform: scale(0.91);
+  -o-transform: scale(0.91);
+  -moz-transform: scale(0.91);
+  -ms-transform: scale(0.91);
+  width: 110%;
+  margin-left: -5%;
+}
+
+.titleYellow {
+  font-size: 0.272rem;
+  color: #000000;
+  text-align: center;
+  margin-top: 0.35rem;
+  font-weight: bold;
+}
+
+.titleYellow span {
+  display: inline-block;
+  position: relative;
+}
+
+.titleYellow span::before {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 0.14rem;
+  background-color: #faee00;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.pp1 .pate1 .last-div {
+  width: 100%;
+  height: 2.85rem;
+  position: relative;
+  padding-top: 0.3rem;
+}
+
+.pp1 .pate1 .last-div img {
+  position: absolute;
+  width: 100%;
+  height: 3.08rem;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.pp1 .pate1 .last-div p {
+  margin-left: 0.88rem;
+  color: #ffa300;
+  font-weight: bold;
+  color: 0.24rem;
+  line-height: 0.24rem;
+  text-transform: uppercase;
+}
+
+.pp1 .pate1 .last-div p span {
+  display: block;
+  transform: scale(0.75);
+  -webkit-transform: scale(0.75);
+  -o-transform: scale(0.75);
+  -moz-transform: scale(0.75);
+  -ms-transform: scale(0.75);
+  width: 133%;
+  margin-left: -16.5%;
+}
+
+.pp1 .pate2 .listPic {
+  width: 6.5rem;
+  margin: auto;
+}
+
+.pp1 .pate2 .listPic li {
+  float: left;
+  width: 100%;
+  margin-top: 0.6rem;
+}
+
+.pp1 .pate2 .listPic div {
+  float: left;
+  width: 2.22rem;
+  height: 1.15rem;
+  position: relative;
+}
+
+.pp1 .pate2 .listPic img {
+  display: block;
+  width: 100%;
+  height: 1.15rem;
+}
+
+.pp1 .pate2 .listPic h6 {
+  width: 1.42rem;
+  height: 0.34rem;
+  line-height: 0.34rem;
+  text-align: center;
+  background-color: #faee00;
+  border-radius: 0.3rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -0.71rem;
+  top: -0.17rem;
+}
+
+.pp1 .pate2 .listPic h6 span {
+  display: block;
+  transform: scale(0.91);
+  -webkit-transform: scale(0.91);
+  -o-transform: scale(0.91);
+  -moz-transform: scale(0.91);
+  -ms-transform: scale(0.91);
+  width: 110%;
+  margin-left: -5%;
+}
+
+.pp1 .pate2 .listPic p {
+  float: right;
+  line-height: 0.4rem;
+  width: 4.08rem;
+  color: #000000;
+  text-align: justify;
+}
+
+.pp1 .pate2 .listPic p span {
+  display: block;
+  transform: scale(0.83);
+  -webkit-transform: scale(0.83);
+  -o-transform: scale(0.83);
+  -moz-transform: scale(0.83);
+  -ms-transform: scale(0.83);
+  width: 120%;
+  margin-left: -10%;
+}
+
+.pp1 .pate2 .lastImg {
+  display: block;
+  width: 100%;
+  height: 1.65rem;
+  margin-top: 0.2rem;
+}
+
+.pp1 .pate3 .subTitle .p1 .line {
+  width: 2.3rem;
+}
+
+.pp1 .pate3 .listPic {
+  width: 5.54rem;
+  margin: auto;
+  margin-top: 0.4rem;
+}
+
+.pp1 .pate3 .listPic li {
+  width: 2.67rem;
+  float: left;
+}
+
+.pp1 .pate3 .listPic li:nth-child(2n) {
+  float: right;
+}
+
+.pp1 .pate3 .listPic li img {
+  width: 100%;
+  height: 1.73rem;
+  display: block;
+}
+
+.pp1 .pate3 .listPic li p {
+  color: #000000;
+  text-align: center;
+  font-size: 0.24rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.2rem;
+}
+
+.pp1 .pate3 .listPic li p span {
+  display: block;
+  transform: scale(0.91);
+  -webkit-transform: scale(0.91);
+  -o-transform: scale(0.91);
+  -moz-transform: scale(0.91);
+  -ms-transform: scale(0.91);
+  width: 110%;
+  margin-left: -5%;
+}
+
+.pp2 .pate1 .subTitle .p1 .line {
+  width: 1.8rem;
+}
+
+.pp2 .listPic {
+  width: 5.5rem;
+  margin: auto;
+  margin-top: 0.25rem;
+}
+
+.pp2 .listPic li {
+  width: 2.58rem;
+  float: left;
+  text-align: center;
+}
+
+.pp2 .listPic li:nth-child(2n) {
+  float: right;
+}
+
+.pp2 .listPic li img {
+  width: 100%;
+  height: 1.71rem;
+  display: block;
+}
+
+.pp2 .listPic .p1 {
+  margin-top: 0.25rem;
+  width: 100%;
+  position: relative;
+}
+
+.pp2 .listPic .p1 p {
+  width: 1.54rem;
+  display: inline-block;
+  height: 0.38rem;
+  background: url(../img/pp/p2-icon-a1.png) center no-repeat;
+  background-size: 100%;
+  line-height: 0.38rem;
+  font-size: 0.24rem;
+  font-weight: bold;
+  color: #000000;
+}
+
+.pp2 .listPic .p1::after,
+.pp2 .listPic .p1::before {
+  content: "";
+  width: 0.4rem;
+  height: 0.02rem;
+  background-color: #7f7f7f;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  margin-top: -0.01rem;
+}
+
+.pp2 .listPic .p1::before {
+  left: 0;
+}
+
+.pp2 .listPic .p1::after {
+  right: 0;
+}
+
+.pp2 .listPic .p2 {
+  color: #000000;
+  font-size: 0.24rem;
+  line-height: 0.4rem;
+  min-height: 2rem;
+  text-align: justify;
+}
+
+.pp2 .listPic p span {
+  display: block;
+  transform: scale(0.91);
+  -webkit-transform: scale(0.91);
+  -o-transform: scale(0.91);
+  -moz-transform: scale(0.91);
+  -ms-transform: scale(0.91);
+  width: 110%;
+  margin-left: -5%;
+}
+
+.pp2 .lastImg {
+  width: 100%;
+  height: 0;
+  position: relative;
+}
+
+.pp2 .lastImg img {
+  width: 3.38rem;
+  height: 5.55rem;
+  position: absolute;
+  bottom: -1.8rem;
+  right: 0.3rem;
+  z-index: -1;
+}
+
+.pp1 .btn-box {
+  margin: 0.5rem auto;
+}
+
+.pp2 .btn-box {
+  margin-top: 0.7rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 360px) {
+  .pp1 .pate2 .listPic p span {
+    display: block;
+    transform: scale(0.75);
+    -webkit-transform: scale(0.75);
+    -o-transform: scale(0.75);
+    -moz-transform: scale(0.75);
+    -ms-transform: scale(0.75);
+    width: 133%;
+    margin-left: -16.5%;
+  }
+}

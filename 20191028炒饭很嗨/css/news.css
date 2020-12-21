@@ -1,0 +1,135 @@
+html, body {
+  background: #fff;
+}
+
+.part1 .news-img {
+  display: block;
+  width: 14.784rem;
+  height: 8.2133333333rem;
+  margin: 0 auto;
+}
+
+.part1 .part1-main {
+  width: 14.784rem;
+  margin: 0 auto;
+}
+
+.part1 .news-btn {
+  font-size: 0.5973333333rem;
+  color: #fff;
+  margin-top: 0.8533333333rem;
+}
+
+.part1 .news-btn p {
+  display: inline-block;
+  vertical-align: middle;
+  width: 3.9466666667rem;
+  height: 1.152rem;
+  border-radius: 0.576rem;
+  text-align: center;
+  line-height: 1.152rem;
+}
+
+.part1 .news-btn p.on {
+  background: #d8621c;
+  color: #fff;
+  font-size: 0.768rem;
+}
+
+.part1 .box {
+  font-size: 0.512rem;
+}
+
+.part1 .box a {
+  display: block;
+  color: #666666;
+  border-bottom: 1px dotted #666666;
+  line-height: 1.4933333333rem;
+}
+
+.part1 .box .news-fonts {
+  float: left;
+  width: 10.0266666667rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.part1 .box .news-time {
+  float: right;
+}
+
+.part1 .hide {
+  display: none;
+}
+
+.part1 .fenye-btn {
+  text-align: center;
+}
+
+.part1 .fenye-btn a {
+  display: inline-block;
+  font-size: 0.4693333333rem;
+  margin: 0 0.1066666667rem;
+}
+
+.part1 .fenye-btn a:first-child,
+.part1 .fenye-btn a:last-child {
+  color: #fff;
+  background-color: #d8631c;
+  width: 2.7306666667rem;
+  height: 0.7253333333rem;
+  border-radius: 0.3626666667rem;
+  margin: 0 0.4266666667rem;
+}
+
+.news-b {
+  height: 4.9066666667rem;
+  position: relative;
+  margin-top: 1.7066666667rem;
+}
+
+.news-b .btn-bg {
+  position: absolute;
+  display: block;
+  width: 100%;
+}
+
+.main .control-page .control-box a {
+  background-color: #fff;
+}
+
+.main .control-page .control-box a span {
+  color: #d8621c;
+}
+
+.newsdetail {
+  width: 14.784rem;
+  margin: 0 auto;
+  margin-top: 0.64rem;
+}
+
+.newsdetail-tile {
+  font-size: 0.7253333333rem;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 0.4266666667rem;
+  border-bottom: 1px solid #000;
+}
+
+.newsdetail-time {
+  font-size: 0.4266666667rem;
+  line-height: 1.28rem;
+}
+
+.newsdetail-time span {
+  margin-right: 0.4266666667rem;
+}
+
+.newsdetail-fonts {
+  font-size: 0.4693333333rem;
+  text-align: justify;
+  margin-top: 0.2133333333rem;
+}
+
+/*# sourceMappingURL=news.css.map */

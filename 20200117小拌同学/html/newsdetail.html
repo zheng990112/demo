@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+		<script src="../js/hotcss.js"></script>
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/newsdetail.css" />
+	</head>
+	<body>
+		<div class="header">
+			<div class="logo"><img src="../img/logo.jpg" alt="" /></div>
+			<div class="top"><img src="../img/top.png" alt="" /></div>
+			<div class="nav"><div class="img1"><p>导航</p><img src="../img/nav-icon.png" alt="" /></div><div class="img2"><img src="../img/close.png" alt="" /></div></div>
+		</div>
+		<div class="menu">
+			<div class="menu-box">
+				<div class="menu-title">导航</div>
+				<ul>
+					<li class="menu-item"><a href="index.html" class="title">首页</a></li>
+					<li class="menu-item"><a href="pp.html" class="title">小拌自述</a></li>
+					<li class="menu-item"><a href="cp.html" class="title">花拌食尚</a></li>
+					<li class="menu-item"><a href="view.html" class="title">视觉展示</a></li>
+					<li class="menu-item"><a href="ys.html" class="title">核心优势</a></li>
+					<li class="menu-item"><a href="hz.html" class="title">合作共赢</a></li>
+					<li class="menu-item  active"><a href="news.html" class="title">品牌动态</a></li>
+					<li class="menu-item"><a href="lx.html" class="title">联系我们</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer">
+			<a href="tel:123456"><img src="../img/tel.png" alt="" /></a>
+			<a href="index.html"><img src="../img/index.png" alt="" /></a>
+			<a href="lx.html"><img src="../img/msg.png" alt="" /></a>
+		</div>
+		<div class="main newsdetail">
+			<div class="public-title">品牌资讯</div>
+			<div class="newsdetail-title">品牌资讯</div>
+			<div class="newsdetail-time">
+				<span>时间：2020-20-20</span>
+				<span>浏览人数：9999</span>
+			</div>
+			<img src="../img/hz/a2.jpg" alt="" />
+			<p>品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯</p>
+			<p>品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯</p>
+			<p>品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯</p>
+			<p>品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯</p>
+			<p>品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯品牌资讯</p>
+		</div>
+		
+		
+		
+		<script src="../js/jquery-1.11.2.min.js"></script>
+		<!--<script src="../js/common.js"></script>-->
+		<script>
+			$('.menu .item a.active').parents('li').addClass('active').siblings().removeClass('active');
+	var img_flag = true;
+	$('.nav').on('click',function(){
+		if(img_flag){
+			$('.menu').animate({top: '0'},'10');
+			$(".header .nav .img1").css({"display": "none"})
+			$(".header .nav .img2").css({"display": "block"})
+			img_flag = false;
+		}else{
+			$('.menu').animate({top: "-100%"},'10');
+			$(".header .nav .img1").css({"display": "block"})
+			$(".header .nav .img2").css({"display": "none"})
+			$('.bg').hide();
+			img_flag = true;
+		}
+	})
+	$(".menu ul li .item a").on('click',function(){
+		location.reload();
+	})
+		</script>
+	</body>
+</html>

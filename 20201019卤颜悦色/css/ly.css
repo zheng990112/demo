@@ -1,0 +1,705 @@
+.ly1 .part1 .first_img{
+  display: block;
+  width: 6.2rem;
+  margin: auto;
+  margin-top: 0.28rem;
+  border: 0.05rem solid #c1c1c1;
+  margin-bottom: 0.4rem;
+}
+.ly1 .part1 p{
+  width: 6.3rem;
+  margin: auto;
+  text-align: justify;
+  color: #595757;
+  font-size: 0.24rem;
+  line-height: 0.38rem;
+  margin-bottom: 0.2rem;
+}
+.ly2{
+  background: #ffffff;
+}
+.ly2 .part1 .first_img{
+  width: 100%;
+  height: 5.24rem;
+  display: block;
+  margin-top: -2rem;
+}
+.ly2 .part1 .p1{
+  font-size: 0.24rem;
+  width: 6.3rem;
+  margin: auto;
+  color: #595757;
+  margin-top: 0.15rem;
+  line-height: 0.38rem;
+}
+.ly2 .part2{
+  margin-top: 0.85rem;
+  position: relative;
+  z-index: 0;
+}
+.ly2 .part2::after{
+  content: "";
+  width: 3.92rem;
+  height: 7.55rem;
+  background: url(../img/ly/b2.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+.ly2 .part2 .part_mian{
+  width: 4.5rem;
+  text-align: center;
+}
+.ly2 .part2 .p1{
+  font-size: 0.61rem;
+  color: #3e3a39;
+  font-family: "myfont_Magpie";
+  display: inline-block;
+  position: relative;
+  padding-bottom: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+.ly2 .part2 .p1::after{
+  content: "";
+  width: 0.64rem;
+  height: 0.05rem;
+  background: #a62024;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -0.32rem;
+}
+.ly2 .part2 .p2{
+  font-size: 0.24rem;
+  color: #595757;
+  line-height: 0.5rem;
+}
+
+.ly3 .main::before{
+  content: "";
+  width: 1.02rem;
+  height: 1.26rem;
+  background: url(../img/ly/c_bg.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+  top: 1.9rem;
+  z-index: -1;
+}
+.ly3 .part1{
+  position: relative;
+  z-index: 0;
+}
+.ly3 .part1::after{
+  content: "";
+  width: 100%;
+  height: 1.25rem;
+  background: url(../img/ly/c_bg3.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  z-index: -1;
+}
+.ly3 .part1 .first_img{
+  margin-top: 2rem;
+  position: relative;
+}
+.ly3 .part1 .first_img img{
+  display: block;
+  width: 6.24rem;
+  margin: auto;
+}
+.ly3 .part1 .first_img::after{
+  content: "";
+  width: 6.54rem;
+  height: 2.47rem;
+  background: url(../img/ly/c_icon1.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: -2rem;
+  left: 0;
+}
+.ly3 .part1 .first_img p{
+  width: 6.24rem;
+  height: 0.22rem;
+  margin: auto;
+  position: relative;
+}
+.ly3 .part1 .first_img p::after{
+  content: "";
+  position: absolute;
+  height: 0.22rem;
+  width: 5.14rem;
+  background: #d2147d;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.ly3 .part1 .p1{
+  width: 6.25rem;
+  margin: auto;
+  text-align: justify;
+  font-size: 0.24rem;
+  color: #595757;
+  line-height: 0.36rem;
+  margin-top: 0.35rem;
+}
+.ly3 .part1 ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 6.2rem;
+  margin: auto;
+  padding-top: 0.15rem;
+  font-size: 0;
+}
+.ly3 .part1 ul li{
+  width: 2.86rem;
+  margin-top: 0.15rem;
+  text-align: center;
+}
+.ly3 .part1 ul img{
+  display: block;
+  margin: auto;
+  width: 2.86rem;
+  height: 3.98rem;
+}
+.ly3 .part1 ul .p1{
+  margin: auto;
+  width: 0.2rem;
+  height: 0.2rem;
+  border-radius: 50%;
+  background-color: #3e3a39;
+  margin-top: 0.15rem;
+}
+.ly3 .part1 ul .p2{
+  position: relative;
+  font-size: 0.34rem;
+  color: #d2147d;
+  font-family: "myfont_Magpie";
+  padding-bottom: 0.6rem;
+  overflow: hidden;
+}
+.ly3 .part1 ul .p2::after{
+  content: "";
+  width: 0.64rem;
+  height: 0.06rem;
+  background: #d2147d;
+  position: absolute;
+  top: 0.5rem;
+  left: 50%;
+  margin-left: -0.32rem;
+}
+.ly3 .part1 ul .p2::before{
+  content: "";
+  width: 2.66rem;
+  height: 2.66rem;
+  border-radius: 50%;
+  border: 0.1rem solid #e9e9e9;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1.43rem;
+}
+.ly3 .part1 ul .p3{
+  font-size: 0.24rem;
+  color: #595757;
+  text-align: justify;
+  line-height: 0.38rem;
+  margin-top: 0.2rem;
+}
+.ly3 .part1 ul .p3 span{
+  font-weight: bold;
+}
+.ly3 .part2{
+  position: relative;
+  margin-top: 0.35rem;
+  padding-top: 0.8rem;
+  padding-bottom: 4.8rem;
+}
+.ly3 .part2::after{
+  content: "";
+  width: 100%;
+  height: 13.33rem;
+  background: url(../img/ly/c_bg3.jpg) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+.ly3 .part2::before{
+  content: "";
+  width: 100%;
+  height: 6.04rem;
+  background: url(../img/ly/c10.jpg) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.ly3 .part2 .p1,
+.ly3 .part2 .p2{
+  font-size: 0.54rem;
+  text-align: center;
+  font-family: "myfont_Magpie";
+  color: #ffffff;
+}
+
+.ly3 .part2 .p2 span{
+  color: #a62024;
+}
+
+.ly3 .part2 ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 6.2rem;
+  margin: auto;
+  font-size: 0;
+  padding-top: 0.1rem;
+}
+.ly3 .part2 ul li{
+  width: 2.52rem;
+  text-align: center;
+  margin-top: 0.2rem;
+}
+.ly3 .part2 ul img{
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  width: 2.52rem;
+  height: 2.52rem;
+}
+.ly3 .part2 ul .p3{
+  margin: auto;
+  width: 0.1rem;
+  height: 0.1rem;
+  border-radius: 50%;
+  background-color: #ffffff;
+  margin-top: 0.25rem;
+}
+.ly3 .part2 ul .p4{
+  font-family: "myfont_Magpie";
+  font-size: 0.46rem;
+  line-height: 0.5rem;
+  color: #ffffff;
+  margin-top: 0.1rem;
+  position: relative;
+  overflow: hidden;
+}
+.ly3 .part2 ul .p4::before{
+  content: "";
+  width: 2.32rem;
+  height: 2.32rem;
+  border-radius: 50%;
+  border: 0.1rem solid #4a4849;
+  position: absolute;
+  bottom: 0.4rem;
+  left: 50%;
+  margin-left: -1.26rem;
+}
+.ly3 .part3{
+  position: relative;
+  padding-top: 1rem;
+  z-index: 0;
+}
+.ly3 .part3::after{
+  content: "";
+  width: 100%;
+  height: 1.25rem;
+  background: url(../img/ly/c_bg3.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: -0.5rem;
+  left: 0;
+  z-index: -1;
+}
+.ly3 .part3 .p1,
+.ly3 .part3 .p2{
+  text-align: center;
+  font-size: 0.54rem;
+  line-height: 0.58rem;
+  color: #3e3a39;
+  font-family: "myfont_Magpie";
+}
+.ly3 .part3 .p2{
+  color: #a62024;
+}
+.ly3 .part3 ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 6.2rem;
+  margin: auto;
+  padding-top: 0.15rem;
+  font-size: 0;
+}
+.ly3 .part3 ul li{
+  width: 3.03rem;
+  margin-top: 0.15rem;
+  text-align: center;
+  margin-top: 0.2rem;
+}
+.ly3 .part3 ul img{
+  display: block;
+  margin: auto;
+  width: 3.03rem;
+  height: 4.01rem;
+}
+.ly3 .part3 ul .p3{
+  position: relative;
+  font-size: 0.4rem;
+  color: #d2147d;
+  font-family: "myfont_Magpie";
+  padding-bottom: 0.6rem;
+  overflow: hidden;
+}
+.ly3 .part3 ul .p3::after{
+  content: "";
+  width: 0.64rem;
+  height: 0.08rem;
+  background: #d2147d;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -0.32rem;
+}
+.ly3 .part3 ul .p3::before{
+  content: "";
+  width: 2.83rem;
+  height: 2.83rem;
+  border-radius: 50%;
+  border: 0.1rem solid #e9e9e9;
+  position: absolute;
+  bottom: 0.25rem;
+  left: 0;
+}
+.ly3 .part3 ul .p3 span{
+  display: block;
+  margin: auto;
+  width: 0.16rem;
+  height: 0.16rem;
+  border-radius: 50%;
+  background-color: #3e3a39;
+  margin-top: 0.15rem;
+}
+.ly3 .part3 ul .p4{
+  width: 2.8rem;
+  margin: auto;
+  font-size: 0.24rem;
+  color: #595757;
+  line-height: 0.38rem;
+  text-align: justify;
+  margin-top: 0.25rem;
+}
+.ly3 .part4{
+  position: relative;
+  z-index: -1;
+  padding-top: 1.44rem;
+}
+.ly3 .part4::after{
+  content: "";
+  width: 100%;
+  height: 1.94rem;
+  background: url(../img/ly/c4_bg.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: -0.2rem;
+  left: 0;
+  z-index: -1;
+}
+.ly3 .part4::before{
+  content: "";
+  width: 2.39rem;
+  height: 2.8rem;
+  background: url(../img/ly/c4_bg2.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: 0.6rem;
+  right: 0;
+  z-index: -1;
+}
+.ly3 .part4 .part_title{
+	font-family: "myfont_Magpie";
+  font-size: 0.54rem;
+  line-height: 0.58rem;
+  text-align: center;
+}
+.ly3 .part4 .part_title .p1{
+  color: #3e3a39;
+}
+.ly3 .part4 .part_title .p2{
+  color: #a62024;
+}
+.ly3 .part4 ul{
+  width: 6.3rem;
+  margin: auto;
+  font-size: 0;
+  padding-top: 0.4rem;
+}
+.ly3 .part4 ul li{
+  float: left;
+  margin-right: 0.45rem;
+  width: 1.8rem;
+  position: relative;
+  margin-top: 0.1rem;
+}
+.ly3 .part4 ul li:nth-child(3n){
+  margin-right: 0;
+}
+.ly3 .part4 ul img{
+  width: 1.75rem;
+  height: 1.75rem;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  border: 0.05rem solid #cbcbcb;
+}
+.ly3 .part4 ul .p1{
+  position: absolute;
+  top: 1.4rem;
+  left: 50%;
+  margin-left: -0.325rem;
+  width: 0.65rem;
+  height: 0.65rem;
+  line-height: 1;
+	font-family: "myfont_Magpie";
+  color: #ffffff;
+  font-size: 0.56rem;
+  background: #d5147d;
+  border-radius: 50%;
+  text-align: center;
+  border: 1px solid #cbcbcb;
+}
+.ly3 .part4 ul .p2{
+  margin-top: 0.4rem; 
+  padding-top: 0.1rem;
+  text-align: justify;
+  font-size: 0.24rem;
+  color: #595757;
+  line-height: 0.38rem;
+  position: relative;
+}
+.ly3 .part4 ul .p2::after{
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #e9e7e5;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.ly3 .part5{
+  position: relative;
+  z-index: 0;
+  padding-top: 1.1rem;
+  padding-bottom: 1.4rem;
+}
+.ly3 .part5::after{
+  content: "";
+  width: 100%;
+  height: 1.84rem;
+  background: url(../img/ly/c_bg2.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+  top: -0.4rem;
+  z-index: -1;
+}
+.ly3 .part5 .part_title{
+	font-family: "myfont_Magpie";
+  font-size: 0.54rem;
+  line-height: 0.58rem;
+  text-align: center;
+  margin-top: 0.3rem;
+}
+.ly3 .part5 .part_title .p1{
+  color: #3e3a39;
+}
+.ly3 .part5 .part_title .p2{
+  color: #a62024;
+}
+.ly3 .part6{
+  background: #ffffff;
+  padding-top: 0.01rem;
+  padding-bottom: 0.7rem;
+}
+.ly3 .part6 ul{
+  display: flex;
+  justify-content: space-between;
+  width: 6.6rem;
+  margin: auto;
+  margin-top: -0.95rem;
+}
+.ly3 .part6 ul li{
+  width: 1.96rem;
+  background: url(../img/ly/c6_icon1.png) 0 1.4rem no-repeat;
+  background-size: 1.96rem 0.86rem;
+}
+.ly3 .part6 ul img{
+  display: block;
+  width: 1.2rem;
+  height: 1.2rem;
+  margin: auto;
+}
+.ly3 .part6 ul p{
+  font-size: 0.5rem;
+  width: 1.2rem;
+  text-align: center;
+  margin: auto;
+	font-family: "myfont_Magpie";
+  color: #3e3a39;
+  margin-top: 0.35rem;
+}
+.ly3 .part6 .part_box{
+  width: 100%;
+  position: relative;
+  padding-top: 0.75rem;
+}
+.ly3 .part6 .part_box::before{
+  content: "";
+  width: 4.29rem;
+  height: 6.82rem;
+  background: url(../img/ly/c6_4.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+}
+.ly3 .part6 .part_box p{
+  float: right;
+  width: 3.1rem;
+  margin-right: 0.6rem;
+}
+.ly3 .part6 .part_box img{
+  float: right;
+  width: 3.77rem;
+  height: 4.55rem;
+  margin-left: 2rem;
+  margin-top: 0.2rem;
+}
+.ly3 .part7{
+  width: 100%;
+  height: 8.84rem;
+  background: url(../img/ly/c7_bg.jpg) no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  border-top: 0.05rem solid #a62024;
+}
+.ly3 .part7::after{
+  content: "";
+  width: 2.75rem;
+  height: 1.53rem;
+  background: url(../img/ly/c7_bg2.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+  top: -1.15rem;
+}
+.ly3 .part7::before{
+  content: "";
+  width: 3.93rem;
+  height: 1.82rem;
+  background: url(../img/ly/c7_bg3.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0;
+  bottom: -0.5rem;
+}
+.ly3 .part7 .p1{
+	font-family: "myfont_Magpie";
+  float: right;
+  margin-right: 0.6rem;
+  font-size: 0.57rem;
+  line-height: 0.62rem;
+  color: #ffffff;
+  margin-top: 0.56rem;
+  padding-bottom: 0.37rem;
+  position: relative;
+}
+.ly3 .part7 .p1::after{
+  content: "";
+  width: 90%;
+  height: 0.08rem;
+  background: #d5147d;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.ly3 .part7 .p1 span{
+  display: block;
+  color: #a62024;
+}
+.ly3 .part7 .p2{
+	font-family: "myfont_Magpie";
+  font-size: 0.54rem;
+  line-height: 0.55rem;
+  color: #ffffff;
+  margin-left: 0.6rem;
+  margin-top: 1.7rem;
+}
+.ly3 .part8{
+  padding-top: 0.5rem;
+}
+
+.ly3 .part8 p{
+	font-family: "myfont_Magpie";
+  margin-left: 1rem;
+  font-size: 0.24rem;
+  line-height: 0.4rem;
+  color: #595757;
+}
+.ly4 {
+  z-index: 0;
+  position: relative;
+}
+.ly4::after{
+  content: "";
+  width: 3.1rem;
+  height: 8.72rem;
+  background: url(../img/ly/c8_icon2.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0;
+  top: 4.6rem;
+  z-index: -1;
+}
+.ly4 .part1 ul{
+  margin-left: 0.6rem;
+  font-size: 0;
+}
+.ly4 .part1 ul li{
+  display: flex;
+  align-items: center;
+  margin-top: 0.3rem;
+}
+.ly4 .part1 ul .p1{
+  font-size: 1rem;
+  line-height: 1;
+  height: 1rem;
+  margin-top: -0.2rem;
+	font-family: "myfont_Magpie";
+  color: #d2147d;
+  text-align: center;
+  padding-bottom: 0.15rem;
+  width: 0.72rem;
+  background: url(../img/ly/c8_icon.png) no-repeat;
+  background-size: 0.72rem 0.72rem;
+  background-position: center bottom;
+}
+.ly4 .part1 ul .p2{
+  text-align: justify;
+  width: 2.7rem;
+  font-size: 0.24rem;
+  color: #595757;
+  line-height: 0.38rem;
+  margin-left: 0.2rem;
+}
+.ly4 .part1 ul li:last-child .p2{
+  width: 5.3rem;
+}

@@ -1,0 +1,160 @@
+.er-nav ul li{
+	margin:0 0.2rem;
+	margin-top: 0.02rem;
+}
+.zs-title{
+	text-align: center;
+}
+.zs-title .top{
+	width: 1.8rem;
+	height: 0.36rem;
+	border:1px solid #767676;
+	margin:0 auto;
+	margin-top: 0.3rem;
+}
+.zs-title .top .top-l{
+	width: 0.8rem;
+	height: 100%;
+	background-color: #767676;
+	text-align: center;
+	line-height: 0.36rem;
+	color:#fff;
+}
+.zs-title .top .top-r{
+	width: 1rem;
+}
+.zs-title .top .top-r span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+}
+.zs-title .p2{
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+	text-align: center;
+}
+.zs-title .p3{
+	width: 2.2rem;
+	height: 0.05rem;
+	border:1px solid #767676;
+	margin:0 auto;
+}
+.zs-title .p4{
+	display: inline-block;
+}
+.zs-title .p4 span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.67);
+	-webkit-transform: scale(.67);
+	-o-transform: scale(.67);
+	-moz-transform: scale(.67);
+	-ms-transform: scale(.67);
+	width: 150%;
+	margin-left: -25%;
+	text-transform: uppercase;
+}
+.part{
+	padding-top: 0;
+}
+
+.picScroll-box{
+	width: 6.83rem;
+	margin:0 auto;
+	margin-bottom: 0.2rem;
+	border-radius: 0.2rem;
+	border:2px solid #e3e3e3;
+	padding:0.05rem;
+}
+.picScroll-left{
+   position:relative;
+}
+.picScroll-left .bd{
+	height: 3.32rem;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.picScroll-left .bd li{
+	float: left;
+	background: #eeeeee;
+	position: relative;
+	text-align: center;
+	width: 100%;
+	height: 3.32rem;
+	cursor: pointer;
+	z-index: 2;
+	border-radius: 0.2rem;
+}
+
+.picScroll-left .bd li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	position:relative;
+	z-index: 2;
+	border-radius: 0.2rem;
+}
+
+.picScroll-left .arrow{
+	position: absolute;
+	top: 50%;
+	width: 0.55rem;
+	height: 0.55rem;
+	cursor: pointer;
+	margin-top: -0.27rem;
+	z-index: 99;
+}
+.picScroll-left .arrow img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.picScroll-left .arrow-left{
+	left: 0.2rem;
+}
+.picScroll-left .arrow-right{
+	right:0.2rem;
+}
+.picScroll-left .bd li .li-font{
+	width: 2.9rem;
+	height: 0.9rem;
+	background: rgba(0,0,0,0.5);
+	text-align: center;
+	border-radius:0.1rem;
+	position:absolute;
+	top:50%;
+	left: 50%;
+	margin-left: -1.45rem;
+	margin-top: -0.45rem;
+	z-index: 99;
+	color:#fff;
+}
+.picScroll-left .bd li .li-font .p1{
+	font-size: 0.24rem;
+	margin-top: 0.1rem;
+}
+.picScroll-left .bd li .li-font .p2 span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+	width: 130%;
+	margin-left: -15%;
+}

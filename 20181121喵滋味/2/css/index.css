@@ -1,0 +1,75 @@
+
+
+@keyframes bottom{
+	from{bottom: 0.4rem;}
+	to{bottom: 0.6rem;}
+}
+.page1 .bottom{
+	position:absolute;
+	width: 0.21rem;
+	height: 2.35rem;
+	right: 0.7rem;
+	bottom: 0.6rem;
+	animation:bottom 1s infinite;
+	-webkit-animation:bottom 1s infinite linear;
+}
+
+
+@keyframes fade{
+	from{scl:1;}
+	to{opacity: 0.5;}
+}
+.page2 .b1-img{
+	width: 3.16rem;
+	height: 1.1rem;
+	position:absolute;
+	left: 0.7rem;
+	top: 1.5rem;
+	animation:fade 1s infinite;
+	-webkit-animation:fade 1s infinite linear;
+}
+.page2{
+	position:relative;
+}
+.page2 a{
+	width: 2rem;
+	height: 2rem;
+	position:absolute;
+}
+.page2 a.zw{
+	right: 0.9rem;
+	top: 1.9rem;
+}
+.page2 a.ms{
+	right: 2.9rem;
+	top: 3.5rem;
+}
+.page2 a.ys{
+	right: 4.9rem;
+	top: 5.2rem;
+}
+.page2 a.hz{
+	right: 0.8rem;
+	top: 5.1rem;
+}
+.page2 a.rx{
+	right: 2.8rem;
+	top: 6.8rem;
+}
+
+.page2 .btn-box{
+	position:absolute;
+	bottom: 0.4rem;
+	z-index: 5;
+	left: 50%;
+	margin-left: -0.83rem;
+}
+
+
+
+
+/*.page3*/
+.page3{
+	height: 150%;
+	background-color: #eee;
+}

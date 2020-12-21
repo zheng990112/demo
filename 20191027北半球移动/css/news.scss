@@ -1,0 +1,134 @@
+@import './px2rem.scss';
+
+.main.padding{
+	padding:px2rem(79) px2rem(70) px2rem(130);
+	box-sizing: border-box;
+}
+.top-icon{
+	position:absolute;
+	right:0;
+	top:px2rem(50);
+	z-index: -1;
+	width: px2rem(420);
+}
+.part1{
+	margin-top: px2rem(70);
+	position:relative;
+}
+.part1 .part1-icon{
+	width: px2rem(420);
+	position:absolute;
+	top: px2rem(420);
+	left:px2rem(-70);
+	z-index: -1;
+}
+.picScroll-left{
+	position: relative;
+	width:px2rem(605);
+	display: inline-block;
+	margin:px2rem(25) 0;
+}
+.picScroll-left .bd{
+	width:px2rem(605);
+	margin: 0 auto;
+	overflow: hidden;
+}
+.picScroll-left .bd li{
+	float: left;
+	position: relative;
+	text-align: center;
+	width:px2rem(605);
+	height:px2rem(278);
+	cursor: pointer;
+}
+.picScroll-left .bd li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.picScroll-left .hd{
+	text-align:center;
+}
+.picScroll-left .hd ul li{
+	font-size: 0;
+	width: px2rem(40);
+	height: px2rem(8);
+	background: #b8b8b8;
+	display:inline-block;
+	margin:0 px2rem(4);
+}
+.picScroll-left .hd ul li.on{
+	background-color: #315acd;
+}
+
+
+.part1 .list{
+	display:block;
+	width:px2rem(605);
+	margin:0 auto;
+	height:px2rem(64);
+	line-height: px2rem(64);
+	border-bottom: 1px dotted #b1b1b1;
+}
+.part1 .list a{
+	display: block;
+	color:#333333;
+}
+.part1 .list a .news-fonts{
+	float:left;
+	font-size:px2rem(20);
+}
+.part1 .list a .news-time{
+	float:right;
+	font-size: px2rem(20);
+}
+.fenye-btn{
+	text-align: center;
+	margin-top: px2rem(20);
+}
+.fenye-btn a{
+	font-size: px2rem(21);
+	display: inline-block;
+}
+.fenye-btn a:first-child,
+.fenye-btn a:last-child{
+	margin:0 px2rem(20);
+}
+
+
+.part2{
+	margin-top: px2rem(40);
+}
+
+
+
+
+
+// news
+.detail-title{
+	font-size: px2rem(29);
+	color:#315acd;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 1px dotted #315acd;
+	padding-bottom:px2rem(10);
+}
+.detail-time{
+	font-size: px2rem(18);
+	color:#666666;
+	margin-top: px2rem(15);
+}
+.detail-time span{
+	margin-right: px2rem(20);
+}
+.detail-img{
+	display: block;
+	width:100%;
+	margin:px2rem(20) 0;
+}
+.detail-p{
+	font-size: px2rem(20);
+	color:#717071;
+	line-height: px2rem(32);
+	
+}

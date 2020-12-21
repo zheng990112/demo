@@ -1,0 +1,131 @@
+
+.btn_page{
+	margin-top: 0.5rem;
+}
+.news-main{
+	width: 6.3rem;
+	margin:0 auto;
+	margin-top: 0.6rem;
+}
+.news-top{
+	display: block;
+	width: 100%;
+}
+
+
+.news-list{
+	width: 6.3rem;
+	margin:0 auto;
+	margin-top:0.3rem;
+}
+.news-list .box a{
+	display: block;
+	border-bottom: 1px dotted #d0af91;
+	position:relative;
+	display: flex;
+	justify-content: space-between;
+}
+.news-list .box .box-img{
+	width:1.15rem;
+	height:0.6rem;
+}
+.news-list .box .box-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.news-list .box .box-fonts{
+	width:5rem;
+	height:0.6rem;
+	position:relative;
+}
+.news-list .box .box-fonts .news_fonts{
+	font-size:0.24rem;
+	color:#006857;
+	line-height:0.6rem;
+	width:3.7rem;
+	overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+.news-list .box .box-fonts .news-time{
+	font-size: 0.24rem;
+	color:#595757;
+	position:absolute;
+	right: 0;
+	bottom: 0;
+	line-height: 0.6rem;
+}
+
+
+.fenye-box{
+	text-align: center;
+	font-size: 0;
+	margin-top: 0.4rem;
+}
+.fenye-box a{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 0.24rem;
+	color:#eedabd;
+	background-color: #006857;
+	height:0.32rem;
+	line-height:0.32rem;
+	padding:0 0.15rem;
+	margin:0 0.05rem;
+}
+.fenye-box a:first-child,
+.fenye-box a:last-child{
+	margin:0 0.15rem;
+}
+.fenye-box a.on{
+	background-color: #b7926c;
+}
+
+
+
+
+
+
+
+.newsdetail{
+	width: 6.3rem;
+	margin:0 auto;
+	margin-top: 0.5rem;
+	padding-bottom:1.5rem;
+}
+.newsdetail h1{
+	font-size: 0.36rem;
+	text-align: center;
+	font-weight: bold;
+	color:#595757;
+}
+.newsdetail h2{
+	text-align: center;
+	font-size: 0.32rem;
+	font-weight: 400;
+	color:#595757;
+}
+.newsdetail h2 span{
+	display: inline-block;
+	margin:0.2rem;
+}
+.newsdetail img{
+	display: block;
+	width: 100%;
+}
+.newsdetail p{
+	text-align: justify;
+	font-size: 0.24rem;
+	line-height: 0.32rem;
+	color:#595757;
+	margin-top: 0.1rem;
+}
+
+
+
+@media (max-width:320px) {
+	.news-list .box .box-fonts .news_fonts{
+		width: 3.6rem;
+	}
+}

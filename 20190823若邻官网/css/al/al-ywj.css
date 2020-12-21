@@ -1,0 +1,64 @@
+.part1 p.bold {
+    font-family: "myfont_Medium";
+    font-weight: bold;
+    margin-top: 0.20rem;
+}
+
+.part1 .al-title {
+    padding-top: 0.20rem;
+}
+
+.part1 .mt02 {
+    margin: 0;
+}
+
+.part1 .mt01 {
+    margin-top: 0.70rem;
+}
+
+.part1 .reading span.bold {
+    font-family: "myfont_Medium";
+    font-weight: bold;
+    color: #000000;
+}
+
+.part1 .img-box {
+    margin-top: 0.40rem;
+}
+
+.part2 .reading {
+    margin: 0;
+}
+
+.part2 .mt01 {
+    margin-top: 0.25rem;
+}
+
+.part2 .reading span.bold {
+    font-family: "myfont_Medium";
+    font-weight: bold;
+    color: #ba1a1f;
+}
+
+.part2 .img-box {
+    margin-top: 0.40rem;
+}
+
+.part3 {
+    margin-top: 0.05rem;
+    padding-bottom: 0.55rem;
+}
+
+.part3 .reading {
+    margin: 0;
+}
+
+.part3 .mt01 {
+    margin-top: 0.25rem;
+}
+
+.part3 .reading span.bold {
+    font-family: "myfont_Medium";
+    font-weight: bold;
+    color: #000000;
+}

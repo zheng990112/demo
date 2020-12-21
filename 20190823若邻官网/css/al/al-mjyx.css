@@ -1,0 +1,21 @@
+
+
+.mt02{
+	margin-top: 0.2rem;
+}
+.mt01{
+	margin-top: 0.1rem;
+}
+.part1 .p1{
+	color:#7e7f80;
+	font-family: myfont_Light;
+	line-height: 0.34rem;
+}
+.part1 .part1-img{
+	display: block;
+	width: 100%;
+	margin-top: 0.3rem;
+}
+.part1{
+	padding-bottom: 0.7rem;
+}

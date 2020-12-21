@@ -1,0 +1,210 @@
+.ly {
+  width: 6.2rem;
+  margin: auto;
+}
+.ly .solid1 {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  width: 5.9rem;
+  margin-left: -0.65rem;
+}
+.ly form {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.ly form input {
+  width: 6.08rem;
+  height: 0.48rem;
+  margin-bottom: 0.2rem;
+  border: 0.01rem solid #ffffff;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 0.24rem;
+  padding-left: 0.1rem;
+}
+
+.ly form input::-webkit-input-placeholder {
+  color: #ffffff;
+}
+.ly form input::-moz-input-placeholder {
+  color: #ffffff;
+}
+.ly form input::-ms-input-placeholder {
+  color: #ffffff;
+}
+.ly form textarea {
+  padding: 0.1rem;
+  width: 5.98rem;
+  height: 1.5rem;
+  resize: none;
+  border: 0.01rem solid #ffffff;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0);
+}
+.ly form textarea::-webkit-input-placeholder {
+  color: #ffffff;
+}
+.ly form textarea::-moz-input-placeholder {
+  color: #ffffff;
+}
+.ly form textarea::-ms-input-placeholder {
+  color: #ffffff;
+}
+.ly form .submit {
+  display: block;
+  margin: auto;
+  margin-top: 0.3rem;
+  padding-left: 0;
+  width: 1.76rem;
+  height: 0.4rem;
+  border: none;
+  text-align: center;
+  line-height: 0.4rem;
+  color: #000000;
+  border-radius: 0.3rem;
+  background: url(../img/ly/ly_02.jpg) center no-repeat;
+  background-size: auto 100%;
+}
+.map {
+  width: 6.2rem;
+  height: 3.2rem;
+  margin: auto;
+  margin-top: 0.5rem;
+  background-color: #ffffff;
+}
+.QRCode {
+  width: 6.2rem;
+  height: 1.8rem;
+  margin: auto;
+  margin-top: 0.45rem;
+}
+.QRCode .left {
+  float: left;
+  width: 1.32rem;
+  height: 1.32rem;
+  border: 0.01rem solid #ffffff;
+}
+.QRCode .left img {
+  width: 1.28rem;
+  height: 1.28rem;
+  display: block;
+  margin: 0.02rem auto;
+}
+.QRCode .left p {
+  font-size: 0.24rem;
+  text-align: center;
+  color: #ffffff;
+}
+.QRCode .left p span {
+  font-size: 0.24rem;
+  display: inline-block;
+  font-size: 0.24rem;
+  transform: scale(0.75);
+  -webkit-transform: scale(0.75);
+  -o-transform: scale(0.75);
+  -moz-transform: scale(0.75);
+  -ms-transform: scale(0.75);
+  width: 125%;
+  margin-left: -12%;
+}
+.QRCode .right {
+  width: 4.1rem;
+  float: right;
+  margin-right: 0.3rem;
+  color: #ffffff;
+  font-size: 0.24rem;
+}
+.QRCode .right p {
+  float: left;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  margin-top: 0.1rem;
+}
+.QRCode .right .p_solid {
+  width: 100%;
+  padding-left: 0;
+  margin-top: 0;
+  padding-bottom: 0.1rem;
+  border-bottom: 0.01rem solid #ab8f76;
+}
+.QRCode .right .p1 {
+  width: 1.7rem;
+  position: relative;
+}
+.QRCode .right .p1 img {
+  float: left;
+  margin-top: 0.08rem;
+  width: 0.24rem;
+  height: 0.24rem;
+  margin-right: 0.1rem;
+}
+.QRCode .right .p1::before {
+  content: "";
+  width: 0.02rem;
+  height: 0.12rem;
+  background-color: #ffffff;
+  position: absolute;
+  top: 50%;
+  right: 0.1rem;
+  margin-top: -0.06rem;
+}
+.QRCode .right .p2 {
+  width: 2.4rem;
+  overflow: hidden;
+}
+.QRCode .right .p2 span {
+  font-size: 0.24rem;
+  display: inline-block;
+  font-size: 0.24rem;
+  transform: scale(0.75);
+  -webkit-transform: scale(0.75);
+  -o-transform: scale(0.75);
+  -moz-transform: scale(0.75);
+  -ms-transform: scale(0.75);
+  width: 125%;
+  margin-left: -12%;
+}
+.fenye-box {
+  margin-top: 0.6rem;
+}
+
+
+
+
+/*20200807*/
+.ly form input,
+.ly form textarea{
+	border:1px solid #d4b995;
+}
+.ly .add p{
+	margin-top: 0.3rem;
+	padding-left: 0.3rem;
+	box-sizing: border-box;
+}
+.ly .add span{
+	display: inline-block;
+	vertical-align: middle;
+	width: 1.28rem;
+	height: 0.36rem;
+	background: url(../img/ly/icon.png) no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	line-height: 0.36rem;
+	font-size: 0.26rem;
+	color:#000;
+}
+.ly .add b{
+	font-size: 0.28rem;
+	display: inline-block;
+	color:#fff;
+	vertical-align: middle;
+	margin-left: 0.1rem;
+}
+.QRCode .right .p_solid{
+	font-size: 0;
+	height: 0.2rem;
+}
+.QRCode .left{
+	border:none;
+}

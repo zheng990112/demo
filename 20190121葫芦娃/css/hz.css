@@ -1,0 +1,67 @@
+.hz1 .part1_top{width: 100%;text-align: center;margin-top: .9rem;}
+.hz1 .part1_top h3{font-size: .58rem;color: #231815;font-weight: 400;;}
+.hz1 .part1_top p{font-size: .24rem;position: relative; transform: scale(.833); -webkit-transform: scale(.833); -o-transform: scale(.833); -moz-transform: scale(.833); -ms-transform: scale(.833);color: #c39224;margin-top: .14rem;}
+.hz1 .part1_top p::before,.hz1 .part1_top p::after{ content: ""; display: inline-block; width: 2.6rem; height: 1px; background: #c39224; position: absolute; top: 0.18rem; z-index: -1;}
+.hz1 .part1_top p::before{ left: -1.1rem;}
+.hz1 .part1_top p::after{ right: -1.1rem;}
+.hz1 .div_content{margin-top: .72rem;}
+.hz1 .div_content .div1{width: 7.42rem;height: 4.1rem;display: block;margin: 0 auto;}
+.hz1 .div_content .div1 img{width: 100%;height: 100%;}
+.hz1 .div_content .div2{width: 100%;text-align: center;}
+.hz1 .div_content .div2 h3{font-size: .32rem;color: #241714;margin-top: .14rem;}
+.hz1 .div_content .div2 p{font-size: .24rem; transform: scale(.58); -webkit-transform: scale(.58); -o-transform: scale(.58); -moz-transform: scale(.58); -ms-transform: scale(.58); width: 170%; margin-left: -35%;background: url(../img/hz/e1.jpg) no-repeat center bottom;background-size: .3rem .03rem;padding-bottom: .15rem;color: #231815;text-transform: uppercase;}
+.hz1 .div_content .div2 span{display: block;text-align: center;font-size: .24rem; transform: scale(.833); -webkit-transform: scale(.833); -o-transform: scale(.833); -moz-transform: scale(.833); -ms-transform: scale(.833); width: 120%; margin-left: -10%;}
+.hz1 .part1_bottom{margin-bottom: .22rem;}
+.hz2 .part1{text-align: center;}
+.hz2 .part1 h3{font-size: .7rem;color: #231815;font-weight: 400;margin-top: .9rem;margin-bottom: .1rem;}
+.hz2 .part1 div{font-size: .34rem;color: #c39224;background: url(../img/hz/c1.jpg) no-repeat center;background-size: 6.91rem 1rem;width: 6.91rem;display: block;margin: 0 auto;height: 1rem;line-height: .5rem;}
+.hz2 .part1 div p{width: 94%;display: block;margin: 0 auto;}
+.hz2 .part2{width: 7.28rem;display: block;margin: 0 auto;margin-top: .66rem;}
+.hz2 .part2 ul li{width: 3.6rem;float: left;margin-bottom: .4rem;}
+.hz2 .part2 ul li:nth-child(2n){margin-left: .08rem;}
+.hz2 .part2 ul li .div00{width: 3.6rem;height: 2.18rem;}
+.hz2 .part2 ul li .div00 img{width: 100%;height: 100%;}
+.hz2 .part2 ul li .div0{text-align: center;width: 3.6rem;}
+.hz2 .part2 ul li .div0 h3{font-size: .3rem;color: #231815;font-weight: 400;;height: .6rem;line-height: .6rem;color: #241714;margin: .1rem 0;}
+.hz2 .part2 ul li .div0 p{font-size: .24rem; transform: scale(.75); -webkit-transform: scale(.75); -o-transform: scale(.75); -moz-transform: scale(.75); -ms-transform: scale(.75);width: 135%; margin-left: -14%;}
+.hz2 .part2 ul li .div1 h3{background: url(../img/hz/b1.jpg) no-repeat center;background-size: .7rem .6rem}
+.hz2 .part2 ul li .div2 h3{background: url(../img/hz/b2.jpg) no-repeat center;background-size: .7rem .6rem}
+.hz2 .part2 ul li .div3 h3{background: url(../img/hz/b3.jpg) no-repeat center;background-size: .7rem .6rem}
+.hz2 .part2 ul li .div4 h3{background: url(../img/hz/b4.jpg) no-repeat center;background-size: .7rem .6rem}
+.hz2 .part2 ul li .div5 h3{background: url(../img/hz/b5.jpg) no-repeat center;background-size: .7rem .6rem}
+.hz2 .part2 ul li .div6 h3{background: url(../img/hz/b6.jpg) no-repeat center;background-size: .7rem .6rem}
+.hz2 .part2 ul li .div7 h3{background: url(../img/hz/b7.jpg) no-repeat center;background-size: .7rem .6rem}
+.hz2 .part2 ul li .div8 h3{background: url(../img/hz/b8.jpg) no-repeat center;background-size: .7rem .6rem}
+.hz2 .part2 ul li .div9 h3{background: url(../img/hz/b9.jpg) no-repeat center;background-size: .7rem .6rem}
+.part{position: relative;}
+.part .big1{width: 5.35rem;height: 3.83rem;position: absolute;bottom: 0;right: 0;z-index: -1;}
+.part3{width: 100%;background: #000000;}
+.hz2 .part3_top{width: 100%;text-align: center;position: relative;}
+.hz2 .part3_top h3{font-size: .58rem;color:#c39223;font-weight: 400;padding-top: .46rem;}
+.hz2 .part3_top p{font-size: .24rem;position: relative; transform: scale(.833); -webkit-transform: scale(.833); -o-transform: scale(.833); -moz-transform: scale(.833); -ms-transform: scale(.833);color: #c39223;margin-top: .14rem;padding-bottom: .76rem;}
+.hz2 .part3_top p::before,.hz2 .part3_top p::after{ content: ""; display: inline-block; width: 2.6rem; height: 1px; background: #c39223; position: absolute; top: 0.18rem; z-index: -1;}
+.hz2 .part3_top p::before{ left: -1.1rem;}
+.hz2 .part3_top p::after{ right: -1.1rem;}
+.hz2 .part3_center{width: 94%;display: block;margin: 0 auto;}
+.hz2 .part3_center input{width: 97%;display: block;outline: none;border: none;background: #4f4f4f;height: .38rem;line-height: .38rem;margin-bottom: .08rem;padding-left: 3%;}
+.hz2 .part3_center textarea{width: 97%;display: block;outline: none;border: none;background: #4f4f4f;height: 2.76rem;padding-left: 3%;resize: none;line-height: .38rem;}
+.hz2 .part3_center input::-webkit-input-placeholder {color:#ffffff;}
+.hz2 .part3_center input::-moz-placeholder {color:#ffffff;}
+.hz2 .part3_center input::-ms-input-placeholder { color:#ffffff;}
+.hz2 .part3_center textarea::-webkit-input-placeholder {color:#ffffff;}
+.hz2 .part3_center textarea::-moz-placeholder {color:#ffffff;}
+.hz2 .part3_center textarea::-ms-input-placeholder { color:#ffffff;}  
+.hz2 .part3 .div1{width: 100%;text-align: center;}
+.hz2 .part3 .div1 div{display: inline-block;margin-top: .22rem;}
+.hz2 .part3 .div1 .button0{display: inline-block;width: 1.76rem;height: .4rem;line-height: .4rem;color: #fff;}
+.hz2 .part3 .div1 .button1{background: #4f4f4f;margin-right: .24rem;}
+.hz2 .part3 .div1 .button2{background: #c39224;}
+.hz2 .part3 .part3_bottom{text-align: center;}
+.hz2 .part3 .part3_bottom h3{.44rem;color: #c39224;font-weight: 400;margin-top: .6rem;margin-bottom: .26rem;}
+.hz2 .part3 .part3_bottom p{font-size: .32rem;color: #fff;}
+.hz2 .part3 .part3_bottom img{width: 1.54rem;height: 1.54rem;margin-top: .5rem;margin-bottom: .5rem;}
+
+
+
+@media (max-width: 330px){ .hz2 .part2 ul li .div0 p{font-size: .24rem; transform: scale(.58); -webkit-transform: scale(.58); -o-transform: scale(.58); -moz-transform: scale(.58); -ms-transform: scale(.58); width: 170%; margin-left: -35%;}
+	}

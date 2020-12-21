@@ -1,0 +1,127 @@
+.header .logo{
+	width: 1.34rem;
+	height:1.42rem;
+	float: left;
+}
+.header .logo img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position:relative;
+	top:0rem;
+}
+.header{background: url(../img/index/3.png) no-repeat 100%;background-size: 100% 100%;}
+.header_txt img{display: inline-block;width:100%;height: 100%;margin-top: .36rem;}
+.header_txt{display: inline-block;height:.7rem;width: 2.1rem;margin-left: .28rem;}
+.header_txt1{display: inline-block;width: 2.8rem;margin-top: .35rem;}
+.header_txt1 img{display:inline-block;width: .53rem;height: .53rem;float: left;vertical-align: middle;}
+.header_txt1 div{display: inline-block;float: left;width: 2.2rem;}
+.header_txt1 p{font-size:.16rem;color: #ffffff ;padding-left: .3rem;}
+.header_txt1 h3{font-size: .26rem;}
+
+.content{
+	width: 100%;
+	background: url(../img/bg.jpg) repeat-y;
+	padding-bottom: 1.5rem;
+	padding-top: 0.4rem;
+}   
+
+.part1{
+	width: 6.74rem;
+	margin:0 auto;
+	background-color: #fff;
+	padding-bottom: 0.15rem;
+}
+.part1 .a1-img{
+	width: 6.74rem;
+	height: 0.36rem;
+	display: block;
+	margin:0 auto;
+}
+.part1 .vedio-box {
+	width:6.35rem;
+	height: 3.82rem;
+	position: relative;
+	margin:0 auto;
+	margin-top: 0.1rem;
+	background: #fff;
+}
+
+.part1 .vedio-img {
+	width:6.35rem;
+	height: 3.82rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.part1 .vedio-box video,
+.part1 .vedio-box embed {
+	width: 100%!important;
+	height: 100%!important;
+}
+
+.part1 .play {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 1rem;
+	height: 1rem;
+	display: block;
+	margin-top: -0.5rem;
+	margin-left: -0.5rem;
+	cursor: pointer;
+	z-index: 12;
+}
+
+.part2{
+	text-align: center;
+}
+.part2 ul li{
+	display: inline-block;
+	position:relative;
+	margin:0 0.5rem;
+	margin-top: 0.4rem;
+}
+.part2 ul li .li-img{
+	width: 1.13rem;
+	height: 2.02rem;
+	
+}
+.part2 ul li .li-img img{
+	display:block;
+	width: 100%;
+	height: 100%;
+}
+.part2 ul li .li-r{
+	width: 0.16rem;
+	height: 0.16rem;
+	border-radius: 50%;
+	background-color: #786d52;
+	position:absolute;
+	top:50%;
+	margin-top: -0.08rem;
+	right: -0.5rem;
+}
+.part2 ul li .li-r::before,
+.part2 ul li .li-r::after{
+	content:"";
+	display: inline-block;
+	width: 0.15rem;
+	height: 1px;
+	background-color: #786d52;
+	position:absolute;
+	top:0.08rem;
+}
+.part2 ul li .li-r::before{
+	left: -0.2rem;
+}
+.part2 ul li .li-r::after{
+	right: -0.2rem;
+}
+
+.a9-img{
+	width: 100%;
+	margin-top: 1rem;
+}

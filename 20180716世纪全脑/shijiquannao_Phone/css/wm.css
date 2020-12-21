@@ -1,0 +1,148 @@
+.wm .top{
+	text-align: center;
+}
+.wm .top .p1{
+	color: #7D282D;
+	line-height: 1.1;
+	font-size: .5rem;
+	font-weight: lighter;
+}
+.wm .top .p2{
+	text-transform: uppercase;
+	color:rgba(0,0,0,.2);
+	line-height: 1.1;
+	font-size: .3rem;
+	font-family: arial;
+	margin-top: .12rem;
+}
+.wm .top .line{
+	width: 1.2rem;
+	height: 1px;
+	background: #7D282D;
+	margin: .28rem auto .2rem;
+}
+.wm .top .p3{
+	color: #7D282D;
+	font-size: .28rem;
+}
+.wm .top .phone{
+	font-size: 0;
+	color: #fff;
+    background: #7D282D;
+    height: .42rem;
+    border-radius: .24rem;
+    width: 3rem;
+    margin: 0 auto;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+.wm .top .phone img{
+	width: .3rem;
+}
+.wm .top .phone span{
+	font-size: .28rem;
+	font-weight: lighter;
+	margin-left: .16rem;
+}
+.wm .top .p5{
+	color: #666;
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+	margin-top: .28rem;
+	margin-bottom: .34rem;
+	line-height: .46rem;
+}
+
+.wm #map{
+	width: 100%;
+	height: 4rem;
+}
+.wm .bottom{
+	width: 100%;
+	background: #282828;
+	color: #bebebe;
+	position: relative;
+	z-index: 2;
+}
+.wm .bottom img{
+	position: absolute;
+	left: 0;
+	width: 18%;
+	top: 10%;
+	z-index: -1;
+}
+.wm .bottom .box{
+	width: 70%;
+	margin: 0 auto;
+	padding-top: .24rem;
+	padding-bottom: .6rem;
+}
+.wm .bottom .box .p1{
+	font-size: .27rem;
+	margin-bottom: .2rem;
+	line-height: .44rem;
+}
+.wm .bottom .box input{
+	width: 100%;
+	border: 1px solid #bebebe;
+	height: .58rem;
+	line-height: .58rem;
+	box-sizing: border-box;
+	padding: 0 .16rem;
+	display: block;
+	font-size: .24rem;
+	color: #bebebe;
+	margin-bottom: .16rem;
+	background: transparent;
+}
+.wm .bottom .box textarea{
+	background: transparent;
+	width: 100%;
+	border: 1px solid #bebebe;
+	height: 2rem;
+	box-sizing: border-box;
+	padding: .12rem;
+	display: block;
+	font-size: .24rem;
+	color: #bebebe;
+	margin-bottom: .16rem;
+	resize: none;
+}
+.wm .bottom .box .submit div{
+	width: 48%;
+	border: 1px solid #bebebe;
+	height: .58rem;
+	line-height: .58rem;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: .24rem;
+	text-align: center;
+}
+
+.wm input::-webkit-input-placeholder,
+.wm textarea::-webkit-input-placeholder{
+	color: #BEBEBE;
+}
+.wm input:-moz-placeholder,
+.wm textarea:-moz-placeholder{
+	color: #BEBEBE;
+}
+.wm input::-moz-placeholder,
+.wm textarea::-moz-placeholder{
+	color: #BEBEBE;
+}
+.wm input:-ms-input-placeholder,
+.wm textarea:-ms-input-placeholder{
+	color: #BEBEBE;
+}
+
+
+

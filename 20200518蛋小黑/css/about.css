@@ -1,0 +1,271 @@
+html,body{
+	background-color: #000;
+}
+.content {
+    width: 100%;
+    position: fixed;
+    top: 1.2rem;
+    bottom: 1.07rem;
+    overflow-y: auto;
+}
+
+.content-bg {
+    background: url('./../img/about/bg.png') no-repeat center center;
+    background-size: cover;
+}
+
+.ppjj {
+    overflow: hidden;
+}
+
+.ppjj .logo {
+    margin-top: 0.45rem;
+    margin-bottom: 0.15rem;
+    text-align: center;
+    font-size: 0;
+}
+
+.ppjj .logo img {
+    width: 2.42rem
+}
+
+.ppjj .img-1 {
+    width: 7.44rem;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.ppjj .img-1 img {
+    width: 100%;
+}
+
+.ppjj-text {
+    color: #fff;
+    font-size: 0.22rem;
+    width: 6.91rem;
+    margin: 0 auto;
+    line-height: 0.384rem;
+    margin-top: 0.14rem;
+    text-align: justify;
+}
+
+.ppgs,
+.ppdt {
+    margin-top: 0.26rem;
+}
+
+.ppgs .logo,
+.ppdt .logo {
+    width: 100%
+}
+
+.ppgs .logo img,
+.ppdt .logo img {
+    display: block;
+    margin: 0 auto;
+    width: 4.88rem;
+}
+
+.ppgs .img-1 {
+    font-size: 0;
+    margin-top: 0.28rem;
+}
+
+.ppgs .img-1 img {
+    width: 100%;
+}
+
+.ppdt .text {
+    color: #fff;
+    font-size: 0.26rem;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin-top: 0.14rem;
+    margin-bottom: 0.25rem;
+    letter-spacing: 0.02rem;
+}
+
+.ppdt .bj {
+    width: 7.07rem;
+    height: 4.15rem;
+    margin: 0 auto;
+    background: url("./../img/about/bg-2.png") no-repeat center;
+    background-size: contain;
+    overflow: hidden;
+}
+
+.ppdt .bj .lbt {
+    width: 6.29rem;
+    height: 3.43rem;
+    margin: 0 auto;
+    margin-top: 0.36rem;
+}
+
+.ppdt .swiper-img {
+    width: 100%;
+}
+
+.ppdt .bj .lbt .swiper-pagination {
+    width: auto;
+    right: 0.3rem;
+    bottom: 0.16rem;
+    left: auto;
+}
+
+.ppdt .swiper-pagination .swiper-pagination-bullet {
+    width: 0.22rem;
+    height: 0.22rem;
+    border-radius: 50%;
+    background-color: #808080;
+    opacity: 1;
+}
+
+.ppdt .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #eab627;
+}
+
+.news {
+    margin-top: 0.18rem;
+    position: relative;
+}
+
+.news::before {
+    content: "";
+    position: absolute;
+    height: 2.91rem;
+    top: 0.36rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url('../img/about//news-bg.png') no-repeat center;
+    background-size: cover;
+    opacity: .5;
+    overflow: hidden;
+}
+
+.news .container {
+    width: 6.28rem;
+    margin: 0 auto;
+}
+
+.news .container .title {
+    position: relative;
+}
+
+.news .container .title span {
+    color: #eab627;
+    font-size: 0.36rem;
+    line-height: 0.36rem;
+}
+
+.news .container .title span:first-child {
+    margin-right: 0.19rem;
+}
+
+.news .news-wra {
+    color: #fff;
+}
+
+.news .news-wra li {
+    display: flex;
+    justify-content: space-between;
+    height: 0.97rem;
+    position: relative;
+    align-items: center;
+}
+
+.news .news-wra li::before {
+    content: "";
+    width: 100%;
+    height: 0rem;
+    border-top: 0.02rem solid #88898a;
+    position: absolute;
+    bottom: 0rem;
+}
+
+.news .news-wra li a {
+    color: #fff;
+    width: 4.15rem;
+    font-size: 0.24rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.news .fy {
+    color: #fff;
+    display: flex;
+    width: 4.8rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 0.61rem;
+    margin-bottom: 0.4rem;
+}
+
+.u-arrow {
+    display: inline-block;
+    width: 0.2rem;
+    height: 0.2rem;
+    border-top: 0.01rem solid #999;
+    border-right: 0.01rem solid #999;
+}
+
+.u-arrow-left {
+    transform: rotate(-135deg);
+}
+
+.u-arrow-right {
+    transform: rotate(45deg);
+}
+
+.news .fy .left-arrow,
+.news .fy .right-arrow,
+.news .fy a {
+    font-size: 0.24rem;
+    color: #fff;
+}
+
+.news .fy .left-arrow {
+    margin-right: 0.33rem;
+}
+
+.news .fy .right-arrow {
+    margin-left: 0.33rem;
+}
+
+.news .fy ul li {
+    float: left;
+    margin-right: 0.35rem;
+}
+
+.news .fy ul li:last-child {
+    margin-right: 0;
+}
+
+.news .fy li.active a {
+    color: #eab627;
+}
+
+.two-btn {
+    width: 4.8rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.two-btn .btn {
+    width: 1.52rem;
+    height: 0.56rem;
+}
+
+.two-btn .btn a {
+    display: block;
+    font-size: 0;
+}
+
+.two-btn .btn img {
+    width: 100%;
+}

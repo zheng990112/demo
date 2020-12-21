@@ -1,0 +1,97 @@
+.content .er-nav ul li{
+	width: 50%;
+}
+.content .er-nav ul li.active::after {
+    left: 43%;
+}
+
+
+
+/*.jr1*/
+.jr1{
+	margin-top: 1rem;
+}
+.jr1 .part{
+	width: 100%;
+}
+.jr1 .part .part-top{
+	width: 100%;
+	background-color: #030000;
+	color:#fff;
+	text-align: center;
+	font-size: 0.4rem;
+	line-height: 1rem;
+	border-radius:0.2rem 0.2rem 0 0;
+	font-family: "宋体";
+}
+.jr1 .part .part-b{
+	background-color: #fff;
+	border-radius: 0 0 0.2rem 0.2rem;
+	padding-top: 0.5rem;
+	box-sizing: border-box;
+	text-align: center;
+	padding-bottom: 0.3rem;
+}
+.jr1 .part .p1{
+	font-size: 0.32rem;
+}
+.jr1 .part .p2{
+	font-size: 0.44rem;
+	line-height: 0.8rem;
+}
+.jr1 .part .part-b button{
+	background-color: #030000;
+	color:#fff;
+	width: 26%;
+	height: 0.6rem;
+	font-size: 0.28rem;
+	margin:0 1%;
+}
+
+
+
+/*jr2*/
+.jr2{
+	margin-top: 1rem;
+}
+.jr2 .part{
+	width: 100%;
+}
+.jr2 .part .part-top{
+	width: 100%;
+	background-color: #030000;
+	color:#fff;
+	text-align: center;
+	font-size: 0.4rem;
+	line-height: 1rem;
+	border-radius:0.2rem 0.2rem 0 0;
+	font-family: "宋体";
+}
+.jr2 .part .part-b{
+	background-color: #fff;
+	border-radius: 0 0 0.2rem 0.2rem;
+	padding-top: 0.3rem;
+	box-sizing: border-box;
+	text-align: center;
+	padding-bottom: 0.1rem;
+}
+.jr2 .part .part-b input{
+	display: block;
+	width: 90%;
+	height: 0.6rem;
+	margin:0 auto;
+	border:1px solid #b4b4b5;
+	color:#b4b4b5;
+	font-size: 0.24rem;
+	padding-left: 0.2rem;
+	box-sizing: border-box;
+	margin-bottom: 0.2rem;
+}
+.jr2 .part .part-b input.btn{
+	background-color: #383a3a;
+	color:#fff;
+}
+.jr2 .part .part-b .p1{
+	font-size: 0.24rem;
+	margin-bottom: 0.2rem;
+}

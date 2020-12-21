@@ -1,0 +1,115 @@
+.fenye-box {
+  margin-top: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.cp .pate1 .subTitle .p1 {
+  font-size: 0.65rem;
+}
+
+.cp .pate1 .subTitle .p2 {
+  font-size: 0.24rem;
+}
+
+.cp1 .pate1 .listPic {
+  margin-top: 0.5rem;
+}
+
+.cp1 .pate1 .listPic li {
+  text-align: center;
+}
+
+.cp1 .pate1 .listPic img {
+  width: 6.3rem;
+  display: block;
+  height: 4.54rem;
+  margin: auto;
+}
+
+.cp1 .pate1 .listPic .p1 {
+  font-size: 0.38rem;
+  color: #c11b2a;
+  padding-top: 0.5rem;
+}
+
+.cp1 .pate1 .listPic .p2 {
+  font-size: 0.24rem;
+  color: #595757;
+  padding-top: 0.1rem;
+  padding-bottom: 0.5rem;
+}
+
+.cp .pate1 .btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.cp .pate1 .btn a {
+  min-width: 0.26rem;
+  padding: 0.03rem 0.1rem;
+  display: inline-block;
+  height: 0.3rem;
+  text-align: center;
+  line-height: 0.3rem;
+  font-size: 0.24rem;
+  background-color: #595757;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0.05rem;
+}
+
+.cp .pate1 .btn a:first-child {
+  margin-right: 0.15rem;
+  margin-left: 0;
+}
+
+.cp .pate1 .btn a:last-child {
+  margin-left: 0.15rem;
+  margin-right: 0;
+}
+
+.cp .pate1 .btn a.on {
+  background-color: #c11b2a;
+}
+
+.cp2 .first-img {
+  width: 6.3rem;
+  display: block;
+  margin: auto;
+  margin-top: 0.5rem;
+}
+
+.cp2 .pate1 .listPic {
+  width: 6.3rem;
+  margin: auto;
+  margin-bottom: 0.8rem;
+}
+
+.cp2 .pate1 .listPic li {
+  float: left;
+  margin-top: 0.35rem;
+  width: 3.1rem;
+  text-align: center;
+}
+
+.cp2 .pate1 .listPic li:nth-child(2n) {
+  float: right;
+}
+
+.cp2 .pate1 .listPic img {
+  width: 3.1rem;
+  height: 2.23rem;
+  display: block;
+}
+
+.cp2 .pate1 .listPic p {
+  display: inline-block;
+  padding: 0 0.2rem;
+  line-height: 0.5rem;
+  border: 1px solid #787777;
+  margin-top: 0.35rem;
+  color: #595757;
+  font-weight: bold;
+  border-radius: 0.2rem;
+}

@@ -1,0 +1,29 @@
+.pic{
+  background: #eeeeee;
+}
+.pic img{
+  display: block;
+  width: 100%;
+  margin-bottom: 0.04rem;
+}
+.dm1 .part1 .pic{
+  padding-bottom: 0.2rem;
+}
+.dm1 .part2{
+  padding-bottom: 0.26rem;
+}
+.dm1 .part2 .pic{
+  background: #ffffff;
+}
+
+.dm1 .part2 .pic img{
+  margin-bottom: 0.2rem;
+}
+.dm2 .pic{
+  background: #ffffff;
+  padding-bottom: 0.4rem;
+  margin-top: 0.4rem;
+}
+.dm2 .pic img{
+  margin-bottom: 0.1rem;
+}

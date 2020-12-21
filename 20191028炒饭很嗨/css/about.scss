@@ -1,0 +1,245 @@
+@import './px2rem.scss';
+.main {
+    padding-bottom: px2rem(156);
+    .bg {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+    }
+    .control-page {
+        bottom: px2rem(51);
+        .control-box {
+            a {
+                background-color: #ffffff;
+                span {
+                    color: #d8621c;
+                }
+            }
+        }
+    }
+}
+
+.content {
+    padding: 0 px2rem(30);
+}
+
+.sec1 {
+    margin-top: px2rem(9);
+    .img-box {
+        font-size: 0;
+        margin-top: px2rem(29);
+    }
+    .p-box {
+        margin-top: px2rem(33);
+        line-height: px2rem(54);
+    }
+}
+
+.sec2 {
+    margin-top: px2rem(65);
+    position: relative;
+    .icon {
+        width: px2rem(384.5);
+        position: absolute;
+        left: px2rem(-30);
+        bottom: px2rem(-129);
+    }
+    .sec-title {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .s-l {
+            width: px2rem(154);
+            font-size: 0;
+            position: relative;
+            &::before,
+            &::after {
+                font-family: hyliliangheij;
+                font-size: px2rem(56);
+                position: absolute;
+                top: px2rem(15);
+                color: #ffffff;
+            }
+            &::before {
+                content: '菜';
+                left: px2rem(15);
+            }
+            &::after {
+                content: '油';
+                right: px2rem(15);
+            }
+        }
+        .s-r {
+            font-family: hyliliangheij;
+            font-size: px2rem(44);
+            margin-left: px2rem(10);
+        }
+    }
+    .sec-info {
+        width: 100%;
+        margin-top: px2rem(9);
+        .controls {
+            padding: 0 px2rem(20);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            align-items: flex-start;
+            .control {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: px2rem(26);
+                &:nth-child(1) {
+                    margin-right: px2rem(26);
+                }
+                &-img {
+                    width: px2rem(209);
+                    height: px2rem(209);
+                    box-sizing: border-box;
+                    border: px2rem(2) solid #d8621c;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 0;
+                    img {
+                        width: px2rem(192);
+                        border-radius: 50%;
+                    }
+                }
+                &-name {
+                    width: px2rem(254);
+                    background-color: #d8621c;
+                    color: #ffffff;
+                    font-size: px2rem(26);
+                    line-height: normal;
+                    padding: px2rem(6) 0;
+                    text-align: center;
+                    border-radius: px2rem(10);
+                    margin-top: px2rem(13);
+                }
+                &-desc {
+                    width: px2rem(312);
+                    text-align: center;
+                    margin-top: px2rem(17);
+                    p {
+                        font-size: px2rem(22);
+                        line-height: px2rem(28);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.sec3 {
+    margin-top: px2rem(157);
+    .desc {
+        text-align: center;
+        p {
+            font-size: px2rem(22);
+            line-height: px2rem(38);
+            color: #ffffff;
+        }
+    }
+    .sec-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: px2rem(42);
+        &-main {
+            width: px2rem(224);
+            position: relative;
+            font-size: 0;
+            .line {
+                width: px2rem(148);
+                height: px2rem(2);
+                background-color: #ffffff;
+                position: absolute;
+                top: 50%;
+                margin-top: px2rem(-1);
+                &-l {
+                    left: px2rem(-166);
+                }
+                &-r {
+                    right: px2rem(-166);
+                }
+            }
+            &::after {
+                content: '';
+                box-sizing: border-box;
+                display: block;
+                width: px2rem(556);
+                height: px2rem(119);
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                margin-left: px2rem(-278);
+                border: px2rem(2) solid #ffffff;
+                border-top: none;
+            }
+        }
+        &-sub {
+            margin-top: px2rem(13);
+            p {
+                font-family: hyliliangheij;
+                font-size: px2rem(44);
+                color: #ffffff;
+            }
+        }
+        &-en {
+            text-transform: uppercase;
+            font-size: px2rem(20);
+            color: #ffffff;
+            margin-top: px2rem(32);
+        }
+    }
+    .sec-info {
+        margin-top: px2rem(16);
+        .tags {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            .tag {
+                margin-top: px2rem(24);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                &-img {
+                    width: px2rem(326);
+                    height: px2rem(236);
+                    box-sizing: border-box;
+                    border: px2rem(2) solid #ffffff;
+                    text-align: center;
+                    position: relative;
+                    .cover-img {
+                        width: px2rem(311);
+                        margin-top: px2rem(7);
+                    }
+                }
+                &-name {
+                    width: px2rem(134);
+                    position: absolute;
+                    top: px2rem(210);
+                    left: 50%;
+                    margin-left: px2rem(-67);
+                }
+                &-desc {
+                    width: px2rem(305);
+                    text-align: center;
+                    margin-top: px2rem(37);
+                    p {
+                        color: #ffffff;
+                        font-size: px2rem(22);
+                        line-height: px2rem(28);
+                    }
+                }
+            }
+        }
+    }
+}

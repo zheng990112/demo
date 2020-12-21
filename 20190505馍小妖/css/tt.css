@@ -1,0 +1,117 @@
+
+.part1{
+	width: 6.5rem;
+	margin:0 auto;
+}
+.part1 .part1-main{
+	
+}
+.part1 .part1-main .a1-img{
+	display: block;
+	width: 100%;
+	margin-top: 0.4rem;
+	margin-bottom: 0.15rem;
+}
+.part1 .part1-main .main-b .fl-lt img{
+	width: 0.45rem;
+	height: 0.44rem;
+	display: block;
+}
+.part1 .part1-main .main-b .fl-rt img{
+	display: block;
+	width: 3.4rem;
+	height: 0.4rem;
+}
+
+.part1 .part1-main .box{
+	border-bottom:1px dashed #bababa;
+}
+.part1 .part1-main .box .p1{
+	font-size: 0.34rem;
+	color:#333;
+	margin-top: 0.3rem;
+}
+.part1 .part1-main .box .p2{
+	font-size: 0.24rem;
+	color:#666666;
+	margin-top: 0.15rem;
+}
+.part1 .part1-main .box .time{
+	line-height: 0.5rem;
+}
+.part1 .part1-main .box .time span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.75);
+	-webkit-transform: scale(.75);
+	-o-transform: scale(.75);
+	-moz-transform: scale(.75);
+	-ms-transform: scale(.75);
+	width: 130%;
+	margin-left: -16%;
+}
+
+.part1 .part1-main .news-btn{
+	text-align: center;
+	margin-top: 0.5rem;
+	margin-bottom: 0.4rem;
+}
+.part1 .part1-main .news-btn div{
+	display: inline-block;
+	margin:0 0.1rem;
+}
+.part1 .part1-main .news-btn div span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+}
+.part1 .part1-main .news-btn div a{
+	padding:0.05rem;
+}
+.part1 .part1-main .news-btn div.page span a{
+	background-color: #dd5625;
+	color:#fefefe;
+}
+.part1 .part1-main .news-btn div span a.on{
+	background-color: #dd5625;
+	color:#fefefe;
+}
+
+
+
+
+
+/*newsdetail*/
+.newsdetail-box{
+	width: 6.5rem;
+	margin:0 auto;
+}
+.newsdetail-box .p1{
+	font-size: 0.54rem;
+	text-align: center;
+}
+.newsdetail-box .p2{
+	text-align: center;
+}
+.newsdetail-box .p2 span{
+	font-size: 0.24rem;
+	color:#666;
+	margin:0 0.2rem;
+}
+.newsdetail-box img{
+	display: block;
+	width: 100%;
+	margin:0.1rem 0;
+}
+.newsdetail-box p{
+	font-size: 0.24rem;
+	color:#333;
+	text-indent: 0.48rem;
+	line-height: 0.36rem;
+}

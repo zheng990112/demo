@@ -1,0 +1,580 @@
+/*金汤鲜锅系列*/
+.cp1 .title{
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: .4rem;
+}
+.cp1 .title .box{
+	margin: 0 auto .2rem;
+}
+.cp1 .title .box{
+	border: 2px solid #9F1F24;
+	width: 3.8rem;
+	font-size: .34rem;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+.cp1 .title .box .p2{
+	background: #9F1F24;
+	color: #F1C71D;
+	line-height: .52rem;
+	padding-left: 3px;
+}
+.cp1 .title .box .p1{
+	padding-left: 3px;
+	line-height: .52rem;
+}
+
+.cp1 .bigSmall{
+	margin-bottom: .24rem;
+}
+.cp1 .bigSmall .large_box{
+	width: 6.8rem;
+	margin: 0 auto .24rem auto;
+	overflow: hidden;
+	height: 3.54rem;
+}
+.cp1 .bigSmall .large_box ul{
+	position: relative;
+}
+.cp1 .bigSmall .large_box ul li{
+	position: relative;
+	width: 6.8rem;
+	height: 3.54rem;; 
+	border: 2px solid #9F1F24;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.cp1 .bigSmall .large_box ul li .box{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 2px .1rem 0;
+	box-sizing: border-box;
+	height: .6rem;
+	overflow: hidden;
+	color: #F1C71D;
+	background: #9F1F24;
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+}
+.cp1 .bigSmall .large_box ul li .box .p1{
+	font-size: .38rem;
+	font-weight: bold;
+	padding-right: .08rem;
+	margin-right: .08rem;
+	border-right: 2px solid #F1C71D;
+	line-height: .6rem;
+}
+.cp1 .bigSmall .large_box ul li .box .p2{
+	position: relative;
+	width: 450px;
+	font-size: 14px;
+	flex: 1;
+}
+.cp1 .bigSmall .large_box ul li .box .p2 span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 109%;
+	margin-left: -4.5%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-overflow: -o-ellipsis-lastline;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;	
+}
+.cp1 .bigSmall .small_box{
+	width: 6.8rem;
+	margin: 0 auto;
+	position: relative;
+}
+.cp1 .bigSmall .small_box .small_list{
+	width: 6rem;
+	height: 1.65rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.cp1 .bigSmall .small_box .small_list ul{
+	position: relative;
+}
+.cp1 .bigSmall .small_box .small_list ul li{
+	width: 2.84rem;
+	height: 1.65rem;
+	position: relative;
+	float: left;
+	cursor: pointer;
+	margin: 0 .08rem;
+	overflow: hidden;
+	border: 2px solid transparent;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.cp1 .bigSmall .small_box .small_list ul li p{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	font-size: .24rem;
+	padding: 0 .1rem;
+	box-sizing: border-box;
+	height: .4rem;
+	line-height: .4rem;
+	overflow: hidden;
+	background: #9F1F24;
+	color: #F1C71D;
+}
+.cp1 .bigSmall .small_box ul li.on{
+	border:2px solid #9F1F24;
+}
+.cp1 .bigSmall ul li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.cp1 .bigSmall .small_box  ul li img{
+	height: 1.25rem;
+}
+.cp1 .arrow{
+	position: absolute;
+	top: 0;
+	line-height: 1.65rem;
+	height: 1.65rem;
+	width: .3rem;
+	text-align: center;
+	background: #9F1F24;
+	background: #9F1F24;
+	cursor: pointer;
+}
+.cp1 .arrow-left{
+	left: 0;
+}
+.cp1 .arrow-right{
+	right: 0;
+} 
+.cp1 .arrow span{
+	display: block;
+	font-size: .3rem;
+	color: #F1C71D;
+}
+
+
+/*老徐鱼锅系列*/
+.cp2 .title{
+	text-align: center;
+	margin-bottom: .36rem;
+}
+.cp2 .title .box{
+	margin: 0 auto .2rem;
+	width: 3.8rem;
+	position: relative;
+}
+.cp2 .title .box:before,
+.cp2 .title .box:after{
+    content: '';
+    width: 1.2rem;
+    height: .4rem;
+    border-top: 2px solid #341F0B;
+    position: absolute;
+    top: .22rem;
+}
+.cp2 .title .box:before{
+	border-left: 2px solid #341F0B;
+	left: -.6rem;
+}
+.cp2 .title .box:after{
+	border-right: 2px solid #341F0B;
+	right: -.6rem;
+}
+.cp2 .title .box p{
+	font-weight: bold;
+	font-size: .34rem;
+	letter-spacing: 3px;
+	padding-left: 3px;
+}
+.cp2 .title .box .p2{
+	position: relative;
+}
+.cp2 .title .box .p2:before,
+.cp2 .title .box .p2:after{
+	content: '';
+	position: absolute;
+	bottom: .18rem;
+	height: 2px;
+	width: .4rem;
+	background: #341F0B;
+}
+.cp2 .title .box .p2:before{
+	left: -.6rem;
+}
+.cp2 .title .box .p2:after{
+	right: -.6rem;
+}
+.cp2 .title .p3{
+	font-size: .24rem;
+	font-weight: bold;
+	line-height: .4rem;
+	margin-top: .16rem;
+}
+.cp2 ul li{
+	background: #341F0B;
+	border: 2px solid #341F0B;
+	border-bottom: 0;
+	width: 48%;
+	float: left;
+	margin-bottom: .24rem;
+	box-sizing: border-box;
+}
+.cp2 ul li img{
+	display: block;
+	width: 100%;
+}
+.cp2 ul li:nth-child(2),
+.cp2 ul li:nth-child(5){
+	float: right;
+}
+.cp2 ul li:nth-child(3){
+	width: 100%;
+}
+.cp2 ul li p{
+	text-align: center;
+	font-size: .32rem;
+	color: #F1C71D;
+	line-height: .56rem;
+	height: .56rem;
+}
+
+
+/*特色涮品系列*/
+.cp3 .title{
+	text-align: center;
+	margin-bottom: .36rem;
+}
+.cp3 .title .box{
+	margin: 0 auto .2rem;
+	position: relative;
+}
+.cp3 .title .box p{
+	font-weight: bold;
+	font-size: .34rem;
+	letter-spacing: 3px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	line-height: .6rem;
+	width: 100%;
+	text-align: center;
+}
+.cp3 .title .box img{
+	display: block;
+	margin: 0 auto;
+	width: 5.93rem;
+}
+.cp3 .title .p3{
+	font-size: .24rem;
+	font-weight: bold;
+	line-height: .4rem;
+	margin-top: .16rem;
+}
+
+.cp3 .step ul li{
+   border: 3px solid #341F0B;
+   clear: both;
+   overflow: hidden;
+   background: #341F0B;
+   margin-bottom: .24rem;
+   height: 2.64rem;
+    
+}
+.cp3 .step ul li .li-img{
+	width: 60%;
+}
+.cp3 .step ul li .li-img img{
+	height: 100%;
+}
+.cp3 .step ul li .li-con{
+	width: 40%;
+	color: #F1C71D;
+	text-align: center;
+	padding-top: .32rem;
+    box-sizing: border-box;
+    height: .4rem;
+    line-height: .4rem;
+}
+
+
+
+/*蘸料鲜蔬系列*/
+.cp4 .con{
+	margin-bottom: .24rem;
+}
+.cp4 .title{
+	text-align: center;
+	margin-bottom: .32rem;
+}
+.cp4 .title .box{
+	margin: 0 auto .2rem;
+	position: relative;
+	font-weight: bold;
+	width: 4rem;
+	font-size: 0;
+}
+.cp4 .title .box:before,
+.cp4 .title .box:after{
+    content: '';
+    width: .3rem;
+    height: .52rem;
+    border-top: 2px solid #9F1F24;
+    position: absolute;
+    top: .24rem;
+}
+.cp4 .title .box:before{
+	border-left: 2px solid #9F1F24;
+	left: -.4rem;
+}
+.cp4 .title .box:after{
+	border-right: 2px solid #9F1F24;
+	right: -.4rem;
+}
+.cp4 .title .box .p1{
+	font-size: .34rem;
+	letter-spacing: 3px;
+	padding-left: 3px;
+	color: #9F1F24;
+	line-height: .52rem;
+}
+.cp4 .title .box .p2{
+	letter-spacing: .06rem;
+	display: inline-block;
+	line-height: .52rem;
+	color: #F1C71D;
+	background: #9F1F24;
+	padding: 0 .1rem 0 .16rem;
+	font-size: .3rem;
+	margin-top: .04rem;
+}
+.cp4 .title .box .p2:before,
+.cp4 .title .box .p2:after{
+	content: '';
+	position: absolute;
+	bottom: .24rem;
+	height: 2px;
+	width: 1rem;
+	background: #9F1F24;
+}
+.cp4 .title .box .p2:before{
+	left: -.4rem;
+}
+.cp4 .title .box .p2:after{
+	right: -.4rem;
+}
+.cp4 .title .p3{
+	font-size: .24rem;
+	font-weight: bold;
+	line-height: .4rem;
+	margin-top: .16rem;
+}
+
+
+/*风味凉菜系列*/
+.cp5 .title{
+	text-align: center;
+	margin-bottom: .4rem;
+}
+.cp5 .title .box{
+	margin: 0 auto .2rem;
+	position: relative;
+}
+.cp5 .title .box p{
+	font-weight: bold;
+	font-size: .34rem;
+	line-height: .6rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	text-align: center;
+}
+.cp5 .title .box img{
+	display: block;
+	margin: 0 auto;
+	width: 5.93rem;
+}
+.cp5 .title .p3{
+	font-size: .24rem;
+	font-weight: bold;
+	line-height: .4rem;
+	margin-top: .16rem;
+}
+.cp5 ul li{
+	float: left;
+	width: 48.5%;
+	background: #341F0B;
+	border: 2px solid #341F0B;
+	border-bottom: 0;
+	margin-bottom: .24rem;
+	box-sizing: border-box;
+}
+.cp5 ul li:nth-child(even){
+	float: right;
+}
+.cp5 ul li p{
+	text-align: center;
+	font-size: .28rem;
+	color: #F1C71D;
+	line-height: .6rem;
+	height: .6rem;
+}
+
+
+/*自制饮品系列*/
+.cp6 .title{
+	text-align: center;
+	margin-bottom: .4rem;
+}
+.cp6 .p1{
+	font-size: .34rem;
+	font-weight: bold;
+	line-height: 1;
+	border-bottom: 1px solid #341F0B;
+	position: relative;
+	display: inline-block;
+	margin: 0 auto .24rem;
+	padding-bottom: .12rem;
+}
+.cp6 .p1:before{
+	content: '';
+	width: 1.4rem;
+	height: 2px;
+	background: #341F0B;
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+}
+.cp6 .title .p3{
+	font-size: .24rem;
+	font-weight: bold;
+	line-height: .4rem;
+	margin-top: .16rem;
+}
+.cp6 ul li{
+	float: left;
+	width: 48.5%;
+	background: #341F0B;
+	border: 3px solid #341F0B;
+	margin-bottom: .24rem;
+	border-bottom: 0;
+	box-sizing: border-box;
+}
+.cp6 ul li:nth-child(even){
+	float: right;
+}
+.cp6 ul li p{
+	text-align: center;
+	font-size: .28rem;
+	color: #F1C71D;
+	line-height: .6rem;
+}
+
+
+/*经典主食系列*/
+.cp7 .title{
+	text-align: center;
+	margin-bottom: .4rem;
+}
+.cp7 .box{
+	margin: 0 auto .2rem;
+}
+.cp7 .box span{
+	display: inline-block;
+	width: .6rem;
+	height: .6rem;
+	line-height: .56rem;
+	border-radius: 50%;
+	margin-left: -.08rem;
+	font-size: .34rem;
+	font-weight: bold;
+	color: #F1C71D;
+	background: #9F1F24;
+}
+.cp7 .box span:nth-child(even){
+	background: #341F0B;
+}
+.cp7 .box span:nth-child(3n){
+	margin-right: .3rem;
+}
+.cp7 .box span:last-child{
+	margin-right: 0;
+}
+.cp7 .title .p3{
+	font-size: .24rem;
+	font-weight: bold;
+	line-height: .4rem;
+	margin-top: .16rem;
+}
+
+.cp7 ul li{
+	margin-bottom: .24rem;
+	border: 3px solid #341F0B;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.cp7 ul li p{
+	color: #F1C71D;
+	font-size: 20px;
+	width: 1.3rem;
+	height: 1.3rem;
+	line-height: .36rem;
+	padding-top: .32rem;
+	box-sizing: border-box;
+	overflow: hidden;
+	text-align: center;
+	margin-left: -.1rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	font-size: .26rem;
+}
+.cp7 ul li:before{
+	content: '';
+	width: 2.6rem;
+	height: 2.6rem;
+	border-radius: 50%;
+	background: #9F1F24;
+	position: absolute;
+	left: -1.3rem;
+	top: -1.3rem;
+	z-index: 2;
+}
+.cp7 ul li:nth-child(even) p{
+	left: auto;
+	right: 0;
+	margin-left: 0;
+	margin-right: -.1rem;
+	padding-top: .2rem;
+}
+.cp7 ul li:nth-child(even):before{
+	right: -1.3rem;
+	left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+

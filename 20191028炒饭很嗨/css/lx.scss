@@ -1,0 +1,88 @@
+@import './px2rem.scss';
+
+.part1 .map{
+	width:px2rem(685);
+	height:px2rem(385);
+	margin:0 auto;
+	margin-top: px2rem(25);
+}
+.part1 .p1{
+	font-size: px2rem(24);
+	color:#333333;
+	text-align:center;
+	margin:px2rem(10) 0;
+}
+.part1 .p2{
+	font-size: px2rem(34);
+	color:#fff;
+	width:px2rem(425);
+	height:px2rem(60);
+	margin:0 auto;
+	background-color: #d8621c;
+	border-radius: px2rem(30);
+	text-align: center;
+	line-height:px2rem(60);
+	font-weight: bold;
+}
+.part1 .p3{
+	font-size: px2rem(24);
+	color:#333333;
+	text-align:center;
+	margin-top: px2rem(10);
+}
+.part2{
+	width: px2rem(690);
+	margin:0 auto;
+	border:1px solid #cccccc;
+	border-radius: px2rem(20);
+	padding:px2rem(20) 0 px2rem(40);
+	box-sizing: border-box;
+	margin-top:px2rem(50);
+}
+.part2 p{
+	font-size: px2rem(24);
+	color:#333333;
+	text-align: center;
+}
+.part2 input{
+	display: block;
+	width:px2rem(600);
+	height:px2rem(80);
+	margin:0 auto;
+	padding-left:px2rem(40);
+	box-sizing: border-box;
+	background:#eaeaea;
+	color:#7f7f7f;
+	border-radius: px2rem(15);
+	margin-top:px2rem(28);
+}
+.part2 textarea{
+	display: block;
+	width:px2rem(600);
+	height:px2rem(180);
+	margin:0 auto;
+	padding-top: px2rem(20);
+	padding-left:px2rem(40);
+	box-sizing: border-box;
+	background:#eaeaea;
+	color:#7f7f7f;
+	border-radius: px2rem(15);
+	margin-top:px2rem(28);
+	resize: none;
+}
+.part2 button{
+	font-size: px2rem(34);
+	font-weight: bold;
+	width: px2rem(225);
+	height:px2rem(60);
+	border-radius: px2rem(30);
+	margin:0 auto;
+	display: block;
+	background-color: #d8621c;
+	margin-top:px2rem(30);
+	color:#fff;
+}
+
+.lx{
+	padding-bottom:px2rem(140);
+}

@@ -1,0 +1,199 @@
+html,body,.swiper-container,.swiper-wrapper,
+.swiper-slide{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.view1 .view-box{
+	padding-top:2rem;
+	box-sizing: border-box;
+}
+.view1 .view1-title{
+	text-align: center;
+}
+.view1 .view1-title .p1{
+	width: 6rem;
+	margin:0 auto;
+	position:relative;
+	font-size: 0.6rem;
+	font-weight: bold;
+	color:#0f0f0f;
+}
+.view1 .view1-title .p1::after{
+	content:"";
+	display: inline-block;
+	width: 100%;
+	height: 0.34rem;
+	background: #ffd817;
+	position:absolute;
+	left: 0;
+	bottom: -0.1rem;
+	z-index: -1;
+}
+.view1 .view1-title img{
+	display: block;
+	width: 3.87rem;
+	margin:0 auto;
+	margin-top: 0.15rem;
+}
+.view1 .view-main{
+	position: relative;
+	z-index: 8;
+}
+.view1 .view-main .top-box{
+	width: 6.9rem;
+	height: 4.6rem;
+	border:1px solid #000;
+	border-radius:0.2rem;
+	box-sizing: border-box;
+	margin:0 auto;
+	padding-top: 0.215rem;
+	margin-top: 0.3rem;
+}
+.view1 .view-main .thumbs-box{
+	width: 6.9rem;
+	height: 1.9rem;
+	margin:0 auto;
+	position:relative;
+}
+.view1 .swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+.view1 .view-main .swiper-container{
+	width: 6.32rem;
+}
+.view1 .view-main .gallery-top{
+	width: 6.32rem;
+	height: 4.15rem;
+}
+.view1 .swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+.view1 .view-main .gallery-thumbs{
+	width: 6.32rem;
+	height: 1.9rem;
+	position:relative;
+	margin-top: 0.4rem;
+}
+.view1 .swiper-button-prev.swiper-button-white,
+.view1 .swiper-container-rtl .swiper-button-next.swiper-button-white{
+	background: url(../img/view/arrowL.png) no-repeat;
+	background-size: 100% 100%;
+	left:0;
+}
+.view1 .swiper-button-next.swiper-button-white,
+.view1 .swiper-container-rtl .swiper-button-prev.swiper-button-white{
+	background: url(../img/view/arrowR.png) no-repeat;
+	background-size: 100% 100%;
+	right: 0;
+}
+.view1 .swiper-button-next,
+.view1 .swiper-button-prev{
+	width: 0.48rem;
+	height: 0.52rem;
+	margin-top: -0.26rem;
+}
+.view1 .view-main .gallery-thumbs .swiper-slide{
+	height: 1.75rem;
+}
+
+
+html,body,
+.view2{
+	height: 100%;
+}
+.view2 .view-box{
+	padding-top:1.9rem;
+	box-sizing: border-box;
+}
+.view2 .view2-title{
+	width: 5.13rem;
+	margin:0 auto;
+}
+.view2 .view2-title img{
+	display: block;
+	width: 100%;
+}
+.view2 .view2-main{
+	height: 6.5rem;
+	background-color: #309dcf;
+	margin-top: 0.5rem;
+	position:relative;
+}
+.view2 .view2-main::after{
+	content:"";
+	display: inline-block;
+	width: 5.87rem;
+	height: 3rem;
+	background: url(../img/view/b2.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	right: 0.15rem;
+	bottom: -0.5rem;
+	z-index: -1;
+}
+
+
+
+.view2 .picScroll-left{
+	width: 100%;
+	position: relative;
+	height: 6.1rem;
+}
+.view2 .picScroll-left .hd ul{
+	position: absolute;
+	bottom: 0rem;
+	left: 0;
+	text-align: center;
+	width: 100%;
+}
+.view2 .picScroll-left .hd ul li{
+	width: .28rem;
+	height: .28rem;
+	background:#98cee7;
+	margin: 0 .1rem;
+	border-radius: 50%;
+    font-size: 0;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.view2 .picScroll-left .hd ul li.on{
+	width: .28rem;
+	height: .28rem;
+	background:#ffffff;
+}
+
+.view2 .picScroll-left .bd{
+	width:7rem;
+    overflow: hidden;
+    margin: 0 auto;
+   	height: 5.4rem;
+}
+.view2 .picScroll-left .bd ul{
+	position: relative;
+	height: 5.4rem;
+}
+.view2 .picScroll-left .bd ul li{
+	width: 3.3rem;
+	background: #fff;
+	border-radius: 0.2rem;
+	border:1px solid #000;
+	box-sizing: border-box;
+	float: left;
+	margin:0 0.1rem;
+	position: relative;
+	text-align: center;
+	padding:0.05rem 0;
+	margin-top: 0.4rem;
+}
+.view2 .picScroll-left .bd ul li img{
+	width:3.07rem;
+	height:2.03rem;
+	display: block;
+	margin:0 auto;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Document</title>
+		<script src="../js/hotcss.js"></script>
+
+		<link rel="stylesheet" href="../css/common.css">
+		<link rel="stylesheet" href="../css/news.css">
+	</head>
+
+	<body>
+		<header>
+			<div class="header-box">
+				<a href="index.html" class="logo-box">
+					<img src="../img/logo.png" width="100%" alt="">
+				</a>
+				<div class="menu-box">
+					<span class="text">目&nbsp;录</span>
+					<img src="../img/close.png" class="close" alt="">
+				</div>
+			</div>
+		</header>
+		<div class="mask">
+			<div class="menu-box">
+				<img src="../img/menu_bg.png" width="100%" alt="">
+				<div class="menu-list">
+					<div class="menu-title">
+						<p>目录<span>/ CATALOG</span></p>
+					</div>
+					<div class="list">
+						<a href="about.html"><span>关于我们</span></a>
+						<a href="ys.html"><span>品牌优势</span></a>
+						<a href="cp.html"><span>美食产品</span></a>
+						<a href="hz.html"><span>合作共赢</span></a>
+						<a href="fc.html"><span>创业扶持</span></a>
+						<a href="news.html" class="on"><span>新闻动态</span></a>
+						<a href="lx.html"><span>联系我们</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main padding lx">
+			<div class="title">
+				<div class="cn">
+					<p>新闻动态</p>
+				</div>
+				<div class="en">
+					<p>News information</p>
+				</div>
+			</div>
+			<!-- <div class="sub-title">
+            <div class="sub-title-main">
+                <span>引领健康炒饭新食尚</span>
+            </div>
+            <div class="sub-title-en">
+                <span>LEADING THE NEW TREND OF HEALTHY FRIED RICE</span>
+            </div>
+        </div> -->
+
+			<div class="content">
+				<div class="part1">
+					<img src="../img/news/a1.jpg" alt="" class="news-img">
+					<div class="part1-main">
+						<div class="news-btn">
+							<p class="on">品牌资讯</p>
+							<p>行业动态</p>
+						</div>
+						<div class="box ">
+							<a href="newsdetail.html" class="clearfix">
+								<p class="news-fonts">恭喜北京张总成功签约炒饭很嗨恭喜北京张总成功签约炒饭很嗨恭喜北京张总成功签约炒饭很嗨111！</p>
+								<p class="news-time">2019-10-1</p>
+							</a>
+							<a href="newsdetail.html" class="clearfix">
+								<p class="news-fonts">恭喜北京张总成功签约炒饭很嗨11！</p>
+								<p class="news-time">2019-10-1</p>
+							</a>
+							<a href="newsdetail.html" class="clearfix">
+								<p class="news-fonts">恭喜北京张总成功签约炒饭很嗨11！</p>
+								<p class="news-time">2019-10-1</p>
+							</a>
+						</div>
+						<div class="box hide">
+							<a href="newsdetail.html" class="clearfix">
+								<p class="news-fonts">恭喜北京张总成功签约炒饭很嗨2222！</p>
+								<p class="news-time">2019-10-1</p>
+							</a>
+							<a href="newsdetail.html" class="clearfix">
+								<p class="news-fonts">恭喜北京张总成功签约炒饭很嗨222！</p>
+								<p class="news-time">2019-10-1</p>
+							</a>
+							<a href="newsdetail.html" class="clearfix">
+								<p class="news-fonts">恭喜北京张总成功签约炒饭很嗨222！</p>
+								<p class="news-time">2019-10-1</p>
+							</a>
+						</div>
+						<div class="fenye-btn">
+							<a href="">上一页</a>
+							<a href="">1</a>
+							<a href="">2</a>
+							<a href="">3</a>
+							<a href="">下一页</a>
+						</div>
+						<div class="fenye-btn hide">
+							<a href="">上一页</a>
+							<a href="">1</a>
+							<a href="">2</a>
+							<a href="">3</a>
+							<a href="">下一页</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="news-b">
+				<img src="../img/news/a2.jpg" alt="" class="btn-bg">
+				<div class="control-page">
+					<div class="control-box">
+						<a href="fc.html"><span>上一章</span></a>
+						<a href="lx.html"><span>下一章</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="../js/jquery-1.11.3.min.js"></script>
+	<script src="../js/common.js"></script>
+	<script>
+		$(".news-btn p").on("click",function(){
+			let index = $(this).index()
+			$(this).addClass("on").siblings().removeClass("on")
+			$(".part1-main .box").eq(index).removeClass('hide').siblings('.part1-main .box').addClass("hide");
+			$(".part1-main .fenye-btn").eq(index).removeClass('hide').siblings('.part1-main .fenye-btn').addClass("hide");
+		})
+	</script>
+</html>

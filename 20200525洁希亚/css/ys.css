@@ -1,0 +1,435 @@
+.ys {
+  padding-top: 0.6rem;
+}
+.ys1 .listBox{
+  padding: 0 0.3rem;
+  padding-top: 0.5rem;
+}
+.ys1 .listBox li{
+  float: left;
+  border-radius: 0.3rem;
+  border: #c5a789 0.02rem solid;
+  width: 3rem;
+  height: 1.9rem;
+  text-align: center;
+  margin-bottom: 0.3rem;
+  background-color: #ececec;
+}
+.ys1 .listBox li:nth-child(2n) {
+  float: right;
+}
+.ys1 .listBox li .p1{
+  padding: 0.15rem 0;
+  font-size: 0.32rem;
+  color: #c49c62;
+}
+.ys1 .listBox li .p2{
+  font-size: .24rem;
+  transform: scale(.83);
+  -webkit-transform: scale(.83);
+  -o-transform: scale(.83);
+  -moz-transform: scale(.83);
+  -ms-transform: scale(.83);
+  width: 120%;
+  margin-left: -10%;
+}
+.ys1 .listBox li .p2 span{
+  color: #c49c62;
+}
+
+.ys1 .public-title2 .p-1 span::before,
+.ys1 .public-title2 .p-1 span::after{
+  display: none;
+}
+.ys1 .block{
+  text-align: center;
+}
+.ys1 .public-title2{
+  position: relative;
+  display: inline-block;
+}
+.ys1 .public-title2::after,
+.ys1 .public-title2::before{
+  content: "";
+  display: inline-block;
+  width: 1.19rem;
+  height: 0.86rem;
+  position: absolute;
+  top: 0.2rem;
+}
+.ys1 .public-title2 .p-2{
+  font-size: .24rem;
+  transform: scale(.83);
+  -webkit-transform: scale(.83);
+  -o-transform: scale(.83);
+  -moz-transform: scale(.83);
+  -ms-transform: scale(.83);
+}
+.ys1 .public-title2::after {
+  background: url(../img/iconLS.png) no-repeat;
+  background-size: 100% 100%;
+  left: -0.5rem;
+}
+.ys1 .public-title2::before{
+  background: url(../img/iconRS.png) no-repeat;
+  background-size: 100% 100%;
+  right: -0.5rem;
+}
+.ys1 .img1{
+  width: 7.5rem;
+  height: 4.12rem;
+}
+
+
+.ys2 img{
+  width: 100%;
+}
+.ys2 .listBox{
+  padding: 0.5rem 0.3rem 1rem;
+  position: relative;
+}
+.ys2 .listBox li{
+  float: left;
+  border-radius: 0.3rem;
+  border: #c5a789 0.02rem solid;
+  width: 3rem;
+  height: 1.9rem;
+  text-align: center;
+  margin-bottom: 0.3rem;
+  background-color: #ececec;
+  position: relative;
+  margin-top: 1rem;
+}
+.ys2 .listBox li:nth-child(2n) {
+  float: right;
+}
+.ys2 .listBox li .p1{
+  padding: 0.15rem 0;
+  font-size: 0.32rem;
+  color: #c49c62;
+  padding-top: 0.7rem;
+}
+.ys2 .listBox li .p2{
+  font-size: .24rem;
+  transform: scale(.83);
+  -webkit-transform: scale(.83);
+  -o-transform: scale(.83);
+  -moz-transform: scale(.83);
+  -ms-transform: scale(.83);
+  width: 120%;
+  margin-left: -10%;
+}
+.ys2 .listBox li img{
+  position: absolute;
+  width: 1.4rem;
+  height: 1.4rem;
+  top: -1rem;
+  left: 50%;
+  margin-left: -0.71rem;
+  border: 0.01rem solid #c49c62;
+  border-radius: 50%;
+}
+.ys2 .listBox .img6{
+  float: left;
+  width: 7.5rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  /* width: 2.76rem;
+  height: 3.05rem; */
+}
+
+.ys2 .public-title2 .p-2{
+  font-size: .24rem;
+  transform: scale(.83);
+  -webkit-transform: scale(.83);
+  -o-transform: scale(.83);
+  -moz-transform: scale(.83);
+  -ms-transform: scale(.83);
+}
+.ys2 .listText{
+  padding: 0 0.3rem;
+  padding-top: 0.4rem;
+}
+.ys2 .listText li {
+  width: 1.46rem;
+  margin-left: 0.3rem;
+  float: left;
+  height: 0.33rem;
+  border: 0.02rem solid #797979;
+  border-radius: 0.3rem;
+  text-align: center;
+  line-height: 0.37rem;
+}
+.ys2 .listText li:first-child{
+  margin-left: 0;
+}
+.ys3{
+  text-align: center;
+}
+.ys3 .textBox{
+  display: inline-block;
+  font-size: 0.33rem;
+  margin: 0 auto;
+  line-height: 0.33rem;
+  padding-top: 0.5rem;
+}
+.ys3 .textBox .p1{
+  color: #c79f62;
+  float: left;
+}
+.ys3 .textBox .p2{
+  color: #595757;
+  float: left;
+}
+.ys3 .textBox img{
+  float: left;
+  width: 0.33rem;
+  height: 0.33rem;
+  margin-left: 0.1rem;
+}
+
+/* .ys4 .listBox{
+  padding: 0 0.4rem;
+  padding-top: 0.4rem;
+}
+.ys4 .listBox li{
+  float: left;
+  width: 2.06rem;
+  margin-left: 0.26rem;
+  margin-bottom: 0.4rem;
+  position: relative;
+}
+.ys4 .listBox li:nth-child(3n+1){
+  margin-left: 0;
+}
+.ys4 .listBox li img{
+  float: left;
+  width: 2.06rem;
+  height: 1.1rem;
+}
+.ys4 .listBox li p{
+  float: left;
+  color: #595757;
+  font-size: .24rem;
+  transform: scale(.9);
+  -webkit-transform: scale(.9);
+  -o-transform: scale(.9);
+  -moz-transform: scale(.9);
+  -ms-transform: scale(.9);
+  width: 110%;
+  margin-left: -5%;
+}
+.ys4 .listBox li .p2{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: .24rem;
+  transform: scale(.4);
+  -webkit-transform: scale(.4);
+  -o-transform: scale(.4);
+  -moz-transform: scale(.4);
+  -ms-transform: scale(.4);
+  width: 100%;
+  margin-right: -40%;
+} */
+.ys5 .listBox {
+  padding: 0 0.4rem;
+}
+.ys5 .listBox li{
+  float: left;
+  width: 100%;
+}
+.ys5 .listBox li img{
+  float: left;
+  width: 3.22rem;
+  height: 2.69rem;
+}
+.ys5 .listBox li div{
+  float: left;
+  width: 3.08rem;
+  margin-left: 0.4rem;
+}
+.ys5 .listBox li div .p1{
+  position: relative;
+  width: 1.61rem;
+  height: 0.38rem;
+  line-height: 0.38rem;
+  text-align: center;
+  background: url(../img/ys/ys5_02.jpg) center no-repeat;
+  background-size: 1.61rem 0.38rem;
+  color: #ffffff;
+}
+.ys5 .listBox li div .p1 span{
+  display: block;
+  font-size: .24rem;
+  transform: scale(.83);
+  -webkit-transform: scale(.83);
+  -o-transform: scale(.83);
+  -moz-transform: scale(.83);
+  -ms-transform: scale(.83);
+  width: 120%;
+  margin-left: -10%;
+}
+.ys5 .listBox li .p1::after{
+  content: "";
+  width: 0.07rem;
+  height: 0.13rem;
+  position: absolute;
+  top: 0.15rem;
+  right: -0.2rem;
+  background: url(../img/ys/ys5_03.jpg) center no-repeat;
+  background-size: 0.07rem 0.13rem;
+}
+.ys5 .listBox li .p2{
+  float: left;
+  color: #c79f62;
+  
+}
+.ys5 .listBox li .p2 span{
+  display: block;
+  font-size: .24rem;
+  transform: scale(.83);
+  -webkit-transform: scale(.83);
+  -o-transform: scale(.83);
+  -moz-transform: scale(.83);
+  -ms-transform: scale(.83);
+  width: 120%;
+  margin-left: -10%;
+}
+.ys5 .listBox li .p3{
+  float: left;
+  color: #595757;
+}
+.ys5 .listBox li .p3 span{
+  text-align: justify;
+  display: block;
+  font-size: .24rem;
+  transform: scale(.66);
+  -webkit-transform: scale(.66);
+  -o-transform: scale(.66);
+  -moz-transform: scale(.66);
+  -ms-transform: scale(.66);
+  width: 150%;
+  margin-top: -16%;
+  margin-left: -25%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;
+}
+
+.ys6 .listBox{
+  margin-top: 0.4rem;
+  padding: 0 0.4rem;
+}
+.ys6 .listBox li{
+  width: 2.1rem;
+  float: left;
+  margin-left: 0.2rem;
+  text-align: center;
+}
+.ys6 .listBox li:first-child{
+  margin-left: 0;
+}
+.ys6 .listBox li img{
+  width: 2.1rem;
+  height: 1.1rem;
+}
+.ys6 .listBox li .p1{
+  margin: 0.2rem auto;
+  width: 0.95rem;
+  height: 0.27rem;
+  line-height: 0.27rem;
+  color: #ffffff;
+  border-radius: 0.1rem;
+  background-color: #c79f62;
+}
+.ys6 .listBox li .p2{
+  padding-bottom: 0.2rem;
+}
+
+.ys6 .box{
+  text-align: center;
+  padding: 0.3rem 0;
+}
+.ys6 .box p{
+  font-size: .24rem;
+  transform: scale(.58);
+  -webkit-transform: scale(.58);
+  -o-transform: scale(.58);
+  -moz-transform: scale(.58);
+  -ms-transform: scale(.58);
+  width: 175%;
+  margin-left: -37%;
+}
+.ys6 .box span{
+  color: #c79f62;
+  font-size: .24rem;
+  transform: scale(.66);
+  -webkit-transform: scale(.66);
+  -o-transform: scale(.66);
+  -moz-transform: scale(.66);
+  -ms-transform: scale(.66);
+}
+.ys6 .listTitle{
+  padding: 0 0.4rem;
+  margin-top: 0.2rem;
+}
+.ys6 .listTitle li{
+  width: 1.8rem;
+  height: 2.7rem;
+  float: left;
+  border: 0.05rem solid #dcdcdc;
+  border-radius: 0.5rem;
+  margin-left: 0.5rem;
+  margin-top: 0.3rem;
+  text-align: center;
+}
+.ys6 .listTitle li:nth-child(3n+1){
+  margin-left: 0;
+}
+.ys6 .listTitle li .img1{
+  width: 1.44rem;
+  height: 1.44rem;
+  border-radius: 50%;
+  border: 0.1rem solid #dcdcdc;
+  display: inline-block;
+  margin-top: 0.2rem;
+}
+.ys6 .listTitle li .img2{
+  width: 1.12rem;
+  height: 0.51rem;
+}
+.ys6 .listTitle .imgBox{
+  float: left;
+  width: 3.67rem;
+  height: 3.56rem;
+  margin-left: 1rem;
+}
+
+/* .ys6 .listTitle li p{
+  color: #595757;
+}
+.ys6 .listTitle li .p1 span{
+  font-size: .24rem;
+  transform: scale(.7);
+  -webkit-transform: scale(.7);
+  -o-transform: scale(.7);
+  -moz-transform: scale(.7);
+  -ms-transform: scale(.7);
+}
+.ys6 .listTitle li .p2 span{
+  font-size: .24rem;
+  transform: scale(.4);
+  -webkit-transform: scale(.4);
+  -o-transform: scale(.4);
+  -moz-transform: scale(.4);
+  -ms-transform: scale(.4);
+} */
+
+.ys1 .public-title2::after, .ys1 .public-title2::before{
+	top: 0.1rem;
+}

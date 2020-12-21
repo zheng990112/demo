@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+		<!-- Link Swiper's CSS -->
+		<link rel="stylesheet" type="text/css" href="../css/swiper-3.3.1.min.css" />
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/pp.css" />
+		<link rel="stylesheet" href="../css/z_ani.css" />
+		<link rel="stylesheet" type="text/css" href="../css/aos.css" />
+		<script src="../js/aos.js"></script>
+		<script type="text/javascript">
+			document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + 'px';
+		</script>
+	</head>
+
+	<body>
+		<div class="header-box">
+			<div class="header">
+				<div class="er-nav">
+					<a href="pp.html#pp1" class="on"><span>VI应用</span></a>
+					<a href="pp.html#pp2"><span>美学店面</span></a>
+
+				</div>
+			</div>
+			<div class="menu-img">
+				<div class="menu_line"></div>
+				<div class="menu_box">品牌<br />形象</div>
+			</div>
+			<div class="menu">
+				<ul>
+					<li>
+						<div class="title">
+							<a href="gw.html"><span>菲尝锅王</span></a>
+						</div>
+					</li>
+					<li>
+						<div class="title">
+							<a href="yh.html"><span>味蕾诱惑</span></a>
+						</div>
+					</li>
+					<li>
+						<div class="title">
+							<a href="xm.html"><span>黄金项目</span></a>
+						</div>
+					</li>
+					<li class="active">
+						<div class="title">
+							<a href="pp.html"><span>品牌形象</span></a>
+						</div>
+					</li>
+					<li>
+						<div class="title">
+							<a href="hz.html"><span>全国合作</span></a>
+						</div>
+					</li>
+					<li>
+						<div class="title">
+							<a href="lx.html"><span>联系我们</span></a>
+						</div>
+					</li>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="main">
+			<div class="part part1">
+				<div class="mao" id="pp1"></div>
+				<div class="hz_top" aos="fade-down" aos-delay="400">
+					<p class="scale09">APPLICATION OF VI</p>
+					<h3>VI应用</h3>
+				</div>
+				<div class="part1_center">
+					<img src="../img/pp/a1.jpg" aos="fade-right" aos-delay="400"/>
+					<p aos="fade-left" aos-delay="600"><span>不论过去多久，也不忘一见倾“心”</span></p>
+				</div>
+				<div class="part1_bottom clearfix">
+					<div class="picScroll-left" aos="fade-up" aos-delay="400">
+						<div class="hd">
+							<a class="prev arrow arrow-left"><img src="../img/pp/left.png" alt="" /></a>
+							<ul></ul>
+							<a class="next arrow arrow-right"><img src="../img/pp/right.png" alt="" /></a>
+						</div>
+						<div class="bd" aos="fade-left" aos-delay="400">
+							<ul id="order_list">
+								<li class="on">
+									<img src="../img/pp/a2.jpg" alt="" />
+								</li>
+								<li>
+									<img src="../img/pp/a2.jpg" alt="" />
+								</li>
+								<li>
+									<img src="../img/pp/a2.jpg" alt="" />
+								</li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="part part2">
+				<div class="mao" id="pp2"></div>
+				<div class="hz_top" aos="fade-down" aos-delay="400">
+					<p class="scale09">AESTHETIC STOREFRONT</p>
+					<h3>美学店面</h3>
+				</div>
+				<div class="part1_center">
+					<img src="../img/pp/a3.jpg" aos="fade-left" aos-delay="400"/>
+					<p aos="fade-right" aos-delay="400"><span>创造出颜控们拍拍拍拍不停的打卡天地，大片效果，8G都不够</span></p>
+				</div>
+				<div class="part1_bottom clearfix" aos="fade-left" aos-delay="400">
+					<div class="picScroll-left">
+						<div class="hd">
+							<a class="prev arrow arrow-left"><img src="../img/pp/left.png" alt="" /></a>
+							<ul></ul>
+							<a class="next arrow arrow-right"><img src="../img/pp/right.png" alt="" /></a>
+						</div>
+						<div class="bd" aos="fade-left" aos-delay="400">
+							<ul id="order_list">
+								<li class="on">
+									<img src="../img/pp/b1.jpg" alt="" />
+								</li>
+								<li>
+									<img src="../img/pp/a2.jpg" alt="" />
+								</li>
+								<li>
+									<img src="../img/pp/a2.jpg" alt="" />
+								</li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="btn-box" >
+					<div class="prev">
+						<a href=""><img src="../img/prev.png" alt="" /><span>上一页</span></a>
+					</div>
+					<div class="next">
+						<a href=""><span>下一页</span><img src="../img/next.png" alt="" /></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="../js/jquery-1.11.2.min.js"></script>
+		<script src="../js/common.js"></script>
+		<script src="../js/jquery.SuperSlide.2.1.1.js"></script>
+
+		<script>
+			jQuery(" .picScroll-left").slide({
+				titCell: ".hd ul",
+				mainCell: ".bd ul",
+				autoPlay: true,
+				autoPage: true,
+				effect: "leftLoop",
+				vis: 3
+			});
+
+			AOS.init({
+				easing: 'ease-out-back',
+				duration: 1500
+			});
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,51 @@
+
+.mt01{
+	margin-top: 0.1rem;
+}
+.mt02{
+	margin-top: 0.2rem!important;
+}
+.mt04{
+	margin-top: 0.4rem;
+}
+.mt05{
+	margin-top: 0.5rem;
+}
+.reading{
+	margin-top: 0;
+}
+.p1{
+	color:#515151;
+	font-family: myfont_Light;
+}
+.p1 b{
+	color:#bb1a1f;
+	font-family: myfont_Medium;
+	font-weight: bold;
+}
+
+.part1 .part1-img{
+	display: block;
+	width: 100%;
+	margin-top: 0.15rem;
+}
+.part1 .p2{
+	font-family: myfont_Medium;
+	font-weight: bold;
+	color:#221714;
+}
+.part1{
+	padding-bottom: 0.8rem;
+}
+
+p .black_p{
+	font-family: myfont_Medium;
+	color:#000;
+	font-weight: bold;
+}
+p .red_p{
+	font-family: myfont_Medium;
+	color:#c21a1f;
+	font-weight: bold;
+	
+}

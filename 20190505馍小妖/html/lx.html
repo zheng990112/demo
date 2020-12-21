@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title></title>
+		<meta http-equiv="X-UA-Compatitle" content="IE=edge">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<!--网站开启对 web app 程序的支持-->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no,email=no,adress=no" />
+		<link rel="stylesheet" href="../css/swiper-3.3.1.min.css" />
+		<link rel="stylesheet" href="../css/common_add.css" type="text/css" />
+		<link rel="stylesheet" href="../css/lx.css" type="text/css" />
+		<script type="text/javascript">
+			document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + 'px';
+		</script>
+		<link rel="stylesheet" type="text/css" href="../css/aos.css" />
+		<script src="../js/aos.js"></script>
+		
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=6ALaE7y1e8N171T2CfPrHqZC3Ed000Cl"></script>
+	</head>
+	<body>
+		
+		<div class="header clearfix">
+			<div class="logo fl-lt"><img src="../img/logo.png" alt="" /></div>
+			<div class="menu-img fl-rt">
+				<img src="../img/a1.png" alt="" />
+			</div>
+			<div class="menu">
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="xy.html#anchor">馍小妖</a></li>
+					<li><a href="ys.html#anchor">项目优势</a></li>
+					<li><a href="cp.html#anchor">小妖产品</a></li>
+					<li><a href="xx.html#anchor">视觉形象</a></li>
+					<li><a href="tt.html#anchor">小妖头条</a></li>
+					<li><a href="hz.html#anchor">合作共赢</a></li>
+					<li class="active"><a href="lx.html#anchor">联系我们</a></li>
+				</ul>
+			</div>
+			
+		</div>
+		<div class="banner">
+			<div class="swiper-container banner-swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="../img/banner2.jpg" alt="" /></div>
+					<div class="swiper-slide"><img src="../img/banner2.jpg" alt="" /></div>
+					<div class="swiper-slide"><img src="../img/banner2.jpg" alt="" /></div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="main lx">
+				<div id="anchor"></div>
+				<div id="lx1"></div>
+				<div class="public-title" aos="fade-down" aos-delay="400">
+					<p class="p1">我要合作</p>
+					<p class="p2">cooperation</p>
+				</div>
+				<div class="part1" aos="zoom-in" aos-delay="400">
+					<div class="box">
+						<span>姓名</span><input type="text" />
+					</div>
+					<div class="box">
+						<span>电话</span><input type="text" />
+					</div>
+					<div class="box">
+						<span>地区</span><input type="text" />
+					</div>
+					<div class="box">
+						<span>留言</span><textarea name="" rows="" cols=""></textarea>
+					</div>
+				</div>
+				<button aos="zoom-in" aos-delay="400">提交</button>
+				
+				<div class="part2">
+					<div class="map" id="map" aos="fade-up" aos-delay="400"></div>
+					<div class="map-b" aos="fade-left" aos-delay="400">
+						<img src="../img/foot2.png" alt="" />
+						<span class="span1">创业热线：</span>
+						<span class="span2">400-8856-836</span>
+					</div>
+					<div class="erweima-box"  aos="fade-right" aos-delay="400">
+						<div class="erweima">
+							<img src="../img/lx/b1.jpg" alt="" />
+						</div>
+						<div class="erweima-font">
+							<p><span>馍小妖品牌管理运营总部丨秦王餐饮管理有限公司</span></p>
+							<p><span>公司地址：西安市未央区凤城十二路中港国际大厦</span></p>
+						</div>
+					</div>
+					<div class="copy-title" aos="fade-up" aos-delay="400">
+						<img src="../img/lx/b2.jpg" alt="" />
+						<p>战略合作品牌</p>
+					</div>
+					<div class="copy-img" aos="zoom-in" aos-delay="400">
+						<img src="../img/lx/b3.jpg" alt="" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="foot clearfix">
+			<div class="zxly fl-lt">
+				<a href="lx.html#lx1">
+					<img src="../img/foot1.png" alt="" />
+					<span>在线留言</span>
+				</a>
+			</div>
+			<div class="totel fl-rt">
+				<a href="tel:123456">
+					<img src="../img/foot2.png" alt="" />
+					<span>一键拨号</span>
+				</a>
+			</div>
+		</div>
+		
+		
+		
+		<script src="../js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="../js/swiper-3.3.1.jquery.min.js"></script>
+		<script type="text/javascript" src="../js/common.js"></script>
+		<script>
+			AOS.init({
+				easing: 'ease-out-back',
+				duration: 1500
+			});
+		</script>
+		<script type="text/javascript">
+			var map = new BMap.Map("map"); // 创建Map实例
+			var point = new BMap.Point(108.9384000000, 34.3627100000);
+			map.centerAndZoom(point, 15);
+			var marker = new BMap.Marker(point); // 创建标注
+			map.addOverlay(marker); // 将标注添加到地图中
+			marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+			map.panTo(point);
+			map.addControl(new BMap.NavigationControl()); // 添加默认缩放平移控件
+			map.enableScrollWheelZoom(true); //开启鼠标滚轮缩放
+		</script>
+	</body>
+</html>

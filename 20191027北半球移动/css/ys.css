@@ -1,0 +1,151 @@
+.main.padding {
+  padding: 1.6853333333rem 1.4933333333rem 2.7733333333rem;
+  box-sizing: border-box;
+}
+
+.top-icon {
+  position: absolute;
+  right: 0;
+  top: 1.0666666667rem;
+  width: 8.96rem;
+}
+
+.sec1 .part3 {
+  margin-top: 1.4933333333rem;
+  position: relative;
+}
+
+.sec1 .part3 .cp-title .p1 {
+  line-height: 0.6826666667rem;
+}
+
+.sec1 .part3 .part3-p {
+  font-size: 0.4266666667rem;
+  color: #717071;
+  line-height: 0.7893333333rem;
+  text-indent: 0.8533333333rem;
+  margin-top: 0.8533333333rem;
+}
+
+.sec1 .part3 ul {
+  display: block;
+  width: 13.8666666667rem;
+  margin-left: -0.4266666667rem;
+  margin-top: 0.8533333333rem;
+}
+
+.sec1 .part3 ul li {
+  float: left;
+  width: 6.8266666667rem;
+  height: 3.5413333333rem;
+  position: relative;
+  margin-right: 0.2133333333rem;
+  margin-top: 0.2133333333rem;
+}
+
+.sec1 .part3 ul li:nth-child(2n) {
+  margin-right: 0;
+}
+
+.sec1 .part3 ul li .li-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.sec1 .part3 ul li p {
+  width: 3.2213333333rem;
+  height: 0.768rem;
+  background: url(../img/cp/a3-11.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  font-size: 0.512rem;
+  color: #878787;
+  line-height: 0.768rem;
+  padding-left: 0.4266666667rem;
+  box-sizing: border-box;
+}
+
+.sec1 .part4 {
+  width: 16rem;
+  margin-left: -1.4933333333rem;
+  margin-top: 1.0666666667rem;
+}
+
+.sec1 .part4 img {
+  display: block;
+  width: 100%;
+}
+
+.flex-title {
+  white-space: nowrap;
+}
+
+.flex-title .sec-title {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.flex-title .cp-title {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.flex-title .cp-title .p1 {
+  font-size: 0.6186666667rem;
+  font-weight: bold;
+  color: #315acd;
+}
+
+.sec7 {
+  margin-top: 1.28rem;
+  position: relative;
+}
+
+.sec7 .sec7-icon {
+  width: 5.0773333333rem;
+  position: absolute;
+  bottom: -0.4266666667rem;
+  right: 0.4266666667rem;
+  z-index: -1;
+}
+
+.sec7 .flex-title .cp-title {
+  margin-left: 0.64rem;
+}
+
+.sec7 .flex-title .cp-title .p0 {
+  font-size: 0.64rem;
+  color: #595757;
+}
+
+.sec7 ul li {
+  float: left;
+  width: 33.3%;
+  text-align: center;
+  margin-top: 0.96rem;
+}
+
+.sec7 ul li img {
+  display: block;
+  width: 1.92rem;
+  height: 1.664rem;
+  margin: 0 auto;
+}
+
+.sec7 ul li .p1 {
+  font-size: 0.6186666667rem;
+  color: #000000;
+  font-weight: bold;
+  margin-top: 0.2133333333rem;
+}
+
+.sec7 ul li .p2 {
+  font-size: 0.6826666667rem;
+  line-height: 1.0666666667rem;
+  color: #4d4d4d;
+}
+
+/*# sourceMappingURL=ys.css.map */

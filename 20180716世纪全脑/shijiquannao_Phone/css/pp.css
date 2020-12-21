@@ -1,0 +1,129 @@
+.pp .title{
+	font-size: .28rem;
+	color:#7a272c;
+	border-bottom: 1px solid #7a272c;
+	padding-bottom: .06rem;
+	padding-left: .3rem;
+	margin-bottom: .32rem;
+}
+.pp .part1 .title{
+	margin-top: .12rem;
+}
+.pp .title span{
+	display: inline-block;
+	margin-left: -.2rem;
+	color: #666;
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+}
+
+.pp .box {
+	padding: 0 .3rem;
+	color: #666;
+	margin-bottom: .5rem;
+}
+.pp .box .img1{
+	display: block;
+	width: 100%;
+}
+.pp .box .p1{
+	font-size: .26rem;
+	margin-top: .2rem;
+}
+.pp .box .line{
+	width: .5rem;
+	height: 2px;
+	background: #666;
+	margin: .12rem 0 .2rem;
+}
+.pp .box ul li{
+	height: .6rem;
+	line-height: .6rem;
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 110%;
+	margin-left: -5%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.pp .box ul li a{
+	display: block;
+	height: 100%;
+}
+
+
+
+/*新闻详情*/
+.detail .con{
+	padding: 0 .3rem .2rem;
+	color: #40210F;
+	margin-top: .16rem;
+	margin-bottom: .4rem;
+}
+.detail .part1{
+	text-align: center;
+}
+.detail .part1 h3{
+	font-size: .3rem;
+	margin: 0 auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.detail .part1 .box{
+	color: #666;
+	font-size: .24rem;
+	margin-top: .08rem;
+}
+.detail .part1 .box span{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 .12rem;
+}
+.detail .part2{
+	margin-top: .2rem;
+	font-size: 0;
+}
+.detail .part2 p{
+	color: #666;
+	text-indent: .48rem;
+	margin-bottom: .2rem;
+	line-height: .46rem;
+	font-size: .24rem;
+	transform: scale(.92);
+	-webkit-transform: scale(.92);
+	-o-transform: scale(.92);
+	-moz-transform: scale(.92);
+	-ms-transform: scale(.92);
+	width: 108%;
+	margin-left: -4%;
+	text-align: justify;
+}
+.detail .part2 img{
+	display: block;
+	max-width: 100%;
+	margin: .2rem auto 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/swiper-3.3.1.min.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/index.css">
+
+    <script src="../js/swiper.min.js"></script>
+    <script src="../js/jquery-3.4.1.min.js"></script>
+
+    <script type="text/javascript">
+        var clientWidth = document.documentElement.clientWidth;
+
+        document.documentElement.style.fontSize = clientWidth / 7.5 + 'px';
+
+        if (clientWidth < 340) {
+            document.documentElement.style.fontSize = clientWidth / 7.8 + 'px';
+        }
+    </script>
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <img class="bofang" onclick="window.parent.frames['music'].play(this)" src="../img/play.png" width="100%">
+
+    <div class="wrap-container">
+        <div class="swiper-wrapper">
+
+
+            <div class="swiper-slide">
+                <div class="flex-wrap">
+                    <div class="header">
+                        <div class="header-info">
+                            <div class="phone-info">
+                                <div class="phone-icon">
+                                    <img src="../img/index/phone-icon.png" alt="" width="100%">
+                                </div>
+                                <div class="phone-desc">
+                                    <p>全国咨询热线</p>
+                                    <p class="number">400-6557-288</p>
+                                </div>
+                            </div>
+                            <div class="logo">
+                                <img src="../img/index/logo.png" alt="" width="100%">
+                            </div>
+                            <div class="menu">
+                                <img src="../img/index/menu-icon.png" alt="" width="100%">
+
+                                <div class="menu-list">
+                                    <div class="triangle"></div>
+
+                                    <ul>
+                                        <li><a href="xy.html"><span>超演学院</span></a></li>
+                                        <li><a href="kc.html"><span>课程介绍</span></a></li>
+                                        <li><a href="hz.html"><span>申请工作</span></a></li>
+                                        <li><a href="pp.html"><span>品牌故事</span></a></li>
+                                        <li><a href="lx.html"><span>联系我们</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="../img/index/banner01.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="../img/index/banner01.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="../img/index/banner01.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-button-prev"></div>
+
+                            <div class="swiper-button-next"></div>
+
+                        </div>
+                    </div>
+                    <div class="footer">
+                        <ul>
+                            <li><a href="music.html">课程咨询</a></li>
+                            <li><a href="#">合作咨询</a></li>
+                            <li><a href="#">申请测评</a></li>
+                            <li><a href="#">课程预约</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="swiper-slide">
+                <div class="nav">
+                    <div class="logo">
+                        <img src="../img/index/logo2.png" alt="">
+                    </div>
+
+                    <div class="menu-box">
+                        <div class="menu-title">
+                            <p class="en">CATALOG</p>
+                            <p class="ch">目 录</p>
+                        </div>
+                        <div class="menus">
+                            <a class="menu" href="xy.html"><span>超演学院</span></a>
+                            <a class="menu" href="kc.html"><span>课程介绍</span></a>
+                            <a class="menu" href="hz.html"><span>申请合作</span></a>
+                            <a class="menu" href="pp.html"><span>品牌故事</span></a>
+                            <a class="menu" href="lx.html"><span>联系我们</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+<script>
+    window.onload = function() {
+        $('.menu').on('click', function() {
+            $('.menu-list').toggle(function() {
+                // $(this).css('transition', 'height 1s');
+            });
+        })
+
+        var wrapSwiper = new Swiper('.wrap-container', {
+            direction: 'vertical',
+
+        })
+
+
+        var firstSwiper = new Swiper('.swiper-container', {
+            autoplay: 3000,
+            speed: 300,
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            }
+        });
+    }
+</script>
+
+</html>

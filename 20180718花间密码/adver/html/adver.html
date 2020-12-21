@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	    <title></title>
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no,email=no,adress=no" />
+	    <link rel="stylesheet" href="../css/adver.css" />
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+	</head>
+	<body>
+		<div class="content">
+			<img src="../img/a1.jpg" alt="" />
+			<img data-original="../img/a2.jpg" alt="" class="lazy"/>
+			<img data-original="../img/a3.jpg" alt="" class="lazy"/>
+			<img data-original="../img/a4.jpg" alt="" class="lazy"/>
+			<img data-original="../img/a5.jpg" alt="" class="lazy"/>
+			<img data-original="../img/a6.jpg" alt="" class="lazy"/>
+			<div class="part1">
+				<div class="picScroll-left">
+					<div class="hd">
+						<ul>
+							<li></li>
+						</ul>
+					</div>
+					<div class="bd">
+						<ul id="order_list">
+							<li>
+								<img src="../img/b1.jpg" alt="" />
+							</li>
+							<li>
+								<img src="../img/b2.jpg" alt="" />
+							</li>
+							<li>
+								<img src="../img/b3.jpg" alt="" />
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<img data-original="../img/a7.jpg" alt="" class="lazy"/>
+			<img data-original="../img/a8.jpg" alt="" class="lazy"/>
+			<img data-original="../img/a9.jpg" alt="" class="lazy"/>
+			<img data-original="../img/a10.jpg" alt="" class="lazy"/>
+			<img data-original="../img/a11.jpg" alt="" class="lazy"/>
+			<div class="part2">
+				<div class="e1-img"><img src="../img/e1.png" alt="" /></div>
+				<div class="picScroll-left">
+					<div class="hd">
+						<ul>
+							<li></li>
+						</ul>
+					</div>
+					<div class="bd">
+						<ul id="order_list">
+							<li>
+								<img src="../img/c1.jpg" alt="" />
+							</li>
+							<li>
+								<img src="../img/c2.jpg" alt="" />
+							</li>
+							<li>
+								<img src="../img/c3.jpg" alt="" />
+							</li>
+							<li>
+								<img src="../img/c4.jpg" alt="" />
+							</li>
+							<li>
+								<img src="../img/c5.jpg" alt="" />
+							</li>
+							<li>
+								<img src="../img/c6.jpg" alt="" />
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<img data-original="../img/a12.jpg" alt="" class="lazy"/>
+			<img data-original="../img/a13.jpg" alt="" class="lazy"/>
+			<img data-original="../img/a14.jpg" alt="" class="lazy"/>
+			<div class="part3">
+				<div class="e2-img"><img src="../img/e2.png" alt="" /></div>
+				<div class="picScroll-left">
+					<div class="hd">
+						<ul>
+							<li></li>
+						</ul>
+					</div>
+					<div class="bd">
+						<ul id="order_list">
+							<li>
+								<img src="../img/d1.jpg" alt="" />
+							</li>
+							<li>
+								<img src="../img/d2.jpg" alt="" />
+							</li>
+							<li>
+								<img src="../img/d3.jpg" alt="" />
+							</li>
+							<li>
+								<img src="../img/d4.jpg" alt="" />
+							</li>
+							<li>
+								<img src="../img/d5.jpg" alt="" />
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="form1">
+				<img data-original="../img/a15.jpg" alt="" class="lazy"/>
+				<img data-original="../img/a16.jpg" alt="" class="lazy"/>
+				<img data-original="../img/a17.jpg" alt="" class="lazy"/>
+				<div class="form1-main">
+					<div class="p1">
+						<span>姓名 NAME</span>
+						<input type="radio" name="sex" id="sex1"/><label for="sex1">男士</label>
+						<input type="radio" name="sex" id="sex2"/><label for="sex2">女士</label>
+					</div>
+					<input type="text" class="inp"/>
+					<p class="p2">联系地址 ADD</p>
+					<input type="text" class="inp" />
+					<p class="p2">联系电话 TEL</p>
+					<input type="text" class="inp" />
+					<!--<textarea name="" rows="" cols="" placeholder="咨询内容"></textarea>-->
+					<button>提  交</button>
+				</div>
+			</div>
+			<!--<img data-original="../img/a16.jpg" alt="" class="lazy"/>-->
+		</div>
+		
+		
+		<script src="../js/jquery-1.11.2.min.js"></script>
+		<script src="../js/jq.lazyload.js"></script>
+		<script src="../js/jquery.SuperSlide.2.1.1.js"></script>
+		<script>
+			 $('img.lazy').lazyload({threshold:100});
+			 
+			 jQuery(".picScroll-left").slide({titCell:".hd ul",mainCell:".bd ul",autoPlay:true,autoPage:true,effect:"leftLoop",vis:1});
+		</script>
+	</body>
+</html>
