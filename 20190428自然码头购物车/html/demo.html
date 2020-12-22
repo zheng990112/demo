@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>购物车</title>
+		<meta charset="utf-8" />
+		
+	</head>
+
+	<body>
+		
+
+
+
+<div><input name="phone_code" class="inputs w_100" /><input id="btn_code" type="button" class="mar_l_10" value="发送手机验证码" /></div>
+         <p class="ul_error" style="margin-right: 136px;"></p>
+
+
+
+<script src="../js/jquery-1.11.2.min.js"></script>
+<script>
+	var times;
+    $('#btn_code').click(function(){
+        var _this = $(this);
+        times =1;
+        _this.val(times + '秒可以重新发送');
+        var timer = setInterval(function(){
+            times--;
+            //alert(times);
+            _this.val(times + '秒可以重新发送');
+            if(times == 0){
+                _this.val('发送手机验证码');
+                _this.removeAttr('disabled');
+                clearInterval(timer);
+            }
+        },1000);
+        _this.attr('disabled','disabled');
+    });
+</script>
+		
+	</body>
+
+</html>

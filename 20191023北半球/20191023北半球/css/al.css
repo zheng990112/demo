@@ -1,0 +1,152 @@
+.p-main {
+  position: relative;
+  padding-bottom: 6.1458333333vw;
+}
+
+.b4-img {
+  position: absolute;
+  right: 0;
+  top: 23.5416666667vw;
+  width: 20.9375vw;
+  z-index: 1;
+}
+
+.p-main .menu-box {
+  width: 15.1041666667vw;
+  position: fixed;
+  left: 1.6666666667vw;
+  top: 7.9166666667vw;
+  z-index: 99;
+}
+
+.p-main .menu-box a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5.625vw;
+  height: 5.625vw;
+  position: absolute;
+  color: #315ab3;
+  text-align: center;
+}
+
+.p-main .menu-box a.active {
+  font-weight: bold;
+}
+
+.p-main .menu-box a:nth-child(1) {
+  left: 4.7916666667vw;
+  top: 0;
+}
+
+.p-main .menu-box a:nth-child(2) {
+  left: 9.0625vw;
+  top: 2.5vw;
+}
+
+.part-info {
+  margin-left: 18.8020833333vw;
+  width: 62.34375vw;
+  position: relative;
+  z-index: 2;
+}
+.part-info .info-title {
+  display: flex;
+  align-items: center;
+}
+.part-info .info-title .icon {
+  width: 3.90625vw;
+  font-size: 0;
+}
+.part-info .info-title .title-main {
+  font-size: 1.9791666667vw;
+  color: #315ab3;
+  font-weight: bold;
+  margin-left: 1.5104166667vw;
+}
+.part-info .desc {
+  font-size: 1.0416666667vw;
+  line-height: 1.40625vw;
+  margin-top: 1.4583333333vw;
+  color: #333333;
+}
+.part-info .img-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.6666666667vw;
+  font-size: 0;
+}
+.part-info .img-box img {
+  height: 100%;
+}
+
+.al-title {
+  display: inline-block;
+  width: 11.9791666667vw;
+  height: 4.5833333333vw;
+  background: url(../img/al/title.png) no-repeat;
+  background-size: 100% 100%;
+  padding-left: 0.78125vw;
+  padding-top: 0.8854166667vw;
+  box-sizing: border-box;
+  color: #315ab3;
+  position: relative;
+  margin-top: 7.3958333333vw;
+  margin-left: 64.4270833333vw;
+}
+
+.al-title .p1 {
+  font-size: 1.40625vw;
+  font-weight: bold;
+}
+
+.al-title .p2 {
+  font-size: 0.9895833333vw;
+}
+
+.part1 .al-01 {
+  margin-top: 0.625vw;
+}
+.part1 .al-01 .img-box {
+  height: 10.4166666667vw;
+}
+
+.part1 .al-02 {
+  margin-top: 4.6354166667vw;
+}
+.part1 .al-02 .img-box {
+  height: 15.6770833333vw;
+}
+
+.part1 .al-03 {
+  margin-top: 4.6354166667vw;
+}
+.part1 .al-03 .img-box {
+  height: 10.2604166667vw;
+}
+
+.part2 .al-04 {
+  margin-top: 0.625vw;
+}
+.part2 .al-04 .img-box.box1 {
+  margin-top: 2.5vw;
+  height: 20.6770833333vw;
+}
+.part2 .al-04 .img-box.box2 {
+  margin-top: 0.2083333333vw;
+  height: 11.9791666667vw;
+}
+
+.part2 .al-05 {
+  margin-top: 5.5208333333vw;
+}
+.part2 .al-05 .desc {
+  margin-top: 2.1354166667vw;
+}
+.part2 .al-05 .img-box {
+  margin-top: 0.2083333333vw;
+  height: 10.2604166667vw;
+}
+
+/*# sourceMappingURL=al.css.map */

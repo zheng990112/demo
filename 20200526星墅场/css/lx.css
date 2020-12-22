@@ -1,0 +1,76 @@
+.main{
+	text-align: center;
+}
+.main h6{
+	color: #0b308c;
+	font-size: 33px;
+	margin-top: 37px;
+}
+.main_text{
+	margin: 30px auto 10px;
+	font-size: 24px;
+	color: white;
+	width: 143px;
+	height: 38px;
+	background-color: #0b308d;
+	border-radius: 50px;
+}
+.main>p{
+	font-size: 30px;
+	font-weight: 900;
+}
+.main>span{
+	font-size: 33px;
+}
+.main form{
+	margin-top: 70px;
+	border: 2px solid #8598c6;
+	padding: 28px;
+	position: relative;
+}
+.main form input{
+	height: 38px;
+	width: 784px;
+	background-color: #e9e9e9;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+.main form textarea{
+	width: 784px;
+	background-color: #e9e9e9;
+	margin-bottom: 10px;
+	height: 258px;
+	padding-left: 10px;
+	padding-top: 5px;
+	box-sizing: border-box;
+	resize: none;
+}
+.main form input#submit{
+	height: 38px;
+	width: 189px;
+	background-color: #0b308d;
+	border-radius: 50px;
+	color: #FFFFFF;
+	position: absolute;
+	bottom: -80px;
+	left: 50%;
+	margin-left: -94.5px;
+	cursor: pointer;
+}
+.form_box{
+	position: absolute;
+	left: 50%;
+	top: 0;
+	width: 340px;
+	height: 30px;
+	margin-left: -170px;
+	margin-top: -16px;
+	background-color: white;
+	font-size: 24px;
+}
+.map{
+	margin: 120px auto;
+	height: 433px;
+	border: 2px solid #d6bb6c;
+}

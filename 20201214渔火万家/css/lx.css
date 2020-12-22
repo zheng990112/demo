@@ -1,0 +1,206 @@
+.section {
+  background: url("../img/bg01.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.map_box {
+  width: 6.26rem;
+  height: 5.66rem;
+  border-radius: 0.3rem;
+  border: 2px solid #dfd0c1;
+  float: left;
+  overflow: hidden;
+}
+
+.map_box .map {
+  width: 100%;
+  height: 100%;
+}
+
+.lx .page_main {
+  width: 12.6rem;
+  height: 6rem;
+  margin-left: 4rem;
+  position: relative;
+  z-index: 0;
+  padding-top: 0.15rem;
+}
+
+.lx .lx_all {
+  float: right;
+}
+
+.lx .lx_form {
+  border-radius: 0.2rem;
+  text-align: center;
+  width: 5.3rem;
+  height: 4.5rem;
+  background: #d4b996;
+}
+
+.lx .ly_title {
+  color: #fff;
+  font-size: 0.24rem;
+  width: 4rem;
+  height: 0.5rem;
+  background: url("../img/lx/title.png") no-repeat center top;
+  box-sizing: 100% 100%;
+  margin: 0 auto;
+  line-height: 0.35rem;
+  letter-spacing: 0.1rem;
+}
+
+.lx input {
+  width: 3rem;
+}
+
+.lx form input,
+.lx form textarea {
+  display: block;
+  width: 4.1rem;
+  padding: 0 0.12rem 0 0.3rem;
+  border-radius: 0.03rem;
+  height: 0.35rem;
+  background: #fff;
+  margin: auto;
+  margin-top: 0.24rem;
+  font-size: 0.14rem;
+  color: #000000;
+  font-weight: bold;
+  position: relative;
+}
+
+.lx form textarea {
+  height: 0.9rem;
+  padding: 0.06rem 0.12rem 0 0.3rem;
+  resize: none;
+}
+
+.lx .rel_div {
+  position: relative;
+}
+
+.lx .icon {
+  position: absolute;
+  left: 0.5rem;
+  top: 0.09rem;
+  display: inline-block;
+  width: 0.14rem;
+  height: 0.14rem;
+  z-index: 99999;
+}
+
+.lx .rel_div .icon_name {
+  background: url("../img/lx/icon01.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+
+.lx .rel_div .icon_tel {
+  background: url("../img/lx/icon02.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+
+.lx .rel_div .icon_adress {
+  background: url("../img/lx/icon03.jpg") no-repeat;
+  background-size: 100% 100%;
+  width: 0.12rem;
+  height: 0.16rem;
+}
+
+.lx .rel_div .icon_ly {
+  background: url("../img/lx/icon04.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+
+.lx .sub {
+  display: inline-block;
+  width: 2.6rem;
+  height: 0.4rem;
+  font-size: 0.23rem;
+  font-weight: bold;
+  color: #fff;
+  background: url("../img/lx/bg1.png") no-repeat center center;
+  background-size: 100% 100%;
+  margin-top: 0.15rem;
+  letter-spacing: 0.2rem;
+  border-radius: 0.25rem;
+  box-shadow: 0.01rem 0.02rem 0.06rem #888888;
+}
+
+.lx .lx_fs {
+  margin-top: 0.3rem;
+}
+
+.lx .lx_fs .code_img {
+  color: #919191;
+  font-size: 0.16rem;
+  line-height: 0.17rem;
+  float: left;
+}
+
+.lx .lx_fs .code_img>img {
+  width: 1.24rem;
+}
+
+.lx .lx_fs .gs_adress {
+  float: right;
+  /* width: 3.3rem; */
+}
+
+.lx .lx_fs .gs_adress .gs_name {
+  color: #c00e12;
+  font-weight: bold;
+  font-size: 0.21rem;
+  line-height: 0.56rem;
+}
+
+.lx .lx_fs .gs_adress .adress {
+  color: #595757;
+  font-size: 0.17rem;
+  margin-bottom: 0.08rem;
+}
+
+.lx .lx_fs .gs_adress .tel {
+  color: #919191;
+  font-size: 0.19rem;
+}
+
+.lx .lx_fs .gs_adress .tel::before {
+  content: "";
+  display: inline-block;
+  width: 0.28rem;
+  height: 0.28rem;
+  background: url("../img/lx/tel.png") no-repeat;
+  background-size: 100% 100%;
+  vertical-align: middle;
+  margin-right: 0.08rem;
+}
+
+.lx .lx_fs .gs_adress .tel>span {
+  color: #595757;
+  font-size: 0.3rem;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.lx .sc_img {
+  position: absolute;
+  right: -1.3rem;
+  bottom: -1.9rem;
+}
+
+.lx .sc_img>img {
+  width: 2.69rem;
+}
+
+.lx .lx_fs .code_img p {
+  display: block;
+  line-height: 0.28rem;
+  transform: scale(0.75);
+  -webkit-transform: scale(0.75);
+  -o-transform: scale(0.75);
+  -moz-transform: scale(0.75);
+  -ms-transform: scale(0.75);
+  width: 133%;
+  margin-left: -16.5%;
+}

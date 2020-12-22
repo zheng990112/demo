@@ -1,0 +1,126 @@
+.sub-title .p5 {
+  font-size: 0.58rem;
+}
+
+.sub-title .p5 span {
+  margin: 0px 0.4rem;
+}
+
+.lx_box {
+  height: 5.7rem;
+  margin-top: 0.3rem;
+  background: #eeeeee;
+  margin-bottom: 0.3rem;
+}
+
+.map_box {
+  width: 6.26rem;
+  height: 5.66rem;
+  border: 0.02rem solid #dfd0c1;
+  float: left;
+}
+
+.map_box .map {
+  width: 100%;
+  height: 100%;
+}
+
+.part1 input{
+  width: 3rem;
+}
+
+.part1 .form{
+  width: 4.2rem;
+  float: left;
+}
+.part1 .form .p1{
+  text-align: center;
+  font-size: 0.2rem;
+  color: #000000;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  padding-bottom: 0.1rem;
+}
+
+.part1 form input,
+.part1 form textarea{
+  display: block;
+  width: 3.26rem;
+  padding: 0 0.12rem;
+  border-radius: 0.05rem;
+  height: 0.44rem;
+  border: 0.02rem solid #e4e4e4;
+  background: rgba(0, 0, 0, 0);
+  margin: auto;
+  margin-top: 0.1rem;
+  font-size: 0.18rem;
+  color: #000000;
+  font-weight: bold;
+}
+.part1 form textarea{
+  height: 1.56rem;
+  padding: 0.12rem;
+  resize: none;
+}
+.part1 form p{
+  display: flex;
+  justify-content: center;
+}
+.part1 form input:last-child,
+.part1 form input:nth-last-child(2){
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  border: none;
+  width: 1.68rem;
+  height: 0.46rem;
+  background: url(../img/lx/btn.png) no-repeat;
+  background-size: 100% 100%;
+  margin: 0.12rem 0.08rem;
+  cursor: pointer;
+}
+.part1 .str {
+  border-top: 0.02rem solid #dfd0c1;
+  margin-bottom: 0.66rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.2rem;
+}
+.part1 .str p{
+  line-height: 0.4rem;
+  color: #000000;
+}
+.part1 .str p img{
+  display: inline-block;
+  width: 0.4rem;
+  height: 0.4rem;
+  vertical-align: top;
+}
+.part1 .str .p1{
+  font-size: 0.24rem;
+  font-weight: bold;
+}
+.part1 .str .p2{
+  font-size: 0.2rem;
+}
+/* .part1 .str>img{
+  width: 4.12rem;
+  height: 0.67rem;
+  margin-left: 0.25rem;
+} */
+.part1 .str .p3{
+  width: 4.12rem;
+  height: 0.67rem;
+  margin-left: 0.25rem;
+  background: url(../img/lx/str_icon1.png) no-repeat;
+  background-size: 100% 100%;
+}
+.part1 .str .p3 span{
+  display: inline-block;
+  line-height: 0.67rem;
+  color: #000000;
+  font-size: 0.4rem;
+  font-weight: bold;
+  margin-left: 1rem;
+}

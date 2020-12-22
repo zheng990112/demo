@@ -1,0 +1,36 @@
+.pp3 .part1_title{text-align: center;padding-top: 60px;}
+.pp3 .part1_title h3{background: url(../img/pp/d1.jpg) no-repeat center;background-size: 846px 145px;height: 145px;font-size: 54px;color: #ffb853;line-height: 145px;}
+.pp3 .part2_img{width: 1200px;display: block;margin: 0 auto;vertical-align: top;height: 506px;}
+.pp3 .part2_img img{vertical-align: top;width: 100%;height: 100%;}
+.pp3 .part3{width: 1200px;display: block; margin: 0 auto;padding-bottom: 76px;background: url(../img/pp/d5.jpg) no-repeat right bottom;padding-bottom: 160px;}
+.pp3 .part3 .div1{width:309px;height: 548px ;margin-top: 26px;}
+.pp3 .part3 .div1 img{width: 100%;height: 100%;}
+.pp3 .part3 .div2{margin: 26px 22px 0 40px;}
+.pp3 .part3 .part3_right{margin-left: 48px;}
+.pp3 .part3 .part3_right p{font-size: 16px;color: #3a3a3a;line-height: 32px;}
+.pp3 .part3 .part3_right .div3{margin: 54px 0 34px 0;}
+.pp3 .part3 .part3_right .div4{margin: 0px 0 34px 0;}
+/*切换图开始*/
+.pp3 .part3{position: relative;}
+.picScroll-left {width: 680px;float: left;}
+.picScroll-left .bd{ width: 680px; margin: 0px auto; overflow: hidden;padding-top: 10px;float: left;}
+.picScroll-left .bd li{ float: left; position: relative; text-align: center; width: 680px; height: 574px; margin: 0 14px; cursor: pointer;}
+.picScroll-left .bd li .box{ position: relative; width: 100%;}
+.picScroll-left .bd li img{ display: block; width: 100%;}
+.picScroll-left .arrow{ position: absolute; top: 86%; width: 117px; height: 67px; cursor: pointer; margin-top: -30px;}
+.picScroll-left .arrow img{ width: 100%; height: 100%; display: block;}
+.picScroll-left .arrow-left{ left: 40%;}
+.picScroll-left .arrow-right{ right:40%;}
+.tab_img1 .bg2_4{ position: absolute; left: 50%; top: 0px; height: 382px; z-index: -1; box-sizing: border-box; transform: translateX(-50%); -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); -moz-transform: translateX(-50%); width: 1920px;}
+.pp1 .part2_img {background: url(../img/pp/a3.jpg) no-repeat center top;background-size: 1201px 310px;}
+.pp1 .part2_img .tab_img{position: relative;height: 410px;}
+.picScroll-left .hd{position: absolute;bottom: 80px;width: 680px;left: 50%;margin-left: -340px;;}
+.picScroll-left .hd li{width: 14px;height: 14px;border-radius: 50%;background: #dddddd;font-size: 0;float: left;margin: 0 8px;}
+.picScroll-left .hd li.on{width: 16px;height: 16px;background: #ff7741;}
+/*切换图结束*/
+@media (max-width: 1360px){
+	.pp3 .part3{width: 1152px;}
+}
+@media (max-width: 1280px){
+	.pp3 .part3{width: 1152px;}
+}

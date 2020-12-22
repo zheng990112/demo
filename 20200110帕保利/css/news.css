@@ -1,0 +1,142 @@
+
+.news{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+.part1 .part1-l{
+	width: 6.8rem;
+}
+.part1 .part1-l .news-title{
+	display: flex;
+	justify-content:space-between;
+	border-bottom: 1px solid #dfd3ca;
+	padding-bottom:0.2rem;
+}
+.part1 .part1-l .news-title .p1{
+	font-size: 0.47rem;
+	color:#231815;
+	line-height: 0.48rem;
+	font-weight: bold;
+}
+.part1 .part1-l .news-title .p2{
+	font-size: 0.22rem;
+	margin-top: 0.2rem;
+	color:#9e8578;
+}
+.part1 .part1-l .news-img{
+	width:6.8rem;
+	height: 3.8rem;
+	margin-top: 0.2rem;
+}
+.part1 .part1-l .news-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.part1 .part1-l .news-p{
+	font-size: 0.3rem;
+	margin-top: 0.15rem;
+}
+.part1 .part1-l .news-p a{
+	display: block;
+	color:#231815;
+	overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+.part1 .part1-l .news-p a:hover{
+	color:#cbb8aa;
+}
+.part1 .part1-r{
+	width: 5.8rem;
+	padding-top: 1rem;
+	box-sizing: border-box;
+}
+.part1 .part1-r p{
+	font-size: 0.3rem;
+	border-bottom: 1px solid #f5f5f5;
+	line-height: 0.78rem;
+}
+.part1 .part1-r .news-box p:last-child{
+	border-bottom:none;
+}
+.part1 .part1-r p a{
+	color:#231815;
+	display: block;
+	overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+.part1 .part1-r p a:hover{
+	color:#cbb8aa;
+}
+.part1 .part1-r .fenye{
+	font-size: 0;
+	text-align: center;
+	margin-top: 0.3rem;
+}
+.part1 .part1-r .fenye a{
+	display: inline-block;
+	vertical-align: top;
+	width: 0.25rem;
+	height: 0.25rem;
+	border:1px solid #848484;
+	box-sizing: border-box;
+	margin:0 0.06rem;
+	font-size: 0.15rem;
+	line-height: 0.25rem;
+	color:#848484;
+}
+
+.part1 .part1-r .fenye a.on,
+.part1 .part1-r .fenye a:hover{
+	background-color: #848484;
+	color:#fff;
+}
+.part1 .part1-r .fenye a:first-child,
+.part1 .part1-r .fenye a:last-child{
+	border:none;
+}
+.part1 .part1-r .fenye a:first-child:hover,
+.part1 .part1-r .fenye a:last-child:hover{
+	background-color:transparent;
+}
+
+
+.part2{
+	margin-top: 0.7rem;
+}
+
+
+
+
+/*newsdetail*/
+.newsdetail{
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+}
+.newsdetail-title{
+	font-size: 0.4rem;
+	font-weight: bold;
+	text-align: center;
+	color:#231815;
+}
+.newsdetail .newsdetail-time{
+	font-size: 0.28rem;
+	color:#231815;
+	text-align: center;
+}
+.newsdetail .newsdetail-time span{
+	display: inline-block;
+	margin:0.1rem 0.2rem;
+}
+.newsdetail img{
+	display: block;
+	width: 100%;
+}
+.newsdetail p{
+	font-size: 0.2rem;
+	line-height: 0.24rem;
+	text-align: justify;
+	margin-top: 0.1rem;
+}

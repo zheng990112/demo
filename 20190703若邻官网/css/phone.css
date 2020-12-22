@@ -1,0 +1,697 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "Microsoft Yahei", "Hiragino Sans GB";
+	color: #333;
+	background: #fff;
+	-webkit-font-smoothing: antialiased;
+	font-size: 12px;
+	-webkit-text-size-adjust: none;
+	overflow-x: hidden;
+}
+body{
+	overflow-x: hidden;
+}
+a {
+	text-decoration: none;
+	color: #000;
+	-webkit-tap-highlight-color: transparent;
+	display: block;
+}
+
+label {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ul li,
+ol li {
+	list-style: none;
+}
+
+input,
+img,
+textarea,
+button {
+	outline: none;
+	border: 0;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-appearance: none;
+}
+
+button {
+	background: none;
+	outline: none;
+}
+
+b {
+	font-weight: normal;
+}
+
+u {
+	text-decoration: none;
+}
+
+em,
+i {
+	font-style: normal;
+}
+
+.fl-lt {
+	float: left;
+}
+
+.fl-rt {
+	float: right;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*自定义选框*/
+label input{
+	display: none;
+}
+label{
+	display: inline-block;
+	position:relative;
+}
+label input + i::after{
+	content:"";
+	display: inline-block;
+	width: 0.22rem;
+	height: 0.22rem;
+	background: url(../img/proposal/active.png) no-repeat;
+	background-size: 100% 100%; 
+}
+label input:checked + i:after{
+    content: "";
+    display: inline-block;
+    width: 0.22rem;
+    height: 0.22rem;
+    background: url(../img/proposal/active-on.png) no-repeat;
+    background-size: 100% 100%;
+}
+label{
+	font-size: 0.24rem;
+	line-height: 0.22rem;
+	color:#000000;
+	padding-left: 0.3rem;
+}
+label input + i::after{
+	position:absolute;
+	top: 50%;
+	left:0;
+	margin-top: -0.11rem;
+}
+label input:checked + i:after{
+	position:absolute;
+	top: 50%;
+	left:0;
+	margin-top: -0.11rem;
+}
+
+
+
+
+
+
+
+/*header*/
+.header{
+	padding:0 0.3rem;
+	box-sizing: border-box;
+	padding-bottom: 0.3rem;
+	border-bottom: 1px solid #cccccc;
+}
+.header .p1{
+	font-size: 0.4rem;
+	text-align: center;
+	margin-top: 0.6rem;
+	color:#ff0000;
+}
+.header .p2{
+	font-size: 0.24rem;
+	text-align: center;
+	margin-top: 0.1rem;
+}
+.header .p3{
+	text-align: right;
+	position:relative;
+	line-height: 0.4rem;
+	margin-top: 0.2rem;
+}
+.header .p3 span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+}
+.header .p3::before{
+	content:"";
+	display: inline-block;
+	width: 0.1rem;
+	height: 0.1rem;
+	background-color: #d0121b;
+	border-radius: 50%;
+	position:absolute;
+	top:0.15rem;
+	right: 2.7rem;
+}
+.header .p4 span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+	color:#666666;
+	line-height: 0.4rem;
+}
+
+
+/*public*/
+.box{
+	margin-top: 0.3rem;
+	position:relative;
+}
+.box p{
+	font-size: 0.28rem;
+}
+input{
+	height: 0.4rem;
+	background-color:transparent;
+	border:1px solid #cccccc;
+	border-radius: 0.05rem;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left:0.1rem;
+	box-sizing: border-box;
+}
+.shuru_img{
+	width: 0.3rem;
+	height: 0.3rem;
+}
+.inp_box{
+	position:relative;
+	margin-top: 0.25rem;
+}
+.inp_box input{
+	width: 100%;
+}
+.inp_box .shuru_img{
+	position:absolute;
+	right: 0.1rem;
+	top:50%;
+	margin-top: -0.15rem;
+}
+
+
+
+
+
+
+
+
+/*.part1*/
+.part1{
+	padding:0 0.3rem;
+	box-sizing: border-box;
+	padding-bottom: 0.3rem;
+	border-bottom: 1px solid #cccccc;
+}
+.part1 .box1,
+.part1 .box2{
+	display: inline-block;
+	vertical-align: middle;
+}
+.part1 .box1 p,
+.part1 .box2 p{
+	display: inline-block;
+	vertical-align: middle;
+}
+.part1 .box1 input,
+.part1 .box2 input{
+	width: 1.8rem;
+}
+.part1 .box2 span{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 0.05rem;
+}
+.part1 .box1{
+	width: 48%;
+}
+.part1 .box2{
+	width: 52%;
+}
+
+.part1 .box p{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.part1 .box3{
+	display:flex;
+}
+.part1 .box3 input{
+	flex: 1;
+}
+.part1 .box .shuru_img{
+	width: 0.3rem;
+	height: 0.3rem;
+	position:absolute;
+	right: 0.1rem;
+	top:50%;
+	margin-top: -0.15rem;
+}
+
+.part1 .box4 p,
+.part1 .box5 p{
+	display: block;
+}
+.part1 .box4 input{
+	width: 100%;
+	margin-top: 0.2rem;
+}
+.part1 .box4 .shuru_img{
+	top: 80%;
+}
+.part1 .box5 .box5-radio{
+	width: 100%;
+	height: 0.4rem;
+	background-color:transparent;
+	border:1px solid #cccccc;
+	border-radius: 0.05rem;
+	padding-left:0.1rem;
+	box-sizing: border-box;
+	margin-top: 0.25rem;
+	position:relative;
+}
+.part1 .box5 .box5-radio .one{
+	margin-right: 0.2rem;
+}
+
+
+
+/*part2*/
+.part2{
+	padding:0 0.3rem;
+	padding-bottom: 0.3rem;
+	box-sizing: border-box;
+	border-bottom: 1px solid #cccccc;
+}
+.part2 .box1{
+	display: flex;
+	position:relative;
+}
+.part2 .box1 input{
+	flex: 1;
+}
+.part2 .box1 .shuru_img{
+	position:absolute;
+	right: 0.1rem;
+	top:50%;
+	margin-top: -0.15rem;
+}
+.part2 .box2 .box2-radio{
+	width: 100%;
+	background-color:transparent;
+	border:1px solid #cccccc;
+	border-radius: 0.05rem;
+	padding:0.1rem 0;
+	padding-left:0.1rem;
+	box-sizing: border-box;
+	margin-top: 0.25rem;
+	position:relative;
+}
+
+.part2 .box2 label .inp{
+	display: inline-block;
+	vertical-align: middle;
+	background-color: #eeeeee;
+	border: none;
+	border-radius: 0;
+	height: 0.24rem;
+}
+.part2 .box2 label .shuru_img{
+	display:inline-block;
+	vertical-align: middle;
+	width: 0.22rem;
+	height: 0.22rem;
+}
+.part2 .box2 .box2-radio span{
+	display: inline-block;
+	vertical-align: middle;
+}
+.part2 .box2 .box2-radio .two{
+	margin-right: 0.2rem;
+	line-height: 0.32rem;
+}
+
+.part2 .box3{
+	display: flex;
+}
+.part2 .box3 input{
+	flex: 1;
+}
+.part2 .box3 .shuru_img{
+	position:absolute;
+	right: 0.1rem;
+	top:50%;
+	margin-top: -0.15rem;
+}
+
+
+
+.part2 .box5 .box5-main{
+	width: 100%;
+	height: 0.4rem;
+	border:1px solid #cccccc;
+	border-radius: 0.05rem;
+	margin-top: 0.25rem;
+}
+.part2 .box5 .box5-main p{
+	font-size: 0.24rem;
+	color:#666666;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 0.15rem;
+}
+.part2 .box5 .box5-main input{
+	width: 1rem;
+	height: 0.24rem;
+	background-color: #eeeeee;
+	border:none;
+	display: inline-block;
+	vertical-align: middle;
+}
+.part2 .box5 .box5-main .shuru_img{
+	width: 0.22rem;
+	height: 0.22rem;
+	display: inline-block;
+	vertical-align: middle;
+}
+.part2 .box6 .box6-radio{
+	width: 100%;
+	background-color:transparent;
+	border:1px solid #cccccc;
+	border-radius: 0.05rem;
+	padding:0.1rem 0;
+	padding-left:0.1rem;
+	box-sizing: border-box;
+	margin-top: 0.25rem;
+	position:relative;
+}
+.part2 .box6 label .inp{
+	display: inline-block;
+	vertical-align: middle;
+	background-color: #eeeeee;
+	border: none;
+	border-radius: 0;
+	width: 1rem;
+	height: 0.24rem;
+}
+.part2 .box6 label .shuru_img{
+	display:inline-block;
+	vertical-align: middle;
+	width: 0.22rem;
+	height: 0.22rem;
+}
+.part2 .box6 .box6-radio span{
+	display: inline-block;
+	vertical-align: middle;
+}
+.part2 .box6 .box6-radio .three{
+	margin-right: 0.2rem;
+}
+
+.part2 .box10 .box10-radio{
+	width: 100%;
+	background-color:transparent;
+	border:1px solid #cccccc;
+	border-radius: 0.05rem;
+	padding:0.05rem 0;
+	padding-left:0.1rem;
+	box-sizing: border-box;
+	margin-top: 0.25rem;
+	position:relative;
+}
+.part2 .box10 .box10-radio .four_l{
+	width:2.7rem;
+}
+.part2 .box10 .box10-radio label{
+	color:#666;
+	line-height: 0.44rem;
+}
+.part2 .box10 .box10-radio label .inp{
+	display: inline-block;
+	vertical-align: middle;
+	background-color: #eeeeee;
+	border: none;
+	border-radius: 0;
+	width: 4rem;
+	height: 0.24rem;
+}
+.part2 .box10 .box10-radio label .shuru_img{
+	width: 0.22rem;
+	height: 0.22rem;
+	display: inline-block;
+	vertical-align: middle;
+}
+.part2 .box11 .box11-b{
+	display: flex;
+	margin-top: 0.25rem;
+}
+.part2 .box11 .box11-b .inp_box{
+	flex: 1;
+	margin-top: 0;
+}
+.part2 .box11 .box11-b p{
+	width: 1rem;
+	text-align: right;
+}
+.part2 .box11 .box11-b p span{
+	display: block;
+	font-size: .24rem;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+	color:#666666;
+	line-height: 0.4rem;
+	color:#333;
+}
+
+
+
+/*part3*/
+.part3{
+	padding:0 0.3rem;
+	padding-bottom: 0.3rem;
+	box-sizing: border-box;
+	border-bottom: 1px solid #cccccc;
+}
+.part3 .box1 .box1-radio{
+	width: 100%;
+	background-color:transparent;
+	border:1px solid #cccccc;
+	border-radius: 0.05rem;
+	padding:0.1rem 0;
+	padding-left:0.1rem;
+	box-sizing: border-box;
+	margin-top: 0.25rem;
+	position:relative;
+	color:#666;
+}
+.part3 .box1 .box1-radio .inp{
+	display: inline-block;
+	vertical-align: middle;
+	background-color: #eeeeee;
+	border: none;
+	border-radius: 0;
+	width: 3.9rem;
+	height: 0.24rem;
+}
+.part3 .box1 .box1-radio .shuru_img{
+	width: 0.22rem;
+	height: 0.22rem;
+	display: inline-block;
+	vertical-align: middle;
+}
+.part3 .box1 .box1-radio .fl-rt{
+	margin-right: 0.1rem;
+}
+
+
+/*.part4*/
+.part4{
+	padding:0 0.3rem;
+	box-sizing: border-box;
+}
+.part4 .box{
+	display: flex;
+}
+.part4 .box p{
+	display: inline-block;
+	vertical-align: middle;
+}
+.part4 .box .inp_box{
+	flex: 1;
+	margin-top: 0;
+}
+.part4 .box .inp_box .layui-input-inline{
+	display: block;
+	flex: 1!important;
+	background-color: transparent;
+}
+.part4 .box .inp_box .layui-input-inline input{
+	background-color:transparent;
+	height: 0.4rem;
+}
+.part4 .box .inp_box .riqi_img {
+	width: 0.33rem;
+	height: 0.3rem;
+    position: absolute;
+    right: 0.1rem;
+    top: 50%;
+    margin-top: -0.15rem;
+    z-index: -1;
+}
+.part4 .btn{
+	font-size: 0.32rem;
+	color:#fff;
+	width: 2rem;
+	height: 0.5rem;
+	background-color: #d61518;	
+	border-radius: 0.25rem;
+	display: block;
+	margin:0.4rem auto;
+}
+
+
+
+
+.part2 .box2 label .two_p,
+.part2 .box6 label .three_p1,
+.part2 .box6 label .three_p2,
+.part2 .box10 .box10-radio label .four_p,
+.part3 .box1 .box1-radio .five_p,
+.part2 .box4 .box4-radio .add1_p{
+	position:absolute;
+	width:100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	background-color:transparent;
+}
+
+
+/*20190702*/
+.part2 .box4 label .inp {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #eeeeee;
+    border: none;
+    border-radius: 0;
+    height: 0.24rem;
+}
+.part2 .box4 .add1{
+	display: block;
+	line-height: 0.4rem;
+}
+.part2 .box10 .box10-radio .four_l {
+    width: auto;
+    margin-right: 0.5rem;
+}
+
+
+
+
+/*20190412*/
+.part2 .box2 label .inp,
+.part2 .box5 .box5-main input,
+.part2 .box6 label .inp,
+.part2 .box10 .box10-radio label .inp,
+.part3 .box1 .box1-radio .inp,
+.part2 .box4 .box4-radio .inp{
+	height: 0.4rem;
+}
+.part2 .box5 .box5-main{
+	height:auto;
+	padding:0.05rem 0;
+}
+.part3 .box1 .box1-radio span{
+	display: inline-block;
+	vertical-align: middle;
+}
+input{
+	height: 0.44rem;
+}
+.part3 .box1 .box1-radio .fl-lt{
+	margin-top: 0.05rem;
+}
+.part4 .box .inp_box .layui-input-inline input{
+	height: 0.44rem;
+}
+
+
+
+@media (max-width:320px) {
+	.part2 .box2 label .inp, 
+	.part2 .box5 .box5-main input, 
+	.part2 .box6 label .inp, 
+	.part2 .box10 .box10-radio label .inp, 
+	.part3 .box1 .box1-radio .inp{
+		height: 0.4rem;
+	}
+	.part2 .box10 .box10-radio label .inp{
+		width: 3.8rem;
+	}
+	.part2 .box11 .box11-b p{
+		width: 1.1rem;
+	}
+	/*.part2 .box2 label .inp{
+		height: 0.32rem;
+	}
+	.part2 .box5 .box5-main input{
+		height: 0.32rem;
+	}
+	.part2 .box6 label .inp{
+		height: 0.32rem;
+	}
+	.part2 .box10 .box10-radio label .inp{
+		height: 0.32rem;
+		width: 3.8rem;
+	}
+	.part2 .box11 .box11-b p{
+		width: 1.1rem;
+	}
+	.part3 .box1 .box1-radio .inp{
+		height: 0.32rem;
+		width: 3.8rem;
+	}
+	.part2 .box5 .box5-main .shuru_img,
+	.part2 .box6 label .shuru_img,
+	.part2 .box10 .box10-radio label .shuru_img,
+	.part3 .box1 .box1-radio .shuru_img,
+	.part2 .box2 label .shuru_img{
+		height: 0.3rem;
+		width: 0.3rem;
+	}*/
+}

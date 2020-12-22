@@ -1,0 +1,68 @@
+body{
+	background-color: #eaeaea;
+	overflow-x:hidden;
+}
+.content{
+	background: none;
+	padding-bottom: 0;
+}
+.content .content-top{
+	margin-bottom: 0;
+	position: relative;
+	z-index: 5;
+}
+.content .main{
+	width: 100%;
+	height: 692px;
+	position:relative;
+}
+.fw .fw-img{
+	position: relative;
+}
+.fw .fw-img img{
+	width: 1920px;
+	height: 705px;
+	position: absolute;
+	top: -14px;
+	left: 50%;
+	margin-left: -960px;
+}
+
+.part1{
+	width: 1200px;
+	position:absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -600px;
+}
+.part1 .part1-title{
+	font-family: "方正粗圆简体";
+	margin-left: 102px;
+}
+.part1 .part1-title .line{
+	width: 70px;
+	height: 5px;
+	background-color: #d44f4c;
+	margin-top: 50px;
+}
+.part1 .part1-title .p1{
+	font-size: 38px;
+	color:#d44f4c;
+	text-transform: uppercase;
+}
+.part1 .part1-title .p2{
+	margin-top: 20px;
+}
+.part1 .part1-title .p3{
+	color:#727171;
+}
+.part1 .part1-main{
+    font-size: 14px;
+    color: #595757;
+    width: 335px;
+    height: 120px;
+    margin-top: 235px;
+    margin-left: 102px;
+    padding: 19px;
+    box-sizing: border-box;
+}

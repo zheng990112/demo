@@ -1,0 +1,49 @@
+.xx1 .part1 ul li{float: left;width: 596px;height:446px ;margin-bottom: 20px;}
+.xx1 .part1 ul li img{width: 100%;height: 100%;overflow: hidden;clear: both;}
+.xx1 .part1 ul li:nth-child(2n){margin-left: 4px;}
+.xx2 .part1 .part1_left ul li:nth-of-type(1){width:393px;text-align: right;margin-left: 160px;margin-bottom: 34px;}
+.xx2 .part1 .part1_left ul li:nth-of-type(1) img{width: 100%;}
+.xx2 .part1 .part1_left {width:554px ;}
+.xx2 .part1 .part1_right {width:631px ;}
+.xx2 .part1 .part1_left ul li img{width: 100%;}
+.xx2 .part1 .part1_right ul li img{width: 100%;}
+.xx2 .part1 .part1_left ul li:nth-of-type(2){width: 100%;margin-bottom: 12px;}
+.xx2 .part1 .part1_left ul li:nth-of-type(3){width: 100%;margin-bottom: 26px;}
+.xx2 .part1 .part1_left ul li:nth-of-type(4){width: 514px;margin-left: 40px;}
+.xx2 .part1 .part1_left ul li:nth-of-type(4) img{width: 100%;}
+.xx2 .part1 .part1_right ul li:nth-of-type(1){width: 100%;margin-bottom: 12px;}
+.xx2 .part1 .part1_right ul li:nth-of-type(2) .img1{width:229px ;margin-left: 16px;}
+.xx2 .part1 .part1_right ul li:nth-of-type(2) .img2{width:386px ;}
+.xx2 .part1 .part1_right ul li:nth-of-type(3){width: 100%;margin-top: 12px;}
+.xx2 .part1{padding-bottom: 20px;}
+@media (max-width: 1444px) {
+	.xx2 .part1 .part1_right{width: 510px;}
+	.xx2 .part1 .part1_right ul li:nth-of-type(2) .img2{width: 294px;}
+	.xx2 .part1 .part1_right ul li:nth-of-type(2) .img1{width: 175px;margin-left: 36px;}
+	.xx2 .part1 .part1_left{width: 500px;}
+	.xx2 .part1 .part1_left ul li:nth-of-type(1){width: 343px;}
+	.xx2 .part1 .part1_left ul li:nth-of-type(4){width: 470px;}
+	.content_right {
+		width: 1042px;
+	}
+	.main {
+		width: 1042px !important;
+	}
+	.xx1 .part1 ul li{width: 516px;height: 390px;}
+}
+@media (max-width: 1280px) {
+	.xx2 .part1 .part1_left ul li:nth-of-type(4){width: 394px;margin-left: 40px;}
+	.xx2 .part1 .part1_left ul li:nth-of-type(1){width: 273px;}
+	.xx2 .part1 .part1_left{width: 434px;}
+	.xx2 .part1 .part1_right{width: 488px;}
+	.xx2 .part1 .part1_right ul li:nth-of-type(2) .img1{width:166px ;margin-left: 42px;}
+	.xx2 .part1 .part1_right ul li:nth-of-type(2) .img2{width:280px ;}
+	.xx2 .part1 .part1_right ul li:nth-of-type(3){width: 100%;}
+	.main {
+		width: 950px !important;
+	}
+	.pp2-top {
+		width: 950px;
+	}
+	.xx1 .part1 ul li{width: 470px;height: 355px;}
+}

@@ -1,0 +1,328 @@
+
+
+/*.mj1*/
+.mj1{
+	font-family: myfont;
+}
+.mj1 .part1-top{
+	position:relative;
+	height: 571px;
+	margin-top: 30px;
+	text-align: center;
+	padding-top: 60px;
+	box-sizing: border-box;
+}
+.mj1 .part1-top img{
+	display: block;
+	width: 1280px;
+	height: 571px;
+	position:absolute;
+	top:0;
+	left: -140px;
+	z-index: -1;
+}
+.mj1 .part1-top .p1{
+	font-size: 72px;
+	color:#fff;
+}
+.mj1 .part1-top .p2{
+	width: 540px;
+    height: 58px;
+    background: url(../img/mj/a2.png) no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    line-height: 58px;
+    font-size: 32px;
+    color: #ba8923;
+    margin: 0 auto;
+}
+.mj1 .part1-top .p3{
+	font-size: 20px;
+	color:#ba8923;
+	text-transform: uppercase;
+}
+
+.mj1 .picScroll-left{
+	position:relative;
+	margin-top: -140px;
+	height: 750px;
+}
+.mj1 .picScroll-left .bd {
+	width: 1000px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+
+.mj1 .picScroll-left .bd li {
+	float: left;
+	position: relative;
+	text-align: center;
+	width: 1000px;
+	height: 715px;
+	cursor: pointer;
+}
+
+.mj1 .picScroll-left .bd li .box {
+	position: relative;
+	width: 100%;
+}
+
+.mj1 .picScroll-left .bd li img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.mj1 .picScroll-left .hd{
+	position:absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	bottom: 0;
+}
+.mj1 .picScroll-left .hd ul li{
+	font-size: 0;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	margin:0 10px;
+	background-color:#e5e5e5;
+	display: inline-block;
+	
+}
+.mj1 .picScroll-left .hd ul li.on{
+	background-color: #7c182b;
+}
+
+
+
+
+/*.mj2*/
+.mj2{
+	font-family: myfont;
+	text-align:center;
+}
+.mj2 .part1-top{
+	width: 1000px;
+	height: 200px;
+	border:1px solid #e4c542;
+	border-radius:20px;
+	margin-top: 80px;
+	position:relative;
+}
+.mj2 .part1-top .p1{
+	width: 734px;
+	height: 84px;
+	background: url(../img/mj/b1.jpg) no-repeat;
+	background-size: 100% 100%;
+	margin:0 auto;
+	font-size: 46px;
+	line-height: 84px;
+	margin-top: -42px;
+}
+.mj2 .part1-top .p2{
+	font-size: 20px;
+	text-transform: uppercase;
+	color:#ba8923;
+	margin-top: 8px;
+}
+.mj2 .part1-top .p3-box{
+	width: 800px;
+	background-color: #fff;
+	position:absolute;
+	left: 50%;
+	margin-left: -400px;
+	bottom: -90px;
+}
+.mj2 .part1-top .p3-box img{
+	display: inline-block;
+	width: 180px;
+	height: 180px;
+	float:left;
+	margin-right: 26px;
+}
+.mj2 .part1-top .p3-box img:last-child{
+	margin-right: 0;
+}
+.mj2 .part1-main .p4{
+	font-size: 20px;
+	color:#ba8923;
+	text-align: center;
+	letter-spacing:50px;
+	margin-top: 110px;
+}
+.mj2 .picScroll-left{
+	position:relative;
+    width: 1280px;
+    height: 620px;
+    margin-left: -140px;
+    margin-top: 20px;
+}
+.mj2 .picScroll-left .bd {
+	width: 1280px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+
+.mj2 .picScroll-left .bd li {
+	float: left;
+	position: relative;
+	text-align: center;
+	width: 1280px;
+	height: 571px;
+	cursor: pointer;
+}
+
+.mj2 .picScroll-left .bd li .box {
+	position: relative;
+	width: 100%;
+}
+
+.mj2 .picScroll-left .bd li img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.mj2 .picScroll-left .hd{
+	position:absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	bottom: 0;
+}
+.mj2 .picScroll-left .hd ul li{
+	font-size: 0;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	margin:0 10px;
+	background-color:#e5e5e5;
+	display: inline-block;
+	
+}
+.mj2 .picScroll-left .hd ul li.on{
+	background-color: #7c182b;
+}
+
+
+
+/*.mj3*/ 
+.mj3{
+	font-family: myfont;
+	position:relative;
+}
+.mj3 .mj3-right{
+    display: block;
+    width: 360px;
+    position: absolute;
+    right: -355px;
+    bottom: -60px;
+    z-index: -1;
+	
+}
+.mj3 .part1-top{
+	width: 900px;
+	height: 80px;
+	border-radius: 20px;
+	border:1px solid #ba8923;
+	margin:0 auto;
+	margin-top: 80px;
+	text-align: center;
+}
+.mj3 .part1-top .p1{
+	width: 760px;
+	height: 60px;
+	background: url(../img/mj/b1.jpg) no-repeat;
+	background-size: 100% 100%;
+	line-height: 60px;
+	font-size: 42px;
+	margin:0 auto;
+	margin-top: -30px;
+}
+.mj3 .part1-top .p2{
+    font-size: 20px;
+    color: #ba8923;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 35px;
+    text-transform: uppercase;
+    background-color: #fff;
+}
+
+.mj3 .picScroll-left{
+	position:relative;
+    width: 1000px;
+    height: 570px;
+    margin-top:50px;
+}
+.mj3 .picScroll-left .bd {
+	width: 1000px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+
+.mj3 .picScroll-left .bd li {
+	float: left;
+	position: relative;
+	text-align: center;
+	width: 1000px;
+	height: 523px;
+	cursor: pointer;
+}
+
+.mj3 .picScroll-left .bd li .box {
+	position: relative;
+	width: 100%;
+}
+
+.mj3 .picScroll-left .bd li img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.mj3 .picScroll-left .hd{
+	position:absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	bottom: 0;
+}
+.mj3 .picScroll-left .hd ul li{
+	font-size: 0;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	margin:0 10px;
+	background-color:#e5e5e5;
+	display: inline-block;
+	
+}
+.mj3 .picScroll-left .hd ul li.on{
+	background-color: #7c182b;
+}
+
+@media (max-width:1680px) {
+	.mj3 .mj3-right{
+		width: 240px;
+		right: -240px;
+	}
+}
+@media (max-width:1444px) {
+	.mj3 .mj3-right{
+		width: 150px;
+		right: -115px;
+	}
+}
+@media (max-width:1280px) {
+	.mj3 .mj3-right{
+		display: none;
+	}
+}

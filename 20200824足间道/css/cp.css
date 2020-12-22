@@ -1,0 +1,275 @@
+.main {
+  width: 12rem;
+  margin: auto;
+}
+
+.er-nav {
+  width: 8.14rem;
+  display: block;
+  justify-content: normal;
+}
+
+.er-nav a:nth-child(2) {
+  margin: 0 0.06rem;
+}
+
+.firstDiv div {
+  float: left;
+  width: 3.8rem;
+  height: 4rem;
+  position: relative;
+}
+
+.firstDiv .img1 {
+  position: absolute;
+  width: 3.48rem;
+  height: 0.88rem;
+  left: 0;
+  bottom: 0;
+}
+
+.firstDiv .img2 {
+  float: right;
+  width: 7.69rem;
+  height: 4rem;
+}
+
+.firstDiv .p1 {
+  font-size: 0.48rem;
+  color: #c11b2a;
+  font-weight: bold;
+  position: relative;
+}
+
+.firstDiv .p1::after {
+  content: "";
+  display: inline-block;
+  width: 0.8rem;
+  height: 0.02rem;
+  background-color: #a8a7a7;
+  vertical-align: middle;
+  margin-left: 0.2rem;
+}
+
+.firstDiv .p2 {
+  color: #c11b2a;
+  font-size: 0.24rem;
+  line-height: 0.4rem;
+  text-transform: uppercase;
+}
+
+.firstDiv .p3 {
+  margin-top: 0.1rem;
+  color: #595757;
+  font-size: 0.16rem;
+  line-height: 0.28rem;
+  text-align: justify;
+  width: 3.6rem;
+}
+
+.firstDiv .p3 span {
+  color: #c11b2a;
+}
+
+.cp1 .firstDiv .p3 {
+  line-height: 0.38rem;
+  font-size: 0.24rem;
+}
+
+.firstDiv .p4 {
+  font-size: 0.24rem;
+  color: #595757;
+  margin-top: 0.3rem;
+}
+
+.pate1 .listPic {
+  width: 12rem;
+  margin: auto;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+.pate1 .listPic li {
+  width: 3.9rem;
+  float: left;
+  margin-left: 0.15rem;
+}
+
+.pate1 .listPic li:first-child {
+  margin-left: 0;
+}
+
+.pate1 .listPic li img {
+  width: 100%;
+  height: 2.8rem;
+  display: block;
+}
+
+.pate1 .listPic li .p1 {
+  font-size: 0.24rem;
+  padding: 0.2rem 0;
+  color: #c11b2a;
+  text-align: center;
+}
+
+.pate1 .listPic li .p2 {
+  font-size: 0.14rem;
+  color: #595757;
+  text-align: center;
+}
+
+.pate1 .listPic li .p3 {
+  margin: auto;
+  height: 0.36rem;
+  font-size: 0.16rem;
+  line-height: 0.36rem;
+  margin-top: 0.35rem;
+  color: #595757;
+  text-align: center;
+}
+
+.pate1 .listPic li .p3 p {
+  display: inline-block;
+  padding: 0 0.3rem;
+  border: 0.01rem solid #595757;
+  border-radius: 0.3rem;
+}
+
+.swiper-container {
+  width: 12rem;
+  height: 3.8rem;
+  margin: auto;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+.swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 2.8rem;
+  display: block;
+}
+
+.swiper-container .swiper-wrapper .swiper-slide .p1 {
+  font-size: 0.24rem;
+  padding: 0.2rem 0;
+  color: #c11b2a;
+  text-align: center;
+}
+
+.swiper-container .swiper-wrapper .swiper-slide .p2 {
+  font-size: 0.14rem;
+  color: #595757;
+  text-align: center;
+}
+
+.swiper-container .swiper-wrapper .swiper-slide .p3 {
+  margin: auto;
+  height: 0.36rem;
+  font-size: 0.16rem;
+  line-height: 0.36rem;
+  margin-top: 0.35rem;
+  color: #595757;
+  text-align: center;
+}
+
+.swiper-container .swiper-wrapper .swiper-slide .p3 p {
+  display: inline-block;
+  padding: 0 0.3rem;
+  border: 0.01rem solid #595757;
+  border-radius: 0.3rem;
+}
+
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next,
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+  background-image: none;
+  margin-top: 0;
+  outline: none;
+}
+
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+  left: 0.1rem;
+}
+
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+  right: 0.1rem;
+}
+
+.pate1_box {
+  width: 12rem;
+  margin: auto;
+  position: relative;
+}
+
+.button {
+  width: 13rem;
+  height: 0.26rem;
+  position: absolute;
+  top: 1.4rem;
+  margin-top: -0.13rem;
+  left: -0.5rem;
+}
+
+.button div {
+  width: 0.26rem;
+  height: 0.26rem;
+}
+
+.button img {
+  display: block;
+  width: 0.26rem;
+  height: 0.26rem;
+}
+
+.button div:focus {
+  outline: none;
+}
+
+.cp2 .firstDiv .p1::after {
+  width: 0.4rem;
+}
+
+.pate1 .btn {
+  margin-bottom: 0.7rem;
+  height: 0.32rem;
+  line-height: 0.32rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.pate1 .btn a {
+  min-width: 0.26rem;
+  padding: 0 0.1rem;
+  height: 0.32rem;
+  display: inline-block;
+  margin: 0 0.05rem;
+  background-color: #595757;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.pate1 .btn a:last-child,
+.pate1 .btn a:first-child {
+  margin: 0 0.15rem;
+}
+
+.pate1 .btn a:hover,
+.pate1 .btn a.now {
+  background-color: #c11b2a;
+}
+
+@media (max-width:1580px) {
+  .er-nav {
+    width: 8.15rem;
+  }
+}
+
+@media (max-width:1470px) {
+  .er-nav {
+    width: 8.16rem;
+  }
+}

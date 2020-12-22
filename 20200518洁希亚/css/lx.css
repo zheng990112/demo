@@ -1,0 +1,209 @@
+.lx1 .lc ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lx1 .lc ul li .logo {
+  font-size: 0;
+  width: 0.66rem;
+  margin: 0 auto;
+}
+.lx1 .lc ul li .logo img {
+  width: 100%;
+}
+.lx1 .lc ul li p {
+  font-size: 0.19rem;
+  margin-top: 0.19rem;
+}
+.lx1 .kuang {
+  box-sizing: border-box;
+  height: 1rem;
+  border: 0.01rem solid #c79f62;
+  margin-top: 0.81rem;
+  font-size: 0.44rem;
+  position: relative;
+  text-align: center;
+}
+.lx1 .kuang .ly1 {
+  position: absolute;
+  padding: 0 0.42rem;
+  background-color: #fff;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0.7rem;
+  font-weight: bold;
+}
+.lx1 .kuang .ly1 span {
+  color: #c79f62;
+}
+.lx1 .kuang .ly2 {
+  width: 6.1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  padding: 0 0.42rem;
+  background: #fff;
+  top: 0.7rem;
+  font-weight: bold;
+  text-align: end;
+}
+.lx1 .rx {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.lx1 .rx .box-l {
+  margin-right: 1.17rem;
+}
+.lx1 .rx .box-l .dh {
+  display: flex;
+  align-items: center;
+}
+.lx1 .rx .box-l .dh .logo {
+  width: 0.4rem;
+  margin-right: 0.06rem;
+  font-size: 0;
+}
+.lx1 .rx .box-l .dh .logo img {
+  width: 100%;
+}
+.lx1 .rx .box-l .dh p {
+  font-size: 0.37rem;
+  color: #c79f62;
+}
+.lx1 .rx .box-l form {
+  font-size: 0;
+  width: 5.08rem;
+  margin-top: 0.28rem;
+  text-align: center;
+}
+.lx1 .rx .box-l form .inp-com {
+  background-color: #ebebeb;
+  padding-left: 0.1rem;
+  box-sizing: border-box;
+}
+.lx1 .rx .box-l form .inp1 {
+  width: 2.49rem;
+  height: 0.35rem;
+  font-size: 0.14rem;
+}
+.lx1 .rx .box-l form .inp1:first-child {
+  margin-right: 0.1rem;
+}
+.lx1 .rx .box-l form textarea {
+  background-color: #ebebeb;
+  resize: none;
+  height: 1rem;
+  margin-top: 0.1rem;
+  width: 100%;
+  font-size: 0.14rem;
+  padding: 0.08rem 0.1rem;
+  box-sizing: border-box;
+}
+.lx1 .rx .box-l form .sub {
+  height: 0.35rem;
+  width: 3.02rem;
+  background-color: #c79f62;
+  border-radius: 0.14rem;
+  font-size: 0.16rem;
+  color: #fff;
+  margin-top: 0.2rem;
+  letter-spacing: 0.08rem;
+  cursor: pointer;
+}
+.lx1 .rx .box-r img {
+  width: 3.85rem;
+  display: block;
+}
+.lx2 {
+  font-size: 0rem;
+}
+.lx2 .box-l {
+  width: 5.1rem;
+  margin-right: 0.7rem;
+  display: inline-block;
+}
+.lx2 .box-l .header p {
+  color: #c79f62;
+  font-size: 0.15rem;
+}
+.lx2 .box-l .header h1 {
+  font-size: 0.45rem;
+  color: #595757;
+}
+.lx2 .box-l .header .line {
+  display: block;
+  width: 5.1rem;
+  height: 0rem;
+  border-top: 0.01rem solid #c79f62;
+  margin-top: 0.24rem;
+}
+.lx2 .box-l .down {
+  margin-top: 0.3rem;
+}
+.lx2 .box-l .down p:first-child {
+  font-size: 0.26rem;
+  color: #595757;
+}
+.lx2 .box-l .down .dh {
+  display: flex;
+  align-items: center;
+  margin-top: 0.22rem;
+}
+.lx2 .box-l .down .dh .logo {
+  width: 0.73rem;
+  margin-right: 0.14rem;
+}
+.lx2 .box-l .down .dh .rx {
+  font-size: 0.2rem;
+  color: #595757;
+}
+.lx2 .box-l .down .dh .tel {
+  font-size: 0.33rem;
+  color: #c79f62;
+  font-weight: bold;
+}
+.lx2 .box-l .down .text1 {
+  margin-top: 0.56rem;
+  color: #ededed;
+  font-size: 0.5rem;
+  line-height: 0.5rem;
+  text-indent: 0.3rem;
+}
+.lx2 .box-r {
+  display: inline-block;
+  width: 5.36rem;
+  height: 3.55rem;
+  border: 0.01rem solid #c79f62;
+}
+
+.map{
+	width: 5.36rem; 
+	height: 3.55rem; 
+	border: #ccc solid 1px;
+}
+
+
+
+/*20200806*/
+#gotobaiduform b{
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+#gotobaiduform span{
+	font-size: 12px;
+	letter-spacing: 1px;
+	
+}
+#gotobaiduform input{
+	border:1px solid gray;
+	letter-spacing: 1px;
+}
+#gotobaiduform .outset-but{
+	letter-spacing: 1px;
+	padding: 1px 6px;
+background-color: buttonface;
+    box-sizing: border-box;
+}

@@ -1,0 +1,30 @@
+
+
+.newsdetail{
+	font-family: myfont;
+}
+.part1 .part1-title{
+	text-align: center;
+}
+
+.part1 .part1-title .p1{
+	font-size: 68px;
+	color: #7c182b;
+}
+.part1 .part1-title .p2 span{ 
+	display: inline-block;
+	font-size: 20px;
+	color:#000;
+	margin:0 15px;
+}
+.part1 .part1-main img{
+	display: block;
+	width: 100%;
+	margin-top: 20px;
+}
+.part1 .part1-main p{
+    font-size: 18px;
+    text-indent: 36px;
+    margin-top: 15px;
+    line-height: 28px;
+}

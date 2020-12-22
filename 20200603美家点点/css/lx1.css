@@ -1,0 +1,145 @@
+.container{
+	padding-top: 40px;
+}
+.lx_top{
+	height: 410px;
+	width: 1175px;
+	padding-left: 25px;
+	overflow: hidden;
+}
+.lx_top .img1{
+	width: 494px;
+	float: left;
+}
+.lx_top .text{
+	float: left;
+	width: 680px;
+}
+.lx_top .p1{
+	float: left;
+	width: 438px;
+	height: 146px;
+	background: url(../img/lx1/02.jpg) center no-repeat;
+	background-size: 100%;
+	margin-left: -52px;
+	text-align: center;
+	line-height: 146px;
+	color: #093682;
+	font-size: 54.5px;
+	position: relative;
+}
+.lx_top .p1 .p_img1{
+	position: absolute;
+	top: 10px;
+	right: 40px;
+	width: 83px;
+}
+.lx_top .p1 .p_img2{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 292px;
+	margin-left: -150px;
+}
+.lx_top .span1{
+	margin-left: 40px;
+	float: left;
+	color: #b2b2b2;
+	font-size: 14px;
+	display: block;
+	width: 138.82px;
+	margin-top: 104px;
+}
+.lx_top .list{
+	float: left;
+	padding-left: 20px;
+	width: 340px;
+	margin-top: 65px;
+}
+.lx_top .list li{
+
+}
+.lx_top .list p{
+	padding: 15px 0;
+	padding-left: 40px;
+	background: url(../img/lx1/list2.jpg) left center no-repeat;
+	background-size: 30px;
+	color: #093682;
+	font-size: 21.25px;
+}
+.lx_top .list li:last-child p{
+	background: url(../img/lx1/list3.jpg) left center no-repeat;
+	background-size: 30px;
+}
+.lx_top .list li:first-child p{
+	background: url(../img/lx1/list1.jpg) left center no-repeat;
+	background-size: 30px;
+}
+.lx_top .box{
+	float: left;
+	padding-top: 80px;
+}
+.lx_top .box div{
+	width: 124px;
+	height: 124px;
+	background-color: #ededed;
+	float: left;
+	text-align: center;
+	line-height: 124px;
+	font-size: 14.88px;
+	color: #3c3d3d;
+}
+.lx_top .box div:last-child{
+	margin-left: 40px;
+}
+.container .map{
+	width: 100%;
+	height: 540px;
+	background-color: #cccccc;
+	text-align: center;
+}
+.container .map p{
+	font-size: 32.2px;
+	color: #505151;
+	line-height: 540px;
+}
+.lxForm{
+	width: 100%;
+	padding-top: 60px;
+}
+.lxForm input,.lxForm textarea{
+	width: 340px;
+	height: 56px;
+	padding-left: 24px;
+	border: 1px solid #777777;
+	font-size: 21.25px;
+	float: left;
+	margin-left: 51px;
+	margin-bottom: 25px;
+}
+.lxForm input:first-child{
+	margin-left: 0;
+}
+.lxForm textarea{
+	width: 1174px;
+	padding-top: 24px;
+	height: 130px;
+	resize: none;
+	margin-left: 0;
+	margin-bottom: 45px;
+}
+.lxForm input:last-child{
+	margin-bottom: 65px;
+	padding: 0;
+	float: none;
+	border: none;
+	width: 196px;
+	height: 59px;
+	border-radius: 50px;
+	background-color: #0f559b;
+	color: #FFFFFF;
+	font-size: 34px;
+	cursor: pointer;
+}
+
+

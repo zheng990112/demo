@@ -1,0 +1,176 @@
+.xq .part1 {
+  position: relative;
+  margin-top: 74px;
+}
+
+.xq .part1 .part_main {
+  position: relative;
+  width: 1120px;
+}
+
+.xq .part1::after {
+  content: "";
+  width: 165px;
+  height: 219px;
+  background: url(../img/part_bgR.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 42px;
+  right: 10px;
+}
+
+.xq .part1 .part_main::after {
+  content: "";
+  width: 237px;
+  height: 218px;
+  background: url(../img/part_bgL.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 346px;
+  left: -287px;
+}
+
+
+.xq1 .first_img {
+  display: block;
+  width: 1120px;
+  margin-top: 60px;
+}
+
+.part_swiper {
+  position: relative;
+  margin-top: 16px;
+  margin-bottom: 90px;
+}
+
+.part_swiper .swiper-container {
+  width: 1120px;
+  height: 210px;
+}
+
+.part_swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.part_swiper-btn {
+  width: 1260px;
+  height: 150px;
+  background: url(../img/fc/btn_bg.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -630px;
+  margin-top: -75px;
+}
+
+.part_swiper-btn div:focus {
+  display: none;
+}
+
+.part_swiper-btn .swiper-button-next,
+.part_swiper-btn .swiper-button-prev {
+  width: 54px;
+  height: 54px;
+  background-image: url(../img/fc/prev.png);
+  background-size: 54px 54px;
+}
+
+.part_swiper-btn .swiper-button-next {
+  background-image: url(../img/fc/next.png);
+  right: 0;
+}
+
+.part_swiper-btn .swiper-button-prev {
+  left: 0;
+}
+
+
+@media (max-width:1680px) {
+  .xq .part1::after {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+
+  .xq .part1 .part_main::after {
+    left: -260px;
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+}
+
+@media (max-width:1440px) {
+  .xq .part1::after {
+    transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+
+  .xq .part1 .part_main::after {
+    left: -250px;
+    transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+}
+
+@media (max-width:1366px) {
+  .xq .part1::after {
+    transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    -o-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+
+  .xq .part1 .part_main::after {
+    left: -240px;
+    transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    -o-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+}

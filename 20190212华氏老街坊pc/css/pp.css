@@ -1,0 +1,123 @@
+.pp1 .part1_title{text-align: center;padding-top: 60px;}
+.pp1 .part1_title h3{background: url(../img/pp/a1.jpg) no-repeat center;background-size: 846px 145px;height: 145px;font-size: 54px;color: #ffb853;line-height: 145px;}
+.pp1 .part1_txt{width: 1184px;display: block;margin: 0 auto;margin-top: 16px;}
+.pp1 .part1_txt p{font-size: 16px;color: #272727;line-height: 30px;text-align: justify;}
+.pp1 .img1{width:983px;display: block ;margin: 0 auto;margin-top: 40px;}
+/*切换图开始*/
+.picScroll-left .bd{ width: 1201px; margin: 0px auto; overflow: hidden;padding-top: 50px;padding-left: 144px;}
+.picScroll-left .bd li{ float: left; position: relative; text-align: center; width: 241px; height: 200px; margin: 0 14px; cursor: pointer;}
+.picScroll-left .bd li .box{ position: relative; width: 100%;}
+.picScroll-left .bd li img{ display: block; width: 100%;}
+.picScroll-left .arrow{ position: absolute; top: 86%; width: 117px; height: 67px; cursor: pointer; margin-top: -30px;}
+.picScroll-left .arrow img{ width: 100%; height: 100%; display: block;}
+.picScroll-left .arrow-left{ left: 40%;}
+.picScroll-left .arrow-right{ right:40%;}
+.tab_img1 .bg2_4{ position: absolute; left: 50%; top: 0px; height: 382px; z-index: -1; box-sizing: border-box; transform: translateX(-50%); -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); -moz-transform: translateX(-50%); width: 1920px;}
+.pp1 .part2_img {background: url(../img/pp/a3.jpg) no-repeat center top;background-size: 1201px 310px;}
+.pp1 .part2_img .tab_img{position: relative;height: 410px;}
+/*切换图结束*/
+.pp2 .part1_title{text-align: center;padding-top: 60px;margin-bottom: 50px;}
+.pp2 .part1_title h3{background: url(../img/pp/c0.jpg) no-repeat center;background-size: 846px 145px;height: 145px;font-size: 41px;color: #ffb853;line-height: 145px;}
+.pp2 .part1_list{width: 1200px;display: block; margin: 0 auto;}
+.pp2 .part1_list ul li{width: 280px;float: left;background: #ff7741;padding-bottom: 20px;margin-bottom: 39px;margin-right:26px;}
+.pp2 .part1_list ul li:nth-child(4n){margin-right: 0;}
+.pp2 .part1_list ul li .div1{width: 260px;display: block;margin: 0 auto;height:213px;padding-top: 10px;}
+.pp2 .part1_list ul li .div1 img{width: 100%;height: 100%;border-radius: 5%;}
+.pp2 .part1_list ul li .div2{text-align: center;}
+.pp2 .part1_list ul li .div2 h3{font-size: 22px;color: #fff;background: url(../img/pp/c9.jpg) no-repeat center bottom;padding-bottom: 9px;padding-top: 9px;margin-bottom: 8px;}
+.pp2 .part1_list ul li .div2 p{font-size: 16px;color: #ffffff;line-height: 22px;}
+
+.pp4{width: 1200px;display: block;margin: 0 auto;}
+.pp4 .part1_left{width: 675px;height: 702px;margin-top: 60px;margin-bottom: 78px;}
+.pp4 .part1_left img{width: 100%;height: 100%;}
+.pp4 .part1_right{width: 340px;margin-left: 26px;margin-top: 60px;}
+.pp4 .part1_right img{width: 324px;margin-bottom: 10px;}
+.pp4 .part1_right  .part1_txt p{font-size: 16px;color: #000000;line-height: 32px;}
+.main-box{position: relative;}
+.main-box .bg1{position: absolute;bottom: 0;right: 0;width: 284px;}
+
+
+
+
+
+
+/*20190322*/
+.pp1 .part2-top .part2-1{
+	width: 1201px;
+	margin:0 auto; 
+	margin-top: 40px;
+}
+.pp1 .part2-top .part2-1 img{
+	display: block;
+	width: 100%;
+}
+.pp1 .part2-top-b{
+	width: 1201px;
+	margin:0 auto;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+.pp1 .part2-top-b div{
+	width: 593px;
+}
+.pp1 .part2-top-b div img{
+	display: block;
+	width: 100%;
+}
+
+@media (max-width:1444px) {
+	.pp1 .part2-top .part2-1{
+		width: 90%;
+	}
+	.pp1 .part2-top-b{
+		width: 90%;
+	}
+	.pp1 .part2-top-b div{
+		width: 49%;
+	}
+}
+
+
+
+
+
+
+@media (max-width: 1680px){
+.pp1 .part1_txt{width: 1050px;}	
+.pp4{width: 1100px;}
+.main-box .bg1{width: 230px;}
+}
+@media (max-width: 1444px){
+	
+.pp1 .part1_txt{width: 900px;}	
+.pp1 .part2_img{background-size:90%;}
+.picScroll-left .bd li{width: 200px;}
+.picScroll-left .bd{padding-left: 104px;}
+.pp1 .part2_img .tab_img{height: 364px;}
+.pp2 .part1_list{width: 1000px;}
+.pp2 .part1_list ul li{width: 230px;}
+.pp2 .part1_list ul li .div1{width: 220px;height: 197px;}
+.main-box .bg1{width: 150px;}
+.pp4{width: 1050px;}
+}
+@media (max-width: 1366px){
+.picScroll-left .bd{padding-left: 130px;}	
+}
+@media (max-width: 1280px){
+.picScroll-left .bd{padding-left: 130px;}	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

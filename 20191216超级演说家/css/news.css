@@ -1,0 +1,144 @@
+
+
+.news{
+	padding-bottom: 1rem;
+}
+.picScroll-left{
+	width:9.8rem;
+	position: relative;
+}
+.picScroll-left .bd{
+	width:9.8rem;
+	overflow: hidden;
+}
+.picScroll-left .bd li{
+	float: left;
+	position: relative;
+	text-align: center;
+	width:9.8rem;
+	height:4.95rem;
+	cursor: pointer;
+}
+.picScroll-left .bd li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.picScroll-left .hd{
+	font-size: 0;
+	text-align: right;
+	margin-top: 0.45rem;
+}
+.picScroll-left .hd ul li{
+	display: inline-block;
+	width: 0.48rem;
+	height: 0.08rem;
+	background-color: #e2cca3;
+	margin-left: 0.1rem;
+	cursor: pointer;
+}
+.picScroll-left .hd ul li.on{
+	background-color: #2d58a4;
+}
+.news .part .top{
+	position:relative;
+	margin-top: 0.35rem;
+}
+.news .part .top span{
+	display:inline-block;
+	width: 1.85rem;
+	height: 0.48rem;
+	border-radius: 0.24rem;
+	background-color: #c69a48;
+	font-size: 0.34rem;
+	color:#fff;
+	text-align: center;
+	line-height: 0.48rem;
+	position:relative;
+	z-index: 2;
+}
+.news .part .top::after{
+	content:"";
+	display: inline-block;
+	width: 100%;
+	height: 2px;
+	background-color: #c69a48;
+	position:absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -1px;
+}
+.news .part ul{
+	margin-top: 0.4rem;
+}
+.news .part ul li{
+	border-bottom: 1px dotted #333;
+	padding-bottom: 0.15rem;
+	margin-top: 0.2rem;
+}
+.news .part ul li:last-child{
+	border-bottom:none;
+}
+.news .part ul li a{
+	font-size: 0.22rem;
+	color:#333333;
+}
+.news .part ul li .li-time{
+	font-size: 0.18rem;
+}
+.news .part ul li a:hover{
+	color:#c69a48;
+	
+}
+
+
+.news .part .fenye{
+	text-align: right;
+	margin-top: 0.35rem;
+	font-size: 0;
+	margin-right: -0.15rem;
+}
+.news .part .fenye a{
+	display: inline-block;
+	color:#333;
+	font-size: 0.22rem;
+	margin:0 0.05rem;
+}
+.news .part .fenye a:hover,
+.news .part .fenye a.on{
+	color:#2d58a4;
+}
+.news .part .fenye a:first-child,
+.news .part .fenye a:last-child{
+	color:#2d58a4;
+	margin:0 0.15rem;
+}
+
+
+
+.newsdetail{
+	color:#333;
+	padding-bottom: 1rem;
+}
+.newsdetail .newsdetail-title{
+	font-size: 0.32rem;
+	text-align: center;
+}
+.newsdetail .time{
+	font-size: 0.24rem;
+	text-align: center;
+}
+.newsdetail .time span{
+	display: inline-block;
+	margin:0.2rem 0.4rem;
+}
+.newsdetail img{
+	display: block;
+	width: 100%;
+}
+.newsdetail p{
+	font-size: 0.2rem;
+	line-height: 0.32rem;
+	margin-top: 0.2rem;
+	text-align: justify;
+}

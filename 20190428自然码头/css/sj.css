@@ -1,0 +1,157 @@
+.all2 {
+	width: 1300px;
+	display: block;
+	margin: 0 auto;
+}
+
+.all {
+	width: 1200px;
+	display: block;
+	margin: 0 auto;
+}
+
+.part .box1 {
+	position: relative;
+	margin-left: -90px;
+}
+
+.part .box1 .p1 {
+	font-size: 140px;
+	color: #e6e6e6;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 140px;
+}
+
+.part .box1 .p2 {
+	font-size: 48px;
+	color: #d41c19;
+	position: absolute;
+	top: 75px;
+	line-height: 48px;
+}
+
+.part2_title {
+	text-align: center;
+}
+
+.part2_title h3 {
+	font-size: 38px;
+	color: #d11a19;
+	font-weight: 400;
+}
+
+.part2_title p {
+	font-size: 18px;
+	color: #d11a19;
+	margin-top: 14px;
+}
+
+.part2_title span {
+	font-size: 28px;
+	color: #595757;
+	margin-top: 30px;
+	display: block;
+}
+
+.sj .li_list ul li {
+	float: left;
+	width: 560px;
+	height: 370px;
+	margin-bottom: 50px;
+}
+
+.sj .li_list ul li img {
+	width: 100%;
+	height: 100%;
+}
+
+.sj .li_list ul li:nth-child(2n) {
+	margin-left: 74px;
+}
+
+.sj .part1 {
+	background: #ececed;
+	padding-bottom: 60px;
+}
+
+.sj .li_list {
+	margin-top: 100px;
+}
+
+.sj .li_list ul li:hover img {
+	transform: scale(0.9);
+	transition: all 0.6s;
+}
+
+.main-l {
+	padding-top: 30px;
+	width: 100%;
+	display: block;
+	margin-bottom: 22px;
+}
+
+.main-l .p1 {
+	position: relative;
+}
+
+.main-l .p1 .span1 {
+	font-size: 57px;
+	color: #e6e6e6;
+	font-weight: bold;
+	line-height: 50px;
+}
+
+.main-l .p1 .span2 {
+	font-size: 36px;
+	color: #d41c19;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.sj .part2 {
+	background: #f6f8fa;
+	padding-top: 56px;
+	padding-bottom: 80px;
+}
+
+.content {
+	overflow: hidden;
+	position: relative;
+	padding-bottom: 0;
+}
+
+.sj .part2 .part2_bottom {
+	margin-top: 20px;
+}
+
+.sj .part2 .part2_bottom .div_left {
+	width: 674px;
+	height: 552px;
+}
+
+.sj .part2 .part2_bottom .div_left img {
+	width: 100%;
+	height: 100%;
+}
+
+.sj .part2 .part2_bottom .div_right {
+	width: 490px;
+	height: 552px;
+}
+
+.sj .part2 .part2_bottom .div_right img {
+	width: 100%;
+	height: 100%;
+}
+
+.sj .part2 .part2_bottom .div_left:hover {
+	transform: scale(0.9);
+	transition: all 0.6s;
+}
+
+.sj .part2 .part2_bottom .div_right:hover {
+	transform: scale(0.9);
+	transition: all 0.6s;
+}

@@ -1,0 +1,173 @@
+.footer {
+  width: 100%;
+	height: 1.93rem;
+	background: url(../img/footer_bg.png) no-repeat;
+	background-size: 100% 100%;
+	bottom: 0;
+}
+.footer-main {
+  	width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    margin-left: -600px;
+}
+.section {
+  background: url(../img/sw/bg.jpg) center no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.section .container {
+  width: 12rem;
+  margin: 0 auto;
+  position: relative;
+}
+.section .img1 {
+  margin-top:2.4rem;
+  margin-left: -3.5rem;
+  width:8.87rem;
+  height:0.34rem;
+  display: block;
+}
+.section .img2 {
+  margin-top: 0.25rem;
+  margin-left: 0.7rem;
+  width: 11.3rem;
+  height: 0.48rem;
+  display: block;
+}
+.section .img3 {
+  float: left;
+  width: 4.56rem;
+  height: 2.98rem;
+  border: 2px solid #d4b892;
+  margin-top: 0.2rem;
+  margin-left:0.7rem;
+}
+.section .listNews {
+  float: left;
+  width: 5.8rem;
+  margin-top: 0.15rem;
+  margin-left:0.7rem;
+}
+.section .listNews li {
+  line-height:0.4rem;
+  width:5.8rem;
+  float: left;
+}
+.section .listNews li a:hover p {
+  color: #c29963;
+}
+.section .listNews p {
+  float: left;
+  color: #ffffff;
+  font-size:0.16rem;
+}
+.section .listNews .p1 {
+  width:4rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.section .listNews .p2 {
+  float: right;
+}
+.section .btn {
+  float: left;
+  margin-top:0.35rem;
+  height:0.23rem;
+  line-height:0.23rem;
+  width:3.2rem;
+  margin-left:0.9rem;
+  display: flex;
+  justify-content: space-between;
+}
+.section .btn a {
+  min-width:0.23rem;
+  height:0.23rem;
+  line-height:0.23rem;
+  text-align: center;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+}
+.section .btn a.left {
+  width:0.58rem;
+  height:0.23rem;
+  background: url(../img/news/news1_04.png) center no-repeat;
+  background-size:100% 100%;
+}
+.section .btn a.right {
+  width: 0.58rem;
+  background: url(../img/news/news1_06.png) center no-repeat;
+  background-size:100% 100%;
+}
+.section .btn a.now {
+  color: #000000;
+  background: url(../img/news/news1_05.jpg) center no-repeat;
+  background-size:100% 100%;
+}
+
+
+
+
+
+
+.newsText h1 {
+  margin-top:1.5rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.newsText .imgBox {
+  display: block;
+  margin: auto;
+  width: 8rem;
+}
+.newsText .text {
+  padding:0.2rem;
+  width:4rem;
+  height:0.24rem;
+  line-height:0.24rem;
+  color: #ffffff;
+  margin: 0 auto;
+}
+.newsText .text .p1 {
+  float: left;
+}
+.newsText .text .p2 {
+  float: right;
+}
+.newsText .word {
+  width: 8rem;
+  padding-top:0.2rem;
+  padding-bottom:2rem;
+  margin: 0 auto;
+  text-align: justify;
+  font-size:0.18rem;
+  line-height:0.32rem;
+}
+
+
+
+/*20200729*/
+.section .listNews li{
+	letter-spacing: 0.01rem;
+}
+
+
+
+@media (max-width: 1280px) {
+  .section .img2 {
+    margin-top: 0.15rem;
+  }
+  .section .img3 {
+    margin-top:0.1rem;
+  }
+  .section .listNews {
+    margin-top:0.05rem;
+  }
+}

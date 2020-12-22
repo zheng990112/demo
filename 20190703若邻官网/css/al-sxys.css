@@ -1,0 +1,91 @@
+.part-img{
+	display: block;
+	width: 100%;
+	margin-top:25px;
+}
+
+.part1 .top-img{
+	display: block;
+	width: 100%;
+}
+.part1 .big_title{
+	font-size:37px;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	color:#515151;
+	line-height: 1;
+	margin-top: 45px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #9c9b9c;
+	position:relative;
+}
+.part1 .big_title::after {
+    content: "";
+    display: inline-block;
+    width: 145px;
+    height: 162px;
+    background: url(../img/al/bsy/icon.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: -34px;
+    top: -25px;
+    z-index: -1;
+}
+.al-title{
+	font-family: myfont_Medium;
+	font-size: 18px;
+	color:#c21a1f;
+	line-height: 1;
+	font-weight: bold;
+	margin-top:35px;
+}
+.al-title span {
+    display: inline-block;
+    vertical-align: bottom;
+    line-height: 16px;
+    margin-right: 5px;
+}
+
+
+.part1{
+	position: relative;
+}
+.part1 .p1{
+	font-size: 18px;
+	color:#7e7f80;
+	line-height: 28px;
+	font-family: myfont_Light;
+	margin-top: 20px;
+}
+.part1 .p1 span{
+	color:#bd1a1f;
+	font-family: myfont_Medium;
+	font-weight: bold;
+}
+.part1 .p2{
+	color:#221714;
+	margin-top: 15px;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	font-size: 18px;
+	
+}
+.part1 .p3{
+	font-size: 18px;
+	line-height: 28px;
+	color:#515151;
+	font-family: myfont_Light;
+	margin-top: 10px;
+}
+.part1::after {
+    content: "";
+    display: inline-block;
+    width: 144px;
+    height: 144px;
+    background: url(../img/al/bsy/icon2.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: -72px;
+    bottom: -95px;
+    z-index: -1;
+}

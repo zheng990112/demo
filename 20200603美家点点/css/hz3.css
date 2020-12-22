@@ -1,0 +1,84 @@
+.container{
+	width: 100%;
+	padding-top: 70px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.title{
+	font-size: 34px;
+	color: #093682;
+}
+.separate{
+	margin: 20px auto;
+	width: 561px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20.48px;
+	color: #333333;
+	background: url(../img/hz1/01.png) center no-repeat;
+	background-size: 561px;
+}
+.container .img1{
+	float: left;
+	margin-top: 70px;
+	width: 724px;
+}
+.container .box{
+	width: 1426px;
+	margin: 0 auto;
+}
+.listPic{
+	float: left;
+	margin-top: 70px;
+	padding-top:110px;
+	text-align: left;
+	padding-left: 55px;
+}
+.listPic p{
+	font-size: 16px;
+	padding: 12px 0;
+	line-height: 20px;
+	padding-left: 15px;
+}
+.listPic h5{
+	height: 56px;
+	line-height: 50px;
+	font-size: 23px;
+	color: #FFFFFF;
+	padding-left: 15px;
+	border-radius: 28px;
+}
+.listPic1 h5{
+	width: 251px;
+	background: url(../img/hz3/02.png) left center no-repeat;
+	background-size: 239px;
+}
+.listPic1 li:last-child h5{
+	background: url(../img/hz3/03.png) left center no-repeat;
+	background-size: 266px;
+}
+.listPic2 h5{
+	width: 285px;
+	background: url(../img/hz3/03.png) left center no-repeat;
+	background-size: 266px;
+}
+.listPic2 li:nth-child(2) h5{
+	background: url(../img/hz3/04.png) left center no-repeat;
+	background-size: 300px;
+}
+
+
+/*1444*/
+@media (max-width:1600px){
+	.container .box{
+		width: 1200px;
+	}
+	.container .img1{
+		width: 500px;
+	}
+	.listPic{
+		padding-left: 40px;
+		padding-top: 45px;
+	}
+}

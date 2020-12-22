@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title></title>
+		<meta http-equiv="X-UA-Compatitle" content="IE=edge">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no,email=no,adress=no" />
+		<link rel="stylesheet" href="../css/adver4.css" />
+		<script type="text/javascript">
+			document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + 'px';
+		</script>
+	</head>
+	<body>
+		<div class="box1">
+			<img src="../img/adver4/a1.jpg" alt="" class="part-img"/>
+			<img src="../img/adver4/icon.png" alt="" class="icon1"/>
+		</div>
+		
+		
+			
+			
+		<div class="box2">
+			<img src="../img/adver4/a2.jpg" alt="" class="part-img"/>
+			<img src="../img/adver4/icon.png" alt="" class="icon2"/>
+		</div>
+		<img src="../img/adver4/a3.jpg" alt="" class="part-img"/>
+		
+		<div class="box3">
+			<img src="../img/adver4/icon.png" alt="" class="icon3"/>
+			<img src="../img/adver4/a4.jpg" alt="" class="part-img"/>
+			<img src="../img/adver4/a5.jpg" alt="" class="part-img"/>
+			<div class="tab">
+				<div class="picScroll-left">
+					<div class="hd">
+						<a class="prev arrow arrow-left"><img src="../img/adver4/arrowL.png" alt="" /></a>
+						<a class="next arrow arrow-right"><img src="../img/adver4/arrowR.png" alt="" /></a>
+					</div>
+					<div class="bd">
+						<ul id="order_list">
+						    <li><img src="../img/adver4/a6.jpg" alt="" /></li>
+						    <li><img src="../img/adver4/a7.jpg" alt="" /></li>
+						</ul>					        
+				    </div>
+				</div>
+			</div>
+		</div>
+			
+		
+		
+		<div class="foot">
+			<div class="foot-main clearfix">
+				<div class="foot-l fl-lt">
+					<img src="../img/adver4/foot1.png" alt="" class="foot1-img"/>
+					<img src="../img/adver4/backtop.png" alt="" class="backtop"/>
+				</div>
+				<div class="foot-r fl-rt">
+					<div class="tel"><a href=""><img src="../img/adver4/tel.png" alt="" /><span>电话直呼</span></a></div>
+					<div class="msg"><a href=""><img src="../img/adver4/msg.png" alt="" /><span>填写表单</span></a></div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<script src="../js/jquery-1.11.2.min.js"></script>
+		<script src="../js/jquery.SuperSlide.2.1.1.js"></script>
+		<script>
+			jQuery(".picScroll-left").slide({titCell:".hd ul",mainCell:".bd ul",autoPlay:true,autoPage:true,effect:"leftLoop",vis:1});
+		</script>
+		<script>
+			$('.backtop').click(function(){
+				var scrollTop = $(window).scrollTop();
+				$("html,body").animate({ scrollTop: 0 }, 600);
+			});
+		</script>
+	</body>
+</html>

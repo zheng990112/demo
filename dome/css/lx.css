@@ -1,0 +1,225 @@
+.main_title3 {
+  width: 14rem;
+  margin: auto;
+  margin-top: 0.6rem;
+  text-transform: uppercase;
+}
+
+.main_title3 p {
+  font-family: "myfont_Magpie";
+}
+
+.main_title3 .p1 {
+  color: #d1147d;
+  font-size: 0.49rem;
+}
+
+.main_title3 .p3 {
+  color: #3e3a39;
+  font-size: 0.45rem;
+}
+
+.lx {
+  position: relative;
+}
+
+.lx::after {
+  content: "";
+  width: 1.96rem;
+  height: 5.2rem;
+  background: url(../img/lx/bg1.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.lx .part1 {
+  margin-top: 0.2rem;
+}
+
+.lx .part-box {
+  width: 14rem;
+  margin: auto;
+}
+
+.lx .part1 .str {
+  width: 5.9rem;
+  margin-top: 0.4rem;
+}
+
+.lx .part1 .up {
+  width: 100%;
+  float: left;
+  padding-bottom: 0.4rem;
+  position: relative;
+  border-bottom: 2px solid #807d7d;
+}
+
+.lx .part1 .up>img {
+  float: left;
+  width: 1.38rem;
+  height: 1.38rem;
+}
+
+.lx .part1 .text {
+  float: left;
+  margin-left: 0.3rem;
+  margin-top: 0.6rem;
+}
+
+.lx .part1 .text img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0.74rem;
+  height: 0.74rem;
+}
+
+.lx .part1 .text p {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+.lx .part1 .text p span {
+  display: block;
+  font-size: 0.28rem;
+  color: #a62024;
+}
+
+.lx .part1 .text p span:last-child {
+  font-size: 0.48rem;
+  font-weight: bold;
+}
+
+.lx .part1 .down {
+  margin-top: 0.3rem;
+  float: left;
+  width: 100%;
+}
+
+.lx .part1 .down .title {
+  font-size: 0.41rem;
+  color: #595757;
+  font-weight: bold;
+}
+
+.lx .part1 .down .info {
+  font-size: 0.24rem;
+  color: #595757;
+  line-height: 0.32rem;
+  margin-top: 0.1rem;
+}
+
+.lx .part1 .pic {
+  width: 7.34rem;
+  height: 4.12rem;
+  padding: 0.03rem;
+  background: #c9c9c9;
+}
+
+.lx .part1 .pic img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.lx .part2 {
+  position: relative;
+  z-index: 0;
+  padding-top: 0.8rem;
+  padding-bottom: 0.7rem;
+}
+
+.lx .part2 form {
+  width: 12.80rem;
+  margin: auto;
+  background-color: #a62024;
+  border: 1px solid #fff;
+  padding: 0.33rem 0.60rem;
+}
+
+.lx .part2 form .info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.45rem;
+}
+
+.lx .part2 form .info label input {
+  width: 2.83rem;
+  padding-left: 0.4rem;
+  padding-right: 0.1rem;
+  height: 0.5rem;
+  background: #fff url(../img/lx/icon1.png) left center no-repeat;
+  background-size: 0.4rem 0.4rem;
+}
+
+.lx .part2 form .info label:nth-child(2) input {
+  background: #fff url(../img/lx/icon2.png) left center no-repeat;
+  background-size: 0.4rem 0.4rem;
+}
+
+.lx .part2 form .info label:last-child input {
+  background: #fff url(../img/lx/icon3.png) left center no-repeat;
+  background-size: 0.4rem 0.4rem;
+}
+
+.lx .part2 form .info label span,
+.lx .part2 form .say span {
+  margin-right: 0.15rem;
+  color: #fff;
+  font-size: 0.20rem;
+}
+
+.lx .part2 form .say span {
+  margin-right: 0.15rem;
+}
+
+.lx .part2 form .say textarea {
+  float: right;
+  padding: 0.15rem 0.1rem;
+  padding-left: 0.4rem;
+  width: 11.72rem;
+  height: 2.24rem;
+  background: #fff url(../img/lx/icon4.png) left top no-repeat;
+  background-size: 0.4rem 0.4rem;
+}
+
+.lx .part2 form p {
+  text-align: center;
+}
+
+.lx .part2 form p button {
+  margin-top: 0.3rem;
+  color: #fff;
+  font-size: 0.2rem;
+  width: 2.30rem;
+  height: 0.50rem;
+  border-radius: 0.30rem;
+  background-color: #005c59;
+  cursor: pointer;
+}
+
+.lx .part2::after {
+  content: '';
+  width: 19.2rem;
+  height: 4.25rem;
+  background: url('../img/lx/bottom_02.jpg') no-repeat;
+  background-size: 100%;
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: 50%;
+  margin-left: -9.6rem;
+}
+
+.lx .part2::before {
+  content: '';
+  width: 4.97rem;
+  height: 2.61rem;
+  background: url(../img/lx/bg2.png) no-repeat;
+  background-size: 100%;
+  position: absolute;
+  right: -1rem;
+  top: -1rem;
+}

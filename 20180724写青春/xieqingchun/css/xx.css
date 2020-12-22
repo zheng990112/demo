@@ -1,0 +1,149 @@
+.content .main_box .er-title2 .box-img{
+	font-size: 16px;
+	padding-top: 19px;
+}
+
+
+/*.part1*/
+.part1{
+	padding-top: 50px;
+	position:relative;
+}
+.content .main_box .part1 .er-title2 .box-img{
+	padding:19px 10px;
+}
+.part1 .part-img{
+	width: 100%;
+	display: block;
+	margin-top: 50px;
+}
+.part1 .part1-main{
+	position:absolute;
+	bottom: 0;
+	left: 20px;
+	width: 400px;
+	height: 320px;
+	color:#fff;
+	margin-top: 50px;
+}
+.part1 .part1-main .p1{
+	font-size: 18px;
+	font-weight: bold;
+}
+.part1 .part1-main .p2{
+	font-size: 16px;
+	margin-top: 30px;
+	line-height: 24px;
+}
+.part1 .part1-main ul li{
+	display: inline-block;
+	margin-right: 10px;
+	margin-top: 30px;
+}
+.part1 .part1-main ul li p{
+	font-size: 16px;
+}
+.part1 .part1-main ul li div{
+	width: 100px;
+	height: 10px;
+	background-color: #077cc0;
+	margin-top: 5px;
+}
+.part1 .part1-main ul li .div2{
+	background-color: #091281;
+}
+.part1 .part1-main ul li .div3{
+	background-color: #c79b50;
+}
+.part1 .part1-right{
+	position:absolute;
+	top: 0px;
+	right: -100px;
+	width: 30%;
+}
+.part1 .part1-right img{
+	display: block;
+	width: 100%;
+}
+/*.part2*/
+.part2{
+	padding-top: 50px;
+}
+.content .main_box .part2 .er-title .box-img{
+	padding:5px 10px;
+}
+.part2 .part2-main{
+	margin-top: 30px;
+	background-color: #12759e;
+	padding:15px 0;
+}
+.bigSmall .large_box{
+	width: 926px;
+	margin: 0 auto 10px auto;
+	overflow: hidden;
+	height: 577px;
+}
+.bigSmall .large_box ul{
+	position: relative;
+}
+.bigSmall .large_box ul li{
+	position: relative;
+	width: 926px;
+	height: 577px; 
+}
+.bigSmall .large_box ul li img{
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+
+.bigSmall .small_box{
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.bigSmall .small_box .small_list{
+	width: 926px;
+	height: 190px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.bigSmall .small_box .small_list ul{
+	position: relative;
+	margin-left: -42px;
+}
+.bigSmall .small_box .small_list ul li{
+	width: 305px;
+	height: 190px;
+	position: relative;
+	float: left;
+	cursor: pointer;
+	margin: 0 11px;
+	overflow: hidden;
+	box-sizing: border-box;
+	z-index:3;
+}
+.bigSmall .small_box ul li img{
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+.arrow{
+	position: absolute;
+	top: -340px;
+	z-index: 10;
+	width: 52px;
+	height: 79px;
+	cursor: pointer;
+}
+.arrow-left{
+	left: 20px;
+}
+.arrow-right{
+	right:20px;
+} 
+.arrow img{
+	display: block;
+	width: 52px;
+	height: 79px;
+}

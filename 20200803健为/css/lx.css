@@ -1,0 +1,139 @@
+
+.lx1{
+	padding-bottom: 100px;
+}
+.lx1 .lx-title{
+	text-align: center;
+	margin-top: 40px;
+}
+.lx1 .lx-title .p1 img{
+	display: inline-block;
+	width: 38px;
+	vertical-align: middle;
+}
+.lx1 .lx-title .p1 span{
+	font-size: 72px;
+	display: inline-block;
+	vertical-align: middle;
+	font-weight: bold;
+	color:#006857;
+	margin:0 30px;
+	line-height: 1;
+}
+.lx1 .lx-title .p2{
+	font-size: 60px;
+	color:#bd986c;
+	line-height: 1;
+	margin-top: 15px;
+}
+.lx1 .lx-title .p3{
+	width: 1197px;
+	margin:0 auto;
+	margin-top: 15px;
+}
+.lx1 .lx-title .p3 img{
+	display: block;
+	width: 100%;
+}
+.lx1 .lx-title .p4{
+	font-size: 24px;
+	color:#bd986c;
+	margin-top: 15px;
+}
+.lx1 .lx1-main .top{
+	font-size: 36px;
+	color:#595757;
+	text-align: center;
+	line-height: 1;
+	margin-top: 50px;
+}
+.lx1 .lx1-main .form{
+	width: 1200px;
+	background-color: #d8b588;
+	border-radius:15px;
+	margin:0 auto;
+	padding:40px 0;
+	margin-top: 35px;
+}
+.lx1 .lx1-main .form .input_box{
+	width: 1126px;
+	margin:0 auto;
+	display: flex;
+    justify-content: space-between;
+}
+.lx1 .lx1-main .form .input_box p{
+	display: inline-block;
+}
+.lx1 .lx1-main .form .input_box p span{
+	display: inline-block;
+	vertical-align: middle;
+	color:#595757;
+	font-size: 24px;
+}
+.lx1 .lx1-main .form .input_box p input{
+	width: 290px;
+	height: 60px;
+	background-color: #eedabd;
+	margin-left: 15px;
+	font-size: 24px;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+.lx1 .lx1-main .form .text_box{
+	width: 1126px;
+	margin:0 auto;
+	display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.lx1 .lx1-main .form .text_box span{
+	display: inline-block;
+	color:#595757;
+	font-size: 24px;
+}
+.lx1 .lx1-main .form .text_box textarea{
+	width:1065px;
+	height:230px;
+	background-color: #eedabd;
+	font-size: 24px;
+	padding-left: 15px;
+	padding-top: 15px;
+	box-sizing: border-box;
+	resize: none;
+}
+.lx1 .lx1-main button{
+	display: block;
+	font-size: 24px;
+	color:#eedabd;
+	width: 210px;
+	height: 60px;
+	border-radius: 30px;
+	background-color: #006857;
+	margin:0 auto;
+	margin-top: 40px;
+	cursor: pointer;
+}
+
+
+.lx2{
+	padding-bottom: 95px;
+}
+.lx2 .lx2-top{
+	text-align: center;
+	margin-top: 40px;
+}
+.lx2 .lx2-top .p1{
+	font-size:18px;
+	color:#595757;
+	line-height: 1;
+}
+.lx2 .lx2-top img{
+	display: inline-block;
+	margin:15px 0;
+}
+.lx2 .map{
+	width: 1200px;
+	height: 510px;
+	margin:0 auto;
+	margin-top: 25px;
+}

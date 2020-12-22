@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title></title>
+		<meta http-equiv="X-UA-Compatitle" content="IE=edge">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no,email=no,adress=no" />
+		<link rel="stylesheet" href="../css/adver_phone.css" />
+		<script type="text/javascript">
+			document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + 'px';
+		</script>
+	</head>
+	<body>
+		<div class="adver_phone">
+			<div class="advphone_title">
+				<img src="../img/adver_phone/a1.jpg" alt="" class="lazy"/>
+			</div>
+			<div class="advphone_nav">
+				<div class="fix-nav">
+					<img src="../img/adver_phone/nav.png" alt="" class="nav-icon"/>
+				</div>
+			</div>
+			<div class="menu">
+				<a href="javascript:;" class="backtop">回到顶端</a>
+				<a href="adver_phone.html#zs">招商策划</a>
+				<a href="adver_phone.html#hz">合作流程</a>
+				<a href="adver_phone.html#hhr">合伙人计划</a>
+				<a href="index.html">网站首页</a>
+			</div>
+			<div class="part zs">
+				<div class="anchor" id="zs"></div>
+				<img src="../img/adver_phone/a2.jpg" alt="" class="lazy" />
+				<img src="../img/adver_phone/a3.jpg" alt="" class="lazy" />
+				<img src="../img/adver_phone/a4.jpg" alt="" class="lazy" />
+				<img src="../img/adver_phone/a5.jpg" alt="" class="lazy" />
+				<img src="../img/adver_phone/a6.jpg" alt="" class="lazy" />
+				<img src="../img/adver_phone/a7.jpg" alt="" class="lazy" />
+				<img src="../img/adver_phone/a8.jpg" alt="" class="lazy" />
+				<img src="../img/adver_phone/a9.jpg" alt="" class="lazy" />
+				<img src="../img/adver_phone/a10.jpg" alt="" class="lazy" />
+				<img src="../img/adver_phone/a11.jpg" alt="" class="lazy" />
+			</div>
+			<div class="part hz">
+				<div class="anchor" id="hz"></div>
+				<img src="../img/adver_phone/a12.jpg" alt="" class="lazy" />
+			</div>
+			
+			<div class="part form">
+				<div class="anchor" id="hhr"></div>
+				<img src="../img/adver_phone/a13.jpg" alt="" class="lazy" />
+				<div class="form-box">
+					<p class="p1">报名通道</p>
+					<input type="text" placeholder="姓名："/>
+					<input type="text" placeholder="电话："/>
+					<button>提   交</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="bg"></div>
+		
+		
+		
+		
+		<script src="../js/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="../js/jq.lazyload.js"></script>
+		<script type="text/javascript">
+            $('img.lazy').lazyload({threshold:100});
+        </script>
+        
+        <script>
+			$(window).scroll(function () {
+				var scrollTop = $(window).scrollTop();
+		    	var nav_h = $(".advphone_nav")[0].offsetTop - scrollTop;
+//		  		console.log(nav_h);
+		  		if( nav_h < 0){
+		  			$(".fix-nav").addClass("advphone_nav-fix");
+		  		}else{
+		  			$(".fix-nav").removeClass("advphone_nav-fix");
+		  			
+		  		}
+		    });
+		    
+		    $('.backtop').click(function(){
+				var scrollTop = $(window).scrollTop();
+				$("html,body").animate({ scrollTop: 0 }, 600);
+			});
+			
+			var img_flag = true;
+			$('.nav-icon').on('click',function(){
+				if(img_flag){
+					$('.menu').animate({top: '0'},'10');
+					$(".nav-icon").css({"display":"none"});
+					$('.bg').show();
+					img_flag = false;
+				}else{
+					$('.menu').animate({top: "-100%"},'10');
+					$(".nav-icon").css({"display":"block"});
+					$('.bg').hide();
+					img_flag = true;
+				}
+			})
+			$('.bg').on('click',function(){
+				$('.menu').animate({top: "-100%"},'10');
+				$(".nav-icon").css({"display":"block"});
+				$('.bg').hide();
+				img_flag = true;
+			});
+			$(".menu a").on("click",function(){
+				$('.menu').animate({top: "-100%"},'10');
+				$(".nav-icon").css({"display":"block"});
+				$('.bg').hide();
+				img_flag = true;
+				
+			})
+        </script>
+	</body>
+</html>

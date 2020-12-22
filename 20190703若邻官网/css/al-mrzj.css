@@ -1,0 +1,143 @@
+.part-img{
+	display: block;
+	width: 100%;
+	margin-top:25px;
+}
+
+.part1 .top-img{
+	display: block;
+	width: 100%;
+}
+.part1 .big_title{
+	font-size:37px;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	color:#515151;
+	line-height: 1;
+	margin-top: 45px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #9c9b9c;
+	position:relative;
+	margin-bottom: 25px;
+}
+.part1 .big_title::after {
+    content: "";
+    display: inline-block;
+    width: 145px;
+    height: 162px;
+    background: url(../img/al/bsy/icon.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: -34px;
+    top: -25px;
+    z-index: -1;
+}
+.al-title{
+	font-family: myfont_Medium;
+	font-size: 18px;
+	color:#c21a1f;
+	line-height: 1;
+	font-weight: bold;
+	margin-top:35px;
+}
+.al-title span {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 10px;
+    margin-right: 5px;
+}
+.main{
+	font-size: 18px;
+}
+.last-p{
+	position:relative;
+}
+.last-p::after{
+	content: "";
+    display: inline-block;
+    width: 144px;
+    height: 144px;
+    background: url(../img/al/bsy/icon2.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: -73px;
+    bottom: -65px;
+    z-index: -1;
+}
+
+
+
+
+
+.part1 .p1{
+	color:#7e7e7f;
+	font-family: myfont_Light;
+	line-height: 28px;
+	text-align: justify;
+}
+.part1 .title1{
+	margin-top: 50px;
+}
+.part1 .p2{
+	color:#515150;
+	line-height: 28px;
+	font-family: myfont_Light;
+	margin-top: 12px;
+	padding-bottom: 35px;
+	border-bottom: 1px solid #ababab;
+	text-align: justify;
+}
+.part1 .p2 span{
+	font-family: myfont_Medium;
+	font-weight: bold;
+}
+.part1 .p3{
+	color:#221714;
+	line-height: 40px;
+	font-family: myfont_Light;
+	margin-top: 25px;
+	padding-bottom: 35px;
+	border-bottom: 1px solid #ababab;
+}
+.part1 .p3 .span1{
+	color:#221714;
+	font-family: myfont_Medium;
+	font-weight: bold;
+}
+.part1 .p3 .span2{
+	color:#bb1a1f;
+	font-family: myfont_Medium;
+	font-weight: bold;
+}
+.part1 .p4{
+	color:#515150;
+	line-height: 28px;
+	font-family: myfont_Light;
+	margin-top: 10px;
+	text-align: justify;
+}
+.part1 .p4 span{
+	color:#221714;
+	font-family: myfont_Medium;
+	font-weight: bold;
+} 
+.part1 .p5{
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+.part1 .img2{
+	margin-bottom: 45px;
+}
+.part1 .p6{
+	color:#515150;
+	line-height: 28px;
+	font-family: myfont_Light;
+	margin-top: 15px;
+	text-align: justify;
+}
+.part1 .p6 span{
+	color:#515150;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	
+}

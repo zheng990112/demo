@@ -1,0 +1,351 @@
+.content .er-nav{
+	width: 570px;
+}
+
+
+/*.cp1*/
+.cp1 .part1-p1{
+	font-size: 42px;
+	color:#000;
+	text-align:center;
+	font-weight: bold;
+	margin-top: 30px;
+}
+.cp1 .part1-p2{
+	font-size: 21px;
+	color:#3e3a39;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.cp1 .part1-main{
+	width: 1060px;
+	margin:0 auto;
+}
+.cp1 .part1-main ul li{
+	float:left;
+	width: 508px;
+	margin-bottom: 80px;
+}
+.cp1 .part1-main ul li .li-img{
+	width: 508px;
+	height: 622px;
+	margin-bottom: 5px;
+}
+.cp1 .part1-main ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.cp1 .part1-main ul li .li-bottom .bottom-l{
+	width: 113px;
+	height: 52px;
+	background: url(../img/cp/a5.jpg) no-repeat;
+	background-size: 100% 100%;
+	font-size: 34px;
+	color:#fff;
+	text-align: center;
+	line-height: 52px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: -6px;
+}
+.cp1 .part1-main ul li .li-bottom .bottom-r{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 21px;
+	margin-left: 15px;
+	
+}
+
+
+
+
+/*.cp2*/
+.cp2{
+	margin-bottom: -50px;
+}
+.cp2 .part1-p1{
+	font-size: 42px;
+	color:#000;
+	text-align:center;
+	font-weight: bold;
+	margin-top: 30px;
+}
+.cp2 .part1-p2{
+	font-size: 21px;
+	color:#3e3a39;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.cp2 .cp2-box{
+	width: 1200px;
+	height: 346px;
+	margin:0 auto;
+	margin-top: 220px;
+	border:2px solid #000;
+	box-sizing: border-box;
+	position:relative;
+}
+.cp2 .cp2-title{
+	font-size: 58px;
+	color:#ea116b;
+	line-height: 58px;
+	font-weight: bold;
+	display: inline-block;
+	position:relative;
+	margin-left:100px;
+    margin-top: 130px;
+	letter-spacing: 14px;
+}
+.cp2 .cp2-title::before{
+	content:"";
+	display: inline-block;
+	width: 6px;
+	height: 20px;
+	background-color: #ea116b;
+	position:absolute;
+	top:3px;
+	left:-20px;
+}
+.cp2 .cp2-title::after{
+	content:"";
+	display: inline-block;
+	width: 6px;
+	height: 20px;
+	background-color: #ea116b;
+	position:absolute;
+	bottom:0;
+	right:-10px;
+}
+
+
+.cp2 .cp2_main{
+    width: 442px;
+    position: absolute;
+    bottom:-50px;
+    left: 50%;
+    margin-left: -221px;
+}
+
+.cp2 .swiper-pagination{
+	display: inline-block;
+	color:#fff;
+	bottom: 12px;
+}
+.cp2 .cp2-box .cp2-btn-bg{
+	position:absolute;
+	width: 140px;
+	height: 40px;
+	background-color: #ea116b;
+	bottom: 40px;
+	left: 80px;
+}
+.cp2 .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+	width: 12px;
+	height: 24px;
+	background: url(../img/index/arrowR2.png) no-repeat;
+	background-size: 100% 100%;
+	margin-top:-12px;
+}
+.cp2 .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+	width: 12px;
+	height: 24px;
+	background: url(../img/index/arrowL2.png) no-repeat;
+	background-size: 100% 100%;
+	margin-top:-12px;
+}
+
+.cp2 .cp2_main2{
+    position: absolute;
+    height: 100px;
+    width: 310px;
+    right: 65px;
+    bottom: 105px;
+}
+.cp2 .swiper-slide .p1{
+	font-size: 49px;
+	color:#3e3a39;
+	font-weight: bold;
+    text-align: right;
+}
+.cp2 .swiper-slide .p2{
+    text-transform: uppercase;
+    letter-spacing: 9px;
+    color: #868686;
+    text-align: right;
+}
+.cp2 .cp2-box .cp2-btn-bg .gh{
+	font-size: 21px;
+	color:#595757;
+	margin-top: -30px;
+}
+
+
+.cp2 .part2{
+	width: 100%;
+	height: 600px;
+	background-color: #ececec;
+	margin-top: 48px;
+	padding-top: 56px;
+	box-sizing: border-box;
+}
+.cp2 .part2 .part2-main{
+	width: 1020px;
+	margin:0 auto;
+}
+.cp2 .part2 .part2-main img{
+	display: none;
+	width: 769px;
+	height: 488px;
+}
+.cp2 .part2 .part2-main img.block{
+	display: block;
+}
+.cp2 .part2 .part2-main .main-l{
+	display: inline-block;
+	vertical-align: middle;
+}
+.cp2 .part2 .part2-main .main-r{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 27px;
+	color:#3e3a39;
+	margin-left: 30px;
+}
+.cp2 .part2 .part2-main .main-r p{
+	width: 201px;
+	height: 46px;
+	text-align: center;
+	line-height: 46px;
+	margin: 10px 0;
+	cursor: pointer;
+}
+.cp2 .part2 .part2-main .main-r .active{
+	color:#fff;
+	background: url(../img/cp/b2.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+
+
+
+/*20190315*/
+.cp2 .cp2-box .swiper-title{
+	font-size: 58px;
+    color: #ea116b;
+    line-height: 58px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    width: 290px;
+    margin: 0;
+    margin-left: 50px;
+    margin-top: 130px;
+}
+.cp2 .cp2-box .swiper-title p{
+	position:relative;
+	width: 100%;
+    text-align: center;
+}
+.cp2 .cp2-box .swiper-title p::before{
+	content:"";
+	display: inline-block;
+	width: 6px;
+	height: 20px;
+	background-color: #ea116b;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.cp2 .cp2-box .swiper-title p::after{
+	content:"";
+	display: inline-block;
+	width: 6px;
+	height: 20px;
+	background-color: #ea116b;
+	position:absolute;
+	bottom:0;
+	right:0;
+}
+.cp2 .cp2_main2{
+	height: 150px;
+}
+.cp2 .swiper-slide .p1,
+.cp2 .swiper-slide .p2{
+	text-align: center;
+}
+.cp2 .cp2_main2{
+	right: 30px;
+}
+
+
+
+/*20190318*/
+.cp1{
+	position:relative;
+}
+.cp1 .cp-bg1{
+	width: 380px;
+	height: 2030px;
+	background: url(../img/pp/b1.jpg) repeat-y;
+	background-position: 5% center;
+	position:absolute;
+	top:-120px;
+	left: 0;
+	z-index: -1;
+}
+.cp1 .cp-bg2{
+	width: 380px;
+	height: 2030px;
+	background: url(../img/pp/b1.jpg) repeat-y;
+	background-position: 5% center;
+	position:absolute;
+	top:-120px;
+	right: 0;
+	z-index: -1;
+}
+@media (max-width:1680px){
+	.cp1 .part1-main ul li .li-img{
+		width: 420px;
+		height: 514px;
+	}
+	.cp1 .part1-main ul li{
+		width: 420px;
+	}
+	.cp1 .part1-main{
+		width: 840px;
+	}
+}
+@media (max-width:1444px){
+	.cp1 .cp-bg1{
+		width: 270px;
+		background-position: 11% center;
+	}
+	.cp1 .cp-bg2{
+		width: 270px;
+		background-position: 11% center;
+	}
+}
+@media (max-width:1366px){
+	.cp1 .part1-main ul li .li-img{
+		width: 353px;
+		height: 432px;
+	}
+	.cp1 .part1-main ul li .li-bottom .bottom-l{
+		width: 80px;
+		height: 37px;
+		line-height: 37px;
+		font-size: 22px;
+	}
+	.cp1 .part1-main ul li .li-bottom .bottom-r{
+		font-size: 18px;
+	}
+	.cp1 .part1-main ul li{
+		width: 360px;
+		margin-bottom: 50px;
+	}
+	.cp1 .part1-main{
+		width: 720px;
+	}
+}

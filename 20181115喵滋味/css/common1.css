@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Microsoft Yahei", arial;
+	font-size: 12px;
+	color: #000;
+	overflow-x: hidden;
+}
+
+.fl-lt {
+	float: left;
+}
+
+.fl-rt {
+	float: right;
+}
+
+ul li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+img {
+	vertical-align: top;
+	border: none;
+}
+
+i {
+	font-style: normal;
+}
+
+input,
+button,
+textarea {
+	border: 0;
+	outline: none;
+}
+
+b {
+	font-style: normal;
+}
+
+em {
+	font-style: normal;
+}
+.cl {
+	clear: both;
+	height: 0px;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.all {
+	width: 1150px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.all2 {
+	width: 100%;
+	margin: 0 auto;
+}
+.all3 {
+	
+	height: 100%;
+	
+}
+.all4 {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.all5 {
+	width: 1150px;
+	margin: 0 auto;
+
+}
+.clear {
+	clear: both;
+	height: 0px;
+	overflow: hidden;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}

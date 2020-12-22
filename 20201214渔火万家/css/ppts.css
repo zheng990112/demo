@@ -1,0 +1,580 @@
+.section {
+  overflow: hidden;
+  background: url(../img/ppts/bg1.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+.section .page_main {
+  min-width: 2rem;
+  min-height: 1rem;
+  margin: auto;
+  position: relative;
+  z-index: 0;
+  padding-top: 0.01rem;
+}
+
+.page0 .page_main {
+  margin-left: 4.4rem;
+}
+
+.page0 .fl-lt {
+  width: 3.54rem;
+  height: 8.14rem;
+}
+
+.page0 .fl-lt img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.page0 .list {
+  float: left;
+  margin-left: 1.58rem;
+  width: 6.22rem;
+  padding-top: 0.3rem;
+}
+
+.page0 .subTitle .p2 {
+  margin-top: -0.2rem;
+  margin-left: -0.2rem;
+  width: 7.3rem;
+  height: 1.16rem;
+  background: url(../img/ppts/subTitle1.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.page0 .subTitle .p2 span {
+  margin-left: 0.4rem;
+  margin-top: 0.4rem;
+}
+
+.page0 ul,
+.page1 ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: "myfont_Magpie";
+  padding-top: 0.1rem;
+}
+
+.page0 ul li,
+.page1 ul li {
+  width: 2.74rem;
+  margin-top: 0.2rem;
+}
+
+.page0 ul img,
+.page1 ul img {
+  display: block;
+  width: 2.74rem;
+  height: 1.52rem;
+}
+
+.page0 ul .p1,
+.page1 ul .p1 {
+  width: 2.74rem;
+  height: 0.58rem;
+  line-height: 0.5rem;
+  background: url(../img/ppts/a6.png) no-repeat;
+  background-size: 100% 100%;
+  font-size: 0.3rem;
+  color: #ffffff;
+  text-align: center;
+  margin-top: -0.29rem;
+  position: relative;
+  z-index: 1;
+}
+
+.page0 ul li:nth-child(2) .p1,
+.page0 ul li:nth-child(3) .p1,
+.page1 ul li:last-child .p1{
+  background: url(../img/ppts/a7.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.page0 ul .p2,
+.page1 ul .p2 {
+  width: 2.6rem;
+  margin: auto;
+  text-align: justify;
+  font-size: 0.24rem;
+  color: #000000;
+  margin-top: 0.2rem;
+}
+.page1 ul .p2{
+  text-align: center;
+}
+
+.page1 {
+  background: url(../img/ppts/bg2.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+.page1 .page_main {
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.page1 .page_box {
+  float: right;
+  width: 6rem;
+  margin-right: 2.8rem;
+}
+
+.page1 .subTitle .p2 {
+  margin-left: -0.2rem;
+  width: 6rem;
+  height: 1.16rem;
+  background: url(../img/ppts/subTitle2.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.page1 .subTitle .p2 span {
+  margin-left: 0.4rem;
+  margin-top: 0.4rem;
+}
+.page2{
+  background: url(../img/ppts/bg3.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.page2 .page_main{
+  width: 13rem;
+  margin-left: 3.9rem;
+}
+.page2 .fl-lt{
+  width: 4rem;
+}
+
+.page2 .subTitle .p2{
+  width: 3.2rem;
+  background: url(../img/ppts/subTitle3.png) no-repeat;
+  background-size: 100% 100%;
+  margin-left: -0.3rem;
+}
+.page2 .subTitle .p2 span{
+  margin-top: 0.34rem;
+  margin-left: 0.5rem;
+}
+.page2 .str{
+  width: 2.38rem;
+  height: 2.38rem;
+  position: relative;
+  z-index: 0;
+  float: left;
+  margin-top: 0.3rem;
+  text-align: center;
+}
+.page2 .str p{
+  padding-top: 1.4rem;
+  font-size: 0.26rem;
+  color: #3e3a39;
+  font-family: "myfont_Magpie";
+}
+.page2 .str.on p{
+  color: #ffffff;
+}
+.page2 .str::after{
+  content: "";
+  width: 2.86rem;
+  height: 2.36rem;
+  background: url(../img/ppts/c1.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  z-index: -1;
+}
+.page2 .fl-lt .str:nth-last-child(2):after{
+  top: 0;
+  left: 0;
+}
+.page2 .fl-lt .str:last-child:after{
+  width: 3.08rem;
+  height: 2.24rem;
+  background: url(../img/ppts/c2.png) no-repeat;
+  background-size: 100% 100%;
+  top: 0;
+  right: 0;
+}
+
+.page2 .fl-rt{
+  width: 2.38rem;
+}
+.page2 .fl-rt .str:first-child::after{
+  width: 2.76rem;
+  height: 2.42rem;
+  background: url(../img/ppts/c3.png) no-repeat;
+  background-size: 100% 100%;
+  bottom: 0.2rem;
+  left: 0;
+}
+.page2 .fl-rt .str:last-child::after{
+  width: 2.66rem;
+  height: 3.24rem;
+  background: url(../img/ppts/c4.png) no-repeat;
+  background-size: 100% 100%;
+  top: 0;
+  left: 0;
+}
+
+.pp2_1 .p1 {
+  color: #c30d23;
+  font-size: 0.225rem;
+}
+
+.pp2_1 .p3 {
+  color: #595757;
+  font-size: 0.42rem;
+}
+
+.pp2_1.section {
+  background: url("../img/ppts/ppbg04.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+
+.pp2_1 .page_main {
+  width: 6.6rem;
+  height: 6.5rem;
+  font-family: "myfont_Magpie";
+  margin-left: 10.18rem;
+  position: relative;
+  z-index: 0;
+  padding-top: 0.15rem;
+}
+
+.pp2_1 .p2 {
+  margin-top: 0.2rem;
+  margin-bottom: 0.1rem;
+  width: 5.86rem;
+  height: 0.65rem;
+  color: #fff;
+  font-size: 0.38rem;
+  line-height: 0.6rem;
+  text-indent: 0.2rem;
+  background: url("../img/ppts/fontbg10.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.pp1_1flex {
+  margin-top: 0.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.pp2_1 .pp1_1flexitem {
+  position: relative;
+  width: 3.13;
+  margin-bottom: 0.2rem;
+}
+
+.pp2_1 .xq {
+  text-align: center;
+  position: absolute;
+  right: -0.1rem;
+  bottom: 0.2rem;
+  color: #3e3a39;
+  font-size: 0.21rem;
+}
+
+.dk {
+  border-bottom: 0.01rem solid #3e3a39;
+}
+
+.pp2_1 .pp1_1flexitem>img {
+  width: 2.92rem;
+  height: 1.86rem;
+}
+
+
+/* pp2第二屏 */
+
+.pp2.section {
+  background: url("../img/ppts/ppbg03.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+
+.pp2 .page_main {
+  width: 12.3rem;
+  height: 6.9rem;
+  font-family: "myfont_Magpie";
+  margin-left: 3.8rem;
+  position: relative;
+  z-index: 0;
+  padding-top: 0.15rem;
+}
+
+.pp2 .top_right {
+  width: 11.3rem;
+  height: 3.3rem;
+  margin-left: 1.7rem;
+  position: relative;
+}
+
+.pp2 .top_right .top_text {
+  position: absolute;
+  left: 2.5rem;
+  top: -0.2rem;
+  color: white;
+  font-size: 0.21rem;
+}
+
+.pp2 .top_right .pp2_flex {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pp2 .top_right .icon1 {
+  width: 3.3rem;
+}
+
+.pp2 .top_right .cf {
+  width: 3.0rem;
+}
+
+.pp2 .cf>div {
+  margin-left: 0.05rem;
+  float: right;
+}
+
+.pp2 .top_right .cf .title {
+  margin-bottom: 0.17rem;
+}
+
+.pp2 .cf .title {
+  font-size: 0.55rem;
+  color: #c30d23;
+}
+
+.pp2 .top_right .cf .title2,
+.pp2 .top_right .cf .content {
+  margin-left: 0.1rem;
+}
+
+.pp2 .top_right .cf .title2 {
+  padding-top: 0.05rem;
+  width: 0.65rem;
+  font-size: 0.21rem;
+  color: #c30d23;
+  border-top: 0.01rem solid white;
+}
+
+.pp2 .top_right .cf .content {
+  font-size: 0.21rem;
+  color: white;
+}
+
+.pp2 .cf>img {
+  width: 1.79rem;
+}
+
+.pp2 .bottom_left {
+  width: 10rem;
+  height: 3.3rem;
+  position: relative;
+}
+
+.pp2 .bottom_left .top_text {
+  position: absolute;
+  right: 3rem;
+  top: 0.3rem;
+  color: #cb8f51;
+  font-size: 0.21rem;
+}
+
+.pp2 .bottom_left .top_text2 {
+  position: absolute;
+  right: 3rem;
+  top: 0.6rem;
+  color: #cb8f51;
+  font-size: 0.21rem;
+}
+
+.pp2 .bottom_left .content {
+  text-align: center;
+  color: #cb8f51;
+  font-size: 0.21rem;
+}
+
+.pp2 .bottom_left .content>img {
+  width: 0.5rem;
+}
+
+.pp2 .bottom_left .content p:nth-child(2) {
+  color: #c30d23;
+}
+
+.pp2 .bottom_left .pp2_btmflex {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.pp2 .bottom_left .icon2 {
+  width: 3.3rem;
+}
+
+.pp2 .xd3 {
+  width: 7.5rem;
+  position: absolute;
+  left: -1rem;
+  top: 1.2rem;
+}
+
+.pp2 .xd2 {
+  width: 8rem;
+  position: absolute;
+  right: 0rem;
+  top: 0.5rem;
+}
+
+
+/* pp3.css */
+
+.pp3 .page_main {
+  font-family: "myfont_Magpie";
+  width: 13.7rem;
+  margin-left: 3.76rem;
+  height: 7.3rem;
+  position: relative;
+  z-index: 0;
+}
+
+.pp3 .pp3_title .p1 {
+  color: #c30d23;
+  font-size: 0.225rem;
+  padding: 0rem 0.3rem;
+  margin-bottom: -0.2rem;
+}
+
+.pp3 .pp3_title .p2 {
+  color: #fff;
+  font-size: 0.37rem;
+  width: 6.4rem;
+  height: 0.97rem;
+  line-height: 1.2rem;
+  background: url("../img/ppts/fontbg09.png") no-repeat;
+  background-size: 100% 100%;
+  text-indent: 0.4rem;
+  position: relative;
+}
+
+.pp3 .pp3_title .p3 {
+  color: #595757;
+  font-size: 0.42rem;
+  padding: 0.1rem 0.4rem;
+}
+
+.pp3 .pp3_content {
+  width: 5.65rem;
+  margin: 0.3rem 0.1rem;
+}
+
+.pp3 .pp3_content .p4 {
+  font-size: 0.18rem;
+  color: #595757;
+  font-family: "Microsoft Yahei";
+  line-height: 0.3rem;
+}
+
+.pp3 .pp3_flex {
+  margin: 0.1rem 0rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 5.65rem;
+}
+
+.pp3 .pp3_flexitem {
+  margin-bottom: 0.3rem;
+}
+
+.pp3 .pp3_flexitem,
+.pp3 .pp3_flexitem>img {
+  width: 2.78rem;
+  text-align: center;
+  font-size: 0.32rem;
+  color: #3e3a39;
+}
+
+.pp3 .pp3_tb {
+  width: 8.92rem;
+  position: absolute;
+  right: -1rem;
+  top: 0.8rem;
+}
+
+
+/* pp4.css */
+
+.pp4 .page_main {
+  font-family: "myfont_Magpie";
+  width: 13.7rem;
+  margin-left: 3.76rem;
+  height: 7.3rem;
+  position: relative;
+  z-index: 0;
+}
+
+.pp4 .pp4_title .p1 {
+  color: #c30d23;
+  font-size: 0.225rem;
+  padding: 0.1rem 0.3rem;
+}
+
+.pp4 .pp4_title .p3 {
+  color: #595757;
+  font-size: 0.42rem;
+  padding: 0.2rem 0.4rem;
+}
+
+.pp4 .pp4_title .p2 {
+  color: #fff;
+  font-size: 0.37rem;
+  width: 3.22rem;
+  height: 0.65rem;
+  line-height: 0.55rem;
+  background: url("../img/ppts/fontbg07.png") no-repeat;
+  background-size: 100% 100%;
+  text-indent: 0.4rem;
+  position: relative;
+}
+
+.pp4 .pp4_title .p2>img {
+  position: absolute;
+  width: 0.7rem;
+  top: -0.3rem;
+  right: 0rem;
+}
+
+.pp4 .pp4_title .p2::after {
+  content: "";
+  display: inline-block;
+  width: 5.88rem;
+  height: 0.56rem;
+  background: url("../img/ppts/fontbg08.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: -5.6rem;
+  top: 0.04rem;
+  z-index: -1;
+}
+
+.pp4 .pp4_content {
+  padding-top: 0.4rem;
+}
+
+.pp4 .pp4_content .pp4_img {
+  width: 10.74rem;
+}
+
+.pp4 .pp4_tb {
+  width: 3.87rem;
+  position: absolute;
+  right: 0;
+  top: 0.5rem;
+}

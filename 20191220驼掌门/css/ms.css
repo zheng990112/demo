@@ -1,0 +1,233 @@
+
+
+
+.public-title{
+	text-align: center;
+}
+.public-title .p1{
+	font-size: 0.26rem;
+	color:#666666;
+	display: inline-block;
+	position:relative;
+	line-height: 1;
+	text-transform: uppercase;
+}
+.public-title .p1::before,
+.public-title .p1::after{
+	content:"";
+	display: inline-block;
+	width: 0.87rem;
+	height: 0.27rem;
+	position:absolute;
+	top: 0.1rem;
+}
+.public-title .p1::before{
+	background: url(../img/pp/c3.png) no-repeat;
+	background-size: 100% 100%;
+	left: -1rem;
+}
+.public-title .p1::after{
+	background: url(../img/pp/c4.png) no-repeat;
+	background-size: 100% 100%;
+	right:-1rem;
+}
+.public-title .p2{
+	font-size: 0.8rem;
+	font-family: myfont2;
+	color:#f29600;
+	line-height: 0.85rem;
+	display: inline-block;
+	position:relative;
+}
+.public-title .p2 span{
+	color:#d73335;
+}
+.public-title .p2::before,
+.public-title .p2::after{
+	content:"";
+	display: inline-block;
+	width: 1.63rem;
+	height: 0.9rem;
+	position:absolute;
+	top: 0.2rem;
+}
+.public-title .p2::before{
+	background: url(../img/pp/c1.png) no-repeat;
+	background-size: 100% 100%;
+	left: -1.7rem;
+}
+.public-title .p2::after{
+	background: url(../img/pp/c2.png) no-repeat;
+	background-size: 100% 100%;
+	right: -1.7rem;
+}
+.public-title .p3{
+	font-size: 0.29rem;
+	color:#595757;
+	margin-top: 0.15rem;
+}
+.public-title .p3 span{
+	color:#c7282a;
+}
+.public-title .line{
+	width: 0.55rem;
+	height:2px;
+	background-color: #e39394;
+	margin:0 auto;
+	margin-top: 0.15rem;
+}
+.public-title .p4{
+	font-size: 0.38rem;
+	font-family: myfont;
+	color:#c7282a;
+	margin-top: 0.1rem;
+}
+.public-title .p5{
+	font-size: 0.23rem;
+	color:#595757;
+	margin-top: 0.1rem;
+}
+.public-title .p5 span{
+	color:#e2870e;
+}
+
+
+.picScroll-left{
+	width: 100%;
+	position: relative;
+	margin-top: 0.4rem;
+}
+.picScroll-left .bd{
+	width: 9.9rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.picScroll-left .bd li{
+	float: left;
+	position: relative;
+	text-align: center;
+	width:3.17rem;
+	margin: 0 0.07rem;
+	cursor: pointer;
+}
+.picScroll-left .bd li img{
+	display: block;
+	width:3.17rem;
+	height:3.17rem;
+}
+
+.picScroll-left .arrow{
+	position: absolute;
+	top:1.48rem;
+	width:0.26rem;
+	height:0.55rem;
+	cursor: pointer;
+}
+.picScroll-left .arrow img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.picScroll-left .arrow-left{
+	left:-0.1rem;
+}
+.picScroll-left .arrow-right{
+	right:-0.1rem;
+}
+
+
+.picScroll-left .bd li .p1{
+	text-align: center;
+	margin-top: 0.1rem;
+}
+.picScroll-left .bd li .p1 span{
+	display: inline-block;
+	position:relative;
+	font-size: 0.2rem;
+	color:#e2870e;
+	font-weight: bold;
+}
+.picScroll-left .bd li .p1 span::before,
+.picScroll-left .bd li .p1 span::after{
+	content:"";
+	display: inline-block;
+	width: 0.45rem;
+	height: 1px;
+	background-color: #e2870e;
+	position:absolute;
+	top: 50%;
+}
+.picScroll-left .bd li .p1 span::before{
+	left: -0.5rem;
+}
+.picScroll-left .bd li .p1 span::after{
+	right:-0.5rem;
+}
+.picScroll-left .bd li .p2{
+	font-size: 0.14rem;
+	color:#595757;
+	margin-top: 0.1rem;
+}
+
+
+.ms1{
+	padding-bottom: 0.55rem;
+	position:relative;
+}
+.ms1 .ms1-icon{
+	display: block;
+	width: 2.84rem;
+	position:absolute;
+	bottom:0.1rem;
+	left:0.35rem;
+}
+
+
+.ms2 ul li{
+	float:left;
+	width: 3.23rem;
+	margin-top: 0.3rem;
+	text-align: center;
+	margin-right: 0.295rem;
+}
+.ms2 ul li:last-child{
+	margin-right: 0;
+}
+.ms2 ul li .li-img{
+	width: 3.23rem;
+	height: 1.98rem;
+}
+.ms2 ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.ms2 ul li .li-fonts{
+	width: 100%;
+	height: 1.38rem;
+	background: url(../img/ms/b4.jpg) no-repeat;
+	background-size: 100% 100%;
+	position:relative;
+}
+.ms2 ul li .li-fonts .li-p1{
+	font-size: 0.59rem;
+	font-family: myfont2;
+	color:#000;
+	line-height: 1;
+	position:absolute;
+	width: 100%;
+	top:-0.3rem;
+}
+.ms2 ul li .li-fonts .li-p2{
+	font-size: 0.2rem;
+	color:#fff;
+	line-height: 0.3rem;
+	position:absolute;
+	width: 100%;
+	bottom: 0.1rem;
+}
+.ms2 ul li:nth-child(2) .li-fonts .li-p2{
+	font-size: 0.24rem;
+	line-height: 0.35rem;
+	bottom: 0.2rem;
+}

@@ -1,0 +1,138 @@
+.xx1 .bigSmall{
+	background-color: #f29600;
+	width: 799px;
+	margin:0 auto;
+	padding: 10px 0;
+	margin-top: 50px;
+}
+.xx1 .bigSmall .large_box{
+	width: 799px;
+	margin:0 auto;
+	overflow: hidden;
+	height: 367px;
+}
+.xx1 .bigSmall .large_box ul{
+	position: relative;
+}
+.xx1 .bigSmall .large_box ul li{
+	position: relative;
+	width: 799px;
+	height: 509px; 
+}
+.xx1 .bigSmall .large_box ul li img{
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+
+.xx1 .bigSmall .small_box{
+	width: 850px;
+	height: 159px;
+	margin: 0 auto;
+	margin-top: 10px;
+	position: relative;
+	background-color: #f29600;
+}
+.xx1 .bigSmall .small_box .small_list{
+	width: 799px;
+	height: 159px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.xx1 .bigSmall .small_box .small_list ul{
+	position: relative;
+}
+.xx1 .bigSmall .small_box .small_list ul li{
+	width: 250px;
+	height: 159px;
+	position: relative;
+	float: left;
+	cursor: pointer;
+	margin: 0 6px;
+	overflow: hidden;
+	z-index:3;
+	border:1px solid transparent;
+}
+.xx1 .bigSmall .small_box ul li img{
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+.xx1 .bigSmall .small_box ul li.on{
+	border: 1px solid #000;
+}
+.xx1 .arrow{
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    z-index: 2;
+    width: 22px;
+    height: 69px;
+    cursor: pointer;
+    z-index: 99;
+}
+.xx1 .arrow-left{
+	left: 20px;
+}
+.xx1 .arrow-right{
+	right:20px;
+} 
+.xx1 .arrow img{
+	overflow: hidden;
+	display: block;
+	width: 24px;
+	height: 69px;
+}
+
+
+/*20181028*/
+.xx1 .arrow-left {
+    left: -55px;
+}
+.xx1 .arrow-right{
+    right: -55px;
+}
+.xx1 .arrow{
+	width: 20px;
+	height: 56px;
+	margin-top: -28px;
+}
+.xx1 .arrow img{
+	width: 20px;
+	height: 56px;
+}
+.xx1 .bigSmall,
+.xx1 .bigSmall .small_box{
+	background-color: transparent;
+}
+.xx1 .bigSmall .large_box{
+	width: 799px;
+	height: 509px;
+	border:5px solid #f29600;
+}
+.xx1 .bigSmall .small_box .small_list ul li{
+	border:5px solid #f29600;
+	margin:0 7px;
+}
+.xx1 .bigSmall .small_box .small_list ul li.on{
+	border:5px solid #c30d23;
+}
+.xx1 .bigSmall .small_box .small_list{
+	width: 815px;
+	height: 169px;
+	margin-left: -7px;
+}
+.xx1 .bigSmall .small_box{
+	width: 810px;
+	height: 169px;
+}
+.main-box .xx1 .part-top span{
+	font-family: "微软雅黑";
+	font-weight: bold;
+}
+
+
+.main-box .xx2 .part-top span{
+	font-family: "myfontb";
+	font-weight:lighter;
+}

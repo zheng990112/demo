@@ -1,0 +1,443 @@
+.banner_img a{
+  left: 50%;
+  margin-left: -1.44rem;
+  bottom: 28%;
+}
+.container{
+  position: relative;
+  z-index: 0;
+}
+.ys1::after{
+  content: "";
+  width:  6.12rem;
+  height: 13.29rem;
+  background: url(../img/ys/a_bg.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0;
+  top: 1.5rem;
+  z-index: -1;
+}
+.ys1 .part1{
+  padding-bottom: 0.6rem;
+  position: relative;
+  z-index: 0;
+}
+.ys1 .part1::after{
+  content: "";
+  width:  5.89rem;
+  height: 2.08rem;
+  background: url(../img/ys/a_bg2.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 1.2rem;
+  bottom: 0;
+  z-index: -1;
+}
+.ys1 .part1
+.ys1 .part1 ul{
+  width: 100%;
+  margin-top: 0.46rem;
+}
+.ys1 .part1 ul li{
+  width: 100%;
+  float: left;
+  height: 3.74rem;
+  margin-bottom: 0.4rem;
+}
+.ys1 .part1 ul .str{
+  float: left;
+  width: 5.1rem;
+}
+.ys1 .part1 ul .str .p1{
+  width: 4.62rem;
+  height: 0.66rem;
+  line-height: 0.66rem;
+  text-align: center;
+  font-size: 0.34rem;
+  color: #fff;
+  background: url(../img/ys/a_icon1.png) no-repeat;
+  background-size: 100% 100%;
+  margin-top: 0.32rem;
+}
+.ys1 .part1 ul .str .p2{
+  font-size: 0.2rem;
+  line-height: 0.34rem;
+  color: #424142;
+  margin-top: 0.2rem;
+  text-align: justify;
+  padding-bottom: 0.3rem;
+  position: relative;
+  margin-bottom: 0.25rem;
+}
+.ys1 .part1 ul .str .p2::after{
+  content: "";
+  width: 7.5rem;
+  height: 1px;
+  border-bottom: 2px solid #b0b0b0;
+  position: absolute;
+  bottom: 0;
+}
+.ys1 .part1 ul .str .p3{
+  font-size: 0.24rem;
+  line-height: 0.34rem;
+  color: #424142;
+  text-align: justify;
+  position: relative;
+}
+.ys1 .part1 ul .str .p3::after{
+  content: "";
+  width: 0.6rem;
+  height: 0.08rem;
+  background: url(../img/ys/a_icon3.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 50%;
+  margin-top: -0.03rem;
+}
+.ys1 .part1 ul .pic{
+  float: right;
+  width: 3.58rem;
+  height: 3.58rem;
+  border-radius: 50%;
+  border: 0.05rem solid #b4b9e5;
+  position: relative;
+}
+.ys1 .part1 ul .pic .img1{
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.ys1 .part1 ul .pic p{
+  font-size: 0.28rem;
+  line-height: 1.06rem;
+  text-align: center;
+  color: #fff;
+  width: 1.06rem;
+  height: 1.06rem;
+  background: url(../img/ys/a_icon2.png) no-repeat;
+  position: absolute;
+  top: 0;
+  left: -0.34rem;
+}
+.ys1 .part1 ul li:nth-child(2n+1) .str .p2::after{
+  left: 0;
+}
+
+.ys1 .part1 ul li:nth-child(2n+1) .str .p3::after{
+  right: 0;
+}
+.ys1 .part1 ul li:nth-child(2n) .str .p2::after{
+  right: 0;
+}
+.ys1 .part1 ul li:nth-child(2n) .str{
+  float: right;
+}
+
+.ys1 .part1 ul li:nth-child(2n) .pic{
+  float: left;
+}
+.ys1 .part1 ul li:nth-child(2n) .str .p3::after{
+  background: url(../img/ys/a_icon4.png) no-repeat;
+  background-size: 100% 100%;
+  left: 0;
+  margin-left: -0.8rem;
+}
+
+.ys2::after{
+  content: "";
+  width:  6.06rem;
+  height: 9.05rem;
+  background: url(../img/ys/ys_bg1.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0;
+  top: 1.5rem;
+  z-index: -1;
+}
+.ys2::before{
+  content: "";
+  width:  3.42rem;
+  height: 5.69rem;
+  background: url(../img/ys/ys_bg2.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0.1rem;
+  z-index: -1;
+}
+.ys2 .part1{
+  padding-bottom: 1.7rem;
+  position: relative;
+  z-index: 0;
+}
+.ys2 .part1::after{
+  content: "";
+  width:  5.89rem;
+  height: 2.08rem;
+  background: url(../img/ys/a_bg2.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 1.2rem;
+  bottom: 0;
+  z-index: -1;
+}
+.ys2 .public-title{
+  margin-bottom: 0.7rem;
+}
+.ys2 .part1 .list1{
+  width: 9.5rem;
+  height: 2.6rem;
+  border: 0.05rem #dce8ff solid;
+  margin-bottom: 0.1rem;
+}
+.ys2 .part1 .list1 .img1{
+  float: left;
+  width: 3.42rem;
+  height: 2.6rem;
+}
+.ys2 .part1 .list1 .listStr{
+  float: left;
+  width: 6.08rem;
+}
+.ys2 .part1 .list1 .p1{
+  width: 5.38rem;
+  margin: auto;
+  font-size: 0.24rem;
+  color: #1e2d82;
+  margin-top: 0.42rem;
+  padding-bottom: 0.26rem;
+  background: url(../img/ys/b_solid.jpg) left bottom no-repeat;
+  background-size: 100% 0.03rem;
+}
+.ys2 .part1 .list1 ul{
+  width: 5.38rem;
+  margin: auto;
+  margin-top: 0.3rem;
+}
+.ys2 .part1 .list1 li{
+  width: 50%;
+  float: left;
+}
+.ys2 .part1 .list1 li p,
+.ys2 .part1 .list1 .p2{
+  font-size: 0.18rem;
+  line-height: 0.3rem;
+  color: #333333;
+}
+.ys2 .part1 .list1 .p2{
+  width: 5.38rem;
+  margin: auto;
+}
+.ys2 .part1 .list1  .first_p2{
+  padding-top: .3rem;
+}
+.ys2 .part1 .list2{
+  width: 9.6rem;
+  height: 5.6rem;
+  margin-bottom: .08rem;
+}
+.ys2 .part1 .list2 li{
+  float: left;
+  width: 2.97rem;
+  height: 5.45rem;
+  border: 0.05rem #dce8ff solid;
+  margin-left: 0.195rem;
+}
+.ys2 .part1 .list2 li:nth-child(3n+1){
+  margin-left: 0;
+}
+.ys2 .part1 .list2 li .img1{
+  display: block;
+  width: 100%;
+  height: 2.5rem;
+}
+.ys2 .part1 .list2 li .p1{
+  color: #1e2d82;
+  font-size: .24rem;
+  line-height: .32rem;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 0.35rem;
+  padding-bottom: .3rem;
+  position: relative;
+}
+.ys2 .part1 .list2 li .p1::after{
+  content: "";
+  width: 2rem;
+  height: .03rem;
+  background: url("../img/ys/b_solid2.jpg") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1rem;
+}
+.ys2 .part1 .list2 li .p2{
+  font-size: .18rem;
+  line-height: .28rem;
+  color: #333333;
+  text-align: center;
+  padding-top: .25rem;
+}
+.ys3::after{
+  content: "";
+  width:  6.06rem;
+  height: 9.05rem;
+  background: url(../img/ys/ys_bg1.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0;
+  top: 1.5rem;
+  z-index: -1;
+}
+.ys3::before{
+  content: "";
+  width:  3.42rem;
+  height: 5.69rem;
+  background: url(../img/ys/ys_bg2.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+  bottom: 2.6rem;
+  z-index: -1;
+}
+.ys3 .part1{
+  padding-bottom: 3.65rem;
+  position: relative;
+  z-index: 0;
+}
+.ys3 .part1::after{
+  content: "";
+  width:  5.89rem;
+  height: 2.08rem;
+  background: url(../img/ys/a_bg2.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 1.2rem;
+  bottom: 0;
+  z-index: -1;
+}
+.ys3 .part1::before{
+  content: "";
+  width:  3.83rem;
+  height: 4.2rem;
+  background: url(../img/ys/c_bg.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: -1.3rem;
+  bottom: 0;
+  z-index: -1;
+}
+.ys3 .listPic{
+  width: 100%;
+  padding-top: .6rem;
+}
+.ys3 .listPic li{
+  float: left;
+  margin-top: 0.5rem;
+  width: 100%;
+  position: relative;
+}
+.ys3 .listPic li .img1{
+  position: absolute;
+  width: 2.45rem;
+  height: 2.45rem;
+  border-radius: 50%;
+  border: .04rem solid #bdc4eb;
+  top: 50%;
+  margin-top: -1.265rem;
+}
+
+.ys3 .listPic li:nth-child(2n) .img1{
+  right: 0;
+}
+.ys3 .listPic li div{
+  width: 4.9rem;
+  padding-left: 2.5rem;
+  height: 1.8rem;
+  border-radius: .9rem;
+  border: .02rem solid #bdc4eb;
+  margin-left: .2rem;
+}
+.ys3 .listPic li:nth-child(2n) div{
+  width: 6.5rem;
+  padding-left: .9rem;
+  float: right;
+  margin-right: .3rem;
+}
+.ys3 .listPic li .p1{
+  padding-top: .3rem;
+  font-size: .28rem;
+  color: #1e2d82;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: .1rem;
+}
+.ys3 .listPic li .p1 span{
+  font-size: .14rem;
+  display: inline-block;
+  vertical-align: text-bottom;
+  margin-left: .1rem;
+  font-weight: normal;
+  letter-spacing: -.02rem;
+}
+.ys3 .listPic li .p2{
+  font-size: .18rem;
+  color: #000000;
+  line-height: .3rem;
+}
+.ys4::after{
+  content: "";
+  width:  3.93rem;
+  height: 8.97rem;
+  background: url(../img/ys/d_bg.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0;
+  top: .25rem;
+  z-index: -1;
+}
+.ys4::before{
+  content: "";
+  width:  3.42rem;
+  height: 5.69rem;
+  background: url(../img/ys/ys_bg2.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+  bottom: 2.6rem;
+  z-index: -1;
+}
+.ys4 .part1{
+  padding-bottom: 2.1rem;
+  position: relative;
+  z-index: 0;
+}
+.ys4 .part1::after{
+  content: "";
+  width:  5.89rem;
+  height: 2.08rem;
+  background: url(../img/ys/a_bg2.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 1.2rem;
+  bottom: 0;
+  z-index: -1;
+}
+.ys4 .public-title .title_box div::after{
+  right: -2.4rem;
+  top: -0.8rem;
+}
+.ys4 .part1 .firstImg{
+  display: block;
+  width: 9.25rem;
+  height: 4.66rem;
+  margin-top: -1.8rem;
+}
+.ys4 .part1 .lastImg{
+  display: block;
+  border-radius: .1rem;
+  width: 100%;
+}

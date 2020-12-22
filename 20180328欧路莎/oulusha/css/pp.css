@@ -1,0 +1,97 @@
+/*品牌故事*/
+
+
+/*品牌解读*/
+
+
+/*品牌视频*/
+.ppvedio .part1{
+	width: 100%;
+/*	height: 1300px;*/
+	text-align: center;
+	background-size: 100% 100%!important;
+	margin: 0 auto;
+}
+.ppvedio .top{
+	position: absolute;
+	left: 0;
+	top: .95rem;
+	width: 100%;
+}
+.ppvedio .top .img1{
+	display: block;
+	width: 32%;
+	margin: 0 auto;
+}
+.ppvedio .en{
+	position: relative;
+	text-align:center;
+	width: 1050px;
+	margin: 0 auto;
+	padding-left: 1.3rem;
+	box-sizing: border-box;
+}
+.ppvedio .en p{
+	font-size: 17px;
+	color: #999;
+	text-transform: uppercase;
+	position: absolute;
+	left: 0;
+	top: 0px;
+	width: 100%;
+	padding-left: 1.3rem;
+	box-sizing: border-box;
+}
+.ppvedio .top .img2{
+	display: block;
+	margin: 15px auto;
+}
+.ppvedio .vedio-box{
+    position: absolute;
+    left: 20.8%;
+    top: 24.9%;
+    width: 56%;
+    height: 47%;
+    background: #000;
+    border-radius: 10px;
+}
+.ppvedio .vedio-img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+.ppvedio .vedio-box video,
+.ppvedio .vedio-box embed{
+	width: 100%!important;
+	height: 100%!important;	
+}
+.ppvedio #play{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin-top: -50px;
+	margin-left: -50px;
+	cursor: pointer;
+	z-index: 12;
+}
+
+/*品牌视觉*/
+
+
+
+
+
+
+
+
+
+
+
+
+

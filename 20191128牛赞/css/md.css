@@ -1,0 +1,246 @@
+
+
+.md1-title{
+	text-align: center;
+}
+.md1-title .p1,
+.md1-title .p3{
+    font-size: 80px;
+    font-family: myfont;
+    display: inline-block;
+    color: #e86c00;
+    position: relative;
+    line-height: 60px;
+}
+.md1-title .p2{
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.md1-title .p1::before,
+.md1-title .p1::after{
+	content:"";
+	display: inline-block;
+	width: 100px;
+	height: 110px;
+	position:absolute;
+	top:34px;
+}
+.md1-title .p1::before{
+	background: url(../img/md/icon_l.png) no-repeat;
+	background-size: 100% 100%;
+	left: -100px;
+}
+.md1-title .p1::after{
+	background: url(../img/md/icon_r.png) no-repeat;
+	background-size: 100% 100%;
+	right: -100px;
+}
+.md1-title .p4{
+	font-size: 20px;
+	color:#fff;
+	text-align: center;
+	line-height: 36px;
+	margin-top:20px;
+}
+
+.md1{
+	padding-top: 70px;
+	padding-bottom: 180px;
+}
+
+.md1 .md1-main{
+	width: 12rem;
+	margin:0 auto;
+	margin-top: 0.4rem;
+}
+.md1 .picScroll-left{
+	width: 100%;
+	position: relative;
+}
+.md1 .picScroll-left .arrow{
+	position: absolute;
+	width: 0.8rem;
+	height: 0.8rem;
+	top:50%;
+	margin-top: -0.4rem;
+	cursor: pointer;
+}
+.md1 .picScroll-left .arrow img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.md1 .picScroll-left .arrow-left{
+	left:-1rem;
+}
+.md1 .picScroll-left .arrow-right{
+	right:-1rem;
+}
+.md1 .picScroll-left .bd{
+	width: 12rem;
+    overflow: hidden;
+    margin: 0 auto;
+   	height: 6.2rem;
+   	background-color: #e86c00;
+   	border-radius:0.1rem;
+   	padding:0.12rem 0.41rem;
+   	box-sizing: border-box;
+}
+.md1 .picScroll-left .bd .tempWrap,
+.md1 .picScroll-left .bd .tempWrap .picList,
+.md1 .picScroll-left .bd .tempWrap .picList ul{
+	width: 100%;
+	height: 100%!important;
+}
+.md1 .picScroll-left .bd ul{
+	position: relative;
+	float:left;
+}
+.md1 .picScroll-left .bd ul li{
+	width:5.39rem;
+	float: left;
+	position: relative;
+	text-align: center;
+	height: 2.74rem;
+	margin:0.12rem 0.1rem;
+}
+.md1 .picScroll-left .bd ul li img{
+	width: 100%;
+	display: block;
+	height:100%;
+}
+
+
+
+.md2{
+	padding-top: 70px;
+	padding-bottom: 180px;
+}
+.md2 .md1-title{
+	
+}
+.md2 .md1-title .p1::before,
+.md2 .md1-title .p1::after{
+	content:"";
+	display: inline-block;
+	width:32px;
+	height: 110px;
+	position:absolute;
+	top:34px;
+}
+.md2 .md1-title .p1::before{
+	background: url(../img/md/b-icon_l.png) no-repeat;
+	background-size: 100% 100%;
+	left:-35px;
+}
+.md2 .md1-title .p1::after{
+	background: url(../img/md/b-icon_r.png) no-repeat;
+	background-size: 100% 100%;
+	right:-35px;
+}
+
+.md2 .md2-main{
+	width: 12rem;
+	margin:0 auto;
+	margin-top: 0.4rem;
+}
+.md2 .picScroll-left{
+	width: 100%;
+	position: relative;
+}
+.md2 .picScroll-left .bd{
+	margin: 0 auto;
+	overflow: hidden;
+}
+.md2 .picScroll-left .bd li{
+	float: left;
+	position: relative;
+	text-align: center;
+	width:5.9rem;
+	height:5.24rem;
+	cursor: pointer;
+	margin:0.05rem;
+}
+.md2 .picScroll-left .bd li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.md2 .picScroll-left .arrow{
+	position: absolute;
+	top:50%;
+	margin-top: -0.4rem;
+	width: 0.8rem;
+	height: 0.8rem;
+	cursor: pointer;
+}
+.md2 .picScroll-left .arrow img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.md2 .picScroll-left .arrow-left{
+	left:-85px;
+}
+.md2 .picScroll-left .arrow-right{
+	right:-85px;
+}
+
+
+.md3{
+	padding-top: 60px;
+	padding-bottom: 150px;
+}
+.md3 .md3-title{
+	text-align: center;
+}
+.md3 .md3-title .p1{
+	font-size: 80px;
+	font-family: myfont;
+	line-height:83px;
+	color:#e86c00;
+}
+.md3 .md3-title .p2{
+	font-size: 20px;
+	color:#fff;
+	letter-spacing:24px;
+	text-transform: uppercase;
+	margin-top: 15px;
+}
+.md3 .md3-title .p3{
+	font-size: 20px;
+	color:#fff;
+	line-height: 34px;
+	margin-top: 10px;
+}
+.md3 .md3-main{
+	width: 1200px;
+	margin:0 auto;
+	margin-top: 40px;
+}
+.md3 .md3-main ul li{
+	float:left;
+	width: 593px;
+	height: 333px;
+	margin-right: 14px;
+	margin-bottom: 14px;
+}
+.md3 .md3-main ul li:nth-child(2n){
+	margin-right: 0;
+}
+.md3 .md3-main ul li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+/*1280*/
+@media (max-width:1300px){
+	.md1 .picScroll-left .bd ul li{
+		margin: 0.12rem 0.09rem;
+	}
+}

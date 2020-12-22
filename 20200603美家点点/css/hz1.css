@@ -1,0 +1,60 @@
+.container{
+	padding-top: 70px;
+	text-align: center;
+}
+
+.title{
+	font-size: 34px;
+	color: #093682;
+}
+.separate{
+	margin: 20px auto;
+	width: 561px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20.48px;
+	color: #333333;
+	background: url(../img/hz1/01.png) center no-repeat;
+	background-size: 561px;
+}
+.img1{
+	width: 100%;
+}
+.listPic{
+	width: 100%;
+	padding-bottom: 60px;
+}
+.listPic li{
+	width: 227px;
+	height: 78px;
+	line-height: 78px;
+	margin-top: 40px;
+	float: left;
+	background: url(../img/hz1/03.png) left center no-repeat;
+	background-size: 227px;
+	color: #FFFFFF;
+	padding-right: 97.33px;
+	position: relative;
+}
+.listPic li h1{
+	float: left;
+	font-size: 44.28px;
+	margin-left: 10px;
+}
+.listPic li p{
+	float: left;
+	line-height: 74px;
+	font-size: 24.24px;
+	margin-left: 20px;
+}
+.listPic li img{
+	position: absolute;
+	right: 40px;
+	top: 50%;
+	width: 13px;
+	height: 22px;
+	margin-top: -11px;
+}
+.listPic li:nth-child(4n+4){
+	padding-right: 0;
+}

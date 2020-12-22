@@ -1,0 +1,416 @@
+.fc .part1 {
+  position: relative;
+}
+
+.fc .part1 .part_main {
+  position: relative;
+}
+
+.fc .part1::after {
+  content: "";
+  width: 165px;
+  height: 219px;
+  background: url(../img/part_bgR.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 42px;
+  right: 10px;
+}
+
+.fc .part1 .part_main::after {
+  content: "";
+  width: 237px;
+  height: 218px;
+  background: url(../img/part_bgL.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 346px;
+  left: -287px;
+}
+
+.part_main {
+  width: 1120px;
+}
+
+.fc1 .first_img {
+  display: block;
+  width: 1120px;
+  margin-top: 60px;
+}
+
+.part_swiper {
+  position: relative;
+  margin-top: 16px;
+  margin-bottom: 90px;
+}
+
+.part_swiper .swiper-container {
+  width: 1120px;
+  height: 210px;
+}
+
+.part_swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.part_swiper-btn {
+  width: 1260px;
+  height: 150px;
+  background: url(../img/fc/btn_bg.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -630px;
+  margin-top: -75px;
+}
+
+.part_swiper-btn div:focus {
+  display: none;
+}
+
+.part_swiper-btn .swiper-button-next,
+.part_swiper-btn .swiper-button-prev {
+  width: 54px;
+  height: 54px;
+  background-image: url(../img/fc/prev.png);
+  background-size: 54px 54px;
+}
+
+.part_swiper-btn .swiper-button-next {
+  background-image: url(../img/fc/next.png);
+  right: 0;
+}
+
+.part_swiper-btn .swiper-button-prev {
+  left: 0;
+}
+
+.fc2 .part1 .part_main {
+  width: 1020px;
+}
+
+
+.fc2 .list {
+  width: 100%;
+  padding-bottom: 140px;
+}
+
+.fc2 .list li {
+  width: 100%;
+  margin-top: 136px;
+  position: relative;
+  z-index: 0;
+}
+.fc2 .list li:first-child{
+  margin-top: 84px;
+}
+.fc2 .list li:nth-child(2n+1)::before {
+  content: "";
+  width: 100%;
+  height: 390px;
+  background: #efefef;
+  position: absolute;
+  left: 0;
+  bottom: -50px;
+  z-index: -1;
+}
+
+.fc2 .list .list_main {
+  width: 1020px;
+  margin: auto;
+  position: relative;
+  z-index: 0;
+}
+
+.fc2 .list li:nth-child(2n+1)::after {
+  content: "";
+  width: 165px;
+  height: 219px;
+  background: url(../img/part_bgR.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: -234px;
+  right: 10px;
+}
+
+.fc2 .list li:nth-child(2n+1) .list_main::after {
+  content: "";
+  width: 237px;
+  height: 218px;
+  background: url(../img/part_bgL.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: -24px;
+  left: -287px;
+}
+
+
+
+.fc2 .list .list_title {
+  position: relative;
+}
+
+.fc2 .list .list_title .p1 {
+  float: right;
+  font-size: 40px;
+  line-height: 50px;
+  color: #e5e5e5;
+  text-transform: uppercase;
+  text-align: right;
+  margin-top: 4px;
+  margin-right: 20px;
+}
+
+.fc2 .list .list_title .p2 {
+  font-size: 44px;
+  color: #e63f54;
+  font-weight: bold;
+}
+
+.fc2 .list .list_title .p3 {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #595757;
+}
+
+.fc2 .list .list_pic .fl-lt,
+.fc2 .list .list_pic .fl-rt {
+  width: 500px;
+  margin-top: 38px;
+}
+
+.fc2 .list .list_pic .img1 {
+  display: block;
+  width: 500px;
+  height: 330px;
+}
+
+.fc2 .list .list_pic .fl-lt .img1 {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.fc2 .list .list_pic .fl-rt .img1 {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.fc2 .list .list_pic .p1 {
+  width: 100%;
+  overflow-x: hidden;
+  margin-top: 32px;
+}
+
+.fc2 .list .list_pic .p1 img,
+.fc2 .list .list_pic span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.fc2 .list .list_pic .p1 img {
+  width: 38px;
+  height: 38px;
+}
+
+.fc2 .list .list_pic span {
+  font-size: 34px;
+  color: #e63f54;
+  margin-left: 10px;
+  position: relative;
+}
+
+.fc2 .list .list_pic span::after {
+  content: "";
+  width: 500px;
+  height: 2px;
+  background: #c9c9c9;
+  position: absolute;
+  top: 50%;
+  margin-top: -1px;
+  right: -520px;
+}
+
+.fc2 .list .list_pic .p2 {
+  padding-left: 10px;
+  font-size: 16px;
+  line-height: 34px;
+  color: #595757;
+  text-align: justify;
+  margin-top: 16px;
+}
+
+
+
+
+
+
+
+@media (max-width:1680px) {
+  .fc .part1::after {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+
+  .fc .part1 .part_main::after {
+    left: -260px;
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+
+  .fc2 .list li:nth-child(2n+1)::after {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+
+  .fc2 .list li:nth-child(2n+1) .list_main::after {
+    left: -260px;
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+}
+
+@media (max-width:1440px) {
+  .fc .part1::after {
+    transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+
+  .fc .part1 .part_main::after {
+    left: -250px;
+    transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+  .fc2 .list li:nth-child(2n+1)::after {
+    transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+
+  .fc2 .list li:nth-child(2n+1) .list_main::after {
+    left: -250px;
+    transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+}
+
+@media (max-width:1366px) {
+  .fc .part1::after {
+    transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    -o-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+
+  .fc .part1 .part_main::after {
+    left: -240px;
+    transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    -o-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+  .fc2 .list li:nth-child(2n+1)::after {
+    transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    -o-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+
+  .fc2 .list li:nth-child(2n+1) .list_main::after {
+    left: -240px;
+    transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    -o-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+}

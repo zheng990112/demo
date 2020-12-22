@@ -1,0 +1,52 @@
+
+.adver .main{
+	padding: 0;
+	font-size: 0;
+	width: 11rem;
+	margin:0 auto;
+}
+.lazy{
+	display: block;
+	width: 100%;
+}
+
+
+.box{
+	display: block;
+	position:relative;
+}
+.box .scroll{
+	width: 8.8rem;
+	height: 2rem;
+	position:absolute;
+	top:0.1rem;
+	left: 50%;
+	margin-left: -4.4rem;
+	overflow:hidden;
+	background-color: #fff;
+}
+.scroll ul li{
+	float: left;
+	margin-right:5px;
+	height: 2rem!important;
+	width:auto!important;
+}
+/*.scroll ul li.li1{
+	height:426px!important;
+}
+.scroll ul li.li2{
+	width:331px!important;
+}
+.scroll ul li.li3{
+	width: 532px!important;
+}
+.scroll ul li.li4{
+	width:469px!important;
+}*/
+
+
+.scroll ul li img{
+	display:block;
+	height: 100%!important;
+	width:auto!important;
+}

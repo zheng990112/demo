@@ -1,0 +1,764 @@
+.jr .part1 {
+  position: relative;
+}
+
+.jr .part1 .part_main {
+  position: relative;
+}
+
+.jr .part1::after {
+  content: "";
+  width: 165px;
+  height: 219px;
+  background: url(../img/part_bgR.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 42px;
+  right: 10px;
+}
+
+.jr .part1 .part_main::after {
+  content: "";
+  width: 237px;
+  height: 218px;
+  background: url(../img/part_bgL.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 346px;
+  left: -287px;
+}
+
+.jr1 .part1 .pic {
+  width: 1092px;
+  height: 477px;
+  padding-top: 1px;
+  background: #eed2a3;
+  margin-top: 118px;
+  padding-left: 15px;
+}
+
+.jr1 .part1 .pic img {
+  display: block;
+  width: 1107px;
+  height: 478px;
+  margin-top: -15px;
+}
+
+.jr1 .part1 .str {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.jr1 .part1 .str::after {
+  content: "";
+  width: 431px;
+  height: 292px;
+  background: url(../img/jr/a_icon1.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.jr1 .part1 .str p {
+  margin-top: 46px;
+  font-size: 18px;
+  line-height: 32px;
+  color: #595757;
+}
+
+.jr1 .part1 .str p:first-child {
+  margin-top: 40px;
+}
+
+.jr2 .part1 .img1 {
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.jr2 .part1 .list {
+  width: 100%;
+  padding: 25px 0;
+  background: url(../img/jr/b2.jpg) no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 130px;
+}
+
+.jr2 .part1 .list li {
+  width: 352px;
+  height: 246px;
+  margin: 5px;
+}
+
+.jr2 .part1 .list li img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.jr3 .part1 .first_img1 {
+  display: block;
+  width: 942px;
+  height: 125px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.jr3 .part1 .pic_box {
+  margin-top: 30px;
+  margin-left: -20px;
+  padding-left: 20px;
+  background: url(../img/jr/c_icon1.png) left bottom no-repeat;
+  background-size: 1120px 160px;
+}
+
+.jr3 .part1 .pic_box .img1 {
+  width: 510px;
+  height: 288px;
+  float: left;
+  margin-left: 60px;
+}
+
+.jr3 .part1 .pic_box p {
+  margin-left: 20px;
+  text-align: justify;
+  width: 448px;
+  float: left;
+  font-size: 18px;
+  line-height: 32px;
+  color: #595757;
+  margin-top: 150px;
+}
+
+.jr3 .part1 .list {
+  width: 940px;
+  margin: auto;
+  margin-top: 48px;
+  position: relative;
+}
+
+.jr3 .part1 .list::before {
+  content: "";
+  width: 122px;
+  height: 133px;
+  background: url(../img/jr/c_icon2.png) no-repeat;
+  background-size: 110% 100%;
+  position: absolute;
+  right: -30px;
+  top: -80px;
+}
+
+.jr3 .part1 .list li {
+  width: 420px;
+  float: left;
+}
+
+.jr3 .part1 .list img {
+  display: block;
+  width: 420px;
+  height: 248px;
+}
+
+.jr3 .part1 .list p {
+  margin-top: 40px;
+  text-align: justify;
+  float: left;
+  font-size: 18px;
+  line-height: 32px;
+  color: #595757;
+}
+
+.jr3 .part1 .list li:nth-child(2n) {
+  float: right;
+}
+
+.jr3 .part1 .last_img {
+  display: block;
+  width: 1413px;
+  height: 32px;
+  margin-left: -240px;
+  margin-top: 100px;
+}
+
+.jr3 .part2 {
+  position: relative;
+}
+
+.jr3 .part2::after {
+  content: "";
+  width: 165px;
+  height: 219px;
+  background: url(../img/part_bgR.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: -120px;
+  right: 10px;
+}
+
+.jr3 .part2 .part_main {
+  position: relative;
+  height: 100%;
+}
+
+.jr3 .part2 .part_main::before {
+  content: "";
+  width: 237px;
+  height: 218px;
+  background: url(../img/part_bgL.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: -424px;
+  left: -287px;
+}
+
+
+
+.jr3 .part2 .part_box {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 86px;
+  background: #efefef;
+  margin-top: 90px;
+}
+
+.jr3 .part2 .part_box .fl-lt {
+  width: 452px;
+  height: 712px;
+}
+
+.jr3 .part2 .part_box .str {
+  width: 648px;
+}
+
+.jr3 .part2 .str p{
+  margin-left: 80px;
+}
+.jr3 .part2 .str .p1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -10px;
+}
+.jr3 .part2 .str .p1 span:first-child{
+  font-size: 54px;
+  color: #e63f54;
+}
+.jr3 .part2 .str .p1 span:last-child{
+  font-size: 54px;
+  line-height: 1;
+  color: #e5e5e5;
+  font-weight: bold;
+}
+.jr3 .part2 .str .p2{
+  font-size: 24px;
+  line-height: 36px;
+  color: #595757;
+  position: relative;
+}
+.jr3 .part2 .str .p2::before{
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: url(../img/jr/c2_icon1.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 50%;
+  left: -20px;
+  margin-top: -6px;
+}
+
+.jr3 .part2 .str hr{
+  height: 4px;
+  background: #d8d8d8;
+  display: block;
+  border: none;
+  margin-top: 40px;
+}
+.jr3 .part2 .str .p3{
+  margin-top: 34px;
+  font-size: 18px;
+  line-height: 32px;
+  color: #595757;
+}
+.jr3 .part3{
+  margin-top: 130px;
+  margin-bottom: 120px;
+  position: relative;
+}
+
+.jr3 .part3::after {
+  content: "";
+  width: 165px;
+  height: 219px;
+  background: url(../img/part_bgR.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 1900px;
+  right: 10px;
+}
+
+.jr3 .part3 .part_main {
+  position: relative;
+  height: 100%;
+}
+
+.jr3 .part3 .part_main::before {
+  content: "";
+  width: 237px;
+  height: 218px;
+  background: url(../img/part_bgL.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: -287px;
+  top: 2204px;
+}
+
+.jr3 .part3 ul{
+  width: 1070px;
+}
+.jr3 .part3 ul li{
+  width: 100%;
+  float: left;
+  margin-top: 40px;
+}
+.jr3 .part3 ul .str{
+  float: left;
+  margin-left: 44px;
+  margin-top: 60px;
+}
+.jr3 .part3 ul .pic{
+  width: 420px;
+  float: right;
+}
+.jr3 .part3 ul .pic img{
+  display: block;
+  width: 100%;
+}
+.jr3 .part3 ul .str .p1{
+  font-size: 54px;
+  color: #e63f54;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+.jr3 .part3 ul .str .p1 span{
+  display: inline-block;
+  vertical-align: bottom;
+}
+.jr3 .part3 ul .str .p1 span:nth-child(2){
+  font-size: 30px;
+  color: #bfbfbf;
+  margin-left: 10px;
+}
+.jr3 .part3 ul .str .p2{
+  width: 560px;
+  font-size: 24px;
+  line-height: 36px;
+  color: #595757;
+  position: relative;
+}
+.jr3 .part3 ul .str .p2::before{
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: url(../img/jr/c2_icon1.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: -20px;
+  top: 12px;
+}
+.jr3 .part3 ul .str_top{
+  padding-bottom: 40px;
+  position: relative;
+}
+.jr3 .part3 ul .str_top::after{
+  content: "";
+  width: 660px;
+  height: 4px;
+  background: #d8d8d8;
+  position: absolute;
+  bottom: 0;
+}
+
+.jr3 .part3 ul .p3{
+  width: 560px;
+  color: #595757;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: justify;
+  margin-top: 26px;
+}
+
+.jr3 .part3 ul li:nth-child(2n+1) .str_top::after{
+  left: 0;
+}
+.jr3 .part3 ul li:nth-child(2n+2) .str_top::after{
+  width: 670px;
+  right: 0;
+}
+
+.jr3 .part3 ul li:nth-child(2n+2) .str{
+  float: right;
+  margin-left: 0;
+  margin-right: 44px;
+}
+.jr3 .part3 ul li:nth-child(2n+2) .pic{
+  float: left;
+}
+.jr4 .part1 .first_p{
+  text-align: center;
+  color: #595757;
+  font-size: 18px;
+  margin-top: 70px;
+}
+
+
+.jr4 .part1 .list {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 96px;
+  margin-top: 50px;
+  position: relative;
+  z-index: 0;
+}
+
+.jr4 .part1 .list::after {
+  content: "";
+  width: 622px;
+  height: 433px;
+  background: url(../img/jr/d_icon1.png) left top no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -311px;
+  z-index: -1;
+}
+
+.jr4 .part1 .list li {
+  position: relative;
+  padding-bottom: 78px;
+  border-bottom: 2px solid #dbdbdb;
+}
+.jr4 .part1 .list li img{
+  display: block;
+  width: 272px;
+  height: 203px;
+}
+.jr4 .part1 .list p {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  color: #595757;
+  font-weight: bold;
+  line-height: 28px;
+  padding: 20px 0;
+  left: 0;
+}
+
+.jr4 .part1 .list li:nth-child(2n) img {
+  margin-top: 96px;
+}
+
+.jr4 .part1 .list li:nth-child(2n+1) p {
+  top: 202px;
+}
+
+.jr4 .part1 .list li:nth-child(2n) p {
+  top: 0;
+}
+
+.jr4 .part1 .list p::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #000000;
+  position: absolute;
+  left: 50%;
+  margin-left: -4px;
+}
+
+.jr4 .part1 .list li:nth-child(2n) p::after {
+  top: 0;
+}
+
+.jr4 .part1 .list li:nth-child(2n+1) p::after {
+  bottom: 0;
+}
+.jr4 .part1 .list span{
+  width: 272px;
+  display: block;
+  margin-top: 10px;
+  padding-top: 162px;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 32px;
+  color: #595757;
+  position: relative;
+}
+.jr4 .part1 .list span::after{
+  content: "";
+  height: 60px;
+  width: 2px;
+  background: #dbdbdb;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -1px;
+}
+.jr4 .part1 .list li:nth-child(2n+1) span{
+  margin-top: 106px;
+  padding-top: 86px;
+}
+
+.jr4 .part1 .list li:nth-child(2n+2) span::after{
+  height: 120px;
+}
+
+
+
+
+
+@media (max-width:1680px) {
+  .jr .part1::after {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+
+  .jr .part1 .part_main::after {
+    left: -260px;
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+  .jr3 .part2::after {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+  .jr3 .part2 .part_main::before{
+    left: -260px;
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+  .jr3 .part3::after {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+  .jr3 .part3 .part_main::before{
+    left: -260px;
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+}
+
+@media (max-width:1440px) {
+  .jr .part1::after {
+    transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+
+  .jr .part1 .part_main::after {
+    left: -250px;
+    transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+  .jr3 .part2::after {
+    transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+  .jr3 .part2 .part_main::before{
+    left: -250px;
+    transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+
+  .jr3 .part3::after {
+    transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+  .jr3 .part3 .part_main::before{
+    left: -250px;
+    transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+
+}
+
+@media (max-width:1366px) {
+  .jr .part1::after {
+    transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    -o-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+
+  .jr .part1 .part_main::after {
+    left: -240px;
+    transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    -o-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+  .jr3 .part2::after {
+    transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    -o-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+  .jr3 .part2 .part_main::before{
+    left: -240px;
+    transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    -o-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+  .jr3 .part3::after {
+    transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    -o-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+  .jr3 .part3 .part_main::before{
+    left: -240px;
+    transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    -o-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -o-webkit-transform-origin: right top;
+    -moz-webkit-transform-origin: right top;
+    -ms-webkit-transform-origin: right top;
+  }
+}

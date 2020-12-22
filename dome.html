@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<style>
+			
+			.clearfix:after {
+				content: "";
+				display: block;
+				clear: both;
+			}
+			#mobile_ivt_div {
+				width: 100px;
+				height: 100px;
+				background-color: gold;
+			}
+
+			#mobile_ivt_div div {
+				width: 100px;
+				height: 100px;
+				background-color: gold;
+			}
+			form{
+				width: 400px;
+				height: 300px;
+				position: fixed;
+				top: 50%;
+				left: 50%;
+				margin-left: -200px;
+				margin-top: -150px;
+				background: #0064FF;
+			}
+			form button{
+				float: right;
+			}
+			form  input{
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="mobile_ivt_div">
+			<div>
+				<div contenteditable="false"></div>
+			</div>
+		</div>
+
+		<div class="box">
+			<form action="javascript:;" method="post" class="clearfix">
+				<button type="button">X</button>
+				<input type="submit" value=""/>
+			</form>
+		</div>
+
+	</body>
+	<script src="../ruolin_PC/20180314一禾棠/yihetang_PC/js/jquery-1.11.2.min.js"></script>
+	<script>
+		function stopBubble(e) {
+		    //如果提供了事件对象，则这是一个非IE浏览器
+		   if ( e && e.stopPropagation ) {
+			   //因此它支持W3C的stopPropagation()方法
+			   e.stopPropagation();
+		   }
+		      
+		  else{
+			  //否则，我们需要使用IE的方式来取消事件冒泡
+			    window.event.cancelBubble = true;
+		  }
+		}
+		$("#mobile_ivt_div div[contenteditable = 'false']").parent().css({
+			position: "fixed",
+			width: 200 + "px",
+			height: 200 + "px",
+			top: 0,
+			right: 0,
+			background: "red"
+		})
+		$("form").hide()
+		$("#mobile_ivt_div").click(function (){
+			$("form").show()
+			return false;
+		})
+		$("form button").click(function (){
+			$("form").hide()
+			return false;
+		})
+		$(".box").click(function (){
+			$("form").show()
+			return false;
+		})
+		$(document).click(function (){
+			$("form").hide()
+		})
+	</script>
+</html>

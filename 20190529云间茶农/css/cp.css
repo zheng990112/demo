@@ -1,0 +1,62 @@
+.top_big img{
+	width: 1920px;
+	height: 959px;
+	position:absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+}
+
+
+.cp .part1 .div1{padding-bottom: 24px;background: url(../img/cp/a3.jpg) no-repeat left bottom;background-size: 949px 11px;}
+.cp .part1 .div1 h3{font-size: 115px;color: #aa804f;font-family: myfont;font-weight: 400;line-height: 100px;}
+.cp .part1 .div1 span{display: block;font-size: 43px;color: #3e3a39;margin-top: 26px;margin-bottom: 60px;}
+.cp .part1 .img1{position: absolute;right: 100px;top: 54px;}
+.cp .part1 .img2{position: absolute;right: 0;top: 300px;}
+.cp .part1 .img3{position: absolute;left: 412px;top: 138px;}
+.cp .part1 .div1 p{font-size: 16px;color: #3e3a39;line-height: 36px;}
+.cp .part2{margin-top: 106px;}
+.cp .part2 .part2_top{border: 1px solid #d0d0d0;position: relative;z-index: 0;height: 474px;}
+.cp .part2 .part2_top .div1 {position: absolute;left: 70px;top: -38px;z-index: 1;padding: 0 16px;background: #fff;}
+.cp .part2 .part2_top .img1{position: absolute;left: 270px;top: -64px;z-index: 2;width: 238px;}
+.cp .part2 .part2_top .div1 h3{display: inline-block;font-size: 50px;color: #aa804f;font-weight: 400;font-family: myfont;}
+.cp .part2 .part2_top .div1  p{display: inline-block;font-size: 16px;color: #3e3a39;}
+.cp .part2 .part2_top .img2{position: absolute;left: -92px;top: 56px;z-index: 2;width: auto;padding: 20px 0;background: #fff;}
+.cp .part2 .part2_top .div2{position: absolute;left: 100px;top: 38px;}
+.cp .part2 .part2_top .div2 ul li{width: 239px;float: left;}
+.cp .part2 .part2_top .div2 ul li .div3{width: 239px;height: 313px;}
+.cp .part2 .part2_top .div2 ul li .div3 img{width: 100%;height: 100%;}
+.cp .part2 .part2_top .div2 ul li .div4{text-align: center;margin-top: 14px;width: 108%;margin-left: -4%;}
+.cp .part2 .part2_top .div2 ul li .div4 img{display: inline-block;}
+.cp .part2 .part2_top .div2 ul li .div4 h3{display: inline-block;font-size: 24px;color: #9f7e4e;font-family: myfont;font-weight: 400;padding: 0 0px;}
+.cp .part2 .part2_top .img3{position: absolute;right: -118px;bottom: -72px;z-index: 2;width: 317px;}
+/*切换图开始*/
+
+.part7-main1{ width: 100%; position: relative; margin-top: 0px;}
+.picScroll-left1 .bd{ width: 1212px; margin: 0px auto; overflow: hidden;}
+.picScroll-left1 .bd li{ float: left; position: relative; text-align: center; width: 239px; height: auto; margin: 0 14px; cursor: pointer;}
+.picScroll-left1 .bd li .box{ position: relative; width: 100%;}
+.picScroll-left1 .bd .div3 img{ display: block; width: 100%;}
+.picScroll-left1 .arrow{ position: absolute; top: 50%; width: 64px; height: 23px; cursor: pointer; margin-top: -30px;z-index: 99;}
+.picScroll-left1 .arrow img{ width: 100%; height: 100%; display: block;}
+.picScroll-left1 .arrow-left{ left: -64px;}
+.picScroll-left1 .arrow-right{ right: -114px;}
+.picScroll-left1 .hd{position: absolute;left: 31%;bottom: -50px;}
+
+/*切换图结束*/
+.part2_bottom{margin-top: 66px;}
+.cp .part2 .part2_bottom .img22{position: absolute;right: -92px;top: 56px;z-index: 2;width: auto;padding: 20px 0;background: #fff;}
+.cp .part2 .part2_bottom .div2{left: 48px;}
+.cp{padding-bottom: 124px;}
+
+
+@media (max-width: 1280px) {
+	.main{position: relative;left: -70px;}
+	.picScroll-left1 .bd li{margin: 0 7px;}
+	.picScroll-left1 .hd{left: 29%;}
+	.cp .part2 .part2_top .img3{right: -90px;}
+}

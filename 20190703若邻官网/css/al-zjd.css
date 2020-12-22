@@ -1,0 +1,107 @@
+.part-img{
+	display: block;
+	width: 100%;
+	margin-top: 35px;
+}
+
+.part1 .top-img{
+	display: block;
+	width: 100%;
+}
+.part1 .big_title{
+	font-size:37px;
+	font-weight: bold;
+	color:#515151;
+	line-height: 40px;
+	margin-top: 45px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #9c9b9c;
+	position:relative;
+	margin-bottom: 25px;
+}
+.part1 .big_title::after {
+  content: "";
+  display: inline-block;
+  width: 145px;
+  height: 162px;
+  background: url(../img/al/zjd/icon.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: -34px;
+  top: -25px;
+  z-index: -1;
+}
+.al-title{
+	font-size: 18px;
+	color:#c21a1f;
+	line-height: 1;
+	font-weight: bold;
+	margin-top: 55px;
+}
+.al-title span {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 10px;
+    margin-right: 5px;
+}
+
+.part1 .p1{
+	font-size: 16px;
+	color:#595757;
+	line-height: 28px;
+	margin-top: 10px;
+}
+.part1 .p1 span{
+  color: #ba1a1f;
+  font-weight: bold;
+}
+.part1 .p2{
+  font-size: 18px;
+  color: #231815;
+  font-weight: bold;
+  margin-top: 35px;
+}
+.part1 .last_p1{
+  position: relative;
+}
+
+.part1 ul li{
+	border-bottom: 1px solid #e5e5e6;
+	box-sizing: border-box;
+	padding:20px 0;
+  padding-left: 60px;
+  font-size: 16px;
+}
+.part1 ul li .li-p1{
+	color:#231815;
+	font-weight: bold;
+	position:relative;
+}
+.part1 ul li .li-p1::before{
+	content:"";
+	display:inline-block;
+	width: 6px;
+	height: 6px;
+	background-color: #b71c21;
+	position:absolute;
+	top: 50%;
+	margin-top: -3px;
+	left: -25px;
+}
+.part1 ul li .li-p2{
+	color: #595757;;
+	margin-top: 10px;
+}
+
+.part1 .last_p1::after {
+    content: "";
+    display: inline-block;
+    width: 144px;
+    height: 144px;
+    background: url(../img/al/zjd/icon2.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: -70px;
+    top: 20px;
+    z-index: -1;
+}

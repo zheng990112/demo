@@ -1,0 +1,208 @@
+.pp1 .part1 .public-title .p2{
+    margin-top: 40px;
+}
+.pp1 .part1 .public-title .p5 img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    margin-top: -6px;
+}
+.pp1 .part1 .partBox{
+    width: 1200px;
+    margin: auto;
+    padding-top: 45px;
+    padding-bottom: 125px;
+}
+.pp1 .part1 .str{
+    width: 572px;
+}
+.pp1 .part1 .str p{
+    text-align: justify;
+    font-size: 14px;
+    color: #595757;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.pp1 .part1 .str img{
+    display: block;
+    width: 564px;
+    height: 35px;
+    margin-top: 90px;
+}
+.pp1 .part1 img.fl-rt{
+    width: 580px;
+    height: 386px;
+}
+
+.pp2 .part1 .public-title .p2{
+    margin-top: 40px;
+}
+.pp2 .part1 .public-title .p5{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.pp2 .part1  .partBox{
+    width: 1200px;
+    margin: auto;
+    margin-top: 60px;
+    padding-bottom: 110px;
+    position: relative;
+}
+.pp2 .part1  .partBox .str{
+    width: 520px;
+    height: 470px;
+    position: relative;
+}
+.pp2 .part1  .partBox .str::after,
+.pp2 .part1  .partBox .str::before{
+    content: "";
+    width: 33px;
+    height: 50px;
+    background: url(../img/pp/b-iconR.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+   
+}
+.pp2 .part1  .partBox .str::before{
+    top: 0;
+    right: 20px;
+}
+.pp2 .part1  .partBox .str::after{
+    background: url(../img/pp/b-iconL.png) no-repeat;
+    background-size: 100% 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.pp2 img.fl-rt{
+    width: 660px;
+    height: 440px;
+}
+.pp2 .part1  .partBox .str p{
+    padding-left: 25px;
+    margin-bottom: 24px;
+}
+.pp2 .part1  .partBox .str span{
+    display: block;
+    color: #595757;
+    font-size: 14px;
+    line-height: 28px;
+}
+.pp3 .part1{
+    padding-bottom: 85px;
+}
+.pp3 .part1 .public-title .p2{
+    margin-top: 40px;
+}
+.pp3 .part1 .public-title .p5{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.pp3 .part1 ul {
+    width: 1200px;
+    margin: auto;
+    margin-top: 40px;
+}
+.pp3 .part1 ul li{
+    width: 199px;
+    border-right: 1px solid #e7e7e8;
+    height: 232px;
+    float: left;
+}
+.pp3 .part1 ul li:last-child{
+    border-right: none;
+}
+.pp3 .part1 ul div{
+    width: 100px;
+    height: 48px;
+    font-size: 21px;
+    line-height: 24px;
+    text-align: center;
+    margin: auto;
+    padding: 26px 0;
+    background: url(../img/pp/c-icon1.png) no-repeat;
+    background-size: 100% 100%;
+    color: #0050a4;
+    margin-bottom: 20px;
+}
+.pp3 .part1 ul li>p{
+    text-align: center;
+    color: #595757;
+    font-size: 18px;
+    line-height: 28px;
+}
+.pp3 .part1 .lastImg{
+    display: block;
+    width: 1200px;
+    margin: auto;
+    margin-top: 48px;
+}
+.pp4 .part1{
+    padding-bottom: 84px;
+}
+.pp4 .part1 .public-title .p2{
+    margin-top: 40px;
+}
+.pp4 .part1 .public-title .p5{
+    margin-top: 10px;
+    
+}
+.pp4 .part1 .public-title .p5 img{
+    vertical-align: middle;
+    margin-top: -6px;
+}
+.pp4 .part1 ul {
+    width: 1200px;
+    margin: auto;
+    padding-top: 36px;
+}
+.pp4 .part1 ul li{
+    float: left;
+    margin-right: 12px;
+    width: 289px;
+    border: 1px solid #a1cbe8;
+    border-radius: 20px;
+    margin-top: 12px;
+}
+.pp4 .part1 ul li:nth-child(4n+4){
+    margin-right: 0;
+}
+.pp4 .part1 ul div{
+    width: 270px;
+    height: 335px;
+    margin: 12px auto;
+    background: url(../img/pp/d1.jpg) no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: relative;
+}
+.pp4 .part1 ul div .p1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    color: #001782;
+    font-weight: bold;
+    background-image: -webkit-linear-gradient(left, #019fff, #001782);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.pp4 .part1 ul div .p2{
+    width: 250px;
+    margin: auto;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595757;
+    margin-top: 20px;
+}
+.pp4 .part1 ul div img{
+    display: block;
+    width: 260px;
+    height: 146px;
+    left: 50%;
+    margin-left: -130px;
+    bottom: 4px;
+    position: absolute;
+}

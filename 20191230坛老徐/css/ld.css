@@ -1,0 +1,353 @@
+.pp1-title{
+	margin-top: 0.5rem;
+	text-align: center;
+}
+.pp1-title .p0 {
+    font-size: 0.36rem;
+    color: #fff;
+    width: 2rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    background-color: #f9be2c;
+    margin: 0 auto;
+    margin-bottom: 0.15rem;
+}
+.pp1-title .p1{
+}
+.pp1-title .p1 img{
+	display: inline-block;
+	vertical-align: middle;
+	width: 0.5rem;
+}
+.pp1-title .p1 span{
+	font-size: 0.49rem;
+	line-height: 0.5rem;
+	color:#c9caca;
+	display: inline-block;
+	vertical-align: middle;
+	margin:0 0.15rem;
+}
+.pp1-title .p2{
+	font-size: 0.72rem;
+	color:#7d0021;
+	font-weight: bold;
+}
+.pp1-title .p2 span{
+	color:#f9be2c;
+}
+.pp1-title .p3{
+	font-size: 0.42rem;
+	color:#7d0021;
+}
+.ld1 .part1{
+	position:relative;
+}
+.ld1 .part1 .ld1-icon1{
+	display: block;
+	position:absolute;
+	width: 3.53rem;
+	right: -3.6rem;
+	top: 0.15rem;
+}
+.ld1 .part1 .ld1-icon2{
+	display: block;
+	position:absolute;
+	width:2.72rem;
+	left: -5.6rem;
+	top:4.1rem;
+}
+.ld1 .part1 .ld1-icon3{
+	display: block;
+	position:absolute;
+	width:3.19rem;
+	right: -3.6rem;
+	bottom:2.6rem;
+}
+.ld1 .part1-main .p1{
+	font-size: 0.14rem;
+	color:#222;
+	line-height: 0.28rem;
+	text-align: center;
+	margin-top: 0.3rem;
+	position:relative;
+}
+.ld1 .part1-main .p1 img{
+	display: block;
+	width: 1.29rem;
+	position:absolute;
+	left: 0;
+	top: 0;
+}
+.ld1 .part1-main .p1 span{
+	font-size: 0.18rem;
+	color:#f9be2c;
+}
+.ld1 .part1-main .p2{
+	font-size: 0.36rem;
+	color:#7d0021;
+	text-align: center;
+	margin-top: 0.3rem;
+}
+.ld1 .part1-main .part1-img{
+	display: block;
+	width: 100%;
+	margin-top: 0.3rem;
+}
+
+
+
+.ld2 .pp1-title .p1{
+	margin-bottom: 0.45rem;
+}
+.ld2 .pp1-title .p1 img{
+	position: relative;
+    top: -0.25rem;
+}
+.ld2 .pp1-title .p1 img:first-child{
+	right:-0.4rem;
+}
+.ld2 .pp1-title .p1 img:last-child{
+	left:-0.4rem;
+}
+.ld2 .pp1-title .p2{
+	display: inline-block;
+	font-size: 1.07rem;
+	width: 4.4rem;
+	line-height: 1.1rem;
+	border-bottom: 1px solid #7d0021;
+	padding-bottom: 0.35rem;
+	margin-right: 0.7rem;
+}
+.ld2 .pp1-title .p4{
+	display: inline-block;
+	width: 2.8rem;
+	text-align: left;
+}
+.ld2 .pp1-title .p4 .span1{
+	font-size: 0.28rem;
+	color:#7d0021;
+	line-height: 0.36rem;
+}
+.ld2 .pp1-title .p4 .span2{
+	font-size: 0.14rem;
+	color:#1d1d1d;
+	line-height: 0.22rem;
+	display: block;
+	margin:0.15rem 0;
+}
+.ld2 .pp1-title .p4 .span3{
+	font-size: 0.24rem;
+	color:#7d0021;
+	line-height: 0.28rem;
+}
+.ld2 .pp1-title .p4 img{
+	display: block;
+	width: 1.99rem;
+	margin-top: 0.15rem;
+}
+.ld2 .part1-img{
+	display: block;
+	width: 100%;
+	margin-top: 0.6rem;
+}
+.ld2 .part1{
+	position:relative;
+	
+}
+.ld2 .part1 .ld2-icon1{
+	display:block;
+	width: 3.2rem;
+	right: -3.6rem;
+	position:absolute;
+	top: 1rem;
+}
+.ld2 .part1 .ld2-icon2{
+	display:block;
+	width:1.97rem;
+	left: -5.6rem;
+	position:absolute;
+	top:3.2rem;
+}
+.ld2 .part1 .ld2-icon3{
+	display:block;
+	width:3.34rem;
+	right:-3.8rem;
+	position:absolute;
+	bottom:0.5rem;
+}
+
+
+
+
+
+
+
+
+
+.ld3 .part-title {
+    width: 100%;
+    height: 4.86rem;
+    background-image: url(../img/ld/ld3_title_bg.png);
+    background-size: 100% 100%;
+    margin-top: 0.54rem;
+    box-sizing: border-box;
+    padding-left: 4.76rem;
+    position: relative;
+}
+
+.ld3 .part-title .p1 {
+    font-size: 0.80rem;
+    line-height: 0.80rem;
+    color: #F8B300;
+    font-weight: bold;
+    padding-left: 0.54rem;
+    letter-spacing: -0.05rem;
+}
+
+.ld3 .part-title .p2 {
+    font-size: 1.21rem;
+    line-height: 1.21rem;
+    letter-spacing: -0.05rem;
+    color: #7C0021;
+    font-weight: bold;
+    margin-top: 0.16rem;
+}
+
+.ld3 .part-title .p3 {
+    font-size: 1.74rem;
+    line-height: 1.34rem;
+    letter-spacing: -0.05rem;
+    color: #7C0021;
+    margin-top: 0.28rem;
+}
+
+.ld3 .part-title .p4 {
+    font-size: 0.49rem;
+    line-height: 0.49rem;
+    color: #ffffff;
+    letter-spacing: -0.02rem;
+    margin-top: 0.24rem;
+}
+
+.ld3 .part-title .p4 span {
+    color: #F8B300;
+}
+
+.ld3 .part-title .title-icon {
+    width: 5.09rem;
+    position: absolute;
+    top: 0.12rem;
+    right: 0.14rem;
+}
+
+.ld3 .banner-box {
+    width: 100%;
+    position: relative;
+    margin-top: 0.09rem;
+}
+
+.ld3 .banner-box .top-banner {
+    width: 100%;
+    height: 4.18rem;
+    overflow: hidden;
+    position: relative;
+    font-size: 0;
+}
+
+.ld3 .banner-box .top-banner .swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.ld3 .banner-box .bottom-banner {
+    width: 100%;
+    height: 2.34rem;
+    overflow: hidden;
+    position: relative;
+    margin-top: 0.11rem;
+    font-size: 0;
+}
+
+.ld3 .banner-box .bottom-banner .swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.ld3 .banner-box .bottom-banner .swiper-slide::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ld3 .banner-box .bottom-banner .swiper-slide.swiper-slide-thumb-active::before {
+    background-color: transparent;
+}
+
+.ld3 .banner-box .swiper-button-prev,
+.ld3 .banner-box .swiper-button-next {
+    outline: none;
+    width: 0.33rem;
+    height: 0.61rem;
+    margin-top: 0;
+    background-size: 100% 100%;
+    top: 5.05rem;
+}
+
+.ld3 .banner-box .swiper-button-prev {
+    background-image: url(../img/cp/prev_icon.png);
+    left: -0.8rem;
+}
+
+.ld3 .banner-box .swiper-button-next {
+    background-image: url(../img/cp/next_icon.png);
+    right: -0.8rem;
+}
+
+.ld3 .tags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.54rem;
+}
+
+.ld3 .tags .tag {
+    width: 2.43rem;
+    height: 0.57rem;
+    background-image: url(../img/ld/ld3_tag_bg.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+    line-height: 0.57rem;
+    font-size: 0.24rem;
+    color: #7C0021;
+    font-weight: bold;
+    margin: 0 0.13rem;
+}
+
+.ld3 .left-icon-01 {
+    width: 2.66rem;
+    position: absolute;
+    left: 0;
+    top: 6.01rem;
+    z-index: 2;
+}
+
+.ld3 .right-icon-01 {
+    width: 2.67rem;
+    position: absolute;
+    right: 0;
+    top: 3.18rem;
+    z-index: 2;
+}
+
+.ld3 .right-icon-02 {
+    width: 3.20rem;
+    position: absolute;
+    right: 0;
+    top: 14.14rem;
+    z-index: 2;
+}

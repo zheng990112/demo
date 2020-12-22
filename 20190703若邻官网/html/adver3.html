@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title></title>
+		<meta http-equiv="X-UA-Compatitle" content="IE=edge">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no,email=no,adress=no" />
+		<link rel="stylesheet" href="../css/adver3.css" />
+		<script type="text/javascript">
+			document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + 'px';
+		</script>
+	</head>
+	<body>
+		<div class="header">
+			<img src="../img/adver3/a1.jpg" alt="" class="part-img"/>
+			<img src="../img/adver3/icon.png" alt="" class="header-icon"/>
+		</div>
+		<div class="form">
+			<img src="../img/adver3/a2.jpg" alt="" class="part-img"/>
+			<div class="box">
+				<div class="clearfix">
+					<p class="p1"><span>姓名:</span></p>
+					<input type="text" />
+					<p class="p2"><span>(必填)</span></p>
+				</div>
+				<div class="clearfix">
+					<p class="p1"><span>联系方式:</span></p>
+					<input type="text" />
+					<p class="p2"><span>(必填)</span></p>
+				</div>
+				<div class="clearfix">
+					<p class="p1"><span>咨询项目:</span></p>
+					<input type="text" />
+					<p class="p2"><span>(必填)</span></p>
+				</div>
+				<button class="btn">
+					<p><span>></span></p>
+					<p><span>立刻提交</span></p>
+					<p><</p>
+				</button>
+			</div>
+			
+		</div>
+		<img src="../img/adver3/a3.jpg" alt="" class="part-img"/>
+		<img src="../img/adver3/a4.jpg" alt="" class="part-img"/>
+		<img src="../img/adver3/a5.jpg" alt="" class="part-img"/>
+			
+			
+		<div class="box2">
+			<img src="../img/adver3/a6.jpg" alt="" class="part-img"/>
+			<img src="../img/adver3/a7.jpg" alt="" class="part-img"/>
+			<img src="../img/adver3/a8.jpg" alt="" class="part-img"/>
+			<div class="tab">
+				<div class="picScroll-left">
+					<div class="hd">
+						<a class="prev arrow arrow-left"><img src="../img/adver3/arrowL.png" alt="" /></a>
+						<a class="next arrow arrow-right"><img src="../img/adver3/arrowR.png" alt="" /></a>
+					</div>
+					<div class="bd">
+						<ul id="order_list">
+						    <li><img src="../img/adver3/a9.jpg" alt="" /></li>
+						    <li><img src="../img/adver3/a9.jpg" alt="" /></li>
+						    <li><img src="../img/adver3/a9.jpg" alt="" /></li>
+						</ul>					        
+				    </div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="foot">
+			<div class="foot-main clearfix">
+				<div class="foot-l fl-lt">
+					<img src="../img/adver3/foot1.png" alt="" class="foot1-img"/>
+					<img src="../img/adver3/backtop.png" alt="" class="backtop"/>
+				</div>
+				<div class="foot-r fl-rt">
+					<div class="tel"><a href=""><img src="../img/adver3/tel.png" alt="" /><span>电话直呼</span></a></div>
+					<div class="msg"><a href=""><img src="../img/adver3/msg.png" alt="" /><span>填写表单</span></a></div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<script src="../js/jquery-1.11.2.min.js"></script>
+		<script src="../js/jquery.SuperSlide.2.1.1.js"></script>
+		<script>
+			jQuery(".picScroll-left").slide({titCell:".hd ul",mainCell:".bd ul",autoPlay:true,autoPage:true,effect:"leftLoop",vis:1});
+		</script>
+		<script>
+			$('.backtop').click(function(){
+				var scrollTop = $(window).scrollTop();
+				$("html,body").animate({ scrollTop: 0 }, 600);
+			});
+		</script>
+	</body>
+</html>

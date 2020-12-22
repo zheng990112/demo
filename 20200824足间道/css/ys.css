@@ -1,0 +1,356 @@
+.box-title {
+  width: 12rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  text-align: center;
+  margin: auto;
+  color: #ffffff;
+  font-size: 0.48rem;
+  font-weight: bold;
+  background-color: #c11b2a;
+  margin-top: 0.3rem;
+}
+
+.main {
+  width: 12rem;
+  margin: auto;
+}
+
+.ys1 {
+  padding-bottom: 1.1rem;
+}
+
+.ys1 .pate1 .sub-title .p1 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 0.3rem;
+}
+
+.ys1 .pate1 .sub-title .p2 {
+  margin-top: 0.1rem;
+  font-size: 0.48rem;
+}
+
+.ys1 .pate1 .listPic {
+  width: 12rem;
+  margin: auto;
+  margin-top: 0.5rem;
+}
+
+.ys1 .pate1 .listPic li {
+  float: left;
+  width: 4rem;
+  text-align: center;
+}
+
+.ys1 .pate1 .listPic li div:first-child {
+  width: 3.99rem;
+  height: 100%;
+  border-right: 0.01rem solid #b4b4b4;
+}
+
+.ys1 .pate1 .listPic li:last-child div {
+  border: none;
+}
+
+.ys1 .pate1 .listPic li .p1 {
+  font-size: 0.42rem;
+  color: #c11b2a;
+  line-height: 0.48rem;
+  font-weight: bold;
+}
+
+.ys1 .pate1 .listPic li .p2 {
+  font-size: 0.24rem;
+  line-height: 0.36rem;
+  color: #595957;
+}
+
+.ys1 .pate1 .listPic li .img1 {
+  display: block;
+  margin: auto;
+  width: 0.26rem;
+  height: 0.26rem;
+  margin-top: 0.15rem;
+}
+
+.ys1 .pate1 .listPic li div:last-child {
+  width: 3.85rem;
+  height: 3.85rem;
+  margin: auto;
+  border: 0.01rem solid #c2212f;
+  border-radius: 50%;
+  margin-top: 0.2rem;
+}
+
+.ys1 .pate1 .listPic li .img2 {
+  display: block;
+  margin: auto;
+  width: 3.57rem;
+  height: 3.57rem;
+  border-radius: 50%;
+  margin-top: 0.14rem;
+}
+
+.ys2 .pate1 .listPic {
+  margin-top: 0.6rem;
+  padding-bottom: 0.7rem;
+}
+
+.ys2 .pate1 .listPic li {
+  width: 2.4rem;
+  float: left;
+  text-align: center;
+}
+
+.ys2 .pate1 .listPic div {
+  width: 2.39rem;
+  height: 0.74rem;
+  border-right: 0.01rem solid #9c9b9b;
+}
+
+.ys2 .pate1 .listPic li:last-child div {
+  border: none;
+}
+
+.ys2 .pate1 .listPic .p1 {
+  font-size: 0.24rem;
+  line-height: 0.3372rem;
+  color: #595757;
+}
+
+.ys2 .pate1 .listPic .p2 {
+  font-size: 0.32rem;
+  margin-top: 0.1rem;
+  font-weight: bold;
+  line-height: 1;
+  color: #c11b2a;
+}
+
+.ys2 .pate1 .listPic .img1 {
+  display: block;
+  width: 0.26rem;
+  height: 0.26rem;
+  margin: auto;
+  margin-top: 0.2rem;
+}
+
+.ys2 .pate1 .listPic .img2 {
+  display: block;
+  width: 1.9rem;
+  height: 1.9rem;
+  margin: auto;
+  margin-top: 0.2rem;
+  border-radius: 50%;
+  border: 0.15rem solid #e5e6e6;
+}
+
+.ys2 .pate1 .lastDiv {
+  width: 100%;
+  height: 2.3rem;
+  background-color: #c11b2a;
+  margin-bottom: 1.2rem;
+  position: relative;
+}
+
+.ys2 .pate1 .lastDiv .img1,
+.ys2 .pate1 .lastDiv .img2 {
+  position: absolute;
+  width: 0.7rem;
+  height: 1.46rem;
+  top: 0.42rem;
+}
+
+.ys2 .pate1 .lastDiv .img1 {
+  left: 3.65rem;
+}
+
+.ys2 .pate1 .lastDiv .img2 {
+  right: 3.65rem;
+}
+
+.ys2 .pate1 .lastDiv div {
+  display: inline-block;
+  width: 3.14rem;
+  margin: 0 0.3rem;
+}
+
+.ys2 .pate1 .lastDiv div:first-child {
+  margin-left: 0.69rem;
+}
+
+.ys2 .pate1 .lastDiv div img {
+  display: inline-block;
+  width: 1.48rem;
+  height: 1.48rem;
+  margin-top: 0.41rem;
+}
+
+.ys2 .pate1 .lastDiv p {
+  display: inline-block;
+  font-size: 0.384rem;
+  line-height: 0.4484rem;
+  color: #ffffff;
+  font-weight: bold;
+  vertical-align: top;
+  padding-top: 0.7rem;
+}
+
+.ys2 .pate1 .lastDiv div:last-child {
+  margin-right: 0.69rem;
+}
+
+.ys3 .pate1 .sub-title .p1 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.ys3 .pate1 .sub-title .p2 {
+  font-size: 0.48rem;
+}
+
+.ys3 .pate1>p {
+  font-size: 0.36rem;
+  color: #595757;
+  text-align: center;
+  margin-top: 0.3rem;
+}
+
+.ys3 .pate1>img {
+  display: block;
+  width: 12rem;
+  height: 5.4rem;
+  margin-top: 0.67rem;
+  margin-bottom: 1.8rem;
+}
+
+.ys4 .pate1 .text {
+  font-size: 0.18rem;
+  line-height: 0.32rem;
+  color: #595757;
+  text-align: center;
+  margin-top: 0.25rem;
+}
+
+.ys4 .pate1 .d1 {
+  width: 11.96rem;
+  height: 3.38rem;
+  display: block;
+  margin: auto;
+  margin-top: 0.4rem;
+}
+
+.ys4 .pate2 .sub-title .p1 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 0.6rem;
+}
+
+.ys4 .pate2 .sub-title .p2 {
+  font-size: 0.48rem;
+  margin-top: 0.1rem;
+}
+
+.ys4 .pate2 .listPic {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.ys4 .pate2 .listPic li {
+  width: 5.8rem;
+  float: left;
+}
+
+.ys4 .pate2 .listPic li:last-child {
+  float: right;
+}
+
+.ys4 .pate2 .listPic img {
+  width: 5.8rem;
+  height: 3.1rem;
+  display: block;
+}
+
+.ys4 .pate2 .listPic .span1 {
+  color: #c11b2a;
+  font-size: 0.48rem;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.ys4 .pate2 .listPic .span2 {
+  color: #595757;
+  font-size: 0.24rem;
+  display: inline-block;
+  margin-left: 0.2rem;
+}
+
+.ys4 .pate2 .listPic .p2 {
+  padding-top: 0.15rem;
+  padding-bottom: 0.45rem;
+  color: #595757;
+  font-size: 0.18rem;
+  line-height: 0.36rem;
+  text-align: justify;
+}
+
+.ys5 .pate1 .sub-title .p1 {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.ys5 .pate1 .sub-title .p2 {
+  font-size: 0.72rem;
+  font-weight: normal;
+}
+
+.ys5 .pate1 .listPic {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.ys5 .pate1 .listPic li {
+  width: 3.87rem;
+  float: left;
+  margin-left: 0.15rem;
+  border: 0.01rem solid #b6b6b7;
+  border-radius: 0.2rem;
+  height: 6rem;
+  text-align: center;
+}
+
+.ys5 .pate1 .listPic li:first-child {
+  margin-left: 0;
+}
+
+.ys5 .pate1 .listPic .p1 {
+  font-size: 0.5727rem;
+  line-height: 0.6545rem;
+  color: #c11b2a;
+  font-weight: bold;
+  padding-top: 0.25rem;
+}
+
+.ys5 .pate1 .listPic .p2 {
+  font-size: 0.3273rem;
+  line-height: 0.49rem;
+  padding-top: 0.2rem;
+  color: #595757;
+}
+
+.ys5 .pate1 .listPic .img1 {
+  display: block;
+  margin: auto;
+  width: 0.26rem;
+  height: 0.26rem;
+  margin-top: 0.2rem;
+}
+
+.ys5 .pate1 .listPic .img2 {
+  display: block;
+  margin: auto;
+  width: 3.61rem;
+  height: 2.94rem;
+  margin-top: 0.38rem;
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatitle" content="IE=edge">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+	<link rel="shortcut icon" type="image/x-icon" href="../img/logoIcon.png" media="screen">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/jr.css" />
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=6ALaE7y1e8N171T2CfPrHqZC3Ed000Cl"></script>
+</head>
+<body>
+	<div class="header">
+		<div class="y-row">
+			<div class="header-top">
+				<div class="top-left">
+					<img src="../img/logo.jpg" alt="" />
+				</div>
+				<div class="top-center">
+					<img src="../img/top1.jpg" alt="" />
+				</div>
+				<div class="top-right">
+					<div class="right-l">
+						<img src="../img/tel.jpg" alt="" />
+					</div>
+					<div class="right-r">
+						<p class="p1">财富热线</p>
+						<p class="p2">020-28802777</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header-nav">
+			<ul>                                                                                     
+				<li>
+					<a href="index.html">网站首页</a>
+				</li>
+				<li>
+					<a href="pp1.html">佩琦妈妈</a>
+				</li>
+				<li>
+					<a href="ys1.html">核心优势</a>
+				</li>
+				<li>
+					<a href="fw1.html">全能服务</a>
+				</li>
+				<li>
+					<a href="sc1.html">网络商城</a>
+				</li>
+				<li>
+					<a href="xy1.html">商学院</a>
+				</li>
+				<li>
+					<a href="hz1.html">合作共赢</a>
+				</li>
+				<li class="active">
+					<a href="jr1.html">加入我们</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="banner er-banner">
+		<ul class="banner-list">
+			<li><img src="../img/banner.jpg" alt="" /></li>
+			<li><img src="../img/banner.jpg" alt="" /></li>
+			<li><img src="../img/banner.jpg" alt="" /></li>
+			<li><img src="../img/banner.jpg" alt="" /></li>
+		</ul>
+	</div>
+	<div class="content">
+		<div class="content-top">
+			<img src="../img/er-top.png" alt="" />
+		</div>
+		<div class="jr-img">
+			<img src="../img/jr/a1.jpg" alt="" />
+		</div>
+		<div class="content-box y-row clearfix">
+			<div class="er-nav fl-lt">
+				<ul>
+					<li class="active">
+						<a href="jr1.html">联系方式</a>
+					</li>
+					<!--<li>
+						<a href="jr2.html">在线留言</a>
+					</li>-->
+				</ul>
+				<div class="main-l-erweima">
+					<img src="../img/erweima.jpg" alt="" />
+				</div>
+			</div>
+			<div class="main jr1 fl-rt">
+				<div class="jr1-top">
+					<div class="p1">
+						<p class="p1-fonts">To the top of wealth</p>
+						<p class="line"></p>
+						<div class="p1-img">
+							<img src="../img/jr/a2.png" alt="" />
+						</div>
+					</div>
+					<p class="p2">携手佩琦妈妈   <span>登顶财富之巅</span></p>
+				</div>
+				<div class="jr1-main">
+					<p class="p1">佩琦妈妈品牌管理总部<br />新未来教育科技发展（广东）有限公司</p>
+					<div class="map" id="map"></div>
+					<p class="p2">合作咨询热线：020-28802777</p>
+					<p class="p2">地址：广州市白云区嘉禾街道嘉禾望岗上胜创意园N栋二层</p>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+	
+	
+	
+	<!--返回顶部-->
+	<div class="backTop">
+		<span><</span>
+	</div>
+	<div class="footer">
+		<div class="y-row">
+			<div class="foot1">
+				<img src="../img/logo2.png" alt="" />
+			</div>
+			<div class="foot2">
+				佩琦妈妈品牌管理总部
+			</div>
+			<div class="foot3">
+				新未来教育科技发展（广东）有限公司
+			</div>
+			<div class="foot4">
+				<img src="../img/erweima.jpg" alt="" />
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
+	<script src="../js/common.js"></script>
+	<script type="text/javascript">
+			var map = new BMap.Map("map");    // 创建Map实例
+		    var point = new BMap.Point(113.2838670000,23.2321890000);
+		    map.centerAndZoom(point, 15);
+		    var marker = new BMap.Marker(point); // 创建标注
+		    map.addOverlay(marker); // 将标注添加到地图中
+		    marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+		    map.panTo(point);
+		    map.addControl(new BMap.NavigationControl()); // 添加默认缩放平移控件
+		    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放  
+			
+		</script>
+</body>
+</html>

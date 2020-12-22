@@ -1,0 +1,98 @@
+.part1{
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 55px;
+}
+.part1 .top img{
+  width: 489px;
+  height: 319px;
+  float: left;
+}
+.part1 .top .title{
+  height: 213px;
+  float: left;
+  margin-left: 15px;
+  padding-left: 30px;
+  border-left: 2px solid #a4a4a4;
+  color: #008e31;
+  margin-top: 53px;
+}
+.part1 .top .title .p1{
+  font-size: 52px;
+  font-weight: bold;
+  margin-top: -10px;
+}
+.part1 .top .title .p2{
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+.part1 .top .title .p3{
+  font-size: 40px;
+  padding-left: 70px;
+  line-height: 62px;
+  margin-left: -10px;
+  background: url(../img/lx//lx_02.jpg) left center no-repeat;
+  background-size: 62px 62px;
+}
+.part1 .top .title .p3 span{
+  font-size: 46px;
+}
+.part1 .map{
+  width: 1200px;
+  height: 395px;
+  margin-bottom: 20px;
+}
+.part1 .location p{
+  float: left;
+  padding: 10px 0;
+  color: #868686;
+  font-size: 18px;
+  background: url(../img/lx/lx_03.jpg) left center no-repeat;
+  padding-left: 30px;
+}
+.part1 .location p:nth-child(2){
+  float: right;
+}
+.part1 form{
+  position: relative;
+}
+.part1 form input{
+  width: 344px;
+  height: 58px;
+  padding-left: 20px;
+  border: 1px solid #505050;
+  margin-left: 51px;
+  float: left;
+  font-size: 21.25px;
+  margin-bottom: 20px;
+}
+.part1 form input:first-child{
+  margin-left: 0;
+}
+.part1 form textarea{
+  resize: none;
+  padding: 20px;
+  font-size: 21.25px;
+  width: 1158px;
+  height: 114px;
+  border: 1px solid #505050;
+  margin-bottom: 170px;
+}
+.part1 form input:last-child{
+  text-align: center;
+  width: 200px;
+  height: 58px;
+  line-height: 58px;
+  border: none;
+  background-color: #008e31;
+  color: #ffffff;
+  font-size: 34px;
+  border-radius: 35px;
+  font-weight: bold;
+  cursor:pointer;
+  position: absolute;
+  left: 50%;
+  bottom: 50px;
+  margin-left: -100px;
+}

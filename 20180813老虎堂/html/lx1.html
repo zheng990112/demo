@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="keywords" content=""/>
+		<meta name="description" content=""/>
+		<title></title>
+		<link rel="shortcut icon" type="image/x-icon" href="../img/logoIcon.png" media="screen">
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/lx.css" />
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=6ALaE7y1e8N171T2CfPrHqZC3Ed000Cl"></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="top">
+				<div class="y-row clearfix">
+					<div class="fl-lt">
+						<img src="../img/logo.png" alt="" />
+					</div>
+					<div class="fl-rt">
+						<ul class="clearfix">
+							<li><a href="index.html">网站首页</a></li>
+							<li><a href="pp1.html">品牌中心</a></li>
+							<li><a href="cp1.html">產品中心</a></li>
+							<li><a href="dp1.html">店鋪展示</a></li>
+							<li><a href="xw1.html">新聞動態</a></li>
+							<li><a href="hz1.html">合作中心</a></li>
+							<li><a href="lx1.html" class="active">聯系我們</a></li>
+						</ul>
+					</div>
+					<div class="top-tel">
+						<div class="tel-img">
+							<img src="../img/tel.png" alt="" />
+						</div>
+						<div class="tel-fonts">
+							<span class="span1">咨詢熱線：</span>
+							<span class="span2">400888888</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="banner">
+				<ul class="banner-list">
+					<li><img src="../img/banner2.jpg" alt="" /></li>
+					<li><img src="../img/banner2.jpg" alt="" /></li>
+					<li><img src="../img/banner2.jpg" alt="" /></li>
+					<li><img src="../img/banner2.jpg" alt="" /></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="content">
+			<div class="er-nav" id="er-nav">
+				<ul>
+					<li class="active"><a href="lx1.html">聯繫我們</a></li>
+					<li><a href="lx2.html">在線留言</a></li>
+				</ul>
+			</div>
+			<div class="main lx1">
+				<div class="y-row3">
+					<div class="part1">
+						<div class="er-title">
+							<p class="p1">與虎同行  傲視天下</p>
+							<p class="line"></p>
+							<p class="p2">食盟老虎堂全國合作人招募</p>
+						</div>
+						<ul>
+							<li>
+								<div class="li-img">
+									<img src="../img/lx/a1.png" alt="" />
+								</div>
+								<p class="p1"><span>公</span>司</p>
+								<p class="p2">四川食盟企業管理有限公司</p>
+							</li>
+							<li>
+								<div class="li-img">
+									<img src="../img/lx/a2.png" alt="" />
+								</div>
+								<p class="p1"><span>地</span>址</p>
+								<p class="p2">地址：成都市成華區成宏路18號鋼鐵領域B座19樓（整層）</p>
+							</li>
+							<li>
+								<div class="li-img">
+									<img src="../img/lx/a3.png" alt="" />
+								</div>
+								<p class="p1">財富熱線</p>
+								<p class="p2">400-863-5566</p>
+							</li>
+						</ul>
+						<div class="map" id="map"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--返回顶部-->
+		<div class="backTop">
+			<span><</span>
+		</div>
+		
+		
+		<div class="footer">
+			<div class="y-row">
+				<div class="footer-nav">
+					<ul class="clearfix">
+						<li><a href="index.html">网站首页</a></li>
+						<li><a href="pp1.html">品牌中心</a></li>
+						<li><a href="cp1.html">產品中心</a></li>
+						<li><a href="dp1.html">店鋪展示</a></li>
+						<li><a href="xw1.html">新聞動態</a></li>
+						<li><a href="hz1.html">合作中心</a></li>
+						<li><a href="lx1.html">聯系我們</a></li>
+					</ul>
+				</div>
+				<div class="footer-logo">
+					<img src="../img/logo.png" alt="" />
+				</div>
+				<div class="footer-fonts">
+					<p class="p1">
+						地址：四川省四川省四川省四川省四川省四川省   服务热线：400-888-8888 <br />
+						Copyright 2018 四川食盟企业管理有限公司  版权所有 京ICP备16064955号-1
+					</p>
+				</div>
+				<div class="erweima clearfix">
+					<p class="fl-lt p1">关注微信公众号</p>
+					<div class="fl-rt">
+						<img src="../img/erweima.jpg" alt="" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="../js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="../js/common.js"></script>
+		<script type="text/javascript">
+			var map = new BMap.Map("map");    // 创建Map实例
+		    var point = new BMap.Point(104.1851498482,30.6997126381);
+		    map.centerAndZoom(point, 15);
+		    var marker = new BMap.Marker(point); // 创建标注
+		    map.addOverlay(marker); // 将标注添加到地图中
+		    marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+		    map.panTo(point);
+		    map.addControl(new BMap.NavigationControl()); // 添加默认缩放平移控件
+		    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放  
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,322 @@
+.hz1 .hz_content .hz_title {
+	text-align: center;
+	margin-top: 48px;
+}
+
+.hz1 .hz_content .hz_title h3 {
+	font-size: 68px;
+	color: #7c172d;
+	font-weight: 400;
+	font-family: myfont;
+}
+
+.hz1 .hz_content .hz_title span {
+	display: block;
+	height: 40px;
+	position: relative;
+	width: 100%;
+	line-height: 0;
+	font-size: 19px;
+	color: #c39224;
+	margin-top: 18px;
+	font-family: myfont;
+}
+
+.hz1 .hz_content .hz_title span::before,
+.hz1 .hz_content .hz_title span::after {
+	content: "";
+	display: inline-block;
+	width: 30%;
+	height: 1px;
+	position: absolute;
+	top: 0.18rem;
+	z-index: -1;
+	background: #c39224;
+}
+
+.hz1 .hz_content .hz_title span::before {
+	left: 0rem;
+}
+
+.hz1 .hz_content .hz_title span::after {
+	right: 0rem;
+}
+
+.hz1 .hz_content .hz_list ul li {
+	width: 49%;
+	float: left;
+	margin-right: 2%;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.hz1 .hz_content .hz_list ul li:hover img {
+	transition: all 0.6s;
+	transform: scale(0.9);
+}
+
+.hz1 .hz_content .hz_list ul li:nth-child(2n) {
+	margin-right: 0;
+}
+
+.hz1 .hz_content .hz_list ul li img {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.hz1 .hz_content .hz_list ul li h3 {
+	font-size: 32px;
+	font-family: myfont;
+	color: #7c172d;
+}
+
+.hz1 .hz_content .hz_list ul li span {
+	font-size: 14px;
+	color: #7c172d;
+	font-family: myfont;
+	background: url(../img/hz/c7.png) no-repeat center bottom;
+	padding-bottom: 10px;
+	font-family: myfont;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.hz1 .hz_content .hz_list ul li p {
+	font-size: 16px;
+	color: #000000;
+	margin-top: 16px;
+}
+
+.hz2 .hz_content .hz_title {
+	text-align: center;
+	;
+	margin-top: 48px;
+}
+
+.hz2 .hz_content .hz_title h3 {
+	font-size: 68px;
+	font-family: myfont;
+	color: #7c172d;
+	font-weight: 400;
+}
+
+.hz2 .hz_content .hz_title div {
+	font-size: 34px;
+	color: #c39224;
+	background: url(../img/hz/a2.png) no-repeat;
+	background-size: 672px 100px;
+	height: 100px;
+	line-height: 40px;
+	width: 672px;
+	display: block;
+	margin: 0 auto;
+	font-family: myfont;
+	text-align: justify;
+	text-align: center;
+}
+
+.hz2 .hz_content .hz_title div p {
+	width: 640px;
+	display: block;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+.hz2 .hz_content .hz_list {
+	margin-top: 50px;
+}
+
+.hz2 .hz_content .hz_list ul li {
+	float: left;
+	width: 32%;
+	margin-right: 2%;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.hz2 .hz_content .hz_list ul li:nth-child(3n) {
+	margin-right: 0;
+}
+
+.hz2 .hz_content .hz_list ul li div {
+	width: 100%;
+	height: 192px;
+}
+
+.hz2 .hz_content .hz_list ul li img {
+	width: 100%;
+	height: 100%;
+}
+
+.hz2 .hz_content .hz_list ul li h3 {
+	font-size: 30px;
+	font-family: myfont;
+	color: #7c172d;
+	margin-top: 6px;
+	background-size: 70px 60px;
+	height: 60px;
+	line-height: 60px;
+}
+
+.hz2 .hz_content .hz_list ul li:nth-of-type(1) h3 {
+	background: url(../img/hz/b1.jpg) no-repeat center;
+}
+
+.hz2 .hz_content .hz_list ul li:nth-of-type(2) h3 {
+	background: url(../img/hz/b2.jpg) no-repeat center;
+}
+
+.hz2 .hz_content .hz_list ul li:nth-of-type(3) h3 {
+	background: url(../img/hz/b3.jpg) no-repeat center;
+}
+
+.hz2 .hz_content .hz_list ul li:nth-of-type(4) h3 {
+	background: url(../img/hz/b4.jpg) no-repeat center;
+}
+
+.hz2 .hz_content .hz_list ul li:nth-of-type(5) h3 {
+	background: url(../img/hz/b5.jpg) no-repeat center;
+}
+
+.hz2 .hz_content .hz_list ul li:nth-of-type(6) h3 {
+	background: url(../img/hz/b6.jpg) no-repeat center;
+}
+
+.hz2 .hz_content .hz_list ul li:nth-of-type(7) h3 {
+	background: url(../img/hz/b7.jpg) no-repeat center;
+}
+
+.hz2 .hz_content .hz_list ul li:nth-of-type(8) h3 {
+	background: url(../img/hz/b8.jpg) no-repeat center;
+}
+
+.hz2 .hz_content .hz_list ul li:nth-of-type(9) h3 {
+	background: url(../img/hz/b9.jpg) no-repeat center;
+}
+
+.hz2 .hz_content .hz_list ul li p {
+	font-size: 15px;
+	color: #000000;
+	line-height: 24px;
+	white-space: nowrap
+}
+
+.hz2 .hz_content .hz_bg1 {
+	text-align: center;
+	margin-top: 48px;
+}
+
+.hz2 .hz_content .hz_bg1 h3 {
+	font-size: 68px;
+	color: #7c172d;
+	font-weight: 400;
+	font-family: myfont;
+}
+
+.hz2 .hz_content .hz_bg1 span {
+	display: block;
+	height: 40px;
+	position: relative;
+	width: 100%;
+	line-height: 0;
+	font-size: 19px;
+	color: #d6b468;
+	margin-top: 18px;
+	font-family: myfont;
+}
+
+.hz2 .hz_content .hz_bg .hz_bg1 span::before,
+.hz2 .hz_content .hz_bg .hz_bg1 span::after {
+	content: "";
+	display: inline-block;
+	width: 30%;
+	height: 1px;
+	position: absolute;
+	top: 0.18rem;
+	z-index: -1;
+	background: #d6b468;
+}
+
+.hz2 .hz_content .hz_bg .hz_bg1 span::before {
+	left: 0rem;
+}
+
+.hz2 .hz_content .hz_bg .hz_bg1 span::after {
+	right: 0rem;
+}
+
+.hz2 .hz_content .hz_bg .hz_bg2 input {
+	width: 98%;
+	height: 40px;
+	line-height: 40px;
+	color: #ededed;
+	background: #4f4f4f;
+	margin-bottom: 6px;
+	padding-left: 2%;
+	font-size: 21px;
+}
+
+.hz2 .hz_content .hz_bg .hz_bg2 input::-webkit-input-placeholder {
+	color: #ededed;
+}
+
+.hz2 .hz_content .hz_bg .hz_bg2 input::-moz-placeholder {
+	color: #ededed;
+}
+
+.hz2 .hz_content .hz_bg .hz_bg2 input::-ms-input-placeholder {
+	color: #ededed;
+}
+
+.hz2 .hz_content .hz_bg .hz_bg2 textarea {
+	width: 98%;
+	padding-left: 2%;
+	font-size: 21px;
+	height: 272px;
+	background: #4f4f4f;
+	color: #ededed;
+	line-height: 40px;
+}
+
+.hz2 .hz_content .hz_bg .hz_bg2 textarea::-webkit-input-placeholder {
+	color: #ededed;
+}
+
+.hz2 .hz_content .hz_bg .hz_bg2 textarea::-moz-placeholder {
+	color: #ededed;
+}
+
+.hz2 .hz_content .hz_bg .hz_bg2 textarea::-ms-input-placeholder {
+	color: #ededed;
+}
+
+.hz2 .hz_content .hz_bg .hz_bg2 .button1 {
+	width: 174px;
+	text-align: center;
+	font-size: 21px;
+	color: #fdf4df;
+	height: 34px;
+	line-height: 34px;
+	border-radius: 6px;
+	background: #4f4f4f;
+	cursor: pointer;
+	margin-top: 6px;
+}
+
+.hz2 .hz_content .hz_bg .hz_bg2 .button2 {
+	width: 174px;
+	text-align: center;
+	font-size: 21px;
+	color: #fdf4df;
+	height: 34px;
+	line-height: 34px;
+	border-radius: 6px;
+	background: #7d172d;
+	cursor: pointer;
+	margin-top: 6px;
+}
+
+.hz2 .hz_content .hz_bg .hz_bg2 {
+	margin-bottom: 30px;
+}

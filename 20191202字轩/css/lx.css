@@ -1,0 +1,156 @@
+.content {
+    position: relative;
+}
+
+.content .content-icon {
+    position: absolute;
+    left: 0;
+    top: 6.82rem;
+    width: 1.92rem;
+    vertical-align: top;
+}
+
+.lx .public {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.public .p1 {
+    font-size: 0.89rem;
+    font-family: myfont;
+    margin-top: 0.51rem;
+    line-height: 1rem;
+    color: #B19662;
+    background-color: #f8f7f5;
+    position: relative;
+}
+
+.public .p1::before {
+    content: '';
+    display: block;
+    width: 8.92rem;
+    height: 1.12rem;
+    border: 0.02rem solid #B19662;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -0.56rem;
+    margin-left: -4.46rem;
+    z-index: -1;
+}
+
+.public .phone-info {
+    text-align: center;
+    margin-top: 0.71rem;
+}
+
+.public .phone-info .phone-target {
+    font-size: 0.41rem;
+    font-family: myfont;
+}
+
+.public .phone-info .phone-num {
+    font-size: 0.24rem;
+    line-height: 0.42rem;
+    /* font-family: myfont; */
+    margin-top: 0.39rem;
+}
+
+.public .map {
+    width: 10.58rem;
+    height: 5.38rem;
+    border: 0.02rem solid #B19662;
+    background-color: #E5E5E5;
+    margin-top: 0.27rem;
+}
+
+.public .img-bg {
+    width: 100%;
+    position: relative;
+}
+
+.public .img-bg img {
+    vertical-align: top;
+    width: 19.20rem;
+    position: absolute;
+    left: -4.8rem;
+    top: -2.5rem;
+    z-index: -1;
+}
+
+.public .form-box {
+    width: 12rem;
+    text-align: center;
+    margin-top: 7.9rem;
+}
+
+.form-box .form-title {
+    text-align: center;
+    font-size: 0.24rem;
+    line-height: 0.42rem;
+}
+
+.form-box .form-group {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 0.43rem;
+}
+
+.form-group .input-group {
+    height: 0.85rem;
+    border-radius: 0.1rem;
+}
+
+.form-group .input-group input {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.1rem;
+    background-color: #DFDFDF;
+    text-indent: 0.40rem;
+    font-size: 0.30rem;
+}
+
+.form-group .input-group.name {
+    width: 5.42rem;
+}
+
+.form-group .input-group.tel {
+    width: 6.35rem;
+}
+
+.form-group .input-group.addr {
+    width: 100%;
+    margin-top: 0.24rem;
+}
+
+.form-group .textarea-group {
+    width: 100%;
+    height: 3.10rem;
+    border-radius: 0.1rem;
+    margin-top: 0.24rem;
+}
+
+.form-group .textarea-group textarea {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.1rem;
+    background-color: #DFDFDF;
+    resize: none;
+    font-size: 0.30rem;
+    text-indent: 0.40rem;
+    padding-top: 0.40rem;
+}
+
+.form-box button {
+    width: 1.57rem;
+    height: 0.54rem;
+    background-color: #B19662;
+    color: #ffffff;
+    font-size: 0.30rem;
+    border-radius: 0.1rem;
+    margin-top: 0.23rem;
+}

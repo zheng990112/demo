@@ -1,0 +1,12 @@
+/* .line::before {
+    animation: lineWidth 2s linear 1;
+}
+
+@keyframes lineWidth {
+    from {
+        width: 0
+    }
+    to {
+        width: 50%
+    }
+} */

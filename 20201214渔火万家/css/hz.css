@@ -1,0 +1,626 @@
+.section .page_main {
+  width: 11.3rem;
+  margin-left: 4.3rem;
+  height: 6rem;
+  position: relative;
+  z-index: 0;
+  padding-top: 0.15rem;
+  /* margin-top: 1.85rem; */
+}
+
+.section {
+  background: url("../img/bg01.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+
+/* hz1.css */
+
+.hz1 .section .page_main {
+  width: 13rem;
+  margin-left: 3.3rem;
+  height: 6.5rem;
+  position: relative;
+  z-index: 0;
+  padding-top: 0rem;
+  /* margin-top: 1.85rem; */
+}
+
+.hz1 .page0 .left_content {
+  float: left;
+  width: 5.68rem;
+}
+
+.hz1 .page0 .right_content {
+  float: right;
+  width: 6.7rem;
+}
+
+.hz1 .sub_title {
+  text-align: center;
+  margin-bottom: 0.6rem;
+}
+
+.hz1 .sub_title .p1 {
+  font-family: "myfont_Magpie";
+  margin: 0 auto 0.1rem;
+  border-radius: 0.65rem;
+  width: 3.27rem;
+  height: 0.65rem;
+  background: url("../img/hz/fontbg01.png") no-repeat;
+  background-size: 100% 100%;
+  color: #ffffff;
+  font-size: 0.37rem;
+  line-height: 0.65rem;
+  position: relative;
+}
+
+.hz1 .sub_title .p1::after {
+  content: "";
+  display: inline-block;
+  width: 1.13rem;
+  height: 0.56rem;
+  background: url("../img/hz/fontbg02.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: -0.9rem;
+  top: 0.05rem;
+  z-index: -1;
+}
+
+.hz1 .top_xy {
+  position: absolute;
+  width: 0.7rem;
+  top: -0.31rem;
+  right: 0.15rem;
+}
+
+.hz1 .sub_title .p2 {
+  color: #c30d23;
+  font-family: "myfont_Magpie";
+  font-size: 0.5rem;
+}
+
+.hz1 .page0 .left_img {
+  width: 5.68rem;
+  position: absolute;
+  bottom: -1.28rem;
+  z-index: -1;
+}
+
+.hz1 .page0 .right_content img {
+  width: 6.7rem;
+}
+
+.hz1 .page0 .right_content .text_pos {
+  position: relative;
+}
+
+.hz1 .page0 .right_content .text_abo {
+  position: absolute;
+  right: 0.27rem;
+  top: 0.8rem;
+}
+
+.hz1 .page0 .right_content .text_abo .p3 {
+  color: #c30d23;
+  font-family: "myfont_Magpie";
+  font-size: 0.28rem;
+  margin-bottom: 0.1rem;
+}
+
+.hz1 .page0 .right_content .text_abo .p4 {
+  color: #595753;
+  font-size: 0.18rem;
+}
+
+.hz1 .page0 .sc_img>img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.hz1 .page0 .dw {
+  display: block;
+  width: 100%;
+  height: 1.2rem;
+  z-index: 0;
+}
+
+.hz1 .page1 .page_main {
+  width: 12.2rem;
+  margin-left: 4.5rem;
+  height: 6.5rem;
+  position: relative;
+  z-index: 0;
+  padding-top: 0rem;
+}
+
+.hz1 .page1 .left_content {
+  float: left;
+  width: 4rem;
+}
+
+.hz1 .page1 .right_content {
+  float: right;
+  width: 6.8rem;
+}
+
+.hz1 .page1 .page1_ltimg {
+  width: 4rem;
+}
+
+.hz1 .page1 .sub_title .p1 {
+  margin: 0 0 0.1rem;
+}
+
+.hz1 .page1 ul {
+  margin: -0.1rem 0 0.5rem;
+}
+
+.hz1 .page1 ul>li {
+  color: #595757;
+  font-size: 0.18rem;
+  line-height: 0.44rem;
+}
+
+.hz1 .page1 ul li::before {
+  content: "";
+  display: inline-block;
+  width: 0.07rem;
+  height: 0.07rem;
+  background: #c30d23;
+  vertical-align: middle;
+  margin: auto 0.1rem;
+}
+
+.hz1.page1 .right_content>img {
+  width: 6.8rem;
+}
+
+.hz1.page1 .hz1_footer {
+  z-index: -1;
+  position: absolute;
+  width: 13rem;
+  bottom: -1rem;
+  left: -1rem;
+}
+
+
+/* hz1.css结束 */
+
+
+/* hz2.css */
+
+.hz2 .section .page_main {
+  width: 13rem;
+  margin-left: 4.1rem;
+  height: 6rem;
+  position: relative;
+  z-index: 0;
+}
+
+.hz2 .sub_title {
+  text-align: center;
+  margin-bottom: 0.3rem;
+}
+
+.hz2 .sub_title .p1 {
+  font-family: "myfont_Magpie";
+  margin: 0 auto 0.1rem;
+  border-radius: 0.65rem;
+  width: 3.27rem;
+  height: 0.65rem;
+  background: url("../img/hz/fontbg01.png") no-repeat;
+  background-size: 100% 100%;
+  color: #ffffff;
+  font-size: 0.37rem;
+  line-height: 0.65rem;
+  position: relative;
+}
+
+.hz2 .sub_title .p1::after {
+  content: "";
+  display: inline-block;
+  width: 1.13rem;
+  height: 0.56rem;
+  background: url("../img/hz/fontbg02.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: -0.9rem;
+  top: 0.05rem;
+  z-index: -1;
+}
+
+.hz2 .p3 {
+  font-size: 0.21rem;
+  color: #595753;
+  display: inline-block;
+  padding: 0.2rem 0.25rem;
+}
+
+.hz2 .p3::before {
+  content: "";
+  display: inline-block;
+  width: 0.44rem;
+  height: 0.44rem;
+  background: url("../img/hz/tb01.png") no-repeat;
+  background-size: 100% 100%;
+  vertical-align: bottom;
+}
+
+.hz2 .hz2_flex {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.hz2 .hz2_flex .flex_item {
+  width: 3.8rem;
+}
+
+.hz2 .hz2_flex .flex_item .p4 {
+  margin: 0.2rem 0.1rem;
+  width: 1.72rem;
+  height: 0.68rem;
+  display: inline-block;
+  background: url("../img/hz/fontbg03.png") no-repeat;
+  background-size: 100% 100%;
+  line-height: 0.58rem;
+  color: white;
+  font-family: "myfont_Magpie";
+  font-size: 0.44rem;
+  letter-spacing: 0.04rem;
+  position: relative;
+}
+
+.hz2 .hz2_flex .flex_item .p4::before {
+  content: "";
+  width: 0.8rem;
+  height: 0.01rem;
+  display: inline-block;
+  background: #3e3a39;
+  position: absolute;
+  left: -1rem;
+  top: 0.3rem;
+}
+
+.hz2 .hz2_flex .flex_item .p4::after {
+  content: "";
+  width: 0.8rem;
+  height: 0.01rem;
+  display: inline-block;
+  background: #3e3a39;
+  position: absolute;
+  right: -1rem;
+  top: 0.3rem;
+}
+
+.hz2 .hz2_flex .flex_item .p5 {
+  font-size: 0.24rem;
+  position: relative;
+}
+
+.hz2 .hz2_flex .flex_item .p6 {
+  color: #bd8e61;
+  font-size: 0.24rem;
+  line-height: 0.44rem;
+  display: inline-block;
+  width: 3.2rem;
+  height: 0.44rem;
+  background: url("../img/hz/fontbg04.png") no-repeat;
+  background-size: 100% 100%;
+  margin: 0.1rem 0;
+}
+
+.hz2 .hz2_flex .flex_item>img {
+  width: 3.8rem;
+}
+
+.hz2 .bot_mon {
+  position: absolute;
+  width: 3rem;
+  bottom: -1.4rem;
+  right: -0.2rem;
+}
+
+.hz2 .top_mon {
+  position: absolute;
+  width: 1rem;
+  top: 0.8rem;
+  left: -1.2rem;
+}
+
+
+/* hz2.css结束 */
+
+
+/* hz3.css */
+
+.hz3.section .page_main {
+  width: 13rem;
+  margin-left: 4.1rem;
+  height: 6rem;
+  position: relative;
+  z-index: 0;
+  /* padding-top: 0.15rem; */
+  /* margin-top: 1.85rem; */
+}
+
+.hz3 .sub_title {
+  text-align: center;
+  margin-bottom: 0.6rem;
+}
+
+.hz3 .sub_title .p1 {
+  font-family: "myfont_Magpie";
+  margin: 0 auto 0.1rem;
+  border-radius: 0.65rem;
+  width: 3.27rem;
+  height: 0.65rem;
+  background: url("../img/hz/fontbg01.png") no-repeat;
+  background-size: 100% 100%;
+  color: #ffffff;
+  font-size: 0.37rem;
+  line-height: 0.65rem;
+  position: relative;
+}
+
+.hz3 .sub_title .p1::after {
+  content: "";
+  display: inline-block;
+  width: 1.13rem;
+  height: 0.56rem;
+  background: url("../img/hz/fontbg02.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: -0.9rem;
+  top: 0.05rem;
+  z-index: -1;
+}
+
+.hz3 .sub_title .p2 {
+  width: 2.2rem;
+  color: #595753;
+  font-size: 0.21rem;
+  margin: 0.2rem auto;
+  position: relative;
+}
+
+.hz3 .sub_title .p2::after {
+  content: "";
+  display: inline-block;
+  width: 1.4rem;
+  height: 0.02rem;
+  background: url("../img/hz/xt.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: -1.6rem;
+  top: 0.13rem;
+}
+
+.hz3 .sub_title .p2::before {
+  content: "";
+  display: inline-block;
+  width: 1.4rem;
+  height: 0.02rem;
+  background: url("../img/hz/xt.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: -1.6rem;
+  top: 0.13rem;
+}
+
+.hz3 .hz_flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.hz3 .hz_flex .flex_item {
+  width: 4rem;
+  margin-bottom: 0.3rem;
+}
+
+.hz3 .hz_flex .flex_item>img {
+  width: 1.8rem;
+}
+
+.hz3 .hz_flex .flex_item>div {
+  float: right;
+  width: 2.1rem;
+}
+
+.hz3 .hz_flex .flex_item .hz_title {
+  color: #c30d23;
+  padding: 0.15rem 0;
+  font-size: 0.28rem;
+  line-height: 0.5rem;
+  border-bottom: 0.02rem solid #c30d23;
+  font-family: "myfont_Magpie";
+}
+
+.hz3 .hz_flex .flex_item .hz_content {
+  padding: 0.15rem 0.18rem 0 0;
+  font-size: 0.16rem;
+  text-align: justify;
+}
+
+.hz3 .top_xy {
+  position: absolute;
+  width: 0.7rem;
+  top: -0.31rem;
+  right: 0.15rem;
+}
+
+.hz3 .bot_mon {
+  position: absolute;
+  width: 3rem;
+  bottom: -1.4rem;
+  right: -0.2rem;
+}
+
+.hz3 .cent_sc {
+  position: absolute;
+  width: 13.7rem;
+  top: 0.4rem;
+  left: -0.2rem;
+}
+
+
+/* hz3.css结束 */
+
+
+/* hz4.css */
+
+.hz4 .hz_left {
+  /* width: 3.36rem; */
+  float: left;
+  text-align: center;
+}
+
+.hz4 .hz_left>img {
+  width: 3.36rem;
+}
+
+.hz4 .hz_left>p {
+  font-family: "myfont_Magpie";
+  /* width: 3rem; */
+  margin: 0.1rem auto;
+  color: #c30d23;
+  font-size: 0.5rem;
+  line-height: 0.8rem;
+  /* padding: 0.1rem 0; */
+  border-top: 0.01rem solid #c30d23;
+  border-bottom: 0.01rem solid #d88187;
+}
+
+.hz4 .hz_right {
+  float: right;
+  width: 6.8rem;
+}
+
+.hz4 .hz_right>img {
+  width: 6.8rem;
+  margin-bottom: 0.2rem;
+}
+
+.hz4 .bg_dc {
+  position: absolute;
+  width: 5.9rem;
+  z-index: -1;
+  top: 0.4rem;
+  left: -1.2rem;
+}
+
+.hz4 .xy {
+  position: absolute;
+  width: 0.7rem;
+  top: -0.8rem;
+  right: -1.2rem;
+}
+
+.hz4 .mon {
+  position: absolute;
+  width: 3.5rem;
+  bottom: -1.8rem;
+  left: 0rem;
+}
+
+#hz1_3 .page_main {
+  width: 11rem;
+  height: 8rem;
+  margin-left: 4.4rem;
+  width: 11.4rem;
+}
+
+#hz1_3 .subTitle .p2 {
+  width: 4.24rem;
+  margin: auto;
+  background: url(../img/hz/subTitle.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+#hz1_3 .subTitle .p2 span {
+  margin-left: 0.4rem;
+  margin-top: 0.4rem;
+}
+
+#hz1_3 ul {
+  display: flex;
+  justify-content: space-between;
+  width: 11rem;
+  margin-top: 0.4rem;
+  font-size: 0;
+}
+
+#hz1_3 ul li {
+  width: 3.1rem;
+  height: 6.4rem;
+  border: 1px solid #cdb294;
+}
+
+#hz1_3 ul li .listTitle,
+#hz1_3 ul li .listBox {
+  display: inline-block;
+  vertical-align: top;
+}
+#hz1_3 ul li .listTitle{
+  margin-top: 1.5rem;
+  margin-left: -0.32rem;
+  width: 0.64rem;
+  height: 3.26rem;
+  background: url(../img/hz/list_title.png) no-repeat;
+  background-size: 100% 100%;
+  font-size: 0.44rem;
+  color: #c30d23;
+  text-align: center;
+  font-family: "myfont_Magpie";
+}
+#hz1_3 ul li .listTitle span:first-child{
+  width: 0.5rem;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 0.2rem;
+  margin-bottom: 0.1rem;
+}
+#hz1_3 ul li .listTitle span:first-child::after{
+  content: ".";
+  font-size: 0.8rem;
+  position: absolute;
+  bottom: -0.1rem;
+  left: 50%;
+  margin-left: -0.05rem;
+}
+#hz1_3 ul li .listTitle span:last-child{
+  display: inline-block;
+  width: 0.3rem;
+  font-size: 0.26rem;
+}
+#hz1_3 ul li .listBox{
+  width: 2.74rem;
+  text-align: center;
+}
+#hz1_3 ul li .listBox img{
+  display: block;
+  margin: auto;
+  width: 2.16rem;
+  height: 1.5rem;
+  margin-top: 0.3rem;
+}
+#hz1_3 ul li .listBox .p1{
+  font-size: 0.26rem;
+  margin: auto;
+  width: 2.16rem;
+  color: #b6804e;
+  padding: 0.1rem 0;
+  border-bottom: 1px solid #a09e9a;
+  font-family: "myfont_Magpie";
+}
+#hz1_3 ul li .listBox .p2{
+  font-size: 0.18rem;
+  color: #000000;
+  line-height: 0.28rem;
+  padding: 0.1rem 0;
+}

@@ -1,0 +1,53 @@
+.main {
+    box-sizing: border-box;
+    padding-left: 5.74rem;
+    padding-top: 1.13rem;
+    padding-bottom: 0.72rem;
+    position: relative;
+}
+
+.main .main-hz04 {
+    width: 10rem;
+}
+
+.main .main-hz03 {
+    width: 100%;
+}
+
+.hz2 {
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.main .main-hz02-1 {
+    width: 10rem;
+    vertical-align: top;
+    padding-left: 5.74rem;
+}
+
+.main .main-hz02-2 {
+    /* margin-left: -5.74rem; */
+    width: 100%;
+    vertical-align: top;
+    margin-top: 1.15rem;
+}
+
+.hz1 {
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.main .main-hz01-1,
+.main .main-hz01-2,
+.main .main-hz01-3 {
+    width: 100%;
+    margin-top: 0;
+    vertical-align: top;
+}
+
+.hz1 .hz01-icon {
+    position: absolute;
+    left: 0;
+    top: 21.78rem;
+    width: 5.67rem;
+}

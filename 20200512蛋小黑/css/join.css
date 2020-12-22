@@ -1,0 +1,248 @@
+
+
+.bg_img{
+	height: 100%;
+}
+
+.join1 .part{
+	position:relative;
+	box-sizing:border-box;
+}
+
+.join1 .part .box-title{
+	width: 8.4rem;
+	margin:0 auto;
+	position:relative;
+	height: 2.1rem;
+}
+.join1 .part .box-title::before,
+.join1 .part .box-title::after{
+	content:"";
+	display:inline-block;
+	width: 1.35rem;
+	height: 1.5rem;
+	position:absolute;
+	top: 0.6rem;
+	border-top:1px solid #87756a;
+}
+.join1 .part .box-title::before{
+	left: 0;
+	border-left:1px solid #87756a;
+}
+.join1 .part .box-title::after{
+	right:0;
+	border-right:1px solid #87756a;
+}
+.join1 .part .box-title .top-img{
+	display: block;
+	height: 0.96rem;
+	margin:0 auto;
+}
+.join1 .part .box-title p{
+	width: 100%;
+	position:absolute;
+	bottom:-0.19rem;
+	font-size: 0.38rem;
+	/*line-height: 1;*/
+	text-align:center;
+	
+}
+.join1 .part .box-title .line::before,
+.join1 .part .box-title .line::after{
+	content:"";
+	display: inline-block;
+	width: 0.55rem;
+	height: 1px;
+	background-color: #87756a;
+	position:absolute;
+	bottom: 0;
+}
+.join1 .part .box-title .line::before{
+	left: 0;
+}
+.join1 .part .box-title .line::after{
+	right: 0;
+}
+
+
+.join1 .part1{
+	height: 7.47rem;
+	padding-top: 1.3rem;
+}
+.join1 .part1 .box-title{
+	height: 1.5rem;
+}
+.join1 .part1 .box-title::before,
+.join1 .part1 .box-title::after{
+	height:0.9rem;
+}
+.join1 .part1 .box ul{
+	text-align: center;
+}
+.join1 .part1 .box ul li{
+	display: inline-block;
+	width: 2.95rem;
+	height: 2.95rem;
+	margin:0 0.15rem;
+	margin-top: 0.6rem;
+}
+.join1 .part1 .box ul li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+
+.join1 .part2{
+	height:8.24rem;
+	padding-top: 0.25rem;
+}
+.join1 .part2 .box-title .line::before, 
+.join1 .part2 .box-title .line::after{
+	width: 2.15rem;
+}
+.join1 .part2 .part-img{
+	display:block;
+	width: 9.28rem;
+	margin:0 auto;
+	margin-top: 0.5rem;
+}
+
+
+.join1 .part3{
+	height:8.14rem;
+	padding-top: 0.25rem;
+}
+.join1 .part3 .box-title .line::before, 
+.join1 .part3 .box-title .line::after{
+	width: 2.75rem;
+}
+.join1 .part3 .part-img{
+	display:block;
+	width: 9.28rem;
+	margin:0 auto;
+	margin-top: 0.5rem;
+}
+
+.join1 .part4{
+	height:8.77rem;
+	padding-top: 0.15rem;
+}
+.join1 .part4 .part-img{
+	display:block;
+	width: 9.28rem;
+	margin:0 auto;
+	margin-top: 0.5rem;
+}
+
+
+
+.join2 .part{
+	position:relative;
+	box-sizing:border-box;
+}
+.join2 .part1{
+	height: 8.78rem;
+	padding-top: 0.75rem;
+}
+.join2 .part1 .top_img1{
+	display: block;
+	width: 7.28rem;
+}
+.join2 .part1 .top_img2{
+	display: block;
+	width:8.35rem;
+	margin-top: 0.2rem;
+}
+.join2 .part1 .box{
+	width: 10rem;
+	margin-left: 4.8rem;
+}
+.join2 .part1 .box ul li{
+	float:left;
+	width: 2.92rem;
+	height: 2.66rem;
+	position:relative;
+	padding-top: 0.55rem;
+	box-sizing: border-box;
+	margin-right:0.62rem;
+	margin-top: 0.5rem;
+}
+.join2 .part1 .box ul li:nth-child(3n){
+	margin-right: 0;
+}
+.join2 .part1 .box ul li .li-bg{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.join2 .part1 .box ul li .li-img{
+	width: 2.47rem;
+    height: 1.32rem;
+    display: block;
+    margin: 0 auto;
+}
+.join2 .part1 .box ul li p{
+	text-align: center;
+    line-height: 0.2rem;
+    color: #fff;
+    margin-top: 0.1rem;
+    padding: 0 0.1rem;
+    box-sizing: border-box;
+}
+.join2 .part1 .box ul li p span{
+	display: block;
+	font-size: .15rem;
+}
+
+
+.join2 .part2{
+	height:6.66rem;
+	padding-top: 0.75rem;
+}
+.join2 .part2 .box{
+	width: 10rem;
+	margin-left: 4.8rem;
+}
+.join2 .part2 .top_img{
+	display: block;
+	width: 7rem;
+}
+.join2 .part2 ul li{
+	float:left;
+	width: 2.25rem;
+	margin-right: 0.33rem;
+	margin-top: 0.8rem;
+}
+.join2 .part2 ul li:last-child{
+	margin-right: 0;
+}
+.join2 .part2 ul li .li-img{
+	display: block;
+	width:2.16rem;
+	height:2.16rem;
+	margin:0 auto;
+}
+.join2 .part2 ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.join2 .part2 ul li .li-p{
+	font-size: 0.17rem;
+	line-height: 0.29rem;
+	text-align: center;
+	color:#fff;
+}
+
+
+.join3 .part1{
+	height: 7.67rem;
+	position:relative;
+}

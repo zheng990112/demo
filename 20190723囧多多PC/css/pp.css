@@ -1,0 +1,473 @@
+.pp1 .cost .cost-title {
+    margin-top: 20px;
+}
+
+.pp1 .cost .cost-title p {
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: bold;
+}
+
+.pp1 .cost .cost-title .line {
+    width: 52px;
+    height: 2px;
+    background-color: #97918f;
+    margin-top: 20px;
+}
+
+.pp1 .cost .cost-info {
+    position: relative;
+    margin-top: 32px;
+}
+
+.pp1 .cost .cost-info .bg-img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+}
+
+.pp1 .cost .cost-info .info-content {
+    padding-top: 152px;
+    width: 100%;
+}
+
+.pp1 .info-content .tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.pp1 .info-content .tags .tag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 330px;
+    margin: 11px 6px;
+}
+
+.pp1 .tags .tag .tag-img {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    height: 252px;
+}
+
+.pp1 .tags .tag .tag-img img {
+    border-radius: 50%;
+    width: 216px;
+    height: 216px;
+}
+
+.pp1 .tags .tag .tag-img span {
+    display: block;
+    height: 55px;
+    width: 330px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 55px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.pp1 .tags .tag .tag-desc p {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 20px 23px;
+    font-weight: bold;
+}
+
+.pp1 .info-content .end {
+    text-align: center;
+    margin-top: 15px;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+.pp1 .info-content .end p.p1 {
+    color: #231815;
+}
+
+.pp1 .info-content .end p.p2 {
+    color: #cdcdce;
+}
+
+.pp2 .feature .feature-title {
+    margin-top: 27px;
+    position: relative;
+}
+
+.pp2 .feature .feature-title p.main-title {
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: bold;
+}
+
+.pp2 .feature .feature-title p.sub-title {
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.pp2 .feature .feature-title .line {
+    width: 52px;
+    height: 2px;
+    background-color: #231815;
+    margin-top: 25px;
+}
+
+.pp2 .feature .feature-title .pos-img {
+    position: absolute;
+    bottom: -22px;
+    right: 0;
+}
+
+.pp2 .feature-info .tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 28px;
+}
+
+.pp2 .feature-info .tags .tag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 195px;
+    margin-top: 25px;
+}
+
+.pp2 .feature-info .tags .link {
+    width: 80px;
+    height: 1px;
+    background-color: #000000;
+    margin-top: 122.5px;
+    position: relative;
+}
+
+.pp2 .feature-info .tags .link::after {
+    content: "";
+    display: block;
+    height: 316px;
+    width: 1px;
+    background-color: #000000;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    margin-left: -0.5px;
+}
+
+.pp2 .tags .tag .tag-img {
+    border-radius: 50%;
+    width: 195px;
+    height: 195px;
+    overflow: hidden;
+}
+
+.pp2 .tags .tag .tag-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.pp2 .tags .tag .tag-desc {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.pp2 .tags .tag .tag-desc .desc-title {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: bold;
+}
+
+.pp2 .tags .tag .tag-desc .desc {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 15px;
+    white-space: nowrap;
+}
+
+.pp3 .lightspot .lightspot-title {
+    margin-top: 40px;
+}
+
+.pp3 .lightspot .lightspot-title p.main-title {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 58px;
+}
+
+.pp3 .lightspot .lightspot-title p.main-title span {
+    color: #fccc27;
+}
+
+.pp3 .lightspot .lightspot-info {
+    text-align: center;
+    margin-top: 52px;
+    position: relative;
+    padding-bottom: 200px;
+}
+
+.pp3 .lightspot .lightspot-info .tags {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.pp3 .lightspot .lightspot-info .tags .tag {
+    position: absolute;
+    width: 265px;
+}
+
+.pp3 .tags .tag .tag-img {
+    width: 265px;
+    height: 285px;
+    position: relative;
+}
+
+.pp3 .tags .tag .tag-img>img {
+    border-radius: 50%;
+}
+
+.pp3 .tags .tag .tag-img .tag-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 64px;
+    background-color: #fccc27;
+}
+
+.pp3 .tags .tag .tag-img .tag-title .left {
+    position: absolute;
+    left: -50px;
+    top: -67px;
+}
+
+.pp3 .tags .tag .tag-img .tag-title .right {
+    position: absolute;
+    right: 0;
+    bottom: 100%;
+}
+
+.pp3 .tags .tag .tag-img .tag-title .text {
+    font-size: 36px;
+    line-height: 64px;
+}
+
+.pp3 .tags .tag .tag-line {
+    width: 139px;
+    height: 4px;
+    background-color: #fccc27;
+    margin: 18px auto;
+}
+
+.pp3 .tags .tag .tag-desc {
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.pp3 .tags .tag1 {
+    left: 30px;
+    top: 15px;
+}
+
+.pp3 .tags .tag2 {
+    left: 388px;
+    top: 213px;
+}
+
+.pp3 .tags .tag3 {
+    left: 755px;
+    top: 487px;
+}
+
+.pp3 .tags .tag4 {
+    left: 388px;
+    top: 790px;
+}
+
+.pp3 .tags .tag1 {
+    left: 30px;
+    top: 1000px;
+}
+
+.pp4 .er-nav ul>li {
+    color: #ffffff;
+}
+
+.pp4 .er-nav ul>li a {
+    color: #ffffff;
+}
+
+.pp4 .er-nav ul>li.on a {
+    color: #fccc27;
+}
+
+.content .bg1 {
+    width: 1920px;
+    height: 1085px;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 50%;
+    margin-left: -960px;
+}
+
+.content .bg2 {
+    width: 1920px;
+    height: 1020px;
+    position: absolute;
+    z-index: -1;
+    top: 1084px;
+    left: 50%;
+    margin-left: -960px;
+}
+
+.pp4 .content-info {
+    padding-bottom: 0;
+}
+
+.pp4 .info1 {
+    width: 1100px;
+    height: 1012px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.pp4 .info2 {
+    width: 1100px;
+    height: 998px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.info1 .logo {
+    margin-top: 18px;
+}
+
+.info1 .pos-img {
+    position: absolute;
+    left: 570px;
+    top: -132px;
+    z-index: -1;
+}
+
+.info1 .p1 {
+    font-size: 95px;
+    color: #fccc27;
+    margin-top: 20px;
+}
+
+.info1 .p2 {
+    font-size: 37px;
+    color: #fccc27;
+    margin-top: 20px;
+}
+
+.info1 .line1 {
+    width: 120px;
+    height: 2px;
+    background-color: #fccc27;
+    margin-top: 20px;
+}
+
+.info1 .p3 {
+    font-size: 150px;
+    font-weight: bold;
+    color: #fccc27;
+    /* margin-top: 37px; */
+}
+
+.info1 .p3 span {
+    color: #ffffff;
+}
+
+.info1 .line2 {
+    width: 120px;
+    height: 2px;
+    background-color: #fccc27;
+    margin-top: 45px;
+}
+
+.info1 .tags {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.info1 .tags .tag {
+    width: 156px;
+    height: 46px;
+    text-align: center;
+    line-height: 46px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.info1 .tags .tag:nth-of-type(odd) {
+    background-color: #fccc28;
+    color: #e94b1f;
+}
+
+.info1 .tags .tag:nth-of-type(even) {
+    background-color: #e94b1f;
+    color: #fccc28;
+}
+
+.info1 .tags .tag+.tag {
+    margin-left: 10px;
+}
+
+.info2 .pos-img1 {
+    position: absolute;
+    left: -85px;
+    top: 271px;
+}
+
+.info2 .pos-img2 {
+    position: absolute;
+    left: 1026px;
+    top: 150px;
+}
+
+.info2 .info-show {
+    position: absolute;
+    left: 626px;
+    top: 271px;
+}
+
+.info2 .info-show .title {
+    font-size: 78px;
+    color: #fccc27;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    white-space: nowrap;
+}
+
+.info2 .info-show .title .line {
+    display: inline-block;
+    width: 12px;
+    height: 65px;
+    background-color: #fccc27;
+    margin-right: 18px;
+}
+
+.info2 .info-show .desc {
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 43px;
+}

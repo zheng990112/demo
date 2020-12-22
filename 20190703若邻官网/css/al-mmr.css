@@ -1,0 +1,130 @@
+.part1 .top-img{
+	width: 100%;
+}
+
+
+
+.part1 .big_title{
+	font-size:37px;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	color:#525151;
+	line-height: 1;
+	border-bottom: 1px solid #b1aeaf;
+	padding-bottom: 30px;
+	position:relative;
+	margin-top: 30px;
+}
+.part1 .big_title::after{
+	content: "";
+    display: inline-block;
+    width: 145px;
+    height: 162px;
+    background: url(../img/al/bsy/icon.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: -34px;
+    top: -25px;
+    z-index: -1;
+}
+.part1 .p1{
+	font-size: 18px;
+	color:#7f7f7f;
+	line-height: 28px;
+	font-family: myfont_Light;
+	/*font-family: myfont_Medium;*/
+	margin-top: 25px;
+}
+.part1 .p2{
+	font-size: 18px;
+	color:#c31b1f;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	line-height: 1;
+	margin-top: 35px;
+}
+.part1 .p2 span{
+	display: inline-block;
+    vertical-align: top;
+    line-height: 10px;
+    margin-right: 5px;
+}
+.part1 .p3{
+	font-family: myfont_Light;
+	/*font-family: myfont_Medium;*/
+	font-size: 18px;
+	color:#525151;
+	line-height: 28px;
+	margin-top: 15px;
+}
+.part1 .p3 span{
+	color:#c31b1f;
+}
+.part1 .p4{
+	margin-bottom:20px;
+}
+.part1 .p5{
+	text-indent:18px;
+}
+
+
+.part2 .p1{
+	font-size: 18px;
+	color:#c31b1f;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	line-height: 1;
+	margin-top: 35px;
+}
+.part2 .p1 span{
+	display: inline-block;
+    vertical-align: top;
+    line-height: 10px;
+    margin-right: 5px;
+}
+.part2 .part2-img{
+	display: block;
+	width: 100%;
+	margin-top: 20px;
+}
+.part2 .p2{
+	font-size: 18px;
+	color:#525151;
+	font-family: myfont_Light;
+	/*font-family: myfont_Medium;*/
+	line-height: 28px;
+	margin-top:25px;
+	position:relative;
+}
+.part2 .p3{
+	font-size: 18px;
+	color:#525151;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	line-height: 1;
+	margin-top: 25px;
+}
+.part2 .p2-1::after{
+	content:"";
+	display: inline-block;
+	width: 144px;
+	height: 145px;
+	background: url(../img/al/mmr/icon2.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	right: -80px;
+	bottom: -90px;
+	z-index: -1;
+}
+.part2 .p2-2::before{
+	content:"";
+	display: inline-block;
+	width: 144px;
+	height: 145px;
+	background: url(../img/al/mmr/icon2.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	left: -75px;
+	top: -15px;
+	z-index: -1;
+}

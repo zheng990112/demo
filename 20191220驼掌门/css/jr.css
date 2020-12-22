@@ -1,0 +1,653 @@
+.main {
+    padding-bottom: 0.60rem;
+    padding-top: 0.43rem;
+}
+
+
+/* ------ jr4 css ----- */
+
+.jr4 .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jr4 .title .en {
+    font-size: 0.20rem;
+    text-transform: uppercase;
+    color: #A6A6A6;
+}
+
+.jr4 .title .cn {
+    font-size: 0.47rem;
+    line-height: 0.60rem;
+    font-family: myfont;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.jr4 .title .cn p.p1 {
+    background-color: #ffffff;
+    color: #C7282A;
+    padding: 0 0.32rem;
+}
+
+.jr4 .title .cn p.p2 {
+    background-color: #ffffff;
+    color: #E2870E;
+    padding: 0 0.22rem;
+}
+
+.jr4 .title .cn::before {
+    content: '';
+    display: block;
+    box-sizing: border-box;
+    width: 6.37rem;
+    height: 0.68rem;
+    border: 0.02rem solid #D2D2D2;
+    position: absolute;
+    top: 50%;
+    margin-top: -0.34rem;
+    z-index: -1;
+}
+
+.jr4 .imgs {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 0.43rem;
+}
+
+.jr4 .imgs .item {
+    width: 5.08rem;
+    font-size: 0;
+    margin-top: 0.15rem;
+}
+
+
+/* ------ jr3 css ----- */
+
+.jr3.main {
+    padding-top: 0.83rem;
+}
+
+.jr3 .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.jr3 .title .cn {
+    font-size: 0.72rem;
+    line-height: 0.66rem;
+    font-family: myfont2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    position: relative;
+}
+
+.jr3 .title .cn p.p1 {
+    color: #C7282A;
+}
+
+.jr3 .title .cn p.p2 {
+    color: #E2870E;
+}
+
+.jr3 .title .en {
+    font-size: 0.20rem;
+    /* text-transform: uppercase; */
+    color: #A6A6A6;
+    margin-top: 0.12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jr3 .title .en p {
+    margin: 0 0.16rem;
+}
+
+.jr3 .title .title-icon-01 {
+    width: 1.58rem;
+    position: absolute;
+    top: -0.61rem;
+}
+
+.jr3 .title .cn::before,
+.jr3 .title .cn::after {
+    content: '';
+    display: block;
+    width: 1.96rem;
+    height: 1.05rem;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0.04rem;
+}
+
+.jr3 .title .cn::before {
+    background-image: url(../img/jr/jr_3_icon2.png);
+    left: -2.10rem;
+}
+
+.jr3 .title .cn::after {
+    background-image: url(../img/jr/jr_3_icon3.png);
+    right: -2.10rem;
+}
+
+.jr3 .title .en::before,
+.jr3 .title .en::after {
+    content: '';
+    display: block;
+    width: 1.18rem;
+    height: 0.02rem;
+    background-color: #A6A6A6;
+}
+
+.jr3 .flows {
+    /* width: 100%; */
+    padding-left: 0.50rem;
+    height: 3.52rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 0.58rem;
+}
+
+.jr3 .flows .flow-icon {
+    width: 1.78rem;
+    text-align: center;
+}
+
+.jr3 .flows .flow-icon.flow-icon-right {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.jr3 .flows .flow-icon img {
+    width: 0.26rem;
+    vertical-align: top;
+}
+
+.jr3 .flows .flow {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jr3 .flows .flow .item-icon {
+    width: 0.21rem;
+    vertical-align: top;
+}
+
+.jr3 .item {
+    width: 1.78rem;
+    height: 0.69rem;
+    background-color: #F39D12;
+    border-radius: 0.1rem;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 0.27rem;
+    font-size: 0.30rem;
+    color: #ffffff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jr3 .item .item-num {
+    font-size: 0.50rem;
+    line-height: 0.50rem;
+    color: #000000;
+    position: absolute;
+    top: -0.21rem;
+    font-weight: bold;
+}
+
+
+/* ------ jr2 css ----- */
+
+.jr2.main {
+    padding-top: 0.73rem;
+    padding-bottom: 0.75rem;
+    padding-right: 3.48rem;
+    width: auto;
+}
+
+.jr2 .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.jr2 .title .cn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    position: relative;
+}
+
+.jr2 .title .cn p.p1 {
+    background-color: #ffffff;
+    font-size: 0.86rem;
+    line-height: 0.66rem;
+    color: #C7282A;
+    padding: 0 0.38rem;
+    font-family: myfont2;
+    letter-spacing: -0.02rem;
+}
+
+.jr2 .title .cn p.p2 {
+    background-color: #ffffff;
+    font-size: 0.42rem;
+    color: #E2870E;
+    text-align: center;
+    margin-top: 0.17rem;
+}
+
+.jr2 .title .cn p.p2 span {
+    color: #595757;
+}
+
+.jr2 .title .en {
+    font-size: 0.28rem;
+    /* text-transform: uppercase; */
+    color: #A6A6A6;
+    margin-top: 0.12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jr2 .title .en p {
+    margin: 0 0.16rem;
+}
+
+.jr2 .title .cn::before {
+    content: '';
+    display: block;
+    box-sizing: border-box;
+    width: 8.84rem;
+    height: 0.68rem;
+    border: 0.02rem solid #D2D2D2;
+    position: absolute;
+    top: 50%;
+    margin-top: -0.50rem;
+    z-index: -1;
+}
+
+.jr2 .supports {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.jr2 .supports .item {
+    width: 2.48rem;
+    margin-right: 0.07rem;
+    margin-top: 0.34rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jr2 .supports .item:nth-child(4n+4) {
+    margin-right: 0;
+}
+
+.jr2 .supports .item .item-img {
+    width: 100%;
+    height: 1.50rem;
+    font-size: 0;
+    overflow: hidden;
+}
+
+.jr2 .supports .item .item-name {
+    width: 2.46rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.26rem;
+    color: #D6282A;
+    font-weight: bold;
+    margin-top: 0.16rem;
+}
+
+.jr2 .supports .item .item-name span {
+    padding: 0 0.1rem;
+}
+
+.jr2 .supports .item .item-name::before,
+.jr2 .supports .item .item-name::after {
+    content: '';
+    display: block;
+    flex: 1;
+    height: 0.02rem;
+    background-color: #D6282A;
+}
+
+.jr2 .supports .icon-01 {
+    width: 3.71rem;
+    vertical-align: top;
+    position: absolute;
+    bottom: -0.41rem;
+    right: 0.78rem;
+}
+
+.jr2 .title-02 {
+    margin-top: 0.70rem;
+}
+
+.jr2 .title-02 .cn p.p1 {
+    padding: 0;
+}
+
+.jr2 .info-box {
+    /* width: 100%; */
+    margin: 0.42rem -3.48rem 0 -5.32rem;
+    height: 2.23rem;
+    background-color: #C7282A;
+    background-image: url(../img/jr/jr_2_bg1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-left: 5.32rem;
+    position: relative;
+}
+
+.jr2 .info-box .icon-02 {
+    width: 4.17rem;
+    position: absolute;
+    left: 0.35rem;
+    top: -1.43rem;
+}
+
+.jr2 .info-box .info {
+    width: 10.37rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding-top: 0.3rem;
+}
+
+.jr2 .info-box .info .item {
+    width: 2.15rem;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.jr2 .info-box .info .item .item-name {
+    height: 0.43rem;
+    line-height: 0.43rem;
+    font-size: 0.27rem;
+    background-color: #F29600;
+    color: #D6282A;
+    text-align: center;
+    border-radius: 0.08rem;
+}
+
+.jr2 .info-box .info .item .item-desc {
+    min-width: 2.15rem;
+    text-align: justify;
+    font-size: 0.20rem;
+    line-height: 0.25rem;
+    color: #ffffff;
+    font-family: serif;
+    margin-top: 0.05rem;
+}
+
+.jr2 .info-box .info .item.big {
+    width: 2.53rem;
+}
+
+.jr2 .info-box .info .item-line {
+    width: 1px;
+    height: 1.47rem;
+    background-color: #F29600;
+}
+
+
+/* ------ jr1 css ----- */
+
+.jr1.main {
+    width: auto;
+    padding-right: 3.48rem;
+}
+
+.jr1 .part {
+    position: relative;
+    z-index: 2;
+}
+
+.jr1 .title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.jr1 .title .title-p1 {
+    font-size: 0.60rem;
+    font-family: myfont2;
+    box-sizing: border-box;
+    padding: 0 0.24rem;
+    background-color: #C7282A;
+    color: #ffffff;
+    line-height: 0.87rem;
+    height: 0.87rem;
+    border-top-right-radius: 0.17rem;
+    border-bottom-right-radius: 0.17rem;
+    white-space: nowrap;
+    position: relative;
+}
+
+.jr1 .title .title-p1::after,
+.jr1 .title .title-p1::before {
+    content: '';
+    display: block;
+    width: 0.36rem;
+    height: 0.87rem;
+    background-image: url(../img/jr/jr_1_icon1.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    right: -0.47rem;
+}
+
+.jr1 .title .title-p1::before {
+    left: -0.47rem;
+    display: none;
+}
+
+.jr1 .title .title-p2 {
+    font-size: 0.45rem;
+    white-space: nowrap;
+    font-family: myfont;
+}
+
+.jr1 .title .title-p2 span {
+    color: #F29600;
+}
+
+.jr1 .title .title-line {
+    width: 0.73rem;
+    height: 0.03rem;
+    background-color: #C7282A;
+    margin-top: 0.38rem;
+    margin-bottom: 0.45rem;
+}
+
+.jr1 .title .title-desc {
+    font-size: 0.22rem;
+    color: #333333;
+    line-height: 0.35rem;
+}
+
+.jr1 .title-02 {
+    align-items: center;
+}
+
+.jr1 .title-02 .title-p1 {
+    border-radius: 0.17rem;
+    height: 0.97rem;
+}
+
+.jr1 .title-02 .title-p1::after,
+.jr1 .title-02 .title-p1::before {
+    width: 0.40rem;
+    height: 0.97rem;
+    display: block;
+}
+
+.jr1 .title-02 .title-p2 {
+    font-size: 0.50rem;
+    margin-top: 0.45rem;
+}
+
+.jr1 .title-02 .title-line {
+    margin-top: 0.19rem;
+    margin-bottom: 0.26rem;
+}
+
+.jr1 .title-02 .title-desc {
+    text-align: center;
+    font-size: 0.25rem;
+}
+
+.jr1 .title-02 .title-desc span {
+    color: #F29600;
+}
+
+.jr1 .part1 .part-info {
+    padding: 0.22rem 0 0.26rem;
+    background-color: #F29600;
+    margin-left: -5.32rem;
+    margin-right: -3.48rem;
+    margin-top: 0.56rem;
+    box-sizing: border-box;
+    padding-left: 5.32rem;
+    background-image: url(../img/jr/jr_1_bg1.jpg);
+    background-size: 100% 100%;
+}
+
+.jr1 .part1 .part-info .info-tags {
+    display: flex;
+    align-items: center;
+}
+
+.jr1 .part1 .part-info .info-tags .item {
+    width: 3.40rem;
+    margin-right: 0.14rem;
+}
+
+.jr1 .part1 .part-info .item-name {
+    width: 100%;
+    height: 0.48rem;
+    background-color: #D6282A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jr1 .part1 .part-info .item-name span {
+    font-size: 0.37rem;
+    color: #ffffff;
+    font-family: myfont2;
+    margin-top: -0.05rem;
+}
+
+.jr1 .part1 .part-info .item-name::before,
+.jr1 .part1 .part-info .item-name::after {
+    content: '';
+    display: block;
+    width: 0.83rem;
+    height: 0.15rem;
+    background-size: 100% 100%;
+    margin: 0 .14rem;
+}
+
+.jr1 .part1 .part-info .item-name::before {
+    background-image: url(../img/jr/jr_1_icon2_l.png);
+}
+
+.jr1 .part1 .part-info .item-name::after {
+    background-image: url(../img/jr/jr_1_icon2_r.png);
+}
+
+.jr1 .part1 .part-info .item-img {
+    width: 100%;
+    font-size: 0;
+}
+
+.jr1 .part+.part {
+    margin-top: 0.73rem;
+}
+
+.jr1 .imgs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.45rem;
+}
+
+.jr1 .imgs img {
+    width: 5.17rem;
+}
+
+.jr1 .part1 .title-icon-01 {
+    position: absolute;
+    width: 6.5rem;
+    vertical-align: top;
+    right: -3.48rem;
+    top: 0.40rem;
+}
+
+.jr1 .part1 .title-icon-02 {
+    position: absolute;
+    width: 2.34rem;
+    top: 2.04rem;
+    left: 9.40rem;
+    z-index: -1;
+}
+
+.jr1 .part:nth-child(n+2) .title-icon-01 {
+    width: 19.00rem;
+    position: absolute;
+    left: -5.32rem;
+    top: -0.26rem;
+}
+
+.jr1 .part:nth-child(n+2) .title-icon-02 {
+    position: absolute;
+    width: 2.26rem;
+    top: 3.65rem;
+    left: -1.59rem;
+    z-index: -1;
+}
+
+.jr1 .part:nth-child(2n+3) .title-icon-01 {
+    transform: rotateX(180deg);
+}
+
+.jr1 .part:nth-child(2n+3) .title-icon-02 {
+    left: auto;
+    right: -1.59rem;
+}

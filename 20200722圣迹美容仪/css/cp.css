@@ -1,0 +1,717 @@
+.footer {
+  width: 100%;
+	height: 1.93rem;
+	background: url(../img/footer_bg.png) no-repeat;
+	background-size: 100% 100%;
+	bottom: 0;
+}
+.footer-main {
+  	width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    margin-left: -600px;
+}
+.section {
+  background: url(../img/sw/bg.jpg) center no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.container {
+  width: 12rem;
+  margin: 0 auto;
+  position: relative;
+     height: 100%;
+}
+.cp1 .section1 .container .img1 {
+  margin-top:2.3rem;
+  height:6.36rem;
+  margin-left:-0.9rem;
+}
+.cp1 .section1 .container .img2 {
+    position: absolute;
+    top: 2.8rem;
+    left: 4.38rem;
+    width: 6.29rem;
+}
+.cp1 .section1 .solid1 {
+    position: absolute;
+    width: 1.55rem;
+    height: 0.01rem;
+    top: 3.8rem;
+    left: -3.6rem;
+
+}
+.cp1 .section1 .solid2 {
+    position: absolute;
+    width: 3.6rem;
+    height: 0.02rem;
+    top: 5.2rem;
+    right: -3.6rem;
+}
+.cp1 .section2 .solid1 {
+    width: 13.6rem;
+    height: 0.48rem;
+    margin-top: 2.6rem;
+    margin-left: -3.54rem;
+}
+.cp1 .section2 .word {
+  text-align: center;
+  color: #ffffff;
+  font-size:0.36rem;
+  margin-top:0.2rem;
+}
+.cp1 .section2 .listPic {
+  /*padding: 0 1rem;*/
+ text-align: center;
+  margin-top:0.4rem;
+  position:relative;
+}
+.cp1 .section2 .listPic::before{
+    content: "";
+    display: inline-block;
+    width: 6.82rem;
+    height: 0.01rem;
+    background: url(../img/cp/cp102_05.jpg) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: -4rem;
+    bottom: -0.1rem;
+
+}
+.cp1 .section2 .listPic li {
+  width: 5.5rem;
+     display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+.cp1 .section2 .listPic div {
+  width: 2.28rem;
+  height: 2.28rem;
+  border: 1px solid #cbae8d;
+  border-radius: 50%;
+  float: left;
+}
+.cp1 .section2 .listPic div img {
+  width:1.98rem;
+  height:1.98rem;
+  border-radius: 50%;
+  display: block;
+  margin: 0.15rem auto;
+}
+.cp1 .section2 .listPic p {
+  float: left;
+  margin-left: 0.2rem;
+}
+.cp1 .section2 .listPic .p1 {
+  color: #f0e5d8;
+  width: 2.3rem;
+  font-size:0.2rem;
+  padding-top:0.6rem;
+  padding-bottom:0.2rem;
+  margin-bottom:0.1rem;
+  background: url(../img/cp/cp102_04.jpg) center bottom no-repeat;
+  background-size:2.3rem 0.02rem;
+}
+.cp1 .section2 .listPic .p2 {
+  color: #ffffff;
+  font-size: 0.16rem;
+  line-height: 0.24rem;
+}
+.cp1 .section2 .solid2 {
+  width:6.82rem;
+  height:0.03rem;
+  margin-left:8.5rem;
+  display: none;
+}
+.cp1 .section3 .listPic {
+  padding-top:2.9rem;
+}
+.cp1 .section3 li {
+  float: left;
+  width: 6rem;
+}
+.cp1 .section3 li:first-child {
+  padding-left: 1.2rem;
+  width:4.8rem;
+}
+.cp1 .section3 .solid1 {
+  width: 9.58rem;
+  height: 0.34rem;
+  margin-left:-4.73rem;
+}
+.cp1 .section3 .img1 {
+  display: block;
+  width: 4.26rem;
+  height:0.46rem;
+  margin-top:0.2rem;
+  margin-bottom:0.1rem;
+}
+.cp1 .section3 li p {
+  color: #ffffff;
+}
+.cp1 .section3 li .text {
+  font-size:0.36rem;
+}
+.cp1 .section3 li .p1 {
+  display: inline-block;
+  width:1.52rem;
+  height:0.32rem;
+  background: url(../img/cp/cp103_03.jpg) center no-repeat;
+  background-size: 100%;
+  color: #000000;
+  line-height:0.32rem;
+  text-align: center;
+  font-weight: bold;
+  margin-top:0.37rem;
+  font-size: 0.2rem;
+}
+.cp1 .section3 li .p2 {
+  font-size: 0.12rem;
+  line-height:0.32rem;
+  display: inline-block;
+  margin-left:0.15rem;
+}
+.cp1 .section3 li .p3 {
+  font-size:0.16rem;
+  margin-top:0.1rem;
+}
+.cp1 .section3 li:last-child img {
+    height: 5.56rem;
+    margin-left: 0.8rem;
+    margin-top: 0.5rem;
+}
+.cp1 .section4 .leftBox {
+    width: 6.8rem;
+    padding-left: 1.2rem;
+    padding-top: 2.4rem;
+    float: left;
+}
+.cp1 .section4 .solid1 {
+  width:10.92rem;
+  height:0.34rem;
+  margin-left:-4.74rem;
+}
+.cp1 .section4 .img1 {
+  width:3.17rem;
+  height:0.48rem;
+  display: block;
+  margin-top:0.15rem;
+  margin-bottom:0.1rem;
+}
+.cp1 .section4 .text {
+  color: #ffffff;
+  font-size:0.36rem;
+  margin-bottom:0.4rem;
+}
+.cp1 .section4 .listPic li {
+  float: left;
+  width: 1.6rem;
+  text-align: center;
+  color: #ffffff;
+  margin-right:0.5rem;
+}
+.cp1 .section4 .listPic li:last-child {
+  margin-right: 0;
+}
+.cp1 .section4 .listPic .p1 {
+  font-size:0.2rem;
+  padding:0.1rem 0;
+}
+.cp1 .section4 .listPic .p2 {
+  font-size:0.16rem;
+  line-height:0.24rem;
+}
+.cp1 .section4 .rightImg {
+    float: left;
+    margin-top: 2.4rem;
+    width: 2.8rem;
+}
+.cp1 .section4 .solid2 {
+  position: absolute;
+  top:5.15rem;
+  left:11.2rem;
+  display: none;
+}
+.cp1 .section4::after{
+	content:"";
+	display: inline-block;
+	width: 3.6rem;
+	height: 1px;
+	background: url(../img/cp/cp104_07.jpg) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	right: 0;
+	bottom: 2.3rem;
+}
+.cp1 .section5 .solid1 {
+    margin-top: 2.5rem;
+    margin-left: -3.6rem;
+}
+.cp1 .section5 .img1 {
+  width:3.18rem;
+  height:0.48rem;
+  margin:0.2rem auto;
+  display: block;
+}
+.cp1 .section5 .p1 {
+  text-align: center;
+}
+.cp1 .section5 .p1 span {
+  color: #ffffff;
+  font-size:0.36rem;
+  position: relative;
+}
+.cp1 .section5 .p1 span::after {
+  content: "";
+  display: block;
+  width:2.75rem;
+  height:0.02rem;
+  background: url(../img/cp/cp105_03.jpg) center navajowhite;
+  background-size: 100%;
+  position: absolute;
+  top: 50%;
+  right: -3rem;
+}
+.cp1 .section5 .listPic {
+  width:7.6rem;
+  padding-top: 0.3rem;
+  margin: 0 auto;
+}
+.cp1 .section5 .listPic li {
+  float: left;
+  margin-left:0.4rem;
+  width:1.6rem;
+}
+.cp1 .section5 .listPic li:first-child {
+  margin-left: 0;
+}
+.cp1 .section5 .listPic .imgBox {
+  width:1.58rem;
+  height:1.58rem;
+  border: 1px solid #cbae8d;
+  border-radius: 50%;
+}
+.cp1 .section5 .listPic img {
+  width:1.5rem;
+  height:1.5rem;
+  border-radius: 50%;
+  display: block;
+  margin:0.04rem auto;
+}
+.cp1 .section5 .listPic .word {
+  width:1.6rem;
+  text-align: center;
+  margin-top:0.1rem;
+}
+.cp1 .section5 .listPic p {
+  display: inline-block;
+  color: #ffffff;
+}
+.cp1 .section5 .listPic .p1 {
+  font-size: 0.2rem;
+  vertical-align: text-bottom;
+}
+.cp1 .section5 .listPic .p2 {
+  font-size:0.14rem;
+  margin-left:0.05rem;
+  vertical-align: text-bottom;
+}
+.cp1 .section5 .solid2 {
+  width: 5.22rem;
+  height: 0.02rem;
+  display: block;
+  margin-top:-0.1rem;
+  margin-left:10.4rem;
+}
+.cp1 .section6 {
+  background: url(../img/cp/bg1.jpg) center no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.cp1 .section6 .img1 {
+	display: block;
+    margin: 0 auto;
+    margin-top:2.2rem;
+       width: 4.14rem;
+}
+.cp1 .section6 .img2 {
+  display: block;
+  margin: 0 auto;
+  margin-top:0.15rem;
+  width: 4.8rem;
+}
+.cp1 .section6 .solid1 {
+    width: 3.26rem;
+    height: 1px;
+    display: block;
+    position: absolute;
+    left: -3.6rem;
+    top: 1rem;
+
+}
+.cp1 .section6 .solid2 {
+    width: 3.6rem;
+    height: 1px;
+    display: block;
+    position: absolute;
+    right: -3.6rem;
+    bottom: 4.5rem;
+}
+.cp1 .section7 {
+  background: url(../img/cp/bg2.jpg) center no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.cp1 .section7 .leftBox {
+    padding-top: 2.4rem;
+    width: 6rem;
+    float: left;
+}
+.cp1 .section7 .solid1 {
+  width:8.7rem;
+  height:0.48rem;
+  margin-left: -3.6rem;
+  margin-bottom:0.2rem;
+}
+.cp1 .section7 .leftBox p {
+  color: #ffffff;
+  font-size:0.36rem;
+  line-height:0.48rem;
+}
+.cp1 .section7 .listPic {
+		width:5.7rem;
+    margin-top: 2.4rem;
+    float: left;
+}
+.cp1 .section7 .listPic ol {
+  float: left;
+  width: 100%;
+  height: 1.1rem;
+  border-bottom: 1px solid #ffffff;
+}
+.cp1 .section7 .listPic ol:last-child {
+  border-bottom: none;
+}
+.cp1 .section7 .listPic li {
+  float: left;
+  width:2.64rem;
+  height: 100%;
+  color: #ffffff;
+}
+.cp1 .section7 .listPic li div {
+  height:0.5rem;
+  margin-top:0.25rem;
+}
+.cp1 .section7 .listPic li:first-child {
+  border-right: 1px solid #ffffff;
+}
+.cp1 .section7 .listPic li:nth-child(2n) {
+  width:2.64rem;
+  padding-left:0.4rem;
+}
+.cp1 .section7 .listPic .img1 {
+  float: left;
+  margin-top:0.03rem;
+  width:0.43rem;
+  height:0.43rem;
+}
+.cp1 .section7 .listPic .img2 {
+  float: left;
+  width: 0.02rem;
+  height: 0.16rem;
+  margin-top: 0.17rem;
+  margin-left:0.2rem;
+  margin-right:0.2rem;
+}
+.cp1 .section7 .listPic .p1 {
+  font-size:0.16rem;
+  margin-top: 0.03rem;
+  margin-bottom:0.07rem;
+}
+.cp1 .section7 .listPic .p2 {
+  font-size:12px;
+}
+.cp1 .section7 .solid2 {
+    height: 1px;
+    width: 4.7rem;
+    position: absolute;
+    right: -3.6rem;
+    bottom: 2.3rem;
+}
+.cp1 .section7 .img3 {
+  width: 4.77rem;
+  height: 0.11rem;
+  position: absolute;
+  right: 1.2rem;
+  bottom: 1.9rem;
+}
+
+
+
+
+.cp2 .section1 .solid1 {
+    margin-top: 2.4rem;
+    margin-left: -3.85rem;
+    display: block;
+    width: 12.14rem;
+    height: 0.47rem;
+}
+.cp2 .section1 .img1 {
+  width:6.1rem;
+  height:0.33rem;
+  display: block;
+  margin-top:0.15rem;
+  margin-left:4.1rem;
+}
+.cp2 .section1 .solid2 {
+    width: 11.76rem;
+    margin-top: 0.1rem;
+    height: 0.33rem;
+    margin-left: 3.25rem;
+    position: absolute;
+    right: -3.6rem;
+}
+.cp2 .section1 .listPic {
+  width:10.87rem;
+  height:2.94rem;
+  margin: auto;
+  margin-top:0.15rem;
+  background: url(../img/cp/cp201_03.png) center no-repeat;
+  background-size: 100% 100%;
+}
+.cp2 .section1 .listPic li {
+  float: left;
+  width:1.44rem;
+  height:1.44rem;
+  border-radius: 50%;
+  border: 1px solid #b99a7f;
+  margin-top:0.78rem;
+  margin-left:0.15rem;
+}
+.cp2 .section1 .listPic li:first-child {
+  margin-left:4.4rem;
+}
+.cp2 .section1 .listPic img {
+  height:0.74rem;
+  display: block;
+  margin:0.35rem auto;
+}
+.cp2 .section2 .img1 {
+  display: block;
+  margin: 0 auto;
+	margin-top: 2rem;
+  width:4.9rem;
+  height:0.48rem;
+}
+.cp2 .section2 .text {
+  font-size:0.36rem;
+  color: #ffffff;
+  text-align: center;
+}
+.cp2 .section2 .solid1 {
+    display: block;
+    margin-top: -0.2rem;
+    margin-bottom: 0.3rem;
+    width: 5.46rem;
+    position: absolute;
+    left: -3.6rem;
+}
+.cp2 .section2 .listPic{
+	position:relative;
+}
+.cp2 .section2 .listPic::before{
+	content:"";
+	display: inline-block;
+	width: 3.6rem;
+	height:1px;
+  background: url(../img/cp/cp202_03.jpg) no-repeat;
+  background-size: 100% 100%;
+  position:absolute;
+  right: -3.6rem;
+  top: 3.3rem;
+  
+}
+.cp2 .section2 .listPic li {
+    width: 2.3rem;
+    float: left;
+    margin-left: 0.6rem;
+    margin-top: 0.3rem;
+}
+.cp2 .section2 .listPic li:nth-child(2) {
+  margin-left: 0;
+}
+.cp2 .section2 .listPic li:first-child,
+.cp2 .section2 .listPic li:last-child {
+  width:1.95rem;
+  margin-left: 0;
+}
+.cp2 .section2 .listPic .btn {
+  width: 0.88rem;
+  height:0.31rem;
+  display: block;
+  margin:0.86rem auto;
+  cursor: pointer;
+}
+.cp2 .section2 .listPic li div {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 auto;
+  border: 1px solid #cbae8d;
+  border-radius: 50%;
+}
+.cp2 .section2 .listPic li div img {
+  width: 1.8rem;
+  height:1.8rem;
+  display: block;
+  margin:0.1rem auto;
+  border-radius: 50%;
+}
+.cp2 .section2 .listPic .p1 {
+  padding-top: 0.05rem;
+  font-size:0.2rem;
+  color: #ffffff;
+  text-align: center;
+}
+.cp2 .section2 .listPic .p2 {
+  font-size: 0.14rem;
+  color: #ffffff;
+  text-align: justify;
+  margin-top: 0.1rem;
+  padding-top:0.1rem;
+  background: url(../img/cp/cp202_03.jpg) left top no-repeat;
+  background-size: 2.3rem 0.02rem;
+  line-height:0.23rem;
+}
+
+
+
+.cp2 .section2 .picScroll-left{
+	width: 100%;
+	position: relative;
+	display: inline-block;
+	margin-top: 0.3rem;
+}
+.cp2 .section2 .picScroll-left .bd{
+	width:8.8rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.cp2 .section2 .picScroll-left .bd .tempWrap{
+	width: 100%!important;
+}
+
+.cp2 .section2 .picScroll-left .bd li{
+	float: left;
+	position: relative;
+	text-align: center;
+	width:2.26rem;
+	/*height:435px;*/
+	cursor: pointer;
+	margin-right: 1rem;
+}
+.cp2 .section2 .picScroll-left .bd li .li-img{
+	display: block;
+	width: 2.26rem;
+	height: 2.26rem;
+	background: url(../img/cp/b2-icon.png) no-repeat;
+	background-size: 100% 100%;
+	padding-top: 0.13rem;
+	box-sizing: border-box;
+	margin-bottom: 0.1rem;
+}
+.cp2 .section2 .picScroll-left .bd li img{
+	display: block;
+	width:1.99rem;
+	height:1.99rem;
+	border-radius: 50%;
+	margin:0 auto;
+}
+.cp2 .section2 .picScroll-left .bd li .p1 {
+  padding-top: 0.05rem;
+  font-size:0.2rem;
+  color: #ffffff;
+  text-align: center;
+}
+.cp2 .section2 .picScroll-left .bd li .p2 {
+  font-size: 0.14rem;
+  color: #ffffff;
+  text-align: justify;
+  margin-top: 0.1rem;
+  padding-top:0.1rem;
+  background: url(../img/cp/cp202_03.jpg) left top no-repeat;
+  background-size: 2.3rem 0.02rem;
+  line-height:0.23rem;
+  text-align: justify;
+}
+
+.cp2 .section2 .picScroll-left .arrow{
+	position: absolute;
+	top:50%;
+	margin-top: -0.15rem;
+	width:0.88rem;
+	height:0.3rem;
+	cursor: pointer;
+}
+.cp2 .section2 .picScroll-left .arrow img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.cp2 .section2 .picScroll-left .arrow-left{
+	left:0;
+}
+.cp2 .section2 .picScroll-left .arrow-right{
+	right:0;
+}
+.cp2 .section2 .picScroll-left::before{
+	content:"";
+	display: inline-block;
+	width: 3.6rem;
+	height:1px;
+  background: url(../img/cp/cp202_03.jpg) no-repeat;
+  background-size: 100% 100%;
+  position:absolute;
+  right: -3.6rem;
+  top: 3.3rem;
+  
+}
+
+
+
+/*20200729*/
+.cp1 .section4 .listPic li{
+	width:2rem;
+	margin-right: 0.3rem;
+}
+.cp1 .section4 .rightImg{
+	width: 2.4rem;
+	margin-top: 2.8rem;
+}
+.cp1 .section2 .word{
+	letter-spacing: 0.02rem;
+}
+.cp1 .section2 .listPic .p1{
+	letter-spacing: 0.01rem;
+}
+.cp1 .section2 .listPic .p2{
+	line-height: 0.28rem;
+	letter-spacing: 0.01rem;
+}
+.cp1 .section3 li .text,
+.cp1 .section3 li .p2,
+.cp1 .section3 li .p1,
+.cp1 .section4 .text,
+.cp1 .section4 .listPic .p1,
+.cp1 .section4 .listPic .p2,
+.cp1 .section7 .leftBox p,
+.cp1 .section7 .listPic li div{
+	letter-spacing: 0.01rem;
+}
+.cp1 .section5 .p1 span,
+.cp1 .section3 li .p3{
+	letter-spacing: 0.02rem;
+}

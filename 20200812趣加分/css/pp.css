@@ -1,0 +1,226 @@
+.pp_top{
+	font-size: 0.34rem;
+	color:#eeb033;
+	font-weight: bold;
+	margin-top: 0.2rem;
+}
+.pp_top span{
+	color:#372e8d;
+	margin-left: 0.1rem;
+}
+
+
+.pp1 .pp1-main{
+	position:relative;
+	padding-bottom: 1rem;
+}
+.pp1 .pp1-main .fonts{
+	width: 3.95rem;
+}
+.pp1 .pp1-main .fonts p{
+	font-size: 0.2rem;
+	line-height: 0.4rem;
+	color:#595757;
+	text-align: justify;
+	margin-top: 0.2rem;
+}
+.pp1 .pp1-main img{
+	display: block;
+	width: 4.73rem;
+	position:absolute;
+	right: 0;
+	bottom: -1rem;
+}
+
+.pp2 .pp_top span{
+	margin-left: 0;
+}
+.pp2 .pp2-main p{
+	font-size: 0.2rem;
+	line-height: 0.4rem;
+	color:#595757;
+	margin-top: 0.2rem;
+}
+.pp2 .pp2-main img{
+	display: block;
+	width: 100%;
+}
+.pp2 .pp2-main img.img1{
+	margin-top: 0.2rem;
+}
+
+
+
+
+.pp3 .pp_top span{
+	margin-left: 0;
+}
+.pp3 .pp3-main{
+	position:relative;
+	padding-bottom: 1rem;
+}
+.pp3 .pp3-main .pp3-icon{
+	display: block;
+	width: 5rem;
+	position:absolute;
+	right:-0.75rem;
+	bottom: -1rem;
+	z-index: -1;
+}
+.pp3 .pp3-main .fonts{
+	width: 4.8rem;
+	margin-top: 0.4rem;
+}
+.pp3 .pp3-main .fonts .p1{
+	font-size: 0.18rem;
+	color:#372e8d;
+	padding-left: 0.1rem;
+	position:relative;
+	margin-top: 0.15rem;
+}
+.pp3 .pp3-main .fonts .p1::before{
+	content:"";
+	display: inline-block;
+	width: 0.08rem;
+	height: 0.07rem;
+	background: url(../img/pp/c1.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -0.03rem;
+}
+.pp3 .pp3-main .fonts .p2{
+	width: 4.4rem;
+	font-size: 0.18rem;
+	color:#595757;
+	padding-left: 0.1rem;
+	border-bottom: 1px solid #eeb033;
+	margin-top: 0.15rem;
+	padding-bottom: 0.15rem;
+	position:relative;
+}
+.pp3 .pp3-main .fonts .p2::after{
+	content:"";
+	display:inline-block;
+	width: 0.54rem;
+	height: 0.08rem;
+	border-radius: 0 0.04rem 0.04rem 0;
+	background-color: #eeb033;
+	position:absolute;
+	right: 0;
+	bottom: -0.04rem;
+}
+.pp3 .pp3-main .fonts .p3{
+	font-size: 0.2rem;
+	color:#595757;
+	line-height: 0.4rem;
+	padding-left: 0.15rem;
+	box-sizing: border-box;
+	position:relative;
+	margin-top: 0.8rem;
+}
+.pp3 .pp3-main .fonts .p3::before{
+	content:"";
+	display: inline-block;
+	width: 0.18rem;
+	height: 0.16rem;
+	border-top:0.03rem solid #eeb033;
+	border-left:0.03rem solid #eeb033;
+	position:absolute;
+	top:-0.16rem;
+	left: 0;
+}
+.pp3 .pp3-main .fonts .p3::after{
+	content:"";
+	display: inline-block;
+	width: 0.18rem;
+	height: 0.16rem;
+	border-bottom:0.03rem solid #eeb033;
+	border-left:0.03rem solid #eeb033;
+	position:absolute;
+	bottom:-0.16rem;
+	left: 0;
+}
+.pp3 .pp3-main .fonts .p3 img{
+	width: 0.72rem;
+	height: 0.69rem;
+	display: block;
+	position:absolute;
+	left: 3.9rem;
+	bottom: -0.16rem;
+}
+
+
+
+.pp4 .pp4-main ul{
+	display: flex;
+	justify-content: space-between;
+}
+.pp4 .pp4-main ul li{
+	width: 1.32rem;
+	margin-top: 0.5rem;
+}
+.pp4 .pp4-main ul li .li-top{
+	width: 1.32rem;
+	height: 1.32rem;
+	background: url(../img/pp/d1.png) no-repeat;
+	background-size: 100% 100%;
+	line-height: 1.32rem;
+	text-align: center;
+	font-size: 0.3rem;
+	color:#322283;
+	font-weight: bold;
+	color:#322283;
+}
+.pp4 .pp4-main ul li .li-fonts{
+	font-size: 0.17rem;
+	color:#595757;
+	line-height: 0.29rem;
+	width: 1.32rem;
+	border:1px solid #eeb033;
+	box-sizing: border-box;
+	border-radius: 0.1rem 0.1rem 0.66rem 0.66rem;
+	padding:0 0.1rem;
+	padding-bottom: 0.5rem;
+	padding-top: 0.1rem;
+	text-align: justify;
+	margin-top: 0.15rem;
+	position:relative;
+}
+.pp4 .pp4-main ul li .li-fonts::after{
+	content:"";
+	display: inline-block;
+	width: 0.17rem;
+	height: 0.17rem;
+	background: url(../img/pp/d2.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	top: 0;
+	right: -0.3rem;
+}
+.pp4 .pp4-main ul li:last-child .li-fonts::after{
+	display: none;
+}
+.pp4 .pp4-main img{
+	display: block;
+	width: 100%;
+	margin-top: -0.7rem;
+}
+
+
+
+
+/*1366*/
+@media (max-width:1400px) {
+	.er-nav .box .en span{
+		display: block;
+		transform: scale(.833);
+		-webkit-transform: scale(.833);
+		-o-transform: scale(.833);
+		-moz-transform: scale(.833);
+		-ms-transform: scale(.833);
+		width: 120%;
+		margin-left: -10%;
+	}
+}

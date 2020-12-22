@@ -1,0 +1,190 @@
+.page1 .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.35rem;
+}
+
+.page1 .box-info {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.box-info .addr-box .p-box,
+.box-info .name-box .p-box,
+.box-info .phone-box .p-box,
+.box-info .start-box .p-box {
+    font-size: 0.24rem;
+    font-family: xiquejuzhenti;
+    color: #ffffff;
+    writing-mode: tb-rl;
+    letter-spacing: -0.1rem;
+    margin-right: 0.16rem;
+    text-orientation: upright;
+    line-height: 0.34rem;
+    letter-spacing: 0px;
+}
+
+.box-info .addr-box .p-box img {
+    width: 0.32rem;
+    margin-left: 0.06rem;
+    margin-top: 0.1rem;
+}
+
+.box-info .phone-box .p-box img {
+    width: 0.41rem;
+    margin-left: 0.06rem;
+    margin-top: 0.1rem;
+}
+
+.box-info .start-box .p-box {
+    font-size: 0.34rem;
+    font-weight: bold;
+}
+
+.box-info .start-box .p-box img {
+    width: 0.29rem;
+    margin-left: 0.16rem;
+    margin-top: 0.1rem;
+}
+
+.box-info .p-box span {
+    color: #d5b892;
+}
+
+.box-info .line {
+    width: 0.12rem;
+    height: 0.12rem;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 2px solid #7a736c;
+    margin: 0 0.35rem;
+    position: relative;
+}
+
+.map {
+    width: 10.54rem;
+    height: 3.05rem;
+    margin-top: 0.39rem;
+}
+
+.box-info .line::before {
+    content: '';
+    width: 2px;
+    height: 4.72rem;
+    position: absolute;
+    top: 0.10rem;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    background-color: #7a736c;
+}
+
+.page2 .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page2 .box-title {
+    margin-top: 1.68rem;
+    font-size: 0.60rem;
+    font-family: xiquezhaopaiti;
+    line-height: 0.60rem;
+}
+
+.page2 .box-title .title-img {
+    width: 1.72rem;
+    margin-left: -0.25rem;
+}
+
+.page2 .title-en {
+    font-size: 0.24rem;
+    color: #BD8040;
+    font-family: xiquejuzhenti;
+    margin-top: 0.14rem;
+    line-height: 0.26rem;
+}
+
+.page2 .form-box {
+    width: 12rem;
+    height: 3.58rem;
+    background-color: rgba(255, 255, 255, .6);
+    margin-top: 0.13rem;
+}
+
+.form-box .box-main {
+    width: 10.75rem;
+    margin: 0 auto;
+}
+
+.form-box .box-main .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-top: 0.46rem;
+}
+
+.input-group label {
+    font-size: 0.18rem;
+    font-family: xiquezhaopaiti;
+}
+
+.input-group input {
+    width: 1.88rem;
+    height: 0.5rem;
+    margin-left: 0.20rem;
+    border-radius: 0.06rem;
+    padding: 0 0.06rem;
+    font-size: 0.18rem;
+    font-family: xiquezhaopaiti;
+}
+
+.textarea-group {
+    display: flex;
+    margin-top: 0.27rem;
+}
+
+.textarea-group label {
+    font-size: 0.18rem;
+    font-family: xiquezhaopaiti;
+    margin-top: 0.16rem;
+}
+
+.textarea-group textarea {
+    width: auto;
+    min-width: 0.01rem;
+    flex: 1;
+    height: 1.45rem;
+    margin-left: 0.20rem;
+    border-radius: 0.06rem;
+    box-sizing: border-box;
+    padding: 0 0.06rem;
+    font-size: 0.18rem;
+    line-height: 0.24rem;
+    font-family: xiquezhaopaiti;
+    resize: none;
+}
+
+.form-box .box-main .btn {
+    width: 1.68rem;
+    height: 0.50rem;
+    margin: 0.20rem auto 0;
+}
+
+.form-box .box-main .btn button {
+    width: 100%;
+    height: 100%;
+    background-color: #BD8040;
+    border-radius: 0.06rem;
+    font-size: 0.24rem;
+    font-family: xiquejuzhenti;
+    color: #ffffff;
+    line-height: 0.50rem;
+    cursor: pointer;
+}

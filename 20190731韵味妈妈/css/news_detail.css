@@ -1,0 +1,29 @@
+.content-main {
+    width: 1200px;
+    margin: 70px auto 0;
+    padding-bottom: 75px;
+}
+
+.content-main .title {
+    text-align: center;
+    font-size: 45px;
+    font-size: bold;
+}
+
+.content-main .news-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    padding: 36px 0;
+}
+
+.content-main .content-text img {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.content-main .content-text p {
+    font-size: 24px;
+    line-height: 48px;
+}

@@ -1,0 +1,139 @@
+.hz .part1{
+	margin: 50px 0 60px;
+	text-align: center;
+}
+.hz .p1{
+	font-size: 14px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	color: #727171;
+}
+.hz .box1 img{
+	display: inline-block;
+	vertical-align: middle;
+}
+.hz .box1 span{
+	font-size: 34px;
+	color: #1f2c5f;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 10px;
+}
+.hz .p2{
+	font-size: 26px;
+	color: #727171;
+	margin-top: 5px;
+	margin-bottom: 35px;
+}
+.hz .line{
+	width: 50px;
+	height: 2px;
+	background: #1f2c5f;
+	margin: 0 auto 25px;
+}
+.hz .p3{
+	font-size: 16px;
+	color: #727171;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.hz1 .part1{
+	margin-bottom: 70px;
+}
+.hz1 .box2{
+	text-align: center;
+	margin-bottom: 35px;
+	line-height: 34px;
+}
+.hz1 .box2 img{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.hz1 .box2 .p3 span{
+	color: #1f2c5f;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.hz2 .box3{
+	margin-top: 50px;
+}
+.hz2 ul {
+	width: 1200px;
+	margin: -55px auto 0;
+	position: relative;
+	z-index: 2;
+}
+.hz2 ul li{
+	width: 540px;
+	float: left;
+	color: #1f2c5f;
+	text-align: center;
+}
+.hz2 ul li:nth-child(even){
+	float: right;
+	width: 552px;
+}
+.hz2 ul li .p4{
+	font-size: 26px;
+	margin-bottom: 18px;
+}
+.hz2 ul li .p5{
+	font-size: 20px;
+}
+
+.hz3 .item{
+	margin-top: 45px;
+	height: 790px;
+	position: relative;
+}
+.hz3 ul{
+	position: absolute;
+	left: 0;
+	top: 265px;
+	width: 100%;
+	z-index: 2;
+}
+.hz3 ul li{
+    width: 387px;
+    margin-right: 19px;
+    float: left;
+    text-align: center;
+    margin-bottom: 309px;
+}
+.hz3 ul li:nth-child(3n){
+	margin-right: 0;
+}
+.hz3 ul li .p4{
+	font-size: 21px;
+}
+.hz3 ul li .p5{
+	font-size: 16px;
+	color: #727171;
+	line-height: 30px;
+	margin-top: 15px;
+}
+
+
+/*20181101*/
+.hz3 ul li .p5{
+	width: 340px;
+	margin:0 auto;
+	margin-top: 15px;
+}
+/*2018.11.2*/
+@media screen and (max-width: 1200px) {
+.hzimg{width: 100% !important;}
+.hzimg1{width: 1000px !important;}
+.hz2 ul li{width: 46% !important;}
+.hz3 ul li{width: 32%;}
+.hz3 ul li:nth-child(1) .p4{margin-top: -47px;}
+.hz3 ul li:nth-child(2) .p4{margin-top: -47px;}
+.hz3 ul li:nth-child(3) .p4{margin-top: -47px;}
+.hz3 ul li:nth-child(4) .p4{margin-top: -67px;}
+.hz3 ul li:nth-child(5) .p4{margin-top: -67px;}
+.hz3 ul li:nth-child(6) .p4{margin-top: -67px;}
+.hz .part1{margin-bottom: 0;}
+}

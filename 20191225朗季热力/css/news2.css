@@ -1,0 +1,79 @@
+.main {
+    box-sizing: border-box;
+    padding-left: 5.74rem;
+    padding-top: 1.13rem;
+    padding-bottom: 0.72rem;
+    position: relative;
+}
+
+.news2 {
+    padding-bottom: 3.62rem;
+}
+
+.news2 .bg-icon {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 1.90rem;
+}
+
+.news2 .main-info {
+    width: 11rem;
+}
+
+.news2 .title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.news2 .title span.en {
+    font-size: 0.25rem;
+    color: #a5a6a6;
+    font-weight: bold;
+    line-height: 0.25rem;
+}
+
+.news2 .title span.cn {
+    font-size: 0.22rem;
+    color: #B61521;
+    margin-left: 0.23rem;
+    font-weight: bold;
+    line-height: 0.22rem;
+}
+
+.news2 .title::after {
+    content: '';
+    display: block;
+    flex: 1;
+    height: 0.02rem;
+    background-color: #a5a6a6;
+    margin-left: 0.30rem;
+}
+
+.news2 .video-box {
+    width: 100%;
+    height: 6.04rem;
+    font-size: 0;
+    margin-top: 0.33rem;
+    position: relative;
+}
+
+.news2 .video-box .play {
+    width: 1.76rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -0.88rem;
+    margin-top: -0.88rem;
+}
+
+.news2 .video-box video {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}

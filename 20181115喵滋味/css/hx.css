@@ -1,0 +1,88 @@
+
+/*banner下子栏目开始*/
+.zlm_qb{background:  #e7a52e;height: 64px;width: 100%;margin-bottom: 50px;}
+.zlm_qb img{position: absolute;}
+.zlm1{;width:1000px;margin: 0 auto;position: relative;background: url(../img/hx/a1.png) no-repeat left bottom ;height: 86px;z-index: 99;;}
+.zlm1 span{float: left; font-size: 22px;color: #030306;position: absolute;left: 132px;line-height: 62px;}
+.zlm1 .li1{position: absolute;left: 326px;}
+.zlm1 .li2{position: absolute;left: 464px;}
+.zlm1 .li3{position: absolute;left: 594px;}
+.zlm1 .li4{position: absolute;left: 730px;}
+.zlm1 .li5{position: absolute;left: 862px;}
+.zlm1 ul li{float: left;width: 136px;text-align: center;font-size: 20px;line-height: 62px;}
+/*banner下子栏目结束*/
+/*品牌符号开始*/
+.liuyan{height: 233px;position: relative;}
+.liuyan{background: url(../img/hx/a2.png) no-repeat 100%;height:50px ;margin-top: 10px;}
+.liuyan span{font-size: 32px;color: #ffffff;margin-left: 58px;line-height: 50px;}
+.ppfh_qb{background: url(../img/hx/a3.png) no-repeat right bottom;height: 284px;}
+.ppfh_qb h3{font-size: 46px;padding-top: 60px;margin-left: 10px;color: #000000;}
+.ppfh_qb p{font-size: 24px;color: #000000;margin-left: 10px;margin-top: 34px;}
+/*品牌符号结束*/
+/*part1开始*/
+
+.pp_part1{background: url(../img/hx/a4.jpg) no-repeat 100%;height: 557px;position: relative;}
+.pp_part1 span{position: absolute;top: 86px;font-size: 20px;color: #ffffff;left: 40px;}
+.pp_part1 h3{position: absolute;top: 154px;font-size: 47px;color: #000000;left: 10px;}
+.pp_part1 p{font-size: 24px;color: #000000;top: 242px;position: absolute;left: 10px;line-height: 42px;}
+/*part1结束*/
+/*part2开始*/
+.liuyan1{height: 233px;position: relative;}
+.liuyan1{background: url(../img/hz/c1.png) no-repeat 100%;height:36px ;margin-top: -20px;}
+.liuyan1 span{font-size: 18px;color: #ffffff;margin-left: 44px;line-height: 36px;}
+.pp_part2{background: url(../img/hx/a5.jpg) no-repeat  0px 100%;height: 340px;margin-left: 10px;position: relative;}
+.pp_part2 .txt1 h3{position: absolute;width: 100px;font-size: 60px;color: #ffffff;top: 118px;left: 38px;}
+.pp_part2 .txt1 span{position: absolute;font-size: 21px;color: #000000;top: 224px;left: 38px;}
+.pp_part2 .txt1 p{font-size: 14px;width: 120px;text-align: center;overflow: hidden;color: #000000;left: 11px;top: 254px;position: absolute;}
+.pp_part2 .txt2 h3{position: absolute;width: 100px;font-size: 60px;color: #ffffff;top: 118px;left: 430px;}
+.pp_part2 .txt2 span{position: absolute;font-size: 21px;color: #000000;top: 224px;left: 424px;}
+.pp_part2 .txt2 p{font-size: 14px;width: 120px;text-align: center;overflow: hidden;color: #000000;left: 398px;top: 254px;position: absolute;}
+.pp_part2 .txt3 h3{position: absolute;width: 100px;font-size: 60px;color: #ffffff;top: 118px;left: 814px;}
+.pp_part2 .txt3 span{position: absolute;font-size: 21px;color: #000000;top: 224px;left: 814px;}
+.pp_part2 .txt3 p{font-size: 14px;width: 120px;text-align: center;overflow: hidden;color: #000000;left:785px;top: 254px;position: absolute;}
+.pp_part2 .pp_img{width: 208px;height: 168px;position: absolute;left: 938px;top: 118px;}
+/*part2结束*/
+/*part3开始*/
+.liuyan3{height: 233px;position: relative;}
+.liuyan3{background: url(../img/hz/c1.png) no-repeat 100%;height:36px ;margin-top: 12px;}
+.liuyan3 span{font-size: 18px;color: #ffffff;margin-left: 44px;line-height: 36px;}
+.pp_part3 .pp_part3_txt{width: 540px;}
+.pp_part3 .pp_part3_txt h3{font-size: 47px;color: #000000;margin-top: 48px;margin-left: 10px;}
+.pp_part3 .pp_part3_txt span{font-size: 24px;margin: 14px 0 14px 10px;}
+.pp_part3 .pp_part3_txt p{font-size: 20px;line-height: 30px;color: #000000;margin-left: 10px;margin-top: 8px;display: -webkit-box;
+            display: -moz-box;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp:4;}
+.pp_part3 .pp_part3_img{width: 530px;height: 356px;border: 4px solid #000000;}
+.pp_part3 .pp_part3_img img{width: 530px;height: 356px;}
+/*part3结束*/
+/*part4开始*/
+.pp_part4{background: url(../img/hx/a8.jpg) no-repeat  0px 100%;height: 401px;margin-left: 10px;position: relative;margin-top: 8px;}
+.pp_part4 h3{font-size: 47px;color: #000000;position: absolute;left: 10px;top: 26px;}
+.pp_part4 .pp_part4_txt1 span{font-size: 24px;color: #000000;position: absolute;left: 10px;top: 108px;}
+.pp_part4 .pp_part4_txt1 p{font-size: 16px;color: #000000;left: 10px;top: 190px;position: absolute;width: 178px;line-height: 26px;}
+.pp_part4 .pp_part4_txt2 span{font-size: 24px;color: #000000;position: absolute;left: 608px;top: 108px;}
+.pp_part4 .pp_part4_txt2 p{font-size: 16px;color: #000000;left: 608px;top: 190px;position: absolute;width: 178px;line-height: 26px;}
+/*part4结束*/
+/*part5开始*/
+.pp_part5{background: url(../img/hx/a9.png) no-repeat  500px 100%;height: 274px;margin-left: 10px;margin-top: 8px;}
+.pp_part5 h3{font-size: 47px;color: #000000;margin-left: 10px;margin-top: 24px;}
+.pp_part5 .pp_part5_txt{font-size: 50px;color: #ffffff;background: #e7a52e;border-radius: 30px;width: 318px;height: 68px;line-height: 65px;text-align: center;margin-top: 74px;margin-left: 10px;}
+.pp_part5 span{color: #fcf4eb;}
+/*part5结束*/
+/*part6和part7开始*/
+.liuyan4{height: 233px;position: relative;}
+.liuyan4{background: url(../img/hz/c1.png) no-repeat 100%;height:36px ;}
+.liuyan4 span{font-size: 18px;color: #ffffff;margin-left: 44px;line-height: 36px;}
+.pp_part6{background: url(../img/hx/a11.jpg) no-repeat   100%;height: 885px;margin-left: 10px;margin-top: 12px;position: relative;}
+.pp_part6 .pp_part6_txt span{font-size: 24px;color: #ffffff;position: absolute;left: 10px;top: 35px;}
+.pp_part6 .pp_part6_txt h3{font-size: 47px;color: #000000;left: 10px;top: 116px;width: 710px;position: absolute;}
+.pp_part6 .pp_part6_txt p{font-size: 24px;color: #000000;line-height: 30px;position: absolute;left: 10px;top: 254px;}
+.pp_part6 .pp_part6_txt1 span{font-size: 24px;color: #ffffff;position: absolute;left: 10px;top:486px;}
+.pp_part6 .pp_part6_txt1 h3{font-size: 47px;color: #000000;left: 10px;top: 618px;width: 710px;position: absolute;}
+.pp_part6 .pp_part6_txt1 p{font-size: 24px;color: #000000;line-height: 30px;position: absolute;left: 10px;top: 690px;}
+/*part6和part7结束*/

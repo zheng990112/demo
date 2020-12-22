@@ -1,0 +1,151 @@
+.main {
+    padding-bottom: 0.53rem;
+}
+
+.er-nav {
+    top: 1.32rem;
+}
+
+.news .news-title {
+    font-size: 0.34rem;
+    color: #F29600;
+    font-weight: bold;
+}
+
+.news .news-title span {
+    font-size: 0.19rem;
+    font-weight: normal;
+}
+
+.news .news-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 0.28rem;
+}
+
+.news .news-info .info-l {
+    width: 5.23rem;
+    font-size: 0;
+}
+
+.news .news-info .info-r {
+    min-width: 0.01rem;
+    flex: 1;
+    margin-left: 0.34rem;
+}
+
+.news .news-info .info-r .list {
+    width: 100%;
+}
+
+.news .news-info .info-r .list a {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.18rem;
+    color: #666666;
+}
+
+.news .news-info .info-r .list a+a {
+    margin-top: 0.25rem;
+}
+
+.news .news-info .info-r .list a span:first-of-type {
+    flex: 1;
+    margin-right: 0.25rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.news .news-info .info-r .list a:hover {
+    color: #F29600;
+}
+
+.news .info-r .controls {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.43rem;
+}
+
+.news .info-r .controls .more {
+    width: 0.69rem;
+    height: 0.25rem;
+    font-size: 0.15rem;
+    color: #333333;
+    border: 0.02rem solid #333333;
+    text-align: center;
+    line-height: 0.25rem;
+}
+
+.news .info-r .controls .pages-box {
+    display: flex;
+}
+
+.news .info-r .controls .pages-box a {
+    color: #333333;
+    font-size: 0.18rem;
+    margin: 0 0.02rem;
+}
+
+.news .info-r .controls .pages-box a.on {
+    color: #F29600;
+}
+
+
+/* ------ News Detail CSS -------- */
+
+.news-detail {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news-detail .title {
+    width: 100%;
+    text-align: center;
+    font-size: 0.42rem;
+    color: #D6282A;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: myfont;
+}
+
+.news-detail .info {
+    font-size: 0.22rem;
+    color: #666666;
+    margin-top: 0.20rem;
+    font-family: myfont;
+}
+
+.news-detail .info span {
+    margin: 0 0.25rem;
+}
+
+.news-detail .detail {
+    margin-top: 0.53rem;
+}
+
+.news-detail .detail p {
+    font-size: 0.18rem;
+    color: #333333;
+    line-height: 0.30rem;
+    text-indent: 0.20rem;
+    text-align: justify;
+    font-family: myfont;
+}
+
+.news-detail .detail p+p {
+    margin-top: 0.2rem;
+}
+
+.news-detail .detail img {
+    width: 100%;
+    vertical-align: top;
+    margin: 0.2rem 0;
+}

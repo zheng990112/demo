@@ -1,0 +1,113 @@
+
+
+al.html
+
+
+<script>
+			$(window).scroll(function() {
+				var scrollTop = $(window).scrollTop();
+				var dom1 = $("#al1")[0].getBoundingClientRect().top;
+				var dom2 = $("#al2")[0].getBoundingClientRect().top;
+				if(dom1 < 86){
+					$(".er-nav a").removeClass("on");
+					$(".er-nav a").eq(0).addClass("on");
+				}
+				if(dom2 < 86){
+					$(".er-nav a").removeClass("on");
+					$(".er-nav a").eq(1).addClass("on");
+				}
+			})
+		</script>
+		
+		
+		
+lx.html
+
+
+<script>
+			$(window).scroll(function() {
+				var scrollTop = $(window).scrollTop();
+				var dom1 = $("#lx1")[0].offsetTop - scrollTop;
+				var dom2 = $("#lx2")[0].offsetTop - scrollTop;
+				if(dom1 < -88){
+					$(".er-nav a").removeClass("on");
+					$(".er-nav a").eq(0).addClass("on");
+				}
+				if(dom2 < -1050){
+					$(".er-nav a").removeClass("on");
+					$(".er-nav a").eq(1).addClass("on");
+				}
+				
+			})
+		</script>
+		
+		
+		
+news.html
+
+<script>
+			$(window).scroll(function() {
+				var scrollTop = $(window).scrollTop();
+				var dom1 = $("#news1")[0].offsetTop - scrollTop;
+				var dom2 = $("#news2")[0].offsetTop - scrollTop;
+				console.log(dom2)
+				if(dom1 < -88){
+					$(".er-nav a").removeClass("on");
+					$(".er-nav a").eq(0).addClass("on");
+				}
+				if(dom2 < -480){
+					$(".er-nav a").removeClass("on");
+					$(".er-nav a").eq(1).addClass("on");
+				}
+			})
+		</script>
+		
+		
+ys.html
+
+<script>
+			$(window).scroll(function() {
+				var scrollTop = $(window).scrollTop();
+				var dom1 = $("#ys1")[0].getBoundingClientRect().top;
+				var dom2 = $("#ys2")[0].getBoundingClientRect().top;
+				var dom3 = $("#ys3")[0].getBoundingClientRect().top;
+				var dom4 = $("#ys4")[0].getBoundingClientRect().top;
+				if(dom1 < 86){
+					$(".er-nav a").removeClass("on");
+					$(".er-nav a").eq(0).addClass("on");
+				}
+				if(dom2 < 86){
+					$(".er-nav a").removeClass("on");
+					$(".er-nav a").eq(1).addClass("on");
+				}
+				if(dom3 < 86){
+					$(".er-nav a").removeClass("on");
+					$(".er-nav a").eq(2).addClass("on");
+				}
+				if(dom4 < 86){
+					$(".er-nav a").removeClass("on");
+					$(".er-nav a").eq(3).addClass("on");
+				}
+			})
+		</script>		
+
+
+
+
+p_common.css
+
+
+211行
+
+
+.p-main .menu-box a:hover,
+.p-main .menu-box a.active{
+	font-weight: bold;
+}
+.er-nav a:hover,
+.er-nav a.on{
+	font-weight: bold;
+}
+
+
+

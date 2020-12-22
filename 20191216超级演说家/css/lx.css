@@ -1,0 +1,178 @@
+.title {
+    width: 8.90rem;
+    border-bottom: 0.08rem solid #EEEEEE;
+    padding-bottom: 0.26rem;
+    font-size: 0.48rem;
+    line-height: 0.48rem;
+    color: #333333;
+}
+
+.map {
+    width: 9.87rem;
+    height: 4.18rem;
+    margin-top: 0.34rem;
+}
+
+.p-box {
+    font-size: 0.26rem;
+    color: #333333;
+    line-height: 0.26rem;
+    margin-top: 0.48rem;
+}
+
+.p-box p+p {
+    margin-top: 0.14rem;
+}
+
+.board-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 0.83rem;
+}
+
+.board-box .board-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.1rem;
+}
+
+.board-box .board-left span {
+    font-size: 0.34rem;
+    line-height: 0.34rem;
+    color: #c69a48;
+}
+
+.board-box .board-left img {
+    width: 0.74rem;
+    vertical-align: top;
+    margin-top: 0.35rem;
+}
+
+.board-box .board-right {
+    width: 6.35rem;
+}
+
+.board-box .board-right .board-form {
+    /* padding: 0; */
+    background-color: #2d58a4;
+    border-radius: 0.29rem;
+    padding: 0.37rem 0.57rem;
+}
+
+.board-box .board-right .board-form .input-group {
+    padding: 0 0.26rem;
+    background-color: #ffffff;
+    height: 0.52rem;
+    display: flex;
+    align-items: center;
+}
+
+.board-box .board-right .board-form .input-group+.input-group {
+    margin-top: 0.20rem;
+}
+
+.board-box .board-right .board-form .input-group label {
+    font-size: 0.28rem;
+    color: #2d58a4;
+}
+
+.board-box .board-right .board-form .input-group input {
+    font-size: 0.28rem;
+    color: #2d58a4;
+    height: 0.52rem;
+    /* line-height: 52px; */
+    flex: 1;
+}
+
+.board-box .board-right .board-form .textarea-group {
+    padding: 0 0.26rem;
+    background-color: #ffffff;
+    height: 1.67rem;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 0.20rem;
+}
+
+.board-box .board-right .board-form .textarea-group label {
+    font-size: 0.28rem;
+    color: #2d58a4;
+    padding-top: 0.08rem;
+}
+
+.board-box .board-right .board-form .textarea-group textarea {
+    font-size: 0.28rem;
+    color: #2d58a4;
+    height: 1.67rem;
+    /* line-height: 52px; */
+    flex: 1;
+    box-sizing: border-box;
+    padding-top: 0.1rem;
+    resize: none;
+}
+
+.board-box .board-right .board-form .sub-btn {
+    text-align: center;
+    margin-top: 0.24rem;
+}
+
+.board-box .board-right .board-form .sub-btn button {
+    width: 1.20rem;
+    height: 0.35rem;
+    line-height: 0.35rem;
+    font-size: 0.28rem;
+    border-radius: 0.18rem;
+    background-color: #c69a48;
+    color: #ffffff;
+}
+
+.board-box .board-right .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.35rem;
+}
+
+.board-box .board-right .controls a {
+    display: flex;
+    align-items: center;
+    font-size: 0;
+    margin: 0 0.66rem;
+}
+
+.board-box .board-right .controls a img {
+    vertical-align: top;
+    width: 0.27rem;
+}
+
+.board-box .board-right .controls a:nth-child(2) img {
+    width: 0.38rem;
+}
+
+.board-box .board-right .controls a span {
+    font-size: 0.26rem;
+    color: #333333;
+    line-height: 0.26rem;
+    margin-left: 0.14rem;
+}
+
+.board-box .board-right .lx-btn {
+    display: block;
+    width: 2.11rem;
+    height: 0.62rem;
+    background-image: url(../img/lx/icon4.png);
+    background-size: 100% 100%;
+    margin: 0.35rem auto 0;
+    font-size: 0.26rem;
+    line-height: 0.26rem;
+    color: #333333;
+    box-sizing: border-box;
+    padding-left: 0.80rem;
+    padding-top: 0.22rem;
+}
+
+.main {
+    padding-bottom: 0.60rem;
+}

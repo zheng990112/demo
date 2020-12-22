@@ -1,0 +1,99 @@
+.part1_box{
+  padding-top: 55px;
+  width: 1250px;
+  margin: 0 auto;
+}
+.part1_box .img_01{
+  width: 620px;
+  float: left;
+}
+.part1_box  div.right{
+  float: left;
+  margin-left: 65px;
+}
+.part1_box .title{
+  margin-top: 40px;
+  font-size: 50.08px;
+  color: #008e31;
+}
+.part1_box .title .p1{
+  display: inline-block;
+  font-weight: bold;
+}
+.part1_box .title .p2{
+  display: inline-block;
+}
+.part1 .box{
+  color: #ffffff;
+  width: 560px;
+}
+.part1 .box p{
+  float: left;
+  width: 245px;
+  text-align: center;
+}
+.part1 .box p.one{
+  margin-right: 60px;
+}
+.part1 .box .p1{
+  font-size: 32px;
+  background: url(../img//app/app_02.jpg) center no-repeat;
+  background-size: 245px;
+  height: 60px;
+  line-height: 60px;
+  margin-top: 30px;
+}
+.part1 .box .p2{
+  margin-top: 30px;
+  font-size: 24px;
+  padding-top: 20px;
+  height: 70px;
+  background: url(../img//app/app_03.jpg) center no-repeat;
+  background-size: 209px;
+}
+.part1 .word{
+  color: #231815;
+  font-size: 18px;
+  padding-bottom: 50px;
+  border-bottom: 2px solid #555353;
+}
+.part1 .word p{
+  width: 220px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.part1 .word p:last-child{
+  margin-left: 82px;
+}
+.part1 .title.two {
+  margin-top: 20px;
+}
+.part1 .title.two .p1{
+  font-size: 34.87px;
+}
+.part1 .box .p3{
+  width: 235px;
+  float: left;
+  color: #231815;
+  font-size: 18px;
+  padding-top: 42px;
+  padding-left: 58px;
+}
+.part1 .erwm {
+  padding-left: 30px;
+}
+.part1 .erwm div{
+  width: 195px;
+  float: left;
+  text-align: center;
+  margin-right: 55px;
+}
+.part1 .erwm img{
+  width: 195px;
+}
+.part1 .erwm p{
+  line-height: 70px;
+  color: #008e31;
+  font-size: 16px;
+}

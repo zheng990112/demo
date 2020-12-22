@@ -1,0 +1,119 @@
+/*mw1*/
+.mw1 .part1-main{
+	text-align: center;
+}
+.mw1 .part1-main ul li{
+	display: inline-block;
+	margin:0 50px;
+	margin-top: 50px;
+}
+.mw1 .part1-main ul li .li-img{
+	width: 320px;
+	height: 204px;
+	border: 2px solid #e3b569;
+	position:relative;
+}
+.mw1 .part1-main ul li .li-img .img1{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.mw1 .part1-main ul li .li-img .img-fonts{
+	font-size: 30px;
+	writing-mode: tb-rl; 
+	font-family: "宋体";
+	position:absolute;
+	top: 0;
+	right: 0;
+	letter-spacing: 5px;
+}
+.mw1 .part1-main ul li .li-img .img-fonts span{
+	font-size: 36px;
+	font-family: myfontb;
+	color:#b31d23;
+}
+.mw1 .part1-main ul li .li-img .img2{
+	position:absolute;
+	top: -27px;
+	left: -27px;
+	width: 80px;
+}
+.mw1 .part1-main ul li .li-img .img2 img{
+	display: block;
+	width: 100%;
+}
+.mw1 .part1-main ul li .li-img .img-fonts .p1{
+	padding-top: 45px;
+}
+.mw1 .part1-main ul li .li-img .img-fonts .p2{
+	margin-top: -20px;
+}
+.mw1 .part1-main ul li .fonts-box{
+	width: 260px;
+	height: 50px;
+	border:2px solid #e3b569;
+	margin-left: 32px;
+	margin-top: -20px;
+}
+.mw1 .part1-main ul li .fonts-box .li-fonts{
+	font-size: 28px;
+	font-family: "宋体";
+	color:#fff;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background-color: #e3b569;
+	border-radius: 20px;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+/*mw2*/
+.mw2 .part1-main{
+	text-align: center;
+	margin-top: 10px;
+}
+.mw2 .part1-main ul li{
+	display: inline-block;
+	margin:0 7px;
+	margin-top: 35px;
+}
+.mw2 .part1-main ul li .li-img{
+	width: 280px;
+	height: 180px;
+	border:2px solid #e3b569;
+}
+.mw2 .part1-main ul li .li-img img{
+	display:block;
+	width: 100%;
+	height: 100%;
+}
+.mw2 .part1-main ul li .fonts-box{
+	width: 250px;
+	height: 50px;
+	border:2px solid #E3B569;
+	margin-left: 15px;
+	margin-top: -20px;
+}
+.mw2 .part1-main ul li .fonts-box .li-fonts{
+	font-size: 26px;
+	font-family: "宋体";
+	width: 190px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #E3B569;
+	border-radius: 20px;
+	margin-left: 32px;
+	margin-top: 32px;
+	color:#fff;
+	
+}
+
+
+
+/*.mw3*/
+.mw4 .part1-main ul li .li-img{
+	width: 320px;
+	height: 208px;
+}

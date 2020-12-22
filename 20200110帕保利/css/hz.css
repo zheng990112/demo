@@ -1,0 +1,250 @@
+
+
+
+.hz1{
+	padding-top:1.2rem;
+	padding-bottom: 2rem;
+}
+.hz1 .top1{
+	width: 4.7rem;
+}
+.hz1 .top1 img{
+	display: block;
+	width: 100%;
+}
+.hz1 .top2{
+	width:6.78rem;
+	margin-top: 0.6rem;
+}
+.hz1 .top2 img{
+	display: block;
+	width: 100%;
+}
+.hz1 ul li{
+	float:left;
+	width: 3.5rem;
+	margin-right: 1.75rem;
+	margin-top: 1.2rem;
+}
+.hz1 ul li:last-child{
+	margin-right: 0;
+}
+.hz1 ul li .li-img{
+	width: 3.44rem;
+	height: 3.64rem;
+	margin:0 auto;
+}
+.hz1 ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.hz1 ul li .li-fonts{
+	width: 3.5rem;
+	height: 5.2rem;
+	border:1px solid #ada9a8;
+	box-sizing: border-box;
+	padding-top: 0.3rem;
+	margin-top: 0.4rem;
+}
+.hz1 ul li .li-fonts .p1{
+	margin:0 auto;
+	width: 2.15rem;
+	height: 0.7rem;
+}
+.hz1 ul li .li-fonts .p1 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.hz1 ul li .li-fonts .line{
+	width: 2.9rem;
+	height: 1px;
+	background-color: #ada9a8;
+	margin:0 auto;
+	margin-top: 0.3rem;
+}
+.hz1 ul li .li-fonts .p2{
+	font-size: 0.22rem;
+	color:#b0b0b1;
+	line-height: 0.49rem;
+	text-align: center;
+	margin-top: 0.2rem;
+}
+
+
+.hz1 ul li:nth-child(2) .li-fonts .p1{
+	margin:0 auto;
+	width: 2.71rem;
+	height: 0.7rem;
+}
+.hz1 ul li:last-child .li-fonts .p1{
+	margin:0 auto;
+	width: 2.25rem;
+	height: 0.7rem;
+}
+
+
+
+
+.hz2{
+	padding-top:1.2rem;
+	padding-bottom: 2rem;
+}
+.hz2 .top1{
+	width:5.48rem;
+}
+.hz2 .top1 img{
+	display: block;
+	width: 100%;
+}
+.hz2 .top2{
+	font-size: 0.85rem;
+	color:#231815;
+	line-height: 0.85rem;
+	margin-top: 0.5rem;
+}
+.hz2 .hz2-main ul li{
+	float:left;
+	width: 3.81rem;
+	height: 4.34rem;
+	margin-right:1.285rem;
+	position:relative;
+	margin-top: 1.2rem;
+}
+.hz2 .hz2-main ul li:nth-child(3n){
+	margin-right: 0;
+}
+.hz2 .hz2-main ul li::after{
+	content:"";
+	display:inline-block;
+	width: 0.8rem;
+	height: 0.3rem;
+	background:url(../img/hz/b-icon.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	top: 50%;
+	margin-top: -0.15rem;
+	right: -1.05rem;
+}
+.hz2 .hz2-main ul li:nth-child(3n)::after{
+	display:none;
+}
+.hz2 .hz2-main ul li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.hz2 .hz2-main ul li p{
+	font-size: 0.34rem;
+	line-height: 0.56rem;
+	color:#595757;
+	text-align: center;
+	width: 2.9rem;
+	margin:0 auto;
+	margin-top: 2.25rem;
+}
+.hz2 .hz2-main ul li:first-child p{
+	text-align:justify;
+}
+
+
+
+
+
+.hz3{
+	width: 100%;
+	padding-top:1.2rem;
+	padding-bottom:3.5rem;
+}
+.hz3 .hz3-title{
+	width: 14rem;
+	margin:0 auto;
+}
+.hz3 .top1{
+	width:6.92rem;
+}
+.hz3 .top1 img{
+	display: block;
+	width: 100%;
+}
+.hz3 .top2{
+	font-size: 0.85rem;
+	color:#231815;
+	line-height: 0.85rem;
+	margin-top: 0.5rem;
+}
+.hz3 .hz3-main{
+	background-color: #eaeaea;
+	margin-top: 1.2rem;
+}
+.hz3 .hz3-main .hz3-l{
+	width: 11.2rem;
+	height: 9.25rem;
+}
+.hz3 .hz3-main .hz3-l img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.hz3 .hz3-main .hz3-r{
+	width: 4.8rem;
+	margin-right: 2.5rem;
+    margin-top:0.9rem;
+}
+.hz3 .hz3-main .hz3-r ul li{
+	padding-bottom: 0.2rem;
+	padding-top: 0.4rem;
+	border-bottom: 1px solid #848484;
+}
+.hz3 .hz3-main .hz3-r ul li:last-child{
+	border-bottom: none;
+}
+.hz3 .hz3-main .hz3-r ul li .li-num{
+	font-size: 0.22rem;
+	color:#fff;
+	width: 0.3rem;
+	height: 0.3rem;
+	background-color: #848484;
+	text-align: center;
+	line-height: 0.3rem;
+	position:relative;
+	z-index: 3;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 0.1rem;
+}
+.hz3 .hz3-main .hz3-r ul li .li-num::before{
+	content:"";
+	display: inline-block;
+	width: 0.3rem;
+	height: 0.3rem;
+	border:1px solid #848484;
+	box-sizing: border-box;
+	position:absolute;
+	left: -0.1rem;
+	top: -0.1rem;
+	z-index: -1;
+}
+.hz3 .hz3-main .hz3-r ul li .li-fonts{
+	width: 4.15rem;
+	font-size: 0.22rem;
+	color:#595757;
+	display: inline-block;
+	vertical-align: 0.1rem;
+	line-height: 0.33rem;
+	text-align:justify;
+	margin-left: 0.2rem;
+}
+
+
+
+@media (max-width:1300px){
+	.hz3 .hz3-main .hz3-r ul li .li-fonts{
+		margin-left: 0.1rem;
+	}
+}

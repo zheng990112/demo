@@ -1,0 +1,573 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Microsoft Yahei";
+	font-size: 12px;
+	color: #000000;
+	-webkit-text-size-adjust: none;
+	-webkit-font-smoothing: antialiased;
+	width: 100%;
+  overflow-x: hidden;
+  background: url(../img/bg.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+@font-face{
+	font-family: "myfont_Magpie";
+	src: url('../font/MagpieSign.TTF');
+}
+
+/* 自定义标签样式 */
+
+a {
+	text-decoration: none;
+	color: #000;
+	-webkit-tap-highlight-color: transparent;
+	display: block;
+}
+
+label {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ul li,
+ol li {
+	list-style: none;
+}
+
+input,
+img,
+textarea,
+button {
+	outline: none;
+	border: 0;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-appearance: none;
+}
+
+button {
+	background: none;
+	outline: none;
+}
+
+b {
+	font-weight: normal;
+}
+
+u {
+	text-decoration: none;
+}
+
+/* 自定义公共类名样式 */
+
+.fl-lt {
+	float: left;
+}
+
+.fl-rt {
+	float: right;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+/*返回顶部*/
+/* 
+.backTop {
+	position: fixed;
+	bottom: 250px;
+	right: 32px;
+	bottom: 200px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #05469c;
+	cursor: pointer;
+	display: none;
+	z-index: 99;
+}
+
+.backTop span {
+	display: block;
+	font-size: 40px;
+	color: #fff;
+	margin-top: -7px;
+	margin-left: 7px;
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+}
+
+.backTop:hover {
+	opacity: 0.8;
+} */
+
+
+/*banner*/
+.banner {
+	position: relative;
+	width: 100%;
+  font-size: 0;
+  height: 100%;
+}
+
+.banner .swiper-slide img {
+	display: block;
+	min-width: 100%;
+  height: 100%;
+}
+
+.banner .swiper-pagination {
+  bottom: 0.5rem;
+}
+
+.banner .swiper-pagination .swiper-pagination-bullet {
+  width: 0.18rem;
+  height: 0.18rem;
+  background-color: #919191;
+  opacity: 1;
+  border-radius: 50%;
+  margin: 0 0.1rem;
+}
+
+.banner .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #a72024;
+}
+
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+	background-image: url(../img/banner_prev.png);
+	left: 1.4rem;
+	width: 0.68rem;
+	height: 0.48rem;
+	margin-top: -0.24rem;
+	background-size: 100% 100%;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+	background-image: url(../img/banner_next.png);
+	right: 1.4rem;
+	width: 0.68rem;
+	height: 0.48rem;
+	margin-top: -0.24rem;
+	background-size: 100% 100%;
+}
+
+
+
+/* header */
+.header{
+	width: 100%;
+	height: 1.64rem;
+	background: url(../img/header_bg.png) no-repeat;
+	background-size: 100% 100%;
+	position: fixed;
+	z-index: 9999;
+	left: 0;
+	top: 0;
+}
+.header_main{
+	width: 12rem;
+	height: 1.24rem;
+	margin: auto;
+	position: relative;
+}
+.header ul {
+	width: 100%;
+	float: left;
+}
+.header ul li{
+	float: left;
+	margin-left: 0.22rem;
+	width: 1rem;
+	height: 1.24rem;
+	text-align: center;
+	font-size: 0.22rem;
+	margin-top: 0.4rem;
+	position: relative;
+}
+.header ul li:first-child{
+	margin-left: 1.56rem;
+}
+.header ul li:nth-child(4){
+	margin-left: 1.8rem;
+}
+.header ul a.title{
+	color: #ffffff;
+	font-size: 0.24rem;
+	line-height: 0.24rem;
+}
+.header ul a.title img{
+	display: none;
+	width: 0.15rem;
+	height: 0.12rem;
+	margin: auto;
+}
+.header ul a.title .span1{
+	display: block;
+	font-family: "myfont_Magpie";
+}
+.header ul a.title .span2{
+	text-transform: uppercase;
+	display: block;
+  transform: scale(0.58);
+  -webkit-transform: scale(0.58);
+  -o-transform: scale(0.58);
+  -moz-transform: scale(0.58);
+  -ms-transform: scale(0.58);
+  width: 172%;
+  margin-left: -36%;
+}
+.header ul li:hover img,
+.header ul li.active a.title img{
+	display: block;
+}
+.header ul .item{
+	width: 100%;
+	background: #a72024;
+	position: absolute;
+	top: 0.84rem;
+	left: 0;
+	padding-top: 0.2rem;
+	padding-bottom: 0.25rem;
+	border-bottom-left-radius: 0.2rem;
+	border-bottom-right-radius: 0.2rem;
+	display: none;
+}
+.header ul .item a{
+	color: #ffffff;
+	font-size: 0.18rem;
+	display: block;
+	height: 0.24rem;
+	line-height: 0.25rem;
+	margin-top: 0.1rem;
+}
+.header ul .item a:first-child{
+	margin-top: 0;
+}
+.header ul .item a:hover,
+.header ul .item a.on{
+	background: #000000;
+}
+
+
+.header .header_title{
+	position: absolute;
+	width: 3.6rem;
+	padding-top: 0.34rem;
+	top: 0;
+	left: 100%;
+}
+.header .header_title .p1,
+.header .header_title .p2{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.header .header_title .p1{
+	width: 0.5rem;
+	height: 0.47rem;
+	padding-top: 0.03rem;
+	line-height: 0.22rem;
+	border: 2px solid #ffffff;
+	border-radius: 0.05rem;
+	color: #ffffff;
+	text-align: center;
+	margin-right: 0.28rem;
+	font-size: 0.24rem;
+	position: relative;
+}
+.header .header_title .p1::after{
+	content: "";
+	width: 1px;
+	height: 0.63rem;
+	background-color: #ffffff;
+	position: absolute;
+	top: 50%;
+	margin-top: -0.315rem;
+	right: -0.28rem;
+}
+.header .header_title .p1 span{
+	display: block;
+  transform: scale(0.67);
+  -webkit-transform: scale(0.67);
+  -o-transform: scale(0.67);
+  -moz-transform: scale(0.67);
+  -ms-transform: scale(0.67);
+  width: 149%;
+  margin-left: -24.5%;
+}
+.header .header_title .p2{
+	color: #ffffff;
+	line-height: 1;
+	margin-left: 0.1rem;
+}
+.header .header_title .p2 img,
+.header .header_title .p2 div{
+	display: inline-block;
+	vertical-align: middle;
+}
+.header .header_title .p2 img{
+	width: 0.41rem;
+	height: 0.41rem;
+}
+.header .header_title .p2 p:first-child{
+	font-size: 0.26rem;
+}
+.header .header_title .p2 p:first-child span{
+	display: block;
+  transform: scale(0.58);
+  -webkit-transform: scale(0.58);
+  -o-transform: scale(0.58);
+  -moz-transform: scale(0.58);
+  -ms-transform: scale(0.58);
+  width: 172%;
+  margin-left: -36%;
+}
+.header .header_title .p2 p:last-child{
+	font-size: 0.3rem;
+	font-weight: bold;
+}
+
+/* footer */
+.footer{
+	width: 100%;
+	height: 1.1rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background: #000000;
+}
+
+.footer .logo{
+	float: left;
+	width: 2.73rem;
+	height: 0.57rem;
+	margin-left: 0.9rem;
+	margin-top: 0.265rem;
+}
+.footer ul{
+	float: right;
+	margin-right: 0.65rem;
+}
+.footer ul li{
+	float: left;
+	height: 0.43rem;
+	margin-left: 0.1rem;
+	margin-top: 0.335rem;
+}
+.footer ul li img{
+	display: block;
+	height: 0.43rem;
+}
+.footer .footer_main{
+	width: 10rem;
+	margin-left: 1rem;
+	padding-top: 0.25rem;
+	float: left;
+}
+.footer .footer_main div{
+	float: left;
+	padding-left: 0.4rem;
+	width: 2.55rem;
+	position: relative;
+}
+.footer .footer_main div::after{
+	content: "";
+	width: 1px;
+	height: 0.44rem;
+	background: #ffffff;
+	position: absolute;
+	right: 0;
+	top: 0.06rem;
+}
+.footer .footer_main div:first-child{
+	width: 3.95rem;
+}
+.footer .footer_main div:last-child{
+	width: 2.3rem;
+}
+.footer .footer_main div:last-child::after{
+	display: none;
+}
+.footer .footer_main div p{
+	font-size: 0.24rem;
+	line-height: 0.28rem;
+	color: #ffffff;
+}
+.footer .footer_main div p span{
+	display: block;
+	line-height: 0.28rem;
+  transform: scale(0.67);
+  -webkit-transform: scale(0.67);
+  -o-transform: scale(0.67);
+  -moz-transform: scale(0.67);
+  -ms-transform: scale(0.67);
+  width: 149%;
+  margin-left: -24.5%;
+}
+.footer .footer_main div:last-child p{
+	float: left;
+	width: 1.2rem;
+}
+.footer .footer_main div img{
+	float: right;
+	margin-right: 0.45rem;
+	width: 0.57rem;
+	height: 0.57rem;
+}
+
+.content{
+	position: relative;
+	padding-bottom: 1.1rem;
+}
+.content::after{
+	content: "";
+	width: 4.28rem;
+	height: 1.87rem;
+	background: url(../img/icon_bgR.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 1.96rem;
+	right: 0;
+}
+.main_title1{
+	display: flex;
+	justify-content: center;
+	padding-top: 2rem;
+}
+.main_title1 p,
+.main_title1 a{
+	display: inline-block;
+	padding: 0 0.25rem;
+	margin: 0 0.06rem;
+	height: 0.38rem;
+	line-height: 0.38rem;
+	background: #a72024;
+	font-size: 0.18rem;
+	color: #ffffff;
+}
+.main_title1 a.on,
+.main_title1 a:hover{
+	background: #000000;
+}
+.main_title1 p{
+	background: #005c59;
+	text-transform: uppercase;
+	font-size: 0;
+}
+.main_title1 p span{
+	display: inline-block;
+	font-size: 0.18rem;
+}
+.main_title1 p span:last-child{
+  margin-left: 0.1rem;
+  white-space:nowrap;
+}
+.main_title1 p span b{
+	display: inline-block;
+  transform: scale(0.5);
+  -webkit-transform: scale(0.5);
+  -o-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  transform-origin: left center;
+  -webkit-transform-origin: left center;
+  -o-webkit-transform-origin: left center;
+  -moz-webkit-transform-origin: left center;
+  -ms-webkit-transform-origin: left center;
+}
+.main_title2{
+	margin: auto;
+	margin-top: 0.25rem;
+	width: 14rem;
+	font-size: 0;
+	overflow: hidden;
+}
+.main_title2 .p1{
+	font-size: 0.18rem;
+	color: #3e3a39;
+	text-transform: uppercase;
+	line-height: 0.5rem;
+  font-weight: bold;
+  width: 5.6rem;
+  overflow: hidden;
+}
+.main_title2 .p1 span,
+.main_title2 .p1 img{
+	display: inline-block;
+	vertical-align: middle;
+}
+.main_title2 .p1 span:last-child{
+  position: relative;
+}
+.main_title2 .p1 span:last-child::after{
+  content: "";
+	height: 2px;
+	width: 5.6rem;
+	background: #898786;
+	position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-left: 0.15rem;
+  margin-top: -1px;
+}
+.main_title2 .p1 img{
+	width: 0.23rem;
+	height: 0.23rem;
+	margin-left: 0.15rem;
+	margin-right: 0.05rem;
+}
+.main_title2 .p2{
+	text-align: center;
+	position: relative;
+	margin-top: -0.5rem;
+}
+.main_title2 .p2 span{
+	display: inline-block;
+	width: 0.5rem;
+	height: 0.5rem;
+	background: url(../img/icon1.png) no-repeat;
+	background-size: 100% 100%;
+	margin: 0 0.03rem;
+	font-size: 0.42rem;
+	color: #a72024;
+	font-family: "myfont_Magpie";
+	line-height: 1;
+}
+.main_title2 .p2::after{
+	content: "";
+	height: 2px;
+	width: 5.6rem;
+	background: #898786;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -1px;
+}
+
+.header .header_nav ul li::before{
+  content: "";
+  width: 0.53rem;
+  height: 1.06rem;
+  background: url(../img/header_icon2.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: -0.3rem;
+  left: 0.2rem;
+  display: none;
+}
+.header .header_nav ul li.active::before,
+.header .header_nav ul li:hover::before{
+  display: block;
+}
+.header .header_title .p2 p:last-child{
+  font-size: 0.24rem;
+}

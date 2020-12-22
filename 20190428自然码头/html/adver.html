@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+		<link rel="shortcut icon" type="image/x-icon" href="../img/logoIcon.png" media="screen">
+		<link rel="stylesheet" href="../css/adver.css" />
+	</head>
+	<body>
+		<div class="adver-content">
+			<img src="../img/adver/a_01.jpg" alt="" />
+			<img data-original="../img/adver/a_02.jpg" alt="" class="lazy"/>
+			<img data-original="../img/adver/a_03.jpg" alt="" class="lazy"/>
+			<img data-original="../img/adver/a_04.jpg" alt="" class="lazy"/>
+			<img data-original="../img/adver/a_05.jpg" alt="" class="lazy"/>
+			<img data-original="../img/adver/a_06.jpg" alt="" class="lazy"/>
+			<img data-original="../img/adver/a_07.jpg" alt="" class="lazy"/>
+			<img data-original="../img/adver/a_08.jpg" alt="" class="lazy"/>
+			<img data-original="../img/adver/a_09.jpg" alt="" class="lazy"/>
+			<img data-original="../img/adver/a_10.jpg" alt="" class="lazy"/>
+			<img data-original="../img/adver/a_11.jpg" alt="" class="lazy"/>
+			<img data-original="../img/adver/a_12.jpg" alt="" class="lazy"/>
+			<img data-original="../img/adver/a_13.jpg" alt="" class="lazy"/>
+			<img data-original="../img/adver/a_14.jpg" alt="" class="lazy"/>
+			<img data-original="../img/adver/a_15.jpg" alt="" class="lazy"/>
+			<img data-original="../img/adver/a_16.jpg" alt="" class="lazy"/>
+			<img data-original="../img/adver/a_17.jpg" alt="" class="lazy"/>
+			<!--<img data-original="../img/adver/a_18.jpg" alt="" class="lazy"/>-->
+		</div>
+		
+		
+		<!--返回顶部-->
+		<div class="backTop">
+			<span><</span>
+		</div>
+		
+		
+		<script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
+		<script src="../js/common.js"></script>
+		<script src="../js/jq.lazyload.js"></script>
+		
+		<script type="text/javascript">
+            $('img.lazy').lazyload({threshold:100});
+            //返回顶部
+			var w_h = $(window).height();
+			$(window).scroll(function () {
+				var scrollTop = $(window).scrollTop();
+		    	if(scrollTop > w_h*1){
+		    		$('.backTop').fadeIn();
+		    		$('.backTop').css({'bottom':'200px'})
+		    	}else{
+		    		$('.backTop').fadeOut()
+		    	}
+		    });
+			
+			$('.backTop').click(function(){
+				var scrollTop = $(window).scrollTop();
+				$("html,body").animate({ scrollTop: 0 }, 600);
+			})
+        </script>
+	</body>
+</html>

@@ -1,0 +1,112 @@
+.part1{
+	padding-top: 50px;
+}
+.part1 .part1-main{
+	width: 946px;
+	height: 434px;
+	background: url(../img/index/a1.jpg) no-repeat;
+	background-size: 100% 100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /*Safari,Chrome*/
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /*css3: Opera,IE9*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding:5px;
+    margin-top: 50px;
+}
+.part1 .part1-main .main_box{
+	height: 100%;
+	border:1px solid #1285b0;
+}
+.part1 .part1-main .main_box .map{
+	width: 500px;
+	height: 100%;
+}
+.part1 .part1-main .main_box .main_right{
+	width: 400px;
+	font-size: 28px;
+	padding-right: 10px;
+	padding-top: 100px;
+}
+
+/*.part2*/
+.part2{
+	padding-top: 50px;
+}
+.part2 .part2-main{
+	position:relative;
+}
+.part2 .part2-main .part-img{
+	display: block;
+	width: 100%;
+	margin-top: 50px;
+}
+.part2 .part2-main .form{
+	position:absolute;
+	top: 20px;
+	left: 33px;
+	width: 640px;
+	height: 280px;
+}
+.part2 .part2-main .form input{
+	width: 100%;
+	height: 40px;
+	font-size: 26px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	margin-top: 30px;
+	color:#d0a750;
+}
+.part2 .part2-main .form .form-left{
+	width: 350px;
+	height: 280px;
+	padding-top: 70px;
+	box-sizing: border-box;
+}
+.part2 .part2-main .form .form-right{
+	width: 200px
+}
+.part2 .part2-main .form .form-right textarea{
+	width: 100%;
+	height: 280px;
+	font-size: 26px;
+	padding-left: 10px;
+	padding-top: 10px;
+	color:#d0a750;
+	box-sizing: border-box;
+	resize: none;
+}
+
+
+textarea::-webkit-input-placeholder,
+input::-webkit-input-placeholder {
+	color:#d0a750;
+}
+textarea:-moz-placeholder ,
+input:-moz-placeholder {
+/* FF 4-18 */
+	color:#d0a750;
+}
+textarea::-moz-placeholder,
+input::-moz-placeholder {
+/* FF 19+ */
+	color:#d0a750;
+}
+textarea:-ms-input-placeholder,
+input:-ms-input-placeholder {
+/* IE 10+ */
+	color:#d0a750;
+}
+
+.part2 .part2-main .btn{
+	font-size: 30px;
+	color:#d0a750;
+	width: 130px;
+	height: 40px;
+	display: block;
+	margin:40px auto;
+	background-color: #1285b0;
+	cursor: pointer;
+	/*font-weight: bold;*/
+}

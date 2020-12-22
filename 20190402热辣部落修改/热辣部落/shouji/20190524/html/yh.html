@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>热辣诱惑</title>
+		<meta http-equiv="X-UA-Compatitle" content="IE=edge">
+		<meta name="keywords" content="{$seo.keywords}">
+		<meta name="description" content="{$seo.description}">
+		<!--网站开启对 web app 程序的支持-->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no,email=no,adress=no" />
+		<link rel="stylesheet" href="../css/swiper-3.3.1.min.css" type="text/css" />
+		<link rel="stylesheet" href="../css/common.css" type="text/css" />
+		<link rel="stylesheet" href="../css/yh.css" type="text/css" />
+
+		<script type="text/javascript">
+			document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + 'px';
+		</script>
+	</head>
+
+	<body>
+		<div class="header clearfix">
+			<img src="../img/head1.jpg" alt="" class="img1" />
+			<div class="fl-lt menu-img"><img src="../img/menu.png" alt="" /></div>
+			<div class="fl-rt">
+				<a href="/" class="logo"><img src="../img/logo1.png" alt="" /></a>
+				<p class="p1">400-694-4888</p>
+				<a href="tel:400-694-4888" class="phone"><img src="../img/phone.png" alt="" /></a>
+			</div>
+		</div>
+		<div class="banner">
+			<div class="swiper-container banner-swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="../img/banner1.jpg" alt="" /></div>
+					<div class="swiper-slide"><img src="../img/banner1.jpg" alt="" /></div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+
+		<div class="menu">
+			<ul class="nav-list">
+				<volist name="nav" id="v">
+					<li <?php if($nid==$v[ 'id']){echo 'class="active"';}?>>
+						<a href="/Wap/{$v.flag}/index/nav_id/{$v.id}.html">
+							<span>热辣优势</span>
+						</a>
+					</li>
+				</volist>
+			</ul>
+		</div>
+		<div class="content yh">
+			<div class="er-nav">
+				<p class="on"><a href="">首页</a></p>
+				<p><a href="">品牌简介</a></p>
+				<p><a href="">热辣优势</a></p>
+				<p><a href="">热辣诱惑</a></p>
+				<p><a href="">部落实力</a></p>
+				<p><a href="">加入部落</a></p>
+			</div>
+			<div class="part1">
+				<img src="../img/index/c_04.jpg" alt="" class="img-block" />
+				<div class="box">
+					<p class="p1">
+						五大系列
+					</p>
+					<p class="p2">
+						全面覆盖原始需求。
+					</p>
+					<p class="p3">
+						covering the original<br/>demand in an all-round way.
+					</p>
+					<p class="p4">
+						香辣不燥、意味绵长，<br/>暖胃祛湿，尽情享瘦。
+					</p>
+				</div>
+			</div>
+			<div class="part2">
+				<img src="../img/yh/a_02.jpg" alt="" class="img-block" />
+				<div class="con">
+					<div class="title">
+						<div class="box">
+							<p class="p1">
+								部落特色锅
+							</p>
+							<p class="p2">
+								Tribal special pot
+							</p>
+						</div>
+						<div class="line line1"></div>
+						<div class="line line2"></div>
+					</div>
+					<p class="p3">
+						是兄弟，就一锅端！
+					</p>
+					<ul class="clearfix">
+						<li>
+							狂野牛肉锅
+						</li>
+						<li>
+							劲道牛杂锅
+						</li>
+						<li>
+							极品海鲜锅
+						</li>
+						<li>
+							热辣鸡肉锅
+						</li>
+						<li>
+							部落三鲜锅
+						</li>
+						<li>
+							清汤鲜鱼锅
+						</li>
+						<li>
+							激情全肉锅
+						</li>
+						<li>
+							不羁羊肉锅
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="part3">
+				<img src="../img/yh/a_04.jpg" alt="" class="img-block" />
+				<div class="con">
+					<div class="title">
+						<div class="box">
+							<p class="p1">
+								野性配菜
+							</p>
+							<p class="p2">
+								Wild side dishes
+							</p>
+						</div>
+						<div class="line line1"></div>
+						<div class="line line2"></div>
+					</div>
+				</div>
+			</div>
+			<div class="part4">
+				<img src="../img/yh/a_05.jpg" alt="" class="img-block" />
+				<img src="../img/yh/a_06.jpg" alt="" class="img-block" />
+				<img src="../img/yh/a_07.jpg" alt="" class="img-block" />
+			</div>
+			
+			<div class="part5 part" style="background: url(../img/yh/addbg1.jpg) center top no-repeat;">
+				<div class="title">
+					<div class="box">
+						<p class="p1">
+							八色烤肉
+						</p>
+						<p class="p2">
+							Eight color roast meat
+						</p>
+					</div>
+					<div class="line line1"></div>
+					<div class="line line2"></div>
+				</div>
+				<div class="con">
+					<p><span>依古法八浸八渍，泡制八小时，呈现出八种色泽、八种风味、八种营养的丰富烤肉盛宴。肩扛式出餐形式，花式搭配，营养滋补，惊艳的不只是味觉！</span></p>
+					<div class="box"><img src="../img/yh/adda1.jpg" alt="" /></div>
+					<div class="box"><img src="../img/yh/adda2.jpg" alt="" /></div>
+				</div>
+			</div>
+			
+			<div class="part6 part" style="background: url(../img/yh/addbg2.jpg) center top no-repeat;">
+				<div class="title">
+					<div class="box">
+						<p class="p1">八色串串</p>
+						<p class="p2">Eight color string</p>
+					</div>
+					<div class="line line1"></div>
+					<div class="line line2"></div>
+				</div>
+				<div class="con">
+					<p>创造性的使用笔架式出餐形式，传承中国文化，简便新奇，让各种风马牛不相及的菜品通过合理搭配，有荤有素，营养均衡，八种配菜、八个步骤、八种满足，爽到宇宙天际！</p>
+					<ul class="clearfix">
+						<li><img src="../img/yh/addb1.jpg" alt="" /></li>
+						<li><img src="../img/yh/addb2.jpg" alt="" /></li>
+						<li><img src="../img/yh/addb3.jpg" alt="" /></li>
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+		<div class="footer">
+			<img src="../img/foot1.jpg" alt="" class="img1" />
+			<img src="../img/logo1.png" alt="" class="img2" />
+			<p>400-694-4888</p>
+		</div>
+
+		<div class="bg"></div>
+
+		<script src="../js/jquery.min.3_1_0.js"></script>
+		<script src="../js/swiper-3.3.1.jquery.min.js" type="text/javascript"></script>
+		<script type="text/javascript" src="../js/common.js"></script>
+	</body>
+
+</html>

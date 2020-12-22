@@ -1,0 +1,546 @@
+.page1 .box {
+    margin-top: 2.46rem;
+    margin-left: 1.48rem;
+}
+
+.page1 .info {
+    display: flex;
+}
+
+.page1 .person {
+    width: 5.44rem;
+    position: absolute;
+    bottom: 0;
+    right: 1.71rem;
+}
+
+.page1 .info .info-t {
+    width: 3.92rem;
+    font-family: xiquezhaopaiti;
+    color: #ffffff;
+    text-align: right;
+    position: relative;
+    font-size: 0;
+}
+
+.page1 .info .info-t .info-t-img {
+    position: absolute;
+    bottom: 0.04rem;
+    left: 0;
+}
+
+.page1 .info.info-01 .info-t .info-t-img {
+    width: 2.04rem;
+}
+
+.page1 .info.info-02 .info-t .info-t-img {
+    width: 1.95rem;
+}
+
+.page1 .info.info-03 .info-t .info-t-img {
+    width: 1.72rem;
+}
+
+.page1 .info .info-t p {
+    font-size: 0.33rem;
+    letter-spacing: -0.02rem;
+}
+
+.page1 .info .info-desc {
+    font-size: 0.16rem;
+    line-height: 0.23rem;
+    color: #D5B892;
+    font-family: xiquejuzhenti;
+    margin-left: 0.57rem;
+}
+
+.page1 .info .info-desc img {
+    width: 0.41rem;
+}
+
+.page1 .info.info-01 .info-desc {
+    width: 9.51rem;
+}
+
+.page1 .info.info-02 .info-desc {
+    width: 7.03rem;
+}
+
+.page1 .info.info-03 .info-desc {
+    width: 5.56rem;
+}
+
+.page1 .hr {
+    display: flex;
+    align-items: center;
+    margin: 0.50rem 0 0.30rem;
+}
+
+.page1 .hr .point {
+    width: 0.15rem;
+    height: 0.15rem;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 2px solid #D5B892;
+}
+
+.page1 .hr .line {
+    flex: 1;
+    width: auto;
+    min-width: 1px;
+    height: 2px;
+    background-color: #D5B892;
+}
+
+.page2 .icon-05 {
+    width: 6.56rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.page2 .tag-text {
+    font-size: 0.24rem;
+    font-family: xiquejuzhenti;
+    color: #ffffff;
+    writing-mode: tb-rl;
+    margin-right: 0.16rem;
+    text-orientation: upright;
+    letter-spacing: 0.07rem;
+    line-height: 0.24rem;
+    position: absolute;
+    left: 0.89rem;
+    bottom: 0.89rem;
+}
+
+.page2 .tag-text span:last-of-type {
+    margin-top: 0.24rem;
+}
+
+.page2 .box {
+    margin-top: 1.67rem;
+    margin-left: 4.76rem;
+    position: relative;
+    z-index: 9;
+    display: flex;
+}
+
+.page2 .box .box-title {
+    font-size: 0.89rem;
+    font-family: xiquezhaopaiti;
+    /* color: #ffffff; */
+    writing-mode: tb-rl;
+    margin-right: 0.16rem;
+    text-orientation: upright;
+    /* line-height: 2.56rem; */
+    letter-spacing: -0.15rem;
+    line-height: 0.89rem;
+}
+
+.page2 .box .box-title .p2 {
+    margin-top: 1.49rem;
+    margin-left: 0.05rem;
+}
+
+.page2 .box .banner-box {
+    width: 8.91rem;
+    margin-left: 1.23rem;
+    margin-top: 1.59rem;
+    position: relative;
+}
+
+.page2 .box .banner-box .banner {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.page2 .box .item {
+    display: flex;
+    padding-top: 0.13rem;
+    border-top: 1px solid #D5B892;
+}
+
+.page2 .box .item+.item {
+    margin-top: 1rem;
+}
+
+.page2 .box .item .item-title {
+    width: 2.48rem;
+}
+
+.page2 .box .item .item-title .cn {
+    font-size: 0.33rem;
+    font-family: xiquezhaopaiti;
+    line-height: 0.33rem;
+}
+
+.page2 .box .item .item-title .en {
+    font-size: 0.12rem;
+    color: #D5B892;
+    font-family: XiQuejuzhenti;
+    letter-spacing: 0.05rem;
+    margin-top: 0.17rem;
+    white-space: nowrap;
+    transform: scale(0.83);
+    width: 120%;
+    margin-left: -10%;
+}
+
+.page2 .box .item .item-desc {
+    width: 6.15rem;
+    font-size: 0.16rem;
+    line-height: 0.23rem;
+    color: #231815;
+    font-family: XiQuejuzhenti;
+}
+
+.page2 .banner-box .swiper-pagination {
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    margin-top: 0.67rem;
+}
+
+.page2 .banner-box .swiper-pagination .swiper-pagination-bullet {
+    width: 0.11rem;
+    height: 0.11rem;
+    background-color: #D4B188;
+    margin: 0 0.07rem;
+}
+
+.page2 .banner-box .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #B68040;
+}
+
+.page3 .icon-08 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 6.39rem;
+    z-index: 2;
+}
+
+.page3 .icon-09 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 4.40rem;
+    z-index: 2;
+}
+
+.page3 .box {
+    margin-top: 1.34rem;
+    position: relative;
+    z-index: 99;
+    display: flex;
+}
+
+.page3 .box-l {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.80rem;
+}
+
+.page3 .box-l .box-l-t {
+    width: 1.42rem;
+    font-size: 0;
+}
+
+.page3 .box-l .box-l-b p {
+    font-size: 0.24rem;
+    font-family: xiquezhaopaiti;
+    /* color: #B68040; */
+    writing-mode: tb-rl;
+    margin-left: 0.66rem;
+    text-orientation: upright;
+}
+
+.page3 .box-l .box-l-b p span:first-of-type {
+    font-size: 0.55rem;
+    letter-spacing: -0.1rem;
+    margin-top: 0.20rem;
+}
+
+.page3 .box-l .box-l-b p span:last-of-type {
+    font-size: 0.60rem;
+    letter-spacing: -0.1rem;
+    margin-top: -0.60rem;
+}
+
+.page3 .box-sub {
+    font-size: 0.20rem;
+    font-family: xiquezhaopaiti;
+    color: #B68040;
+    writing-mode: tb-rl;
+    margin-left: 0.25rem;
+    text-orientation: upright;
+    margin-top: 0.20rem;
+    line-height: 0.38rem;
+    letter-spacing: 0.06rem;
+}
+
+.page3 .box-sub p:last-of-type {
+    margin-top: 0.30rem;
+}
+
+.page3 .box-sub p span:last-of-type {
+    margin-top: 0.20rem;
+}
+
+.page3 .box-info {
+    margin-left: 1.02rem;
+    margin-top: 0.58rem;
+}
+
+.page3 .list {
+    display: flex;
+}
+
+.page3 .list+.list {
+    margin-top: 0.24rem;
+}
+
+.page3 .list.list-02 {
+    margin-left: 1.70rem;
+}
+
+.page3 .list.list-03 {
+    margin-left: 2.72rem;
+}
+
+.page3 .list .item {
+    display: flex;
+    align-items: flex-start;
+}
+
+.page3 .list .item+.item {
+    margin-left: 0.54rem;
+}
+
+.page3 .item .item-img {
+    width: 1.62rem;
+    height: 1.62rem;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 1px solid #B68040;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page3 .item .item-img .cover-img {
+    width: 1.52rem;
+    height: 1.52rem;
+    border-radius: 50%;
+}
+
+.page3 .item .item-name p {
+    font-size: 0.32rem;
+    font-family: xiquezhaopaiti;
+    writing-mode: tb-rl;
+    text-orientation: upright;
+    letter-spacing: -0.08rem;
+    margin-top: 0.20rem;
+    margin-left: 0.15rem;
+}
+
+.page3 .item .item-desc span {
+    font-size: 0.16rem;
+    font-family: xiquejuzhenti;
+    writing-mode: tb-rl;
+    text-orientation: upright;
+    color: #231815;
+    letter-spacing: -0.01rem;
+    margin-top: 0.25rem;
+    margin-left: 0.20rem;
+}
+
+.page4 .box {
+    margin-top: 1.90rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page4 .box-title {
+    font-size: 0;
+    position: relative;
+}
+
+.page4 .box-title .box-title-bg {
+    width: 5.41rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -2.7rem;
+    top: 0.35rem;
+}
+
+.page4 .box-title p {
+    font-size: 0.72rem;
+    font-family: XiQuezhaopaiti;
+    line-height: 0.72rem;
+    letter-spacing: -0.07rem;
+}
+
+.page4 .box-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.40rem;
+}
+
+.page4 .box-info .tags {
+    width: 10.77rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page4 .box-info .tag .tag-name {
+    width: 1.67rem;
+    height: 0.63rem;
+    background-image: url(../img/ms/icon_10.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size: 0.32rem;
+    line-height: 0.63rem;
+    color: #B68040;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    text-indent: 0.05rem;
+}
+
+.page4 .box-info .tag .tag-desc {
+    font-size: .24rem;
+    text-align: center;
+    font-family: XiQuejuzhenti;
+    letter-spacing: -0.03rem;
+    margin-top: 0.15rem;
+}
+
+.page4 .box-info .line {
+    width: 9.31rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 0.1rem;
+}
+
+.page4 .box-info .line .point {
+    width: 0.21rem;
+    height: 0.21rem;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 2px solid #B68040;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 2;
+}
+
+.page4 .box-info .line::before {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #B68040;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -1px;
+}
+
+.page4 .box-info .imgs {
+    width: 12.01rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.30rem;
+}
+
+.page4 .box-info .imgs .img-box {
+    width: 2.91rem;
+    font-size: 0;
+}
+
+.page5 .box {
+    margin-top: 1.65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page5 .box .tags {
+    width: 12.12rem;
+    display: flex;
+}
+
+.page5 .box .tags.tags-02 {
+    margin-top: 0.18rem;
+}
+
+.page5 .box .tag {
+    width: 3.03rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page5 .box .tag .tag-icon {
+    height: 0.37rem;
+    font-size: 0;
+}
+
+.page5 .box .tag .tag-name {
+    font-size: 0.48rem;
+    color: #B68040;
+    font-family: XiQuezhaopaiti;
+    letter-spacing: -0.05rem;
+    margin-top: 0.10rem;
+}
+
+.page5 .box .tag .tag-desc {
+    font-size: 0.14rem;
+    line-height: 0.24rem;
+    font-family: XiQuejuzhenti;
+    color: #ffffff;
+    text-align: center;
+    white-space: nowrap;
+    margin-top: 0.15rem;
+}
+
+.page5 .box .nums {
+    width: 9.27rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.18rem;
+}
+
+.page5 .box .num {
+    width: 21px;
+    height: 21px;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: #B68040;
+    border-radius: 50%;
+    border: 2px solid #B68040;
+    text-align: center;
+    line-height: 0.17rem;
+    font-family: XiQuejuzhenti;
+    position: relative;
+}
+
+.page5 .box .num::after {
+    content: "";
+    display: block;
+    width: 2.71rem;
+    height: 0.08rem;
+    background-image: url(../img/ms/page5-icon_09.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    margin-top: -0.04rem;
+}
+
+.page5 .box .nums .num:last-of-type::after {
+    display: none;
+}

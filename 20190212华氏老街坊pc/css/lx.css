@@ -1,0 +1,139 @@
+.main-box{
+	background-color: #000;
+}
+
+
+.part1{
+	position:relative;
+}
+.part1 .part1-bg{
+	display: block;
+	width: 100%;
+}
+.part1 .part1-fonts{
+	position:absolute;
+	width: 600px;
+	right: 100px;
+	top: 70px;
+	
+}
+.part1 .part1-fonts .p1{
+	font-size: 108px;
+	color:#585858;
+}
+.part1 .part1-fonts .p2{
+    font-size: 60px;
+    font-family: myfont;
+    color: #ffbf52;
+    font-weight: bold;
+    margin-top: -55px;
+    line-height: 72px;
+}
+.part1 .part1-fonts .p3{
+	font-size: 30px;
+	color:#fff;
+	margin-top: 70px;
+	margin-bottom: 20px;
+}
+.part1 .part1-fonts .p4{
+	font-size: 24px;
+	color:#fff;
+}
+
+.part2 .map{
+	width: 80%;
+	height: 460px;
+	margin:0 auto;
+	margin-top: -220px;
+	border:2px solid #ffbf52;
+}
+.part3{
+	padding-bottom: 100px;
+}
+.part3 .p1{
+	font-size: 54px;
+	font-family: myfont;
+	color:#ffbf52;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 60px;
+}
+.part3 .box{
+	width: 76%;
+	margin:0 auto;
+	margin-top: 40px;
+}
+.part3 .box .top input{
+	width: 48%;
+	height: 40px;
+	background-color: #595858;
+	color:#fff;
+	padding-left:20px;
+	box-sizing: border-box;
+	font-size: 26px;
+}
+.part3 .box .dz{
+	width: 100%;
+	height: 40px;
+	background-color: #595858;
+	color:#fff;
+	padding-left:20px;
+	box-sizing: border-box;
+	font-size: 26px;
+	margin-top:10px;
+}
+.part3 .box textarea{
+	width: 100%;
+	height: 235px;
+	background-color: #595858;
+	color:#fff;
+	padding-left:20px;
+	padding-top: 10px;
+	box-sizing: border-box;
+	font-size: 26px;
+	margin-top:10px;
+	resize: none;
+}
+.part3 .box .btn-box input{
+	width: 200px;
+	height: 40px;
+	background-color: #595858;
+	color:#fff;
+	font-size: 26px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+input::-webkit-input-placeholder ,
+textarea::-webkit-input-placeholder {
+	color:#fff;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+/* FF 4-18 */
+	color:#fff;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+/* FF 19+ */
+	color:#fff;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+/* IE 10+ */
+	color:#fff;
+}
+
+
+
+@media (max-width:1444px) {
+	.part1 .part1-fonts{
+		right: 10px;
+	}
+	.part2 .map{
+		margin-top: -100px;
+	}
+	.part1 .part1-fonts .p3{
+		margin-top: 50px;
+	}
+}

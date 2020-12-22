@@ -1,0 +1,126 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    margin-top: 1.66rem;
+}
+
+.box-title {
+    text-align: center;
+    position: relative;
+}
+
+.box-title .cn {
+    font-size: 0.60rem;
+    font-family: xiquezhaopaiti;
+    line-height: 0.60rem;
+    letter-spacing: -0.05rem;
+}
+
+.box-title .en {
+    font-size: 0.24rem;
+    font-family: xiquejuzhenti;
+    color: #BD8040;
+    margin-top: 0.14rem;
+    letter-spacing: -0.02rem;
+}
+
+.box-title .title-bg {
+    position: absolute;
+    width: 4.72rem;
+    left: 50%;
+    margin-left: -2.36rem;
+    top: 0.37rem;
+}
+
+.box-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.43rem;
+}
+
+.box-info .info-l {
+    width: 5.21rem;
+}
+
+.info-l .news-item {
+    display: block;
+    font-family: xiquejuzhenti;
+    line-height: 0.26rem;
+    letter-spacing: -0.01rem;
+    padding-bottom: 0.20rem;
+    border-bottom: 1px solid #BD8040;
+    cursor: pointer;
+}
+
+.info-l .news-item:last-of-type {
+    border-bottom: none;
+}
+
+.info-l .news-item+.news-item {
+    margin-top: 0.18rem;
+}
+
+.info-l .news-item .item-name {
+    font-size: 0.24rem;
+    color: #BD8040;
+    line-height: 0.24rem;
+}
+
+.info-l .news-item .item-desc {
+    font-size: 0.16rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin-top: 0.1rem;
+}
+
+.info-l .news-item .item-time {
+    font-size: 0.18rem;
+    margin-top: 0.19rem;
+    line-height: 0.1rem;
+}
+
+.box-info .info-r {
+    width: 6.01rem;
+    font-size: 0;
+    margin-left: 0.79rem;
+}
+
+.page-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: xiquejuzhenti;
+    margin-top: 0.52rem;
+}
+
+.page-box>a {
+    margin: 0 0.05rem;
+    font-size: 0.16rem;
+}
+
+.page-box .pages {
+    display: flex;
+}
+
+.page-box .pages a {
+    display: block;
+    width: 0.27rem;
+    height: 0.14rem;
+    font-size: 0.14rem;
+    line-height: 0.14rem;
+    background-color: #dfdddc;
+    text-align: center;
+    margin: 0 0.02rem;
+}
+
+.page-box .pages a.active {
+    background-color: #BD8040;
+    color: #ffffff;
+}

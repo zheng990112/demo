@@ -1,0 +1,31 @@
+.container{
+	padding: 100px 100px 0;
+	text-align: center;
+}
+.time{
+	width: 400px;
+	height: 40px;
+	margin: 30px auto;
+	font-size: 18px;
+}
+.time span{
+	float: left;
+}
+.time span:first-child{
+	float: right;
+}
+.textImg{
+	float: left;
+	width: 100%;
+	margin: 30px auto;
+}
+.word{
+	padding: 30px 0;
+	font-size: 16px;
+	text-align: justify;
+}
+.word span{
+	display: inline-block;
+	width: 32px;
+	height: 16px;
+}

@@ -1,0 +1,1018 @@
+.section {
+	overflow: hidden;
+}
+#fp-nav{
+	left: 30px;
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+	top: 0;
+	left: 0;
+	width: 12px;
+	height: 12px;
+	margin: 0;
+	background: #919191;
+}
+#fp-nav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li a.active span, .fp-slidesNav ul li:hover a.active span{
+	margin: 0;
+	background: #a72024;
+}
+#fp-nav ul li a:hover span, 
+.fp-slidesNav ul li a:hover span{
+	margin: 1px;
+	width: 10px;
+	height: 10px;
+	background: #a72024;
+}
+
+
+.section .page_main{
+	width: 12rem;
+	height: 6rem;
+	margin: auto;
+	position: relative;
+	z-index: 0;
+	padding-top: 0.15rem;
+}
+.page1{
+	background: url(../img/index/b_bg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.page1 .first_img{
+	position: absolute;
+	width: 1.79rem;
+	height: 0.56rem;
+	left: -1.04rem;
+	top: 2rem;
+}
+.page1 .page_box{
+	width: 8.8rem;
+	margin-left: 3.7rem;
+	padding-top: 1.5rem;
+}
+.page1 .page_box .p1{
+	font-size: 0.57rem;
+	color: #ffffff;
+	font-weight: bold;
+	position: relative;
+	display: inline-block;
+	font-family: "myfont_Magpie";
+}
+.page1 .page_box .p1::after{
+	content: "";
+	width: 4.19rem;
+	height: 0.09rem;
+	background: url(../img/index/b_icon2.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	left: 100%;
+	top: 50%;
+	margin-left: 0.2rem;
+	margin-top: -0.045rem;
+}
+.page1 .page_box .p2{
+	width: 7.66rem;
+	text-align: justify;
+	color: #ffffff;
+	font-size: 0.22rem;
+	line-height: 0.34rem;
+	margin-top: 0.3rem;
+}
+.page1 .page_box ul{
+	margin-top: 0.5rem;
+}
+.page1 .page_box ul li{
+	font-size: 0.48rem;
+	line-height: 0.5rem;
+	color: #ffffff;
+	float: left;
+	width: 1.8rem;
+	height: 1.4rem;
+	padding-top: 0.4rem;
+	background-color: rgba(0, 0, 0, .3);
+	margin-right: 0.26rem;
+	text-align: center;
+  font-family: "myfont_Magpie";
+  position: relative;
+  z-index: 0;
+  border-radius: 50%;
+}
+.page1 .page_box ul li::before{
+  content: "";
+  width: 1.8rem;
+  height: 1.8rem;
+  background: url(../img/index/b_icon3.png) center no-repeat;
+	background-size: 1.2rem 1.2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.page2{
+	background: url(../img/index/c_bg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.page2 .page_main{
+	width: 13rem;
+}
+.page2 .str{
+	color: #ffffff;
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+}
+.page2 .str .p1{
+	display: inline-block;
+	position: relative;
+	font-size: 0.57rem;
+	font-family: "myfont_Magpie";
+}
+.page2 .str .p1::after,
+.page2 .str .p1::before{
+	content: "";
+	width: 6rem;
+	height: 2px;
+	background-color: #a72024;
+	position: absolute;
+	top: 50%;
+}
+.page2 .str .p1::after{
+	margin-left: -0.2rem;
+	left: -6rem;
+}
+.page2 .str .p1::before{
+	right: -6rem;
+	margin-right: -0.2rem;
+}
+.page2 .str .p2{
+	display: inline-block;
+	font-size: 0.34rem;
+	margin-top: 0.1rem;
+	position: relative;
+	padding-top: 0.1rem;
+	padding-bottom: 0.1rem;
+	font-family: "myfont_Magpie";
+}
+.page2 .str .p2::after,
+.page2 .str .p2::before{
+	content: "";
+	width: 100%;
+	height: 2px;
+	background-color: #ffffff;
+	position: absolute;
+	left: 0;
+}
+.page2 .str .p2::after{
+	top: 0;
+	height: 1px;
+}
+.page2 .str .p2::before{
+	bottom: 0;
+}
+.page2 .list_box{
+	margin-top: 0.6rem;
+	position: relative;
+}
+.page2 .list_box div{
+	position: absolute;
+	top: 0;
+	left: -0.6rem;
+	font-size: 0.33rem;
+	color: #ffffff;
+}
+.page2 .list_box div p{
+	display: inline-block;
+	vertical-align: top;
+	width: 0.35rem;
+	font-family: "myfont_Magpie";
+}
+.page2 .list_box div img{
+	display: inline-block;
+	vertical-align: top;
+}
+.page2 ul{
+	width: 11.9rem;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.page2 ul li{
+	display: inline-block;
+	width: 2.84rem;
+	height: 3.88rem;
+	position: relative;
+}
+.page2 ul li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.page2 ul li p{
+	position: absolute;
+	width: 1.9rem;
+	height: 0.58rem;
+	background: url(../img/index/c_icon1.png) no-repeat;
+	background-size: 100% 100%;
+	left: -0.1rem;
+	font-size: 0.26rem;
+	color: #ffffff;
+	text-align: center;
+	line-height: 0.66rem;
+	font-family: "myfont_Magpie";
+}
+.page2 ul li:nth-child(2n){
+	margin-top: -0.3rem;
+}
+.page2 ul li:nth-child(2n) p{
+	top: 0.2rem;
+}
+.page2 ul li:nth-child(2n+1) p{
+	bottom: 0.45rem;
+}
+
+.page3{
+	background: url(../img/index/d_bg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.page3 .page_main{
+	margin: 0;
+	padding-left: 2.7rem;
+}
+.page3 .p1{
+	margin-top: 0.2rem;
+	font-size: 0.4rem;
+	color: #ca147d;
+	font-weight: bold;
+	font-family: "myfont_Magpie";
+}
+.page3 .p2{
+	margin-top: 0.2rem;
+	font-size: 0.38rem;
+	color: #ffffff;
+	font-family: "myfont_Magpie";
+}
+.page3 ul{
+	width: 7.2rem;
+	display: flex;
+	margin-top: 0.3rem;
+	justify-content: space-between;
+}
+.page3 ul li{
+	display: inline-block;
+	width: 1.7rem;
+	text-align: center;
+}
+.page3 ul li img{
+	display: block;
+	width: 1.6rem;
+	height: 1.6rem;
+	border: 0.05rem solid #c0c0c0;
+	border-radius: 50%;
+}
+.page3 ul li p{
+	font-size: 0.31rem;
+	color: #ffffff;
+	background: url(../img/index/d_icon1.png) center 0.1rem no-repeat;
+	background-size: 1.23rem 0.4rem;
+	line-height: 0.45rem;
+	font-family: "myfont_Magpie";
+}
+.page4{
+	background: url(../img/index/e_bg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.page4 .page_main{
+	width: 12.3rem;
+}
+.page4 .str{
+	float: left;
+	margin-top: 0.5rem;
+}
+.page4 .str .p1{
+	font-size: 0.4rem;
+	color: #ca147d;
+	font-family: "myfont_Magpie";
+}
+.page4 .str .p2{
+	font-size: 0.37rem;
+	color: #ffffff;
+	margin-top: 0.2rem;
+	font-family: "myfont_Magpie";
+}
+.page4 ul{
+	float: right;
+	width: 8.1rem;
+	margin-top: 0.2rem;
+	display: flex;
+	justify-content: space-between;
+}
+.page4 ul img{
+	display: block;
+	margin: auto;
+	width: 1.88rem;
+	height: 2.93rem;
+}
+.page4 ul p{
+	width: 1.7rem;
+	margin: auto;
+}
+.page4 ul .p1{
+	margin-top: 0.15rem;
+	padding-top: 0.2rem;
+	background: url(../img/index/e_icon1.png) center top no-repeat;
+	background-size: 1.51rem 0.66rem;
+	color: #ffffff;
+	font-size: 0.38rem;
+	line-height: 1;
+	font-family: "myfont_Magpie";
+	text-align: center;
+	padding-bottom: 0.2rem;
+	border-bottom: 2px solid #a19d9d;
+}
+.page4 ul .p1 span{
+	display: block;
+	width: 1rem;
+	margin: auto;
+}
+.page4 ul .p2{
+	font-size: 0.14rem;
+	color: #ffffff;
+	margin-top: 0.2rem;
+	line-height: 0.22rem;
+	text-align: justify;
+}
+.page5{
+	background: url(../img/index/f_bg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.page5 .page_main{
+	padding-top: 0.5rem;
+}
+.page5 .firet_p{
+	font-size: 0.4rem;
+	line-height: 0.36rem;
+	color: #ca147d;
+	font-family: "myfont_Magpie";
+}
+.page5 .str{
+	color: #ffffff;
+	margin-top: 0.2rem;
+}
+.page5 .str .p1{
+	font-size: 0.38rem;
+	line-height: 1;
+	font-family: "myfont_Magpie";
+}
+.page5 .str .p2{
+	font-size: 0.18rem;
+	line-height: 0.26rem;
+	margin-left: 0.32rem;
+	padding-left: 0.32rem;
+	border-left: 1px solid #969593;
+}
+.page5 .str img{
+	float: left;
+	margin-top: -0.2rem;
+	margin-left: 0.1rem;
+	width: 1.27rem;
+	height: 1.12rem;
+}
+.page5 ul{
+	display: flex;
+	justify-content: space-between;
+}
+.page5 ul li{
+	display: inline-block;
+	width: 2.1rem;
+	position: relative;
+}
+.page5 ul img{
+	display: block;
+	width: 2rem;
+	height: 2rem;
+	margin: auto;
+}
+.page5 ul .p1{
+	text-align: center;
+	line-height: 1;
+	width: 0.56rem;
+	height: 0.56rem;
+	background: #cd147d;
+	font-family: "myfont_Magpie";
+	font-size: 0.48rem;
+	color: #ffffff;
+	border-radius: 50%;
+	border: 0.03rem solid #c2c2c3;
+	position: absolute;
+	left: 50%;
+	margin-left: -0.31rem;
+	top: 1.65rem;
+}
+.page5 ul .p2{
+	margin-top: 0.58rem;
+	text-align: justify;
+	padding-top: 0.26rem;
+	font-size: 0.14rem;
+	color: #ffffff;
+	line-height: 0.22rem;
+	border-top: 1px solid #c2c2c3;
+}
+.page6{
+	background: url(../img/index/g_bg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.page6 .page_main{
+	width: 13.4rem;
+	height: 5.7rem;
+}
+.page6 .swiper_box{
+	width: 7.4rem;
+}
+.page6 .swiper_box .subTitle{
+	font-family: "myfont_Magpie";
+	color: #ffffff;
+	height: 0.64rem;
+	width: 100%;
+	margin-bottom: 0.26rem;
+}
+.page6 .swiper_box .subTitle .p1{
+	font-size: 0.3rem;
+	line-height: 0.32rem;
+	color: #ca147d;
+}
+.page6 .swiper_box .subTitle .p2{
+	font-size: 0.24rem;
+	line-height: 0.28rem;
+	color: #ffffff;
+	margin-top: 0.02rem;
+	padding-left: 0.2rem;
+	position: relative;
+}
+.page6 .swiper_box .subTitle .p2::after{
+	content: "";
+	width: 2px;
+	height: 0.46rem;
+	background: #55413e;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.page6 .swiper_box:last-child{
+	width: 4.6rem;
+	position: relative;
+}
+.page6 .swiper_box:last-child .p1{
+	padding-top: 0.32rem;
+}
+.page6 .swiper_box:last-child::after{
+	content: "";
+	width: 2px;
+	height: 4.46rem;
+	background: #a72024;
+	position: absolute;
+	top: 0.9rem;
+	left: -0.69rem;
+}
+
+/*banner*/
+.page6 .rotation {
+	position: relative;
+	width: 100%;
+  font-size: 0;
+  height: 4.8rem;
+}
+.page6 .rotation1 .swiper-slide{
+	width: 100%;
+	height: 4.46rem;
+}
+.page6 .rotation .swiper-slide img {
+	display: block;
+	min-width: 100%;
+  height: 100%;
+}
+.page6 .rotation2 .swiper-slide img {
+	height: 2.1rem;
+	margin-bottom: 0.26rem;
+}
+.page6 .rotation2 .swiper-slide img:last-child{
+	margin-bottom: 0;
+}
+.page6 .rotation .swiper-pagination {
+  bottom: 0;
+}
+
+.page6 .rotation .swiper-pagination .swiper-pagination-bullet {
+  width: 0.18rem;
+  height: 0.18rem;
+  background-color: #919191;
+  opacity: 1;
+  border-radius: 50%;
+  margin: 0 0.1rem;
+}
+
+.page6 .rotation .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #a72024;
+}
+
+.page7{
+	background: url(../img/index/h_bg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.page7 .page_main{
+	overflow: hidden;
+	width: 14rem;
+	font-size: 0;
+	position: relative;
+}
+.page7 .str{
+	color: #ffffff;
+	margin-top: 2.04rem;
+	font-family: "myfont_Magpie";
+	width: 6.4rem;
+}
+.page7 .str .p1{
+	color: #cf147d;
+	font-size: 0.4rem;
+}
+.page7 .str .p2{
+	font-size: 0.37rem;
+	margin-top: 0.25rem;
+}
+.page7 .str .p3{
+	font-size: 0.24rem;
+	margin-top: 0.25rem;
+	position: relative;
+}
+.page7 .str .p3::after{
+	content: "";
+	width: 0.4rem;
+	height: 0.05rem;
+	background-color: #cf147d;
+	position: absolute;
+	left: 0;
+	bottom: -0.35rem;
+}
+.page7 .str .img_box{
+	font-size: 0;
+  margin-top: 0.55rem;
+  position: relative;
+  z-index: 1;
+}
+.page7 .str .img_box img{
+	display: inline-block;
+	width: 3.12rem;
+	height: 1.9rem;
+}
+.page7 .str .img_box img:last-child{
+	margin-left: 0.1rem;
+}
+
+.page7 .pic{
+	width: 8.62rem;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.page7 .pic::after{
+	content: "";
+	width: 0.12rem;
+	height: 2.6rem;
+	background-color: #a72024;
+	position: absolute;
+	top: 0;
+	left: -0.06rem;
+}
+.page7 .pic img{
+	display: block;
+	margin-top: 1.24rem;
+	width: 100%;
+	height: 7.56rem;
+}
+
+
+.page8{
+	background: url(../img/index/i_bg.jpg) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.page8 .page_main{
+	height: 5.5rem;
+	width: 100%;
+	position: absolute;
+	bottom: 1.1rem;
+	left: 0;
+	z-index: 0;
+}
+.page8 .page_main::after{
+	content: "";
+	width: 100%;
+	height: 0.58rem;
+	background: rgba(160, 160, 160, 0.8);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+}
+.page8 .page_main .main_box{
+	width: 14.2rem;
+	margin: auto;
+}
+.page8 .str{
+	padding-top: 0.2rem;
+	width: 5.3rem;
+	font-family: "myfont_Magpie";
+}
+.page8 .str .p1{
+	font-size: 0.34rem;
+	line-height: 0.32rem;
+	text-transform: uppercase;
+	color: #d0147d;
+}
+.page8 .str .p2{
+	font-size: 0.38rem;
+	line-height: 1;
+	margin-top: 0.3rem;
+	color: #3e3a39;
+}
+.page8 .str .p3{
+	font-size: 0.28rem;
+	color: #3e3a39;
+	margin-top: 0.3rem;
+}
+.page8 .str img{
+	margin-top: 0.3rem;
+	width: 6rem;
+	height: 2.55rem;
+	margin-left: -0.5rem;
+}
+.page8 ul{
+	width: 8.12rem;
+	min-height: 4.66rem;
+	background: url(../img/index/i_bg2.png) no-repeat;
+	background-size: 8.82rem 4.66rem;
+	padding: 0 0.35rem;
+	padding-top: 0.45rem;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	font-size: 0;
+}
+.page8 ul p{
+	text-align: center;
+	margin-top: 0.3rem;
+	width: 2.47rem;
+	height: 0.86rem;
+	background: url(../img/index/i_icon1.png) no-repeat;
+	background-size: 100% 100%;
+	line-height: 0.4rem;
+}
+.page8 ul p span,
+.page8 ul p img{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 0.32rem;
+	color: #ffffff;
+	font-family: "myfont_Magpie";
+}
+.page8 ul p img {
+	width: 0.4rem;
+	height: 0.4rem;
+	margin-top: 0.02rem;
+}
+.page8 ul li div{
+	display: block;
+	margin: auto;
+	margin-top: -0.01rem;
+	width: 2.24rem;
+	height: 1.1rem;
+	background: #ad2024;
+	border: 0.05rem solid #ad2024;
+	border-radius: 0 0 0.1rem 0.1rem;
+}
+.page8 ul li div img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 0 0 0.1rem 0.1rem;
+}
+.page9{
+	background: url(../img/index/i_bg.jpg) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.page9 .page_main{
+	width: 14rem;
+	height: 5rem;
+	padding-top: 2rem;
+}
+.page9 .srt{
+	padding-top: 0.48rem;
+}
+.page9 .srt .p1{
+	font-size: 0.4rem;
+	line-height: 0.36rem;
+	font-family: "myfont_Magpie";
+  color: #d2147d;
+  text-transform: uppercase;
+}
+.page9 .srt .p2{
+	font-size: 0.38rem;
+	line-height: 1;
+	font-family: "myfont_Magpie";
+	color: #3e3a39;
+	margin-top: 0.4rem;
+	position: relative;
+	padding-bottom: 0.4rem;
+}
+.page9 .srt .p2::after{
+	content: "";
+	width: 0.32rem;
+	height: 0.06rem;
+	background: #a72024;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.page9 .list1{
+	width: 9.1rem;
+	display: flex;
+	justify-content: space-between;
+}
+.page9 .list1 li{
+	display: inline-block;
+	width: 2.95rem;
+	text-align: center;
+}
+.page9 .list1 img{
+	display: block;
+	width: 2.95rem;
+	height: 3rem;
+}
+.page9 .list1 p{
+	margin-top: 0.1rem;
+}
+.page9 .list1 p span{
+	font-size: 0.3rem;
+	color: #3e3a39;
+	line-height: 1;
+	font-family: "myfont_Magpie";
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+}
+.page9 .list1 p span::after,
+.page9 .list1 p span::before{
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 0.08rem;
+	height: 0.08rem;
+	background: #000000;
+	border-radius: 50%;
+	margin: 0 0.1rem;
+}
+.page9 .list2{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 0.15rem;
+}
+.page9 .list2 li{
+	display: inline-block;
+	width: 3.36rem;
+	height: 0.42rem;
+	border: 2px solid #af2024;
+	line-height: 0.4rem;
+	color: #af2024;
+	text-align: center;
+	margin-top: 0.2rem;
+	font-size: 0.34rem;
+	font-family: "myfont_Magpie";
+}
+.page10{
+	background: url(../img/index/i_bg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.page10 .page_main{
+	width: 14rem;
+	padding-top: 2.6rem;
+}
+/*banner*/
+.page10 .rotation3 {
+	float: left;
+	width: 7.3rem;
+  font-size: 0;
+	padding-bottom: 0.32rem;
+}
+.page10 .rotation3 .swiper-slide{
+	width: 100%;
+	height: 4.48rem;
+	background: #000000;
+}
+.page10 .rotation3 .swiper-slide img {
+	display: block;
+	margin: auto;
+	margin-top: 0.06rem;
+	width: 7.18rem;
+	height: 4.36rem;
+}
+
+.page10 .rotation3 .swiper-slide img:last-child{
+	margin-bottom: 0;
+}
+.page10 .rotation3 .swiper-pagination {
+  bottom: 0;
+}
+.page10 .rotation3 .swiper-pagination .swiper-pagination-bullet {
+  width: 0.18rem;
+  height: 0.18rem;
+  background-color: #919191;
+  opacity: 1;
+  border-radius: 50%;
+  margin: 0 0.1rem;
+}
+
+.page10 .rotation3 .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #a72024;
+}
+
+.page10 .news_box{
+	margin-left: 0.78rem;
+}
+.page10 .news_box .p1{
+	width: 4.9rem;
+	font-size: 0.56rem;
+	color: #a72024;
+	font-family: "myfont_Magpie";
+	line-height: 1;
+	margin-top: -0.15rem;
+	padding-bottom: 0.36rem;
+	border-bottom: 1px solid #000000;
+}
+.page10 .news_box ul{
+	width: 4.9rem;
+	padding-top: 0.16rem;
+}
+.page10 .news_box ul a{
+	width: 100%;
+	margin-top: 0.1rem;
+}
+.page10 .news_box ul a span{
+	float: left;
+	color: #000000;
+	font-size: 0.16rem;
+	font-family: "myfont_Magpie";
+	line-height: 0.28rem;
+}
+.page10 .news_box ul a span:first-child{
+	width: 3.2rem;
+	overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.page10 .news_box ul a span:last-child{
+	float: right;
+}
+.page10 .news_box ul a.on span,
+.page10 .news_box ul a:hover span{
+	color: #a72024;
+}
+.page10 .last_imgBox{
+	width: 100%;
+	font-size: 0;
+	margin-top: 0.3rem;
+}
+.page10 .last_imgBox div{
+	display: inline-block;
+	vertical-align: top;
+	width: 1.6rem;
+	height: 1rem;
+	background: #000000;
+}
+.page10 .last_imgBox div:first-child{
+	margin-right: 0.1rem;
+}
+.page10 .last_imgBox div img{
+	display: block;
+	margin: auto;
+	margin-top: 0.05rem;
+	width: 1.5rem;
+	height: 0.9rem;
+}
+.page10 .last_imgBox a{
+  display: inline-block;
+	margin-left: 0.65rem;
+  vertical-align: bottom;
+  width: 1.21rem;
+  height: 0.38rem;
+}
+.page10 .last_imgBox a img{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.page10 .last_imgBox a:hover{
+  opacity: 0.7;
+}
+.page11{
+	background: url(../img/index/i_bg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.page11 .page_main{
+	width: 15.3rem;
+	height: 4.86rem;
+	font-size: 0;
+}
+.page11 ul{
+	position: relative;
+}
+.page11 ul::before{
+	content: "";
+	width: 1px;
+	height: 4.1rem;
+	background-color: #b03a3d;
+	position: absolute;
+	top: 50%;
+	margin-top: -2.05rem;
+	left: 1.2rem;
+}
+.page11 ul li{
+	margin-top: 0.3rem;
+}
+.page11 ul p{
+	width: 0.9rem;
+	padding-left: 0.05rem;
+	margin-right: 0.51rem;
+	height: 0.36rem;
+	line-height: 0.36rem;
+	background: #a72024;
+	display: inline-block;
+	color: #ffffff;
+	font-size: 0.18rem;
+	vertical-align: middle;
+	text-align: center;
+	border-radius: 0.3rem;
+	position: relative;
+}
+.page11 ul p::after{
+	content: "";
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	background-color: #a72024;
+	position: absolute;
+	right: -0.3rem;
+	top: 50%;
+	margin-top: -0.05rem;
+}
+.page11 ul img{
+	display: inline-block;
+	width: 13.84rem;
+	height: 1.42rem;
+	vertical-align: middle;
+}
+
+
+/* 2020/10/26 */
+.page10 .vedio-box {
+	display: inline-block;
+	width: 7.18rem;
+  height: 4.36rem;
+  border: 0.06rem solid #000000;
+	position: relative;
+  z-index: 9;
+  background: #000000;
+}
+
+.page10 .vedio-img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.page10 .vedio-box video,
+.page10 .vedio-box embed {
+	width: 100%!important;
+	height: 100%!important;
+}
+
+.page10 .play {
+	position: absolute;
+  display: block;
+  width: 0.8rem;
+  height: 0.8rem;
+  top: 50%;
+  left: 50%;
+  margin-top: -0.4rem;
+  margin-left: -0.4rem;
+	cursor: pointer;
+	z-index: 12;
+}
+

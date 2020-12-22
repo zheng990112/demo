@@ -1,0 +1,70 @@
+.content-main {
+    width: 1230px;
+    margin: 0 auto;
+    padding-bottom: 110px;
+}
+
+.content-main .title {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.title .main-title {
+    font-size: 51px;
+    color: #552512;
+}
+
+.title .sub-title {
+    font-size: 36px;
+    color: #552512;
+    margin-top: 12px;
+}
+
+.title .line {
+    width: 312px;
+    height: 2px;
+    background-color: #e0b99e;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+}
+
+.title .line::before {
+    content: "";
+    display: block;
+    width: 106px;
+    height: 16px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -8px;
+    margin-left: -53px;
+    background-color: #e0b99e;
+}
+
+.content-main .main-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 80px;
+}
+
+.main-info .list {
+    margin-left: 26px;
+}
+
+.main-info .list .item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 16px;
+    line-height: 40px;
+    font-family: "黑体"
+}
+
+.main-info .list .item img {
+    margin-right: 12px;
+    padding: 12px;
+}

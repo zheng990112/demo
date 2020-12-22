@@ -1,0 +1,177 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "Microsoft Yahei",arial;
+	font-size: 12px;
+	color: #000;
+	/*background: url(../img/bg.jpg) repeat;*/
+}
+.fl-lt{
+	float: left;
+}
+.fl-rt{
+	float: right;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+i{
+	font-style: normal;
+}
+input,button,textarea{
+	border: 0;
+	outline: none;
+}
+b{
+	font-style: normal;
+}
+em{
+	font-style: normal ;
+}
+
+.y-row{
+	width: 1200px;
+	margin: 0 auto;
+}
+.y-row2{
+	width: 1150px;
+	margin: 0 auto;
+}
+.bold{
+	font-weight: bold;
+}
+.img-block{
+	width: 100%;
+	display: block;
+}
+.none{
+	display: none;
+}
+
+/*公共头部*/
+.header .top{
+	height: 90px;
+	width: 100%;
+	background-color: #7d282d;
+	position:fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+.header .top .logo{
+	position:absolute;
+	top:50%;
+	left: 0.5rem;
+	transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+}
+.header .top .logo .logo-img{
+	display: inline-block;
+	vertical-align: middle;
+	height: 0.66rem;
+}
+.header .top .logo .logo-img img{
+	width: 100%;
+}
+.header .top .logo .logo-fonts{
+	font-size: 18px;
+	color:#fff;
+	display: inline-block;
+	vertical-align: middle;
+	border-left:1px solid #fff;
+	line-height: 0.36rem;
+	margin-left: 0.1rem;
+	padding-left: 0.1rem;
+}
+.header .top .nav{
+	margin-right: 0.2rem;
+}
+.header .top .nav ul li{
+	float: left;
+	padding:0 0.15rem;
+	height: 100%;
+	font-size: 18px;
+	line-height: 90px;
+}
+.header .top .nav ul li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	color:#fff;
+}
+.header .top .nav ul li.active{
+	background-color: #c4b799;
+}
+.header .top .nav ul li:hover{
+	background-color: #c4b799;
+}
+.header .top .nav ul li.active a{
+	color:#7d282d;
+	font-weight: bold;
+}
+
+/*footer*/
+.footer{
+	width: 100%;
+	height: 45px;
+	text-align: center;
+	color:#fff;
+	font-size: 18px;
+	background-color: #08102c;
+	line-height: 45px;
+	position:fixed;
+	bottom: 0;
+	left: 0;
+}
+/*返回顶部*/
+.backTop {
+	position: fixed;
+	bottom: 250px;
+	right: 50px;
+	width: 101px;
+	height: 135px;
+	cursor: pointer;
+	z-index: 99;
+	font-size: 21px;
+	color:#fff;
+	display: none;
+}
+.backTop img{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.backTop .back-fonts{
+	width: 101px;
+	text-align: center;
+	margin-top: 55px;
+}
+.backTop:hover .back-fonts{
+	color:#fbd38e;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,268 @@
+html,body{
+	height: 100%;
+	overflow: hidden;
+}
+#container,
+.sections,.section{
+	height: 100%;
+	position: relative;
+}
+.section{
+	overflow: hidden;
+}
+.section .bg-img{
+	position:absolute;
+	height: 100%;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+}
+
+.con{
+	height: 100%;
+	padding-top: 90px;
+	padding-bottom: 45px;
+	box-sizing: border-box;	
+}
+
+#section3 .part{
+	width: 100%;
+	height: 100%;
+}
+#section3 .part .part-left{
+	width: 50%;
+	height: 100%;
+	position:relative;
+	overflow: hidden;
+}
+#section3 .part .part-left .d1-img{
+	height: 100%;
+	position:absolute;
+	top:0;
+	left:50%;
+	transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+}
+#section3 .part .part-right{
+	width: 50%;
+	height: 100%;
+	position:relative;
+	
+}
+
+#section3 .picScroll-left2{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+}
+
+
+#section3 .picScroll-left2 .bd{
+	width: 8rem;
+    overflow: hidden;
+    margin: 0 auto;
+   	height: 5.9rem;
+}
+#section3 .picScroll-left2 .bd ul{
+	position: relative;
+}
+#section3 .picScroll-left2 .bd ul li{
+	width: 2.36rem;
+	float: left;
+	position: relative;
+	text-align: center;
+	margin: 0 .15rem .3rem;
+	text-align: center;
+	height: 2.78rem;
+	border:1px solid #7d282d;
+	box-sizing: border-box;
+	padding-top: 0.2rem;
+	color:#7d282d;
+}
+#section3 .picScroll-left2 .bd ul li img{
+	width: 100%;
+	display: block;
+	height: 2.16rem;
+}
+#section3 .picScroll-left2 .bd ul li .li-p{
+	width: 100%;
+	text-align: center;
+	height: 0.4rem;
+	line-height: 0.4rem;
+}
+#section3 .picScroll-left2 .arrow{
+	position: absolute;
+	top: 50%;
+	width: 0.32rem;
+	height: 1rem;
+	cursor: pointer;
+	margin-top:-0.5rem;
+	z-index: 99;
+}
+#section3 .picScroll-left2 .arrow img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+#section3 .picScroll-left2 .arrow-left{
+	left: 0.2rem;
+}
+#section3 .picScroll-left2 .arrow-right{
+	right: 0.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#section4 .part{
+	width: 100%;
+	height: 100%;
+}
+#section4 .part .part-left{
+	width: 50%;
+	height: 100%;
+	position:relative;
+	overflow: hidden;
+}
+#section4 .part .part-left .d1-img{
+	height: 100%;
+	position:absolute;
+	top:0;
+	left:50%;
+	transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+}
+#section4 .part .part-right{
+	width: 50%;
+	height: 100%;
+}
+#section4 .part .part-right .box{
+	width: 100%;
+	height: 100%;
+}
+#section4 .part .part-right .box-left{
+	width: 50%;
+	height: 100%;
+}
+#section4 .part .part-right .box-left .box1{
+	width: 100%;
+	height: 50%;
+	background-color: #888;
+}
+#section4 .part .part-right .box-left .box2{
+	width: 100%;
+	height: 50%;
+	background-color: #666;
+}
+#section4 .part .part-right .box-right{
+	width: 50%;
+	height: 100%;
+}
+#section4 .part .part-right .box-right .box3{
+	width: 100%;
+	height: 50%;
+	background-color: #f4f4f4;
+} 
+#section4 .part .part-right .box-right .box3{
+	width: 100%;
+	height: 50%;
+	background-color: #f4f4f4;
+} 
+#section4 .part .part-right .box-right .box4{
+	width: 100%;
+	height: 50%;
+	background-color: #e1e1e1;
+}
+
+
+.picScroll-left{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.picScroll-left .bd{
+	width:100%;
+	height: 100%;
+	overflow: hidden;
+}
+.picScroll-left .bd ul{
+	height: 100%;
+}
+.picScroll-left .bd .tempWrap{
+	height: 100%;
+}
+
+.picScroll-left .bd li{
+	float: left;
+	position: relative;
+	/*text-align: center;*/
+	width: 100%;
+	height: 100%;
+	/*cursor: pointer;*/
+	overflow: hidden;
+}
+.picScroll-left .bd li img{
+	display: block;
+	height: 100%;
+	position:absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+}
+
+.picScroll-left .hd ul{
+	position:absolute;
+	width: 100%;
+	height: 0.1rem;
+	z-index: 20;
+	font-size: 0;
+	bottom: 0.2rem;
+	text-align: center;
+}
+.picScroll-left .hd ul li{
+	width: 0.1rem;
+	height: 0.1rem;
+	border:1px solid #000;
+	display: inline-block;
+	border-radius: 50%;
+	margin:0 0.1rem;
+}
+.picScroll-left .hd ul li.on{
+	background-color: #000;
+}
+.box3 .picScroll-left .hd ul li{
+	border:1px solid #fff;
+}
+.box3 .picScroll-left .hd ul li.on{
+	background-color: #fff;
+}

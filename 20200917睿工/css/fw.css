@@ -1,0 +1,141 @@
+.public-title{
+    margin-top: 30px;
+}
+.public-title .p5{
+    color: #b4b4b5;
+    font-size: 14px;
+    margin-top: 25px;
+}
+.fw1{
+    padding-bottom: 94px;
+}
+.fw1 .str{
+    font-size: 14px;
+    text-align: center;
+    line-height: 24px;
+    color: #595757;
+   
+}
+.fw1 .firstStr{
+    margin-top: 15px;
+}
+.fw1 .img1{
+    display: block;
+    width: 1200px;
+    margin: auto;
+    margin-top: 60px;
+}
+.fw2 .part1{
+    padding-bottom: 88px;
+}
+.fw2 .listPic{
+    width: 1200px;
+    margin: auto;
+    margin-top: 88px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.fw2 .listPic li{
+    width: 270px;
+    margin: 0 15px;
+    display: inline-block;
+}
+.fw2 .listPic li div{
+    width: 268px;
+    height: 338px;
+    border: 1px solid #4e65ad;
+    border-radius: 20px;
+}
+.fw2 .listPic li div img{
+    display: block;
+    width: 245px;
+    height: 313px;
+    margin: auto;
+    margin-top: 12.5px;
+}
+.fw2 .listPic li p{
+    text-align: center;
+    font-size: 14px;
+    color: #595757;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+.fw2 .btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.fw2 .btn a{
+    display: inline-block;
+    padding: 0 15px;
+    min-width: 16px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 5px;
+    background-color: #9f9fa0;
+}
+.fw2 .btn a:first-child,
+.fw2 .btn a:last-child{
+    margin: 0 15px;
+}
+.fw2 .btn a.on,
+.fw2 .btn a:hover{
+    background-color: #0055a6;
+}
+.fw3 .firstImg{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    width: 1194px;
+    border: 3px solid #efefef;
+}
+.fw3 .str{
+    width: 1200px;
+    margin: auto;
+    margin-top: 35px;
+    padding-bottom: 100px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595757;
+}
+.fw4 ul{
+    width: 1200px;
+    margin: auto;
+    padding-bottom: 68px;
+}
+.fw4 li{
+    float: left;
+    margin-top: 45px;
+    margin-left: 45px;
+    width: 368px;
+    height: 328px;
+    border: 1px solid #142d8d;
+    border-radius: 30px;
+    background: url(../img/fw/d-icon1.png) center no-repeat;
+    background-size: 344px 300px;
+}
+.fw4 li:nth-child(3n+1){
+    margin-left: 0;
+}
+.fw4 li img{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 333px;
+    height: 225px;
+}
+.fw4 li p{
+    line-height: 40px;
+    width: 344px;
+    margin: auto;
+    font-size: 22px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 17px;
+    height: 40px;
+    background: url(../img/fw/d-icon2.png) no-repeat;
+    background-size: 100% 100%;
+}

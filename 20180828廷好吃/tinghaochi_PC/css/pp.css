@@ -1,0 +1,264 @@
+.pp1 img{
+	margin-bottom: 6px;
+}
+.pp1 p{
+	color: #595757;
+	font-size: 16px;
+	line-height: 28px;
+	text-indent: 32px;
+}
+
+
+.pp2 .title{
+	text-align: center;
+	margin-bottom: 25px;
+}
+.pp2 .p1{
+	font-size: 50px;
+	font-weight: bold;
+}
+.pp2 .p1 strong{
+	color: #E23B51;
+}
+.pp2 .p2{
+	font-size: 25px;
+}
+
+.pp2 .p3{
+	font-size: 16px;
+	line-height: 28px;
+	color: #595757;
+	margin-top: 15px;
+}
+
+
+.pp3 .box1{
+	position: relative;
+	margin-top: 40px;
+}
+.pp3 .box1 .img1{
+    position: absolute;
+    right: -93px;
+    bottom: -64px;
+    z-index: -1;
+}
+.pp3 .box1 ul li{
+	width: 265px;
+	margin-right: 35px;
+	float: left;
+	margin-bottom: 30px;
+	height: 310px;
+	background: #fff;
+}
+.pp3 .box1 ul li:nth-child(3n){
+	margin-right: 0;
+}
+.pp3 .box1 ul li img{
+	border: 6px solid #c8c8c8;
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+}
+.pp3 .box1 ul li .p1{
+	color: #F7CA00;
+	font-weight: bold;
+	font-size: 26px;
+	width: 150px;
+	margin: 15px auto 0;
+	line-height: 24px;
+	background: #fff;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+.pp3 .box1 ul li .line{
+	width: 100%;
+	height: 2px;
+	background: #F7CA00;
+	margin-top: -11px;
+	margin-bottom: 22px;
+}
+.pp3 .box1 ul li .p2{
+	font-size: 16px;
+	line-height: 24px;
+	color: #595757;
+}
+
+.pp3 .box2{
+	margin-top: 122px;
+	text-align: center;
+}
+.pp3 .box2 .p1{
+	font-size: 50px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.pp3 .box2 .p2{
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+.pp3 .box2 .p3{
+	font-size: 21px;
+	margin-bottom: 5px;
+	font-family: arial;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	padding-left: 5px;
+	margin-bottom: 20px;
+	color: #F7CA00;
+}
+.pp3 .box2 .item{
+	width: 845px;
+	margin: 0 auto;
+}
+.pp3 .box2 ul{
+	margin-left: -14px;
+}
+.pp3 .box2 ul li{
+    margin-top: 15px;
+    width: 171px;
+    float: left;
+    font-size: 16px;
+    line-height: 24px;
+    color: #595757;
+    border-right: 2px solid #F7CA00;
+    box-sizing: border-box;
+    padding-right: 14px;
+    text-align: left;
+    padding-left: 14px;
+    height: 100px;
+}
+.pp3 .box2 ul li:last-child{
+	border-right: 0;
+	padding-right: 0;
+}
+
+
+.pp4 .part1{
+	position: relative;
+}
+.pp4 p{
+    position: absolute;
+    left: 24px;
+    bottom: 18px;
+    z-index: 2;
+    font-size: 16px;
+    color: #595757;
+    line-height: 26px;
+    width: 368px;
+}
+
+
+.pp5 .title{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.pp5 .title p{
+	font-size: 50px;
+	display: inline-block;
+	margin: 0 20px;
+	font-family: '汉仪雅酷黑W';
+}
+.pp5 .title .p1 strong{
+	color: #E23B51;
+	font-weight: normal;
+}
+.pp5 .title .p2 strong{
+	color: #F7CA00;
+	font-weight: normal;
+}
+.pp5 .slide-3d {
+	width: 803px;
+	margin: 0 auto 20px;
+  	height: 323px;
+  	position: relative;
+}
+.pp5 .slide-3d li{
+	width: 503px;
+	height: 323px;
+	transition: all 0.5s ease-out;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.pp5 .slide-3d li.item0 {
+  transform: translate3d(-150px, 0, 0) scale(0.8);
+}
+.pp5 .slide-3d li.item1 {
+  transform: translate3d(0, 0, 0) scale(0.8);
+  transform-origin: 0 50%;
+  opacity: 1;
+  z-index: 2;
+}
+.pp5 .slide-3d li.item2 {
+  transform: translate3d(150px, 0, 0) scale(1);
+  transform-origin: 0 50%;
+  opacity: 1;
+  z-index: 3;
+}
+.pp5 .slide-3d li.item3 {
+  transform: translate3d(300px, 0, 0) scale(0.8);
+  transform-origin: 100% 50%;
+  opacity: 1;
+  z-index: 2;
+}
+.pp5 .slide-3d .arrow{
+	position: absolute;
+	top: 161px;
+	z-index: 2;
+}
+.pp5 .slide-3d .arrow-left{
+	left: 10px;
+}
+.pp5 .slide-3d .arrow-right{
+	right: 10px;
+}
+
+.pp5 .slide-3d .indicator-list {
+    position: absolute;
+    bottom: -60px;
+	left: 0;
+    z-index: 100;
+    width: 100%;
+    text-align: center;
+}
+.pp5 .slide-3d .indicator-list a {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #F7CA00;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #F7CA00;
+  margin: 0 5px;
+}
+.pp5 .slide-3d .indicator-list a.selected {
+  background-color: transparent;
+}
+
+
+.pp5 .wrap{
+	position: relative;
+}
+.pp5 .wrap .img0{
+    position: absolute;
+    right: 138px;
+    bottom: 10px;
+    z-index: 100;
+}
+
+
+
+
+
+/*20180917*/
+.pp3 .box1 ul li .p1{
+	color:#c29c26;
+}
+.pp3 .box1 ul li .line{
+	background-color: #c29c26;
+}
+.pp3 .box2 .p3{
+	color:#c29c26;
+}

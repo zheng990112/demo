@@ -1,0 +1,332 @@
+.top-img{
+	display: block;
+	width: 100%;
+}
+.part1 .big_title{
+	font-size:37px;
+	margin-top: 55px;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	color:#515151;
+	line-height: 1;
+	border-bottom: 1px solid #515151;
+	padding-bottom: 30px;
+	position:relative;
+}
+.part1 .big_title::after {
+    content: "";
+    display: inline-block;
+    width: 145px;
+    height: 162px;
+    background: url(../img/al/bsy/icon.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: -34px;
+    top: -25px;
+    z-index: -1;
+}
+.part1 .line1{
+	width: 88px;
+	height: 10px;
+	background-color: #595757;
+	margin:20px 0;
+}
+.part1 .p1{
+    font-size: 24px;
+    color: #bc1c21;
+    font-family: myfont_Medium;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+.part1 .p2{
+	font-size: 18px;
+	color:#7e7f80;
+	line-height:34px;
+	font-family: myfont_Light;
+	margin-top: 20px;
+}
+.part1 .p2 .span1{
+	font-family: myfont_Medium;
+	color:#c21a1f;
+}
+.part1 .p2 .span2{
+	display: block;
+	margin-left: 90px;
+}
+.part1 .p2-span{
+	font-size: 18px;
+	margin-top: 5px;
+	color:#231815;
+	font-family: myfont_Medium;
+	font-weight: bold;
+}
+.part1 .p3{
+	font-size:18px;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	color:#bc1c21;
+	line-height:1;
+	margin-top: 10px;
+	margin-top: 45px;
+}
+.part1 .p3 span{
+	display: inline-block;
+    vertical-align: top;
+    line-height: 10px;
+    margin-right: 5px;
+}
+.part1 .p4{
+	color:#c21a1f;
+	font-size: 18px;
+	line-height:1;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	margin-top: 40px;
+}
+.part1 .p4 span{
+	display: inline-block;
+    vertical-align: top;
+    line-height: 10px;
+    margin-right: 5px;
+}
+.part1 .p5{
+	font-size: 40px;
+	line-height: 1;
+	color:#231815;
+	font-family: myfont_Medium;
+	font-weight: bold;
+}
+
+.part1 .p6{
+	font-size:18px;
+	color:#231815;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	line-height: 1;
+	margin-top:30px;
+}
+.part1 .p7{
+	font-size: 18px;
+	color:#515151;
+	font-family: myfont_Light;
+	line-height:28px;
+	margin-top: 18px;
+}
+.part1 .p7 span{
+	font-size: 20px;
+	color:#221714;
+	font-weight: bold;
+	display: block;
+}
+.part1 .part1-img{
+	display: block;
+	width: 830px;
+	margin-top: 40px;
+}
+
+
+/*.part2*/
+.part2 .p1{
+	color:#c21a1f;
+	font-size: 18px;
+	line-height:1;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	margin-top: 40px;
+}
+.part2 .p1 span{
+	display: inline-block;
+    vertical-align: top;
+    line-height: 10px;
+    margin-right: 5px;
+}
+
+.part2 .ul1{
+	width: 100%;
+	background-color: #c21a1f;
+	/*background-color: #ededed;*/
+	margin-top: 35px;
+	color:#fff;
+}
+
+.part2 .ul1 li{
+	float:left;
+	width: 33.33%;
+	height: 145px;
+	text-align: center;
+	padding-top: 52px;
+	box-sizing: border-box;
+	font-family: myfont_Medium;
+	position:relative;
+}
+.part2 .ul1 li::after{
+	content:"";
+	display: inline-block;
+	width: 1px;
+	height: 65px;
+	background-color: #fff;
+	position:absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -33px;
+}
+.part2 .ul1 li:last-child::after{
+	display: none;
+}
+.part2 .ul1 li p{
+	font-size: 28px;
+	display: inline-block;
+	line-height: 1;
+	padding-bottom: 10px;
+}
+.part2 .ul1 li p span{
+	display: block;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-top: 5px;
+}
+.part2 .p2{
+	font-size: 18px;
+	color:#515151;
+	line-height:32px;
+	margin-top: 40px;
+	font-family: myfont_Light;
+}
+.part2 .p2 span{
+	color:#231815;
+	font-weight: bold;
+	font-family: myfont_Medium;
+}
+.part2 .ul2{
+	margin-top: 45px;
+}
+
+.part2 .p3{
+	font-size: 18px;
+	font-family: myfont_Light;
+	color:#515151;
+	line-height: 28px;
+	margin-bottom:30px;
+}
+.part2 .p3 .p3-bold{
+	color:#221714;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+.part2 .p3 .p3-red{
+	color:#bc1c21;
+	font-weight: bold;
+	margin:10px 0;
+}
+.part2 .p3 .p3-red img{
+	display: inline-block;
+	vertical-align: middle;
+	width: 19px;
+	height: 19px;
+	border-radius: 50%;
+}
+.part2 .p3 .p3-red span{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 5px;
+}
+.part2 .part2-img{
+	display: block;
+	width: 100%;
+	margin-top: 25px;
+}
+.part2 .part2-img0{
+	margin-top:0;
+}
+.part2 .p4{
+	margin-top: 80px;
+}
+.part2 .icon2-img{
+	display: block;
+	width: 32px;
+	margin:0 auto;
+	margin-top: 30px;
+}
+.part2 .p5{
+	font-size: 18px;
+	color:#221714;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 15px;
+	line-height: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.part3{
+    font-family: myfont_Medium;
+}
+.part3 .p0{
+	font-size: 18px;
+	color:#221714;
+	font-weight: bold;
+	margin-top: 30px;
+}
+.part3 .p1{
+	font-size: 18px;
+	color:#515151;
+	line-height:28px;
+	margin-top:15px;
+	font-family: myfont_Light;
+}
+.part3 .p2{
+ 	font-size: 18px;
+    font-family: myfont_Medium;
+    font-weight: bold;
+    color: #bc1c21;
+    line-height: 24px;
+    margin-top:50px;
+    margin-bottom:30px;
+}
+.part3 .p2 span{
+	display: inline-block;
+    vertical-align: top;
+    line-height: 10px;
+    margin-right: 5px;
+}
+.part3 .p3{
+	font-size: 18px;
+	color:#231815;
+    font-family: myfont_Medium;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.part3 .p4{
+	font-size: 18px;
+	color:#515151;
+	line-height: 28px;
+	font-family: myfont_Light;
+	position:relative;
+}
+
+
+.part3 .p5::after {
+    content: "";
+    display: inline-block;
+    width: 144px;
+    height: 144px;
+    background: url(../img/al/bsy/icon2.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: -72px;
+    bottom: -89px;
+    z-index: -1;
+}

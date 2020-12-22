@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title></title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatitle" content="IE=edge">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<link rel="shortcut icon" type="image/x-icon" href="../img/logoIcon.png" media="screen">
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/lx.css">
+		<link rel="stylesheet" type="text/css" href="../css/aos.css" />
+		<script src="../js/aos.js"></script>
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=6ALaE7y1e8N171T2CfPrHqZC3Ed000Cl"></script>
+	</head>
+
+	<body>
+		<div class="content clearfix">
+			<div class="main-box">
+				<div class="nav er-nav fl-lt" aos="fade-up" aos-delay="200">
+					<img src="../img/nav.png" alt="" class="nav-bg" />
+					<div class="nav-fonts">
+						<a href="index_start.html">网站首页</a>
+						<a href="pp_start.html">品牌诠释</a>
+						<a href="xx_start.html">国潮形象</a>
+						<a href="sl_start.html">企业实力</a>
+						<a href="cp_start.html">爆款产品</a>
+						<a href="hz_start.html">投资合作</a>
+						<a href="lx_start.html" class="on">联系我们</a>
+					</div>
+					<img src="../img/ernav-icon.png" alt="" class="ernav-icon" />
+					<img src="../img/ernav-icon2.png" alt="" class="ernav-icon2" />
+				</div>
+				<div class="main fl-rt lx">
+					<div class=" part part1">
+						<div class="part_top">
+							<div class="div1" aos="fade-up" aos-delay="400"><img src="../img/lx/a1.jpg" /></div>
+							<div class="div2" aos="fade-up" aos-delay="600">
+								<h3>联系我们</h3><span>/总部地图 </span>
+								<div class="ditu">
+									<div class="map-box">
+										<div class="map" id="map"></div>
+									</div>
+								</div>
+							</div>
+							<div class="div3">
+								<p class="p1">广州品尊管理有限公司</p>
+								<p class="p2">广州市黄埔区科丰路31号华南新材料创新园G2栋4楼401(品尊餐饮)</p>
+								<p class="p2">金色：总部位置 黑色：门店分部</p>
+							</div>
+						</div>
+					</div>
+					<div class="part2" aos="zoom-in" aos-delay="400">
+						<div class="div1">
+							<h3>在线留言</h3>
+							<p>Online Message</p>
+						</div>
+						<div class="div2"><input type="text" placeholder="姓名/Name" /></div>
+						<div class="div2"><input type="text" placeholder="电话/Telephone" /></div>
+						<div class="div2"><input type="text" placeholder="邮箱/E-mail" /></div>
+						<div class="div3"><textarea placeholder="留言/Message"></textarea></div>
+					</div>
+					<div class="part3" aos="zoom-in" aos-delay="600"><button>确认留言</button></div>
+					<div class="part5"  aos="fade-up" aos-delay="400">
+						<div class="part4 clearfix" id="FontScroll">
+							<ul class="line">
+								<li><span>张先生</span>
+									<font>13200000000</font>
+									<p>希望合作费用少点</p>
+								</li>
+								<li><span>张先生</span>
+									<font>13200000000</font>
+									<p>希望合作费用少点22222222</p>
+								</li>
+								<li><span>张先生</span>
+									<font>13200000000</font>
+									<p>希望合作费用少点11111</p>
+								</li>
+								<li><span>张先生</span>
+									<font>13200000000</font>
+									<p>希望合作费用少点</p>
+								</li>
+								<li><span>张先生</span>
+									<font>13200000000</font>
+									<p>希望合作费用少点</p>
+								</li>
+								<li><span>张先生</span>
+									<font>13200000000</font>
+									<p>希望合作费用少点</p>
+								</li>
+								<li><span>张先生</span>
+									<font>13200000000</font>
+									<p>希望合作费用少点22222</p>
+								</li>
+								<li><span>张先生</span>
+									<font>13200000000</font>
+									<p>希望合作费用少点</p>
+								</li>
+								<li><span>张先生</span>
+									<font>13200000000</font>
+									<p>希望合作费用少点</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--返回顶部-->
+		<div class="backTop">
+			<span> < </span>
+		</div>
+		<div class="footer">
+			<img src="../img/footbg.jpg" alt="" class="footbg" />
+			<div class="foot-main">
+				<div class="logo"><img src="../img/logo.png" alt="" /></div>
+				<div class="foot-font">
+					<p class="p1">咨询热线 400-0000-000</p>
+					<p class="p2">版权所有：广州品尊管理有限公司<br />ICP备案： ICP-SS88888088</p>
+				</div>
+				<div class="erweima-box">
+					<img src="../img/erweima1.jpg" alt="" />
+					<img src="../img/erweima2.jpg" alt="" />
+				</div>
+			</div>
+		</div>
+
+		<script src="../js/jquery-1.11.2.min.js"></script>
+		<script src="../js/common.js"></script>
+		<script src="../js/fontscroll.js"></script>
+		<script>
+			AOS.init({
+				easing: 'ease-out-back',
+				duration: 1500
+			});
+		</script>
+		<script type="text/javascript">
+			var map = new BMap.Map("map"); // 创建Map实例
+			var point = new BMap.Point(113.4072341965, 22.8870972463);
+			map.centerAndZoom(point, 15);
+			var marker = new BMap.Marker(point); // 创建标注
+			map.addOverlay(marker); // 将标注添加到地图中
+			marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+			map.panTo(point);
+			map.addControl(new BMap.NavigationControl()); // 添加默认缩放平移控件
+			map.enableScrollWheelZoom(true); //开启鼠标滚轮缩放
+		</script>
+		<script type="text/javascript">
+			$(function() {
+				$('#FontScroll').FontScroll({
+					time: 1000,
+					num: 1
+				});
+			});
+		</script>
+	</body>
+
+</html>

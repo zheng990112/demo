@@ -1,0 +1,129 @@
+.lx1 .part1{
+	margin-bottom: 70px;
+	position: relative;
+}
+.lx1 .part1 .img0{
+	position: absolute;
+	left: 0;
+	top: -150px;
+	z-index: -1;
+}
+.lx1 .part1 .img1{
+	position: absolute;
+	right: -10%;
+	top: -150px;
+	z-index: -1;
+	opacity: .3;
+	width: 52%;
+}
+
+.lx1 .box1 {
+	text-align: center;
+	margin-bottom: 60px;
+}
+.lx1 .box1 .p1{
+	font-size: 14px;
+	color: #585757;
+	text-transform: uppercase;
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+.lx1 .box1 .p2{
+	margin-bottom: 70px;
+	font-size: 34px;
+	color: #1f2c5f;
+}
+
+/*.lx1 .box1 ul{
+	width: 500px;
+	margin: 0 auto;
+	text-align: left;
+}*/
+.lx1 .box1 ul li{
+	color: #1f2c5f;
+	margin-bottom: 10px;
+}
+.lx1 .box1 ul li img{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.lx1 .box1 ul li span{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 24px;
+}
+
+.lx1 .box2 .fl-lt{
+	width: 50%;
+	height: 510px;
+	background: #1f2c5f;
+	position: relative;
+	z-index: 2;
+	color: #bebebe;
+}
+.lx1 .box2 .fl-rt{
+	width: 50%;
+	height: 510px;
+}
+.lx1 .box2 .fl-lt .item{
+	width: 400px;
+	float: right;
+	margin-right: 60px;
+}
+.lx1 .box2 .fl-lt .p1{
+	font-size: 18px;
+	padding-top: 55px;
+	margin-bottom: 30px;
+}
+.lx1 .box2 .fl-lt input{
+	width: 100%;
+	display: block;
+	height: 38px;
+	border: 1px solid #bebebe;
+	padding: 0 12px;
+	box-sizing: border-box;
+	color: #bebebe;
+	margin-bottom: 15px;
+	background: transparent;
+	font-size: 16px;
+}
+.lx1 .box2 .fl-lt textarea{
+	width: 100%;
+	display: block;
+	height: 160px;
+	line-height: 30px;
+	border: 1px solid #bebebe;
+	padding: 12px;
+	box-sizing: border-box;
+	color: #bebebe;
+	margin-bottom: 15px;
+	font-size: 16px;
+	background: transparent;
+	resize: none;
+}
+.lx1 .box2 .fl-lt .button div{
+	width: 175px;
+	height: 38px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 40px;
+	border: 1px solid #bebebe;
+	cursor: pointer;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder{
+	color: #bebebe;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder{
+	color: #bebebe;
+}
+:-moz-placeholder{
+	color: #bebebe;
+}
+::-moz-placeholder{
+	color: #bebebe;
+}
+

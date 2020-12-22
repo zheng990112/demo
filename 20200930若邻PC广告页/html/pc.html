@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title></title>
+		<link rel="stylesheet" href="../css/pc.css" />
+	</head>
+	<body>
+		<div class="content">
+           	<img src="../img/pc/a_01.jpg" alt="" class="lazy"/>
+           	<img data-original="../img/pc/a_02.jpg" alt="" class="lazy"/>
+           	<img data-original="../img/pc/a_03.jpg" alt="" class="lazy"/>
+           	<img data-original="../img/pc/a_04.jpg" alt="" class="lazy"/>
+           	<img data-original="../img/pc/a_05.jpg" alt="" class="lazy"/>
+           	<img data-original="../img/pc/a_06.jpg" alt="" class="lazy"/>
+           	<img data-original="../img/pc/a_07.jpg" alt="" class="lazy"/>
+           	<img data-original="../img/pc/a_08.jpg" alt="" class="lazy"/>
+           	<img data-original="../img/pc/a_09.jpg" alt="" class="lazy"/>
+						<img data-original="../img/pc/a_10.jpg" alt="" class="lazy"/>
+						<img data-original="../img/pc/a_11.jpg" alt="" class="lazy"/>
+						<img data-original="../img/pc/a_12.jpg" alt="" class="lazy"/>
+						<img data-original="../img/pc/a_13.jpg" alt="" class="lazy"/>
+						<form action="javascript:;">
+							<input type="text" placeholder="姓名">
+							<input type="text" placeholder="电话">
+							<input type="submit" value="立即联系可获得优惠及优先服务">
+						</form>
+						<a href="javascript:;"><img data-original="../img/pc/a_14.jpg" alt="" class="lazy"/></a>
+       </div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<!--返回顶部-->
+	    <div class="backTop">
+	        <span><</span>
+	    </div>
+        
+        <script src="../js/jquery-1.11.2.min.js"></script>
+        <script src="../js/jq.lazyload.js"></script>
+        <script type="text/javascript">
+            $('img.lazy').lazyload({threshold:100});
+        </script>
+        
+        <script>
+        	//返回顶部
+		    var w_h = $(window).height();
+		    $(window).scroll(function() {
+		        var scrollTop = $(window).scrollTop();
+		        if (scrollTop > w_h * 0.8) {
+		            $('.backTop').fadeIn();
+		            $('.backTop').css({ 'bottom': '200px' })
+		        } else {
+		            $('.backTop').fadeOut();
+		        };
+		    });
+		
+		    $('.backTop').click(function() {
+		        var scrollTop = $(window).scrollTop();
+		        $("html,body").animate({ scrollTop: 0 }, 600);
+		    });
+        </script>
+	</body>
+</html>

@@ -1,0 +1,48 @@
+.container{
+	padding-top: 70px;
+	text-align: center;
+}
+
+.title{
+	font-size: 34px;
+	color: #093682;
+}
+.separate{
+	margin: 20px auto;
+	width: 561px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20.48px;
+	color: #333333;
+	background: url(../img/hz1/01.png) center no-repeat;
+	background-size: 561px;
+}
+.listPic{
+	padding-top: 25px;
+	padding-bottom: 40px;
+}
+.listPic li{
+	width: 342px;
+	height: 430px;
+	float: left;
+	margin-left: 87px;
+}
+.listPic li:nth-child(3n+1){
+	margin-left: 0;
+}
+.listPic li h5{
+	font-size: 28px;
+	color: #093682;
+	padding: 15px 0;
+	background: url(../img/hz4/07.jpg)  bottom center no-repeat;
+	background-size: 49px;
+}
+.listPic li p{
+	padding-top: 10px;
+	line-height: 24px;
+	text-align: justify;
+	font-size: 16px;
+}
+.listPic li img{
+	width: 100%;
+}

@@ -1,0 +1,70 @@
+
+
+.ys{
+	padding-bottom: 0.6rem;
+}
+.ys ul{
+	width: 9.5rem;
+}
+.ys ul li{
+	float:left;
+	width: 4.35rem;
+	height: 5rem;
+	-moz-box-shadow: 0px 0px 0.1rem #888888;
+    box-shadow: 0px 0px 0.1rem #888888;
+    border-radius: 0.2rem;
+    margin-right: 0.8rem;
+    margin-bottom: 0.4rem;
+}
+.ys ul li:nth-child(2n){
+	margin-right: 0;
+}
+.ys ul li .li-top{
+	text-align: center;
+	padding-top: 0.1rem;
+}
+.ys ul li .li-top .cn{
+	font-size: 0.29rem;
+	line-height: 0.5rem;
+	display: inline-block;
+	position:relative;
+	
+}
+.ys ul li .li-top .cn::before{
+	content:"";
+	display: inline-block;
+	width: 0.12rem;
+	height: 0.12rem;
+	border-radius: 50%;
+	background-color: #0064ff;
+	position:absolute;
+	left: -0.2rem;
+	top: 50%;
+	margin-top: -0.06rem;
+}
+.ys ul li .li-top .en{
+	font-size: 0.14rem;
+	line-height: 0.2rem;
+	text-transform: uppercase;
+	color:#727171;
+	
+}
+.ys ul li .li-img{
+	width: 4.35rem;
+	height: 2.4rem;
+	margin-top: 0.15rem;
+}
+.ys ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.ys ul li .li-des{
+	font-size: 0.16rem;
+	color:#595757;
+	line-height: 0.24rem;
+	width: 3.9rem;
+	margin:0 auto;
+	text-align: justify;
+	margin-top: 0.2rem;
+}

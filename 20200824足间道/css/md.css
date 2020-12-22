@@ -1,0 +1,126 @@
+.main {
+  width: 12rem;
+  margin: auto;
+}
+
+.md1 .pate1 .sub-title .p1 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.md1 .pate1 .sub-title .p2 {
+  font-size: 0.48rem;
+  margin-top: 0.2rem;
+}
+
+.pate1 .img1 {
+  widows: 12rem;
+  display: block;
+  height: 5.6rem;
+  margin-top: 0.4rem;
+}
+
+.md2 .pate1 .sub-title .p4 div {
+  line-height: 0.8rem;
+}
+
+.md2 .pate1 .sub-title .p4 .span1 {
+  color: #595757;
+  font-size: 1.416rem;
+  line-height: 1.6rem;
+}
+
+.md2 .pate1 .sub-title .p4 div p {
+  font-size: 0.84rem;
+}
+
+.md2 .pate1 .sub-title .p4 div p.fs48 {
+  font-size: 0.48rem;
+}
+
+.swiper_box {
+  width: 13rem;
+  margin: auto;
+  position: relative;
+}
+
+.swiper_box .btn {
+  position: absolute;
+  width: 100%;
+  height: 0.41rem;
+  position: absolute;
+  left: 0;
+  bottom: 0.71rem;
+}
+
+.swiper_box .btn>div:last-child {
+  position: absolute;
+  width: 0.41rem;
+  height: 0.41rem;
+  top: 0;
+  left: 0;
+}
+
+.swiper_box .btn>div:first-child {
+  position: absolute;
+  width: 0.41rem;
+  height: 0.41rem;
+  top: 0;
+  right: 0;
+}
+
+.gallery-top {
+  width: 12rem;
+  margin: auto;
+  height: 5.6rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.15rem;
+}
+
+.gallery-thumbs {
+  width: 12rem;
+  margin: auto;
+  height: 1.82rem;
+  margin-bottom: 1.1rem;
+}
+
+.swiper-container .swiper-wrapper .swiper-slide {
+  background-size: 100% 100%;
+}
+
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next,
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+  outline: none;
+  margin: 0;
+}
+
+.swiper-button-prev.swiper-button-white,
+.swiper-container-rtl .swiper-button-next.swiper-button-white {
+  width: 0.41rem;
+  height: 0.41rem;
+  top: 0;
+  left: 0;
+  background: url(../img/btnL.png) no-repeat;
+  background-size: 100%;
+}
+
+.swiper-button-next.swiper-button-white,
+.swiper-container-rtl .swiper-button-prev.swiper-button-white {
+  width: 0.41rem;
+  height: 0.41rem;
+  background: url(../img/btnR.png) no-repeat;
+  background-size: 100%;
+  top: 0;
+  right: 0;
+}
+
+.gallery-thumbs .swiper-slide {
+  height: 100%;
+  opacity: 0.4;
+}
+
+.gallery-thumbs .swiper-slide-thumb-active {
+  opacity: 1;
+}

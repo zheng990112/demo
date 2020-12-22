@@ -1,0 +1,126 @@
+
+.header{
+	position:relative;
+	width: 1200px;
+	margin:0 auto;
+}
+.header .logo-wrap {
+    font-size: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 30px 30px 0 30px;
+    margin-bottom: 50px;
+    position: relative;
+}
+.header .logo-wrap .info {
+    margin-top: 4px;
+    color: #333;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.header .logo-wrap h1 {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.header .logo-wrap h1 .logo {
+    display: block;
+    margin: 0 auto;
+    width: 342px;
+}
+.header .logo-wrap .info {
+    margin-top: 4px;
+    color: #333;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.header .logo-wrap .info.login-wrap {
+    text-align: right;
+}
+.header .logo-wrap .line {
+    padding: 0 12px;
+    font-size: 12px;
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+    color: #727171;
+}
+.header .navs:after,
+.header .navs:before {
+    content: " ";
+    display: table;
+}
+.header .navs {
+    text-align: center;
+}
+.header .navs .dropdown {
+    position: relative;
+    height: 60px;
+    line-height: 60px;
+    display: inline-block;
+}
+.header .navs .dropdown .title {
+    padding: 0 10px 6px;
+    margin: 0 22px 0;
+    font-size: 16px;
+    color: #333;
+}
+.header .navs .dropdown .dropdown-menu {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	position: absolute;
+	overflow: hidden;
+	top: 52px;
+	left: 28px;
+	text-align: left;
+	z-index: 99;
+	background: #fff;
+	border: 1px solid rgba(0, 0, 0, .15);
+	border-radius: 4px;
+	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+	display: none;
+}
+
+.header .navs .dropdown .dropdown-menu .left,
+.header .navs .dropdown .dropdown-menu .right {
+	width: 240px
+}
+
+.header .navs .dropdown .dropdown-menu .left li,
+.header .navs .dropdown .dropdown-menu .right li {
+	padding: 0 18px;
+	color: #666;
+	cursor: pointer;
+	height: 32px;
+	line-height: 32px;
+	font-size: 13px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+.header .navs .dropdown:hover .title {
+	border-bottom: 1px solid #333
+}
+.header .navs .dropdown:hover .dropdown-menu{
+	display: block;
+}
+.header .top-info {
+	background: #f4f4f4;
+	padding: 6px 0 6px 12px;
+	font-size: 12px;
+	margin: 24px 0 8px 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
+}
+.header .top-info p {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+}

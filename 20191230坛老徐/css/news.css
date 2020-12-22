@@ -1,0 +1,238 @@
+.part {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.48rem;
+}
+
+.part-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.part-title .title-cn {
+    width: 2.04rem;
+    height: 0.61rem;
+    background-color: #FABE2C;
+    color: #ffffff;
+    font-size: 0.36rem;
+    text-align: center;
+    line-height: 0.61rem;
+}
+
+.part-title .title-en {
+    font-size: 0.42rem;
+    color: #C9CACB;
+    display: flex;
+    align-items: center;
+    line-height: 0.42rem;
+    margin-top: 0.26rem;
+}
+
+.part-title .title-en span {
+    margin: 0 0.18rem;
+}
+
+.part-title .title-en::before,
+.part-title .title-en:after {
+    content: '';
+    display: block;
+    width: 0.50rem;
+    height: 0.22rem;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.part-title .title-en::before {
+    background-image: url(../img/left_icon.png);
+}
+
+.part-title .title-en::after {
+    background-image: url(../img/right_icon.png);
+}
+
+.news-list {
+    margin-top: 0.20rem;
+}
+
+.news-list .item {
+    margin-top: 0.56rem;
+    padding-bottom: 0.55rem;
+    border-bottom: 0.02rem dashed #595758;
+    display: flex;
+}
+
+.news-list .item .item-left {
+    width: 3.21rem;
+    height: 2.01rem;
+}
+
+.news-list .item .item-right {
+    flex: 1;
+    margin-left: 0.64rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.news-list .item .item-right .news-title {
+    font-size: 0.28rem;
+    color: #7D0021;
+    line-height: 0.28rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.news-list .item .item-right .news-title:hover {
+    color: #FABE2C;
+}
+
+.news-list .item .item-right .news-desc {
+    font-size: 0.14rem;
+    line-height: 0.28rem;
+    margin-top: 0.33rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-align: justify;
+}
+
+.news-list .item .item-right .news-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.news-list .item .item-right .news-time {
+    font-size: 0.24rem;
+}
+
+.news-list .item .item-right .read-more {
+    font-size: 0.24rem;
+    color: #FABE2C;
+}
+
+.pagination {
+    margin-top: 0.55rem;
+    display: flex;
+    align-items: center;
+}
+
+.pagination .prev-btn,
+.pagination .next-btn {
+    width: 0.81rem;
+    height: 0.31rem;
+    text-align: center;
+    line-height: 0.31rem;
+    background-color: #7D0021;
+    color: #ffffff;
+    font-size: 0.14rem;
+}
+
+.pagination .pages {
+    margin: 0 0.15rem;
+    display: flex;
+}
+
+.pagination .pages a {
+    display: block;
+    width: 0.46rem;
+    height: 0.31rem;
+    text-align: center;
+    line-height: 0.31rem;
+    font-size: 0.14rem;
+    background-color: #9F9FA0;
+    margin: 0 0.04rem;
+    color: #ffffff;
+}
+
+.pagination .pages a.on {
+    background-color: #FABE2C;
+}
+
+.left-icon-01,
+.right-icon-01,
+.right-icon-02 {
+    position: absolute;
+    top: 0;
+}
+
+.left-icon-01 {
+    width: 3.18rem;
+    top: 7.26rem;
+    left: 0;
+}
+
+.right-icon-01,
+.right-icon-02 {
+    right: 0;
+}
+
+.right-icon-01 {
+    width: 2.67rem;
+    top: 2.81rem;
+}
+
+.right-icon-02 {
+    width: 3.49rem;
+    top: 13.20rem;
+}
+
+
+/* 新闻详情 */
+
+.news-detail .main {
+    padding-left: 0;
+    /* padding-top: 0.25rem; */
+}
+
+.news-detail .main .main-box {
+    margin: 0 auto;
+}
+
+.news-detail .main .main-box .part {
+    margin-top: 0;
+}
+
+.news-detail .title {
+    width: 100%;
+    text-align: center;
+    font-size: 0.48rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.news-detail .info {
+    display: flex;
+    align-items: center;
+    margin-top: 0.20rem;
+}
+
+.news-detail .info span {
+    font-size: 0.20rem;
+    margin: 0 0.64rem;
+}
+
+.news-detail .detail {
+    width: 100%;
+    margin-top: 0.45rem;
+}
+
+.news-detail .detail p {
+    font-size: 0.18rem;
+    text-align: justify;
+    line-height: 0.32rem;
+    text-indent: 0.36rem;
+}
+
+.news-detail .detail img {
+    font-size: 0;
+    vertical-align: top;
+    width: 100%;
+    margin: 0.15rem 0;
+}

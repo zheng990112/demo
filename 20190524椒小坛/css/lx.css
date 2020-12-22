@@ -1,0 +1,33 @@
+.lx1{position: relative;width: 100%;height: 1881px;}
+.lx1 .big1{position: absolute;z-index: -1;width: 1920px;left: 50%;margin-left: -960px;top:0;height: 692px;}
+.lx1 .big2{position: absolute;z-index: -1;width: 1920px;left: 50%;margin-left: -960px;top:692px;height: 639px;}
+.lx1 .big3{position: absolute;z-index: -1;width: 1920px;left: 50%;margin-left: -960px;bottom: 0;height:550px ;}
+.lx1 .big4{position: absolute;z-index: 1;width: 226px;height:184px ;left: 5%;top: 436px;}
+.lx1 .big5{position: absolute;z-index: 1;width: 366px;height:656px ;right: 0%;top: 110px;}
+.lx1 .part1 .part_content{width: 900px;display: block;margin: 0 auto;}
+.lx1 .part1 .part_content .div1{width:887px ;display: block;margin: 0 auto;margin-top: 148px;}
+.lx1 .part1 .part_content .div1 img{width: 100%;margin-bottom: 50px;}
+.lx1 .part1 .part_content .div1 p{text-align: center;font-size: 48px;color: #333333;font-family: myfont;line-height: 66px;}
+.lx1 .part1 .part_content .div1 span{font-size: 48px;font-weight: bold;color: #10776d;}
+.lx1 .part1 .part_content .div2{text-align: center;margin-top: 106px;}
+.lx1 .part1 .part_content .div2 h3{font-size: 48px;color: #10776d;font-family: myfont;background: url(../img/lx/a4.png) no-repeat center bottom;background-size:53px 27px;padding-bottom: 66px ;}
+.lx1 .part1 .part_content .div3{width: 860px;height: 660px;background: rgba(182,211,213,0.7);border-radius: 40px;display: block;margin: 0 auto;padding-top: 52px;margin-top: 46px;}
+.lx1 .part1 .part_content .div3 div h3{display: inline-block;width: 200px;text-align: center;;padding-left: 0px;font-size: 56px;color: #ffffff;font-family: myfont;letter-spacing: 10px;font-weight: 400;}
+.lx1 .part1 .part_content .div3 div{width: 580px;display: block;margin: 0 auto;margin-bottom: 36px;}
+.lx1 .part1 .part_content .div3 div input{width: 380px;height: 70px;line-height: 70px;font-size: 36px;font-family: myfont;background: rgba(245,249,249,0.9);border-radius: 12px;text-align: center;font-weight: 400;letter-spacing: 2px;}
+.lx1 .part1 .part_content .div3 div input::-webkit-input-placeholder {color:#cddddb;}
+.lx1 .part1 .part_content .div3 div input: :-moz-placeholder {color:#cddddb;}
+.lx1 .part1 .part_content .div3 div input: :-ms-input-placeholder { color:#cddddb;}
+.lx1 .part1 .part_content .div3 div textarea{width: 380px;height: 210px;line-height: 70px;font-size: 36px;font-family: myfont;background: rgba(245,249,249,0.9);border-radius: 12px;text-align: center;font-weight: 400;letter-spacing: 2px;vertical-align: top;resize: none;}
+.lx1 .part1 .part_content .div3 div textarea::-webkit-input-placeholder {color:#cddddb;}
+.lx1 .part1 .part_content .div3 div textarea: :-moz-placeholder {color:#cddddb;}
+.lx1 .part1 .part_content .div3 div textarea: :-ms-input-placeholder { color:#cddddb;}
+.lx1 .part1 .part_content .div3 div button{width: 100px;height: 40px;line-height: 40px;font-size: 20px;background: #50b5ab;color: #fff;cursor: pointer;}
+.lx1 .part1 .part_content .div3 .button1{margin-right: 30px;background: #0f776d;}
+.lx1 .part1 .part_content .div3 .div4{width: 230px;display: block;margin: 0 auto;}
+@media (max-width:1444px){
+	.lx1 .big5{width: 220px;height: 394px;}
+}
+@media (max-width:1280px){
+	.lx1 .big5{width: 170px;height: 304px;}
+}

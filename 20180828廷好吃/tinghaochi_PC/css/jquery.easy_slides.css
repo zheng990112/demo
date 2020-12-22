@@ -1,0 +1,130 @@
+.slider_four_in_line {
+    width: 1096px;
+    height: 194px;
+    position: relative;
+    margin: 0 auto;
+    user-select: none;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.slider_four_in_line img{
+    margin-left: 5px;
+}
+.slider_four_in_line > * {
+    transition: ease all 1s;
+    overflow: hidden;
+}
+
+.slider_four_in_line .hidden {
+    opacity: 0;
+    z-index: 0;
+    top: 0px;
+    left: 50%;
+}
+
+.slider_four_in_line .active,
+.slider_four_in_line .next1,
+.slider_four_in_line .next2,
+.slider_four_in_line .next3,
+.slider_four_in_line .next4,
+.slider_four_in_line .prev1 {
+    position: absolute;
+    top: 0px;
+    left: 25%;
+    z-index: 10;
+}
+
+.slider_four_in_line .next1 {
+    left: 50%;
+}
+
+.slider_four_in_line .next2 {
+    left: 75%;
+}
+
+.slider_four_in_line .next3 {
+    width: 0%;
+    left: 100%;
+    z-index: 0;
+    opacity: 0;
+}
+
+.slider_four_in_line .next4 {
+    left: 100%;
+    width: 0%;
+    z-index: 0;
+    opacity: 0;
+}
+
+.slider_four_in_line .prev1 {
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    z-index: 10;
+    opacity: 1;
+}
+
+.slider_four_in_line .prev2,
+.slider_four_in_line .prev3,
+.slider_four_in_line .prev4 {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    top: 0px;
+    left: 0%;
+    z-index: 0;
+    opacity: 0;
+}
+.next_button,
+.prev_button {
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    transform: translate(0%, -50%);
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    opacity: 0.5;
+    z-index: 5000;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    
+}
+
+.prev_button {
+    position: absolute;
+    left: 0%;
+}
+
+.next_button:hover,
+.prev_button:hover {
+    opacity: 1;
+}
+.next_button:after,
+.prev_button:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1px;
+    height: 1px;
+    margin-top: -10px;
+}
+
+.next_button:after {
+    border-left: 15px solid #000;
+    border-right: 15px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+    margin-left: -5px;
+}
+
+.prev_button:after {
+    border-right: 15px solid #000;
+    border-left: 15px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+    margin-left: -25px;
+}

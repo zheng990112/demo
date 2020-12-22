@@ -1,0 +1,111 @@
+
+.main-box .lx{
+	width: 9.8rem;
+	margin-right: -0.1rem;
+	padding-bottom: 1rem;
+}
+.lx .lx-title{
+	width: 4.84rem;
+}
+.lx .lx-title img{
+	display: block;
+	width: 100%;
+}
+.lx .lx-main{
+	margin-top: 0.4rem;
+	/*height: 9.15rem;*/
+	background-color:#0090ff;
+    background-image: linear-gradient(#0064ff, #00a6ff);
+    position:relative;
+    padding-top: 0.15rem;
+    box-sizing: border-box;
+}
+.lx .lx-main::before{
+	content:"";
+	display: inline-block;
+	width: 4.8rem;
+	height: 1.3rem;
+	background: url(../img/lx/a2.jpg) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	top: -1.3rem;
+	right: 0;
+}
+.lx .lx-main .map{
+	width: 9.45rem;
+	height: 6.25rem;
+	margin:0 auto;
+}
+.lx .lx-main .box{
+	padding: 0.3rem 0;
+	box-sizing: border-box;
+}
+.lx .lx-main .company_box{
+	width: 4.75rem;
+	height: 2.1rem;
+	border-right:1px solid #fff;
+	padding-top: 0.2rem;
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: top;
+}
+.lx .lx-main .company_box p{
+	line-height: 0.4rem;
+	padding-left: 0.4rem;
+	box-sizing: border-box;
+}
+.lx .lx-main .company_box p img{
+	display: inline-block;    
+	vertical-align: -0.05rem;
+	width: 0.22rem;
+	height: 0.22rem;
+}
+.lx .lx-main .company_box p span{
+	display: inline-block;
+	vertical-align:top;
+	font-size: 0.22rem;
+	color:#fff;
+	margin-left: 0.05rem;
+}
+.lx .lx-main .company_box p span b{
+	display: block;
+	margin-left: 1rem;
+}
+.lx .lx-main .form{
+	display: inline-block;
+	height: 2.1rem;
+	width: 3.6rem;
+	vertical-align: top;
+	margin-left: 0.8rem;
+}
+.lx .lx-main .form p{
+	display: flex;
+	justify-content: space-between;
+}
+.lx .lx-main .form input{
+	display: block;
+	width: 100%;
+	font-size: 0.16rem;
+	color:#666666;
+	height: 0.42rem;
+	padding-left: 0.1rem;
+	box-sizing: border-box;
+	background-color: #fff;
+	margin-bottom: 0.1rem;
+}
+.lx .lx-main .form p input{
+	width: 1.75rem;
+}
+.lx .lx-main .form button{
+	display: block;
+	width: 100%;
+	font-size: 0.16rem;
+	color:#666666;
+	height: 0.42rem;
+	border-radius: 0.21rem;
+	padding-left: 0.1rem;
+	box-sizing: border-box;
+	background-color: #fff;
+	margin-top: 0.2rem;
+	cursor: pointer;
+}

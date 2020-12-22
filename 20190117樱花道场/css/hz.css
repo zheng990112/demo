@@ -1,0 +1,357 @@
+
+.er-title .title-nav li{
+	width: 20%;
+}
+.hz-title{
+	text-align: center;
+	font-family: myfont;
+}
+.hz-title .p1{
+	font-size: 48px;
+	color:#050b26;
+	line-height: 52px;
+	margin-top: 60px;
+}
+.hz-title .p2{
+	font-size: 20px;
+}
+.hz-title img{
+	display: block;
+	margin:0 auto; 
+	margin-top:20px;
+}
+
+
+
+
+
+
+
+
+.hz1 .part1 table{
+	width: 1100px;
+	margin:0 auto;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 60px;
+}
+.hz1 .part1 table .tr1{
+	line-height: 50px;
+}
+.hz1 .part1 table th{
+	font-size: 24px;
+	line-height: 44px;
+	background-color: #acacac;
+	height: 44px;
+	border:#acacac;
+	font-size: 24px;
+}
+.hz1 .part1 table td span{
+	display: inline-block;
+	width: 18px;
+	margin:0 auto;
+}
+.hz1 .part1 table td.td2{
+    text-align: left;
+    padding: 10px 0;
+    padding-left: 10px;
+    box-sizing: border-box;
+    line-height: 32px;
+}
+.hz1 .part1 table tr td:first-child{
+	font-weight: bold;
+}
+.hz1 .part1 table td{
+	border:1px solid #acacac;
+}
+
+.hz1 .part2 {
+	width: 1100px;
+	margin:0 auto;
+	margin-top: 60px;
+}
+
+
+/*.hz2*/
+.hz2 .part1-main{
+	width: 1100px;
+	margin:0 auto;
+}
+.hz2 .part1-main ul li{
+	float: left;
+	margin-right: 35.5px;
+	text-align: center;
+	margin-top: 35px;
+}
+.hz2 .part1-main ul li:nth-child(3n){
+	margin-right: 0;
+}
+.hz2 .part1-main ul li .li-img{
+	width: 343px;
+	height: 216px;
+	position:relative;
+}
+.hz2 .part1-main ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.hz2 .part1-main ul li .li-img p{
+	font-size: 24px;
+	width: 100%;
+	position:absolute;
+	bottom: 0;
+	left: 0;
+	color:#fff;
+	line-height: 36px;
+	background-color:#050b26;
+	
+}
+.hz2 .part1-main ul li .li-p{
+	font-size: 16px;
+	color:#050b26;
+	font-weight: bold;
+	line-height: 24px;
+	margin-top: 10px;
+}
+
+
+
+/*.hz3*/
+.hz3 .part1-main{
+	width: 1100px;
+	margin:0 auto;
+}
+.hz3 .part1-main ul li{
+	float: left;
+	width: 343px;
+	padding:10px 0;
+	border:1px solid #cacaca;
+	box-sizing: border-box;
+	margin-right: 35.5px;
+	text-align:center;
+	margin-top: 35px;
+}
+.hz3 .part1-main ul li:nth-child(3n){
+	margin-right: 0;
+}
+.hz3 .part1-main ul li .li-img{
+	display: inline-block;
+	vertical-align: top;
+	width: 52px;
+	height: 82px;
+}
+.hz3 .part1-main ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.hz3 .part1-main ul li .li-font{
+    display: inline-block;
+	vertical-align: top;
+    width: 260px;
+    text-align: left;
+    margin-left: 12px;
+}
+.hz3 .part1-main ul li .li-font .p1{
+	font-size:16px;
+	color:#b11c22;
+	border-bottom: 2px solid #b11c22;
+	padding-bottom: 5px;
+}
+.hz3 .part1-main ul li .li-font .p1 span{
+	font-size: 24px;
+}
+.hz3 .part1-main ul li .li-font .p2{
+	margin-top: 5px;
+	font-size: 16px;
+	color:#050b26;
+	line-height: 24px;
+}
+.hz3 .part2{
+	width: 1100px;
+	height: 366px;
+	margin:0 auto;
+	margin-top: 90px; 
+}
+.hz3 .part2 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+
+/*hz4*/
+.hz4 .part1-main{
+	width: 1100px;
+	margin:0 auto;
+	margin-top: 45px;
+}
+.hz4 .part1-main .main-l{
+	width: 445px;
+	height: 264px;
+}
+.hz4 .part1-main .main-l img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.hz4 .part1-main .main-r{
+	font-size: 24px;
+	width: 630px;
+	line-height: 42px;
+}
+
+
+/*hz5*/
+.hz5 .part1-main{
+	width: 1100px;
+	margin:0 auto;
+	font-size: 24px;
+	margin-top:25px;
+}
+.hz5 .part1-main .main-top .top1{
+	width: 540px;
+	border:1px solid #050b26;
+	background-color: #dfdfdf;
+	box-sizing: border-box;
+	line-height: 68px;
+	height: 68px;
+}
+.hz5 .part1-main .main-top .top-font{
+	margin-left: 15px;
+	position:relative;
+	width: 135px;
+	display: inline-block;
+}
+.hz5 .part1-main .main-top .top1 .top-font::after{
+	content:"";
+	display: inline-block;
+	width: 1px;
+	height: 48px;
+	background-color: #050b26;
+	position:absolute;
+	right: 0;
+	top: 10px;
+}
+.hz5 .part1-main .main-top input{
+	width: 380px;
+	height: 66px;
+	position:absolute;
+	background: transparent;
+	padding-left: 10px;
+	box-sizing: border-box;
+	font-size: 24px;
+}
+
+
+.hz5 .part1-main .main2{
+	width: 1100px;
+	border:1px solid #050b26;
+	background-color: #dfdfdf;
+	box-sizing: border-box;
+	line-height: 68px;
+	height: 68px;
+	margin-top: 10px;
+}
+.hz5 .part1-main .main2 .top-font{
+	margin-left: 15px;
+	position:relative;
+	width: 135px;
+	display: inline-block;
+}
+.hz5 .part1-main .main2 .top-font::after{
+	content:"";
+	display: inline-block;
+	width: 1px;
+	height: 48px;
+	background-color: #050b26;
+	position:absolute;
+	right: 0;
+	top: 10px;
+}
+.hz5 .part1-main .main2 input{
+	width:945px;
+	height: 66px;
+	position:absolute;
+	padding-left: 10px;
+	box-sizing: border-box;
+	font-size: 24px;
+	background: transparent;
+}
+
+.hz5 .part1-main .textarea-box{
+	width: 1100px;
+	height: 210px;
+	border:1px solid #050b26;
+	background-color: #dfdfdf;
+	box-sizing: border-box;
+	margin-top: 10px;
+}
+.hz5 .part1-main .textarea-box .textarea-font{
+	width: 1045px;
+	text-align: center;
+	font-size: 24px;
+	margin:0 auto;
+	border-bottom: 1px solid #050b26;
+	line-height: 60px;
+}
+.hz5 .part1-main .textarea-box textarea{
+	display:block;
+	width: 1045px;
+	margin:0 auto;
+	height: 140px;
+	resize: none;
+	font-size: 24px;
+	padding:10px;
+	box-sizing: border-box;
+	background: transparent;
+}
+.hz5 .part1-main .btn{
+	display: block;
+	width: 100px;
+	height: 40px;
+	border:1px solid #050b26;
+	background-color: #dfdfdf;
+	margin:0 auto;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.hz5 .part2{
+	width: 1100px;
+	margin:0 auto; 
+	margin-top: 60px;
+}
+.hz5 .part2 .map{
+	width: 710px;
+	height: 410px;
+	border:1px solid #050b26;
+	box-sizing: border-box;
+}
+.hz5 .part2 .part2-main{
+	width:390px;
+	text-align: center;
+}
+.hz5 .part2 .part2-main .p1{
+	font-size: 34px;
+}
+.hz5 .part2 .part2-main .p2{
+	font-size: 40px;
+	width: 360px;
+	height: 66px;
+	border:1px solid #050b26;
+	box-sizing: border-box;
+	margin:0 auto;
+	line-height: 66px;
+	margin-top: 10px;
+}
+.hz5 .part2 .part2-main .p3{
+	font-size: 24px;
+	line-height: 36px;
+	margin-top: 50px;
+}
+.hz5 .part2 .part2-main img{
+	display: block;
+	margin:0 auto;
+	margin-top: 50px; 
+}

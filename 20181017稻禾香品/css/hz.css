@@ -1,0 +1,105 @@
+
+
+
+.hz1 table{
+	margin:0 auto;
+	margin-top: 50px;
+}
+.hz1 table tr td{
+	width: 170px;
+	height:75px;
+	border:1px solid #f29600;
+	font-size: 21px;
+	text-align: center;
+	
+}
+.hz1 table .tr-top td{
+	height:60px;
+	background-color: #181818;
+	color:#fff;
+	font-weight: bold;
+}
+.hz1 table tr td:first-child{
+	font-weight: bold;
+}
+.hz1 table tr td span{
+	font-family: "宋体";
+	font-size: 18px;
+	display: inline-block;
+	font-weight: 100;
+}
+
+
+
+/*.hz2*/
+.hz2 .part1-main{
+	text-align: center;
+	margin-top: 40px;
+}
+.hz2 .part1-main ul{
+	font-size: 0;
+}
+.hz2 .part1-main ul li{
+	width: 243px;
+	height: 290px;
+	display: inline-block;
+	vertical-align: top;
+	margin:0 30px;
+	margin-top: 20px;
+}
+.hz2 .part1-main ul li .li-img{
+	width: 243px;
+	height: 148px;
+}
+.hz2 .part1-main ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
+.hz2 .part1-main ul li .li-fonts .p1{
+	font-size: 20px;
+	font-weight: bold;
+	margin:10px 0;
+}
+.hz2 .part1-main ul li .li-fonts .p2{
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+.hz3 .box{
+	width: 828px;
+	height: 381px;
+	background: url(../img/hz/c1.jpg) no-repeat;
+	background-size: 100% 100%;
+	margin:0 auto;
+	padding-top: 30px;
+	box-sizing: border-box;
+}
+.hz3 .box .map{
+    width: 440px;
+    height: 325px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 24px;
+}
+.hz3 .box .box-r{
+	display: inline-block;
+	vertical-align: top;
+	width: 320px;
+	margin-top:40px;
+}
+.hz3 .box .box-r .p1{
+	font-size: 20px;
+	color:#f29600;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+
+/*20181028*/
+.main-box .hz1 .part-top{
+	color:#c30d23;
+}

@@ -1,0 +1,211 @@
+.title {
+    /* display: inline-block; */
+    /* width: auto; */
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: bold;
+}
+
+.title span {
+    display: block;
+}
+
+.title .line,
+.noline {
+    width: 100%;
+    height: 9px;
+    background-color: #e7e7e7;
+    position: relative;
+    margin-top: 25px;
+}
+
+.title .line::before {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 9px;
+    background-color: #2d589d;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.sub-title {
+    /* display: inline-block; */
+    /* width: auto; */
+    font-size: 42px;
+    line-height: 64px;
+    font-weight: bold;
+}
+
+.sub-title span {
+    display: block;
+}
+
+.pp4 .main-info .averages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.pp4 .main-info .averages .average {
+    width: 397px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 86px;
+}
+
+.pp4 .main-info .average .average-img {
+    width: 369px;
+}
+
+.pp4 .main-info .average .average-desc {
+    font-size: 26px;
+    line-height: 38px;
+    color: #333333;
+    margin-top: 57px;
+}
+
+.pp4 .main-info .average .average-desc span {
+    display: block;
+    text-align: center;
+}
+
+.pp4 .padBottom {
+    padding-bottom: 115px;
+}
+
+.pp3 .main-info .img-box {
+    margin-top: 45px;
+}
+
+.pp3 .main-info .imgs-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 67px;
+}
+
+.pp3 .main-info .imgs-flex .img {
+    width: 16.6%;
+    text-align: center;
+    margin-top: 26px;
+}
+
+.pp3 .padBottom {
+    padding-bottom: 223px;
+}
+
+.pp2 .main-info .p-box {
+    font-size: 32px;
+    line-height: 64px;
+    color: #333333;
+    margin-top: 80px;
+}
+
+.pp2 .main-info .img-box {
+    margin-top: 38px;
+    margin-bottom: 66px;
+}
+
+.pp2 .main-info .programs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 34px;
+    margin-bottom: 98px;
+}
+
+.pp2 .main-info .programs .program {
+    width: 435px;
+    margin-top: 30px;
+}
+
+.pp2 .main-info .program .program-desc {
+    font-size: 32px;
+    line-height: 50px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.pp2 .padBottom {
+    padding-bottom: 64px;
+}
+
+.pp1 .main-info .small-title {
+    font-size: 36px;
+    line-height: 60px;
+    font-weight: bold;
+    margin-top: 69px;
+    color: #333333;
+}
+
+.pp1 .main-info .tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.pp1 .main-info .tags .tag {
+    width: 412px;
+    height: 55px;
+    border: 1px solid #333333;
+    text-align: center;
+    line-height: 55px;
+    font-size: 32px;
+    color: #333333;
+    font-weight: lighter;
+    margin-top: 15px;
+}
+
+.pp1 .main-info .img-box {
+    text-align: center;
+    margin-top: 58px;
+}
+
+.pp1 .main-info .programs {
+    margin-top: 58px;
+}
+
+.pp1 .main-info .program+.program {
+    margin-top: 43px;
+}
+
+.pp1 .main-info .program .program-desc {
+    margin-top: 28px;
+}
+
+.pp1 .main-info .program .program-desc span {
+    display: block;
+    text-align: center;
+    font-size: 26px;
+    line-height: 50px;
+}
+
+.pp1 .padBottom {
+    padding-bottom: 70px;
+}
+
+
+@media (max-width:1444px){
+	.pp2 .main-info .p-box {
+	    font-size: 28px;
+	    line-height: 54px;
+	    margin-top: 50px;
+	}
+	.sub-title{
+		font-size: 38px;
+    	line-height: 44px;
+	}
+}

@@ -1,0 +1,168 @@
+.part-img{
+	display: block;
+	width: 100%;
+	margin-top: 35px;
+}
+
+.part1 .top-img{
+	display: block;
+	width: 100%;
+}
+.part1 .big_title{
+	font-size:37px;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	color:#515151;
+	line-height:42px;
+	margin-top: 45px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #9c9b9c;
+	position:relative;
+	margin-bottom: 25px;
+}
+.part1 .big_title::after {
+    content: "";
+    display: inline-block;
+    width: 145px;
+    height: 162px;
+    background: url(../img/al/bsy/icon.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: -34px;
+    top: -25px;
+    z-index: -1;
+}
+.al-title{
+	font-family: myfont_Medium;
+	font-size: 18px;
+	color:#c21a1f;
+	line-height: 1;
+	font-weight: bold;
+	margin-top:35px;
+}
+.al-title span {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 10px;
+    margin-right: 5px;
+}
+.main{
+	font-size: 18px;
+}
+.last-p{
+	position:relative;
+}
+.last-p::after{
+	content: "";
+    display: inline-block;
+    width: 144px;
+    height: 144px;
+    background: url(../img/al/bsy/icon2.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: -70px;
+    bottom: -105px;
+    z-index: -1;
+}
+
+
+
+.part1 .p1{
+	color:#7f7f7f;
+	line-height: 28px;
+	font-family: myfont_Light;
+}
+.part1 .title1{
+	margin-bottom: 20px;
+}
+.part1 .p2{
+	color:#515151;
+	line-height: 28px;
+	font-family: myfont_Light;
+	margin-top: 10px;
+	text-align: justify;
+}
+.part1 .p2 span{
+	color:#231815;
+	font-family: myfont_Medium;
+	font-weight: bold;
+}
+.part1 .part1-img{
+	display: block;
+	margin:0 auto;
+	margin-top: 30px;
+}
+.part1 .img-b{
+	color:#7f7f7f;
+	text-align: center;
+	margin-top:15px;
+	line-height: 1;
+	font-family: myfont_Light;
+}
+
+
+
+.part2{
+	margin-top: 50px;
+}
+.part2 .title2{
+	margin-bottom: 20px;
+}
+.part2 .p1{
+	color:#515151;
+	line-height: 28px;
+	font-family: myfont_Light;
+	margin-top: 10px;
+	text-align: justify;
+}
+.part2 .p1 .span1{
+	color:#bd1a1f;
+	font-family: myfont_Medium;
+	font-weight: bold;
+}
+.part2 .p1 .span2{
+	color:#231815;
+	font-family: myfont_Medium;
+	font-weight: bold;
+}
+.part2 .p2{
+	color:#515151;
+	line-height: 28px;
+	font-family: myfont_Light;
+	margin-top: 20px;
+}
+.part2 .p2 span{
+	color:#231815;
+	font-family: myfont_Medium;
+	font-weight: bold;
+}
+.part2 .p3{
+	color:#231815;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	margin-top: 25px;
+}
+.part2 .p4{
+	color:#515151;
+	line-height: 28px;
+	font-family: myfont_Light;
+	margin-top: 15px;
+}
+.part2 .title3{
+	margin-bottom: 25px;
+}
+.part2 .p5{
+	margin-top: 15px;
+}
+.part2 .p5 img{
+	display: inline-block;
+	vertical-align: middle;
+}
+.part2 .p5 span{
+	display: inline-block;
+	vertical-align: middle;
+	color:#000000;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	margin-left: 15px;
+}

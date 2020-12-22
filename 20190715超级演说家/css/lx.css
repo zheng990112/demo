@@ -1,0 +1,270 @@
+.title {
+  /* width: auto; */
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: bold;
+}
+
+.title .line {
+  width: 100%;
+  height: 9px;
+  background-color: #e7e7e7;
+  position: relative;
+  margin-top: 25px;
+}
+
+.lx2 .main-info .map-container {
+  width: 100%;
+  height: 420px;
+  background-color: #e7e7e7;
+  margin-top: 33px;
+}
+
+.lx2 .main-info .p-box {
+  font-size: 26px;
+  line-height: 50px;
+  margin-top: 47px;
+  color: #333333;
+}
+
+.lx2 .main-info .board-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lx2 .board-box .board-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lx2 .board-box .board-left span {
+  font-size: 34px;
+  line-height: 104px;
+  color: #c69a48;
+}
+
+.lx2 .board-box .board-right {
+  width: 634px;
+  padding: 37px 0;
+  background-color: #2d58a4;
+  border-radius: 29px;
+}
+
+.lx2 .board-box .board-right .board-form {
+  padding: 0 57px;
+}
+
+.lx2 .board-box .board-right .board-form .input-group {
+  padding: 0 26px;
+  background-color: #ffffff;
+  height: 52px;
+  display: flex;
+  align-items: center;
+}
+
+.lx2 .board-box .board-right .board-form .input-group+.input-group {
+  margin-top: 20px;
+}
+
+.lx2 .board-box .board-right .board-form .input-group label {
+  font-size: 28px;
+  color: #2d58a4;
+}
+
+.lx2 .board-box .board-right .board-form .input-group input {
+  font-size: 28px;
+  color: #2d58a4;
+  height: 52px;
+  line-height: 52px;
+  flex: 1;
+}
+
+.lx2 .board-box .board-right .board-form .sub-btn {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.lx2 .board-box .board-right .board-form .sub-btn button {
+  width: 120px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 28px;
+  border-radius: 18px;
+  background-color: #c69a48;
+  color: #ffffff;
+}
+
+.lx1 .picScroll-left {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.lx1 .picScroll-left .bd {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.lx1 .picScroll-left .bd li {
+  float: left;
+  background: #eeeeee;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  /* height: 405px; */
+}
+
+.lx1 .picScroll-left .bd li img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.lx1 .picScroll-left .hd {
+  text-align: right;
+}
+
+.lx1 .picScroll-left .hd ul li {
+  display: inline-block;
+  width: 50px;
+  height: 8px;
+  background-color: #dbc59c;
+  font-size: 0;
+  margin: 0 5px;
+  margin-top: 20px;
+}
+
+.lx1 .picScroll-left .hd ul li.on {
+  background-color: #2d58a1;
+}
+
+.lx1 .dynamic {
+  margin-top: 36px;
+}
+
+.lx1 .dynamic .dynamic-title {
+  display: flex;
+  align-items: center;
+}
+
+.lx1 .dynamic .dynamic-title span {
+  display: block;
+  width: 185px;
+  height: 48px;
+  line-height: 48px;
+  border-radius: 24px;
+  text-align: center;
+  font-size: 34px;
+  background-color: #c69a48;
+  color: #ffffff;
+}
+
+.lx1 .dynamic .dynamic-title:after {
+  content: '';
+  flex: 1;
+  display: block;
+  height: 2px;
+  background-color: #c69a48;
+}
+
+.lx1 .dynamic .dynamic-messages {
+  margin-top: 20px;
+}
+
+.lx1 .dynamic .dynamic-messages ul>li {
+  padding: 17px 0;
+}
+
+.lx1 .dynamic .dynamic-messages ul>li+li {
+  border-top: 2px dashed #e7e7e7;
+}
+
+.lx1 .dynamic .dynamic-messages ul>li a {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+  align-items: center;
+  color: #333333;
+}
+
+.lx1 .dynamic .dynamic-messages ul>li a span:last-child {
+  font-size: 18px;
+}
+
+.lx1 .dynamic .dynamic-messages ul>li a:hover {
+  color: #c69a48;
+}
+
+.lx1 .contro-btn {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 22px;
+}
+
+.lx1 .contro-btn ul {
+  display: flex;
+}
+
+.lx1 .contro-btn ul li {
+  margin: 0 8px;
+  cursor: pointer;
+}
+
+.lx1 .contro-btn ul li:hover {
+  color: #2d58a4;
+}
+
+.lx1 .contro-btn ul li.checked {
+  color: #2d58a4;
+}
+
+.lx1 .contro-btn span {
+  margin: 0 15px;
+  color: #2d58a4;
+}
+
+.lx1 .padBottom {
+  padding-bottom: 147px;
+}
+
+
+
+
+/* 20201027 */
+.lx2 .pic {
+  width: 100%;
+  height: 420px;
+  background-color: #e7e7e7;
+  margin-top: 33px;
+}
+
+.lx2 .pic img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.lx2 .map1 {
+  width: 100%;
+  height: 420px;
+  background-color: #e7e7e7;
+  margin-top: 33px;
+  margin-bottom: 33px;
+}
+
+.lx2 .main-info .p-box {
+  margin-top: 25px;
+}
+
+.lx2 .first-p {
+  font-size: 26px;
+  line-height: 50px;
+  margin-top: 25px;
+  color: #333333;
+  margin-bottom: 33px;
+}

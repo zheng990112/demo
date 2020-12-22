@@ -1,0 +1,42 @@
+.news_text {
+  width: 12rem;
+  margin: auto;
+  padding-bottom: 0.5rem;
+}
+
+.news_text h1 {
+  text-align: center;
+  font-size: 0.48rem;
+  color: #474747;
+  margin-top: 0.3rem;
+}
+
+.news_text h3 {
+  width: 5rem;
+  margin: auto;
+  font-size: 0.18rem;
+  margin-top: 0.2rem;
+  color: #707070;
+}
+
+.news_text h3 .span1 {
+  float: left;
+}
+
+.news_text h3 .span2 {
+  float: right;
+}
+
+.news_text img {
+  width: 100%;
+  display: block;
+  margin-top: 0.2rem;
+}
+
+.news_text p {
+  text-align: justify;
+  margin-top: 0.3rem;
+  font-size: 0.16rem;
+  color: #707070;
+  line-height: 1.5;
+}

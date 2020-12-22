@@ -1,0 +1,141 @@
+.part-img{
+	display: block;
+	width: 100%;
+	margin-top: 35px;
+}
+
+.part1 .top-img{
+	display: block;
+	width: 100%;
+}
+.part1 .big_title{
+	font-size:37px;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	color:#515151;
+	line-height: 1;
+	margin-top: 45px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #9c9b9c;
+	position:relative;
+	margin-bottom: 25px;
+}
+.part1 .big_title::after {
+    content: "";
+    display: inline-block;
+    width: 145px;
+    height: 162px;
+    background: url(../img/al/bsy/icon.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: -34px;
+    top: -25px;
+    z-index: -1;
+}
+.al-title{
+	font-family: myfont_Medium;
+	font-size: 18px;
+	color:#c21a1f;
+	line-height: 1;
+	font-weight: bold;
+	margin-top:35px;
+}
+.al-title span {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 10px;
+    margin-right: 5px;
+}
+.main{
+	font-size: 18px;
+}
+.last-p{
+	position:relative;
+}
+.last-p::after{
+	content: "";
+    display: inline-block;
+    width: 144px;
+    height: 144px;
+    background: url(../img/al/bsy/icon2.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: -70px;
+    bottom: -170px;
+    z-index: -1;
+}
+.main-box{
+	padding-bottom: 200px;
+}
+
+
+
+
+
+
+.part1 .p1{
+	color:#7e7f80;
+	line-height: 28px;
+	font-family: myfont_Light;
+}
+.part1 .p2{
+	color:#231815;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	line-height: 1;
+	margin-top: 25px;
+}
+.part1 .p3{
+	color:#515151;
+	font-family: myfont_Light;
+	line-height: 28px;
+	margin-top: 12px;
+}
+.part1 .p4{
+	color:#231815;
+	line-height: 28px;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+.part2 ul li{
+	padding-left:25px;
+	box-sizing: border-box;
+}
+.part2 ul li .li-p1{
+	color:#b81c21;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	margin-top: 35px;
+	position:relative;
+}
+.part2 ul li .li-p2{
+	color:#515151;
+	font-family: myfont_Light;
+	line-height: 28px;
+	margin-top: 10px;
+}
+.part2 ul li .li-p2 span{
+	color:#231815;
+	font-family: myfont_Medium;
+	font-weight: bold;
+}
+.part2 ul li .li-p1::before{
+	content:"";
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	background-color: #b71c21;
+	position:absolute;
+	top: 50%;
+	margin-top: -3px;
+	left: -20px;
+}
+.part2 .last-p{
+	color:#515151;
+	font-size: 18px;
+	line-height: 28px;
+	font-family: myfont_Light;
+	margin-top: 20px;
+}

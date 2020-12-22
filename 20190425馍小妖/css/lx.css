@@ -1,0 +1,224 @@
+.main .part1 {
+	background: url(../img/lx/a1.jpg) no-repeat 100%;
+	height: 181px;
+	margin-top: 110px;
+}
+
+.main .part1 h3 {
+	font-size: 66px;
+	color: #ffffff;
+	font-weight: 400;
+	font-family: myfont;
+	letter-spacing: 4px;
+	margin-left: 54px;
+	padding-top: 34px;
+}
+
+.main .part1 p {
+	font-size: 16px;
+	color: #ffffff;
+	margin-left: 54px;
+}
+
+.main .part2 {
+	width: 1178px;
+	display: block;
+	margin: 0 auto;
+	border: 4px solid #000000;
+	border-top: none;
+}
+
+.main  .part2 .div3 {
+	padding-top: 38px;
+	display: inline-block;
+	float: left;
+	margin-right: 34px;
+}
+
+.main  .part2 .div3:last-child {
+	margin-right: 0;
+}
+
+.main .part2 .div4 {
+	float: left;
+	width: 92px;
+}
+.main  .part2 .div4 p {
+	font-size: 24px;
+	color: #595858;
+}
+
+.main  .part2 .div4 span {
+	font-size: 18px;
+	color: #9f9fa0;
+}
+
+.main  .part2 input {
+	width: 240px;
+	height: 56px;
+	line-height: 56px;
+	border: 2px solid #f0f0f0;
+	float: left;
+	color: #000;
+	font-size: 24px;
+	margin-left: 14px;
+}
+
+.main  .div5 {
+	width: 1120px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.main  .div6 {
+	width: 1120px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.main .div6 textarea {
+	width: 1010px;
+	border: 2px solid #f0f0f0;
+	margin-left: 14px;
+	height: 294px;
+}
+
+.main .part2 button {
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	width: 220px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 24px;
+	color: #fff;
+	background: #de5626;
+	margin-bottom: 30px;
+}
+
+.map-box {
+	width: 614px;
+	height: 404px;
+	background-size: 100% 100%;
+	margin-top: 54px;
+	box-sizing: border-box;
+	clear: both;
+	overflow: hidden;
+	margin-bottom: 66px;
+}
+
+.map-box .map {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
+
+.main .part3 .div2 {
+	width: 504px;
+	margin-left: 38px;
+	margin-top: 70px;
+}
+
+.main  .part3 .div2 .div3 {
+	background: url(../img/lx/a1.png) no-repeat left top;
+	height: 221px;
+}
+
+.main .part3 .div2 .div3 img {
+	width: 100px;
+	height: 100px;
+	margin-left: 180px;
+	margin-top: 114px;
+}
+
+.main  .part3 .div2 .div4 {
+	background: url(../img/lx/a3.jpg) no-repeat left 4px;
+	background-size: 42px 42px;
+	height: 54px;
+}
+
+.main  .part3 .div2 .div4 span {
+	font-size: 20px;
+	color: #595757;
+	padding-left: 54px;
+	display: inline-block;
+	vertical-align: middle;
+	float: left;
+}
+.main .part3 .div2 .div4 h3 {
+	display: inline-block;
+	float: left;
+	font-size: 50px;
+	color: #de5525;
+	vertical-align: top;
+	height: 54px;
+	line-height: 54px;
+	margin-left: 8px;
+}
+
+.main  .part3 .div2 .div5 {
+	margin-top: 32px;
+}
+
+.main  .part3 .div2 .div5 span {
+	font-size: 20px;
+	color: #595757;
+	font-weight: bold;
+}
+
+.main .part3 .div2 .div5 p {
+	font-size: 20px;
+	color: #595757;
+	margin-top: 6px;
+}
+@media (max-width:1444px) {
+.main  .part1{margin-top: 44px;}
+.er_title{margin-top: 44px;}
+.content .main-box{width: 1300px;display: block;margin: 0 auto;}	
+.main {width: 1042px;}	
+.main  .part1{height: 157px;}
+.main  .part1 h3{padding-top: 29px;font-size: 60px;margin-left: 30px;}
+.main  .part1 p{margin-left: 30px;}
+.main  .part2{width: 1010px;}
+.main  .part2 .div4 p{font-size: 22px;}
+.main  .part2 .div4{width: 72px;}
+.main  .part2 input{margin-left: 0;width: 200px;}
+.main  .div5{width: 898px;}
+.main  .div6{width: 898px;}
+.main  .div6 textarea{width: 822px;margin-left: 0;}
+.map-box{width: 498px;}
+.content_right {
+		width: 1042px;
+	}
+	.main {
+		width: 1042px !important;
+	}	
+}
+
+
+@media (max-width:1280px) {
+.content_right .part1{margin-top: 44px;}
+.er_title{margin-top: 44px;}
+.content .main-box{width: 1200px;display: block;margin: 0 auto;}	
+.main {width: 950px;}	
+.main .part1{height: 143px;}
+.main  .part1 h3{padding-top: 20px;font-size: 46px;margin-left: 30px;}
+.main  .part1 p{margin-left: 30px;}
+.main .part2{width: 934px;}
+.main  .part2 .div4 p{font-size: 22px;}
+.main  .part2 .div4 span{font-size: 16px;}
+.main  .part2 .div4{width: 72px;}
+.main  .part2 input{margin-left: 0;width: 200px;}
+.main  .div5{width: 898px;}
+.main  .div6{width: 898px;}
+.main .div6 textarea{width: 822px;margin-left: 0;}
+.map-box{width: 408px;}
+.main {
+		width: 950px !important;
+	}
+	.pp2-top {
+		width: 950px;
+	}	
+}

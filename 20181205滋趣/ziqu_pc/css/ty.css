@@ -1,0 +1,203 @@
+.lift_top {
+	background: url(../img/ty/1.png) no-repeat;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+	/*padding-top: 60px;*/
+	height: 86px;
+	margin-top: 60px;
+}
+
+.lift_top h3 {
+	font-size: 31px;
+	color: #313435;
+	height: 40px;
+	line-height: 0;
+}
+
+.lift_top span {
+	font-size: 29px;
+	color: #313435;
+	letter-spacing: 4px;
+	height: 40px;
+	line-height: 0px;
+}
+.lift_top1 {
+	background: url(../img/ty/1.png) no-repeat left 14px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+	padding-top: 14px;
+	height: 86px;
+}
+
+.lift_top1 h3 {
+	font-size: 31px;
+	color: #313435;
+	height: 40px;
+	line-height: 0;
+}
+
+.lift_top1 span {
+	font-size: 29px;
+	color: #313435;
+	letter-spacing: 4px;
+	height: 40px;
+	line-height: 0px;
+}
+.mdhd_qb {
+	box-sizing: border-box;
+	position: relative;
+	/*overflow: hidden;*/
+	height: 760px;
+	/*margin-top: -80px;*/
+}
+
+.mdhd_qb  .bg1 {
+	position: absolute;
+	left: 50%;
+	top:-80px;
+	height: 760px;
+	z-index: -1;
+	box-sizing: border-box;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	width: 1920px;
+}
+.md_qb {
+	box-sizing: border-box;
+	position: relative;
+	/*overflow: hidden;*/
+	height: 1425px;
+	margin-top: -160px;
+}
+
+.md_qb  .bg2 {
+	position: absolute;
+	left: 50%;
+	top: 0;
+	height: 800px;
+	z-index: -1;
+	box-sizing: border-box;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	width: 1920px;
+}
+
+
+.md_qb  .bg3 {
+	position: absolute;
+	left: 50%;
+	top: 800px;
+	height: 625px;
+	z-index: -1;
+	box-sizing: border-box;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	width: 1920px;
+}
+
+/*门店活动现场开始*/
+.mdhd1 .mdhd_top{text-align: center;margin-top:60px;}
+.mdhd1 .mdhd_top span{font-size: 40px;color: #413d3c;}
+.mdhd1 .mdhd_top h3{font-size: 39px;color: #413d3c;margin-bottom: 20px;}
+.mdhd1 .mdhd_top p{font-size: 16px;color: #413d3c;}
+.mdhd1 .mdhd_bottom{margin-top: 24px;}
+.mdhd1 .mdhd_bottom ul li{width: 396px;float: left;margin-right:6px;text-align: center;}
+.mdhd1 .mdhd_bottom ul li:nth-child(3n){margin-right: 0;}
+.mdhd1 .mdhd_bottom ul li img{width: 392px;height: 251px;border: 3px solid #fff;border-radius: 38px;}
+.mdhd1 .mdhd_bottom ul li h3{font-size: 26px;color: #413d3c;margin-top: 24px;}
+/*门店活动现场结束*/
+/*门店效果图开始*/
+.md1 .md_top{text-align: center;}
+.md1 .md_top p{font-size: 35px;color: #000000;}
+.md1 .md_top .p1{margin-top: 40px;}
+
+.sj_bottom .bigSmall{
+	margin-top: 15px;
+}
+.sj_bottom  .bigSmall .large_box{
+	width: 1176px;
+	margin: 0 auto 50px auto;
+	overflow: hidden;
+	height: 797px;
+}
+.sj_bottom  .bigSmall .large_box ul{
+	position: relative;
+}
+.sj_bottom  .bigSmall .large_box ul li{
+	position: relative;
+	width: 1176px;
+	height:797px; 
+}
+.sj_bottom  .bigSmall img{
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+.sj_bottom  .bigSmall .small_box{
+	position: relative;margin-bottom: 108px;
+	margin-left: -10px;
+}
+.sj_bottom  .bigSmall .small_box .small_list{
+	width: 810px;
+	height: 171px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.sj_bottom  .bigSmall .small_box .small_list ul{
+	position: relative;
+}
+.sj_bottom  .bigSmall .small_box .small_list ul li{
+	width: 257px;
+	height: 171px;
+	position: relative;
+	float: left;
+	cursor: pointer;
+	margin: 0 7px;
+	overflow: hidden;
+	border: 2px solid transparent;
+	box-sizing: border-box;
+}
+.sj_bottom  .bigSmall .small_box ul li.on{
+	border:2px solid #fff;
+}
+.sj_bottom  .arrow{
+	position: absolute;
+	top: 14px;
+	height: 152px;
+	width: 152px;
+}
+.sj_bottom  .arrow img{
+	width: 152px;
+	height: 152px;
+	margin-top: 0px;
+	display: inline-block;
+	cursor: pointer;
+}
+.sj_bottom  .arrow-left{
+	left: 17px;
+	text-align: left;
+}
+.sj_bottom  .arrow-right{
+	right: 17px;
+	text-align: right;
+}
+/*门店效果图结束*/
+
+
+
+.mdhd_qb .public-title .p2{
+	letter-spacing: 3px;
+}

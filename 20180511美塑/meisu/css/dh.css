@@ -1,0 +1,148 @@
+/*对话财富*/
+html, body{
+	height: 100%;
+	overflow: auto;
+}
+.dh1{
+	border: 1px solid red;
+	position:relative;
+}
+.dh1 .title{
+	width: 100%;
+	text-align: center;
+}
+.dh1 .title .title2 div{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 40px;
+}
+.dh1 .title .title2 .title2-l,
+.dh1 .title .title2 .title2-r{
+	width: 50px;
+	height: 2px;
+	background-color: #000;
+}
+.dh1 .title .title2 .title2-center{
+	margin:10px 15px;
+}
+.dh1 .title .a2-img{
+	margin-top: 20px;
+}
+.dh1 .part1{
+	border:1px solid red;
+	height: 295px;
+}
+.dh1 .part1 ul{
+	border:1px solid red;
+}
+.dh1 .part1 ul li{
+	font-size: 30px;
+	line-height: 40px;
+}
+.dh1 .part1 ul li:last-child{
+	font-size: 26px;
+}
+.dh1 .part1 ul li span{
+	font-size: 20px;
+} 
+.dh1 .part1 .part1-img{
+    /* float: right; */
+    position: absolute;
+    z-index: -1;
+    top: 160px;
+    right:0;
+    /* margin-top: -100px; */
+}
+.dh1 .part1 .line{
+	font-size: 0;
+}
+.dh1 .part1 .line .line-1{
+	width: 10px;
+	height: 10px;
+	background-color: #d7d7d7;
+	vertical-align: middle;
+	display: inline-block;
+}
+.dh1 .part1 .line .line-2{
+	width: 460px;
+	height: 2px;
+	background-color: #d7d7d7;
+	vertical-align: middle;
+	display: inline-block;
+}
+.part2 .fl-lt{
+	width: 50%;
+	position:relative;
+}
+.part2 .fl-lt img{
+	width: 100%;
+}
+.part2 .fl-lt .form{
+	width: 400px;
+	height: 410px;
+	border:1px solid #000;
+	position:absolute;
+	top:60px;right:90px;
+}
+.part2 .fl-lt .form p{
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.part2 .fl-lt .form input{
+	width: 90%;
+	height: 35px;
+	color:#000;
+	font-size: 16px;
+	padding-left:10px;
+	background-color: transparent;
+	border:1px solid #000;
+	margin:0 auto;
+	margin-top: 10px;
+	box-sizing: border-box;
+}
+.part2 .fl-lt .form textarea{
+	height: 150px;
+	width: 90%;
+	color:#000;
+	font-size: 16px;
+	padding-left:10px;
+	padding-top:10px;
+	background-color: transparent;
+	border:1px solid #000;
+	margin:0 auto;
+	margin-top: 10px;
+	box-sizing: border-box;
+	resize:none;
+}
+.part2 .fl-lt .form button{
+	width: 43%;
+    height: 35px;
+    margin: 0 1%;
+    margin-top: 10px;
+	background-color: transparent;
+	border:1px solid #000;
+	color:#000;
+	font-size: 16px;
+}
+.part2 .fl-rt{
+	width: 50%;
+}
+.part2 .fl-rt .map{
+	height: 410px;
+	width: 100%;
+}
+
+
+@media (max-width:1366px) {
+	html {
+		font-size: 66.67px
+	}
+	.part2 .fl-lt .form{
+	    height: 380px;
+	    top:0;
+	    right: 30px;
+	}
+	.part2 .fl-rt .map{
+		height: 380px;
+	}
+}

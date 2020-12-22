@@ -1,0 +1,261 @@
+
+
+.main-box .kc{
+	width: 9.7rem;
+	padding-bottom: 1rem;
+}
+.kc-title{
+	text-align: center;
+}
+.kc-title .p1{
+	font-size: 0.38rem;
+	color:#0064ff;
+}
+.kc-title .p2{
+	font-size: 0.38rem;
+	color:#fff;
+	width: 4.3rem;
+	height: 0.7rem;
+	background: url(../img/px/b7.png) no-repeat;
+	background-size: 100% 100%;
+	line-height: 0.7rem;
+	margin:0 auto;
+	margin-top: 0.1rem;
+}
+.kc-title .p3{
+	font-size: 0.32rem;
+	color:#000;
+	margin-top: 0.1rem;
+}
+.kc-title img{
+	display: block;
+	width: 0.23rem;
+	margin:0 auto;
+	margin-top: 0.2rem;
+}
+.kc .top_ul{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0.15rem;
+}
+.kc .top_ul li{
+	width: 1.5rem;
+	height: 1.5rem;
+	position:relative;
+}
+.kc .top_ul li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 0.75rem;
+}
+.kc .top_ul li p{
+	font-size: 0.2rem;
+	line-height: 0.26rem;
+	width: 100%;
+	text-align: center;
+	position:absolute;
+	top: 50%;
+	margin-top: -0.26rem;
+}
+.kc .top_ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color:#fff;
+}
+.kc .part0{
+	position:relative;
+	height: 6rem;
+}
+.kc .part0 .part0_icon{
+	display: block;
+	width: 3.5rem;
+	height: 3.2rem;
+	position:absolute;
+	bottom: 0;
+	right: -1.9rem;
+}
+
+
+
+.kc .part{
+	/*height: 8.95rem;*/
+	padding-bottom: 0.6rem;
+	position:relative;
+	padding-top: 0.4rem;
+	box-sizing: border-box;
+}
+
+.kc .part .kc-top img{
+	display: inline-block;
+	vertical-align: middle;
+	width:2.34rem;
+}
+.kc .part .kc-top{
+	position:relative;
+}
+.kc .part .kc-top::after{
+	content:"";
+	display: block;
+	width: 100%;
+	height: 1px;
+	background-color: #c6c6c6;
+	position:absolute;
+	bottom: 0;
+	left: 0;
+}
+.kc .part .box{
+	height: 1.45rem;
+	background:#fff;
+	-moz-box-shadow: 0px 0px 0.1rem #888888;
+    box-shadow: 0px 0px 0.1rem #888888;
+    border-radius: 0.2rem;
+    margin-top: 0.3rem;
+}
+.kc .part .box .box-img{
+	display:inline-block;
+	vertical-align: top;
+	width: 2.24rem;
+	height: 1.45rem;
+}
+.kc .part .box .box-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+    border-radius: 0.15rem;
+}
+.kc .part .box .box-fonts{
+	display:inline-block;
+	vertical-align: top;
+	margin-left: 0.5rem;
+	padding-top: 0.1rem;
+	box-sizing: border-box;
+	width: 6.5rem;
+}
+.kc .part .box .box-fonts .p1{
+	font-size: 0.16rem;
+	margin-bottom: 0.1rem;
+}
+.kc .part .box .box-fonts .p1 span{
+	font-size: 0.24rem;
+	margin-right: 0.1rem;
+	font-weight: bold;
+}
+.kc .part .box .box-fonts .p2 span{
+	font-size: 0.16rem;
+	color:#333;
+	display: inline-block;
+	margin-right: 0.1rem;
+	line-height: 0.26rem;
+}
+
+
+.kc .part1::before,
+.kc .part3::before,
+.kc .part5::before{
+	content:"";
+	display: inline-block;
+	height: 100%;
+	width: 19.2rem;
+	background-color: #eaeaea;
+	position:absolute;
+	left: -6rem;
+	top: 0;
+	z-index: -1;
+}
+
+
+.part6{
+	padding-top: 0.6rem;
+}
+.part6 .part6-title{
+	position:relative;
+}
+.part6 .part6-title::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #c6c6c6;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.part6 .part6-title img{
+	display: block;
+	width: 2.33rem;
+	margin:0 auto;
+}
+.part6 .part6-title p{
+	font-size: 0.28rem;
+	color:#000;
+	text-align: center;
+	width: 100%;
+	position:absolute;
+	top: 0.5rem;
+}
+.part6 .box{
+	border-bottom: 1px solid #c6c6c6;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	margin-top: 0.35rem;
+	padding-bottom: 0.3rem;
+}
+.part6 .box div{
+	width: 2.42rem;
+}
+.part6 .box .box-icon{
+	display: block;
+	width: 0.95rem;
+	margin:0 auto;
+}
+.part6 .box .box-p{
+	font-size: 0.16rem;
+	line-height: 0.26rem;
+	color:#333333;
+	margin-top: 0.1rem;
+}
+.part6 ul{
+	width: 9.55rem;
+	margin:0 auto;
+	margin-top: 0.4rem;
+}
+.part6 ul li{
+	float:left;
+	width: 2.24rem;
+	height: 3.35rem;
+	border-radius:0.15rem;    
+	-moz-box-shadow: 0px 0px 0.1rem #888888;
+    box-shadow: 0px 0px 0.1rem #888888;
+    text-align: center;
+    margin-right: 0.195rem;
+    margin-top: 0.2rem;
+}
+.part6 ul li:nth-child(4n){
+	margin-right: 0;
+}
+.part6 ul li .li-img{
+	width: 2.24rem;
+	height: 1.45rem;
+}
+.part6 ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius:0.15rem;
+}
+.part6 ul li .li-p1{
+	font-size: 0.24rem;
+	color:#000;
+	font-weight: bold;
+	margin-top: 0.2rem;
+	line-height: 1;
+}
+.part6 ul li .li-p2{
+	font-size: 0.16rem;
+	color:#333333;
+	line-height: 0.26rem;
+	margin-top: 0.1rem;
+}

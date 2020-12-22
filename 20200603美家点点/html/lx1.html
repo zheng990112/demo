@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+		<link rel="shortcut icon" type="image/x-icon" href="../img/logoIcon.png" media="screen">
+		<link rel="stylesheet" href="../css/common.css">
+		<link rel="stylesheet" href="../css/lx1.css">
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=6ALaE7y1e8N171T2CfPrHqZC3Ed000Cl"></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="head_main clearfix">
+				<div class="logo fl-lt">
+					<img src="../img/logo.png" alt="" />
+					<p class="line"></p>
+					<span>移动家政行业创导者</span>
+				</div>
+				<div class="nav fl-rt">
+					<ul class="clearfix">
+						<li><a href="index.html">首页</a></li>
+						<li><a href="pp1.html">关于我们</a></li>
+						<li><a href="ys1.html">品牌优势</a></li>
+						<li><a href="fw1.html">服务项目</a></li>
+						<li><a href="hz1.html">合作共赢</a></li>
+						<li><a href="news1.html">新闻动态</a></li>
+						<li class="active"><a href="lx1.html">联系我们</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<img src="../img/bg1.jpg" alt="" class="content_bg"/>
+			<div class="container">
+				<div class="lx_top clearfix">
+					<img src="../img/lx1/01.png" alt="" class="img1">
+					<div class="text ">
+						<p class="p1">
+							心动不如行动
+							<img src="../img/lx1/text.png" alt="" class="p_img1">
+							<img src="../img/lx1/text.jpg" alt="" class="p_img2">
+						</p>
+						<span class="span1">
+							SUCCESSFUL<br />
+							ENTREPRENEURSHIP
+						</span>
+						<ul class="list clearfix">
+							<li>
+								<p>捞金热线：4008-70- 4008</p>
+							</li>
+							<li>
+								<p>美家点点品牌管理运营总部</p>
+							</li>
+							<li>
+								<p>美家（中国）集团有限公司</p>
+							</li>
+						</ul>
+						<div class="box">
+							<div>添加二维码</div>
+							<div>添加二维码</div>
+						</div>
+					</div>
+				</div>
+				<div id="map" class="map">
+					<p>地图待替换</p>
+				</div>
+				
+				<form action="javascript:;" method="post" class="clearfix lxForm">
+					<input type="text" placeholder="姓名 / Name">
+					<input type="text" placeholder="电话 / Telephone">
+					<input type="text" placeholder="合作方式 / Mode">
+					<textarea placeholder="留言 / Leaving a message"></textarea>
+					<input type="submit" value="提 交"/>
+				</form>
+				
+				
+				
+			</div>
+		</div>
+		
+		
+		<!--返回顶部-->
+	    <div class="backTop">
+	        <span><</span>
+	    </div>
+		<div class="footer">
+			<div class="nav">
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="pp1.html">关于我们</a></li>
+					<li><a href="ys1.html">品牌优势</a></li>
+					<li><a href="fw1.html">服务项目</a></li>
+					<li><a href="hz1.html">合作共赢</a></li>
+					<li><a href="news1.html">新闻动态</a></li>
+					<li  class="active"><a href="lx1.html">联系我们</a></li>
+				</ul>
+			</div>
+			<div class="foot_main">
+				<div class="logo"><img src="../img/foot1.png" alt="" /></div>
+				<div class="address">
+					<p><img src="../img/foot_01.png" alt="" /><span>捞金热线：4008-70-4008</span></p>
+					<p><img src="../img/foot_02.png" alt="" /><span>美家点点品牌管理运营总部</span></p>
+					<p><img src="../img/foot_03.png" alt="" /><span>美家（中国）集团有限公司</span></p>
+					<div>北京市丰台区汉威国际广场3区1号楼2层<br />广东省广州市白云区聚源街50号牛犇财富大厦5层</div>
+				</div>
+				<div class="erweima">
+					<img src="../img/erweima.jpg" alt="" />
+					<img src="../img/erweima.jpg" alt="" />
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			      	var map = new BMap.Map("map"); // 创建Map实例
+			        var point = new BMap.Point(116.302105,39.830506);
+			        map.centerAndZoom(point, 15);
+			        var marker = new BMap.Marker(point); // 创建标注
+			        map.addOverlay(marker); // 将标注添加到地图中
+			        marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+			        map.panTo(point);
+			        map.addControl(new BMap.NavigationControl()); // 添加默认缩放平移控件
+			        map.enableScrollWheelZoom(true); //开启鼠标滚轮缩放
+			    </script>
+		<script src="../js/jquery-1.11.2.min.js"></script>
+		<script src="../js/common.js"></script>
+	</body>
+</html>

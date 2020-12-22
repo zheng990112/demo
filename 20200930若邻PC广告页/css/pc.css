@@ -1,0 +1,105 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.content {
+	width: 1000px;
+	margin: 0 auto;
+	font-size: 0;
+	position: relative;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+
+/*返回顶部*/
+
+.backTop {
+	position: fixed;
+	bottom: 250px;
+	right: 3%;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #ba1c21;
+	cursor: pointer;
+	display: none;
+	z-index: 99;
+}
+
+.backTop span {
+	display: block;
+	font-size: 40px;
+	color: #fff;
+	margin-top: -7px;
+	margin-left: 7px;
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+}
+
+.backTop:hover {
+	opacity: 0.8;
+}
+input {
+	outline: none;
+	border: 0;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-appearance: none;
+}
+
+form{
+	width: 500px;
+	padding:  50px 150px;
+	margin: auto;
+	margin-bottom: 50px;
+	background-color: #d6d6d6;
+	border: 2px solid #b1b1b1;
+	border-radius: 20px;
+	font-size: 0;
+}
+form input{
+	padding-left: 70px;
+	width: 430px;
+	height: 60px;
+	font-size: 24px;
+}
+form input{
+	background: #ffffff url(../img/pc/icon1.jpg) 21px center no-repeat;
+	background-size: 28px 27px;
+}
+form input:nth-child(2){
+	margin-top: 30px;
+	background: #ffffff url(../img/pc/icon2.jpg) 21px center no-repeat;
+	background-size: 28px 27px;
+}
+form input:last-child{
+	width: 100%;
+	background: #b71521;
+	padding: 0;
+	margin-top: 50px;
+	color: #ffffff;
+	cursor: pointer;
+}
+a{
+	text-decoration: none;
+	color: #ba1c21;
+	-webkit-tap-highlight-color: transparent;
+}
+/* @media (max-width: 1440px) {
+	.content {
+		width: 800px;
+	}
+	form{
+		width: 400px;
+	}
+	form input{
+		width: 330px;
+	}
+} */

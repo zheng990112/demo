@@ -1,0 +1,264 @@
+.part-img{
+	display: block;
+	width: 100%;
+	margin-top: 35px;
+}
+
+.part1 .top-img{
+	display: block;
+	width: 100%;
+}
+.part1 .part-img2{
+    margin-top: 15px;
+}
+.part1 .part-img3{
+    margin-top: 5px;
+}
+.part1 .big_title{
+	font-size:37px;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	color:#515151;
+	line-height: 1;
+	margin-top: 45px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #9c9b9c;
+	position:relative;
+	margin-bottom: 25px;
+}
+.part1 .big_title::after {
+    content: "";
+    display: inline-block;
+    width: 145px;
+    height: 162px;
+    background: url(../img/al/bsy/icon.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: -34px;
+    top: -25px;
+    z-index: -1;
+}
+.al-title{
+	font-family: myfont_Medium;
+	font-size: 18px;
+	color:#c21a1f;
+	line-height: 1;
+	font-weight: bold;
+	margin-top: 40px;
+}
+.al-title span {
+    display: inline-block;
+    vertical-align: bottom;
+    line-height: 16px;
+    margin-right: 5px;
+}
+
+
+
+.part1 .p1{
+	font-size: 18px;
+	font-family: myfont_Light;
+	color:#7f7f7f;
+	line-height: 36px;
+}
+.part1 .p1 span{
+	display: inline-block;
+	vertical-align: middle;
+}
+.part1 .p1 .span1{
+	width: 90px;
+	
+}
+.part1 .p0{
+	font-size: 18px;
+	font-family: myfont_Medium;
+    color:#bd1a1f;
+}
+.part1 .p2{
+	font-size: 18px;
+	font-family: myfont_Light;
+	color:#515151;
+	margin-top: 10px;
+}
+.part1 .p2 span{
+    color:#ba1a1f;
+    font-weight: bold;
+}
+.part1 .p2.color span{
+    color:#000;
+	font-family: myfont_Medium;
+	font-weight: bold;
+}
+.part1 .p3{
+	color:#000;
+	font-size: 18px;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	margin-top:25px;
+}
+.part1 .p3 span{
+    color:#ba1a1f;
+    font-weight: bold;
+}
+.part1 .p4{
+	font-size: 24px;
+	line-height: 1;
+	color:#ba1a1f;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	margin-top:25px;
+}
+.part1 .img-box{
+	margin-top: 20px;
+}
+.part1 .img-box img{
+	display: block;
+	width: 100%;
+}
+.part1 .str-before{
+	margin-top:25px;
+}
+.part1 .str-before p{
+    color:#000;
+    display: inline-block;
+	font-size: 18px;
+	font-family: myfont_Medium;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 40px;
+    position: relative;
+}
+.part1 .str-before p::before{
+    content: "";
+    width: 6px;
+    height: 6px;
+    background-color: #b51c21;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -3px;
+}
+
+.part1 .box{
+	box-sizing: border-box;
+	font-size: 18px;
+	color:#515151;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.part1 .box .box-p1{
+    color:#231815;
+    padding-left: 60px;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	position:relative;
+	line-height: 60px;
+    border-bottom: 2px solid #dcdddd;
+}
+.part1 .box .box-p1::before{
+	content:"";
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	background-color: #b81c21;
+	position:absolute;
+	top: 50%;
+	margin-top: -3px;	
+	left: 30px;
+}
+.part1 .img_box{
+    margin-top: 40px;
+}
+.part1 .img_box .top-img{
+    width: 145px;
+    float: left;
+}
+.part1 .img_box p{
+    width: 650px;
+    margin-top: 23px;
+    float: right;
+    text-align: justify;
+    font-size: 18px;
+	font-family: myfont_Light;
+	color:#7f7f7f;
+	line-height: 36px;
+}
+
+
+.part1 .box2{
+	box-sizing: border-box;
+	font-size: 18px;
+	color:#515151;
+	padding-top: 25px;
+}
+.part1 .box2 p{
+    padding-left: 60px;
+}
+.part1 .box2 .box2-p1{
+	color:#231815;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	position:relative;
+	line-height: 1;
+	margin-top: 20px;
+}
+.part1 .box2 .box2-p1::before{
+	content:"";
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	background-color: #b81c21;
+	position:absolute;
+	top: 50%;
+	margin-top: -3px;	
+	left: 30px;
+}
+.part1 .box2 .box2-p2{
+	color:#515151;
+	font-family: myfont_Light;
+	line-height: 28px;
+    margin-top:10px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #dcdddd;
+}
+.part1 .str-before2{
+   padding-top: 15px;
+}
+.part1 .str-before2 p{
+    font-size: 18px;
+	font-family: myfont_Light;
+	color:#515151;
+    margin-top: 10px;
+    position: relative;
+    padding-left: 60px;
+}
+.part1 .str-before2 p::before{
+    content: "";
+    width: 6px;
+    height: 6px;
+    background-color: #b51c21;
+    position: absolute;
+    left: 27px;
+    top: 50%;
+    margin-top: -3px;
+}
+.part1 .p2.last-p{
+    margin-top: 25px;
+    position: relative;
+}
+.part1 .p2.last-p::after{
+	content: "";
+    display: inline-block;
+    width: 144px;
+    height: 144px;
+    background: url(../img/al/bsy/icon2.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: -72px;
+    top: 20px;
+    z-index: -1;	
+}
+.main-box{
+	padding-bottom: 180px;
+}

@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatitle" content="IE=edge">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<link rel="shortcut icon" type="image/x-icon" href="../img/logoIcon.png" media="screen">
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/lx.css">
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=6ALaE7y1e8N171T2CfPrHqZC3Ed000Cl"></script>
+	</head>
+	<body>
+		<div class="header-box">
+			<div class="header">
+				<div class="header-main clearfix">
+					<div class="header-l fl-lt">
+						<div class="logo"><img src="../img/logo.png" alt="" /></div>
+						<div class="logo-fonts">
+							<span>连锁品牌</span><br />高速成长方案解决服务商
+						</div>
+					</div>
+					<div class="header-r fl-rt">
+						<div class="tel-fonts"><img src="../img/tel.gif" alt="" class="tel-img"/><span>135-5201-5616</span><img src="../img/weixin.png" alt="" /><span>400-2007-010</span></div>
+						<div class="tel-fonts2">
+							<span>顶层设计</span><img src="../img/jia.png" alt="" />
+							<span>商业模式</span><img src="../img/jia.png" alt="" />
+							<span>品牌定位</span><img src="../img/jia.png" alt="" />
+							<span>产品设计</span><img src="../img/jia.png" alt="" />
+							<span>品牌表达</span><img src="../img/jia.png" alt="" />
+							<span>落地路径</span>
+						</div>
+					</div>
+				</div>
+				<img src="../img/header-line.png" alt="" class="header-line"/>
+			</div>
+			<div class="nav-box">
+				<div class="nav">
+					<ul class="clearfix">
+						<li><a href="index.html">首页</a></li>
+						<li><a href="about.html">关于我们</a></li>
+						<li><a href="al-bsy.html">案例</a></li>
+						<li><a href="fw.html">服务内容</a></li>
+						<li><a href="news.html">动态观点</a></li>
+						<li><a href="sxy.html">高铁战略商学院</a></li>
+						<li class="active"><a href="lx.html">联系我们</a></li>
+					</ul>
+					<div class="search-box">
+						<div class="search-btn">
+							<img src="../img/search.png" alt="" class=" img1"/>
+							<img src="../img/close.png" alt="" class="img2 none"/>
+						</div>
+						<div class="inp">
+							<input type="text" placeholder="请搜索..."/>
+							<div>
+								<p>搜索记录1</p>
+								<p>搜索记录2</p>
+								<p>搜索记录3</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bg none"></div>
+		
+		<div class="er-banner">
+			<img src="../img/lx/banner.jpg" alt="" />
+		</div>
+		
+		<div class="content">
+			<!--<div class="part0">
+				<div class="part0-main">
+					<ul class="clearfix">
+						<li class="fl-lt">
+							<img src="../img/lx/01.jpg" alt="" />
+							<p class="p1">北京</p>
+						</li>
+						<li class="li2">
+							<img src="../img/lx/03.jpg" alt="" />
+							<p class="p2">我们在这里</p>
+							<img src="../img/lx/a1.png" alt="" />
+						</li>
+						<li class="fl-rt">
+							<img src="../img/lx/02.jpg" alt="" />
+							<p class="p1">武汉</p>
+						</li>
+					</ul>
+				</div>
+				<img src="../img/header-line.png" alt="" class="line-img"/>
+			</div>-->
+			<div class="part1">
+				<div class="part1-main1 clearfix">
+					<div class="main-l">
+						<p class="p1"><span class="span1">联系我们</span><span class="span2">Contact us</span></p>
+					</div>
+				</div>
+				<div class="part1-main2 clearfix">
+					<div class="main-l">
+						<p class="p1">北京</p>
+						<div class="box clearfix">
+							<p class="p2 fl-lt">北京市朝阳区东三环中路39号建外SOHO区18号楼31层3103室</p>
+							<p class="p2 fl-rt"><a href="http://j.map.baidu.com/vr-mv" target="_blank">查看路线</a></p>
+						</div>
+					</div>
+					<div class="main-r">
+						<div class="map1" id="map1"></div>
+					</div>
+				</div>
+				
+				<div class="part1-main2">
+					<div class="main-l">
+						<p class="p1">广州</p>
+						<div class="box clearfix">
+							<p class="p2 fl-lt">广州市天河区广州银行大厦5318室</p>
+							<!--<p class="p2 fl-rt"><a href="https://map.baidu.com/poi/%E5%B9%BF%E5%B7%9E%E9%93%B6%E8%A1%8C%E5%A4%A7%E5%8E%A6/@12616241.213623436,2631260.5509442547,15.41z?uid=f05fc79bf44f4a609a005018&ugc_type=3&ugc_ver=1&device_ratio=1&compat=1&querytype=detailConInfo&da_src=shareurl" target="_blank">查看路线</a></p>-->
+							<p class="p2 fl-rt"><a href="https://j.map.baidu.com/a8/i68" target="_blank">查看路线</a></p>
+						</div>
+					</div>
+					<div class="main-r">
+						<div class="map3" id="map3"></div>
+					</div>
+				</div>
+				
+				<div class="part1-main2">
+					<div class="main-l">
+						<p class="p1">武汉</p>
+						<div class="box clearfix">
+							<p class="p2 fl-lt">武汉市江岸区新华路294号武汉IFC国际金融中心13层1301-08室</p>
+							<p class="p2 fl-rt"><a href="http://j.map.baidu.com/TvnN9" target="_blank">查看路线</a></p>
+						</div>
+					</div>
+					<div class="main-r">
+						<div class="map2" id="map2"></div>
+					</div>
+				</div>
+				<!--<div class="part1-main3 clearfix">
+					<div class="main-l">
+						<img src="../img/lx/tel-icon.png" alt="" />
+						<span>新业务专线</span>
+					</div>
+					<div class="main-r">
+						<span>400-010-2007</span>
+						<span>/</span>
+						<span>135-5201-5616</span>
+						<img src="../img/weixin.png" alt="" />
+					</div>
+					
+				</div>-->
+			</div>
+			<div class="part2">
+				<div class="part2-main clearfix">
+					<div class="main-l">
+						<p class="p1">资源型合伙人</p>
+					</div>
+					<div class="main-r">
+						<p>
+							要求自有客户资源，有潜在品牌全案需求。<br />
+							有各大商学院资源、投资机构投资经理、总监优先，资源变现（客户转化）。
+						</p>
+						<p>	来这里，我们提供雅致空间，约朋友喝喝茶，百余破亿案例分享，提供专业市场咨询。若邻高级客户经理提供一对一服务。</p>
+						<p>目前有长江商学院、中欧商学院、北大汇丰商学院、混沌商学院、红杉资本、明德资本的伙伴。</p>
+						<p>
+							合伙人申请不经意彼此成就，帮助了朋友，实现自己财富自由。<br />
+							<span class="span0">合作微信：david8975（请注明，合作意向）。</span>
+						</p>
+					</div>
+				</div>
+				
+				<div class="part2-main part2-main2 clearfix">
+					<div class="main-l">
+						<p class="p1">业务合伙人</p>
+					</div>
+					<div class="main-r">
+						<p>
+							<span class="span1 s1">开放城市</span><span class="span2">业务端合伙人，对以下城市开放，一线、二线、三线城市；</span><br />
+							<span class="span1 s2">品牌使用费</span><span class="span2">人民币壹拾万元整/年，达标返还；一年一签，无不良记录，业绩达标协商续签</span><br />
+							<span class="span1 s3">业务端合伙人要求</span><span class="span2">对若邻品牌有强烈的认同感。具备一定财务条件，无不良记录。所在区域，个人或工作室或公司，三年以上设<br />计、策 划、广告、品牌全案、培训等作业能力。有市场开拓能力。</span><br />
+							<span class="span1 s4">业务承诺</span><span class="span2">年度业绩不低于500万元。</span>
+						</p>
+						<p class="p2">
+							<span class="span0">您将获得以下支持</span><br />
+							1、签约支付完品牌使用费，进行业务拓展培训，案例分享，观摩与学习客户成交路演会，日常业务拓展一对一辅导；<br />
+							2、年度不定期更新销售物料（不限于ppt、网站、公众号、h5、日常主题海报）、不定期案例分享会、客户成交路演会、客户答谢会；<br />
+							3、提供品牌总监出差项目地沟通、协助谈判，差旅费由合伙人承担；总部接待，客户协助谈判，公关，公关费合伙人承担。
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer">
+			<div class="foot1">
+				<div class="foot1-main">
+					<ul>
+						<li>
+							<a href="javascript:;" class="title">关于我们</a>
+							<div class="item">
+								<a href="about1.html">若邻简介</a>
+								<a href="about2.html">服务对象</a>
+								<a href="about3.html">品牌团队</a>
+							</div>
+						</li>
+						<li>
+							<a href="javascript:;" class="title">案例展示</a>
+							<div class="item">      
+								<a href="al-bsy.html">碧水源</a>
+								<a href="al-wjx.html">舞极限</a>
+								<a href="al-mmr.html">酩美人</a>
+								<a href="al-sxys.html">三旬一墅</a>
+								<a href="al-dmj.html">多美居</a>
+								<a href="al-wlkj.html">未来空间</a>
+							</div>
+						</li>
+						<li>
+							<a href="javascript:;" class="title">服务内容</a>
+							<div class="item">
+								<a href="fw1.html">顶层设计</a>
+								<a href="fw2.html">商业模式</a>
+								<a href="fw3.html">品牌定位</a>
+								<a href="fw4.html">产品设计</a>
+								<a href="fw5.html">品牌表达</a>
+								<a href="fw6.html">落地路径</a>
+							</div>
+						</li>
+						<li>
+							<a href="javascript:;" class="title">动态观点</a>
+							<div class="item">
+								<a href="news1.html">新闻动态</a>
+								<a href="news2.html">营销观点</a>
+							</div>
+						</li>
+						<li>
+							<a href="javascript:;" class="title">高铁战略商学院</a>
+							<div class="item">
+								<a href="sxy1.html">高铁战略创始人</a>
+								<a href="sxy2.html">高铁战略理论</a>
+								<a href="sxy3.html">高铁实战导师</a>
+								<a href="sxy4.html">课程内容</a>
+								<a href="sxy5.html">往期风采</a>
+								<a href="sxy6.html">在线报名</a>
+							</div>
+						</li>
+						<li>
+							<a href="lx.html" class="title">联系我们</a>
+							<div class="city">
+								<a href="">北京 · 武汉</a>
+							</div>
+							<div class="item">
+								<p>北 京<br />
+								建外SOHO西区18号楼3103室 <br />
+								电话：010-5900-1978 <br />
+								武 汉<br />
+								武汉IFC国际金融中心13层<br />
+								电话：027-8558-6626 
+								</p>
+								<p>新业务专线：400-010 2007  <br />
+								非工作时间：187 1018 3762
+								</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+			</div>
+			
+			<div class="foot2">
+				<div class="foot2-main clearfix">
+					<div class="foot2-l fl-lt">
+						<img src="../img/foot1.jpg" alt="" class="foot1-img"/>
+						<div>
+							<p class="p1">在线客服</p>
+							<p class="p2">小邻</p>
+						</div>
+						<div>
+							<a href=""><img src="../img/foot2.png" alt="" /></a>
+							<a href=""><img src="../img/foot3.png" alt="" /></a>
+						</div>
+					</div>
+					<div class="foot2-r fl-rt">
+						<div><a href="proposal.html" target="_blank">免费获得建议案 <img src="../img/banner-icon.png" alt="" /></a></div>
+						<p></p>
+						<img src="../img/erweima.jpg" alt="" />
+					</div>
+				</div>
+			</div>
+			
+			<div class="foot3">
+				<div class="foot3-main clearfix">
+					<div class="foot3-l fl-lt"><img src="../img/foot4.png" alt="" /></div>
+					<div class="foot3-r fl-rt">
+						<p class="p1">
+							<span>友情链接：</span>
+							<a href="">中国广告网</a>   
+							<a href="">广告门</a> 
+							<a href="">大国品牌</a> 
+							<a href="">品牌中国</a> 
+							<a href="">中国连锁经营协会</a>
+							<a href="">多彩投</a>
+							<a href="">36氪</a>
+							<a href="">虎嗅</a>
+							<a href="">3w</a>
+							<a href="">创业邦</a>
+							<a href="">i黑马</a>
+							<a href="">品途商业评论</a>
+							<a href="">市场部</a>
+						</p>
+						<p class="p1">
+							<span>版权所有：</span>
+							若邻连锁整合营销机构 Copyright2007-2019Ruolin Inc.保留所有权利    京ICP备0911150号-5 
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		<script src="../js/jquery-1.11.2.min.js"></script>
+		<script src="../js/jquery.SuperSlide.2.1.1.js"></script>
+		<script src="../js/common.js"></script>
+		<script type="text/javascript">
+
+
+			var map1 = new BMap.Map("map1");
+			var point1 = new BMap.Point(116.459726,39.912504);// 创建点
+			map1.centerAndZoom(point1, 20);
+			var marker1 = new BMap.Marker(point1); // 创建标注
+			map1.addOverlay(marker1); // 将标注添加到地图中
+			marker1.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+			map1.panTo(point1);
+			map1.addControl(new BMap.NavigationControl()); // 添加默认缩放平移控件
+			map1.enableScrollWheelZoom(true); //开启鼠标滚轮缩放
+//			var label1 = new BMap.Label(" 若邻广告(北京)有限公司 ",{offset:new BMap.Size(-55,-40)});
+//			marker1.setLabel(label1);
+			
+			var map2 = new BMap.Map("map2"); // 创建Map实例,
+			var point2 = new BMap.Point(114.280558,30.597532);
+			map2.centerAndZoom(point2, 20);
+			var marker2 = new BMap.Marker(point2); // 创建标注
+			map2.addOverlay(marker2); // 将标注添加到地图中
+			marker2.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+			map2.panTo(point2);
+			map2.addControl(new BMap.NavigationControl()); // 添加默认缩放平移控件
+			map2.enableScrollWheelZoom(true); //开启鼠标滚轮缩放
+//			var label2 = new BMap.Label(" 若邻广告(武汉)有限公司 ",{offset:new BMap.Size(-55,-40)});
+//			marker2.setLabel(label2);
+
+			var map3 = new BMap.Map("map3"); // 创建Map实例,
+			var point3 = new BMap.Point(113.332376,23.13071);
+			map3.centerAndZoom(point3, 20);
+			var marker3 = new BMap.Marker(point3); // 创建标注
+			map3.addOverlay(marker3); // 将标注添加到地图中
+			marker3.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+			map3.panTo(point3);
+			map3.addControl(new BMap.NavigationControl()); // 添加默认缩放平移控件
+			map3.enableScrollWheelZoom(true); //开启鼠标滚轮缩放
+//			var label2 = new BMap.Label(" 若邻广告(武汉)有限公司 ",{offset:new BMap.Size(-55,-40)});
+//			marker2.setLabel(label2);
+			
+			
+			
+			marker1.addEventListener("click",overlay_style1);
+			marker2.addEventListener("click",overlay_style2);
+			marker3.addEventListener("click",overlay_style3);
+			var circle1 = new BMap.Circle(new BMap.Point(116.459726,39.912504),10,{strokeColor:"transparent", strokeWeight:1, strokeOpacity:0.5}); //创建圆
+			var circle2 = new BMap.Circle(new BMap.Point(114.280558,30.597532),10,{strokeColor:"transparent", strokeWeight:1, strokeOpacity:0.5}); //创建圆
+			var circle3 = new BMap.Circle(new BMap.Point(113.332376,23.13071),10,{strokeColor:"transparent", strokeWeight:1, strokeOpacity:0.5}); //创建圆
+			circle1.addEventListener("click",overlay_style1);
+			circle2.addEventListener("click",overlay_style2);
+			circle3.addEventListener("click",overlay_style3);
+			//获取marker的属性
+			function overlay_style1(e){
+				var p = e.target;
+				window.open('http://j.map.baidu.com/vr-mv', '_blank')
+			}	
+			
+			function overlay_style2(e){
+				var p = e.target;
+				window.open('http://j.map.baidu.com/TvnN9', '_blank')
+			}	
+			
+			function overlay_style3(e){
+				var p = e.target;
+				window.open('https://map.baidu.com/poi/%E5%B9%BF%E5%B7%9E%E9%93%B6%E8%A1%8C%E5%A4%A7%E5%8E%A6/@12616241.213623436,2631260.5509442547,15.41z?uid=f05fc79bf44f4a609a005018&ugc_type=3&ugc_ver=1&device_ratio=1&compat=1&querytype=detailConInfo&da_src=shareurl', '_blank')
+			}
+		</script>
+	</body>
+</html>

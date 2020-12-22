@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>热辣优势</title>
+		<meta http-equiv="X-UA-Compatitle" content="IE=edge">
+		<meta name="keywords" content="{$seo.keywords}">
+		<meta name="description" content="{$seo.description}">
+		<!--网站开启对 web app 程序的支持-->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no,email=no,adress=no" />
+		<link rel="stylesheet" href="../css/swiper-3.3.1.min.css" type="text/css" />
+		<link rel="stylesheet" href="../css/common.css" type="text/css" />
+		<link rel="stylesheet" href="../css/ys.css" type="text/css" />
+
+		<script type="text/javascript">
+			document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + 'px';
+		</script>
+	</head>
+
+	<body>
+		<div class="header clearfix">
+			<img src="../img/head1.jpg" alt="" class="img1" />
+			<div class="fl-lt menu-img"><img src="../img/menu.png" alt="" /></div>
+			<div class="fl-rt">
+				<a href="/" class="logo"><img src="../img/logo1.png" alt="" /></a>
+				<p class="p1">400-694-4888</p>
+				<a href="tel:400-694-4888" class="phone"><img src="../img/phone.png" alt="" /></a>
+			</div>
+		</div>
+		<div class="banner">
+			<div class="swiper-container banner-swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="../img/banner1.jpg" alt="" /></div>
+					<div class="swiper-slide"><img src="../img/banner1.jpg" alt="" /></div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+
+		<div class="menu">
+			<ul class="nav-list">
+				<volist name="nav" id="v">
+					<li <?php if($nid==$v[ 'id']){echo 'class="active"';}?>>
+						<a href="/Wap/{$v.flag}/index/nav_id/{$v.id}.html">
+							<span>热辣优势</span>
+						</a>
+					</li>
+				</volist>
+			</ul>
+		</div>
+		<div class="content ys">
+			<div class="part1 part" style="background: url(../img/ys/a_02.jpg) center top no-repeat;">
+				<div class="con">
+					<p class="p1">
+						没有什么事情<span>nothing</span><br/> 是一顿
+						<strong>热辣部落</strong>搞不定的<br/> 如果有!那就两顿!!!
+					</p>
+					<p class="p2">
+						一万点技能加成 | 疯味餐饮超强辅助
+					</p>
+					<p class="p3">
+						<strong>称霸</strong>嗨辣世界
+					</p>
+				</div>
+			</div><img src="../img/ys/a_03.jpg" alt="" class="img-block" />
+			<div class="part2 part" style="background: url(../img/ys/a_04.jpg) center top no-repeat;">
+				<div class="title">
+					<div class="box">
+						<p class="p1">
+							超强装备
+						</p>
+						<p class="p2">
+							Strongest equipment
+						</p>
+					</div>
+					<div class="line line1"></div>
+					<div class="line line2"></div>
+				</div>
+				<div class="con">
+					<p class="p1">
+						一口锅王原力觉醒
+					</p>
+					<p class="p2">
+						The king of a potthe awakening of the force
+					</p>
+					<ul class="clearfix">
+						<li>
+							一口锅王，<br/>汤烤两用，<br/>涮煮随意，<br/>释放食材原味。
+						</li>
+						<li>
+							特殊处理，<br/>不粘材质，<br/>清洁简便，<br/>提高翻台率。
+						</li>
+						<li>
+							无烟化处理， <br/>保证店面 <br/>空气清洁， <br/>杜绝油烟困扰。
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="part3 part" style="background: url(../img/ys/a_05.jpg) center top no-repeat;">
+				<div class="title">
+					<div class="box">
+						<p class="p1">
+							技能加成
+						</p>
+						<p class="p2">
+							Skill addition
+						</p>
+					</div>
+					<div class="line line1"></div>
+					<div class="line line2"></div>
+				</div>
+				<div class="con">
+					<p class="p1">
+						野性食材，还原自然
+					</p>
+					<p class="p2">
+						独具特色的口感难以模仿，<br/>使美味更加醇厚，鲜香滋补。
+					</p>
+					<ul>
+						<li>
+							草原放养牛羊肉，<br/>肉质细嫩，<br/>入口即化。
+						</li>
+						<li>
+							冷链空运极品海鲜，<br/>有机种植新鲜蔬菜，<br/>嗨爆味蕾。
+						</li>
+						<li>
+							近三十种中草药<br/>配比，结合食材<br/>中的膳食纤维素<br/>与胶原蛋白。
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="part4 part" style="background: url(../img/ys/a_06.jpg) center top no-repeat;">
+				<div class="title">
+					<div class="box">
+						<p class="p1">
+							无限buff
+						</p>
+						<p class="p2">
+							Infinite buff
+						</p>
+					</div>
+					<div class="line line1"></div>
+					<div class="line line2"></div>
+				</div>
+				<div class="con">
+					<p>
+						哈白猪骨吊鲜，加入草果、丁香等30味中草药，<br/>超300分钟泉水文火慢熬。骨汤熬油，精选郫县豆瓣酱、<br/>汉源花椒、巴蜀朝天椒只为味原醇香，令人念念不忘。
+					</p>
+				</div>
+			</div>
+			<div class="part5 part" style="background: url(../img/ys/addbg1.jpg) center top no-repeat;">
+				<div class="title">
+					<div class="box">
+						<p class="p1">
+							供应链优势
+						</p>
+						<p class="p2">
+							Supply Chain Advantage
+						</p>
+					</div>
+					<div class="line line1"></div>
+					<div class="line line2"></div>
+				</div>
+				<div class="con">
+					<p>新辣道集团成立于2004年，是一家以连锁餐饮为主业的大型食品企业，总部位于北京，现有员工5000余人，年营业额超10亿元，旗下门店数量200多家 。新辣道集团依托于餐饮为主业,建立北京工厂、四川工厂、山东工厂及合资工厂四家大型食品加工工厂,并在北京、上海、西安拥有三大物流配送基地。2017年被北京市认证为北京餐饮行业高新技术企业，2018年成为联想旗下百福控股成员企业。</p>
+					<p>热辣部落汤烤锅王，与新辣道集团达成全面战略联盟，（新辣道全球招商事业总部地址为：北京市丰台区莲花池东路120-2号北恒大厦9层）。旗下信良记自有全产业链，直供高品质食材：山东聊城2300亩地下温泉养殖基地，四川自贡5000亩有机生态种植基地，北京怀柔8000亩调味品、速冻品生产基地，保证千店一味，让门店赢在起跑线！</p>
+					<p>热辣部落汤烤锅王由新辣道集团的信良记全产业链供货，较大的利益点在于--让餐饮业变得更为简单：无须大厨、也无须采购（自采购不足20%），节约了巨大的人工成本开销，压缩了营业面积，同时保持了千店一味、明厨亮灶、无烟健康。</p>
+					<ul class="clearfix">
+						<li><img src="../img/ys/adda1.jpg" alt="" /></li>
+						<li><img src="../img/ys/adda2.jpg" alt="" /></li>
+						<li><img src="../img/ys/adda3.jpg" alt="" /></li>
+						<li><img src="../img/ys/adda4.jpg" alt="" /></li>
+					</ul>
+				</div>
+			</div>
+			<div class="part6 part" style="background: url(../img/ys/addbg2.jpg) center top no-repeat;">
+				<div class="title">
+					<div class="box">
+						<p class="p1">
+							技术研发能力
+						</p>
+						<p class="p2">
+							Research and Development
+						</p>
+					</div>
+					<div class="line line1"></div>
+					<div class="line line2"></div>
+				</div>
+				<div class="con">
+					<p>热辣部落有著名的徐氏盐帮菜第三代传承人、中国烹饪大师、中国烹饪协会火锅委员会副秘书长、新辣道餐饮集团联合创始人，亚洲美食联合研究中心总经理徐伯春先生倾力打造，亚洲美食联合研究中心作为中餐标准化研发领域的贝尔实验室，有超过100位大师级烹饪专家，提供全国先进美食研发技术，满足了不同食客的要求，使其更符合现代人的口味。</p>
+					<ul class="clearfix">
+						<li><img src="../img/ys/addb1.jpg" alt="" /></li>
+						<li><img src="../img/ys/addb2.jpg" alt="" /></li>
+						<li><img src="../img/ys/addb3.jpg" alt="" /></li>
+						<li><img src="../img/ys/addb4.jpg" alt="" /></li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+		<div class="footer">
+			<img src="../img/foot1.jpg" alt="" class="img1" />
+			<img src="../img/logo1.png" alt="" class="img2" />
+			<p>400-694-4888</p>
+		</div>
+
+		<div class="bg"></div>
+
+		<script src="../js/jquery.min.3_1_0.js"></script>
+		<script src="../js/swiper-3.3.1.jquery.min.js" type="text/javascript"></script>
+		<script type="text/javascript" src="../js/common.js"></script>
+	</body>
+
+</html>

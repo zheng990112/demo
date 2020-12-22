@@ -1,0 +1,121 @@
+
+.view1{
+	padding-bottom: 2rem;
+	position:relative;
+}
+.view1 .view1-icon{
+	display: block;
+	width:6.33rem;
+	position:absolute;
+	left: -2.6rem;
+	bottom: 0;
+	z-index: -1;
+}
+.view1 .view-l{
+	padding-top: 1.4rem;
+	width: 6.1rem;
+	position:relative;
+}
+.view1 .view-l .img1{
+	display: block;
+	width: 5.74rem;
+}
+.view1 .view-l .img2{
+	display: block;
+	width:5.74rem;
+	margin-top:0.3rem;
+}
+
+.view1 .view-r{
+	width: 4.28rem;
+	height: 22.97rem;
+	background: url(../img/view/a4.jpg) no-repeat;
+	background-size: 100% 100%;
+	position:relative;
+}
+.view1 .view-r .img-box{
+	margin-left: -2.63rem;
+	margin-top: 1.3rem;
+}
+.view1 .view-r .img-box img{
+	display: block;
+	width: 5.26rem;
+	height: 5.26rem;
+	border-radius: 50%;	
+	margin-bottom: 0.6rem;
+}
+.view1 .view-r .a8-img{
+	display: block;
+	width: 10.42rem;
+	position:absolute;
+	left: -6.8rem;
+	bottom: 0.2rem;
+}
+
+
+
+.view2{
+	padding-top: 1.2rem;
+	padding-bottom: 2rem;
+}
+.view2 .top1{
+	width: 3.96rem;
+}
+.view2 .top1 img{
+	display: block;
+	width: 100%;
+}
+.view2 .top2{
+	width: 9.27rem;
+	margin-top: 0.55rem;
+}
+.view2 .top2 img{
+	display: block;
+	width: 100%;
+}
+.view2 .view2-main .box{
+	width: 6.7rem;
+	margin-top: 1.2rem;
+}
+.view2 .view2-main .box .box-img{
+	display: block;
+	width: 6.7rem;
+	height: 4.5rem;
+}
+.view2 .view2-main .box .img-b{
+	width:100%;
+	height:1.4rem;
+	background-color: #c0ad9f;
+}
+.view2 .view2-main .box .img-b p{
+    font-size: 0.75rem;
+    color: #231815;
+    text-align: center;
+    line-height: 0.9rem;
+    padding-top: 0.1rem;
+}
+.view2 .view2-main .box .img-b img{
+	display: block;
+	height:0.13rem;
+	margin:0 auto;
+}
+.view2 .view2-main .box .box-fonts{
+	width: 100%;
+	height: 3.7rem;
+	border:1px solid #c0ad9f;
+	box-sizing:border-box;
+	text-align: center;
+	line-height: 0.86rem;
+}
+.view2 .view2-main .box .box-fonts p img{
+	display: inline-block;
+	vertical-align: middle;
+	width: 0.27rem;
+	margin-right: 0.15rem;
+}
+.view2 .view2-main .box .box-fonts p span{
+	font-size: 0.55rem;
+	color:#231815;
+	display: inline-block;
+	vertical-align: middle;
+}

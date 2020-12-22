@@ -1,0 +1,222 @@
+
+
+
+
+
+
+
+.main .title{
+	text-align: center;
+}
+.main .title .p1,
+.main .title .p2{
+	font-family: myfont;
+	color:#1d1d1d;
+	font-size: 48px;
+}
+.main .title .p2::before,
+.main .title .p2::after{
+	content:"";
+	display: inline-block;
+	vertical-align: middle;
+	height: 2px;
+	background-color: #1d1d1d;
+}
+.main .title .p2::before{
+	margin-right: 20px;
+}
+.main .title .p2::after{
+	margin-left: 20px;
+}
+.main .title .p3{
+	margin-top: 10px;
+    line-height: 24px;
+	font-size: 14px;
+	color:#888988;
+}
+
+
+
+/*hsyh1--黑魔法系列*/
+.hsyh1 .title .p2::before,
+.hsyh1 .title .p2::after{
+	width: 200px;
+}
+.hsyh1 .part ul li{
+	float: left;
+	width: 285px;
+	margin-right: 32.5px;
+	margin-top: 30px;
+}
+.hsyh1 .part ul li:nth-child(3n){
+	margin-right: 0;
+}
+.hsyh1 .part ul li img{
+	width: 100%;
+}
+.hsyh1 .part ul li .li-fonts{
+	color:#595757;
+	background-color: #fff;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+/*20180831*/
+.er-nav .title a{
+	color:#fff;
+}
+.er-nav .title .p1{
+	font-size: 22px;
+}
+.er-nav .title .p3{
+	width: 147px;
+	margin:0 auto;
+	height: 32px;
+	line-height: 32px;
+	font-size: 17px;
+	color:#fff;
+	background-color: rgba(255,255,255,0.3);
+}
+.er-nav .title2{
+	margin-top: -15px;
+}
+.main .title .p-top{
+	font-family: myfont;
+    color: #1d1d1d;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.main .title .p-top span{
+	font-size: 48px;
+	display: block;
+}
+.hsyh5 .title .p2::before,
+.hsyh5 .title .p2::after{
+	width: 130px;
+}
+
+.hsyh5 .part ul li{
+	width: 291px;
+	float: left;
+	background-color: #fff;
+	margin-right: 23.5px;
+	margin-top: 30px;
+	height: 430px;
+	color:#595757;
+}
+.hsyh5 .part ul li:nth-child(3n){
+	margin-right: 0;
+}
+.hsyh5 .part ul li .li-img{
+	width: 291px;
+	height: 181px;
+}
+.hsyh5 .part ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.hsyh5 .part ul li .li-top{
+	font-size: 0;
+	text-align: center;
+	margin:10px 0;
+}
+.hsyh5 .part ul li .li-top .top-l{
+	font-size: 38px;
+	font-family: myfont;
+	display: inline-block;
+	vertical-align: middle;
+}
+.hsyh5 .part ul li .li-top .top-r{
+	font-size: 12px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+}
+.hsyh5 .part ul li .li-top .top-r .span1{
+	font-size: 17px;
+	font-family: myfont;
+}
+.hsyh5 .part ul li .li-top .top-r .span2{
+	display: block;
+	font-size: 12px;
+	transform: scale(.833);
+	-webkit-transform: scale(.833);
+	-o-transform: scale(.833);
+	-moz-transform: scale(.833);
+	-ms-transform: scale(.833);
+	width: 120%;
+	margin-left: -10%;
+}
+.hsyh5 .part ul li .li-b{
+	font-size: 0;
+}
+.hsyh5 .part ul li .li-b p{
+	width: 145px;
+	display: inline-block;
+	font-size: 14px;
+	color:#595757;
+	text-align: center;
+	height: 24px;
+	line-height: 24px;
+}
+.hsyh5 .part ul li .li-b p.p-l{
+	border-right: 1px solid #595757;
+}
+.part .btn{
+	text-align: center;
+	margin-top: 80px;
+}
+.part .btn p{
+	display: inline-block;
+	margin:0 5px;
+	font-size: 18px;
+	color:#efefef;
+	background-color: #393a3a;
+	padding:10px;
+	cursor: pointer;
+}
+.part .btn p a{
+	color:#fff;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.part .btn p.on{
+	background-color: #1d1d1d;
+}
+.hsyh6 .part ul li{
+	height: 360px;
+}
+.er-nav {
+	position:relative;
+}
+.er-nav .title1-2{
+    position: absolute;
+    width: 130px;
+    height: 150px;
+     background-color: rgba(0,0,0,0.5); 
+    left: 156px;
+    top: 165px;
+    z-index: 99;
+    display: none;
+}
+.er-nav .title1-2 ul li{
+	width: 100%;
+	padding:0;
+}
+.er-nav .item .active{
+	width: 147px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+	background-color: rgba(255,255,255,0.3);
+}
+/*20180831结束*/

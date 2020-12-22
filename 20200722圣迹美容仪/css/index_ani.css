@@ -1,0 +1,1351 @@
+
+
+/*透明度*/
+.op0{
+	opacity:0!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.op2{
+	opacity: 0.2!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.op4{
+	opacity: 0.4!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.op6{
+	opacity: 0.6!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.op8{
+	opacity: 0.8!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.op10{
+	opacity:1!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+
+
+.scale1{
+	transform: scale(1);
+	-o-transform: scale(1);
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.scale08{
+	transform: scale(0.8);
+	-o-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.scale06{
+	transform: scale(0.6);
+	-o-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+	-webkit-transform: scale(0.6);
+	-ms-transform: scale(0.6);
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+
+
+/*logo左右两边的线*/
+.part1 .l-8{
+	left:-8rem!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.part1 .l-6{
+	left:-6rem!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.part1 .l-4{
+	left:-4rem!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.part1 .l-2{
+	left:-2rem!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.part1 .l-0{
+	left:0rem!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+
+.part1 .r-8{
+	right:-8rem!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.part1 .r-6{
+	right:-6rem!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.part1 .r-4{
+	right:-4rem!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.part1 .r-2{
+	right:-2rem!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.part1 .r-0{
+	right:0rem!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+
+
+
+/*两边线条消失的同时logo下面des往上偏移*/
+.part1 .mt-2{
+	margin-top: -0.2rem!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.part1 .mt0{
+	margin-top:0!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+
+/*两边线往两边缩回时,logo往上*/
+.part1 .t2{
+	top:1.2rem!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.part1 .t0{
+	top:0.25rem!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.t2-4{
+	top:2.4rem!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+
+/*两边线往两边缩回时,des往下移出屏幕*/
+.t8{
+	top:8rem!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.t10{
+	top:10rem!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.tmax{
+	display: none!important;
+}
+
+/*两边线往两边缩回时,logo换图*/
+.disappear{
+	position:absolute!important;
+	display:none!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.block{
+	position:fixed!important;
+	left: 50%;
+	top:25px;
+	margin-left: -0.6rem!important;
+	opacity: 1!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+
+
+
+/*header部分两侧往中间移动*/
+.header-main .logo_l.ml-10{
+	margin-left: -10rem!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.header-main .service.mr-10{
+	margin-right: -10rem!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.header-main .logo_l.ml-8{
+	margin-left: -8rem!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.header-main .service.mr-8{
+	margin-right: -8rem!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.header-main .logo_l.ml-4{
+	margin-left: -4rem!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.header-main .service.mr-4{
+	margin-right: -4rem!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.header-main .logo_l.ml-2{
+	margin-left: -2rem!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.header-main .service.mr-2{
+	margin-right: -2rem!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.header-main .logo_l.ml0{
+	margin-left:0rem!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.header-main .service.mr0{
+	margin-right:0rem!important;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+
+/*footer部分缓慢向上移动*/
+.footer.b-40px{
+	bottom: -40px;
+	opacity:0.2;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.footer.b-20px{
+	bottom: -20px;
+	opacity:0.4;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.footer.b-10px{
+	bottom: -10px;
+	opacity: 0.6;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.footer.b10px{
+	bottom:10px;
+	opacity: 0.8;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.footer.b35px{
+	bottom:35px;
+	opacity:1;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+
+
+
+/*.part2中间产品图标慢慢显示*/
+.part2 .b-icon1.b-4_6{
+	bottom: -4.6rem;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.part2 .b-icon1.b-3_1{
+	bottom: -3.1rem;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.part2 .b-icon1.b-1_6{
+	bottom: -1.6rem;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.part2 .b-icon1.b-0_1{
+	bottom: -0.1rem;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.part2 .b-icon1.b1_5{
+	bottom:1.5rem;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+/*.part2两侧文字往中间靠拢*/
+.part2 .b-l.l-2_2{
+	left: -2.2rem;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.part2 .b-r.r-3_6{
+	right:-3.6rem;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.part2 .b-l.l-0_2{
+	left: -0.2rem;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.part2 .b-r.r-1_6{
+	right:-1.6rem;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.part2 .b-l.l1_8{
+	left:1.8rem;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.part2 .b-r.r1_6{
+	right:1.6rem;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.part2 .b-l.l3_8{
+	left:3.8rem;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.part2 .b-r.r3_6{
+	right:3.6rem;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+
+
+/*.part3两侧往中间靠拢*/
+.part3 .part3-l.l-6_45{
+	left:-6.45rem;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.part3 .part3-l.l-4_3{
+	left:-4.3rem;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.part3 .part3-l.l-2_15{
+	left:-2.15rem;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.part3 .part3-l.l0{
+	left:0;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.part3 .part3-r.r-5_95{
+	right:-5.95rem;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.part3 .part3-r.r-3_7{
+	right:-3.7rem;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.part3 .part3-r.r-1_45{
+	right:-1.45rem;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+.part3 .part3-r.r09{
+	right:0.9rem;
+	transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+
+
+
+/*part4文字慢慢放大进入*/
+.part4 .part4-r .p-box.scale0_2{
+	transform: scale(0.2);
+	-o-transform: scale(0.2);
+	-moz-transform: scale(0.2);
+	-webkit-transform: scale(0.2);
+	-ms-transform: scale(0.2);
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+}
+.part4 .part4-r .p-box.scale0_4{
+	transform: scale(0.4);
+	-o-transform: scale(0.4);
+	-moz-transform: scale(0.4);
+	-webkit-transform: scale(0.4);
+	-ms-transform: scale(0.4);
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+}
+.part4 .part4-r .p-box.scale0_6{
+	transform: scale(0.6);
+	-o-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+	-webkit-transform: scale(0.6);
+	-ms-transform: scale(0.6);
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+}
+.part4 .part4-r .p-box.scale0_8{
+	transform: scale(0.8);
+	-o-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+}
+.part4 .part4-r .p-box.scale1{
+	transform: scale(1);
+	-o-transform: scale(1);
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+}
+/*part4下面英文字*/
+.part4 .part4-r img.rotatey180{
+	transform:rotateY(180deg);
+	-o-transform:rotateY(180deg);
+	-moz-transform:rotateY(180deg);
+	-webkit-transform:rotateY(180deg);
+	-ms-transform:rotateY(180deg);
+	opacity:0;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+}
+.part4 .part4-r img.rotatey135{
+	transform:rotateY(135deg);
+	-o-transform:rotateY(135deg);
+	-moz-transform:rotateY(135deg);
+	-webkit-transform:rotateY(135deg);
+	-ms-transform:rotateY(135deg);
+	opacity:0.25;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+}
+.part4 .part4-r img.rotatey90{
+	transform:rotateY(90deg);
+	-o-transform:rotateY(90deg);
+	-moz-transform:rotateY(90deg);
+	-webkit-transform:rotateY(90deg);
+	-ms-transform:rotateY(90deg);
+	opacity:0.5;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+}
+.part4 .part4-r img.rotatey45{
+	transform:rotateY(45deg);
+	-o-transform:rotateY(45deg);
+	-moz-transform:rotateY(45deg);
+	-webkit-transform:rotateY(45deg);
+	-ms-transform:rotateY(45deg);
+	opacity:0.75;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+}
+.part4 .part4-r img.rotatey0{
+	transform:rotateY(0deg);
+	-o-transform:rotateY(0deg);
+	-moz-transform:rotateY(0deg);
+	-webkit-transform:rotateY(0deg);
+	-ms-transform:rotateY(0deg);
+	opacity:1;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+}
+
+
+
+/*part5左右两侧上下慢慢出场*/
+.part5 .part5-l.mt-5{
+	margin-top: -5rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity:0.2;
+}
+.part5 .part5-l.mt-4{
+	margin-top: -4rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.4;
+}
+.part5 .part5-l.mt-3{
+	margin-top: -3rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.6;
+}
+.part5 .part5-l.mt-2{
+	margin-top: -2rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.8;
+}
+.part5 .part5-l.mt-1{
+	margin-top: -1rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+}
+.part5 .part5-l.mt0{
+	margin-top:0rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity:1;
+}
+
+.part5 .part5-r.b-4{
+	bottom: -4rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.2;
+}
+.part5 .part5-r.b-3{
+	bottom: -3rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.4;
+}
+.part5 .part5-r.b-2{
+	bottom: -2rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.6;
+}
+.part5 .part5-r.b-1{
+	bottom: -1rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.8;
+}
+.part5 .part5-r.b0{
+	bottom:0rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity:1;
+}
+
+
+/*part6左右线条出场*/
+.part6 .line1.l-7{
+	left: -7rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.1;
+}
+.part6 .line1.l-5{
+	left: -5rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.3;
+}
+
+.part6 .line1.l-3{
+	left: -3rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.5;
+}
+.part6 .line1.l-2{
+	left: -2rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.7;
+}
+.part6 .line1.l-1{
+	left: -1rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.8;
+}
+.part6 .line1.l0{
+	left:0rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity:1;
+}
+
+.part6 .line2.r-8{
+	right: -8rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.3;
+}
+.part6 .line2.r-5{
+	right: -5rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.5;
+}
+.part6 .line2.r-2{
+	right: -2rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.6;
+}
+.part6 .line2.r0{
+	right:0;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.7;
+}
+.part6 .line2.r2{
+	right:2rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.8;
+}
+.part6 .line2.r4{
+	right:4rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.9;
+}
+.part6 .line2.r6_2{
+	right:6.2rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 1;
+}
+
+.part6 .box1.scale1_8{
+	transform: scale(1.8);
+	-o-transform: scale(1.8);
+	-moz-transform: scale(1.8);
+	-webkit-transform: scale(1.8);
+	-ms-transform: scale(1.8);
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.1;
+}
+.part6 .box1.scale1_6{
+	transform: scale(1.6);
+	-o-transform: scale(1.6);
+	-moz-transform: scale(1.6);
+	-webkit-transform: scale(1.6);
+	-ms-transform: scale(1.6);
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.2;
+}
+.part6 .box1.scale1_4{
+	transform: scale(1.4);
+	-o-transform: scale(1.4);
+	-moz-transform: scale(1.4);
+	-webkit-transform: scale(1.4);
+	-ms-transform: scale(1.4);
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.5;
+}
+.part6 .box1.scale1_3{
+	transform: scale(1.3);
+	-o-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+	-webkit-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.7;
+}
+.part6 .box1.scale1_2{
+	transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.8;
+}
+.part6 .box1.scale1_1{
+	transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.9;
+}
+.part6 .box1.scale1{
+	transform: scale(1);
+	-o-transform: scale(1);
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity:1;
+}
+
+
+.part6 .box2 ul li.mt5{
+	margin-top: 5rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+}
+.part6 .box2 ul li.mt4{
+	margin-top: 4rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+}
+
+.part6 .box2 ul li.mt3{
+	margin-top: 3rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+}
+
+.part6 .box2 ul li.mt2{
+	margin-top: 2rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+}
+
+.part6 .box2 ul li.mt1{
+	margin-top: 1rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+}
+
+.part6 .box2 ul li.mt0{
+	margin-top:0;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+}
+
+
+/*part7*/
+.part7 .part7-main .top.scale04{
+	transform: scale(0.4);
+	-o-transform: scale(0.4);
+	-moz-transform: scale(0.4);
+	-webkit-transform: scale(0.4);
+	-ms-transform: scale(0.4);
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.4;
+}
+.part7 .part7-main .top.scale06{
+	transform: scale(0.6);
+	-o-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+	-webkit-transform: scale(0.6);
+	-ms-transform: scale(0.6);
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.6;
+}
+.part7 .part7-main .top.scale08{
+	transform: scale(0.8);
+	-o-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity:0.8;
+}
+.part7 .part7-main .top.scale1{
+	transform: scale(1);
+	-o-transform: scale(1);
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 1;
+}
+
+/*.part7 .part7-main .box div*/
+.part7 .part7-main .box .div1.ml-8{
+	margin-left: -8rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.2;
+}
+.part7 .part7-main .box .div1.ml-6{
+	margin-left: -6rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.4;
+}
+.part7 .part7-main .box .div1.ml-4{
+	margin-left: -4rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.6;
+}
+.part7 .part7-main .box .div1.ml-3{
+	margin-left: -3rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.7;
+}
+.part7 .part7-main .box .div1.ml-2{
+	margin-left: -2rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.8;
+}
+.part7 .part7-main .box .div1.ml-1{
+	margin-left: -1rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.9;
+}
+.part7 .part7-main .box .div1.ml0{
+	margin-left:0;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 1;
+}
+
+.part7 .part7-main .box .div2.mr-8{
+	margin-right: -8rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.2;
+}
+.part7 .part7-main .box .div2.mr-6{
+	margin-right: -6rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.4;
+}
+.part7 .part7-main .box .div2.mr-4{
+	margin-right: -4rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.6;
+}
+.part7 .part7-main .box .div2.mr-3{
+	margin-right: -3rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.7;
+}
+.part7 .part7-main .box .div2.mr-2{
+	margin-right: -2rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.8;
+}
+.part7 .part7-main .box .div2.mr-1{
+	margin-right: -1rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity: 0.9;
+}
+.part7 .part7-main .box .div2.mr0{
+	margin-right:0;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	opacity:1;
+}
+
+
+
+/*.part8*/
+.part8 .part8-main .mt-6{
+	margin-top: -6rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+}
+.part8 .part8-main .mt-5{
+	margin-top: -5rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+}
+.part8 .part8-main .mt-4{
+	margin-top: -4rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+}
+.part8 .part8-main .mt-3{
+	margin-top: -3rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+}
+.part8 .part8-main .mt-2{
+	margin-top: -2rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+}
+.part8 .part8-main .mt-1{
+	margin-top: -1rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+}
+.part8 .part8-main .mt0{
+	margin-top:0;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+}
+
+
+
+/*part8_foot*/
+.part8  .part8_foot.fixed{
+	position:fixed;
+	bottom: 0;
+	opacity: 1;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+}
+.part8 .part8_foot.relative{
+	position:relative;
+	bottom: 0;
+	opacity: 0;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+}
+.footer.b2_55{
+	bottom: 2.55rem;
+}
+.part8 .bottom_line.part8-bg.totop,
+.part8 .bottom_line.totop{
+	bottom: 2.3rem;
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.6s;
+	-ms-transition: all 0.4s;
+}

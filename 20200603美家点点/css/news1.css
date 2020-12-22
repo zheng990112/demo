@@ -1,0 +1,118 @@
+.container{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.news_top{
+	width: 100%;
+	height: 100px;
+	color: #093682;
+	background: url(../img/news1/logo.png) 310px 10px no-repeat;
+	background-size: 71px;
+}
+.news_top h5{
+	font-size: 34px;
+	float: left;
+	vertical-align: bottom;
+	line-height: 100px;
+}
+.news_top p{
+	font-size: 18px;
+	float: left;
+	padding-top: 45px;
+	margin-left: 20px;
+	vertical-align: bottom;
+}
+.news1Box{
+	width: 100%;
+}
+.news1Box .news1Bg{
+	float: left;
+	width: 679px;
+}
+.news1Box .news1List{
+	float: left;
+	margin-left: 60px;
+	width: 460px;
+	color: #333333;
+	text-align: left;
+}
+.news1Box .news1List li{
+	height: 107px;
+	border-bottom: 1px dashed #c8c8c8;
+}
+.news1Box .news1List li:last-child{
+	border-bottom: none;
+}
+.news1Box .news1List li h5{
+	padding-top: 25px;
+	font-size: 20px;
+}
+.news1Box .news1List li a{
+	color:#333;
+}
+.news1Box .news1List li a:hover{
+	color:#f3e727;
+}
+.news1Box .news1List li a span{
+	display: block;
+	padding-top: 5px;
+	font-size: 24px;
+	width: 460px;
+	height: 36px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.news1Btn {
+	float: left;
+	margin-left: 70px;
+	width: 400px;
+	color: #262626;
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 8px;
+}
+.news1Btn a {
+	float: left;
+	line-height: 24px;
+	width: 24px;
+	height: 24px;
+	text-align: center;
+	margin-right: 10.5px;
+}
+.news1Btn a:first-child{
+	margin-top: -8px;
+	margin-right: 27px;
+	width: 40px;
+	height: 40px;
+	background: url(../img/news1/left.png) center no-repeat;
+	background-size: 100%;
+}
+.news1Btn a:nth-child(9){
+	margin-right: 0;
+}
+.news1Btn a:last-child{
+	margin-top: -8px;
+	float: right;
+	margin-right: 0px;
+	margin-left: 27px;
+	width: 40px;
+	height: 40px;
+	background: url(../img/news1/right.png) center no-repeat;
+	background-size: 100%;
+}
+.news1Btn a.active,
+.news1Btn a:hover{
+	background-color: #093682;
+	color: #FFFFFF;
+	border-radius: 50%;
+}
+.news1Btn a:first-child:hover{
+	background: url(../img/news1/left.png) center no-repeat;
+	background-size: 100%;
+	
+}
+.news1Btn a:last-child:hover{
+	background: url(../img/news1/right.png) center no-repeat;
+	background-size: 100%;
+}

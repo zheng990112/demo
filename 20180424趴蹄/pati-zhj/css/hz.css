@@ -1,0 +1,95 @@
+
+/*hz1 -- 项目优势*/
+.title p{
+	width: 100%;
+	text-align: center;
+	color:#a90005;
+}
+.title p:nth-child(1){
+	font-size:14px;
+	text-transform: uppercase;
+}
+.title p:nth-child(2){
+	font-size:36px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+
+.hz1 ul{
+	width: 100%;
+	text-align: center;
+	margin-top: 50px;
+}
+.hz1 ul li{
+	width: 285px;
+	height: 420px;
+	text-align: center;
+	display: inline-block;
+	margin:0 4px;
+}
+.hz1 ul li img:nth-child(2){
+	width: 98px;
+	height: 98px;
+	border-radius: 50%;
+	margin-top: -32px;
+} 
+.hz1 ul li .p1{
+	margin-top: 10px;
+	font-size: 24px;
+	color:#a90005;
+	font-weight: bold;
+}
+.hz1 ul li .p2{
+	width: 260px;
+	margin:5px auto;
+	text-align: left;
+	font-size: 16px;
+	color:#0a0a0a;
+	line-height: 22px;
+}
+
+
+
+/*hz2 -- 创业支持*/
+.hz2 .title p span{
+	font-size: 26px;
+	display: block;
+}
+.hz2 .hz2-main{
+	width: 100%;
+	font-size: 0;
+	margin-top: 45px;
+}
+.hz2 .hz2-main li{
+	display: inline-block;
+	text-align: center;
+	width:300px;
+	height: 340px;
+	margin-top: 10px;
+}
+.hz2 .hz2-main li img{
+	width: 290px;
+	height: 212px;
+	border-top-left-radius:25px;
+    border-bottom-right-radius:25px;
+}
+.hz2 .hz2-main p:nth-child(1){
+	font-size: 24px;
+	color:#a80005;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.hz2 .hz2-main p:nth-child(2){
+	width: 256px;
+    margin: 5px auto;
+    font-size: 16px;
+    color: #0a0a0a;
+    text-align: left;
+    line-height: 24px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

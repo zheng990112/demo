@@ -1,0 +1,62 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+.jr1 .big1{position: absolute;width: 100%;left: 0;top: 0;height: 767px;}
+.jr1 .part1{height: 767px;width: 1200px;margin-bottom: 60px;}
+.jr1 .part1  .div0{position: absolute;top: 240px;left: 30px;}
+.jr1 .part1  .div0 .div1 div{display: inline-block;float: left;}
+.jr1 .part1  .div0 .div1 div p{font-size: 24px;color: #595757;}
+.jr1 .part1  .div0 .div1 div span{font-size: 18px;color: #9f9fa0;}
+.jr1 .part1  .div0 .div1 div input{border: 4px solid #9f9fa0;width: 234px;height: 46px;line-height: 46px;font-size: 26px;}
+.jr1 .part1  .div0 .div1 .div2{margin-right: 34px;}
+.jr1 .part1  .div0 .div1{margin-left: 30px;;}
+.jr1 .part1  .div3{position: absolute;top: 320px;left: 58px;}
+.jr1 .part1  .div3 .div4{display: inline-block;float: left;margin-right: 12px;}
+.jr1 .part1  .div3 .div4  p{font-size: 24px;color: #595757;}
+.jr1 .part1  .div3 .div4  span{font-size: 18px;color: #9f9fa0;}
+.jr1 .part1  .div3  .div5{width: 986px;height: 290px;border: 4px solid #9f9fa0;display: inline-block;float: left;line-height: 40px}
+.jr1 .part1  .div3  .div5 textarea{;font-size: 26px;}
+.jr1 .part1  .div6{position: absolute;bottom:50px;left: 508px;}
+.jr1 .part1  .div6 button{width:220px;height: 48px;line-height: 48px;text-align: center;font-size: 24px;color: #fff;background: #ed106b;display: block;margin: 0 auto;}
+ .map-box{ width: 1200px; height: 478px; background-size: 100% 100%; margin: 0 auto; margin-top: 10px; box-sizing: border-box; clear: both;overflow: hidden;margin-bottom: 66px;}
+ .map-box .map{ width: 100%; height: 100%; margin: auto;margin-top: 40px;}
+ .jr2 .part2 .div0 .div1 p{font-size: 24px;color:#595757;display: inline-block ;float: left;padding-left: 87px;}
+  .jr2 .part2 .div0{background: url(../img/jr/a3.jpg) no-repeat 20px;background-size: 961px 149px;height: 149px;width: 961px;}
+ .jr2 .part2 .div0 .div1 h3{display: inline-block ;float: left;font-size: 67px;color: #ed116b;height: 62px;line-height: 62px;}
+ .jr2 .part2 .div0 .div1{clear: both;height: 80px;}
+.jr2 .part2 .div0 .div2{width: 700px;padding-left: 20px;}
+.jr2 .part2 .div0 .div2 p{font-size: 24px;color: #595757;margin-bottom: 14px;}
+.jr2 .part2 .div0 .div2 span{font-size: 22px;color: #595757;}
+.jr2 .part2 .div3{width: 163px;height: 163px;;}
+.jr2 .part2 .div3 img{width: 100%;height: 100%;}
+.jr2 .part2{margin-bottom: 90px;}
+
+
+
+
+
+
+.content .er-nav{
+	width: 570px;
+}
+
+.jr2 .public-title .p1::after{
+	right: -80px;
+}
+.jr1 .public-title .p1::after{
+	right: -50px;
+}
+.jr1 .part1 .div3 .div5 textarea{
+	width: 986px;
+    height: 290px;
+}

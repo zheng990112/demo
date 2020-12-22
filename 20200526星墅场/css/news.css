@@ -1,0 +1,70 @@
+.main{
+	min-height: 0;
+	padding-top: 65px;
+}
+.main img{
+	width: 325px;
+	height: 262px;
+	float: left;
+}
+.main_text{
+	width: 500px;
+	float:right;
+	position: relative;
+	height: 262px;
+}
+.main_text p{
+	font-size: 26px;
+	font-weight: 900;
+}
+.main_text ul li{
+	width: 100%;
+	display: block;
+	font-size: 13px;
+	padding-top: 20px;
+	padding-bottom: 17px;
+}
+.main_text ul li.now{
+	border-bottom: 1px #ccc dashed;
+}
+.main_text ul li:last-child{
+	border-bottom: none;
+}
+.main_text ul li .news-fonts{
+	display: inline-block;
+	width: 390px;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+.main_text ul li a:hover{
+	color:#d6bb6c;
+}
+.main_text ul li .time{
+	padding-left: 40px;
+	float: right;
+}
+.main_btn{
+	text-align: center;
+}
+.main_btn a{
+	display: inline-block;
+	margin:0 7px;
+}
+.main_btn a:hover{
+	color:#d6bb6c;
+}
+.main button a{
+	background-color: #0b308d;
+	color: white;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	padding: 0 7px;
+	width: 65px;
+	height: 20px;
+	line-height: 20px;
+}
+.main button a:hover{
+	color:#d6bb6c;
+}

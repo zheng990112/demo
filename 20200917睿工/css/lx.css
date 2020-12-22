@@ -1,0 +1,141 @@
+.public-title{
+    margin-top: 60px;
+}
+.lx1 .part1{
+    padding-bottom: 80px;
+}
+.lx1 .public-title .p3.first-p3{
+    margin-top: 30px;
+}
+.lx1 .map{
+    width: 1190px;
+    height: 580px;
+    margin: auto;
+    margin-top: 30px;
+    border: 5px solid #0059a9;
+}
+.lx2 .part1{
+    width: 100%;
+    height: 468px;
+    margin-top: 12px;
+}
+.lx2 .part1 .part_main{
+    width: 1200px;
+    margin: auto;
+    padding-top: 70px;
+}
+.lx2 .part1 .fl-lt{
+    width: 593px;
+}
+.lx2 .part1 .img1{
+    display: block;
+    width: 471px;
+    height: 93px;
+}
+.lx2 .part1 p{
+    color: #595757;
+}
+.lx2 .part1 .p1{
+    font-size: 36px;
+    padding-top: 30px;
+    margin-top: 45px;
+    border-top: 1px solid #595757;
+}
+.lx2 .part1 .p2{
+    font-size: 27px;
+    margin-top: 27px;
+}
+.lx2 .part1 .p3{
+    font-size: 21px;
+    margin-top: 10px;
+}
+
+.part2{
+    width: 100%;
+    height: 620px;
+    background: url(../img/index2/h1.jpg) no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+form {
+    width: 1200px;
+    margin: auto;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    height: 454px;
+    margin-top: 100px;
+    font-size: 0;
+}
+form div{
+    width: 1180px;
+    height: 424px;
+    margin: auto;
+    margin-top: 15px;
+    background-color: rgba(74, 160, 215, .4);
+}
+form p{
+    display: inline-block;
+    width: 282px;
+    height: 40px;
+    margin-top: 32px;
+    margin-left: 77px;
+    position: relative;
+}
+form p span{
+    position: absolute;
+    font-size: 18px;
+    line-height: 1;
+    color: #ffffff;
+    left: -50px;
+    top: 11px;
+}
+form p:first-child{
+    margin-left: 108px;
+}
+form p input{
+    font-size: 18px;
+    color: #595757;
+    width: 240px;
+    padding-left: 40px;
+    padding-right: 10px;
+    height: 40px;
+    background: #ffffff url(../img/index2/h-icon1.png) 9px center no-repeat;
+    background-size: 22px 22px;
+}
+form div p:nth-child(2) input{
+    background: #ffffff url(../img/index2/h-icon2.png) 12px center no-repeat;
+    background-size: 16px 25px;
+}
+form div p:nth-child(3) input{
+    background: #ffffff url(../img/index2/h-icon3.png) 6px center no-repeat;
+    background-size: 28px 21px;
+}
+form p:nth-child(4){
+    margin-left: 108px;
+    width: 1000px;
+    margin-top: 40px;
+    height: 210px;
+}
+form textarea{
+    font-size: 18px;
+    color: #595757;
+    resize: none;
+    width: 945px;
+    height: 180px;
+    padding: 15px;
+    padding-left: 40px;
+    background: #ffffff url(../img/index2/h-icon4.png) 7px 12px no-repeat;
+    background-size: 25px 21px;
+}
+form input.submit{
+    width: 195px;
+    height: 40px;
+    display: block;
+    margin: auto;
+    margin-top: -70px;
+    background: url(../img/index2/enter.png) no-repeat;
+    background-size: 100% 100%;
+    color: #595757;
+    font-size: 18px;
+    cursor: pointer;
+}

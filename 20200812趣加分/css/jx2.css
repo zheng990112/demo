@@ -1,0 +1,160 @@
+.jx_top{
+	font-size: 0.34rem;
+	color:#eeb033;
+	font-weight: bold;
+	margin-top: 0.2rem;
+}
+.jx_top span{
+	color:#372e8d;
+	margin-left: 0.1rem;
+}
+
+
+
+.jx1 .jx1-main ul{
+	margin-top: 0.45rem;
+}
+.jx1 .jx1-main ul li{
+	float:left;
+	margin-top: 0.35rem;
+	position:relative;
+}
+.jx1 .jx1-main ul .li1{
+	width: 2.17rem;
+	height: 2.25rem;
+}
+.jx1 .jx1-main ul .li2{
+	width: 3.05rem;
+	height: 2.25rem;
+}
+.jx1 .jx1-main ul .li3{
+	width:3.24rem;
+	height: 2.25rem;
+	margin-left: -0.1rem;
+}
+.jx1 .jx1-main ul .li4{
+	width:1.95rem;
+	height:2.58rem;
+	margin-left: -0.1rem;
+}
+.jx1 .jx1-main ul .li5{
+	width:2.58rem;
+	height:2.8rem;
+	margin-left: 0.76rem;
+}
+.jx1 .jx1-main ul .li6{
+	width:3.04rem;
+	height:2.05rem;
+	margin-left: 0.15rem;
+	top: 0.73rem;
+}
+.jx1 .jx1-main ul li img{
+	display: block;
+	height: 100%;
+}
+.jx1 .jx1-main .fonts{
+	text-align: center;
+    margin-top: 0.3rem;
+}
+.jx1 .jx1-main .fonts .p1{
+	font-size: 0.24rem;
+	color:#eeb033;
+	font-weight: bold;
+}
+.jx1 .jx1-main .fonts .p2{
+	font-size: 0.2rem;
+	color:#595757;
+	line-height: 0.32rem;
+	margin-top: 0.1rem;
+	font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+.jx2 .top_img{
+	display:block;
+	width: 7.5rem;
+	margin:0 auto;
+	margin-top: 0.7rem;
+}
+.jx2 .box{
+	border-top:1px solid #c9c9c9;
+	margin-top: 0.9rem;
+	white-space:nowrap;
+	padding-top: 0.6rem;
+}
+.jx2 .box .icon{
+	display: inline-block;
+	vertical-align: bottom;
+}
+.jx2 .box .icon img{
+	display: block;
+	width: 1.64rem;
+	margin:0 auto;
+}
+.jx2 .box .icon p{
+	font-size: 0.39rem;
+	color:#eeb033;
+	font-weight: bold;
+}
+.jx2 .box .des{
+	display: inline-block;
+	vertical-align: bottom;
+	font-size: 0.22rem;
+	color:#595757;
+	border-left: 1px solid #828181;
+	padding-left: 0.45rem;
+	margin-left: 0.3rem;
+}
+.jx2 .box .des p{
+	position:relative;
+	line-height: 0.4rem;
+}
+.jx2 .box .des p::before{
+	content:"";
+	display: inline-block;
+	width: 0.1rem;
+	height: 0.1rem;
+	background-color: #eeb033;
+	border-radius: 50%;
+	position:absolute;
+	left: -0.25rem;
+	top: 50%;
+	margin-top: -0.05rem;
+}
+
+
+
+.jx3 .top_img{
+	display:block;
+	width:8.9rem;
+	margin:0 auto;
+	margin-top: 0.7rem;
+}
+
+.jx4 .top_img{
+	display:block;
+	width:8.8rem;
+	margin:0 auto;
+	margin-top: 0.7rem;
+}
+.jx4 .box .icon img{
+	display: block;
+	width: 1.57rem;
+	margin:0 auto;
+}
+.jx4 .box .icon{
+	vertical-align: middle;
+}
+.jx4 .box .des{
+	vertical-align: middle;
+	text-align: left;
+}
+.jx4 .box{
+	text-align: center;
+}

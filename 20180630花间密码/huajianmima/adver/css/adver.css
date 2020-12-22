@@ -1,0 +1,165 @@
+*{padding:0;margin:0;}
+body{
+	font-family: "Microsoft Yahei",arial;
+	font-size: 12px;
+	color: #000;
+	background: url(../img/bg.jpg) repeat;
+}
+input,label,button,textarea{
+	border:0;
+	outline: none;
+	cursor: pointer;
+}
+.clearfix::after{
+	content:"";
+	display: block;
+	clear:both;
+}
+.fl-lt{
+	float: left;
+}
+.fl-rt{
+	float: right;
+}
+.content{
+	width: 1000px;
+	margin:0 auto;
+}
+.content img{
+	display: block;
+	width: 100%;
+}
+.part-last{
+	width: 1000px;
+	/*height: 880px;*/
+	position:relative;
+}
+.part-last .form{
+ 	position: absolute;
+    width: 654px;
+    height: 240px;
+    bottom: 116px;
+    left: 199px;
+}
+.part-last .form .top span{
+	font-size: 20px;
+	color:#b23363;
+	margin-right: 10px;
+}
+.part-last .form .top label{
+	font-size: 16px;
+	color:#b23363;
+}
+.part-last .form .form-main{
+	position:relative;
+}
+.part-last .form .form-main .main-left{
+	width: 260px;
+}
+.part-last .form .form-main  input{
+	width: 100%;
+	height: 30px;
+	background-color: #eaeaea;
+	font-size: 18px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	margin-top: 10px;
+}
+.part-last .form .form-main .p1{
+	font-size: 20px;
+	color:#b23363;
+	margin-top: 20px;
+}
+.part-last .form .form-main .main-right{
+    width: 270px;
+    margin-right: 76px;
+}
+.part-last .form .form-main .main-right textarea{
+	width: 100%;
+	height: 145px;
+	background-color: #eaeaea;
+	resize: none;
+	padding:10px;
+	box-sizing: border-box;
+	font-size: 16px;
+	margin-top: 10px;
+	color:#b23363;
+}
+textarea::-webkit-input-placeholder {
+	color:#b23363;
+}
+textarea:-moz-placeholder {
+/* FF 4-18 */
+	color:#b23363;
+}
+textarea::-moz-placeholder {
+/* FF 19+ */
+	color:#b23363;
+}
+textarea:-ms-input-placeholder {
+/* IE 10+ */
+	color:#b23363;
+}
+.part-last .form .form-main .main-right button{
+	width: 90px;
+	height: 36px;
+	background-color: #b23363;
+	color:#fff;
+	border-radius: 18px;
+	font-size: 18px;
+	position:absolute;
+	right: 76px;
+	bottom: 0;
+	margin-top: 20px;
+}
+
+/*返回顶部*/
+.backTop {
+	position: fixed;
+	bottom: 250px;
+	right: 3%;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #ae3363;
+	cursor: pointer;
+	display: none;
+	z-index: 99;
+}
+
+.backTop span {
+	display: block;
+	font-size: 40px;
+	color: #fff;
+	margin-top: -7px;
+	margin-left: 7px;
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+}
+
+.backTop:hover {
+	background-color: rgba(174,51,99,.8);
+}
+
+/*.footer*/
+.footer{
+	width: 100%;
+	height: 160px;
+	position:relative;
+	background: url(../img/foot.jpg) no-repeat;
+}
+.footer .foot_img{
+	display: block;
+	width: 60%;
+	position:absolute;
+	top: 50%;
+	left: 50%;	
+	transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+}

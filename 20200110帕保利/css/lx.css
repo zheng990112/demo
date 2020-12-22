@@ -1,0 +1,143 @@
+
+
+.lx{
+	padding-top: 1.2rem;
+	padding-bottom: 2rem;
+}
+.part1 .p1{
+	width: 8.36rem;
+}
+.part1 .p1 img{
+	display: block;
+	width: 100%;
+}
+.part1 .p2{
+	width: 8.11rem;
+	margin-top: 0.6rem;
+}
+.part1 .p2 img{
+	display: block;
+	width: 100%;
+}
+.part1 .form input{
+	width: 3.3rem;
+	height: 0.64rem;
+	background: transparent;
+	border:1px solid #6e6c6c;
+	display: inline-block;
+	font-size: 0.36rem;
+	color:#000000;
+	padding-left: 0.1rem;
+	box-sizing: border-box;
+	margin-right: 1.2rem;
+	margin-top: 1.1rem;
+}
+.part1 .form textarea{
+	display:block;
+	width: 100%;
+	height: 3.5rem;
+	background: transparent;
+	border:1px solid #6e6c6c;
+	font-size: 0.36rem;
+	color:#000000;
+	padding-left: 0.1rem;
+	padding-top: 0.15rem;
+	box-sizing: border-box;
+	margin-top: 0.6rem;
+	resize: none;
+}
+.part1 .form button{
+	font-size: 0.38rem;
+	color:#fff;
+	width: 1.95rem;
+	height: 0.58rem;
+	background-color: #848484;
+	margin-top: 0.3rem;
+	cursor: pointer;
+}
+.part1 .line{
+	width: 100%;
+	height: 1px;
+	background-color: #6e6c6c;
+	margin-top: 1rem;
+}
+
+
+.part2{
+	margin-top: 1.3rem;
+}
+.part2 .part2-l{
+	width: 5.6rem;
+}
+.part2 .part2-l .p1{
+	font-size: 0.3rem;
+	color:#231815;
+	line-height: 0.44rem;
+	display: inline-block;
+	border-bottom: 1px solid #6e6c6c;
+	margin-bottom: 0.4rem;
+	padding-bottom: 0.1rem;
+}
+.part2 .part2-l .p2 img{
+	display: inline-block;
+	vertical-align: middle;
+	width: 0.34rem;
+	height: 0.34rem;
+	
+}
+.part2 .part2-l .p2 span{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 0.3rem;
+	color:#231815;
+	line-height: 0.52rem;
+	margin-left: 0.1rem;
+	font-weight: lighter;
+}
+.part2 .part2-l .p2 span b{
+	font-weight: bold;
+}
+.part2 .part2-l .p3 img{
+	display: inline-block;
+	vertical-align:0.1rem;
+}
+.part2 .part2-l .erweima{
+	margin-top: 0.25rem;
+}
+.part2 .part2-l .erweima img{
+	display: inline-block;
+	width: 1.39rem;
+	height: 1.39rem;
+	vertical-align: bottom;
+}
+.part2 .part2-l span{
+	font-size: 0.3rem;
+	color:#231815;
+	display: inline-block;
+	vertical-align: bottom;
+	margin-left: 0.1rem;
+}
+
+.part2 .part2-r{
+	width: 7.7rem;
+}
+.part2 .part2-r .address-title span{
+	display: inline-block;
+	font-size: 0.22rem;
+	color:#231815;
+	width: 0.85rem;
+	height: 0.32rem;
+	border:1px solid #231815;
+	text-align: center;
+	line-height: 0.32rem;
+	margin-right: 0.2rem;
+	cursor: pointer;
+}
+.part2 .part2-r .address-title span#gz{
+	background-color: #008bd5;
+}
+.part2 .part2-r .map{
+	width: 7.6rem;
+	height: 6.8rem;
+	margin-top: 0.1rem;
+}

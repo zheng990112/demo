@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="shortcut icon" type="image/x-icon" href="../img/logoIcon.png" media="screen">
+    <link rel="stylesheet" href="../css/p_common.css">
+    <link rel="stylesheet" href="../css/lx.css">
+    <link rel="stylesheet" type="text/css" href="../css/aos.css" />
+    <script src="../js/aos.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=6ALaE7y1e8N171T2CfPrHqZC3Ed000Cl"></script>
+</head>
+
+<body>
+    <div class="p-header">
+        <div class="p-header-box">
+            <div class="logo"><img src="../img/logo.png" width="100%" alt=""></div>
+            <div class="menu">
+                <div class="menu-list">
+                    <a class="item" href="index.html">HOME</a>
+                    <a class="item" href="about.html">关于我们</a>
+                    <a class="item" href="cp.html">产品介绍</a>
+                    <a class="item" href="ys.html">项目优势</a>
+                    <a class="item" href="al.html">案例赏析</a>
+                    <a class="item" href="news.html">新闻资讯</a>
+                    <a class="item active" href="lx.html">联系我们</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="er-nav">
+            <img src="../img/lx/title.png" alt="" class="er-nav_bg" />
+            <a href="lx.html#lx1" class="a1 on">公司信息</a>
+            <a href="lx.html#lx2" class="a2">在线留言</a>
+        </div>
+        <div class="part1">
+            <div class="part1-main">
+                <div class="public-title">
+                    <div class="anchor" id="lx1"></div>
+                    <div class="box">
+                        <p class="p1">公司信息</p>
+                        <p class="p2">Company information</p>
+                    </div>
+                </div>
+                <!-- <div class="map" id="map"></div> -->
+                <p class="map-b"><img src="../img/lx/a1.png" alt="" /><span>公司名称：圣诺曼底能源科技（武汉）有限公司</span></p>
+                <!-- <p class="map-b"><img src="../img/lx/a2.png" alt="" /><span>公司地址： 武汉东湖新技术开发区关山二路特一号国际企业中心3幢一单元二层202号 </span></p> -->
+                <p class="map-b"><img src="../img/lx/a3.png" alt="" /><span>全国统一服务专线：400-6866-136</span></p>
+            </div>
+        </div>
+        <div class="part2">
+            <img src="../img/lx/b1.png" alt="" class="part2-bg" />
+            <div class="part2-main">
+                <div class="public-title">
+                    <div class="anchor" id="lx2"></div>
+                    <div class="box">
+                        <p class="p1">在线留言</p>
+                        <p class="p2">Online Message</p>
+                    </div>
+                </div>
+                <div class="part2-form">
+                    <input type="text" placeholder="姓 名：" />
+                    <input type="text" placeholder="联系方式：" />
+                    <input type="text" placeholder="电子邮箱：" />
+                    <textarea name="" rows="" cols="" placeholder="留言内容："></textarea>
+                    <button>提    交</button>
+                    <img src="../img/lx/b2.png" alt="" class="b2-img" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--返回顶部-->
+    <div class="backTop"><span><</span></div>
+    <div class="p-footer">
+        <div class="p-footer-box">
+            <div class="logo"><img src="../img/logo.png" width="100%" alt=""></div>
+            <div class="com-info">
+                <p>公司名称：圣诺曼底能源科技（武汉）有限公司</p>
+                <p>公司地址： 武汉东湖新技术开发区关山二路特一号国际企业中心3幢一单元二层202号</p>
+                <p>全国统一服务专线：400-6866-136</p>
+            </div>
+            <div class="com-phone">
+                <div class="icon"><img src="../img/phone_icon2.png" width="100%" alt=""></div>
+                <div class="phone-box">
+                    <p class="tag">全国统一服务热线</p>
+                    <p class="number">400-6866-136</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/jquery-1.11.2.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script>
+        var map = new BMap.Map("map"); // 创建Map实例
+        var point = new BMap.Point(114.420908, 30.489297);
+        map.centerAndZoom(point, 15);
+        var marker = new BMap.Marker(point); // 创建标注
+        map.addOverlay(marker); // 将标注添加到地图中
+        marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+        map.panTo(point);
+        // map.addControl(new BMap.NavigationControl()); // 添加默认缩放平移控件
+        map.enableScrollWheelZoom(true); //开启鼠标滚轮缩放
+    </script>
+
+    <script>
+        $(window).scroll(function() {
+            var scrollTop = $(window).scrollTop();
+            var dom1 = $("#lx1")[0].offsetTop - scrollTop;
+            var dom2 = $("#lx2")[0].offsetTop - scrollTop;
+            if (dom1 < -88) {
+                $(".er-nav a").removeClass("on");
+                $(".er-nav a").eq(0).addClass("on");
+            }
+            if (dom2 < -288) {
+                $(".er-nav a").removeClass("on");
+                $(".er-nav a").eq(1).addClass("on");
+            }
+
+        })
+    </script>
+</body>
+
+</html>

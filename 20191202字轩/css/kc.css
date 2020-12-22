@@ -1,0 +1,113 @@
+
+
+.public .part-title::before{
+	width: 3.2rem;
+	margin-left: -1.6rem;
+}
+.public .part-title .en{
+	padding:0 0.05rem;
+}
+
+
+
+.kc-title{
+	width: 8.9rem;
+	height: 1rem;
+	border:1px solid #b19662;
+	margin:0 auto;
+	font-family: myfont;
+	text-align: center;
+	margin-top: 0.9rem;
+}
+.kc-title .p1{
+	font-size: 0.89rem;
+	line-height: 1;
+	color:#b19662;
+	display: inline-block;
+	background: #f8f7f5;
+	margin-top: -0.45rem;
+	padding:0 0.25rem;
+}
+.kc-title .p2{
+	display: inline-block;
+	background: #f8f7f5;
+	font-size: 0.4rem;
+	line-height: 1;
+	color:#333333;
+	margin-top: 0.3rem;
+	padding:0 0.25rem;
+}
+.kc-title .p1 span{
+	position:relative;
+	display: inline-block;
+	line-height: 1;
+}
+.kc-title .p1 span::after{
+    content: "";
+    display: inline-block;
+    width: 0.3rem;
+    height: 0.3rem;
+    background: url(../img/icon.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: -0.05rem;
+    right: -0.05rem;
+}
+
+
+
+.picScroll-left{
+	width: 100%;
+	position: relative;
+}
+.picScroll-left .bd{
+	width:100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.picScroll-left .bd li{
+	float: left;
+	position: relative;
+	text-align: center;
+	width:12rem;
+	height:6.5rem;
+	cursor: pointer;
+}
+.picScroll-left .bd li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.picScroll-left .arrow{
+	position: absolute;
+	top:50%;
+	margin-top: -0.32rem;
+	width:0.64rem;
+	height:0.64rem;
+	cursor: pointer;
+	z-index: 9;
+}
+.picScroll-left .arrow img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.picScroll-left .arrow-left{
+	left:0.25rem;
+}
+.picScroll-left .arrow-right{
+	right:0.25rem;
+}
+
+
+
+.kc1 .picScroll-left{
+	margin-top: 0.55rem;
+}
+.kc2 .picScroll-left{
+	margin-top:1rem;
+}
+.kc5 .picScroll-left{
+	margin-top:1.6rem;
+}

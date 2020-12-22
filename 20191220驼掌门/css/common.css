@@ -1,0 +1,474 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    font-family: "Microsoft Yahei", arial;
+    font-size: 12px;
+    background-color: #fff;
+    min-width: 1280px;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(../fonts/SourceHanSerifCN-Bold.otf);
+}
+
+@font-face {
+    font-family: myfont2;
+    src: url(../fonts/xiquezhaopaiti.ttf);
+}
+
+input,
+textarea,
+button {
+    outline: none;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: #595757;
+}
+
+ul li {
+    list-style: none;
+}
+
+.fl-lt {
+    float: left;
+}
+
+.fl-rt {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+/*返回顶部*/
+
+.backTop {
+    position: fixed;
+    bottom: 250px;
+    right: 3%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #d6282a;
+    cursor: pointer;
+    display: none;
+    z-index: 99;
+}
+
+.backTop span {
+    display: block;
+    font-size: 40px;
+    color: #fff;
+    margin-top: -7px;
+    margin-left: 7px;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+
+.backTop:hover {
+    opacity: 0.6;
+}
+
+
+/*header*/
+
+.header {
+    position: relative;
+    text-align: center;
+    height: 1.65rem;
+    z-index: 99;
+}
+
+.header .header-bg {
+    position: absolute;
+    width: 100%;
+    height: 1.65rem;
+    left: 0;
+    top: 0;
+}
+
+.header .logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 1.99rem;
+    height: 0.86rem;
+    position: relative;
+    z-index: 2;
+}
+
+.header .logo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.header .nav {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 2;
+    margin-top: 0.05rem;
+    margin-left: 0.5rem;
+}
+
+.header .nav li {
+    float: left;
+    width: 1.1rem;
+    height: 1.14rem;
+    padding-top: 0.4rem;
+    padding-left: 0.1rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.header .nav li a {
+    color: #fff;
+}
+
+.header .nav li .p1 {
+    font-size: 0.18rem;
+    font-family: myfont;
+}
+
+.header .nav li .p2 span {
+    display: block;
+    font-size: .24rem;
+    transform: scale(.5);
+    -webkit-transform: scale(.5);
+    -o-transform: scale(.5);
+    -moz-transform: scale(.5);
+    -ms-transform: scale(.5);
+    width: 200%;
+    margin-left: -50%;
+    font-family: myfont;
+    height: 200%;
+    margin-top: -10%;
+}
+
+.header .nav li.active,
+.header .nav li:hover {
+    background: url(../img/nav_active.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.header .nav li .item {
+    position: absolute;
+    top: 1.2rem;
+    z-index: 3;
+    background: url(../img/item-bg.png) no-repeat;
+    background-size: 100% 100%;
+    width: 1.07rem;
+    padding: 0.1rem 0 0.2rem;
+    left: 0.03rem;
+    border-radius: 0 0 0.1rem 0.1rem;
+    display: none;
+}
+
+.header .nav li .item::before {
+    content: "";
+    display: inline-block;
+    width: 1.07rem;
+    height: 0.64rem;
+    background: url(../img/nav.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -0.64rem;
+    left: 0;
+}
+
+.header .nav li .item a {
+    display: block;
+    font-size: 0.17rem;
+    line-height: 0.3rem;
+}
+
+.header .nav li .item a.on,
+.header .nav li .item a:hover {
+    color: #f29600;
+}
+
+.header .nav li:hover .item {
+    display: block;
+}
+
+.banner {
+    margin-top: -0.4rem;
+    width: 100%;
+    position: relative;
+    font-size: 0;
+}
+
+.banner .swiper-pagination {
+    bottom: 0.32rem;
+}
+
+.banner .swiper-pagination .swiper-pagination-bullet {
+    width: 0.2rem;
+    height: 0.2rem;
+    background-color: #CBCBCB;
+    opacity: 1;
+    margin: 0 0.13rem;
+}
+
+.banner .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #D70519;
+}
+
+.footer .foot1 {
+    width: 100%;
+    height: 1.2rem;
+    background: url(../img/foot-bg.jpg) no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    font-size: 0;
+    font-family: myfont;
+    padding-top: 0.24rem;
+    box-sizing: border-box;
+}
+
+.footer .foot1 ul li {
+    display: inline-block;
+    width: 1.42rem;
+    height: 0.72rem;
+    border-right: 1px solid #fff;
+    box-sizing: border-box;
+    padding-top: 0.1rem;
+}
+
+.footer .foot1 ul li:last-child {
+    border: none;
+}
+
+.footer .foot1 ul li a {
+    color: #fff;
+}
+
+.footer .foot1 ul li a:hover {
+    color: #f29600;
+}
+
+.footer .foot1 ul li .p1 {
+    font-size: 0.18rem;
+}
+
+.footer .foot1 ul li .p2 span {
+    display: block;
+    font-size: .24rem;
+    transform: scale(.5);
+    -webkit-transform: scale(.5);
+    -o-transform: scale(.5);
+    -moz-transform: scale(.5);
+    -ms-transform: scale(.5);
+    width: 200%;
+    margin-left: -50%;
+}
+
+.footer .foot2 {
+    background: #f29600;
+    text-align: center;
+    color: #fff;
+    padding: 0.2rem 0;
+}
+
+.footer .foot2 .logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 1.99rem;
+    height: 0.86rem;
+}
+
+.footer .foot2 .logo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.footer .foot2 .address {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1rem;
+}
+
+.footer .foot2 .address .p1 {
+    font-size: 0.28rem;
+}
+
+.footer .foot2 .address .p2 {
+    font-size: 0.18rem;
+}
+
+.footer .foot2 .foot-tel {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    position: relative;
+    margin-left: 1.7rem;
+}
+
+.footer .foot2 .foot-tel::before {
+    content: "";
+    display: inline-block;
+    width: 0.6rem;
+    height: 0.6rem;
+    background: url(../img/foot-tel.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    left: -0.65rem;
+}
+
+.footer .foot2 .foot-tel .p1 {
+    font-size: 0.18rem;
+}
+
+.footer .foot2 .foot-tel .p2 {
+    font-size: 0.4rem;
+}
+
+.footer .foot2 .foot-tel .p3 {
+    font-size: 0.16rem;
+}
+
+.footer .foot2 .erweima {
+    display: inline-block;
+    vertical-align: middle;
+    width: 1.14rem;
+    height: 1.14rem;
+    margin-left: 1rem;
+}
+
+.footer .foot2 .erweima img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    /* min-height: 500px; */
+    border-top: 0.2rem solid #d6282a;
+    position: relative;
+    border-bottom: 0.08rem solid #F29600;
+}
+
+
+/*add css*/
+
+.main {
+    width: 10.28rem;
+    /* margin: 0 auto; */
+    padding: 0.60rem 0 0 5.32rem;
+    padding-top: 0.60rem;
+    /* position: relative;
+    top: 0; */
+}
+
+.main .main-info {
+    /* padding-left: 1.75rem; */
+}
+
+.er-nav {
+    position: absolute;
+    /* top: 1.32rem; */
+    top: 1.69rem;
+    left: 3.70rem;
+    z-index: 99;
+    width: 1.44rem;
+}
+
+.er-nav .er-nav-box {
+    width: 1.44rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0.13rem;
+    padding-bottom: 0.22rem;
+    background-color: #D73335;
+    border-radius: 0.1rem;
+}
+
+.er-nav .er-logo {
+    width: 1.02rem;
+    font-size: 0;
+}
+
+.er-nav .er-img {
+    width: 1.0rem;
+    font-size: 0;
+    margin-top: 0.18rem;
+}
+
+.er-nav .navs {
+    display: flex;
+    flex-direction: column;
+}
+
+.er-nav .navs a {
+    display: block;
+    width: 0.74rem;
+    font-size: 0.16rem;
+    color: #ffffff;
+    padding-bottom: 0.09rem;
+    border-bottom: 0.01rem solid #ffffff;
+    text-align: center;
+    margin-top: 0.12rem;
+}
+
+.er-nav .navs a.on {
+    color: #F29600;
+}
+
+.er-nav .nav-icon {
+    width: 1.54rem;
+    vertical-align: top;
+    position: absolute;
+    left: -0.1rem;
+    top: -1.30rem;
+    z-index: -1;
+}
+
+.er-nav .back-index {
+    width: 1.12rem;
+    height: 1.12rem;
+    background-color: #F29600;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0.60rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -0.56rem;
+    bottom: -0.65rem;
+    z-index: -1;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.er-nav .back-index img {
+    width: 0.20rem;
+    vertical-align: top;
+}
+
+.er-nav .back-index span {
+    margin-top: 0.02rem;
+    font-size: 0.14rem;
+}

@@ -1,0 +1,38 @@
+.news1 .part1 .div1{width: 261px;height: 201px;padding-left: 20px;}
+.news1 .part1 .div1 img{width: 100%;height: 100%;}
+.news1 .part1 .div2{width: 740px;margin-left: 90px;}
+.news1 .part1  ul li{width: 1200px;border-bottom: 1px solid #d3d3d3;height: 238px;margin-bottom: 30px;}
+.news1 .part1  ul li:last-child{border-bottom: none;margin-bottom: 0;}
+.news1 .part1 .div2 .div3{width: 100%;clear: both;}
+.news1 .part1 .div2 .div3 img{display: inline-block;float: left;width: 10px;height: 23px;vertical-align: middle;margin-top: 10px;margin-right: 16px;}
+.news1 .part1 .div2 .div3 h3{display: inline-block;float: left;font-size: 36px;color: #000000;vertical-align: middle;height: 48px;line-height: 48px;}
+.news1 .part1 .div2 .div4{margin-top: 28px;}
+.news1 .part1 .div2 .div4 p{font-size: 18px;color: #595757;height: 52px;line-height: 26px;overflow : hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+.news1 .part1 .div5{width: 808px;display: block;float: right;}
+.news1 .part1 .div5 span{font-size: 18px;color: #c9c9ca;float: left;}
+.news1 .part1 .div5 img{float: right;width: 48px;height: 11px;}
+.news1 .part1  .div5{margin-top: 48px;}
+.news1 .part1 {margin-top: 66px;}
+.news1 .part1 .div_right{width: 900px;}
+.news1 .part1  ul li:hover .div4 p{color: red;}
+.news1 .part1 .more{font-size: 18px;color: #ed116b;text-transform: uppercase;}
+.news1 .part1 .more a{color: #ed116b;display: block;}
+/*newsdetail*/
+
+.newsdetail .newsdetail-top{ text-align: center;margin-top: 34px;}
+.newsdetail .newsdetail-top .p1{ font-size: 40px;}
+.newsdetail .newsdetail-top .p2{ font-size: 18px; line-height: 36px;}
+.newsdetail .newsdetail-top .p2 span{ margin: 0 20px;}
+.newsdetail .newsdetail-img{ width: 1080px; margin: 0 auto; border: 10px solid #000; box-sizing: border-box; margin-top: 25px;}
+.newsdetail .newsdetail-img img{ display: block; width: 100%;}
+.newsdetail .newsdetail-fonts{ width: 1080px; margin: 0 auto; font-size: 14px; margin-top: 20px;margin-bottom: 40px;}
+.newsdetail .part2 .icon2{ top: -800px;}
+
+
+
+.content .er-nav{
+	width: 570px;
+}
+.news1 .public-title .p1::after{
+	right: -50px;
+}

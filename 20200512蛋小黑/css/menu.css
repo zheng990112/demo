@@ -1,0 +1,96 @@
+.main .bg_img{
+	height: 100%;
+}
+
+
+.menu1{
+	height: 8.9rem;
+}
+.menu1 .box{
+	width: 12rem;
+	margin:0 auto;
+	margin-top: 0.7rem;
+}
+.menu1 .box .p1{
+	font-size:0.58rem;
+	color:#000000;
+	font-weight: bold;
+	line-height: 1;
+	text-align: center;
+}
+.menu1 .box .p2{
+	width: 4.28rem;
+	margin:0 auto;
+	margin-top: 0.25rem;
+}
+.menu1 .box .p2 img{
+	display: block;
+	width: 100%;
+}
+.menu1 .box ul{
+	text-align: center;
+}
+.menu1 .box ul li{
+	display: inline-block;
+	vertical-align: top;
+	width: 3.46rem;
+	margin:0 0.15rem;
+	margin-top: 0.4rem;
+}
+.menu1 .box ul li .li-img{
+	width: 3.46rem;
+	height: 2.86rem;
+	position:relative;
+}
+.menu1 .box ul li .li-img .img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.menu1 .box ul li .li-img .img-p{
+	width: 100%;
+	height: 0.46rem;
+	background: url(../img/menu/a5.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	bottom: 0;
+	left: 0;
+	line-height: 0.46rem;
+}
+.menu1 .box ul li .li-img .img-p img{
+	display: block;
+	height: 0.35rem;
+	margin:0 auto;
+	margin-top: 0.05rem;
+}
+.menu1 .box ul li .li-fonts{
+	font-size: 0.16rem;
+	line-height: 0.33rem;
+	text-align: left;
+	margin-top: 0.1rem;
+	padding:0 0.1rem;
+}
+
+
+
+.menu2{
+	height: 8.9rem;
+}
+
+.menu3 .box ul li .li-img .img-p{
+	background: none;
+}
+.menu3 .box ul li .li-img .img-p img{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+/*20200518*/
+.menu1 .box ul li .li-img .img-p{
+	font-size: 0.2rem;
+	color:#fff;
+	text-shadow:0px 0px 5px #9d265d;
+}
+

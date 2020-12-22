@@ -1,0 +1,257 @@
+*{
+	padding:0;
+	margin:0;
+}
+a{
+	text-decoration: none;
+}
+input,
+button,
+textarea {
+	border: 0;
+	outline: none;
+}
+ul li {
+	list-style: none;
+}
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.adver{
+	width: 1000px;
+	margin:0 auto;
+	font-size: 0;
+}
+.adver img{
+	display: block;
+	width: 100%;
+	
+}
+.adver .adver_nav{
+	width: 1000px;
+	margin:0 auto;
+	height: 46px;
+	background-color: #eeefef;
+	text-align: center;
+}
+.adver .adver_nav a{
+	display: inline-block;
+	vertical-align: top;
+	color:#595757;
+	font-size: 18px;
+	line-height: 46px;
+	margin:0 35px;
+}
+.adver .adver_nav a:hover,
+.adver .adver_nav a.on{
+	color:#d0121b;
+}
+
+
+
+.adver .part{
+	position:relative;
+}
+.adver .anchor{
+	width: 100%;
+	height:46px;
+	position:absolute;
+	top: -46px;
+	z-index: -1;
+}
+.adver .adver_header .adver_nav_fix{
+	position:fixed;
+	top: 0;
+	z-index: 999;
+}
+
+
+
+
+
+
+
+.adver .part1 .form1{
+	width: 285px;
+	height: 345px;
+	position:absolute;
+	top: 75px;
+	right: 80px;
+	background-color: #f4d0d2;
+	border-radius: 20px;
+	padding-top: 25px;
+	box-sizing: border-box;
+}
+.adver .part1 .form1 .p1{
+	font-size:25px;
+	color:#595757;
+	text-align: center;
+	margin-bottom: 30px;
+	line-height: 1;
+}
+.adver .part1 .form1 input{
+	font-size: 18px;
+	color:#595757;
+	width: 250px;
+	height: 50px;
+	display: block;
+	margin:0 auto;
+	padding-left: 10px;
+	box-sizing: border-box;
+	margin-bottom: 17px;
+}
+.adver .part1 .form1 button{
+	font-size: 18px;
+	width: 150px;
+	height: 50px;
+	background-color: #cf111b;
+	line-height: 50px;
+	display: block;
+	margin:0 auto;
+	margin-top: 40px;
+	color:#fff;
+	cursor: pointer;
+}
+.adver .part2 .form2{
+	position:absolute;
+	width: 270px;
+	height: 260px;
+	background-color: #eeeeef;
+	left: 120px;
+	top: 135px;
+	padding-top: 20px;
+	box-sizing: border-box;
+}
+.adver .part2 .form2 .p1{
+	font-size: 24px;
+	text-align: center;
+	color:#595757;
+	line-height: 1;
+	margin-bottom: 25px;
+}
+.adver .part2 .form2 input{
+	font-size: 18px;
+	color:#595757;
+	width: 235px;
+	height: 46px;
+	background-color: #ffffff;
+	padding-left: 10px;
+	box-sizing: border-box;
+	display: block;
+	margin:0 auto;
+	margin-bottom: 20px;
+}
+.adver .part2 .form2 button{
+	font-size: 18px;
+	width: 140px;
+	height: 40px;
+	background-color: #cf111b;
+	line-height: 40px;
+	display: block;
+	margin:0 auto;
+	margin-top:20px;
+	color:#fff;
+	cursor: pointer;
+}
+
+
+
+.adver .al-anchor{
+    width: 100%;
+    height: 46px;
+    position: absolute;
+    top: -180px;
+    z-index: -1;
+}
+.part a{
+	width: 615px;
+	height: 250px;
+	position:absolute;
+	left: 50%;
+	margin-left: -307.5px;
+}
+.part .mmr-a{
+	top: 13px;
+}
+.part .wjx-a{
+	bottom:0;
+}
+.part .bsy-a{
+	top:0;
+}
+
+
+.banner{
+	position:relative;
+	height:474px;
+	overflow: hidden;
+}
+.banner .banner-list{
+	overflow: hidden;
+}
+.banner .banner-list li{
+	width: 1000px;
+	position: absolute;
+	left: 50%;
+	margin-left: -500px;
+	top: 0;
+	display: none;
+	background-size: cover!important;
+}
+.banner .banner-list li:first-child{
+	display: block;
+}
+.banner .banner-list li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.banner-btn-list{
+	position: absolute;
+	bottom: 10px;
+	left:50%;
+	transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+}
+.banner-btn-list li{
+	width: 25px;
+	height:1px;
+	margin:10px;
+	background-color: #000;
+	cursor: pointer;
+	display: inline-block;
+}
+.banner-btn-list li.light{
+	background: #fff;
+}
+
+.part2 .part2-font{
+	width: 425px;
+    height: 177px;
+    position: absolute;
+    right: 120px;
+    top: 170px;
+}
+.part2 .part2-font ul li{
+	float:left;
+	width: 185px;
+	height: 70px;
+	font-size: 18px;
+	text-align: center;
+	width: 185px;
+	height: 70px;
+	line-height: 70px;
+	color:#fff;
+}
+.part2 .part2-font ul li:nth-child(2n){
+	margin-left:54px;
+}
+.part2 .part2-font ul li.li2{
+	margin-top: 38px;
+}

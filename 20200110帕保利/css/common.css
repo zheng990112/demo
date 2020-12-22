@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: serif, sans-serif, 'Microsoft YaHei';
+    font-size: 12px;
+    background-color: #ffffff;
+    color: #000000;
+    overflow-x: hidden;
+    min-width: 1280px;
+}
+
+.fl-lt {
+    float: left;
+}
+
+.fl-rt {
+    float: right;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+input,
+button,
+textarea {
+    border: 0;
+    outline: none;
+}
+
+b {
+    font-weight: normal;
+}
+
+em {
+    font-style: normal;
+}
+
+
+/* header css start */
+
+.header {
+    width: 100%;
+    height: auto;
+    position: relative;
+    font-size: 0;
+}
+
+.header .header-box {
+    width: 100%;
+    height: 0.83rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: -webkit-linear-gradient(top, rgba(51, 51, 51, 0.53), rgba(51, 51, 51, 0));
+    background: -moz-linear-gradient(top, rgba(51, 51, 51, 0.53), rgba(51, 51, 51, 0));
+    background: linear-gradient(top, rgba(51, 51, 51, 0.53), rgba(51, 51, 51, 0));
+    box-sizing: border-box;
+    padding-left: 0.47rem;
+    padding-top: 0.34rem;
+    padding-right: 0.59rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .header-box .logo {
+    /* width: 2.43rem; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header .header-box .logo .logo-img {
+    width: 2.43rem;
+    vertical-align: top;
+}
+
+.header .header-box .logo .line {
+    width: 1px;
+    height: 100%;
+    background-color: #ffffff;
+    margin: 0 0.15rem;
+}
+
+.header .header-box .logo span {
+    font-size: 0.24rem;
+    line-height: 0.23rem;
+    color: #ffffff;
+}
+
+.header .header-box .info-box {
+    width: 13.17rem;
+    height: 100%;
+    border-bottom: 1px solid rgba(170, 170, 162, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .header-box .info-box .phone-box {
+    font-size: 0.21rem;
+    color: #ffffff;
+}
+
+.header .header-box .info-box .phone-box span {
+    font-weight: bold;
+}
+
+
+/* menu css start */
+
+.header .menu-box {
+    height: 100%;
+}
+
+.header .menu-box .menu-list {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header .menu-box .menu-list .nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.header .menu-box .menu-list .nav+.nav {
+    margin-left: 0.42rem;
+}
+
+.header .menu-box .menu-list .nav a {
+    color: #ffffff;
+    font-size: 0.20rem;
+}
+
+.header .menu-box .menu-list .nav.active,
+.header .menu-box .menu-list .nav:hover {
+    border-bottom: 3px solid #ffffff;
+}
+
+.header .menu-box .menu-list .nav.active>a,
+.header .menu-box .menu-list .nav:hover>a {
+    font-weight: bold;
+}
+
+.header .menu-box .menu-list .nav .e-nav {
+    width: 1rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -0.45rem;
+    top: 0.48rem;
+    display: none;
+    box-sizing: border-box;
+    padding-top: 0.20rem;
+    padding-bottom: 0.10rem;
+    background-color: rgba(51, 51, 51, 0.53);
+}
+
+.header .menu-box .menu-list .nav .e-nav a {
+    display: block;
+    width: 100%;
+    font-size: 0.16rem;
+    text-align: center;
+}
+
+.header .menu-box .menu-list .nav .e-nav a+a {
+    margin-top: 0.1rem;
+}
+
+.header .menu-box .menu-list .nav:hover .e-nav {
+    display: block;
+}
+
+.header .menu-box .menu-list .nav .e-nav a.on,
+.header .menu-box .menu-list .nav .e-nav a:hover {
+    font-weight: bold;
+}
+
+
+/* menu css end */
+
+
+/* header css end */
+
+
+/* footer css start */
+
+.footer {
+    width: 100%;
+    height: 5.30rem;
+    background-color: #1E1E1E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 0.87rem;
+}
+
+.footer .footer-menu {
+    width: 14.46rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 0.30rem;
+    border-bottom: 1px solid #4C4C4C;
+}
+
+.footer .footer-menu a {
+    font-size: 0.20rem;
+    color: #ffffff;
+}
+
+.footer .com-info {
+    display: flex;
+    align-items: center;
+    margin-top: 1.25rem;
+}
+
+.footer .com-info .logo {
+    width: 2.42rem;
+    font-size: 0;
+}
+
+.footer .com-info .icon {
+    width: 0.52rem;
+    height: 0.52rem;
+    border-radius: 50%;
+    border: 0.02rem solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.24rem;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 0.32rem;
+    margin-right: 0.24rem;
+}
+
+.footer .com-info .phone {
+    font-size: 0.40rem;
+    color: #ffffff;
+    line-height: 0.46rem;
+}
+
+.footer .com-info .phone span {
+    font-size: 0.46rem;
+    color: #C6AC9C;
+}
+
+.footer .copyright {
+    text-align: center;
+    font-size: 0.24rem;
+    color: #828282;
+    margin-top: 0.98rem;
+}
+
+.footer .copyright p.p2 {
+    margin-top: 0.23rem;
+}
+
+
+/* footer css end */
+
+
+/* back-top css start */
+
+.back-top {
+    width: 0.92rem;
+    height: 0.92rem;
+    border: 0.02rem solid #231815;
+    position: fixed;
+    bottom: 7rem;
+    right: 0.77rem;
+    cursor: pointer;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 0.1rem;
+    z-index: 999;
+    display: none;
+}
+
+.back-top .top-icon {
+    width: 0.19rem;
+    vertical-align: top;
+    font-size: 0;
+    /* display: block; */
+}
+
+.back-top span {
+    font-size: 0.18rem;
+    text-transform: uppercase;
+    color: #231815;
+    font-weight: bold;
+    margin-top: 0.1rem;
+    display: block;
+}
+
+
+/* back-top css end */
+
+
+/* container css start */
+
+.container {
+    width: 100%;
+    min-height: 4rem;
+    position: relative;
+}
+
+.main {
+    width: 14rem;
+    margin: 0 auto;
+}
+
+
+/* container css end */

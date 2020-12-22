@@ -1,0 +1,123 @@
+.cp{
+	padding-bottom:1rem;
+}
+.cp-main{
+	width: 12rem;
+	margin:0 auto; 
+	padding-top: 1.38rem;
+}
+.cp-title{
+	/*border-bottom: 0.02rem solid #000000;*/
+	height: 0.6rem;
+	position:relative;
+}
+.cp-title::after{
+	content:"";
+	display: inline-block;
+	width: 100%;
+	height: 0.035rem;
+	background-color: #000;
+	position:absolute;
+	bottom: 0;
+	left: 0;
+}
+.cp-title .fonts{
+	display: inline-block;
+	/*width: 3.51rem;*/
+	/*padding-right: 0.4rem;*/
+	height: 0.6rem;
+	/*background: url(../img/cp/a1.png) no-repeat;*/
+	background-size: 100% 100%;
+	vertical-align: top;
+	position:relative;
+	border:0.035rem solid #000;
+	border-right:none;
+	box-sizing: border-box;
+}
+.cp-title .fonts::after{
+	content:"";
+	display: inline-block;
+	width: 0.7rem;
+	height: 0.6rem;
+	background: url(../img/cp/a1-1.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	right: -0.6rem;
+	top:-0.035rem;
+}
+.cp-title .fonts .span1{
+	font-size: 0.28rem;
+	color:#231815;
+	line-height: 0.5rem;
+	font-weight: bold;
+	margin-left: 0.1rem;
+	display: inline-block;
+	vertical-align: middle;
+}
+.cp-title .fonts .span2{
+	font-size: 0.16rem;
+	color:#808080;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 0.1rem;
+}
+.cp-title .des{
+	display: inline-block;
+	font-size: 0.36rem;
+	color:#231815;
+	margin-left:1rem;
+}
+.cp-title .icon1{
+	width: 1.12rem;
+	height: 0.23rem;
+	display: block;
+	position:absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -0.11rem;
+}
+
+.cp .box{
+	margin-top: 0.2rem;
+}
+.cp .box ul li{
+	float:left;
+	width: 3.65rem;
+	margin-right: 0.525rem;
+	margin-top: 0.5rem;
+}
+.cp .box ul li:nth-child(3n){
+	margin-right: 0;
+}
+.cp .box ul li .li-img{
+	width: 3.65rem;
+	height: 4.19rem;
+	overflow: hidden;
+}
+.cp .box ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.cp .box ul li .li-img img:hover{
+	transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transition: all 1s; 
+}
+.cp .box ul li .li-p{
+	font-size: 0.22rem;
+	color:#231815;
+	height: 0.48rem;
+	text-align: center;
+	line-height: 0.48rem;
+	background-color: #e4b62f;
+}
+.cp .icon2{
+	display: block;
+	width: 1.48rem;
+	margin:0 auto;
+	margin-top: 1rem;
+}

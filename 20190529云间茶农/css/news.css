@@ -1,0 +1,161 @@
+.top_big img{
+	width: 1920px;
+	height: 959px;
+	position:absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+}
+
+.content{
+	position:relative;
+}
+.icon1{
+	position:absolute;
+	z-index: -1;
+	bottom: 0;
+	left: 0;
+}
+.icon2{
+	position:absolute;
+	z-index: -1;
+	bottom:300px;
+	right: 0;
+}
+
+
+
+
+
+
+.part1-title .p1{
+	font-family: myfont;
+	font-size: 96px;
+	color:#aa804f;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 96px;
+}
+.part1-title img{
+	display:inline-block;
+	vertical-align:-40px;
+	margin:0 10px;
+}
+.part1-title .p2{
+	font-family:myfont;
+	color:#a9804f;
+	font-size: 34px;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 32px;
+}
+.part1 .part1-main{
+	width: 943px;
+}
+.part1 .part1-main .img0{
+	width: 943px;
+	height: 438px;
+	margin-top: 35px;
+}
+.part1 .part1-main .img0 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.part1 .part1-main ul li{
+	line-height: 75px;
+	height: 75px;
+	border-bottom: 1px solid #d7d7d7;
+	box-sizing: border-box;
+}
+.part1 .part1-main ul li:last-child{
+	border-bottom:none;
+}
+.part1 .part1-main ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color:#3e3a39;
+}
+.part1 .part1-main ul li .li-l{
+	font-size: 26px;
+	width: 600px;
+	overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+	
+}
+.part1 .part1-main ul li .li-r{
+	font-size: 20px;
+}
+.part1 .part1-main ul li a:hover{
+	color:red;
+}
+
+
+
+
+
+.fenye{
+	text-align: center;
+	margin-top: 25px;
+}
+.fenye p{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 26px;
+	width: 35px;
+	height: 35px;
+	margin:0 8px;
+}
+.fenye p a{
+	color:#3e3a39;
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 35px;
+}
+.fenye p.arrow{
+	width: 91px;
+	height: 31px;
+	border-radius:0;
+}
+.fenye p a.on{
+	border-radius: 50%;
+	background-color: #a9804f;
+	color:#fff;
+}
+
+
+
+
+
+.newsdetail .part1-main .div1{
+	font-size: 40px;
+	text-align:center;
+	margin-top: 30px;
+}
+.newsdetail .part1-main .img0{
+	margin-top: 10px;
+}
+.newsdetail .part1-main .div2{
+	text-align: center;
+	line-height:34px;
+}
+.newsdetail .part1-main .div2 span{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 20px;
+	margin:0 10px;
+}
+.newsdetail .part1-main .div3{
+	font-size:18px;
+	line-height: 24px;
+	line-height: 24px;
+	margin-top: 10px;
+}

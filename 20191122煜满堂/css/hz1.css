@@ -1,0 +1,134 @@
+/*hz1*/
+.hz1{
+	position:relative;
+	height:1946px;
+	padding-top: 1.4rem;
+	box-sizing: border-box;
+}
+.hz1 .hz1-bg{
+	position:absolute;
+	display: block;
+	width: 100%;
+	height:1946px;
+	z-index: -1;
+	top: 0;
+}
+.hz1-title{
+	font-size:48px;
+	color:#595757;
+	text-align: center;
+	margin-top:40px;
+}
+.hz1-title span{
+	display: inline-block;
+	position:relative;
+}
+.hz1-title span::after{
+	content:"";
+	display: inline-block;
+	width:257px;
+	height:59px;
+	background: url(../img/about/a2.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	right:-140px;
+	bottom:-20px;
+}
+.hz1 .hz1-main .top{
+	width: 742px;
+	height:43px;
+	background: url(../img/hz/a1.png) no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	line-height: 43px;
+	font-size:24px;
+	color:#f3efe4;
+	margin:0 auto;
+	margin-top: 40px;
+}
+.hz1 .hz1-main .img-box{
+	width: 996px;
+	height: 457px;
+	margin:0 auto;
+	margin-top: 55px;
+	position:relative;
+}
+.hz1 .hz1-main .img-box .img1{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.hz1 .hz1-main .img-box .img2{
+	display:block;
+	width: 382px;
+	height: 164px;
+	position:absolute;
+	bottom: -55px;
+	right: -95px;
+}
+.hz1 .hz1-main .hz1-fonts{
+	font-size: 16px;
+	color:#231815;
+	line-height: 30px;
+	width: 910px;
+	margin:0 auto;
+	text-align: justify;
+	margin-top: 70px; 
+}
+.hz1 .hz1-main ul{
+	text-align: center;
+	font-size: 0;
+	margin-top: 35px;
+}
+.hz1 .hz1-main ul li{
+	display: inline-block;
+	vertical-align: top;
+	width: 266px;
+	padding-top: 50px;
+	box-sizing:border-box;
+	margin:0 6px;
+}
+.hz1 .hz1-main ul li:first-child,
+.hz1 .hz1-main ul li:last-child{
+	height: 668px;
+	background: url(../img/hz/a4.png) no-repeat;
+	background-size: 100% 100%;
+}
+.hz1 .hz1-main ul li:nth-child(2),
+.hz1 .hz1-main ul li:nth-child(3){
+	height:763px;
+	background: url(../img/hz/a5.png) no-repeat;
+	background-size: 100% 100%;
+}
+.hz1 .hz1-main ul li .li-img{
+	width: 226px;
+	height: 226px;
+	border-radius: 50%;
+	margin:0 auto;
+}
+.hz1 .hz1-main ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.hz1 .hz1-main ul li .li-p1{
+	font-size: 22px;
+	color:#f5f1e6;
+	margin-top: 20px;
+}
+.hz1 .hz1-main ul li .li-line{
+	width: 65px;
+	height: 2px;
+	background-color: #c8a062;
+	margin:0 auto;
+	margin-top: 10px;
+}
+.hz1 .hz1-main ul li .li-p2{
+	font-size: 16px;
+	color:#c9a063;
+	line-height: 22px;
+	width: 192px;
+	margin:0 auto;
+	text-align: justify;
+	margin-top: 15px;
+}

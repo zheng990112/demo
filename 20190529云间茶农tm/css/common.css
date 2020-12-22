@@ -1,0 +1,370 @@
+@charset "utf-8";
+
+/*引入字体*/
+@font-face {
+	font-family: myfont;
+	src: url('../fonts/xique.ttf');
+	font-weight: 400!important;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Microsoft Yahei", arial;
+	font-size: 14px;
+	color: #000;
+	width: 100%;
+	overflow-x: hidden;
+	background-color: #fff;
+}
+
+.fl-lt {
+	float: left;
+}
+
+.fl-rt {
+	float: right;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+
+ul li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+i {
+	font-style: normal;
+}
+input,
+button,
+textarea {
+	border: 0;
+	outline: none;
+}
+
+b {
+	font-weight: normal;
+}
+
+em {
+	font-style: normal;
+}
+
+.y-row {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.bold {
+	font-weight: bold;
+}
+.hide{
+	display: none!important;
+}
+
+
+
+
+html,body{
+	height: 100%;
+}
+.banner{
+	height:100%;
+	position:relative;
+	overflow: hidden;
+}
+.banner img{
+	display: block;
+	width:auto;
+	height: 100%;
+	position:absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+}
+.top_nav{
+	position:fixed;
+	left: 150px;
+	top: 150px;
+	width: 225px;
+	z-index: 999;
+}
+.nav .nav-bg{
+	display: block;
+	width: 225px;
+	position:absolute;
+	top: -63px;
+}
+.nav .nav-fonts{
+	width: 194px;
+	height: 85px;
+	margin:0 auto;
+	background-color:rgba(175,137,94,0.7);
+	padding-top:25px;
+	box-sizing: border-box;
+}
+.nav .nav-fonts a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color:#fff;
+}
+.nav .nav-fonts .p1{
+	font-size: 26px;
+	text-align: center;
+	line-height:32px;
+}
+.nav .nav-fonts img{
+	display: block;
+	margin:0 auto;
+}
+.top_nav .nav-fonts img{
+	animation:navmove 2s infinite linear;
+	-webkit-animation:navmove 2s infinite linear;
+}
+
+@keyframes navmove{0%{margin-top: 0px;}25%{margin-top:5px;}50%{margin-top:10px;}75%{margin-top:5px;}100%{margin-top: 0px;}}
+@-moz-keyframes navmove{0%{margin-top: 0px;}25%{margin-top:5px;}50%{margin-top:10px;}75%{margin-top:5px;}100%{margin-top: 0px;}}
+@-webkit-keyframes navmove{0%{margin-top: 0px;}25%{margin-top:5px;}50%{margin-top:10px;}75%{margin-top:5px;}100%{margin-top: 0px;}}
+@-o-keyframes navmove{0%{margin-top: 0px;}25%{margin-top:5px;}50%{margin-top:10px;}75%{margin-top:5px;}100%{margin-top: 0px;}}
+.er-nav{
+	position:relative;
+	width: 225px;
+	z-index: 999;
+}
+.er-nav .nav-fonts{
+	height:auto;
+	padding-bottom:20px;
+	background: rgba(170,128,81,1);
+}
+.er-nav .nav-fonts a{
+	font-size: 22px;
+	text-align: center;
+	line-height:32px;
+	margin-bottom: 30px;
+	position: relative;
+	z-index: 2;
+}
+.er-nav .nav-fonts a.on,
+.er-nav .nav-fonts a:hover{
+	color:#231815;
+}
+.er-nav .nav-fonts a.on::before,
+.er-nav .nav-fonts a.on::after,
+.er-nav .nav-fonts a:hover::before,
+.er-nav .nav-fonts a:hover::after{
+	content:"";
+	display: inline-block;
+	width: 10px;
+	height: 20px;
+	background-size: 100% 100%;
+	position:absolute;
+	top: 50%;
+	margin-top: -10px;
+}
+.er-nav .nav-fonts a.on::before,
+.er-nav .nav-fonts a:hover::before{
+	background: url(../img/on-L.png) no-repeat;
+	left:25px;
+}
+.er-nav .nav-fonts a.on::after,
+.er-nav .nav-fonts a:hover::after{
+	background: url(../img/on-R.png) no-repeat;
+	right:25px;
+}
+.er-nav .ernav-icon{
+	position:absolute;
+	bottom: 0;
+	right: 10px;
+}
+.er-nav .ernav-icon2{
+	width: 238px;
+	position:absolute;
+	top:100px;
+	left:-170px;
+}
+.er-nav-fixed{
+	position:fixed;
+	top: 110px;
+	
+}
+
+
+.main-box{
+	width: 1200px;
+	margin:0 auto;
+	padding-top: 110px;
+	position:relative;
+}
+.flowers{
+	position:absolute;
+	left:-360px;
+	top: 250px;
+	
+}
+.main{
+	width: 955px;
+	padding-bottom: 70px;
+	min-height:1000px;
+	position:relative;
+}
+#anchor{
+	height: 110px;
+	width: 100%;
+	position:absolute;
+	top:0px;
+}
+
+.content,
+.footer{
+	display: none;
+}
+
+
+/*footer*/
+.footer{
+	position:relative;
+}
+.footer .footbg{
+	width: 100%;
+	max-height: 504px;
+}
+.footer .foot-main{
+	width: 1200px;
+	position:absolute;
+	left: 50%;
+	top:50%;
+	margin-left: -600px;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+}
+.footer .foot-main .logo{
+	display: inline-block;
+	vertical-align: middle;
+}
+.footer .foot-main .foot-font{
+	display: inline-block;
+	vertical-align: middle;
+	color:#fff;
+	padding:0 50px;
+	position:relative;
+	margin-left: 50px;
+}
+.footer .foot-main .foot-font .p1{
+	font-size: 29px;
+}
+.footer .foot-main .foot-font .p2{
+	font-size: 23px;
+}
+.footer .foot-main .foot-font::before,
+.footer .foot-main .foot-font::after{
+	content:"";
+	display: inline-block;
+	width: 1px;
+	height: 65px;
+	background-color: #fff;
+	position:absolute;
+	top: 50%;
+	margin-top: -32px;
+}
+.footer .foot-main .foot-font::before{
+	left: 0;
+}
+.footer .foot-main .foot-font::after{
+	right: 0;
+}
+.footer .foot-main .erweima-box{
+	display: inline-block;
+	vertical-align: middle;
+}
+.footer .foot-main .erweima-box img{
+	display: inline-block;
+	width: 92px;
+	height: 92px;
+	margin-left: 28px;
+}
+
+/*返回顶部*/
+.backTop {
+	position: fixed;
+	bottom: 250px;
+	right: 3%;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #ff9c0e;
+	cursor: pointer;
+	display: none;
+	z-index: 99;
+}
+
+.backTop span {
+	display: block;
+	font-size: 40px;
+	color: #fff;
+	margin-top: -7px;
+	margin-left: 7px;
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+}
+
+.backTop:hover {
+	opacity: 0.6;
+}
+
+
+
+@media (min-width:1921px){
+	/*html,body{
+		height: 100%;
+	}*/
+	.banner{
+		/*height:100%;*/
+		position:relative;
+	}
+	.banner img{
+		display: block;
+		width:100%;
+		height:auto;
+		position:absolute;
+		left: 0;
+		top: 50%;
+		transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+	}
+}
+
+@media (max-width: 1280px) {
+	.nav .nav-fonts{width: 170px;}
+	.main{width: 900px;}
+	.er-nav{width: 180px;}
+	.nav .nav-bg{width: 170px;}
+}

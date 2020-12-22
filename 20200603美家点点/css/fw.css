@@ -1,0 +1,101 @@
+.er-nav a {
+	font-size: 18px;
+	color: #333333;
+	margin: 0 30px;
+	position: relative;
+}
+.er-nav a:last-child{
+	margin-right: 0;
+}
+.listPic{
+	padding: 30px 0;
+}
+.listPic li{
+	float: left;
+	width: 280px;
+	height: 250px;
+	margin-left: 26.666px;
+	margin-bottom: 30px;
+}
+.listPic li:nth-child(4n+1){
+	margin-left: 0;
+}
+.listPic li img{
+	width: 280px;
+	height: 215px;
+	float: left;
+}
+.listPic li p{
+	width: 280px;
+	height: 35px;
+	background-color: #093680;
+	color: #FFFFFF;
+	font-size: 18px;
+	line-height: 35px;
+	float: left;
+	margin-top: -1px;
+}
+.listPic li.two{
+	margin-left: 306.666px;
+}
+.container .word{
+	font-size: 15px;
+	padding: 20px 0;
+	line-height: 30px;
+}
+.containerImg{
+	width: 1200px;
+}
+.listEllipse{
+	height: 35px;
+	padding: 0 130px;
+	padding-bottom: 40px;
+}
+.listEllipse li{
+	float: left;
+	width: 220px;
+	height: 35px;
+	margin-left: 20px;
+	line-height: 35px;
+	font-size: 18px;
+	background-color: #f1e527;
+	color: #333333;
+	font-weight: bold;
+	border-radius: 30px;
+}
+.listEllipse li:first-child{
+	margin-left: 0;
+}
+.listEllipse li:last-child{
+	float: right;
+}
+.listBox{
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+.listBox li{
+	float: left;
+	width: 172px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 18px;
+	margin-left: 33px;
+	background-color: #093680;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.listBox li:first-child{
+	margin-left: 0;
+}
+.listBox li:last-child{
+	float: right;
+}
+.listPic.listSL{
+	padding: 30px 153px;
+}
+.listPic.listSL li:nth-child(4n+1){
+	margin-left: 26.666px;
+}
+.listPic.listSL li:nth-child(3n+1){
+	margin-left: 0;
+}

@@ -1,0 +1,87 @@
+.content .xy{
+	width: 1100px;
+	margin:0 auto;
+}
+.part1 .part1-title{
+	font-family: "方正粗圆简体";
+}
+.part1 .part1-title .p1 .p1-fonts{
+	text-transform: uppercase;
+	font-size: 38px;
+	color:#d44f4c;
+	display: inline-block;
+	vertical-align: middle;
+}
+.part1 .part1-title .p1 .p1-line{
+	display: inline-block;
+	vertical-align: middle;
+	width: 260px;
+	height: 5px;
+	background-color: #d44f4c;
+	position: relative;
+	z-index: 5;
+}
+.part1 .part1-title .p1 .p1-img{
+	display: inline-block;
+	vertical-align: -82px;
+	width: 280px;
+	height: 151px;
+	margin-left: -28px;
+}
+.part1 .part1-title .p1 .p1-img img{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+} 
+.part1 .part1-title .p2{
+	font-size: 38px;
+	color:#d44f4c;
+	margin-top: -60px;
+	line-height: 48px;
+}
+.part1 .part1-title .p2 span{
+	color:#727171;
+}
+.part1 .part1-title .p3{
+	font-size: 14px;
+	color:#595757;
+	width: 970px;
+	margin-top: 18px;
+}
+
+
+.part1 .part1-main ul li{
+	float: left;
+	width: 206px;
+	text-align: center;
+	margin-right: 17.5px;
+	margin-top: 50px;
+}
+.part1 .part1-main ul li:last-child{
+	margin-right: 0;
+}
+.part1 .part1-main ul li .li-img{
+	width: 196px;
+	height: 196px;
+}
+.part1 .part1-main ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	border: 5px solid #fff;
+	box-shadow:0px 0px 20px #888888;
+}
+.part1 .part1-main ul li .li-fonts .p1{
+	font-size: 26px;
+	color:#d44f4c;
+	font-family: "方正准圆简体";
+	margin-top: 30px;	
+}
+.part1 .part1-main ul li .li-fonts .p2{
+	font-size: 22px;
+	color:#3e3a39;
+}
+.part1 .part1-main ul li:nth-child(2n){
+	margin-top: 160px;
+}

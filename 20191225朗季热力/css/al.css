@@ -1,0 +1,108 @@
+.main {
+    box-sizing: border-box;
+    padding-left: 5.74rem;
+    padding-top: 1.13rem;
+    padding-bottom: 0.72rem;
+    position: relative;
+}
+
+.al-icon {
+    width: 0.23rem;
+    font-size: 0;
+    margin-top: 0.37rem;
+}
+
+.al3 {
+    padding-bottom: 2.99rem;
+}
+
+.main-info {
+    width: 11rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title .en {
+    font-size: 0.26rem;
+    color: #b1b2b2;
+    letter-spacing: 0.05rem;
+    font-weight: lighter;
+    line-height: 0.26rem;
+}
+
+.title .cn {
+    font-size: 0.34rem;
+    color: #B31521;
+    font-weight: bold;
+    line-height: 0.34rem;
+    margin-top: 0.24rem;
+}
+
+.sub-title {
+    width: 100%;
+    margin-top: 0.45rem;
+    font-size: 0.34rem;
+    text-align: center;
+    color: #595757;
+    border-bottom: 0.02rem solid #595757;
+    padding-bottom: 0.21rem;
+}
+
+.al3 .projects {
+    margin-top: 0.39rem;
+}
+
+.al3 .projects .item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.al3 .projects .item+.item {
+    margin-top: 0.58rem;
+}
+
+.al3 .projects .item .item-img {
+    height: 4.42rem;
+    font-size: 0;
+}
+
+.al3 .projects .item .item-name {
+    font-size: 0.24rem;
+    margin-top: 0.29rem;
+}
+
+.al2 .commercials {
+    margin-top: -0.09rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.al2 .commercials .item{
+    width: 5.40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.41rem;
+}
+
+.al2 .commercials .item .item-img {
+    height: 3.14rem;
+    font-size: 0;
+}
+
+.al2 .commercials .item .item-name {
+    font-size: 0.24rem;
+    margin-top: 0.28rem;
+    color: #595757;
+    line-height: 0.24rem;
+}

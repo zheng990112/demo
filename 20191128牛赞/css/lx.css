@@ -1,0 +1,98 @@
+
+
+.lx1{
+	padding-top: 75px;
+	padding-bottom: 150px;
+}
+.lx1 .lx1-title{
+	width: 791px;
+	margin:0 auto;
+}
+.lx1 .lx1-title img{
+	display: block;
+	width: 100%;
+}
+.lx1 .top{
+	font-size: 48px;
+	color:#fff;
+	text-align: center;
+	margin-top: 50px;
+}
+.lx1 .form{
+	width: 1200px;
+	margin:0 auto;
+	margin-top: 40px;
+}
+.lx1 .form .box-r{
+	width:632px;
+}
+.lx1 .form .box-l{
+	width: 542px;
+}
+.lx1 .form input{
+	display: block;
+	width: 100%;
+	height: 80px;
+	background-color: #fff;
+	border-radius: 10px;
+	font-size: 30px;
+	color:#7f7f7f;
+	padding-left: 40px;
+	box-sizing:border-box;
+	margin-bottom: 22px;
+}
+.lx1 .form textarea{
+	height: 305px;
+	width: 100%;
+	background-color: #fff;
+	border-radius: 10px;
+	font-size: 30px;
+	color:#7f7f7f;
+	padding-left: 40px;
+	padding-top: 30px;
+	box-sizing:border-box;
+	resize: none;
+}
+.lx1 .form button{
+	width: 188px;
+	height: 64px;
+	background-color: #e86c00;
+	display: block;
+	margin:0 auto;
+	border-radius:32px;
+	margin-top:30px;
+	font-size: 30px;
+	color:#fff;
+	cursor: pointer;
+}
+
+
+
+.lx2{
+	padding-top: 90px;
+	width: 1200px;
+	margin:0 auto;
+	padding-bottom: 140px;
+}
+.lx2 .map1{
+	width: 1200px;
+	height: 560px;
+}
+.lx2 .map2{
+	width: 1200px;
+	height: 560px;
+	margin-top: 40px;
+}
+.lx2 .map-fonts{
+	text-align: center;
+	margin-top: 40px;
+}
+.lx2 .map-fonts .p1{
+	font-size: 36px;
+	color:#e86c00;
+}
+.lx2 .map-fonts .p2{
+	font-size: 20px;
+	color:#ffffff;
+	line-height:40px;
+}

@@ -1,0 +1,296 @@
+.part1{
+  width: 1200px;
+  margin: auto;
+  position: relative;
+  height: 343px;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.part1 .p1{
+  font-size: 34.13px;
+  color: #595757;
+  line-height: 40.98px;
+  font-family: myfont_Medium;
+  margin-top: 130px;
+  text-align: justify;
+}
+.part1 .p2{
+  font-size: 83.7px;
+  color: #231815;
+  margin-top: 10px;
+  font-family: myfont_Light;
+}
+.part1 .img1{
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  top: 0;
+  width: 697px;
+  height: 343px;
+}
+.part2{
+  width: 1200px;
+  margin: auto;
+  margin-top: 107px;
+}
+.part2 .part_main{
+  padding-left: 44px;
+  position: relative;
+  height: 254px;
+}
+.part2 .part_main::after{
+  content: "";
+  width: 12px;
+  height: 254px;
+  background-color: #c60d24;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.part2 .part_main .p1{
+  font-size: 53.47px;
+  line-height: 58px;
+  color: #ba1c21;
+  font-family: myfont_Medium;
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 40px;
+}
+.part2 .part_main .p1::after{
+  content: "";
+  width: 523px;
+  height: 19px;
+  background: url(../img/kz/b_icon1.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.part2 .part_main .str_box{
+  width: 100%;
+}
+.part2 .part_main .str_box .fl-lt:first-child{
+  width: 625px;
+}
+.part2 .str_box .p2{
+  margin-top: 38px;
+  font-family: myfont_Medium;
+}
+.part2 .str_box .p2 span{
+  display: inline-block;
+  vertical-align: bottom;
+  line-height: 1;
+}
+.part2 .str_box .p2 .span1{
+  font-size: 50.68px;
+  color: #c60d24;
+}
+.part2 .str_box .p2 .span2{
+  font-size: 50.19px;
+  color: #000000;
+  margin-left: 10px;
+}
+.part2 .str_box .p2 .span3{
+  font-size: 30.13px;
+  color: #595757;
+}
+.part2 .str_box .p3{
+  font-size: 41.93px;
+  color: #000000;
+  font-family: myfont_Light;
+  margin-top: 22px;
+  line-height: 1;
+}
+.part2 .str_box .p3 img{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+.part2 .str_box .fl-lt:last-child{
+  padding-top: 64px;
+  margin-left: 20px;
+}
+.part2 .str_box .p4{
+  text-align: center;
+  width: 120px;
+  height: 32px;
+  line-height: 32px;
+  background: #b2b2b2;
+  border-radius: 5px;
+  font-size: 24.37px;
+  color: #ffffff;  
+  font-family: myfont_Light;
+}
+.part2 .str_box .p5{
+  font-size: 28.52px;
+  color: #ba1c21;
+  font-family: myfont_Medium;
+  margin-top: 8px;
+}
+.part3{
+  width: 1200px;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+.part3 p{
+  padding-left: 30px;
+}
+.part3 .p1{
+  margin-top: 45px;
+  margin-bottom: 18px;
+  line-height: 40px;
+  position: relative;
+}
+.part3 .p1::after{
+  content: "";
+  width: 10px;
+  height: 40px;
+  background-color: #c60d24;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.part3 .p1 span{
+  display: inline-block;
+  vertical-align: middle;
+}
+.part3 .p1 .span1{
+  font-size: 34.56px;
+  color: #221714;
+  font-family: myfont_Medium;
+}
+.part3 .p1 .span2{
+  font-size: 34.13px;
+  font-family: myfont_Light;
+  color: #c0c1c0;
+  margin-left: 10px;
+}
+.part3 .p2{
+  font-size: 18px;
+  line-height: 43.97px;
+  font-family: myfont_Medium;
+  color: #595757;
+}
+
+
+
+
+
+
+
+
+
+
+/* modal_box */
+/* common.css公共样式 */
+#fullBg{
+	background-color: gray;
+	opacity: 0.6;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 9999;
+	-moz-opacity: 0.6;
+	-khtml-opacity: 0.6;
+	cursor: pointer;
+}
+.modal_box{
+  width: 738px;
+  height: 359px;
+  background: url(../img/modal_bg.png) no-repeat;
+  background-size: 100% 100%;
+  position: fixed;
+  z-index: 99999999;
+  top: 50%;
+  left: 50%;
+  margin-left: -369px;
+  margin-top: -178px;
+  display: none;
+}
+.modal_box .modal_top a{
+  float: right;
+  width: 32px;
+  height: 32px;
+  opacity: 0;
+  margin-top: 4px;
+  margin-right: 14px;
+}
+.modal_box .modal_top p{
+  width: 100%;
+  text-align: center;
+  float: left;
+  margin-top: -32px;
+  line-height: 70px;
+}
+.modal_box .modal_top p img{
+  display: inline-block;
+  width: 23px;
+  height: 25px;
+  vertical-align: top;
+  margin-top: 22.5px;
+}
+.modal_box .modal_top p span{
+  font-size: 24px;
+  color: #ffffff;
+  margin-left: 5px;
+  font-family: myfont_Medium;
+}
+.modal_box form{
+  width: 390px;
+  margin: auto;
+}
+.modal_box form input,
+.modal_box form textarea{
+  width: 348px;
+  padding: 0 20px;
+  border: 1px solid #a4a4a5;
+  height: 36px;
+  margin-top: 14px;
+  display: block;
+  font-family: myfont_Medium;
+  font-size: 16px;
+  color: #000000;
+  border-radius: 6px;
+}
+.modal_box form textarea{
+  padding: 10px 20px;
+  height: 55px;
+  resize: none;
+}
+.modal_box form input:last-child{
+  color: #ffffff;
+  font-size: 20px;
+  width: 120px;
+  height: 38px;
+  background-color: #cf111b;
+  border: none;
+  margin: auto;
+  padding: 0;
+  margin-top: 16px;
+}
+.modal_box form input::-webkit-input-placeholder{
+  color: #999999;
+}
+.modal_box form input:-moz-placeholder{
+  color: #999999;
+}
+.modal_box form input::-moz-placeholder{
+  color: #999999;
+}
+.modal_box form input:-ms-input-placeholder{
+  color: #999999;
+}
+.modal_box form textarea::-webkit-input-placeholder{
+  color: #999999;
+}
+.modal_box form textarea:-moz-placeholder{
+  color: #999999;
+}
+.modal_box form textarea::-moz-placeholder{
+  color: #999999;
+}
+.modal_box form textarea:-ms-input-placeholder{
+  color: #999999;
+}

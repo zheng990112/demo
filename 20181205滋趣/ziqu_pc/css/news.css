@@ -1,0 +1,139 @@
+html{
+    background-color: #e6e7e8;
+}
+
+.part-main{
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+}
+.part-main .news-img{
+    width: 473px;
+    height: 313px;
+    display: inline-block;
+    vertical-align: top;
+    border:3px solid #000;
+}
+.part-main .news-img img{
+    display:block;
+    width: 100%;
+    height: 100%;
+
+}
+.part-main .font{
+    display:inline-block;
+    vertical-align: top;
+    font-size:18px;
+    text-align: left;
+    margin-left: 48px;
+}
+.part-main .font div{
+    margin-top: 20px;
+}
+.part-main .font .p1{
+    font-weight: bold;
+}
+.part-main .font a{
+    color:#3e3a39;
+}
+.part-main .font a:hover{
+    color:red;
+}
+.part-main .font .p2{
+    width: 300px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+.part-main .more{
+    font-size: 16px;
+    width: 85px;
+    height: 85px;
+    text-align: center;
+    line-height: 85px;
+    border-radius:50%;
+    background-color: #37776e;
+    position:absolute;
+    right: 50px;
+    bottom: 0;
+}
+.part-main .more a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color:#fff;
+}
+.part-main .more:hover{
+	background-color: #b0dad1;
+}
+
+
+.part1 .icon1{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+.part2 .icon2{
+    position: absolute;
+    left: 0;
+    top: -180px;
+    z-index: -1;
+}
+
+
+/*newsdetail*/
+.newsdetail .newsdetail-top{
+	text-align: center;
+}
+.newsdetail .newsdetail-top .p1{
+	font-size: 40px;
+}
+.newsdetail .newsdetail-top .p2{
+	font-size: 18px;
+	line-height: 36px;
+}
+.newsdetail .newsdetail-top .p2 span{
+	margin:0 20px;
+}
+
+.newsdetail .newsdetail-img{
+	width: 1080px;
+	margin:0 auto;
+	border:10px solid #000;
+	box-sizing: border-box;
+	margin-top: 25px;
+}
+.newsdetail .newsdetail-img img{
+	display: block;
+	width: 100%;
+}
+.newsdetail .newsdetail-fonts{
+	width:1080px;
+	margin:0 auto;
+	font-size: 14px;
+	margin-top: 20px;
+	
+}
+.newsdetail .part2 .icon2{
+	top:-800px;
+}
+
+@media (max-width:1444px){
+    .part1 .icon1{
+        width: 100px;
+    }
+    .part2 .icon2{
+        width: 260px;
+        top:-70px;
+    }
+}
+@media (max-width:1366px){
+    .part1 .icon1{
+        display: none;
+    }
+    .part2 .icon2{
+        width: 200px;
+    }
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatitle" content="IE=edge">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<link rel="shortcut icon" type="image/x-icon" href="../img/logoIcon.png" media="screen">
+		<link rel="stylesheet" href="../css/adver.css" />
+		
+	</head>
+	<body>
+		<div class="adver">
+			<div class="adver_header">
+				<img src="../img/adver/a1.jpg" alt="" class="lazy"/>
+				<div class="adver_nav">
+					<a href="javascript:;" class="backtop">回到顶部</a>
+					<a href="adver.html#zs">招商策划</a>
+					<a href="adver.html#hz">合作流程</a>
+					<a href="adver.html#hhr">合伙人计划</a>
+					<a href="index.html">回到首页</a>
+				</div>
+			</div>
+			<div class="part zs">
+				<div class="anchor" id="zs"></div>
+				<img data-original="../img/adver/a2.jpg" alt="" class="lazy"/>
+			</div>
+			<img data-original="../img/adver/a3.jpg" alt="" class="lazy"/>
+			<img data-original="../img/adver/a4.jpg" alt="" class="lazy"/>
+			<img data-original="../img/adver/a5.jpg" alt="" class="lazy"/>
+			<img data-original="../img/adver/a6.jpg" alt="" class="lazy"/>
+			<img data-original="../img/adver/a7.jpg" alt="" class="lazy"/>
+			<img data-original="../img/adver/a8.jpg" alt="" class="lazy"/>
+			<img data-original="../img/adver/a9.jpg" alt="" class="lazy"/>
+			<!--<div class="part ry">
+				<div class="anchor" id="ry"></div>
+				<img data-original="../img/adver/a10.jpg" alt="" class="lazy"/>
+			</div>-->
+			
+			<div class="part hz">
+				<div class="anchor" id="hz"></div>
+				<img data-original="../img/adver/a11.jpg" alt="" class="lazy"/>
+			</div>
+			
+			<div class="adver_form part hhr">
+				<div class="anchor" id="hhr"></div>
+				<img data-original="../img/adver/a12.jpg" alt="" class="lazy"/>
+				<div class="form" >
+					<p class="p1">报名通道</p>
+					<input type="text" placeholder="姓名："/>
+					<input type="text" placeholder="电话："/>
+					<button>提    交</button>
+				</div>
+			</div>
+		</div>
+		
+		
+		<script src="../js/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="../js/jq.lazyload.js"></script>
+		<script type="text/javascript">
+            $('img.lazy').lazyload({threshold:100});
+        </script>
+        <!--<script src="../js/adver.js"></script>-->
+		<script>
+			$(function() {
+				$(window).scroll(function() {
+					var scrollTop = $(window).scrollTop();
+					
+					if(scrollTop > 225) {
+						$(".adver .adver_header .adver_nav").addClass("adver_nav_fix");
+						$(".adver .zs").css({"margin-top": "46px"});
+					} else {
+						$(".adver .adver_header .adver_nav").removeClass("adver_nav_fix");
+						$(".adver .zs").css({"margin-top": "0"});
+					}
+					
+					var w_h = $(window).height();
+					var zs_h = $(".zs")[0].offsetTop - scrollTop;
+					var hz_h = $(".hz")[0].offsetTop - scrollTop;
+					var hhr_h = $(".hhr")[0].offsetTop - scrollTop;
+					if(zs_h < 30 || zs_h > -6300){
+						$(".adver .adver_nav a").removeClass("on");
+						$(".adver .adver_nav a").eq(1).addClass("on");
+					};
+					if(hz_h < 300){
+						$(".adver .adver_nav a").removeClass("on");
+						$(".adver .adver_nav a").eq(2).addClass("on");
+					};
+					if(hhr_h < 400){
+						$(".adver .adver_nav a").removeClass("on");
+						$(".adver .adver_nav a").eq(3).addClass("on");
+					};
+				});
+				
+				$('.backtop').click(function(){
+					var scrollTop = $(window).scrollTop();
+					$("html,body").animate({ scrollTop: 0 }, 600);
+				});
+				
+			})
+		</script>
+	</body>
+</html>

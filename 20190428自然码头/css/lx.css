@@ -1,0 +1,165 @@
+.content {
+	background: #ececed;
+	overflow: hidden;
+}
+
+.lx {
+	width: 1200px;
+	display: block;
+	margin: 0 auto;
+}
+
+.lx .part1 .part2 {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.lx .part1 .part2 h3 {
+	font-size: 141px;
+	color: #e3e3e4;
+}
+
+.lx .part1 .part2 p {
+	font-size: 48px;
+	color: #d11a19;
+	position: relative;
+	top: -94px;
+}
+
+.lx .part1 .part3 {
+	width: 1150px;
+	display: block;
+	margin: 0 auto;
+}
+
+.lx .part1 .part3 .part3_left {
+	width: 573px;
+	float: left;
+}
+
+.lx .part1 .part3 .part3_left .div1 {
+	width: 573px;
+}
+
+.lx .part1 .part3 .part3_left .div1 img {
+	width: 100%;
+}
+
+.lx .part1 .part3 .part3_left .div2 {
+	width: 100%;
+	text-align: center;
+}
+
+.lx .part1 .part3 .part3_left .div2 h3 {
+	font-size: 44px;
+	color: #d11a19;
+	font-weight: 400;
+}
+
+.lx .part1 .part3 .part3_left .div2 h4 {
+	font-size: 61px;
+	background: url(../img/lx/a2.png) no-repeat center;
+	background-size: 510px 86px;
+	height: 86px;
+	line-height: 94px;
+	color: #d11a19;
+}
+
+.lx .part1 .part3 .part3_left .div2 p {
+	font-size: 34px;
+	color: #595757;
+}
+
+.map-box {
+	width: 540px;
+	height: 416px;
+	background-size: 100% 100%;
+	border: 4px solid #d11a18;
+	box-sizing: border-box;
+	clear: both;
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+.map-box .map {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
+
+.lx .part1 .part4 {
+	margin-top: 80px;
+}
+
+.lx .part1 .part4 h3 {
+	font-size: 29px;
+	color: #d11a19;
+	text-align: center;
+	font-weight: 400;
+	margin-bottom: 70px;
+}
+
+.lx .part1 .part4 .part4_left {
+	width: 418px;
+	line-height: 66px;
+}
+
+.lx .part1 .part4 .part4_left input {
+	height: 66px;
+	line-height: 66px;
+	width: 408px;
+	font-size: 34px;
+	color: #595757;
+	padding-left: 10px;
+	margin-bottom: 50px;
+}
+
+.lx .part1 .part4 .part4_left input::-webkit-input-placeholder {
+	color: #595757;
+}
+
+.lx .part1 .part4 .part4_left input::-moz-placeholder {
+	color: #595757;
+}
+
+.lx .part1 .part4 .part4_left input::-ms-input-placeholder {
+	color: #595757;
+}
+
+.lx .part1 .part4 .part4_right {
+	width: 726px;
+	height: 307px;
+}
+
+.lx .part1 .part4 .part4_right textarea {
+	width: 716px;
+	height: 296px;
+	font-size: 34px;
+	color: #595757;
+	padding-left: 10px;
+	resize: none;
+}
+
+.lx .part1 .part4 .part4_right textarea::-webkit-input-placeholder {
+	color: #595757;
+}
+
+.lx .part1 .part4 .part4_right textarea::-moz-placeholder {
+	color: #595757;
+}
+
+.lx .part1 .part4 .part4_right textarea::-ms-input-placeholder {
+	color: #595757;
+}
+
+.lx .part1 .part4 button {
+	clear: both;
+	width: 160px;
+	height: 60px;
+	line-height: 60px;
+	display: block;
+	margin: 0 auto;
+	background: #d11a18;
+	font-size: 44px;
+	color: #ececed;
+}

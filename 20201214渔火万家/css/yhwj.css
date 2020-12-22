@@ -1,0 +1,256 @@
+.section {
+  overflow: hidden;
+  background: url(../img/yhwj/bg.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+.section .page_main {
+  min-width: 2rem;
+  min-height: 1rem;
+  margin: auto;
+  position: relative;
+  z-index: 0;
+  padding-top: 0.01rem;
+}
+
+.page0 .page_main,
+.page1 .page_main {
+  margin-left: 4.2rem;
+}
+
+.page0 .fl-lt,
+.page1 .fl-lt {
+  width: 6.7rem;
+}
+
+.page0 .page_main .subTitle {
+  padding-top: 0.1rem;
+}
+
+.page0 .page_main .subTitle .p2,
+.page1 .page_main .subTitle .p2 {
+  margin-left: -0.22rem;
+  margin-top: -0.2rem;
+  width: 6.92rem;
+  height: 1.16rem;
+  background: url(../img/yhwj/subTitle1.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.page1 .page_main .subTitle .p2 {
+  width: 6.5rem;
+  height: 1.16rem;
+  background: url(../img/yhwj/subTitle2.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.page0 .page_main .subTitle .p2 span,
+.page1 .page_main .subTitle .p2 span {
+  margin-left: 0.4rem;
+  margin-top: 0.4rem;
+}
+
+.page0 .str,
+.page1 .str {
+  margin-top: 0.1rem;
+  width: 6.7rem;
+  text-align: justify;
+  font-size: 0.18rem;
+  line-height: 0.34rem;
+  color: #595757;
+}
+
+.page1 .str {
+  margin-top: 0.32rem;
+}
+
+
+.page0 .pic,
+.page1 .pic {
+  width: 5.14rem;
+  height: 6rem;
+  background: #d4b996;
+  float: left;
+  margin-left: 0.32rem;
+}
+
+.page0 .pic img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-left: 0.12rem;
+  margin-top: 0.12rem;
+}
+
+.page1 .pic {
+  margin-left: 0.7rem;
+  margin-top: 0.1rem;
+}
+
+.page1 .pic img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-left: -0.12rem;
+  margin-top: -0.12rem;
+}
+
+.page2 .page_main {
+  margin-left: 4.4rem;
+}
+
+.page2 .page_main .subTitle .p2 {
+  width: 11.54rem;
+  height: 1.16rem;
+  background: url(../img/yhwj/subTitle3.png) no-repeat;
+  background-size: 100% 100%;
+  margin-left: -0.48rem;
+}
+
+.page2 .page_main .subTitle .p2 span {
+  margin-left: 0.4rem;
+  margin-top: 0.4rem;
+}
+
+.page2 .page_main .pic {
+  width: 3.34rem;
+  height: 4.76rem;
+  background: #d4b996;
+  position: relative;
+  float: left;
+  margin-top: 0.45rem;
+  margin-left: 0.6rem;
+}
+
+.page2 .page_main .pic img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-left: -0.1rem;
+  margin-top: -0.1rem;
+}
+
+.page2 .page_main .pic::after {
+  content: "";
+  width: 1.64rem;
+  height: 0.92rem;
+  background: url(../img/yhwj/c_icon1.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: -1.1rem;
+  bottom: -0.05rem;
+}
+
+.page2 ul {
+  float: left;
+  margin-left: 0.56rem;
+}
+
+.page2 ul li {
+  display: flex;
+  justify-content: left;
+  margin-top: 0.36rem;
+  align-items: center;
+  font-family: "myfont_Magpie";
+}
+
+.page2 ul li:first-child {
+  margin-top: 0.3rem;
+}
+
+.page2 ul .p1 {
+  width: 2.26rem;
+  height: 0.52rem;
+  background: url(../img/yhwj/c_icon3.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.page2 ul li:nth-child(2n+2) .p1 {
+  background: url(../img/yhwj/c_icon2.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.page2 ul .p1 span {
+  width: 1.84rem;
+  text-align: center;
+  display: block;
+  color: #ffffff;
+  font-size: 0.32rem;
+  line-height: 0.44rem;
+}
+
+.page2 ul .p2 {
+  color: #595757;
+  font-size: 0.26rem;
+  margin-left: 0.2rem;
+}
+.page3{
+  position: relative;
+  z-index: 0;
+}
+.page3::after{
+  content: "";
+  width: 4.4rem;
+  height: 3.82rem;
+  background: url(../img/yhwj/d7.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: 0;
+  left: 4.22rem;
+  z-index: -1;
+}
+.page3 .page_main {
+  margin-left: 4.2rem;
+  padding-top: 1rem;
+}
+
+.page3 .page_main .subTitle .p2 {
+  width: 5.7rem;
+  height: 1.16rem;
+  background: url(../img/yhwj/subTitle4.png) no-repeat;
+  background-size: 100% 100%;
+  margin-left: -0.4rem;
+}
+
+.page3 .page_main .subTitle .p2 span {
+  margin-left: 0.4rem;
+  margin-top: 0.4rem;
+}
+.page3 .page_main .last1{
+  font-size: 0.42rem;
+  color: #595757;
+  font-family: "myfont_Magpie";
+}
+.page3 .page_main .last2{
+  width: 5.4rem;
+  text-align: justify;
+  color: #595757;
+  font-size: 0.18rem;
+  line-height: 0.34rem;
+  margin-top: 0.18rem;
+}
+.page3 ul{
+  width: 6.18rem;
+  float: left;
+  margin-left: 0.88rem;
+}
+.page3 ul li{
+  float: left;
+  width: 2.88rem;
+}
+.page3 ul li:nth-child(2n+2){
+  float: right;
+}
+.page3 ul img{
+  display: block;
+  width: 2.88rem;
+  height: 1.62rem;
+}
+.page3 ul p{
+  text-align: center;
+  font-size: 0.24rem;
+  color: #595757;
+  font-family: "myfont_Magpie";
+  margin-top: 0.1rem;
+  margin-bottom: 0.2rem;
+}

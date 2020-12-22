@@ -1,0 +1,73 @@
+.main ul.box{
+	margin-top: 45px;
+}
+.main ul.box li{
+	width: 100%;
+	height: 314px;
+	margin-bottom: 30px;
+}
+.main ul.box li img{
+	width: 240px;
+	float: left;
+}
+.main ul.box li div{
+	width: 616px;
+	height: 310px;
+	border: 2px solid #e6cb7d;
+	float: left;
+}
+.main ul.box li:nth-child(2n) img{
+	float: right;
+}
+.main ul.box li div h3{
+	margin: 15px 0 0 10px;
+	color: #0b308d;
+	font-size: 20px;
+	float: left;
+}
+.main ul.box li div span{
+	color: #787878;
+	font-size: 16.3px;
+	float: left;
+	margin: 20px 0 0 15px;
+}
+.main ul.box li div p{
+	color: #383838;
+	font-size: 13.5px;
+	float: left;
+	margin: 20px 10px 0 15px;
+	line-height: 20px;
+}
+.main ul.box li div p i{
+	display: inline-block;
+	width: 27px;
+}
+
+#al2{
+	margin-top: 80pxss;
+}
+.al2 li{
+	float: left;
+	width: 206px;
+	margin-top: 57px;
+	margin-left: 12px;
+	text-align: center;
+}
+.al2 li p{
+	font-size: 20px;
+	color: #0b308d;
+	line-height: 50px;
+	font-weight: 900;
+}
+.al2 li:nth-child(1),.al2 li:nth-child(5){
+	margin-left: 0;
+}
+.al2 li img{
+	width: 206px;
+	height: 308px;
+}
+.al2 li:nth-child(8) img{
+	width: 53px;
+	height: 53px;
+	margin: 127.5px auto;
+}

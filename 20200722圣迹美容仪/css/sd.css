@@ -1,0 +1,86 @@
+.footer {
+  width: 100%;
+	height: 1.93rem;
+	background: url(../img/footer_bg.png) no-repeat;
+	background-size: 100% 100%;
+	bottom: 0;
+}
+.footer-main {
+  	width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    margin-left: -600px;
+}
+.section {
+  background: url(../img/sw/bg.jpg) center no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.section .container {
+    width: 12rem;
+    margin: 0 auto;
+    padding-top: 3.4rem;
+    position: relative;
+    height: 100%;
+    box-sizing: border-box;
+}
+.section .listPic {
+  margin: 0 auto;
+  width:10rem;
+}
+.section .listPic li {
+  float: left;
+  text-align: center;
+}
+.section .listPic li:last-child {
+  float: right;
+}
+.section .listPic li div {
+  width:4.6rem;
+  height:2.7rem;
+  border: 1px solid #d2b591;
+}
+.section .listPic li img {
+  width:4.46rem;
+  height:2.55rem;
+  display: block;
+  margin: 0.07rem auto;
+}
+.section .listPic li p {
+  color: #ffffff;
+  padding: 0.1rem 0;
+  font-size: 0.2rem;
+}
+.section .listPic li a {
+  display: inline-block;
+  width: 1.22rem;
+  height:0.26rem;
+  background: url(../img/sd/sd_05.jpg) center no-repeat;
+  background-size:100% 100%;
+  border-radius:0.3rem;
+}
+.section .solid1 {
+    position: absolute;
+    top: 3.4rem;
+    width:3.6rem;
+    left: -3.6rem;
+    height: 1px;
+}
+.section .solid2 {
+    position: absolute;
+    bottom: 2rem;
+    right: -3.6rem;
+    width: 9.46rem;
+}
+
+
+
+
+/*20200729*/
+.section .listPic li p{
+	letter-spacing: 0.02rem;
+}

@@ -1,0 +1,277 @@
+.hz1 p{
+	font-size: 16px;
+	color: #595757;
+	line-height: 26px;
+}
+.hz1 .box1{
+	margin-bottom: 55px;
+	font-size: 0;
+}
+.hz1 .box1 p{
+	text-indent: 32px;
+	padding-left: 20px;
+}
+.hz1 .box1 .p2{
+	padding-left: 0;
+}
+.hz1 .box1 img{
+	margin-bottom: 15px;
+}
+.hz1 .box1 .img2{
+	margin-top: 35px;
+}
+
+.hz1 .box2 .p1{
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.hz1 .box2 .item{
+	width: 739px;
+	margin: 0 auto;
+}
+.hz1 .box2 ul li{
+    margin-top: 5px;
+    width: 184px;
+    float: left;
+    font-size: 16px;
+    line-height: 24px;
+    color: #595757;
+    border-right: 2px solid #F7CA00;
+    box-sizing: border-box;
+    padding-right: 14px;
+    text-align: left;
+    padding-left: 18px;
+    height: 100px;
+}
+.hz1 .box2 ul li:last-child{
+	border-right: 0;
+	padding-right: 0;
+}
+
+.hz1 .box3{
+	margin-top: 55px;
+}
+.hz1 .box3 .p1{
+	font-size: 50px;
+	text-align: center;
+	color: #333;
+	line-height: 1;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.hz1 .box3 .p2{
+	font-size: 25px;
+	text-align: center;
+	color: #333;
+}
+.hz1 .box3 img{
+	margin: 35px auto 17px;
+}
+
+
+.hz2 .part1{
+	position: relative;
+}
+
+.hz2 .part1 p{
+	position: absolute;
+    left: 20px;
+    bottom: 57px;
+    z-index: 2;
+    font-size: 16px;
+    color: #595757;
+    line-height: 26px;
+    width: 399px;
+}
+
+
+.hz3 .p0{
+	text-align: center;
+	font-size: 50px;
+	font-family: '汉仪雅酷黑W';
+}
+.hz3 .p0 strong{
+	color: #C33B51;
+}
+.hz3 .box1{
+	position: relative;
+	margin-top: 40px;
+	margin-bottom: -60px;
+}
+.hz3 .box1 .img1{
+    position: absolute;
+    right: -244px;
+    bottom: -61px;
+    z-index: -1;
+}
+.hz3 .box1 ul li{
+	width: 272px;
+	margin-right: 24px;
+	float: left;
+	margin-bottom: 25px;
+	background: #fff;
+}
+.hz3 .box1 ul li:nth-child(3n){
+	margin-right: 0;
+}
+.hz3 .box1 ul li img{
+	border: 6px solid #c8c8c8;
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+}
+.hz3 .box1 ul li .p1{
+	color: #F7CA00;
+	font-weight: bold;
+	font-size: 26px;
+	width: 150px;
+	margin: 15px auto 0;
+	line-height: 24px;
+	background: #fff;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+.hz3 .box1 ul li .line{
+	width: 100%;
+	height: 2px;
+	background: #F7CA00;
+	margin-top: -11px;
+	margin-bottom: 22px;
+}
+.hz3 .box1 ul li .p2{
+	font-size: 16px;
+	line-height: 24px;
+	color: #595757;
+}
+
+
+.hz4 .box1 .p1{
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.hz4 .box1 .p1 strong{
+	color: #C33B51;
+}
+.hz4 .box1 .p2{
+	font-size: 16px;
+	color: #595757;
+	line-height: 28px;
+	margin-top: 15px;
+	margin-bottom: 45px;
+}
+
+.hz4 .box2{
+	position: relative;
+}
+.hz4 .box2 .item{
+	position: absolute;
+	right: 40px;
+	top: 100px;
+	width: 380px;
+}
+.hz4 .box2 .item .p1{
+	font-size: 31px;
+	font-weight: bold;
+}
+.hz4 .box2 .item .p2{
+	font-size:16px;
+	text-transform: uppercase;
+	font-family: arial;
+	margin-top: 10px;
+}
+.hz4 .box2 ul{
+	position: absolute;
+	bottom: 30px;
+	width: 815px;
+	left: 50px;
+}
+.hz4 .box2 ul li{
+    float: left;
+    width: 400px;
+    padding-left: 170px;
+    box-sizing: border-box;
+    padding-right: 23px;
+    margin-top: 30px;
+}
+.hz4 .box2 ul .top{
+	font-size: 0;
+	color: #C33B51;
+}
+.hz4 .box2 ul .top p{
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    line-height: 1;
+}
+.hz4 .box2 ul .top .p1{
+	font-size: 24px;
+}
+.hz4 .box2 ul .top .p2{
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-left: 10px;
+	border-top: 1px solid #E23B51;
+	padding-top: 5px;
+}
+.hz4 .box2 ul .p3{
+	margin-top: 5px;
+	font-size: 16px;
+	color: #595757;
+	line-height: 24px;
+}
+
+
+.hz5 .p0{
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.hz5 .p0 strong{
+	font-size: 70px;
+	color: #E23B51;
+}
+.hz5 ul li{
+	margin-bottom: 30px;
+	clear: both;
+	overflow: hidden;
+}
+.hz5 ul li .li-img{
+	width: 270px;
+}
+.hz5 ul li .li-img img{
+	display: block;
+	width: 100%;
+}
+.hz5 ul li .li-con{
+	width: 576px;
+	color: #595757;
+}
+.hz5 ul li .li-con .p1{
+	font-size: 24px;
+	padding-top: 10px;
+}
+.hz5 ul li .li-con .p2{
+	font-size: 16px;
+	line-height: 26px;
+	margin-top: 20px;
+}
+
+
+
+
+
+/*20180917*/
+.hz3 .box1 ul li .p1{
+	color:#c19818;
+}
+.hz3 .box1 ul li .line{
+	background-color: #c19818;
+}
+.hz1 .box1 .p2{
+	text-indent: 0;
+}

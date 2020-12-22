@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8" />
+	    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	    <title></title>
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge" />
+	    <meta name="keywords" content="" />
+	    <meta name="description" content="" />
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes" />
+	    <!--改变顶部状态条的颜色-->
+	    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	    <meta name="format-detection" content="telephone=no,email=no,adress=no" />
+			<link rel="stylesheet" href="../css/swiper.min.css" />
+			<script type="text/javascript">
+				document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + 'px';
+			</script>
+			<style type="text/css">
+	    	* {
+				padding: 0;
+				margin: 0;
+			}
+			.content {
+				width: 100%;
+				font-size: 0;
+			}
+			img {
+				display: block;
+				width: 100%;
+			}
+			input {
+	outline: none;
+	border: 0;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-appearance: none;
+}
+.content{
+	position: relative;
+}
+form{
+	width: 4.9rem;
+	padding:  0.45rem 0.8rem;
+	margin-bottom: 0.5rem;
+	background-color: #d6d6d6;
+	border: 0.02rem solid #b1b1b1;
+	border-radius: 0.2rem;
+	font-size: 0;
+	position: absolute;
+	left: 50%;
+	bottom: 1.5rem;
+	margin-left: -3.25rem;
+}
+form input{
+	padding-left: 0.7rem;
+	width: 4.2rem;
+	height: 0.6rem;
+	font-size: 0.24rem;
+}
+form input{
+	background: #ffffff url(../img/phone/icon1.jpg) 0.21rem center no-repeat;
+	background-size: 0.28rem 0.27rem;
+}
+form input:nth-child(2){
+	margin-top: 0.3rem;
+	background: #ffffff url(../img/phone/icon2.jpg) 0.21rem center no-repeat;
+	background-size: 0.28rem 0.27rem;
+}
+form input:last-child{
+	width: 100%;
+	background: #b71521;
+	padding: 0;
+	margin-top: 0.5rem;
+	color: #ffffff;
+	cursor: pointer;
+}
+a{
+	text-decoration: none;
+	-webkit-tap-highlight-color: transparent;
+	position: absolute;
+	width: 5.9rem;
+	height: 0.5rem;
+	bottom: 0.47rem;
+	left: 50%;
+	margin-left: -2.95rem;
+	opacity: 0.2;
+}
+.a2{
+	bottom: 1rem;
+}
+
+	    </style>
+	</head>
+	<body>
+		<div class="content">
+			<img src="../img/phone/a_01.jpg" alt="" class="lazy"/>
+           	<img data-original="../img/phone/a_02.jpg" alt="" class="lazy"/>
+           	<img data-original="../img/phone/a_03.jpg" alt="" class="lazy"/>
+           	<img data-original="../img/phone/a_04.jpg" alt="" class="lazy"/>
+           	<img data-original="../img/phone/a_05.jpg" alt="" class="lazy"/>
+           	<img data-original="../img/phone/a_06.jpg" alt="" class="lazy"/>
+           	<img data-original="../img/phone/a_07.jpg" alt="" class="lazy"/>
+           	<img data-original="../img/phone/a_08.jpg" alt="" class="lazy"/>
+           	<img data-original="../img/phone/a_09.jpg" alt="" class="lazy"/>
+           	<img data-original="../img/phone/a_10.jpg" alt="" class="lazy"/>
+						 <form action="javascript:;">
+							<input type="text" placeholder="姓名">
+							<input type="text" placeholder="电话">
+							<input type="submit" value="立即联系可获得优惠及优先服务">
+						</form>
+						<a href="javascrript:;" class="a1"></a>
+						<a href="javascrript:;" class="a2"></a>
+					</div>
+					<script src="../js/swiper.min.js"></script>
+		<script src="../js/jquery-1.11.2.min.js"></script>
+        <script src="../js/jq.lazyload.js"></script>
+        <script type="text/javascript">
+            $('img.lazy').lazyload({threshold:100});
+        </script>
+	</body>
+</html>

@@ -1,0 +1,457 @@
+.er-nav .er-nav-box .er-nav-list a {
+    font-size: 0.16rem;
+}
+
+.part-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.59rem;
+}
+
+.part-title .title-en {
+    font-size: 0.49rem;
+    line-height: 0.49rem;
+    color: #F9BE2C;
+}
+
+.part-title .title-cn {
+    font-size: 0.72rem;
+    line-height: 0.75rem;
+    font-weight: bold;
+    color: #7D0021;
+    display: flex;
+    align-items: center;
+    margin-top: 0.28rem;
+}
+
+.part-title .title-cn span {
+    margin: 0 0.41rem;
+    white-space: nowrap;
+}
+
+.part-title .title-cn::before,
+.part-title .title-cn::after {
+    content: '';
+    display: block;
+    width: 0.50rem;
+    height: 0.21rem;
+    background-size: 100% 100%;
+}
+
+.part-title .title-cn::before {
+    background-image: url(../img/left_icon.png);
+}
+
+.part-title .title-cn::after {
+    background-image: url(../img/right_icon.png);
+}
+
+.cp6 .part-title .sub-title {
+    font-size: 0.72rem;
+    line-height: 0.75rem;
+    font-weight: bold;
+    color: #7D0021;
+}
+
+.cp6 .part1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.70rem;
+}
+
+.cp6 .part1 .part1-l {
+    width: 4.80rem;
+}
+
+.cp6 .part1 .part1-l .l-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.02rem solid #F9BE2C;
+}
+
+.cp6 .part1 .part1-l .l-title .l-title-target {
+    width: 2rem;
+    height: 0.6rem;
+    background-color: #F9BE2C;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.6rem;
+    font-size: 0.36rem;
+}
+
+.cp6 .part1 .part1-l .l-title .l-title-desc {
+    font-size: 0.24rem;
+}
+
+.cp6 .part1 .part1-l .l-info {
+    display: flex;
+    margin-top: 0.28rem;
+}
+
+.cp6 .part1 .part1-l .l-info .item {
+    font-size: 0.24rem;
+    line-height: 0.38rem;
+}
+
+.cp6 .part1 .part1-l .l-info .item+.item {
+    margin-left: 0.95rem;
+}
+
+.cp6 .part1 .part1-r {
+    width: 4.80rem;
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*justify-content: space-between;*/
+    font-size: 0;
+}
+
+.cp6 .part1 .part1-r .img1 {
+    width: 100%;
+}
+
+.cp6 .part1 .part1-r .img2,
+.cp6 .part1 .part1-r .img3 {
+    width: 2.36rem;
+    margin-top: 0.08rem;
+}
+.cp6 .part1 .part1-r .img3{
+	margin-left: 0.08rem;
+}
+.cp6 .part2 {
+    margin-left: -5.60rem;
+    background-color: #F9BE2C;
+    margin-top: 0.62rem;
+    box-sizing: border-box;
+    padding: 0.70rem 0;
+    position: relative;
+}
+
+.cp6 .part2 .part2-icon {
+    width: 2.42rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.cp6 .part2 .part2-main {
+    padding-left: 5.60rem;
+    width: 10rem;
+    display: flex;
+    justify-content: space-between;
+    margin: auto 0;
+}
+
+.cp6 .part3 {
+    width: 10rem;
+    margin-top: 0.66rem;
+}
+
+.cp6 .part3 .part3-main {
+    width: 10rem;
+    display: flex;
+    justify-content: space-between;
+    margin: auto 0;
+}
+
+.cp6 .food .item {
+    width: 4.80rem;
+}
+
+.cp6 .food .item .item-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.02rem solid #7D0021;
+}
+
+.cp6 .food .item .item-title .item-title-target {
+    box-sizing: border-box;
+    padding: 0 0.15rem;
+    height: 0.6rem;
+    background-color: #7D0021;
+    color: #F9BE2C;
+    text-align: center;
+    line-height: 0.6rem;
+    font-size: 0.36rem;
+}
+
+.cp6 .food .item .item-title .item-title-desc {
+    font-size: 0.24rem;
+}
+
+.cp6 .food .item .item-desc {
+    margin-top: 0.32rem;
+    font-size: 0.24rem;
+}
+
+.cp6 .food .item .item-img {
+    margin-top: 0.40rem;
+    width: 100%;
+    font-size: 0;
+}
+
+.cp6 .part3 .item .item-title {
+    width: auto;
+    border-bottom: 0.02rem solid #F9BE2C;
+}
+
+.cp6 .part3 .item .item-title .item-title-target {
+    background-color: #F9BE2C;
+    color: #ffffff;
+}
+
+.cp6 .left-icon-01 {
+    width: 4.78rem;
+    position: absolute;
+    left: 0.36rem;
+    top: 8.20rem;
+    z-index: 2;
+}
+
+.cp6 .left-icon-02 {
+    width: 2.11rem;
+    position: absolute;
+    left: 1.86rem;
+    top: 14.94rem;
+    z-index: 2;
+}
+
+.cp6 .right-icon-01 {
+    width: 2.76rem;
+    position: absolute;
+    right: 0rem;
+    top: 2.23rem;
+    z-index: 2;
+}
+
+.cp6 .right-icon-02 {
+    width: 3.19rem;
+    position: absolute;
+    right: 0rem;
+    top: 21.02rem;
+    z-index: 2;
+}
+
+.cp5 .part-title .title-cn span,
+.cp4 .part-title .title-cn span,
+.cp3 .part-title .title-cn span,
+.cp2 .part-title .title-cn span,
+.cp1 .part-title .title-cn span {
+    margin: 0 0.17rem;
+}
+
+.cp5 .part-title .sub-title,
+.cp4 .part-title .sub-title,
+.cp3 .part-title .sub-title,
+.cp2 .part-title .sub-title,
+.cp1 .part-title .sub-title {
+    font-size: 0.42rem;
+    line-height: 0.42rem;
+    margin-top: 0.29rem;
+    color: #7D0021;
+}
+
+.cp5 .left-icon-01 {
+    width: 3.18rem;
+    position: absolute;
+    left: 0;
+    top: 6.43rem;
+    z-index: 2;
+}
+
+.cp5 .right-icon-01 {
+    width: 2.79rem;
+    position: absolute;
+    right: 0;
+    top: 2.30rem;
+    z-index: 2;
+}
+
+.cp5 .right-icon-02 {
+    width: 3.19rem;
+    position: absolute;
+    right: 0;
+    top: 12.05rem;
+    z-index: 2;
+}
+
+.cp4 .left-icon-01 {
+    width: 3.50rem;
+    position: absolute;
+    left: 0;
+    top: 6.77rem;
+    z-index: 2;
+}
+
+.cp4 .right-icon-01 {
+    width: 2.32rem;
+    position: absolute;
+    right: 0;
+    top: 2.52rem;
+    z-index: 2;
+}
+
+.cp4 .right-icon-02 {
+    width: 3.19rem;
+    position: absolute;
+    right: 0;
+    top: 12.05rem;
+    z-index: 2;
+}
+
+.cp3 .left-icon-01 {
+    width: 3.60rem;
+    position: absolute;
+    left: 0;
+    top: 6.18rem;
+    z-index: 2;
+}
+
+.cp3 .right-icon-01 {
+    width: 2.35rem;
+    position: absolute;
+    right: 0;
+    top: 1.88rem;
+    z-index: 2;
+}
+
+.cp3 .right-icon-02 {
+    width: 3.19rem;
+    position: absolute;
+    right: 0;
+    top: 12.05rem;
+    z-index: 2;
+}
+
+.cp2 .left-icon-01 {
+    width: 1.96rem;
+    position: absolute;
+    left: 0;
+    top: 6.22rem;
+    z-index: 2;
+}
+
+.cp2 .right-icon-01 {
+    width: 2.67rem;
+    position: absolute;
+    right: 0;
+    top: 2.29rem;
+    z-index: 2;
+}
+
+.cp2 .right-icon-02 {
+    width: 3.04rem;
+    position: absolute;
+    right: 0.51rem;
+    top: 12.38rem;
+    z-index: 2;
+}
+
+.cp1 .left-icon-01 {
+    width: 2.91rem;
+    position: absolute;
+    left: 0;
+    top: 6.40rem;
+    z-index: 2;
+}
+
+.cp1 .right-icon-01 {
+    width: 2.79rem;
+    position: absolute;
+    right: 0;
+    top: 1.54rem;
+    z-index: 2;
+}
+
+.cp1 .right-icon-02 {
+    width: 3.20rem;
+    position: absolute;
+    right: 0;
+    top: 12.15rem;
+    z-index: 2;
+}
+
+.banner-box {
+    width: 100%;
+    position: relative;
+    margin-top: 0.54rem;
+}
+
+.top-banner {
+    width: 100%;
+    height: 4.8rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.top-banner .swiper-slide img {
+    height: 100%;
+}
+
+.top-banner .swiper-slide .img-desc {
+    position: absolute;
+    right: 0.42rem;
+    top: 0;
+    box-sizing: border-box;
+    background-color: RGBA(125, 0, 33, 0.8);
+    color: #F9BE2C;
+    padding: 0.34rem 0.18rem;
+    font-size: 0.22rem;
+    writing-mode: vertical-rl;
+    line-height: 0.22rem;
+}
+
+.bottom-banner {
+    height: 2.33rem;
+    overflow: hidden;
+    position: relative;
+    margin-top: 0.11rem;
+}
+
+.bottom-banner .swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.bottom-banner .swiper-slide .img-desc {
+    width: 100%;
+    height: 0.60rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    line-height: 0.60rem;
+    font-size: 0.22rem;
+    color: #F9BE2C;
+    background-color: RGBA(125, 0, 33, 0.8);
+}
+
+.bottom-banner .swiper-slide-thumb-active {
+    box-sizing: border-box;
+    border: 0.02rem solid #7D0021;
+}
+
+.banner-box .swiper-button-prev,
+.banner-box .swiper-button-next {
+    outline: none;
+    width: 0.33rem;
+    height: 0.61rem;
+    margin-top: 0;
+    background-size: 100% 100%;
+    top: 5.77rem;
+}
+
+.banner-box .swiper-button-prev {
+    background-image: url(../img/cp/prev_icon.png);
+    left: -0.8rem;
+}
+
+.banner-box .swiper-button-next {
+    background-image: url(../img/cp/next_icon.png);
+    right: -0.8rem;
+}

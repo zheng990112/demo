@@ -1,0 +1,250 @@
+.part1-title{
+	text-align: center;
+	margin-top: 50px;
+}
+.part1-title img{
+	display: block;
+	margin:0 auto;
+}
+.part1-title .title2{
+	margin:0 10px;
+	margin-top: 30px;
+}
+
+
+/*gy1*/
+.gy1 .part1-main ul li{
+	float: left;
+	width: 241px;
+	height: 335px;
+	margin-right: 5px;
+	border:2px solid #e0b36a;
+	box-sizing: border-box;
+	margin-top: 40px;
+}
+.gy1 .part1-main ul li:last-child{
+	margin-right: 0;
+}
+.gy1 .part1-main ul li .li-img{
+	width: 237px;
+	height: 182px;
+	border-bottom: 2px solid #e0b36a;
+}
+.gy1 .part1-main ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.gy1 .part1-main ul li .li-fonts .p1{
+	font-size: 22px;
+	text-align: center;
+	margin-top: 10px;
+}
+.gy1 .part1-main ul li.li1 .li-fonts .p2{
+	text-align: center;
+}
+.gy1 .part1-main ul li .li-fonts .p2{
+	padding:0 22px;
+	box-sizing: border-box;
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+
+
+/*gy2*/
+.gy2 .part1-main{
+	
+}
+.gy2 .part1-main ul li{
+	float: left;
+	width: 314px;
+	/*height: 300px;*/
+	margin-right: 20px;
+	margin-top: 30px;
+}
+.gy2 .part1-main ul li:nth-child(3n){
+	margin-right: 0;
+}
+
+.gy2 .part1-main ul li .li-img{
+	width: 314px;
+	height: 174px;
+}
+.gy2 .part1-main ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.gy2 .part1-main ul li .li-fonts{
+	border:1px solid #d5bf87;
+	margin-top: 10px;
+	padding-top: 10px;
+    padding-bottom: 15px;
+}
+.gy2 .part1-main ul li .li-fonts .p1{
+	font-size: 26px;
+	font-family: "宋体";
+	text-align: center;
+}
+.gy2 .part1-main ul li .li-fonts .p1 span{
+	font-size: 20px;
+	font-family: myfontb;
+	margin-left: 5px;
+}
+.gy2 .part1-main ul li .li-fonts .p2{
+	font-size: 18px;
+	box-sizing: border-box;
+	width: 270px;
+	margin:0 auto;
+	margin-top: 10px;
+}
+.gy2 .part1-main ul li.li2 .li-fonts{
+	height: 115px;
+}
+
+
+
+/*gy3*/
+.gy3 .part1-main ul li{
+	position:relative;
+	float: left;
+	width: 208px;
+	margin-right: 50px;
+	margin-top: 60px;
+}
+.gy3 .part1-main ul li:last-child{
+	margin-right: 0;
+}
+
+.gy3 .part1-main ul li .img-box{
+	width: 208px;
+	height: 208px;
+	background-color: #fff;
+	border-radius:50%;
+	padding-top: 14px;
+	box-sizing: border-box;
+	position:relative;
+}
+.gy3 .part1-main ul li .img-box .li-img{
+	width: 180px;
+	height: 180px;
+	margin-left: 14px;
+}
+.gy3 .part1-main ul li .img-box .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.gy3 .part1-main ul li .img-box .p1{
+	font-size: 70px;
+	color:#c3321e;
+	font-family: myfontb;
+	position:absolute;
+	top: -20px;
+	left: 0;
+}
+.gy3 .part1-main ul li .li-fonts{
+	text-align: center;
+	margin-top: 10px;
+}
+.gy3 .part1-main ul li .li-fonts .p1{
+	font-size: 26px;
+	font-family: "宋体";
+	color:#c10d22;
+}
+.gy3 .part1-main ul li .li-fonts .p2{
+	font-size: 18px;
+	margin-top: 5px;
+	line-height: 28px;
+}
+.gy3 .part1-main ul li .line{
+	position:absolute;
+	height: 180px;
+	width: 1px;
+	background-color: #ecba70;
+    right: -25px;
+    bottom: -20px;
+}
+
+
+/*gy4*/
+/*.gy4*/ 
+.gy4 .part1-main{
+	margin-top: 60px;
+	text-align: center;
+}
+.gy4 .part1-main{
+	font-size: 0;
+}
+.gy4 .part1-main .line{
+	width: 982px;
+	height: 100px;
+	background-color: #eee8e0;
+	border-top: 1px solid #eab569;
+	position:relative;
+	z-index: 2;
+}
+.gy4 .part1-main ul li{
+	position:relative;
+	display: inline-block;
+	margin: 0 10px;
+	margin-top: -80px;
+	width: 280px;
+	vertical-align: top;
+	
+}
+.gy4 .part1-main ul li .li-img{
+	width: 280px;
+	height: 180px;
+	position: relative;
+	z-index: 2;
+}
+.gy4 .part1-main ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.gy4 .part1-main ul li .li-fonts{
+	font-size: 24px;
+	width: 90px;
+	height: 90px;
+	background-color: #000;
+	color:#fff;
+	font-family: "宋体";
+	border-radius: 50%;
+	text-align: center;
+	margin:0 auto;
+	margin-top:20px;
+	padding:0 20px;
+	padding-top: 21px;
+	box-sizing: border-box;
+	line-height: 24px;
+	position: absolute;
+	z-index: 3;
+	top: -60px;
+	left: 50%;
+	margin-left: -45px;
+}
+.gy4 .part1-main ul li .fonts2{
+	padding:0;
+	padding-top: 20px;
+}
+.gy4 .part1-main ul li .fonts-box{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	border:1px solid #eab569;
+	position:absolute;
+	top: -60px;
+	left: 50%;
+	margin-left: -60px;
+	z-index: 1;
+}
+.gy4 .part1-main ul li .li-main{
+	font-size: 20px;
+	padding-top: 15px;
+	line-height: 28px;
+}

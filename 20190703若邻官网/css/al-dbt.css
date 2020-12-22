@@ -1,0 +1,258 @@
+.part-img{
+	display: block;
+	width: 100%;
+	margin-top: 35px;
+}
+
+.part1 .top-img{
+	display: block;
+	width: 100%;
+}
+.part1 .big_title{
+	font-size:37px;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	color:#515151;
+	line-height: 1;
+	margin-top: 45px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #9c9b9c;
+	position:relative;
+}
+.part1 .big_title::after {
+    content: "";
+    display: inline-block;
+    width: 145px;
+    height: 162px;
+    background: url(../img/al/bsy/icon.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: -34px;
+    top: -25px;
+    z-index: -1;
+}
+.al-title{
+	font-family: myfont_Medium;
+	font-size: 18px;
+	color:#c21a1f;
+	line-height: 1;
+	font-weight: bold;
+	margin-top: 25px;
+}
+.al-title span {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 10px;
+    margin-right: 5px;
+}
+
+.part1 .p1{
+	font-size: 18px;
+	color:#7e7f80;
+	font-family: myfont_Light;
+	line-height:36px;
+}
+.part1 .p1 .span1{
+	display: inline-block;
+	vertical-align: top;
+	width:90px;
+}
+.part1 .p1 .span2{
+	display: inline-block;
+	vertical-align: top;
+	width:730px;
+}
+.part1 .p0{
+	color:#bd1a1f;
+	font-family: myfont_Medium;
+	margin-top: 30px;
+}
+
+
+
+.part1 .p2{
+	margin-top: 25px;
+}
+.part1 .p2 img{
+	display: inline-block;
+	vertical-align: middle;	
+}
+.part1 .p2 span{
+	font-size: 18px;
+	color:#b71c21;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	display: inline-block;
+	vertical-align: middle;	
+	margin-left: 5px;
+}
+.part1 .p3{
+	color:#515151;
+	font-size: 18px;
+	line-height: 28px;
+	font-family: myfont_Light;
+	margin-top: 8px;
+}
+.part1 .p3 span{
+	color:#221714;
+	font-family: myfont_Medium;
+	font-weight: bold;
+}
+.part1 .p4{
+	color:#000;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	font-size: 18px;
+	line-height:1;
+	margin-top: 20px;
+}
+.part1 .p5{
+	color:#000;
+	font-size: 18px;
+	line-height: 28px;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.part1 .p6{
+	color:#515151;
+	font-size: 18px;
+	font-family: myfont_Light;
+	line-height: 28px;
+	margin-top: 20px;
+}
+.part1 .p7{
+	color:#515151;
+	font-size: 18px;
+	font-family: myfont_Light;
+	line-height: 28px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.part1 .p7 .span1{
+	color:#bd1a1f;
+	font-family: myfont_Medium;
+	font-weight: bold;
+}
+.part1 .p7 .span2{
+	color:#000;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	
+}
+.part1 .box{
+	background-color: #eaeaea;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 30px;
+}
+.part1 .box .box-p1{
+	font-family: myfont_Medium;
+	font-weight: bold;
+	color:#000;
+	line-height: 1;
+}
+.part1 .box .box-p2{
+	font-family: myfont_Light;
+	color:#000;
+	line-height: 1;
+	margin-top: 10px;
+	margin-bottom:25px;
+}
+.part1 .box .circle{
+	display: inline-block;
+	vertical-align: middle;
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	background-color: #bd1a1f;
+	color:#fff;
+	padding-top: 45.5px;
+	box-sizing: border-box;
+}
+.part1 .box .center{
+	display: inline-block;
+	vertical-align: middle;
+	width: 170px;
+	height: 50px;
+	line-height: 50px;
+	color:#000;
+	border-top: 1px solid #949494;
+	border-bottom: 1px solid #949494;
+	margin:0 20px;
+	font-family: myfont_Light;
+}
+.part1 .box .circle span{
+	display: block;
+	width: 100%;
+}
+.part1 .box .circle .span1{
+	line-height: 1;
+	font-family: myfont_Light;
+}
+.part1 .box .circle .span2{
+	font-family: myfont_Medium;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 1;
+	margin-top: 5px;
+}
+
+
+
+.part1 .p8{
+	font-size: 18px;
+	color:#000;
+	font-family: myfont_Light;
+	margin-top: 25px;
+	line-height: 1;
+	margin-bottom: 40px;
+}
+.part1 .p9{
+	font-size: 18px;
+	color:#000;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.part1 .p10{
+	font-size: 18px;
+	color:#231815;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	margin-top: 15px;
+	line-height: 1;
+	position:relative;
+	padding-left: 25px;
+	box-sizing: border-box;
+}
+.part1 .p10::before{
+	content:"";
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	background-color: #b81c21;
+	position:absolute;
+	top: 50%;
+	margin-top: -3px;
+	left: 0;
+}
+
+
+
+.part1 .last-p::after {
+    content: "";
+    display: inline-block;
+    width: 144px;
+    height: 144px;
+    background: url(../img/al/bsy/icon2.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: -70px;
+    bottom: -150px;
+    z-index: -1;
+}
+.main-box{
+	padding-bottom: 170px;
+}

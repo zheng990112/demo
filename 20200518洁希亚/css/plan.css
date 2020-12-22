@@ -1,0 +1,175 @@
+.plan-top{
+	width: 11.1rem;
+}
+.plan-top::after{
+	content:"";
+	display: inline-block;
+	clear:both;
+}
+.plan-top img{
+	display: block;
+	float:right;
+	width: 3.18rem;
+}
+.plan-top .p1{
+	font-size: 0.48rem;
+	color:#595757;
+	display: inline-block;
+	vertical-align: bottom;
+	font-weight: bold;
+}
+.plan-top .p2{
+	font-size: 0.24rem;
+	color:#c79f62;
+	display: inline-block;
+	vertical-align: bottom;
+	margin-left: 0.1rem;
+	text-transform: uppercase;
+}
+.plan-title{
+	width: 11.1rem;
+	height: 0.3rem;
+	border:1px solid #c79f62;
+	margin-top: 0.45rem;
+	position:relative;
+	box-sizing: border-box;
+}
+.plan-title .title-fonts{
+	width: 5.3rem;
+	height: 0.4rem;
+	background-color: #c79f62;
+	position:absolute;
+	margin-top: -0.05rem;
+	left:-1px;
+	text-align: center;
+}
+.plan-title .title-fonts span{
+	font-size: 0.24rem;
+	color:#fff;
+	line-height: 0.4rem;
+	position:relative;
+	font-weight: bold;
+}
+.plan-title .title-fonts span::before,
+.plan-title .title-fonts span::after{
+	content:"";
+	display: inline-block;
+	width: 0.5rem;
+	height: 1px;
+	background-color: #fff;
+	vertical-align: middle;
+	margin:0 0.1rem;
+}
+.box{
+	width: 11.1rem;
+}
+.box .box-l{
+	width: 5.3rem;
+	
+}
+.box .box-r{
+	width: 5.8rem;
+	
+}
+
+.plan1 .box-l{
+	padding-top: 0.15rem;
+}
+.plan1 .box-l p{
+    font-size: 0.18rem;
+    line-height: 0.32rem;
+    margin-left: 0.15rem;
+    color: #595757;
+    position: relative;
+}
+.plan1 .box-l p span{
+	color:#c79f62;
+}
+.plan1 .box-l p::before{
+	content:"";
+	display: inline-block;
+	width: 0.08rem;
+	height: 0.09rem;
+	background: url(../img/plan/a-icon.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+    top: 0.12rem;
+    left: -0.1rem;
+}
+.plan1 .box-l div{
+    font-size: 0.18rem;
+    line-height: 0.3rem;
+    color: #595757;
+    padding-left: 0.35rem;
+    box-sizing: border-box;
+    margin-top: 0.15rem;
+}
+.plan1 .box-l div b{
+	display: block;
+}
+.plan1 .box-l div span{
+	color:#2490d0;
+}
+.plan1 .box-l img{
+	display:block;
+	width: 3.18rem;
+	margin:0 auto;
+	margin-top: 0.5rem;
+}
+.plan1 .box-r table{
+	width: 100%;
+	font-size: 0.16rem;
+	color:#595757;
+	margin-top: 0.3rem;
+}
+.plan1 .box-r table th,
+.plan1 .box-r table td{
+	height: 0.34rem;
+}
+table,table tr th, table tr td { 
+ 	border:1px solid #c79f62;
+} 
+.plan1 .box-r table tr td{
+	text-align: center;
+}
+.plan1 .box-r table tr th:nth-child(1),
+.plan1 .box-r table tr th:nth-child(2),
+.plan1 .box-r table tr td:nth-child(1),
+.plan1 .box-r table tr td:nth-child(2){
+ 	padding-left:0.1rem;
+ 	box-sizing: border-box;
+ 	text-align: left;
+ }
+.plan1 .box-r table tr td:nth-child(1){
+	width: 2.7rem;
+}
+.plan1 .box-r table tr td:nth-child(2){
+	width:1.25rem;
+}
+.plan1 .box-r table tr td:nth-child(3){
+	width:0.7rem;
+}
+.plan1 .box-r table tr th:last-child,
+.plan1 .box-r table tr td:last-child{
+    text-align: left;
+    padding-left: 0.15rem;
+    box-sizing: border-box;
+}
+.plan1 .box-r table tr:last-child td{
+	font-weight: bold;
+	text-align: right;
+	padding-right: 0.2rem;
+	box-sizing: border-box;
+}
+.plan1 .box-r img{
+	display: block;
+	width: 7.95rem;
+	margin-top: 0.4rem;
+	margin-left: -1.07rem;
+}
+
+
+
+.plan7 .box-l img{
+	margin-top: 3rem;
+}

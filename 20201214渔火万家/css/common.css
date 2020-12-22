@@ -1,0 +1,510 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Microsoft Yahei";
+  font-size: 12px;
+  color: #000000;
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  background: #ffffff;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "myfont_Magpie";
+  src: url('../font/MagpieSign.TTF');
+}
+
+/* 自定义标签样式 */
+
+a {
+  text-decoration: none;
+  color: #000;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+}
+
+label {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ul li,
+ol li {
+  list-style: none;
+}
+
+input,
+img,
+textarea,
+button {
+  outline: none;
+  border: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-appearance: none;
+}
+
+button {
+  background: none;
+  outline: none;
+}
+
+b {
+  font-weight: normal;
+}
+
+u {
+  text-decoration: none;
+}
+
+/* 自定义公共类名样式 */
+
+.fl-lt {
+  float: left;
+}
+
+.fl-rt {
+  float: right;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*banner*/
+.banner {
+  position: relative;
+  width: 100%;
+  font-size: 0;
+  height: 100%;
+}
+
+.banner .swiper-slide img {
+  display: block;
+  min-width: 100%;
+  height: 100%;
+}
+
+.banner .swiper-pagination {
+  bottom: 0.5rem;
+}
+
+.banner .swiper-pagination .swiper-pagination-bullet {
+  width: 0.18rem;
+  height: 0.18rem;
+  background-color: #ffffff;
+  opacity: 1;
+  border-radius: 50%;
+  margin: 0 0.1rem;
+}
+
+.banner .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #d4b996;
+}
+
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+  background-image: url(../img/banner_prev.png);
+  left: 1.4rem;
+  width: 0.68rem;
+  height: 0.48rem;
+  margin-top: -0.24rem;
+  background-size: 100% 100%;
+}
+
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+  background-image: url(../img/banner_next.png);
+  right: 1.4rem;
+  width: 0.68rem;
+  height: 0.48rem;
+  margin-top: -0.24rem;
+  background-size: 100% 100%;
+}
+
+
+
+
+/* header */
+.header {
+  /* display: none; */
+  width: 3.74rem;
+  height: 100%;
+  background: url(../img/header_bg.png) no-repeat;
+  background-size: 100% 100%;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+}
+
+.header_main {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: relative;
+}
+
+.header .logo {
+  display: block;
+  padding-top: 0.94rem;
+  width: 1.66rem;
+  height: 1.1rem;
+  margin-left: 0.3rem;
+}
+
+.header .logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.header ul {
+  position: absolute;
+  left: 0.5rem;
+  top: 50%;
+  margin-top: -2rem;
+  width: 1.14rem;
+}
+
+.header ul li {
+  width: 1.54rem;
+  height: 0.34rem;
+  line-height: 0.34rem;
+  font-size: 0.2rem;
+  margin-top: 0.18rem;
+  text-align: center;
+  position: relative;
+}
+.header ul li:hover a,
+.header ul li.active a{
+  color: #e8ded0;
+}
+.header ul li::after {
+  content: "";
+  width: 0.4rem;
+  height: 0.02rem;
+  background: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 50%;
+  margin-top: -0.01rem;
+  right: 0;
+  display: none;
+}
+
+.header ul li:hover::after {
+  display: block;
+}
+
+.header ul li:first-child:hover::after,
+.header ul li:last-child:hover::after,
+.header ul li:nth-last-child(2):hover::after {
+  display: none;
+}
+
+.header ul li .title {
+  font-family: "myfont_Magpie";
+  color: #d4b996;
+  display: block;
+  width: 1.14rem;
+  height: 0.34rem;
+  background: url(../img/header_iocn1.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.header ul .item {
+  width: 0.9rem;
+  background: rgba(219, 199, 172, 0.8);
+
+  /* background: rgba(255, 255, 255, 0.5); */
+  position: absolute;
+  top: 0;
+  left: 100%;
+  border-radius: 0.1rem;
+  display: none;
+  padding: 0.12rem 0;
+  text-align: center;
+}
+
+.header ul .item a {
+  width: 100%;
+  color: #ffffff;
+  font-size: 0.18rem;
+  display: block;
+  height: 0.24rem;
+  line-height: 0.24rem;
+  margin-top: 0.1rem;
+}
+
+.header ul .item a:first-child {
+  margin-top: 0;
+}
+
+.header ul .item a:hover,
+.header ul .item a.on {
+  background: #c30d23;
+}
+
+
+.header .header_title {
+  position: absolute;
+  width: 100%;
+  height: 1.2rem;
+  bottom: 0;
+  left: 0;
+}
+
+.header .number {
+  width: 1.12rem;
+  height: 0.36rem;
+  margin-left: 0.4rem;
+  background: url(../img/icon4.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.header .number img {
+  width: 0.23rem;
+  height: 0.23rem;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 0.1rem;
+  margin-top: 0.04rem;
+}
+
+.header .number p {
+  width: 0.7rem;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 0.16rem;
+  line-height: 0.12rem;
+  margin-top: 0.04rem;
+}
+
+.header .number p span {
+  display: block;
+  color: #d4b996;
+  transform: scale(0.58);
+  -webkit-transform: scale(0.58);
+  -o-transform: scale(0.58);
+  -moz-transform: scale(0.58);
+  -ms-transform: scale(0.58);
+  width: 172%;
+  margin-left: -36%;
+}
+
+.header .number p span:last-child {
+  font-weight: bold;
+}
+
+.header .icon {
+  margin-top: 0.1rem;
+  width: 1.4rem;
+  margin-left: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .icon a {
+  width: 0.37rem;
+  height: 0.37rem;
+}
+
+.header .icon a img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.nav {
+  position: fixed;
+  right: 0.4rem;
+  bottom: 0.66rem;
+  z-index: 999999;
+  width: 1.54rem;
+  height: 2.8rem;
+  background: url(../img/nav.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.nav a.nav_icon {
+  background: #ffffff;
+  border-radius: 0.12rem;
+  width: 1.24rem;
+  height: 0.24rem;
+  display: block;
+  margin: auto;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 0.12rem;
+  border: 1px solid #e6a377;
+}
+
+.nav a.nav_icon:first-child {
+  margin-top: 0.26rem;
+}
+
+.nav a.nav_icon img {
+  width: 0.2rem;
+  height: 0.2rem;
+  margin-left: 0.06rem;
+}
+
+.nav a.nav_icon span {
+  margin-left: 0.06rem;
+  font-weight: bold;
+  font-size: 0.18rem;
+  color: #c30d23;
+}
+
+.nav .code {
+  display: block;
+  margin: auto;
+  width: 0.66rem;
+  height: 0.66rem;
+  margin-top: 0.16rem;
+}
+
+.nav .number {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.14rem;
+}
+
+.nav .number img {
+  width: 0.28rem;
+  height: 0.28rem;
+}
+
+.nav .number p {
+  font-size: 0.16rem;
+  margin-left: 0.02rem;
+}
+
+.nav .number span {
+  display: block;
+  color: #d4b996;
+  line-height: 0.14rem;
+  font-family: "myfont_Magpie";
+}
+
+.nav .number span:last-child {
+  font-weight: bold;
+}
+
+.rightNav {
+  position: fixed;
+  width: 0.68rem;
+  height: 100%;
+  right: 0.85rem;
+  top: 0;
+  background: url(../img/rightNav.png) top center no-repeat;
+  background-size: 0.68rem 1.92rem;
+  z-index: 9999;
+}
+
+.rightNav::after {
+  content: "";
+  width: 1px;
+  height: 5rem;
+  background: #cb4250;
+  position: absolute;
+  left: 50%;
+  margin-left: -0.5px;
+  top: 1.92rem;
+  z-index: -1;
+}
+
+.rightNav::before {
+  content: "";
+  width: 1px;
+  height: 5rem;
+  background: #cb4250;
+  position: absolute;
+  bottom: 0.7rem;
+  left: 50%;
+  margin-left: -0.5px;
+  z-index: -1;
+}
+
+.rightNav li {
+  display: block;
+  margin: auto;
+  width: 0.48rem;
+  height: 0.48rem;
+  background: url(../img/rightNav_icon.png) no-repeat;
+  background-size: 100% 100%;
+  margin-top: 0.12rem;
+  text-align: center;
+  overflow: hidden;
+  font-size: 0.16rem;
+}
+.rightNav li:hover{
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+}
+.rightNav li:hover,
+.rightNav li.on{
+  background: url(../img/rightNav_on.png) no-repeat;
+  background-size: 100% 100%;
+}
+.rightNav li:first-child {
+  margin-top: 2.26rem;
+}
+
+.rightNav li a {
+  color: #ffffff;
+  display: block;
+  margin: auto;
+  margin-top: 0.04rem;
+  width: 0.4rem;
+  line-height: 0.2rem;
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+}
+
+
+
+.subTitle .p1 {
+  font-size: 0.22rem;
+  color: #c00e12;
+  font-family: "myfont_Magpie";
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.subTitle .p2 {
+  width: 9.14rem;
+  height: 1.16rem;
+  background: url(../img/index/d_iocn1.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+.subTitle .p2 span {
+  display: block;
+  font-size: 0.36rem;
+  color: #ffffff;
+  font-family: "myfont_Magpie";
+}
+
+.subTitle .p3 {
+  color: #595757;
+  font-size: 0.42rem;
+  font-family: "myfont_Magpie";
+}

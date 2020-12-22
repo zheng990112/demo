@@ -1,0 +1,32 @@
+.news .main-info {
+    padding-bottom: 76px;
+}
+
+.news .main-info .news-title {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.news .main-info .news-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news .main-info .news-desc {
+    margin-top: 15px;
+}
+
+.news .main-info .news-desc .p-box {
+    font-size: 26px;
+    color: #333333;
+    line-height: 40px;
+}
+
+.news .main-info .news-desc .p-box p+p {
+    margin-top: 10px;
+}
+
+.news .main-info .news-desc .img-box {
+    padding: 10px 0;
+}

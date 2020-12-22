@@ -1,0 +1,76 @@
+body{
+	background-color: #eaeaea;
+	overflow-x:hidden;
+}
+.content{
+	background: none;
+	padding-bottom: 0;
+}
+.content .content-top{
+	margin-bottom: 0;
+	position: relative;
+	z-index: 5;
+}
+.content .main{
+	width: 100%;
+	position:relative;
+}
+.sc .sc-img1{
+	position: relative;
+	height: 703px;
+}
+.sc .sc-img1 img{
+	position:absolute;
+	width: 1920px;
+	height: 717px;
+	top: -14px;
+	left: 50%;
+	margin-left: -960px;
+}
+.sc .sc-img2{
+	position: relative;
+	height: 692px;
+}
+.sc .sc-img2 img{
+	position:absolute;
+	width: 1920px;
+	height: 692px;
+	top: 0;
+	left: 50%;
+	margin-left: -960px;
+}
+.sc .part1{
+	width: 1000px;
+	position:absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -500px;
+}
+.sc .part1 .p1{
+	font-size: 38px;
+	font-family: "方正粗圆简体";
+	color:#d44f4c;
+	text-transform: uppercase;
+	margin-top: 36px;
+}
+.sc .part1 .p2{
+	font-size: 38px;
+	color:#d44f4c;
+	font-family: "方正粗圆简体";
+	margin-top: 10px;
+}
+.sc .part1 .p2 span{
+	color:#727171;
+}
+.sc .part1 .p3{
+	font-size: 14px;
+	color:#595757;
+	margin-top: 20px;
+}
+.sc .part1 .p4{
+	font-size: 38px;
+	font-family: "方正粗圆简体";
+	color:#d44f4c;
+	text-transform: uppercase;
+	margin-top: 590px;
+}

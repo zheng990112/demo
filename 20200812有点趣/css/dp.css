@@ -1,0 +1,130 @@
+.dp-title{
+	text-align: center;
+	margin-top: 0.7rem;
+}
+.dp-title p{
+	display: inline-block;
+	font-size: 0.34rem;
+	color:#ffa300;
+	line-height: 0.48rem;
+	position:relative;
+	font-weight: bold;
+}
+.dp-title p span{
+	display: inline-block;
+	position:relative;
+}
+.dp-title span::before{
+	content:"";
+	display: inline-block;
+	width: 0.62rem;
+	height: 0.31rem;
+	background: url(../img/titleL.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+    top: 0.1rem;
+    left: -0.9rem;
+}
+.dp-title span::after{
+	content:"";
+	display: inline-block;
+	width: 0.62rem;
+	height: 0.31rem;
+	background: url(../img/titleR.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	top:0.1rem;
+	right: -0.9rem;
+}
+
+
+
+.dp .dp-main{
+	width:11.9rem;
+	margin:0 auto;
+	margin-top: 0.6rem;
+}
+.dp .dp-main .img1{
+	display: block;
+	width: 100%;
+}
+.dp .dp-main .img1 img{
+	display: block;
+	width: 100%;
+}
+.dp .dp-main .box{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0.5rem;
+}
+.dp .dp-main .box img{
+	display: block;
+	width: 3.79rem;
+	height: 3.19rem;
+}
+
+
+.dp .fenye-box{
+	text-align: center;
+	font-size: 0;
+	margin:0.65rem 0;
+}
+.dp .fenye-box a{
+	font-size: 0.14rem;
+	display: inline-block;
+	height: 0.3rem;
+	line-height: 0.3rem;
+	color:#fff;
+	width: 0.46rem;
+	background-color: #595757;
+	margin:0 0.05rem;
+}
+.dp .fenye-box a:first-child,
+.dp .fenye-box a:last-child{
+	width: 0.8rem;
+	background-color: #ffa300;
+	color:#000;
+	margin:0 0.15rem;
+}
+.dp .fenye-box a.on,
+.dp .fenye-box a:hover{
+	background-color: #faee00;
+	color:#000;
+}
+
+.dp{
+	padding-bottom: 1rem;
+}
+.dp .swiper-slide img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 0.15rem;
+}
+.dp .gallery-top{
+	width:11.9rem;
+	height: 6.5rem;
+	margin:0 auto;
+	margin-top: 0.6rem;
+}
+.dp .gallery-top img{
+	display: block;
+	width: 100%;
+	height: 100%;
+    border-radius: 0.5rem;
+}
+.dp .gallery-thumbs{
+	width: 11.9rem;
+	height: 2.1rem;
+	margin:0 auto;
+	margin-top: 0.3rem;
+}
+.dp .gallery-thumbs .swiper-slide{
+	height:2.1rem;
+	border:1px solid transparent;
+	box-sizing: border-box;
+} 
+.dp .gallery-thumbs .swiper-slide-thumb-active{
+	border:1px solid #ffa300;
+	border-radius: 0.15rem;
+}

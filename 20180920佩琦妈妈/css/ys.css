@@ -1,0 +1,345 @@
+.ys-title{
+	text-align: center;
+	margin-top: 50px;
+}
+.ys-title .ys-p1,
+.ys-title .ys-p2{
+	font-size: 38px;
+	color:#d84f4c;
+	font-family: "方正粗圆简体";
+}
+.ys-title .ys-p2{
+	display: inline-block;
+	position:relative;
+}
+.ys-title .ys-p2::before,
+.ys-title .ys-p2::after{
+	content: "";
+	display: inline-block;
+	width: 80px;
+	height: 40px;
+	border-top:4px solid #d84f4c;
+	position:absolute;
+	top: 20px;
+}
+.ys-title .ys-p2::before{
+	border-left:4px solid #d84f4c;
+	left: -90px;
+}
+.ys-title .ys-p2::after{
+	border-right:4px solid #d84f4c;
+	right: -90px;
+}
+.ys-title .ys-p3{
+	font-size: 18px;
+	color:#d84f4c;
+	text-transform: uppercase;
+	line-height: 38px;
+	position:relative;
+	width: 484px;
+	margin:0 auto;
+	text-align: center;
+}
+.ys-title .ys-p3::before,
+.ys-title .ys-p3::after{
+	content: "";
+	display: inline-block;
+	width: 145px;
+	height: 4px;
+	background-color: #d84f4c;
+	position:absolute;
+	top: 18px;
+}
+.ys-title .ys-p3::before{
+	left: 0;
+}
+.ys-title .ys-p3::after{
+	right: 0;
+}
+
+
+
+.part0{
+	position:relative;
+}
+.part0 .p1 p{
+	display: inline-block;
+	vertical-align: middle;
+}
+.part0 .p1 .p1-0{
+	font-size: 38px;
+	color:#d84f4c;
+	font-family: "方正粗圆简体";
+	text-transform: uppercase;
+}
+.part0 .p1 .line{
+	width: 480px;
+	height: 5px;
+	background-color: #d84f4c;
+}
+.part0 .p2{
+	font-size: 38px;
+	font-family: "方正粗圆简体";
+	color:#d84f4c;
+	margin-top: 10px;
+}
+.part0 .p2 span{
+	color:#727171;
+}
+.part0 .p3{
+	font-size: 14px;
+	color:#595757;
+	width: 800px;
+	margin-top: 16px;
+}
+.part0 .part0-img{
+	width: 180px;
+	height: 182px;
+	position:absolute;
+	top: -20px;
+	right: 0;
+}
+.part0 .part0-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.part0 .part0-main{
+	text-align: center;
+}
+.part0 .part0-main .main-top{
+	font-size: 28px;
+	color:#d84f4c;
+	font-family: "方正粗圆简体";
+	margin-top: 20px;
+}
+.part0 .part0-main ul li{
+	display:inline-block;
+	position:relative;	
+	margin: 0 30px;
+	margin-top: 40px;
+}
+.part0 .part0-main ul li .li-img{
+	width: 400px;
+	height: 263px;
+}
+.part0 .part0-main ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 15px;
+}
+.part0 .part0-main ul li .li-fonts{
+	font-size: 20px;
+	line-height: 40px;
+	text-align: center;
+	width: 100%;
+	position:absolute;
+	color:#fff;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	background-color: rgba(0,0,0,0.6);
+	border-radius: 0 0 15px 15px;
+}
+
+
+
+/*.part1*/
+.part1 .part1-main ul li{
+	float: left;
+	margin-right: 20px;
+	width: 230px;
+	text-align: center;
+}
+.part1 .part1-main ul li:nth-child(4n){
+	margin-right: 0;
+}
+.part1 .part1-main ul li .li-img{
+	width: 230px;
+	height: 165px;
+}
+.part1 .part1-main ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.part1 .part1-main ul li .li-fonts .p1{
+	font-size: 28px;
+	font-family: "方正准圆简体";
+	color:#d84f4c;
+	margin-top: 20px;
+	display: inline-block;
+	position:relative;
+	width: 230px;
+}
+.part1 .part1-main ul li .li-fonts .p1::before,
+.part1 .part1-main ul li .li-fonts .p1::after{
+	content: "";
+	display: inline-block;
+	width: 50px;
+	border-top:2px solid #d84f4c;
+	position:absolute;
+	top: 15px;
+}
+.part1 .part1-main ul li .li-fonts .p1::before{
+	left: 0;
+}
+.part1 .part1-main ul li .li-fonts .p1::after{
+	right: 0;
+}
+.part1 .part1-main ul li .li-fonts .p2{
+	font-size: 24px;
+	color:#3e3a39;
+	width: 230px;
+	height: 120px;
+	border-left: 2px solid #d84f4c;
+	border-right: 2px solid #d84f4c;
+	border-bottom: 2px solid #d84f4c;
+	box-sizing: border-box;
+	padding-top: 20px;
+	margin-top: -16px;
+}
+
+
+
+
+
+/*.part2*/
+.part2 .part2-main{
+	text-align: center;
+}
+.part2 .part2-main ul li{
+	display: inline-block;
+	margin:0 10px;
+	width: 258px;
+	margin-top: 30px;
+}
+.part2 .part2-main ul li .li-img{
+	width: 258px;
+	height: 186px;
+}
+.part2 .part2-main ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.part2 .part2-main ul li .li-fonts .p1{
+	font-size: 28px;
+	color:#d84f4c;
+	width: 100%;
+	position:relative;
+}
+.part2 .part2-main ul li .li-fonts .p1:before,
+.part2 .part2-main ul li .li-fonts .p1:after{
+	content:"";
+	display: inline-block;
+	position:absolute;
+	top: 20px;
+	width: 40px;
+	
+	border-top:2px solid #d84f4c;
+}
+.part2 .part2-main ul li .li-fonts .p1:before{
+	left: 0;
+}
+.part2 .part2-main ul li .li-fonts .p1:after{
+	right: 0;
+}
+.part2 .part2-main ul li .li-fonts .p2{
+	font-size: 24px;
+	color:#3e3a39;
+}
+
+
+
+/*part3*/
+.part3-main ul li{
+	display: inline-block;
+	text-align: center;
+	position:relative;
+	margin: 0 40px;
+	margin-top: 50px;
+}
+.part3-main ul li .li-fonts{
+	font-size: 30px;
+	background-color: #d3312e;
+	width: 95px;
+	height: 95px;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 15px;
+	box-sizing: border-box;
+	line-height: 32px;
+	color:#fff;
+	display: inline-block;
+	position:relative;
+	z-index: 3;
+}
+.part3-main ul li .li-img{
+	width: 241px;
+	height: 230px;
+	margin-top: -45px;
+	position:relative;
+}
+.part3-main ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.part3-main ul li .li-r{
+	width: 40px;
+	height: 40px;
+	position:absolute;
+	top: 50%;
+	margin-top: -20px;
+	right: -60px;
+}
+
+
+/*.part4*/
+.part4 .part4-main ul li{
+	float: left;
+	margin-right:20px;
+	text-align: center;
+	width: 230px;
+}
+.part4 .part4-main ul li:last-child{
+	margin-right: 0;
+}
+.part4 .part4-main ul li .li-img{
+	width: 230px;
+	height: 166px;
+}
+.part4 .part4-main ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.part4 .part4-main ul li .li-fonts .p1{
+	font-size: 28px;
+	color:#d84f4c;
+	position:relative;
+	width: 100%;
+	margin-top: 20px;
+}
+.part4 .part4-main ul li .li-fonts .p1:before,
+.part4 .part4-main ul li .li-fonts .p1:after{
+	content:"";
+	display: inline-block;
+	position:absolute;
+	top: 20px;
+	width: 30px;
+	border-top: 2px solid #d84f4c;
+}
+.part4 .part4-main ul li .li-fonts .p1:before{
+	left: 0;
+}
+.part4 .part4-main ul li .li-fonts .p1:after{
+	right: 0;
+}
+.part4 .part4-main ul li .li-fonts .p2{
+	font-size: 24px;
+	color:#3e3a39;
+}

@@ -1,0 +1,453 @@
+
+
+.box{
+	padding-top: 100px;
+	box-sizing:border-box;
+}
+
+.page1 .box{
+	margin-left: 1.15rem;
+	margin-top: 0.6rem;
+}
+.page1 .box-menu ul li{
+	text-align: center;
+	cursor: pointer;
+	margin-right: 0.45rem;
+	display:inline-block;
+	vertical-align: bottom;
+}
+.page1 .box-menu ul li p{
+	font-size: 0.47rem;
+	font-family: xiquezhaopaiti;
+	color:#fff;
+	position:relative;
+	padding-bottom: 0.02rem;
+}
+.page1 .box-menu ul li.on p{
+	color:#d5b892;
+}
+.page1 .box-menu ul li.on p::after{
+	content:"";
+	display: inline-block;
+	width: 100%;
+	height: 2px;
+	background-color: #d5b892;
+	position:absolute;
+	bottom: 0;
+	left: 0;
+}
+.page1 .box-menu ul li:first-child .li-img{
+	width: 1.14rem;
+	height: 0.77rem;
+}
+.page1 .box-menu ul li:nth-child(2) .li-img{
+	width:0.89rem;
+	height:0.84rem;
+}
+.page1 .box-menu ul li:nth-child(3) .li-img{
+	width:1.04rem;
+	height:0.66rem;
+}
+.page1 .box-menu ul li:nth-child(4) .li-img{
+	width:1.45rem;
+	height:0.83rem;
+}
+.page1 .box-menu ul li:nth-child(5) .li-img{
+	width:1.17rem;
+	height:0.44rem;
+}
+.page1 .box-menu ul li:last-child .li-img{
+	width:0.94rem;
+	height:0.64rem;
+}
+.page1 .box-menu ul li .li-img{
+	margin:0 auto;
+}
+.page1 .box-menu ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.page1 .box-menu ul li .li-img img:first-child{
+	display: block;
+}
+.page1 .box-menu ul li .li-img img:last-child{
+	display: none;
+}
+.page1 .box-menu ul li.on .li-img img:last-child{
+	display:block;
+}
+.page1 .box-menu ul li.on .li-img img:first-child{
+	display: none;
+}
+
+.page1 .list-box{
+	margin-top: 0.8rem;
+	display: inline-block;
+	padding-bottom: 0.9rem;
+	border-bottom: 2px solid #d5b892;
+}
+.page1 .list-box .list .list-title{
+	font-size: 0.27rem;
+	color:#fff;
+    font-family:xiquejuzhenti;    
+    writing-mode: tb-rl;
+    height:4.2rem;
+	text-align:justify;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 0.4rem;
+}
+.page1 .list-box .list .list-tab{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 0.8rem;
+	width: 11.5rem;
+}
+.page1 .picScroll-left{
+	width: 100%;
+	position: relative;
+	display: inline-block;
+}
+.page1 .picScroll-left .bd{
+	width:11.5rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.page1 .picScroll-left .bd li{
+	float: left;
+	position: relative;
+	text-align: center;
+	width:1.8rem;
+	height:2.3rem;
+	cursor: pointer;
+	margin:0 0.25rem;
+}
+.page1 .picScroll-left .bd li .li-img{
+	width: 1.8rem;
+	height: 1.8rem;
+	border-radius: 50%;
+	padding:2px;
+	box-sizing: border-box;
+	border:1px solid #dcc7b7;
+}
+.page1 .picScroll-left .bd li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.page1 .picScroll-left .bd li p{
+	font-size: 0.27rem;
+    font-family:xiquejuzhenti;
+	color:#fff;
+	text-align: center;
+	width: 100%;
+	margin-top: 0.1rem;
+}
+.page1 .picScroll-left .arrow{
+	position: absolute;
+	top:0.82rem;
+	width: 12px;
+	height:16px;
+	cursor: pointer;
+}
+.page1 .picScroll-left .arrow img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.page1 .picScroll-left .arrow-left{
+	left:-15px;
+}
+.page1 .picScroll-left .arrow-right{
+	right:-15px;
+}
+.page1 .list-box .list{
+	display: none;
+}
+.block{
+	display: block!important;
+}
+
+.page2 .box{
+	width: 11.2rem;
+	margin:0 auto;
+	margin-top: 1rem;
+}
+.page2 .page2-main{
+	float:right;
+	width: 6.3rem;
+}
+.page2 .page2-main .img1{
+	display: inline-block;
+	vertical-align: top;
+	width: 0.5rem;
+	margin-right: 0.2rem;
+}
+.page2 .page2-main .p1{
+	font-size: 0.24rem;
+	display: inline-block;
+	vertical-align: top;
+	font-family: xiquejuzhenti;
+	color:#d5b892;
+    writing-mode: tb-rl;
+    margin-right: 0.6rem;
+}
+
+.page2 .page2-main .img2{
+	display: inline-block;
+	width: 0.11rem;
+	vertical-align: top;
+}
+.page2 .page2-main .p2{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 0.22rem;
+	color:#fff;
+	font-family:xiquejuzhenti;
+    writing-mode: tb-rl;
+	line-height: 0.48rem;
+	margin-left: 0.5rem;
+}
+.page2 .page2-main .p2 span{
+	color:#d5b892;
+	display: inline-block;
+	padding-bottom: 0.2rem;
+	margin-bottom: 0.2rem;
+	position:relative;
+}
+.page2 .page2-main .p2 span::after{
+	content:"";
+	display: inline-block;
+	width: 0.18rem;
+	height: 1px;
+	background-color: #d5b892;
+	position:absolute;
+	bottom: 0;
+	left:50%;
+	margin-left: -0.09rem;
+}
+
+
+
+/*.page3*/
+.page3 .box{
+	width: 12.8rem;
+	margin-left: 1.4rem;
+	margin-top: 0.4rem;
+}
+
+.page3 ul li{
+	float: left;
+	text-align:center;
+	position:relative;
+	width: 3.2rem;
+	height: 3rem;
+	margin-right: 1rem;
+	margin-bottom: 0.5rem;
+}
+.page3 ul li .p1{
+	font-size: 0.44rem;
+	font-family: xiquezhaopaiti;
+	color:#231815;
+}
+.page3 ul li .li-img{
+	display: block;
+	width: 2.48rem;
+	margin:0 auto;
+}
+.page3 ul li .p2{
+	font-size: 0.2rem;
+	line-height: 0.28rem;
+	font-family: xiquejuzhenti;
+	color:#6a3906;
+	position:absolute;
+	width: 100%;
+	bottom: 0;
+}
+
+.page3 ul li:nth-child(2) .li-img{
+	width: 2.61rem;
+}
+.page3 ul li:nth-child(3) .li-img{
+	width: 2.75rem;
+}
+.page3 ul li:nth-child(4) .li-img{
+	width: 2.46rem;
+}
+.page3 ul li:nth-child(5) .li-img{
+	width: 2.73rem;
+}
+.page3 ul li:last-child .li-img{
+	width: 2.6rem;
+}
+.page3 ul li:first-child::after{
+	content:"";
+	display:inline-block;
+	width: 0.11rem;
+	height: 6.89rem;
+	background: url(../img/cp/c-icon.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	right:-0.5rem;
+	top: 0;
+}
+.page3 ul li:nth-child(2)::after{
+	content:"";
+	display:inline-block;
+	width: 0.11rem;
+	height: 6.89rem;
+	background: url(../img/cp/c-icon.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	right:-0.5rem;
+	top: 0;
+}
+
+
+
+
+/*.page4*/
+.page4 .box{
+	width: 13.6rem;
+	margin-left: 1.25rem;
+	margin-top: 0.2rem;
+}
+.page4 .box-menu{
+	border-bottom: 1px solid #d5b892;
+	font-size: 0;
+	padding-left: 3.8rem;
+	box-sizing: border-box;
+}
+.page4 .box-menu p{
+	display: inline-block;
+	font-size: 0.47rem;
+	font-family: xiquezhaopaiti;
+	color:#fff;
+	position:relative;
+	margin-right: 0.5rem;
+	cursor: pointer;
+}
+.page4 .box-menu p.on,
+.page4 .box-menu p:hover{
+	color:#d5b892;
+}
+.page4 .box-menu p.on::after,
+.page4 .box-menu p:hover::after{
+	content:"";
+	display: inline-block;
+	width: 100%;
+	height: 3px;
+	background-color: #d5b892;
+	position:absolute;
+	bottom: -2px;
+	left: 0;
+}
+.page4 .item-box{
+	margin-top: 0.3rem;
+	display: inline-block;
+	padding-bottom: 0.9rem;
+	border-bottom: 2px solid #d5b892;
+}
+.page4 .item-box .item .item-title{
+	font-size: 0.27rem;
+	color:#fff;
+    font-family:xiquejuzhenti;    
+    writing-mode: tb-rl;
+    height:4.5rem;
+	text-align:justify;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 0.4rem;
+}
+.page4 .item-box .item .item-tab{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 0.8rem;
+	width: 11.5rem;
+}
+
+.page4 .picScroll-left{
+	width: 100%;
+	position: relative;
+	display: inline-block;
+}
+.page4 .picScroll-left .bd{
+	width:11.5rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.page4 .picScroll-left .bd li{
+	float: left;
+	position: relative;
+	text-align: center;
+	width:1.8rem;
+	height:2.3rem;
+	cursor: pointer;
+	margin:0 0.25rem;
+}
+.page4 .picScroll-left .bd li .li-img{
+	width: 1.8rem;
+	height: 1.8rem;
+	border-radius: 50%;
+	padding:2px;
+	box-sizing: border-box;
+	border:1px solid #dcc7b7;
+}
+.page4 .picScroll-left .bd li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.page4 .picScroll-left .bd li p{
+	font-size: 0.27rem;
+    font-family:xiquejuzhenti;
+	color:#fff;
+	text-align: center;
+	width: 100%;
+	margin-top: 0.1rem;
+}
+.page4 .picScroll-left .arrow{
+	position: absolute;
+	top:0.82rem;
+	width: 12px;
+	height:16px;
+	cursor: pointer;
+}
+.page4 .picScroll-left .arrow img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.page4 .picScroll-left .arrow-left{
+	left:-15px;
+}
+.page4 .picScroll-left .arrow-right{
+	right:-15px;
+}
+.page4 .item-box .item{
+	display: none;
+}
+.block{
+	display: block!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*1280*/
+@media (max-width:1300px) {
+	.page1 .box{
+		margin-top: 0.4rem;
+	}
+}

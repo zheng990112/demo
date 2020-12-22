@@ -1,0 +1,192 @@
+.part {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.54rem;
+}
+
+.part-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.part-title .title-en {
+    font-size: 0.42rem;
+    color: #C9CACB;
+    display: flex;
+    align-items: center;
+    line-height: 0.42rem;
+}
+
+.part-title .title-en span {
+    margin: 0 0.30rem;
+}
+
+.part-title .title-en::before,
+.part-title .title-en:after {
+    content: '';
+    display: block;
+    width: 0.50rem;
+    height: 0.22rem;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.part-title .title-en::before {
+    background-image: url(../img/left_icon.png);
+}
+
+.part-title .title-en::after {
+    background-image: url(../img/right_icon.png);
+}
+
+.part-title .title-cn {
+    font-size: 1.03rem;
+    font-weight: bold;
+    line-height: 1.03rem;
+    color: #7D0021;
+    margin-top: 0.42rem;
+}
+
+.part-title .title-cn span {
+    color: #F8B300;
+}
+
+.part-sub-title {
+    font-size: 0.61rem;
+    font-weight: bold;
+    line-height: 0.61rem;
+    color: #7D0021;
+    margin-top: 0.21rem;
+}
+
+.part-sub-title span {
+    color: #F8B300;
+}
+
+.profit {
+    width: 4.59rem;
+    margin-top: 0.68rem;
+    position: relative;
+}
+
+.profit .item {
+    position: absolute;
+    width: 2.17rem;
+}
+
+.profit .item .item-name {
+    width: 100%;
+    height: 0.81rem;
+    background-color: #7D0021;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.81rem;
+    font-size: 0.36rem;
+    border-radius: 0.15rem;
+    position: relative;
+}
+
+.profit .item .item-name::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 0.26rem solid #7D0021;
+    border-right: 0.42rem solid transparent;
+    position: absolute;
+    left: 0.17rem;
+    bottom: -0.26rem;
+}
+
+
+/* .profit .item:nth-child(even) .item-name {
+    background-color: #F8B300;
+}
+
+.profit .item:nth-child(even) .item-name::after {
+    border-top: 0.26rem solid #F8B300;
+} */
+
+.profit .item .item-desc {
+    margin-top: 0.45rem;
+    font-size: 0.18rem;
+    line-height: 0.32rem;
+    text-align: justify;
+    white-space: nowrap;
+}
+
+.profit .item.item1,
+.profit .item.item2 {
+    top: 0.23rem;
+}
+
+.profit .item.item3,
+.profit .item.item4 {
+    top: 2.93rem;
+}
+
+.profit .item.item5,
+.profit .item.item6 {
+    top: 5.38rem;
+}
+
+.profit .item.item1,
+.profit .item.item3,
+.profit .item.item5 {
+    left: -2.61rem;
+}
+
+.profit .item.item2,
+.profit .item.item4,
+.profit .item.item6 {
+    right: -2.88rem;
+}
+
+.profit .item.item7 {
+    bottom: -1.62rem;
+    left: 50%;
+    margin-left: -1.08rem;
+}
+
+.profit .item.item3 .item-name,
+.profit .item.item4 .item-name,
+.profit .item.item7 .item-name {
+    background-color: #F8B300;
+}
+
+.profit .item.item3 .item-name::after,
+.profit .item.item4 .item-name::after,
+.profit .item.item7 .item-name::after {
+    border-top: 0.26rem solid #F8B300;
+}
+
+.left-icon-01,
+.right-icon-01,
+.right-icon-02 {
+    position: absolute;
+}
+
+.left-icon-01 {
+    width: 2.66rem;
+    left: 0;
+    top: 6.35rem;
+}
+
+.right-icon-01 {
+    width: 3.18rem;
+    right: 0;
+    top: 2.34rem;
+}
+
+.right-icon-02 {
+    width: 3.49rem;
+    right: 0;
+    top: 13.59rem;
+}
+
+.footer {
+    margin-top: 0.29rem;
+}

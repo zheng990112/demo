@@ -1,0 +1,253 @@
+.container{
+	width: 100%;
+}
+.pp5{
+	padding-bottom: 60px;
+}
+
+.part1{
+	padding-bottom: 60px;
+}
+.part1 .box{
+	width: 1200px;
+	margin:0 auto;
+	margin-top: 35px;
+}
+.part1 .box .box-l{
+	width: 600px;
+	height: 480px;
+}
+.part1 .box .box-l img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.part1 .box .box-r{
+	width:540px;
+	font-size: 0;
+}
+.part1 .box .box-r .item{
+	margin:28px 0;
+}
+.part1 .box .box-r .symbol{
+	font-size: 47px;
+	font-weight: bold;
+	color:#093682;
+	line-height: 1;
+	display: inline-block;
+	vertical-align: middle;
+	position:relative;
+}
+.part1 .box .box-r .symbol::before{
+	content:"";
+	display: inline-block;
+	width: 21px;
+	height: 17px;
+	background: url(../img/pp/e2.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	left: -30px;
+}
+.part1 .box .box-r p{
+	width: 460px;
+	display: inline-block;
+	vertical-align: middle;
+	position:relative;
+	font-size: 16px;
+	line-height: 26px;
+	color:#333333;
+	margin-left: 30px;
+	text-align: justify;
+}
+.part1 .box .box-r p::before{
+	content:"";
+	display: inline-block;
+	width: 2px;
+	height:100%;
+	background-color: #093682;
+	position:absolute;
+	left: -15px;
+	
+}
+
+
+
+.part2{
+	position:relative;
+	height: 534px;
+}
+.part2 .part2_bg{
+	display: block;
+	width: 1920px;
+	height: 100%;
+	position:absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -960px;
+}
+.part2 .pp_title{
+	padding-top: 30px;
+	position:relative;
+}
+.part2 .pp_title .p2{
+	border:1px solid #fff;
+	color:#fff;
+}
+.part2 .pp_title .p2::before,
+.part2 .pp_title .p2::after{
+	background: #fff;
+}
+.part2 .pp_title .p3{
+	color:#fff;
+}
+.part2 ul{
+	position:relative;
+	display: flex;
+	justify-content: space-between;
+	width: 1200px;
+	margin:0 auto;
+}
+.part2 ul li {
+	width: 260px;
+	margin-top: 30px;
+}
+.part2 ul li .li-img{
+	width: 260px;
+	height: 162px;
+	overflow: hidden;
+}
+.part2 ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.part2 ul li .li-img:hover img{
+	transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+}
+.part2 ul li .li-p1{
+	font-size: 20px;
+	color:#000;
+	width: 164px;
+	height: 34px;
+	background-color: #f3e727;
+	margin:0 auto;
+	text-align: center;
+	line-height: 34px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+.part2 ul li .li-p2{
+	font-size: 16px;
+	line-height: 24px;
+	color:#fff;
+	text-align: justify;
+	padding:0 5px;
+    margin-top: 10px;
+}
+
+
+
+
+.part3 .part3_main{
+	width: 1200px;
+	margin:0 auto;
+}
+.part3 .part3_main .top{
+	text-align: center;
+	font-size: 0;
+	margin-top: 20px;
+}
+.part3 .part3_main .top span{
+	display: inline-block;
+	height: 32px;
+	line-height: 32px;
+	border-radius: 16px;
+	background-color: #093682;
+	padding:0 20px;
+	font-size: 20px;
+	color:#fff;
+	margin:0 7px;
+}
+.part3 .part3_main .box{
+	margin-top: 60px;
+}
+.part3 .part3_main .box-l .item{
+	width: 607px;
+	height: 220px;
+	border:1px solid #093682;
+	box-sizing: border-box;
+}
+.part3 .part3_main .box-l .item img{
+	display: inline-block;
+	vertical-align: middle;
+	width: 302px;
+	height: 196px;
+	margin-top: 12px;
+	margin-left: 12px;
+}
+.part3 .part3_main .box-l .item .item_fonts{
+	display: inline-block;
+	vertical-align: middle;
+	width: 250px;
+	margin-left: 18px;
+}
+.part3 .part3_main .box-l .item .item_fonts .p1{
+	font-size: 20px;
+	color:#093682;
+	font-weight: bold;
+}
+.part3 .part3_main .box-l .item .item_fonts .p2{
+	width: 240px;
+	font-size: 16px;
+	line-height: 24px;
+	color:#333333;
+	text-align: justify;
+	margin-top: 10px;
+}
+.part3 .part3_main .box-l .item:last-child{
+	margin-top: 40px;
+}
+
+
+.vedio-box {
+	display: inline-block;
+	width:548px;
+	height:480px;
+	position: relative;
+	/*background: #000;*/
+}
+
+.vedio-img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.vedio-box video,
+.vedio-box embed {
+	width: 100%!important;
+	height: 100%!important;
+}
+
+.play {
+	position: absolute;
+	width: 64px;
+	height: 64px;
+	display: block;
+	cursor: pointer;
+	z-index: 12;
+	right: 50px;
+	bottom: 25px;
+}

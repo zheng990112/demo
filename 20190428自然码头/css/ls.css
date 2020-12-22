@@ -1,0 +1,227 @@
+.navigation .img1 {
+	width: 25px;
+	height: 15px;
+	vertical-align: bottom;
+	padding-top: 30px;
+}
+
+.navigation .ying {
+	display: none;
+	width: 100px;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.3);
+	position: absolute;
+	top: 70px;
+	right: -44px;
+	z-index: 999;
+}
+
+.navigation .ying ul li {
+	height: 50PX;
+	line-height: 50px;
+	font-size: 16px;
+}
+
+.navigation .ying ul li a {
+	color: #fff;
+}
+
+.part1 .box1 {
+	position: relative;
+	margin-left: -90px;
+}
+
+.part1 .box1 .p1 {
+	font-size: 140px;
+	color: #e6e6e6;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 140px;
+}
+
+.part1 .box1 .p2 {
+	font-size: 48px;
+	color: #d41c19;
+	position: absolute;
+	top: 75px;
+	line-height: 48px;
+}
+
+.all2 {
+	width: 1300px;
+	display: block;
+	margin: 0 auto;
+}
+
+.all {
+	width: 1200px;
+	display: block;
+	margin: 0 auto;
+}
+
+.content {
+	/*overflow: hidden;*/
+	position: relative;
+	padding-bottom: 0;
+}
+
+.ls .part1 {
+	background: #ececed;
+}
+
+.ls .div1 {
+	padding-top: 36px;
+}
+
+.ls .div1 h3 {
+	display: inline-block;
+	font-size: 36px;
+	color: #d11a19;
+}
+
+.ls .div1 span {
+	font-size: 36px;
+	color: #d11a19;
+	margin-left: 20px;
+}
+
+.ls .div2 {
+	text-align: center;
+	margin-top: 30px;
+	padding-bottom: 50px;
+}
+
+.ls .div2 h3 {
+	font-size: 38px;
+	color: #d11a19;
+	border: 1px solid #d11a19;
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 30px;
+	font-weight: 400;
+	margin-bottom: 8px;
+}
+
+.ls .div2 p {
+	font-size: 18px;
+	color: #d11a19;
+}
+
+.ls .div3 {
+	padding-bottom: 116px;
+	width: 1168px;padding-left: 29px;
+	display: block;
+	margin: 0 auto;
+}
+
+.ls .div3 ul li {
+	float: left;
+	box-shadow: 5px 8px 29px 7px #c4c2c2;
+	margin-right: 36px;
+	border-radius: 20px;
+	;
+}
+
+.ls .part .div3 ul li div {
+	width: 256px;
+	height: 300px;
+	border-radius: 20px;
+	background: #fff0f0;
+	overflow: hidden;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.ls .div3 ul li img {
+	display: block;
+	margin: 0 auto;
+	height: auto;
+	max-width: 240px;
+	max-height: 280px;
+}
+
+.ls .part2 {
+	background: #f6f8fa;
+}
+
+.ls .part3 {
+	background: #ececed;
+}
+
+.ls .part4 {
+	background: #f6f8fa;
+}
+
+.ls .part5 {
+	background: #ececed;
+}
+
+.ls .part6 {
+	background: #f6f8fa;
+}
+
+.ls .part7 {
+	background: #ececed;
+}
+
+.ls .part8 {
+	background: #f6f8fa;
+}
+
+.ls .part9 {
+	background: #ececed;
+}
+
+.ls .part10 {
+	background: #f6f8fa;
+}
+
+.ls .part11 {
+	background: #ececed;
+}
+
+.ls .part12 {
+	background: #f6f8fa;
+}
+
+.ls .part3 .div3 ul li div {
+	background: #f0eef3;
+}
+
+.ls .part5 .div3 ul li div {
+	background: #f3fbfe;
+}
+
+.ls .part7 .div3 ul li div {
+	background: #f3fbfe;
+}
+
+.ls .part8 .div3 ul li div {
+	background: #fcf0ee;
+}
+
+.ls .part9 .div3 ul li div {
+	background: #f3fbfe;
+}
+
+.ls .part10 .div3 ul li div {
+	background: #fcf0ee;
+}
+
+.ls .part11 .div3 ul li div {
+	background: #fcf0ee;
+}
+
+.ls .part12 .div3 ul li div {
+	background: #fcf0ee;
+}
+@media (max-width: 1444px) {
+	.part1 .box1{width: 1050px;padding-left: 150px;}
+	.ls .div1{padding-left: 50px;}
+}
+@media (max-width: 1280px) {
+	.part1 .box1{width: 1050px;padding-left: 150px;}
+	.ls .div1{padding-left: 50px;}
+	.navigation .ying{right: -30px;}
+}

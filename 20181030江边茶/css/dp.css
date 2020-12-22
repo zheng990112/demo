@@ -1,0 +1,482 @@
+
+
+.part1{
+	position:relative;
+	height: 740px;
+}
+.part1 .public-title{
+	margin-top: 60px;
+}
+.part1 .part1-title .p1{
+	font-size: 50px;
+	font-family: "宋体";
+	font-weight: bold;
+	color:#1b365d;
+	display: inline-block;
+	position:relative;
+	line-height: 50px;
+	margin-top: 25px;
+}
+.part1 .part1-title .p1 span{
+	color:#e60012;
+}
+.part1 .part1-title .p1::before,
+.part1 .part1-title .p1::after{
+	content:"";
+	display: inline-block;
+	width: 20px;
+	height: 52px;
+	border-top:1px solid #1b365d;
+	position:absolute;
+	top:25px;
+	
+}
+.part1 .part1-title .p1::before{
+	border-left:1px solid #1b365d;
+	left: -25px;
+}
+.part1 .part1-title .p1::after{
+	border-right:1px solid #1b365d;
+	right: -25px;
+}
+.part1 .part1-title .p2{
+	height: 42px;
+	width: 528px;
+	margin:0 auto;
+	position:relative;
+	margin-top: 5px;
+}
+.part1 .part1-title .p2 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.part1 .part1-title .p2::before,
+.part1 .part1-title .p2::after{
+	content:"";
+	display: inline-block;
+	width: 117px;
+	height: 1px;
+	background-color: #1b365d;
+	position:absolute;
+	top:22px;
+}
+.part1 .part1-title .p2::before{
+	left: -117px;
+}
+.part1 .part1-title .p2::after{
+	right: -117px;
+}
+
+
+.part1-main{
+	width: 1440px;
+	margin:0 auto;
+	text-align: center;
+	font-size: 0;
+}
+.part1-main ul li{
+	display: inline-block;
+	width: 440px;
+	height: 540px;
+	border:1px solid #000;
+	position:relative;
+	margin:0 15px;
+	margin-top: 40px;
+	margin-bottom: 60px;
+	box-sizing: border-box;
+}
+.part1-main ul li .li-top{
+	margin-top: 15px;
+	text-align: left;
+}
+.part1-main ul li .li-top img{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 25px;
+}
+.part1-main ul li .li-top span{
+	font-size: 24px;
+	font-family: "宋体";
+	font-weight: bold;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;    
+	line-height: 28px;
+}
+.part1-main ul li .li-img{
+	width: 418px;
+	height: 428px;
+	position:absolute;
+	left: 11px;
+	bottom: 11px;
+}
+
+/*.part2*/
+.part2{
+	position:relative;
+	height: 574px;
+}
+.part2 .part2-title{
+	margin-top: 45px;
+	margin-left: 225px;
+	display: inline-block;
+	width: 150px;
+}
+.part2 .part2-title .title1{
+	width: 80px;
+	background: url(../img/index/a2.png) no-repeat;
+	background-size: 100% 100%;
+	padding:10px 0; 
+	font-size: 34px;
+	font-family:"宋体";
+	font-weight: bold;
+	text-align: center;
+	color:#8a816a;
+	display: inline-block;
+	vertical-align: bottom;
+}
+.part2 .part2-title .title1 img{
+	display: block;
+	margin:0 auto;
+}
+.part2 .part2-title .title1 .span1{
+	writing-mode: tb-rl;
+	margin-top: 10px;
+	display: inline-block;
+}
+.part2 .part2-title .title1 .span2{
+	font-size: 20px;
+	writing-mode: tb-rl;
+	display: inline-block;
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 22px;
+}
+
+.part2 .part2-main{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 24px;
+	font-family:"宋体";
+	font-weight: bold; 
+	margin-top: 45px;
+}
+
+.part2 .picScroll-left1{
+	width: 340px;
+	position:relative;
+    height: 510px;
+    display: inline-block;
+    margin-left: 40px;
+}
+.part2 .picScroll-left1 .bd{
+	width: 340px;
+	height: 510px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.part2 .picScroll-left1 .bd li{
+	float: left;
+	position: relative;
+	text-align: center;
+	width: 339px;
+	height: 510px;
+	cursor: pointer;
+	z-index: 2;
+}
+
+.part2 .picScroll-left1 .bd li img{
+	display: block;
+	width: 339px;
+	height: 454px;
+	box-sizing: border-box;
+	position:relative;
+	z-index: 2;
+	border:2px solid #fff;
+}
+.part2 .picScroll-left1 .hd{
+	width: 340px;
+	
+}
+.part2 .picScroll-left1 .arrow{
+	position: absolute;
+	width: 14px;
+	height: 27px;
+	cursor: pointer;
+	z-index: 99;
+	bottom:14.5px;
+}
+.part2 .picScroll-left1 .arrow img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.part2 .picScroll-left1 .arrow-left{
+	left: 15px;
+}
+.part2 .picScroll-left1 .arrow-right{
+	right:15px;
+}
+.part2 .picScroll-left1 .bd li .li-font{
+	width: 140px;
+	line-height: 30px;
+	background-color: #fff;
+	margin:0 auto;
+	margin-top: 13px;
+	z-index: 99999;
+}
+
+/*.part2 .picScroll-left2*/
+
+.part2 .picScroll-left2{
+	width: 391px;
+	position:relative;
+    height: 510px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px;
+}
+.part2 .picScroll-left2 .bd{
+	width: 391px;
+	height: 510px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.part2 .picScroll-left2 .bd li{
+	float: left;
+	position: relative;
+	text-align: center;
+	width: 391px;
+	height: 510px;
+	cursor: pointer;
+	z-index: 2;
+}
+
+.part2 .picScroll-left2 .bd li img{
+	display: block;
+	width: 391px;
+	height: 210px;
+	box-sizing: border-box;
+	position:relative;
+	z-index: 2;
+	border:2px solid #fff;
+	margin-bottom: 33px;
+}
+.part2 .picScroll-left2 .hd{
+	width: 391px;
+	
+}
+.part2 .picScroll-left2 .arrow{
+	position: absolute;
+	width: 14px;
+	height: 27px;
+	cursor: pointer;
+	z-index: 99;
+	bottom:14.5px;
+}
+.part2 .picScroll-left2 .arrow img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.part2 .picScroll-left2 .arrow-left{
+	left: 15px;
+}
+.part2 .picScroll-left2 .arrow-right{
+	right:15px;
+}
+.part2 .picScroll-left2 .bd li .li-font{
+	width: 140px;
+	line-height: 30px;
+	background-color: #fff;
+	position:absolute;
+	bottom: 13px;
+	left: 50%;
+	margin-left: -70px;
+	z-index: 99999;
+}
+
+.part3{
+	position:relative;
+	height: 834px;
+}
+.part3 .part3-title{
+	width: 580px;
+	height: 68px;
+	border:1px solid #1b365d;
+	margin:0 auto;
+	margin-top:40px;
+}
+.part3 .part3-title .part3-title2{
+	width: 550px;
+	height: 68px;
+	margin:0 auto;
+	border-left: 1px solid #1b365d;
+	border-right: 1px solid #1b365d;
+	text-align: center;
+	line-height: 68px;
+	font-size: 54px;
+	color:#1b365d;
+	font-family: "宋体";
+	font-weight: bold;
+	position:relative;
+}
+.part3 .part3-title .part3-title2::before,
+.part3 .part3-title .part3-title2::after{
+	content:"";
+	display:inline-block;
+	height: 24px;
+	width: 6px;
+	background-color: #b20000;
+	position:absolute;
+	top:22px;
+	
+}
+.part3 .part3-title .part3-title2::before{
+	left: -3px;
+}
+.part3 .part3-title .part3-title2::after{
+	right:-3px;
+}
+.part3 .part3-top{
+	text-align: center;
+	font-family: "宋体";
+}
+.part3 .part3-top .p1{
+	font-size: 34px;
+	color:#1b365d;
+	margin-top: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.part3 .part3-top .p2{
+	font-size: 20px;
+	color:#1b365d;
+	margin-top: 30px;
+	font-weight: bold;
+}
+
+.part3 .picScroll-left{
+	width: 1380px;
+	height: 540px;
+	margin-left: -90px;
+	position: relative;
+	text-align: center;
+}
+.part3 .picScroll-left .bd{
+	position: relative;
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.part3 .picScroll-left .bd .picList{
+	position: relative;
+}
+.part3 .picScroll-left .bd ul{
+	position: relative;
+}
+.part3 .picScroll-left .bd li{
+	width:380px;
+	height: 230px;
+	margin-top: 35px;
+	float: left;
+	text-align: center;
+	border:1px solid #000;
+	box-sizing: border-box;
+	margin-right: 30px;
+}
+.part3 .picScroll-left .bd li:nth-child(3n){
+	margin-right: 0;
+}
+.part3 .picScroll-left .bd li .li-img{
+	width: 370px;
+	height: 220px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+.part3 .picScroll-left .bd li .li-img img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.part3 .picScroll-left .arrow{
+	position: absolute;
+	top: 50%;
+	width: 64px;
+	height: 64px;
+	cursor: pointer;
+	margin-top: -32px;
+	z-index: 999;
+}
+.part3 .picScroll-left .arrow img{
+	width: 100%;
+	display: block;
+}
+.part3 .picScroll-left .arrow-left{
+	left: 0;
+}
+.part3 .picScroll-left .arrow-right{
+	right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1366px){
+	.part1-main{
+		width: 1200px;
+	}
+	.part1-main ul li{
+		width: 380px;
+		height: 470px;
+		margin:0 10px;
+		margin-top: 40px;
+		margin-bottom: 60px;
+	}
+	.part1-main ul li .li-img{
+		width: 358px;
+		height: 366px;
+	}
+	
+	
+	.part3 .picScroll-left{
+		width: 1280px;
+		margin-left: -40px;
+	}
+	.part3 .picScroll-left .arrow{
+		width: 50px;
+		height: 50px;
+		margin-top: -25px;
+	}
+	.part3 .picScroll-left .arrow-left{
+		left: -20px;
+	}
+	.part3 .picScroll-left .arrow-right{
+		right: -20px;
+	}
+}
+@media (max-width:1280px){
+	.part3 .picScroll-left .bd li{
+		margin-right: 10px;
+	}
+	.part3 .picScroll-left .bd{
+		width: 1160px;
+		/*padding-left: 30px;*/
+	}
+	.part3 .picScroll-left .arrow-left{
+		left: 10px;
+	}
+	.part3 .picScroll-left .arrow-right{
+		right: 10px;
+	}
+}

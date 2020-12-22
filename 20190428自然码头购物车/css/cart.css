@@ -1,0 +1,167 @@
+
+.part1 .part1-top {
+	height: 34px;
+	line-height: 34px;
+	background-color: #f5f4f4;
+	border: 1px solid #eaeae9;
+	font-size: 14px;
+	padding-left: 15px;
+}
+
+table {
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+}
+
+table th {
+	background-color: #f8f8f8;
+	height: 36px;
+}
+
+table td {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: black
+}
+th.delete span{
+	background-color: #3f4247;
+	color:#fff;
+	border-radius: 2px;
+	padding:0 5px;
+	cursor: pointer;
+}
+.operation_img {
+	display: inline-block;
+	vertical-align: middle;
+	width: 18px;
+	height: 18px;
+}
+
+.operation_img img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.pronum_inp{
+	display: inline-block;
+	vertical-align: middle;
+	border: 1px solid #d6d6d6;
+	width: 35px;
+	padding-left: 5px;
+	box-sizing: border-box;
+}
+.Product_picture {
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+.on {
+	background-color: #f6f6f6;
+}
+
+table,
+th,
+td {
+	border: 1px solid #d6d6d6;
+	box-sizing: border-box;
+}
+td.td-img{
+	width: 50px;
+	height: 50px;
+}
+td.td-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+td.td-num{
+	width: 130px;
+}
+td.td-name{
+	width: 185px;
+}
+
+
+.table-fonts{
+	text-align:center;
+	margin-top: 20px;
+}
+.table-fonts p{
+	line-height: 32px;
+	display: inline-block;
+	width: 30%;
+	
+}
+.table-fonts div{
+	margin-top:10px;
+}
+.table-fonts div span{
+	display:inline-block;
+	width: 81px;
+	height: 23px;
+	margin:0 10px;
+}
+.table-fonts div span img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.part2{
+	margin-top: 25px;
+	
+}
+.part2 .part2-top{
+	font-size: 12px;
+	color:#000000;
+	font-weight: bold;
+	line-height: 28px;
+	padding-left: 15px;
+	box-sizing: border-box;
+	border: 1px solid #eaeae9;
+	border-bottom: none;
+}
+.part2 textarea{
+	width: 100%;
+	height:50px;
+	border: 1px solid #eaeae9;
+	resize: none;
+	padding-left: 5px;
+	box-sizing: border-box;
+	padding-top: 5px;
+	
+}
+
+
+button.delete{
+	background-color: #3f4247;
+    color: #fff;
+    border-radius: 2px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+
+
+/*.quantity {
+	width: 150px;
+}*/
+
+
+.order_input{
+	padding-left: 0;
+	border:none;
+	text-align: center;
+	background-color:transparent;
+}
+table tr:nth-child(2n){
+	background-color: #f8f8f8;
+}

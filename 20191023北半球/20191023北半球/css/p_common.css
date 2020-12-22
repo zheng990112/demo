@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    /*width: 100%;
+    height: 100%;*/
+    min-width: 1200px;
+    min-height: 650px;
+    background-color: #dfdfdf;
+    /*overflow-y: hidden;*/
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.fl-lt {
+    float: left;
+}
+
+.fl-rt {
+    float: right;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+i {
+    font-style: normal;
+}
+
+input,
+button,
+textarea {
+    border: 0;
+    outline: none;
+}
+
+b {
+    font-weight: normal;
+}
+
+em {
+    font-style: normal;
+}
+
+.p-header {
+    width: 100%;
+    height: 86px;
+    background: linear-gradient(top, #04002a, #315ab2);
+    background: -webkit-linear-gradient(top, #04002a, #315ab2);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+
+.p-header .p-header-box {
+    width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p-header .p-header-box .logo {
+    width: 282px;
+}
+
+.p-header .p-header-box .menu .menu-list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.p-header .p-header-box .menu .menu-list a {
+    display: block;
+    width: 162px;
+    height: 86px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 21px;
+    line-height: 86px;
+    position: relative;
+}
+
+.p-header .p-header-box .menu .menu-list a.active,
+.p-header .p-header-box .menu .menu-list a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.p-header .p-header-box .menu .menu-list a::after {
+    content: "";
+    display: block;
+    width: 3px;
+    height: 49px;
+    background-image: url(../img/menu_hr.png);
+    position: absolute;
+    right: -1.5px;
+    top: 50%;
+    margin-top: -24.5px;
+}
+
+.p-header .p-header-box .menu .menu-list a:last-of-type:after {
+    display: none;
+}
+
+.p-footer {
+    width: 100%;
+    height: 162px;
+    background-color: #000000;
+}
+
+.p-footer .p-footer-box {
+    width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p-footer .p-footer-box .logo {
+    width: 282px;
+}
+
+.p-footer .p-footer-box .com-info {
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.p-footer .p-footer-box .com-phone {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #ffffff;
+}
+
+.p-footer .p-footer-box .com-phone .icon {
+    width: 72px;
+}
+
+.p-footer .p-footer-box .com-phone .phone-box .tag {
+    font-size: 21px;
+}
+
+.p-footer .p-footer-box .com-phone .phone-box .number {
+    font-size: 46px;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+
+
+
+
+/*二级导航定位*/
+.er-nav-fixed{
+	position:fixed!important;
+	top: 90px!important;
+}
+.anchor{
+	position:absolute;
+	height:88px;
+	width: 100%;
+	top:-88px;
+	z-index: -1;
+}
+/*返回顶部*/
+.backTop {
+    position: fixed;
+    bottom: 250px;
+    right: 3%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #315ab2;
+    cursor: pointer;
+    display: none;
+    z-index: 99;
+}
+
+.backTop span {
+    display: block;
+    font-size: 40px;
+    color: #fff;
+    margin-top: -7px;
+    margin-left: 7px;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+
+.backTop:hover {
+    opacity:0.5;
+}
+
+.p-main .menu-box a:hover,
+.p-main .menu-box a.active{
+	font-weight: bold;
+}
+.er-nav a:hover,
+.er-nav a.on{
+	font-weight: bold;
+}
+
+
+
+
+/*20200110*/
+.p-header .p-header-box .menu .menu-list a{
+	width: 140px;
+	font-size: 18px;
+}
+.p-header .p-header-box .logo img{
+	display: block;
+}
+
+
+
+
+
+
+@media (max-width: 1440px){
+    .p-header .p-header-box {
+        width: 96%;
+    }
+    .p-header .p-header-box .menu {
+        flex: 1;
+    }
+    .p-header .p-header-box .menu .menu-list a {
+        flex: 1;
+        width: auto;
+    }
+    .p-footer .p-footer-box {
+        width:96%;
+    }
+    .p-footer .p-footer-box .com-phone .icon {
+        width: 68px;
+    }
+    .p-footer .p-footer-box .com-phone .phone-box .tag {
+        font-size: 18px;
+    }
+    .p-footer .p-footer-box .com-phone .phone-box .number {
+        font-size: 40px;
+        line-height: 42px;
+    }
+}
+
+.p-main {
+    padding-top: 86px;
+    min-height: 500px;
+}

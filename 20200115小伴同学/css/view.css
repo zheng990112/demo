@@ -1,0 +1,223 @@
+.main .icon{
+	width: 4.42rem;
+	margin:0 auto;
+	margin-top:0.2rem;
+	position:relative;
+	z-index: 2;
+}
+.main .icon img{
+	display: block;
+	width: 100%;
+}
+.main{
+	padding-bottom: 0.3rem;
+}
+
+
+.view1{
+	padding-top: 2.2rem;
+}
+.view1 .view1-title{
+	text-align: center;
+	width: 6rem;
+	margin:0 auto;
+}
+.view1 .view1-title .p1{
+	font-size: 0.78rem;
+	color:#309dcf;
+	line-height: 1;
+	position:relative;
+}
+.view1 .view1-title .p1::after{
+	content:"";
+	display: inline-block;
+	width: 100%;
+	height: 0.3rem;
+	background-color: #ffd817;
+	position:absolute;
+	bottom: -0.05rem;
+	left: 0;
+	z-index: -1;
+}
+.view1 .view1-title .p2{
+	width: 3.1rem;
+	margin:0 auto;
+	margin-top: 0.25rem;
+}
+.view1 .view1-title .p2 img{
+	display: block;
+	width: 100%;
+	
+}
+.view1 .picScroll-left{
+	width:13.71rem;
+	margin:0 auto;
+	position: relative;
+	margin-top: 0.35rem;
+}
+.view1 .picScroll-left .bd{
+	width:13.71rem;
+	overflow: hidden;
+	position:relative;
+}
+.view1 .picScroll-left .bd li{
+	float: left;
+	position: relative;
+	text-align: center;
+	width:3.87rem;
+	height:2.59rem;
+	background: url(../img/view/a2.png) no-repeat;
+	background-size: 100% 100%;
+	padding-top: 0.13rem;
+	box-sizing:border-box;
+	margin:0 0.35rem;
+}
+.view1 .picScroll-left .bd li img{
+	display: block;
+	width:3.54rem;
+	height:2.33rem;
+	margin:0 auto;
+	
+}
+
+.view1 .picScroll-left .arrow{
+	position: absolute;
+	top:50%;
+	margin-top: -0.29rem;
+	width:0.5rem;
+	height:0.58rem;
+	cursor: pointer;
+	z-index: 99;
+}
+.view1 .picScroll-left .arrow img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.view1 .picScroll-left .arrow-left{
+	left:0;
+}
+.view1 .picScroll-left .arrow-right{
+	right:0;
+}
+.view1 .picScroll-left .bd::before,
+.view1 .picScroll-left .bd::after{
+	content:"";
+	display: inline-block;
+	width: 0.74rem;
+	height: 0.32rem;
+	background: url(../img/view/a-icon.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	top: 50%;
+	margin-top: -0.16rem;
+	z-index: -1;
+}
+.view1 .picScroll-left .bd::before{
+	left:4.2rem;
+}
+.view1 .picScroll-left .bd::after{
+	right:4.2rem;
+}
+
+
+
+
+
+.view2{
+	padding-top: 2.2rem;
+}
+.view2 .view2-title{
+	width: 5rem;
+	margin:0 auto;
+}
+.view2 .view2-title img{
+	display: block;
+	width: 100%;
+}
+
+.view2 .view2-main{
+	width: 12.55rem;
+	background-color: #309dcf;
+	margin:0 auto;
+	padding:0.6rem 0;
+	position:relative;
+	margin-top: 0.35rem;
+}
+.view2 .picScroll-left{
+	width:11.91rem;
+	margin:0 auto;
+	position: relative;
+	margin-top: 0.35rem;
+}
+.view2 .picScroll-left .bd{
+	width:11.91rem;
+	overflow: hidden;
+	position:relative;
+}
+.view2 .picScroll-left .bd li{
+	float: left;
+	position: relative;
+	text-align: center;
+	width:3.71rem;
+	height:2.48rem;
+	background: url(../img/view/b2.png) no-repeat;
+	background-size: 100% 100%;
+	padding-top: 0.115rem;
+	box-sizing:border-box;
+	margin:0 0.13rem;
+}
+.view2 .picScroll-left .bd li img{
+	display: block;
+	width:3.41rem;
+	height:2.25rem;
+	margin:0 auto;
+	
+}
+.view2 .picScroll-left .arrow{
+	position: absolute;
+	top:50%;
+	margin-top: -0.29rem;
+	width:0.5rem;
+	height:0.58rem;
+	cursor: pointer;
+	z-index: 99;
+}
+.view2 .picScroll-left .arrow img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.view2 .picScroll-left .arrow-left{
+	left:-0.2rem;
+}
+.view2 .picScroll-left .arrow-right{
+	right:-0.2rem;
+}
+.view2 .view2-main::before {
+    content: "";
+    display: inline-block;
+    width: 1.87rem;
+    height: 1.97rem;
+    background: url(../img/hz/d-icon2.jpg) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -0.9rem;
+    left: -0.8rem;
+    z-index: -1;
+}
+.view2 .view2-main::after{
+	content:"";
+	display: inline-block;
+	width: 8.19rem;
+	height: 4.18rem;
+	background: url(../img/hz/d-icon1.png) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	right: -0.65rem;
+	bottom: -0.4rem;
+	z-index: -1;
+}
+.view2 .icon{
+	margin-top: 0.7rem;
+}

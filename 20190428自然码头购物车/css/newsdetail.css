@@ -1,0 +1,25 @@
+
+
+.part1 .newsdetail-title{
+	font-size: 30px;
+	text-align: center;
+}
+.part1 .tn{
+	text-align: center;
+	margin:10px 0;
+}
+.part1 .tn span{
+	display: inline-block;
+	font-size: 12px;
+	margin: 0 20px;
+}
+.part1 img{
+	display: block;
+	width: 100%;
+}
+.part1 p{
+	font-size: 12px;
+	line-height: 18px;
+	margin-top: 10px;
+	
+}

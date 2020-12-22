@@ -1,0 +1,39 @@
+/*切换图开始*/
+.part7-main1{ width: 100%; position: relative; margin-top: 46px;}
+.picScroll-left .bd{ width: 788px; margin: 0px auto; overflow: hidden;display: block;}
+.picScroll-left .bd li{ float: left; position: relative; text-align: center; width:788px; height: 559px; margin: 0 auto; cursor: pointer;display: block;}
+.picScroll-left .bd li .box{ position: relative; width: 100%;}
+.picScroll-left .bd li img{ display: block; width: 100%;}
+.picScroll-left .arrow{ position: absolute; top: 34%; width: 52px; height: 141px; cursor: pointer; }
+.picScroll-left .arrow img{ width: 100%; height: 100%; display: block;}
+.picScroll-left .arrow-left{ left: 170px;}
+.picScroll-left .arrow-right{ right: 170px;}
+.tab_img1 .bg2_4{ position: absolute; left: 50%; top: 0px; height: 382px; z-index: -1; box-sizing: border-box; transform: translateX(-50%); -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); -moz-transform: translateX(-50%); width: 1920px;}
+.tab_img{margin-top: 32px;margin-bottom: 62px;position: relative;}
+/*切换图结束*/
+.sj1 .part3{width:1200px;display: block ;margin: 0 auto;padding-bottom: 20px;}
+.sj1 .part3 ul li{float: left;width: 584px;height: 415px;margin-right: 30px;margin-bottom: 20px;}
+.sj1 .part3 ul li:nth-child(2n){margin-right: 0;}
+.sj1 .part3 ul li img{width: 100%;height: 100%;}
+.main  .part1{text-align: center;padding-top: 60px;}
+.main  .part1 h3{font-size: 54px;color: #ffb852;background: url(../img/ys/a1.jpg) no-repeat center;background-size: 846px 145px;height: 145px;line-height: 145px;}
+.main  .part1 p{font-size: 24px;color: #000000;margin: 20px 0 30px 0;}
+@media (max-width: 1680px){
+.picScroll-left .arrow-left{left: 120px;}	
+.picScroll-left .arrow-right{right: 120px;}		
+	
+	
+}
+@media (max-width: 1444px){
+.picScroll-left .arrow-left{left: 70px;}	
+.picScroll-left .arrow-right{right: 70px;}		
+.sj1 .part3{width: 1080px;}	
+.sj1 .part3 ul li{width: 522px;height: 371px;}
+	
+}
+@media (max-width: 1280px){
+.picScroll-left .arrow-left{left: 120px;}	
+.picScroll-left .arrow-right{right: 120px;}	
+	
+	
+}

@@ -1,0 +1,141 @@
+*{
+	padding:0;
+	margin:0;
+}
+a{
+	text-decoration: none;
+}
+input,
+button,
+textarea {
+	border: 0;
+	outline: none;
+}
+
+
+.adver_phone .lazy{
+	display: block;
+	width: 100%;
+}
+
+.adver_phone .advphone_nav{
+	height:0.54rem;
+	width: 100%;
+	position:relative;
+}
+
+
+.adver_phone .advphone_nav .fix-nav{
+	display: block;
+	width: 100%;
+	height:0.54rem;
+	background-color: #fff;
+}
+.adver_phone .advphone_nav-fix{
+	position:fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+.adver_phone .advphone_nav .nav-icon{
+	position:absolute;
+	right: 0.4rem;
+	display:block;
+	width: 0.49rem;
+	height: 0.32rem;
+	top: 50%;
+	margin-top: -0.16rem;
+	z-index: 99;
+}
+.adver_phone .menu{
+	position:fixed;
+	top:-100%;
+	left: 0;
+	width: 100%;
+	background-color:rgba(0,0,0,0.5);
+	padding-top: 1.5rem;
+	box-sizing: border-box;
+	border-bottom: 0.15rem solid #cf111b;
+	z-index: 99;
+}
+.adver_phone .menu a{
+	display: block;
+	width: 6rem;
+	margin:0 auto;
+	font-size: 0.42rem;
+	color:#fff;
+	text-align: center;
+	border-bottom: 1px solid #fff;
+	line-height: 1.2rem;
+}
+.adver_phone .menu a:last-child{
+	border-bottom: none;
+}
+
+
+
+
+
+.adver_phone .form{
+	height: 14.7rem;
+	background-color: #eeeeef;
+}
+.adver_phone .form .form-box{
+	width: 5.8rem;
+	height: 6.8rem;
+	background-color: #fff;
+	margin:0 auto;
+	margin-top: 0.45rem;
+	padding-top: 0.6rem;
+	box-sizing: border-box;
+}
+.adver_phone .form .form-box .p1{
+	font-size: 0.51rem;
+	color:#595757;
+	text-align: center;
+	line-height: 1;
+	margin-bottom: 0.7rem;
+}
+.adver_phone .form .form-box input{
+	font-size: 0.38rem;
+	width: 5rem;
+	height: 1rem;
+	background-color: #eeeeef;
+	display: block;
+	margin:0 auto;
+	padding-left: 0.2rem;
+	box-sizing:border-box;
+	margin-bottom: 0.35rem;
+}
+.adver_phone .form .form-box button{
+	font-size: 0.38rem;
+	width: 3rem;
+	height: 1rem;
+	color:#fff;
+	background-color: #cf111b;
+	font-weight: bold;
+	display: block;
+	margin:0 auto;
+	margin-top: 0.8rem;
+}
+
+
+.part{
+	position:relative;
+}
+.part .anchor{
+	position:absolute;
+	height: 0.54rem;
+	top: -0.54rem;
+	z-index: -1;
+}
+.bg{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 98;
+	background-color:rgba(255,255,255,0.5);
+	display: none;
+}

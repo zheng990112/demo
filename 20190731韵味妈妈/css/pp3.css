@@ -1,0 +1,81 @@
+.content-main {
+    width: 1250px;
+    margin: 0 auto;
+    padding-bottom: 206px;
+}
+
+.content-main .title {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.title .main-title {
+    font-size: 51px;
+    color: #552512;
+}
+
+.title .main-title+.main-title {
+    margin-top: 15px;
+}
+
+.title .main-title span {
+    font-size: 124px;
+    font-family: myfont;
+    line-height: 104px;
+}
+
+.title .line {
+    width: 312px;
+    height: 2px;
+    background-color: #e0b99e;
+    margin: 0 auto;
+    margin-top: 45px;
+    position: relative;
+}
+
+.title .line::before {
+    content: "";
+    display: block;
+    width: 106px;
+    height: 16px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -8px;
+    margin-left: -53px;
+    background-color: #e0b99e;
+}
+
+.content-main .main-info {
+    width: 1245px;
+    margin: 0 auto;
+    margin-top: 80px;
+    position: relative;
+}
+
+.main-info .carousel {
+    width: 1245px;
+    height: 428px;
+    overflow: hidden;
+}
+
+.main-info .swiper-pagination {
+    position: absolute;
+    bottom: -70px;
+    left: 50%;
+    margin-left: -96px;
+}
+
+.my-bullet {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #efdcce;
+    margin: 0 12px 0;
+    outline: none;
+}
+
+.my-bullet-active {
+    background-color: #e0b99e;
+}

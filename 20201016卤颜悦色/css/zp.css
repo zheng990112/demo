@@ -1,0 +1,411 @@
+.zp1 .part1 {
+  position: relative;
+}
+
+.zp1 .part1::after {
+  content: "";
+  width: 1.79rem;
+  height: 4.77rem;
+  background: url(../img/zp/a_bg1.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.zp1 .part1::before {
+  content: "";
+  width: 1.79rem;
+  height: 4.77rem;
+  background: url(../img/zp/a_bg2.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 3.7rem;
+  right: 0;
+}
+
+.zp1 .part1 ul {
+  width: 14rem;
+  margin: auto;
+  padding-top: 0.25rem;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  padding-bottom: 1rem;
+  position: relative;
+}
+
+.zp1 .part1 ul::after {
+  content: "";
+  width: 8.05rem;
+  height: 3.36rem;
+  background: url(../img/zp/a_bg3.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: 0.24rem;
+  right: -1.94rem;
+}
+
+.zp1 .part1 ul li {
+  margin-bottom: 0.5rem;
+  width: 2.96rem;
+  margin-left: 0.72rem;
+}
+
+.zp1 .part1 ul li:nth-child(4n+1) {
+  margin-left: 0;
+}
+
+.zp1 .part1 ul img {
+  display: block;
+  width: 100%;
+}
+
+.zp1 .part1 ul .p1 {
+  font-family: "myfont_Magpie";
+  padding: 0 0.12rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  height: 0.56rem;
+  background: #b12124;
+  position: relative;
+}
+
+.zp1 .part1 ul .p1::after {
+  content: "";
+  width: 0.06rem;
+  height: 0.77rem;
+  background: url(../img/zp/a_icon1.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: -0.77rem;
+  right: 0.2rem;
+}
+
+.zp1 .part1 ul .p1 span:first-child {
+  font-size: 0.31rem;
+  width: 1.9rem;
+  line-height: 1;
+}
+
+.zp1 .part1 ul .p1 span:last-child {
+  font-size: 0.24rem;
+  line-height: 0.2rem;
+  width: 1.36rem;
+  text-align: right;
+}
+
+.zp1 .part1 ul .p1 span:last-child b {
+  display: block;
+  transform: scale(0.67);
+  -webkit-transform: scale(0.67);
+  -o-transform: scale(0.67);
+  -moz-transform: scale(0.67);
+  -ms-transform: scale(0.67);
+  width: 149%;
+  margin-left: -24.5%;
+}
+
+.zp1 .part1 ul .p2 {
+  width: 2.6rem;
+  margin-left: 0.12rem;
+  text-align: justify;
+  font-size: 0.24rem;
+  line-height: 0.24rem;
+  color: #3e3a39;
+  font-weight: bold;
+  margin-top: 0.15rem;
+}
+
+.zp1 .part1 ul .p2 span {
+  display: block;
+  transform: scale(0.58);
+  -webkit-transform: scale(0.58);
+  -o-transform: scale(0.58);
+  -moz-transform: scale(0.58);
+  -ms-transform: scale(0.58);
+  width: 172%;
+  margin-left: -36%;
+}
+
+.zp2 {
+  position: relative;
+}
+
+.zp2::after {
+  content: "";
+  width: 1.79rem;
+  height: 4.77rem;
+  background: url(../img/zp/a_bg1.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+  top: 1.2rem;
+}
+
+.zp2::before {
+  content: "";
+  width: 4.97rem;
+  height: 2.61rem;
+  background: url(../img/zp/b_bg1.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0;
+  bottom: 1.3rem;
+}
+
+.zp2 .part1 {
+  width: 14rem;
+  margin: auto;
+  padding-top: 0.5rem;
+}
+
+.zp2 .part1 .str {
+  float: left;
+}
+
+.zp2 .part1 .str .p1 {
+  font-size: 0.49rem;
+  color: #d1147d;
+  text-transform: uppercase;
+  font-family: "myfont_Magpie";
+}
+
+.zp2 .part1 .str .p2 {
+  font-size: 0.45rem;
+  color: #3e3a39;
+  font-family: "myfont_Magpie";
+  margin-top: 0.15rem;
+  margin-bottom: 0.45rem;
+}
+
+.zp2 .part1 .str .p3 {
+  height: 0.5rem;
+  line-height: 0.5rem;
+  margin-top: 0.18rem;
+  color: #595757;
+  font-size: 0.28rem;
+}
+
+.zp2 .part1 .str .p3 span {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.zp2 .part1 .str .p3 span:first-child {
+  width: 2.4rem;
+  height: 0.5rem;
+  text-align: center;
+  font-size: 0.31rem;
+  color: #ffffff;
+  font-family: "myfont_Magpie";
+  background: #b12124;
+  margin-right: 0.3rem;
+}
+
+.zp2 .part1 .pic {
+  float: right;
+  width: 3.46rem;
+  height: 3.46rem;
+  border-radius: 50%;
+  margin-top: 0.6rem;
+  margin-right: 1.55rem;
+  position: relative;
+  z-index: 0;
+}
+
+.zp2 .part1 .pic::after {
+  content: "";
+  width: 4.84rem;
+  height: 5.58rem;
+  background: url(../img/zp/a_bg4.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -2.4rem;
+  top: -0.78rem;
+  z-index: -1;
+}
+
+.zp2 .part1 .pic img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.zp2 .part2 {
+  margin-top: 0.35rem;
+  padding-bottom: 0.8rem;
+  position: relative;
+  z-index: 0;
+}
+
+.zp2 .part2 ul {
+  width: 14rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.zp2 .part2 ul li {
+  display: inline-block;
+  width: 2.65rem;
+}
+
+.zp2 .part2 ul img {
+  display: block;
+  width: 100%;
+  height: 4.14rem;
+}
+
+.zp2 .part2 ul p {
+  font-size: 0.3rem;
+  color: #3e3a39;
+  font-family: "myfont_Magpie";
+  background: url(../img/zp/b_icon1.png) center top no-repeat;
+  background-size: 2.41rem 0.79rem;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+
+.zp .part1 {
+  position: relative;
+  z-index: 0;
+  padding-bottom: 0.9rem;
+}
+
+.zp .part1::after {
+  content: "";
+  width: 1.79rem;
+  height: 4.77rem;
+  background: url(../img/zp/a_bg1.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+  top: 1.2rem;
+}
+
+.zp .part1::before {
+  content: "";
+  width: 4.97rem;
+  height: 2.61rem;
+  background: url(../img/zp/b_bg1.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0.5rem;
+  z-index: -1;
+}
+
+.zp .part1 .part-box {
+  width: 14rem;
+  margin: auto;
+  padding-top: 0.5rem;
+}
+
+.zp .part1 .str {
+  float: left;
+}
+
+.zp .part1 .str .p1 {
+  font-size: 0.49rem;
+  line-height: 0.47rem;
+  color: #d1147d;
+  text-transform: uppercase;
+  font-family: "myfont_Magpie";
+}
+
+.zp .part1 .str .p2 {
+  font-size: 0.45rem;
+  color: #3e3a39;
+  font-family: "myfont_Magpie";
+  margin-top: 0.15rem;
+  margin-bottom: 0.45rem;
+}
+
+.zp .part1 .str .p3 {
+  height: 0.5rem;
+  line-height: 0.5rem;
+  margin-top: 0.18rem;
+  color: #595757;
+  font-size: 0.28rem;
+}
+
+.zp .part1 .str .p3 span {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.zp .part1 .str .p3 span:first-child {
+  width: 2.4rem;
+  height: 0.5rem;
+  text-align: center;
+  font-size: 0.31rem;
+  color: #ffffff;
+  font-family: "myfont_Magpie";
+  background: #b12124;
+  margin-right: 0.3rem;
+}
+
+.zp .part1 .pic {
+  float: right;
+  width: 6.24rem;
+  height: 3.06rem;
+  padding: 0.05rem;
+  background: #dfdfde;
+  border-radius: 0.3rem;
+  margin-top: 0.2rem;
+}
+
+.zp .part1 .pic img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.3rem;
+}
+
+.zp .part1 ul {
+  display: flex;
+  justify-content: space-between;
+  width: 14rem;
+  margin: 0.8rem auto 0;
+}
+.zp .part1 ul li{
+  width: 4.44rem;
+}
+.zp .part1 ul .img-box {
+  width: 4.38rem;
+  height: 3.06rem;
+  padding: 0.03rem;
+  background: #dfdfde;
+  border-radius: 0.3rem;
+}
+.zp .part1 ul .img-box img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.3rem;
+}
+.zp .part1 ul p{
+  font-size: 0.3rem;
+  color: #3e3a39;
+  text-align: center;
+  font-family: "myfont_Magpie";
+  margin-top: 0.2rem;
+  padding-top: 0.2rem;
+  position: relative;
+}
+.zp .part1 ul p::after{
+  content: "";
+  width: 0.14rem;
+  height: 0.14rem;
+  background-color: #3e3a39;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -0.07rem;
+}

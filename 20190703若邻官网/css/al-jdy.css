@@ -1,0 +1,166 @@
+.part-img{
+	display: block;
+	width: 100%;
+	margin-top: 35px;
+}
+
+.part1 .top-img{
+	display: block;
+	width: 100%;
+}
+.part1 .big_title{
+	font-size:37px;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	color:#515151;
+	line-height: 1;
+	margin-top: 45px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #9c9b9c;
+	position:relative;
+	margin-bottom: 25px;
+}
+.part1 .big_title::after {
+    content: "";
+    display: inline-block;
+    width: 145px;
+    height: 162px;
+    background: url(../img/al/bsy/icon.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: -34px;
+    top: -25px;
+    z-index: -1;
+}
+.al-title{
+	font-family: myfont_Medium;
+	font-size: 18px;
+	color:#c21a1f;
+	line-height: 1;
+	font-weight: bold;
+	margin-top:35px;
+}
+.al-title span {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 10px;
+    margin-right: 5px;
+}
+
+
+
+
+.part1 .p1{
+	font-size: 18px;
+	color:#7e7f80;
+	line-height: 28px;
+	font-family: myfont_Light;
+	margin-top: 10px;
+}
+.part1 .title1{
+	margin-top: 55px;
+}
+.part1 .p2{
+	font-size: 18px;
+	line-height: 28px;
+	color:#515151;
+	font-family: myfont_Light;
+	margin-top: 10px;
+}
+.part1 .p3{
+	font-size: 18px;
+	line-height: 28px;
+	color:#515151;
+	font-family: myfont_Light;
+	margin-top: 10px;
+}
+.part1 .p3 span{
+	color:#bd1a1f;
+	font-family: myfont_Medium;
+	font-weight: bold;
+}
+.part1 .p4{
+	color:#515151;
+	font-size: 18px;
+	font-family: myfont_Light;
+	margin-top: 20px;
+}
+.part1 .p5{
+	color:#221714;
+	font-size: 18px;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	line-height: 1;
+	margin-top: 25px;
+	
+}
+.part1 .box{
+	background-color: #ebebeb;
+	text-align: center;
+	padding:30px 0;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.part1 .box ul li{
+	display: inline-block;
+	width: 200px;
+	font-size: 18px;
+	color:#7f7f7f;
+	position:relative;
+}
+.part1 .box ul li::after{
+	content:"";
+	display: inline-block;
+	width: 1px;
+	height: 20px;
+	background-color: #aeaeae;
+	position:absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -11px;
+}
+.part1 .box ul li:last-child::after{
+	display: none;
+}
+.part1 .box ul li .li-p1{
+	font-family: myfont_Medium;
+	font-weight: bold;
+	margin-bottom:20px;
+}
+.part1 .box ul li .li-p2 img{
+	display:inline-block;
+	vertical-align: middle;
+}
+.part1 .box ul li .li-p2 span{
+	font-family: myfont_Light;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 5px;
+	
+}
+.part1 .p6{
+	font-size: 18px;
+	color:#515151;
+	line-height: 28px;
+	font-family: myfont_Light;
+	margin-top: 10px;
+}
+.part1 .p6 span{
+	color:#221714;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	position:relative;
+	
+}
+.part1 .p6 span::after {
+    content: "";
+    display: inline-block;
+    width: 144px;
+    height: 144px;
+    background: url(../img/al/bsy/icon2.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: -70px;
+    bottom: -85px;
+    z-index: -1;
+}

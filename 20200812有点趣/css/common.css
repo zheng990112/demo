@@ -1,0 +1,503 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: "Microsoft Yahei";
+	font-size: 12px;
+	background-color: #ffffff;
+	color: #000000;
+	-webkit-text-size-adjust: none;
+	-webkit-font-smoothing: antialiased;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+
+/* 自定义标签样式 */
+
+a {
+	text-decoration: none;
+	color: #000;
+	-webkit-tap-highlight-color: transparent;
+	display: block;
+}
+
+label {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ul li,
+ol li {
+	list-style: none;
+}
+
+input,
+img,
+textarea,
+button {
+	outline: none;
+	border: 0;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-appearance: none;
+}
+
+button {
+	background: none;
+	outline: none;
+}
+
+b {
+	font-weight: normal;
+}
+
+u {
+	text-decoration: none;
+}
+
+
+/* 自定义公共类名样式 */
+
+.fl-lt {
+	float: left;
+}
+
+.fl-rt {
+	float: right;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+/*返回顶部*/
+
+.backTop {
+	position: fixed;
+	bottom: 250px;
+	right: 3%;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #ffa300;
+	cursor: pointer;
+	display: none;
+	z-index: 99;
+}
+
+.backTop span {
+	display: block;
+	font-size: 40px;
+	color: #fff;
+	margin-top: -7px;
+	margin-left: 7px;
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+}
+
+.backTop:hover {
+	opacity: 0.8;
+}
+
+
+/*banner*/
+
+.banner {
+	width: 100%;
+	position: relative;
+	font-size: 0;
+	height: 6.61rem;
+	margin-top: -1.2rem;
+}
+
+.banner .swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.banner .swiper-pagination {
+	bottom: 0.3rem;
+}
+
+.banner .swiper-pagination .swiper-pagination-bullet {
+	width: 0.2rem;
+	height: 0.2rem;
+	background-color: #e5e5e5;
+	opacity: 1;
+	border-radius: 50%;
+	margin: 0 0.1rem;
+}
+
+.banner .swiper-pagination .swiper-pagination-bullet-active {
+	background-color: #ffca83;
+}
+
+.header-box {
+	width: 100%;
+	height: 1.8rem;
+	background-color: #faee00;
+	position: relative;
+	box-sizing: border-box;
+	z-index: 9;
+}
+
+.header-box .head_top {
+	width: 100%;
+	height: 0.62rem;
+	border-bottom: 1px dashed #8f830a;
+	position: relative;
+}
+
+.header-box .head_top .box {
+	width: 12rem;
+	margin: auto;
+	line-height: 0.62rem;
+	font-size: 0.2rem;
+	color: #231815;
+	position: relative;
+}
+
+.header-box .head_top .logo {
+	position: absolute;
+	width: 2.71rem;
+	height: 2.51rem;
+	top: 0;
+	left: 50%;
+	margin-left: -1.355rem;
+}
+
+.header-box .head_top .p2 img {
+	display: inline-block;
+	width: 0.29rem;
+	height: 0.29rem;
+	vertical-align: text-bottom;
+	margin-right: 0.1rem;
+}
+
+.header-box .head_top .p2 span {
+	font-size: 0.28rem;
+	color: #231815;
+	font-weight: bold;
+	line-height: 1;
+	vertical-align: text-bottom;
+}
+
+.header-box .header_nav {
+	width: 12rem;
+	height: 1.2rem;
+	margin: 0 auto;
+}
+
+.header-box .header_nav ul {
+	text-align: center;
+	font-size: 0;
+}
+
+.header-box .header_nav ul li {
+	width: 1.1rem;
+	font-size: 0.2rem;
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	margin-top: 0.3rem;
+}
+
+.header-box .header_nav ul li a {
+	height: 0.5rem;
+	line-height: 0.25rem;
+	color: #666666;
+}
+
+.header-box .header_nav ul li .title {
+	font-weight: bold;
+}
+
+.header-box .header_nav ul li span {
+	display: block;
+	font-weight: normal;
+	font-size: 0.14rem;
+}
+
+.header-box .header_nav ul li:hover .title,
+.header-box .header_nav ul li.active .title {
+	color: #ffa300;
+}
+
+.header-box .header_nav ul li .item {
+	position: absolute;
+	top: 0.5rem;
+	width: 100%;
+	text-align: center;
+	font-size: 0.18rem;
+	background-color: #faee00;
+	padding: 0.1rem 0;
+	border-radius: 0 0 0.1rem 0.1rem;
+	display: none;
+}
+
+.header-box .header_nav ul li .item a {
+	display: block;
+	margin-top: 0.1rem;
+	line-height: 0.28rem;
+	color: #666666;
+	height: 0.28rem;
+}
+
+.header-box .header_nav ul li .item a.on,
+.header-box .header_nav ul li .item a:hover {
+	background-color: #666666;
+	color: #ffa300;
+}
+
+.header-box .header_nav ul li:nth-child(5) {
+	margin-left: 3.2rem;
+}
+
+.footer .foot1 {
+	height: 1.3rem;
+	background-color: #faee00;
+	text-align: center;
+	position: relative;
+}
+
+.footer .foot1 img {
+	width: 2.7rem;
+	height: 2.05rem;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -1.35rem;
+}
+
+.footer .foot1 ul li {
+	display: inline-block;
+	width: 1.1rem;
+	font-size: 0.2rem;
+	line-height: 0.25rem;
+	font-weight: bold;
+	position: relative;
+	margin-top: 0.45rem;
+}
+
+.footer .foot1 ul li span {
+	display: block;
+	font-weight: normal;
+	font-size: 0.14rem;
+}
+
+.footer .foot1 ul li:nth-child(5) {
+	margin-left: 3.2rem;
+}
+
+.footer .foot1 ul li a {
+	color: #666666;
+}
+
+.footer .foot1 ul li:hover a {
+	color: #ffa300;
+}
+
+.footer .foot2 {
+	width: 100%;
+	height: 4.95rem;
+}
+
+.footer .foot-main {
+	width: 12rem;
+	margin: auto;
+	padding-top: 0.84rem;
+}
+
+.footer .foot2 .company {
+	padding-left: 0.25rem;
+}
+
+.footer .foot2 .company p {
+	padding-left: 0.3rem;
+}
+
+.footer .foot2 .company .p1 {
+	background: url(../img/foot_icon1.jpg) left center no-repeat;
+	background-size: 0.18rem 0.23rem;
+	font-size: 0.2rem;
+	font-weight: bold;
+	line-height: 1.5;
+	color: #231815;
+}
+
+.footer .foot2 .company .p2 {
+	color: #666666;
+	font-size: 0.18rem;
+	margin-bottom: 0.25rem;
+}
+
+.footer .foot2 .company .img-box img {
+	width: 1.56rem;
+	height: 1.06rem;
+	float: left;
+}
+
+.footer .foot2 .company .img-box p {
+	float: left;
+	color: #666666;
+	font-size: 0.18rem;
+	padding-top: 0.3rem;
+	margin-left: 0.18rem;
+	padding-left: 0.2rem;
+	background: url(../img/foot_icon3.jpg) left 0.3rem no-repeat;
+	background-size: 0.18rem 0.18rem;
+}
+
+.footer .foot2 .erweima {
+	margin-right: 0.2rem;
+	width: 4rem;
+	position: relative;
+}
+
+.footer .foot2 .erweima::before {
+	content: "";
+	display: inline-block;
+	width: 0.01rem;
+	height: 3.3rem;
+	background-color: #d9d9d9;
+	position: absolute;
+	top: 0.05rem;
+	left: -1.6rem;
+}
+
+.footer .foot2 .erweima form p {
+	font-size: 0.18rem;
+	text-align: center;
+	color: #666666;
+	margin-bottom: 0.1rem;
+}
+
+.footer .foot2 .erweima form p img {
+	width: 100%;
+	width: 0.2rem;
+	height: 0.04rem;
+	vertical-align: middle;
+}
+
+.footer .foot2 .erweima form input {
+	width: 1.77rem;
+	padding-left: 0.15rem;
+	height: 0.32rem;
+	float: left;
+	border: 0.01rem solid #d9d9d9;
+	border-radius: 0.1rem;
+	margin-bottom: 0.1rem;
+	color: #666666;
+	font-size: 0.14rem;
+}
+
+.footer .foot2 .erweima form input:nth-child(3) {
+	margin-left: 0.1rem;
+}
+
+.footer .foot2 .erweima form input:nth-child(4) {
+	width: 3.83rem;
+}
+
+.footer .foot2 .erweima form input:last-child {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: #faee00;
+	margin-top: 0.1rem;
+	color: #231815;
+	cursor: pointer;
+}
+
+.footer .foot2 .erweima form textarea {
+	float: left;
+	width: 3.68rem;
+	height: 1.5rem;
+	padding: 0.1rem 0.15rem;
+	border: 0.01rem solid #d9d9d9;
+	border-radius: 0.1rem;
+	resize: none;
+	color: #666666;
+	font-size: 0.14rem;
+}
+
+.content {
+	padding-top: 0.54rem;
+}
+
+.er-nav .cn {
+	text-align: center;
+	font-size: 0.24rem;
+	color: #fff;
+	font-weight: bold;
+	line-height: 0.48rem;
+}
+
+.er-nav .cn img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.er-nav .cn span {
+	margin: 0 0.2rem;
+	display: inline-block;
+	width: 2.68rem;
+	height: 0.48rem;
+	background-color: #ffa300;
+	border-radius: 0.3rem;
+}
+
+.er-nav .en {
+	font-size: 0.18rem;
+	color: #000000;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1;
+	padding-top: 0.1rem;
+	padding-bottom: 0.3rem;
+	text-transform: uppercase;
+}
+
+.er-nav .item {
+	text-align: center;
+	height: 0.5rem;
+}
+
+.er-nav .item .list {
+	line-height: 0.5rem;
+	height: 0.5rem;
+	font-size: 0;
+	display: inline-block;
+	border-radius: 0.3rem;
+	background-color: #000000;
+}
+
+.er-nav .item a {
+	display: inline-block;
+	color: #ffffff;
+	height: 0.5rem;
+	border-radius: 0.3rem;
+	font-size: 0.2rem;
+	font-weight: bold;
+	width: 1.2rem;
+}
+
+.er-nav .list a.on,
+.er-nav .list a:hover {
+	color: #000000;
+	background-color: #faee00;
+}

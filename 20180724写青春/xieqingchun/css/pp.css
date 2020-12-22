@@ -1,0 +1,104 @@
+/*pp1*/
+.pp1 .part1{
+	position:relative;
+	padding-top: 50px;
+}
+.pp1 .part-img{
+	display: block;
+	width: 100%;
+	margin-top: 50px;
+}
+.pp1 .part1 .part1-fonts{
+	position:absolute;
+	width: 350px;
+	right: 0;
+	bottom: 20px;
+	font-size: 16px;
+	color:#fff;
+	line-height: 24px;
+}
+.part1 .part1-right{
+	position: absolute;
+    top: 0;
+    right: -130px;
+    width: 40%;
+}
+.part1 .part1-right img{
+	display: block;
+	width: 100%;
+}
+
+
+
+.pp1 .part2{
+	padding-top: 50px;
+}
+.pp1 .part2 .part2-main{
+	position:relative;
+}
+.pp1 .part2 .part2-main .part2-fonts{
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    bottom: 25px;
+    right: 30px;
+    width: 620px;
+}
+.pp1 .part2 .part2-main .part2-fonts .p1{
+	text-indent: 16px;
+	margin-bottom: 20px;
+}
+
+.pp1 .part3{
+	position:relative;
+	padding-top: 50px;
+}
+.pp1 .part3 .part3-main{
+	position:relative;
+}
+.pp1 .part3 .part3-main .part3-fonts{
+    position: absolute;
+    top: 60px;
+    left: 255px;
+    width: 640px;
+    height: 300px;
+    font-size: 16px;
+    color:#fff;
+    font-weight: lighter;
+}
+.pp1 .part3 .part3-main .part3-fonts span{
+	font-weight: bold;
+}
+.pp1 .part3 .part3-main .part3-fonts p{
+	margin-top: 28px;
+}
+
+.part3 .part3-left{
+    position: absolute;
+    bottom: -200px;
+    left: -430px;
+    width: 38%;
+    z-index: -1;
+}
+.part3 .part3-left img{
+	display: block;
+	width: 100%;
+}
+
+
+.pp1 .part4{
+	padding-top: 50px;
+}
+.pp1 .part4 .part4-main{
+	position:relative;
+}
+.pp1 .part4 .part4-fonts{
+    position: absolute;
+    font-size: 16px;
+    width: 324px;
+    height: 270px;
+    top: 66px;
+    right: 25px;
+    color: #fff;
+    line-height: 24px;
+}

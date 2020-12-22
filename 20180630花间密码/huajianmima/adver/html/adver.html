@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="keywords" content=""/>
+		<meta name="description" content=""/>
+		<title></title>
+		<link rel="shortcut icon" type="image/x-icon" href="../img/logoIcon.png" media="screen">
+		<link rel="stylesheet" href="../css/adver.css" />
+	</head>
+	<body>
+		<div class="content">
+			<img src="../img/a_02.jpg" alt="" />
+			<img data-original="../img/a_04.jpg" alt="" class="lazy"/>
+			<img data-original="../img/a_05.jpg" alt="" class="lazy"/>
+			<img data-original="../img/a_06.jpg" alt="" class="lazy"/>
+			<img data-original="../img/a_07.jpg" alt="" class="lazy"/>
+			<img data-original="../img/a_08.jpg" alt="" class="lazy"/>
+			<img data-original="../img/a_09.jpg" alt="" class="lazy"/>
+			<img data-original="../img/a_10.jpg" alt="" class="lazy"/>
+			<img data-original="../img/a_11.jpg" alt="" class="lazy"/>
+			<div class="part-last">
+				<img data-original="../img/a_12.jpg" alt="" class="lazy"/>
+				<div class="form">
+					<form action="">
+						<div class="top">
+							<span>姓名 NAME</span>
+							<input type="radio" name="sex" id="sex1"/><label for="sex1">男士</label>
+							<input type="radio" name="sex" id="sex2"/><label for="sex2">女士</label>
+						</div>
+						<div class="form-main clearfix">
+							<div class="main-left fl-lt">
+								<input type="text" />
+								<p class="p1">联系地址 ADD</p>
+								<input type="text" />
+								<p class="p1">联系电话 TEL</p>
+								<input type="text" />
+							</div>
+							<div class="main-right fl-rt">
+								<textarea name="" rows="" cols="" placeholder="咨询内容"></textarea>
+								<button>提  交</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		
+		<!--返回顶部-->
+		<div class="backTop">
+			<span><</span>
+		</div>
+		
+		<div class="footer">
+			<img src="../img/foot.png" alt="" class="foot_img"/>
+		</div>
+			
+		<script src="../js/jquery-1.11.2.min.js"></script>
+		<script src="../js/jq.lazyload.js"></script>
+		<script type="text/javascript">
+            $('img.lazy').lazyload({threshold:100});
+            //返回顶部
+			var w_h = $(window).height();
+			$(window).scroll(function () {
+				var scrollTop = $(window).scrollTop();
+		    	if(scrollTop > w_h*1){
+		    		$('.backTop').fadeIn();
+		    		$('.backTop').css({'bottom':'200px'})
+		    	}else{
+		    		$('.backTop').fadeOut()
+		    	}
+		    });
+			
+			$('.backTop').click(function(){
+				var scrollTop = $(window).scrollTop();
+				$("html,body").animate({ scrollTop: 0 }, 600);
+			})
+        </script>
+	</body>
+</html>

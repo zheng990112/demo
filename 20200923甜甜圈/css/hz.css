@@ -1,0 +1,369 @@
+.banner_img a {
+  left: 29.5%;
+  bottom: 34%;
+}
+.public-title .title_box{
+  margin-top: 0.3rem;
+}
+.public-title .title_box .img1 {
+  height: 0.53rem;
+}
+.hz1 .public-title .title_box div::after {
+  right: -1.7rem;
+  top: -0.3rem;
+}
+.hz2 .public-title .title_box div::after {
+  right: -3.6rem;
+  top: -0.3rem;
+}
+.container{
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+.hz1::after{
+  content: "";
+  width: 2.53rem;
+  height: 6.18rem;
+  background: url(../img/hz/bg_L.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+  bottom: 5.9rem;
+  z-index: -1;
+}
+.hz1::before{
+  content: "";
+  width: 2.53rem;
+  height: 6.18rem;
+  background: url(../img/hz/bg_R.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0;
+  top: 0.9rem;
+  z-index: -1;
+}
+.hz1 .part1{
+  padding-bottom: 1.7rem;
+  position: relative;
+  z-index: 0;
+}
+.hz1 .part1::after{
+  content: "";
+  width: 10.08rem;
+  height: 4.56rem;
+  background: url(../img/hz/bg_b.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: -4.2rem;
+  bottom: 0;
+  z-index: -1;
+}
+.hz1 .part1 ul{
+  width: 100%;
+  padding-top: 0.18rem;
+}
+.hz1 .part1 ul li{
+  margin-top: 0.45rem;
+  float: left;
+  width: 100%;
+  height: 3.66rem;
+  background: url(../img/hz/a_icon1.png) right no-repeat;
+  background-size: 8.21rem 100%;
+  border-top-left-radius: 0.35rem;
+  border-bottom-left-radius: 0.35rem;
+}
+.hz1 .part1 ul img{
+  display: block;
+}
+.hz1 .part1 ul .img1{
+  float: left;
+  width: 3.3rem;
+  height: 100%;
+  border-radius: 0.35rem;
+}
+.hz1 .part1 ul .pic{
+  float: left;
+  margin-top: 0.7rem;
+  margin-left: 0.7rem;
+  max-width: 0.5rem;
+}
+.hz1 .part1 ul .lastDiv{
+  float: right;
+  width: 4.58rem;
+  margin-top: 0.7rem;
+}
+.hz1 .part1 ul .img2{
+  float: left;
+  height: 0.31rem;
+}
+.hz1 .part1 ul .img3{
+  float: left;
+  width: 100%;
+  margin-top: 0.18rem;
+}
+.hz1 .part1 ul p{
+  float: left;
+  width: 50%;
+  height: 1.6rem;
+  padding-top: 0.2rem;
+}
+.hz1 .part1 ul .p1 span{
+  display: block;
+  font-size: 0.2rem;
+  line-height: 0.33rem;
+  color: #4d4d4d;
+}
+.hz1 .part1 ul .p2 span{
+  display: block;
+  font-size: 0.18rem;
+  color: #4d4d4d;
+  line-height: 0.25rem;
+}
+.hz1 .part1 ul .p2 .firstSpan{
+  font-size: 0.28rem;
+  margin-bottom: 0.1rem;
+  line-height: 0.38rem;
+  color: #333333;
+}
+.hz1 .part1 ul .img4{
+  float: left;
+  width: 3.64rem;
+}
+.hz1 .part1 ul a{
+  float: right;
+  font-weight: bold;
+  color: #7f47dd;
+  line-height: 1;
+  font-size: 0.14rem;
+  margin-top: -0.07rem;
+
+  border-bottom: 1px solid #7f47dd;
+}
+
+.hz2::before{
+  content: "";
+  width: 19.20rem;
+  height: 9.22rem;
+  background: url(../img/hz/b_bg1.jpg) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -9.6rem;
+  top: 6.85rem;
+  z-index: -1;
+}
+.hz2::after{
+  content: "";
+  width: 2.53rem;
+  height: 6.18rem;
+  background: url(../img/hz/bg_L.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+  top: 13.4rem;
+  z-index: -1;
+}
+.hz2 .text{
+  width: 7.08rem;
+  margin-left: 0.18rem;
+  margin-top: 0.6rem;
+}
+.hz2 .text div{
+  text-align: center;
+  width: 2.5rem;
+  font-size: 0.27rem;
+  color: #172f7a;
+  font-weight: bold;
+}
+.hz2 .text div img{
+  display: inline-block;
+  width: 0.13rem;
+  height: 0.18rem;
+  margin-top: 0.1rem;
+}
+.hz2 ul{
+  width: 7.08rem;
+  margin-left: 0.18rem;
+}
+.hz2 ul li{
+  width: 100%;
+  float: left;
+  margin-top: 0.18rem;
+  text-align: center;
+}
+.hz2 ul li .str1{
+  float: left;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: url(../img/hz/b_iconL.png) no-repeat;
+  background-size: 100% 100%;
+}
+.hz2 ul li .str2{
+  width: 2.08rem;
+  height: 1.17rem;
+  line-height: 1.17rem;
+  margin-top: 0.665rem;
+  float: left;
+  background: url(../img/hz/b_iconCenter.png) no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  z-index: 0;
+}
+.hz2 ul li .str2 .p1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: 0.65rem;
+  color: #ebebed;
+  font-weight: bold;
+  z-index: -1;
+}
+.hz2 ul li .str2 .p2{
+  font-size: 0.22rem;
+  color: #172284;
+}
+.hz2 ul li .str3{
+  float: right;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: url(../img/hz/b_iconR.png) no-repeat;
+  background-size: 100% 100%;
+}
+.hz2 ul li .str1 p,
+.hz2 ul li .str3 p{
+  color: #ffffff;
+  font-size: 0.19rem;
+  line-height: 0.33rem;
+}
+.hz2 ul li .str1 .firstP,
+.hz2 ul li .str3 .firstP{
+  margin-top: 0.755rem;
+}
+.hz2 ul li .str1 .firstP.lh,
+.hz2 ul li .str3 .firstP.lh{
+  margin-top: 0.92rem;
+}
+.hz2 ul li .str1 .firstP.sh,
+.hz2 ul li .str3 .firstP.sh{
+  margin-top: 0.59rem;
+}
+.hz2 .part1{
+  position: relative;
+  padding-bottom: 3rem;
+  z-index: 0;
+}
+.hz2 .part1::after{
+  content: "";
+  width: 4.37rem;
+  height: 6.2rem;
+  background: url(../img/hz/b_icon2.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: -1.65rem;
+  bottom: 0.1rem;
+  z-index: -1;
+}
+.hz2 .part1::before{
+  content: "";
+  width: 10.1rem;
+  height: 4.68rem;
+  background: url(../img/hz/b_bg2.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: -4.3rem;
+  bottom: 0;
+  z-index: -1;
+}
+.hz3 .public-title .title_box div::after {
+  right: 0.4rem;
+  top: -0.4rem;
+}
+.hz3::before{
+  content: "";
+  width: 2.24rem;
+  height: 15.59rem;
+  background: url(../img/hz/c_bgR.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0;
+  top: 1.24rem;
+  z-index: -1;
+}
+.hz3::after{
+  content: "";
+  width: 9.63rem;
+  height: 16.24rem;
+  background: url(../img/hz/c_bgL.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.hz3 .listPic{
+  width: 100%;
+  padding-top: .6rem;
+  padding-bottom: 0.88rem;
+}
+.hz3 .listPic li{
+  float: left;
+  margin-top: 0.5rem;
+  width: 100%;
+  position: relative;
+}
+
+.hz3 .listPic li .img1{
+  position: absolute;
+  width: 2.45rem;
+  height: 2.45rem;
+  border-radius: 50%;
+  border: .04rem solid #bdc4eb;
+  top: 50%;
+  margin-top: -1.265rem;
+}
+.hz3 .listPic li .img2{
+  height: 0.77rem;
+  position: absolute;
+  top: 50%;
+  margin-top: -0.385rem;
+}
+.hz3 .listPic li:nth-child(2n+1) .img2{
+  right: 0.6rem;
+}
+.hz3 .listPic li:nth-child(2n) .img2{
+  left: 0.4rem;
+}
+.hz3 .listPic li:nth-child(2n) .img1{
+  right: 0;
+}
+.hz3 .listPic li div{
+  width: 4.9rem;
+  padding-left: 2.5rem;
+  height: 1.8rem;
+  border-radius: .9rem;
+  border: .02rem solid #bdc4eb;
+  margin-left: .2rem;
+}
+.hz3 .listPic li:nth-child(2n) div{
+  width: 6.5rem;
+  padding-left: .9rem;
+  float: right;
+  margin-right: .3rem;
+}
+.hz3 .listPic li .p1{
+  padding-top: .5rem;
+  font-size: .28rem;
+  color: #1e2d82;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: .1rem;
+}
+.hz3 .listPic li .p2{
+  font-size: .18rem;
+  color: #000000;
+  line-height: .28rem;
+  width: 4.1rem;
+  text-align: justify;
+}

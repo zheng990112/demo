@@ -1,0 +1,66 @@
+html, body{
+	overflow-y: auto;
+}
+
+
+
+.header {
+    display: block;
+}
+
+.section-bg2 {
+    position: fixed;
+}
+
+.box {
+    margin-top: 1.65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom:0.15rem;
+}
+
+.box .box-title {
+    width: 12rem;
+    font-size: 0.60rem;
+    font-family: xiquezhaopaiti;
+    line-height: 0.60rem;
+    letter-spacing: -0.05rem;
+    text-align: center;
+}
+
+.box .box-desc {
+    font-size: 0.20rem;
+    font-family: xiquejuzhenti;
+    color: #BD8040;
+    margin-top: 0.14rem;
+    /* letter-spacing: -0.01rem; */
+    width: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box .box-info {
+    width: 12rem;
+    margin-top: 0.24rem;
+}
+
+.box .box-info p {
+    text-indent: 0.48rem;
+    font-size: 0.24rem;
+    font-family: xiquejuzhenti;
+    line-height: 0.32rem;
+}
+
+.box .box-info img {
+    margin: 20px 0;
+}
+
+.foot {
+    position:relative;
+}
+
+.public_nav {
+    display: block;
+}

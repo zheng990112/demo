@@ -1,0 +1,208 @@
+.part-img{
+	display: block;
+	width: 100%;
+	margin-top: 35px;
+}
+
+.part1 .top-img{
+	display: block;
+	width: 100%;
+}
+.part1 .big_title{
+	font-size:37px;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	color:#515151;
+	line-height:42px;
+	margin-top: 45px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #9c9b9c;
+	position:relative;
+	margin-bottom: 25px;
+}
+.part1 .big_title::after {
+    content: "";
+    display: inline-block;
+    width: 145px;
+    height: 162px;
+    background: url(../img/al/bsy/icon.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: -34px;
+    top: -25px;
+    z-index: -1;
+}
+.main{
+	font-size: 18px;
+	text-align: justify;
+}
+.main-box{
+	padding-bottom: 200px;
+}
+.part1 .p1{
+	line-height: 28px;
+	color:#7f7f7f;
+	font-family: myfont_Light;
+}
+.part1 .p3{
+	color:#515151;
+	line-height: 28px;
+	font-family: myfont_Light;
+	margin-top: 30px;
+}
+.part1 .p3 span{
+	font-family: myfont_Medium;
+	font-weight: bold;
+	color:#000;
+}
+.al-title{
+	font-family: myfont_Medium;
+	font-size: 18px;
+	color:#c21a1f;
+	line-height: 1;
+	font-weight: bold;
+	margin-top: 80px;
+}
+.al-title span {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 10px;
+    margin-right: 5px;
+}
+.part1 .listBox{
+  margin-top: 30px;
+}
+.part1 .listBox ol{
+  width: 100%;
+  float: left;
+  border-bottom: 1px solid #d1d1d2;
+}
+.part1 .listBox ol:last-child{
+  border-bottom: none;
+  margin-top: 30px;
+}
+.part1 .listBox li{
+  float: left;
+  width: 410px;
+}
+.part1 .listBox li:nth-child(2n){
+  float: right;
+}
+.part1 .listBox li img{
+  width: 410px;
+  height: 268px;
+  float: left;
+}
+.part1 .listBox .listP1{
+  position: relative;
+}
+.part1 .listBox p{
+  float: left;
+  padding-left: 30px;
+  font-size: 18px;
+  font-family: myfont_Medium;
+  color: #231815;
+  width: 380px;
+}
+.part1 .listBox .listP1{
+  line-height: 60px;
+}
+.part1 .listBox .listP2{
+  color: #515151;
+  margin-bottom: 25px;
+}
+.part1 .listBox .listP1::after{
+  content:"";
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	background-color: #b51c21;
+	position:absolute;
+	left: 0;
+  top: 50%;
+  margin-top: -3px;
+}
+
+.part1 .p8{
+  font-size: 18px;
+  font-family: myfont_Medium;
+	font-weight: bold;
+	color:#231815;
+	line-height: 40px;
+  position: relative;
+  padding-left: 60px;
+}
+.part1 .p8::after{
+  content:"";
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	background-color: #b51c21;
+	position:absolute;
+	left: 34px;
+  top: 50%;
+  margin-top: -3px;
+}
+.part1-img3{
+  margin-bottom: 30px;
+}
+.last-p{
+	position:relative;
+}
+.last-p::after{
+	content: "";
+    display: inline-block;
+    width: 144px;
+    height: 144px;
+    background: url(../img/al/bsy/icon2.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: -73px;
+    bottom: -80px;
+    z-index: -1;
+}
+
+
+.part1 .box2{
+	box-sizing: border-box;
+	font-size: 18px;
+	color:#515151;
+	padding-top: 25px;
+}
+.part1 .box2 p{
+    padding-left: 60px;
+}
+.part1 .box2 .box2-p1{
+	color:#231815;
+	font-family: myfont_Medium;
+	font-weight: bold;
+	position:relative;
+	line-height: 1;
+	margin-top: 20px;
+}
+.part1 .box2 .box2-p1::before{
+	content:"";
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	background-color: #b81c21;
+	position:absolute;
+	top: 50%;
+	margin-top: -3px;	
+	left: 30px;
+}
+.part1 .box2 .box2-p2{
+	color:#515151;
+	font-family: myfont_Light;
+	line-height: 28px;
+    margin-top:10px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #dcdddd;
+}
+.part1 .p3 span{
+    color: #ba1a1f;
+}
+
+
+
+

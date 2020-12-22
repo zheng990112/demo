@@ -1,0 +1,173 @@
+
+
+/*page1*/
+.page1 .box{
+	padding-top: 100px;
+	box-sizing: border-box;
+	text-align: center;
+	margin-top: 100px;
+}
+.page1 .box-l{
+	display: inline-block;
+	vertical-align: top;
+}
+.page1 .box-l img{
+	display: block;
+	width: 1.6rem;
+}
+.page1 .box-l p{
+    font-size: 0.5rem;
+    font-family: xiquezhaopaiti;
+    color: #ffffff;
+    writing-mode: tb-rl;
+    letter-spacing: -0.1rem;
+    margin-left: 0.9rem;
+    margin-top: -0.6rem;
+}
+.page1 .box-r{
+	display: inline-block;
+	text-align: left;
+	font-size: 0.17rem;
+    font-family: xiquejuzhenti;
+    color: #ffffff;
+    writing-mode: tb-rl;
+    line-height:0.48rem;
+    margin-left: 2.1rem;
+    margin-top: 1rem;
+}
+.page1 .box-r .span1{
+	font-family: xiquezhaopaiti;
+	font-size:0.32rem;
+	color:#fff;
+	letter-spacing:-0.1rem;
+}
+
+
+/*.page2*/
+.page2 .box{
+	padding-top: 100px;
+	box-sizing: border-box;
+	text-align: center;
+	margin-top: 1.4rem;
+}
+.page2 .box-l{
+	display: inline-block;
+	vertical-align: top;
+}
+.page2 .box-l img{
+	display: block;
+	width: 1.6rem;
+	
+}
+.page2 .box-l p{
+    font-size: 0.5rem;
+    font-family: xiquezhaopaiti;
+    color: #ffffff;
+    writing-mode: tb-rl;
+    letter-spacing: -0.1rem;
+    margin-left: 0.9rem;
+    margin-top: -0.6rem;
+}
+.page2 .box-r{
+	display: inline-block;
+	text-align: left;
+	font-size: 0.17rem;
+    font-family: xiquejuzhenti;
+    color: #ffffff;
+    writing-mode: tb-rl;
+    line-height:0.48rem;
+    margin-left:4.1rem;
+    margin-top:0.35rem;
+}
+.page2 .box-r img{
+	margin-top:5px;
+}
+
+
+
+
+/*.page3*/
+.page3 .box{
+	padding-top: 100px;
+	box-sizing: border-box;
+}
+.page3 .box img{
+	display: block;
+	width: 8.9rem;
+	margin:0 auto;
+	margin-top: 70px;
+}
+.page3 .box ul{
+	text-align: center;
+	
+}
+.page3 .box ul li{
+    display: inline-block;
+    margin: 5px 0.25rem;
+}
+.page3 .box ul li .p1{
+	font-size: 0.35rem;
+	color:#b68040;
+	font-weight: bold;
+}
+.page3 .box ul li .p2{
+	font-size: 0.16rem;
+	font-family: xiquejuzhenti;
+	color:#3e3a39;
+	line-height: 0.26rem;
+	margin-top: 0.1rem;
+}
+
+
+
+
+/*.page4*/
+.page4 .box{
+	padding-top: 100px;
+	box-sizing: border-box;
+	margin-top: 0.6rem;
+	display: inline-block;
+	position:relative;
+}
+.page4 .box img{
+	display: block;
+	width: 15rem;
+}
+.page4 .box .fonts{
+	position:absolute;
+	right:0.2rem;
+	bottom:0.3rem;
+	text-align: right;
+}
+.page4 .box .fonts .p1{
+	font-size: 0.5rem;
+	font-family: xiquejuzhenti;
+	color:#231815;
+}
+.page4 .box .fonts .p2{
+	font-size: 0.25rem;
+	color:#b68040;
+	font-family: xiquejuzhenti;
+	line-height: 0.4rem;
+	margin-top: 0.4rem;
+}
+
+
+
+/*1680*/
+@media (max-width:1900px){
+	.page1 .box-r{
+		margin-top: 0.3rem;
+	}
+	.page1 .box{
+		margin-top: 50px;
+	}
+}
+
+
+/*1444*/
+@media (max-width:1600px) {
+	.page2 .box-r{
+		margin-left: 3rem;
+	}
+}

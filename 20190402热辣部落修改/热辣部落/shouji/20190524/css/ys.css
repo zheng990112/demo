@@ -1,0 +1,284 @@
+.ys{
+	color: #E1BE7B;
+	text-align: center;
+}
+.ys .title{
+	position: relative;
+	padding-top: .32rem;
+	color: #E1BE7B;
+	text-align: center;
+}
+.ys .title .line{
+	width: 35%;
+	height: 2px;
+	background: #E1BE7B;
+	position: absolute;
+	top: .94rem;
+	z-index: 2;
+}
+.ys .title .line1{
+	left: 0;
+}
+.ys .title .line2{
+	right: 0;
+}
+.ys .title .box{
+	width: 2.5rem;
+	border: 2px solid #E1BE7B;
+	height: .72rem;
+	margin: 0 auto;
+	padding-top: .04rem;
+}
+.ys .title .box .p1{
+    font-size: .34rem;
+    font-weight: bold;
+    line-height: 1;
+    margin-top: .08rem;
+    margin-bottom: .02rem;
+}
+.ys .title .box .p2{
+	text-transform: uppercase;
+	font-size: .24rem;
+	transform: scale(.58);
+	-webkit-transform: scale(.58);
+	-o-transform: scale(.58);
+	-moz-transform: scale(.58);
+	-ms-transform: scale(.58);
+	width: 170%;
+	margin-left: -35%;
+	line-height: 1;
+}
+
+.ys .part{
+	width: 100%;
+	background-size: 100% 100%!important;
+}
+.ys .part1{
+	margin-top: .28rem;
+	text-align: left;
+	height: 3.4rem;
+}
+.ys .part1 .con{
+	width: 60%;
+	margin-left: 40%;
+	padding-top: .12rem;
+}
+.ys .part1 .con .p1{
+	font-size: .3rem;
+	line-height: 1.25;
+}
+.ys .part1 .con .p1 span{
+	font-size: .24rem;
+	text-transform: uppercase;
+}
+.ys .part1 .con .p1 strong{
+	font-size: .4rem;
+}
+.ys .part1 .con .p2{
+	font-size: .24rem;
+	line-height: .3rem;
+	margin-top: .2rem;
+	color: #000;
+}
+.ys .part1 .con .p3{
+    font-size: .32rem;
+    margin-top: 20%;
+}
+
+.ys .part2{
+	position: relative;
+	height: 10rem;
+}
+.ys .part2 .title{
+	position: absolute;
+	top: -.32rem;
+	left: 0;
+	width: 100%;
+}
+.ys .part2 .con{
+	padding: 0 .24rem;
+	padding-top: 1.2rem;
+}
+.ys .part2 .con .p1{
+	font-size: .48rem;
+}
+.ys .part2 .con .p2{
+	text-transform: uppercase;
+	font-size: .24rem;
+	transform: scale(.58);
+	-webkit-transform: scale(.58);
+	-o-transform: scale(.58);
+	-moz-transform: scale(.58);
+	-ms-transform: scale(.58);
+	width: 170%;
+	margin-left: -35%;
+	line-height: 1;
+}
+.ys .part2 .con ul{
+	margin-top: 81.5%;
+}
+.ys .part2 .con ul li{
+	float: left;
+	width: 33.3%;
+	font-size: .26rem;
+	line-height: .36rem;
+}
+
+.ys .part3 {
+	height: 13.6rem;
+}
+.ys .part3 .title{
+	margin-top: -.36rem;
+}
+.ys .part3 .con{
+	padding: 0 .24rem;
+	margin-top: .28rem;
+}
+.ys .part3 .con .p1{
+	font-size: .48rem;
+}
+.ys .part3 .con .p2{
+	font-size: .24rem;
+    line-height: .34rem;
+}
+.ys .part3 .con ul{
+	margin-top: 10%;
+	position: relative;
+	width: 80%;
+	margin: 10% auto 0;
+	height: 9.8rem;
+}
+.ys .part3 .con ul li{
+	width: 46%;
+	font-size: .26rem;
+	line-height: .4rem;
+	position: absolute;
+}
+.ys .part3 .con ul li:nth-child(1){
+	right: -.2rem;
+	top: 9%;
+}
+.ys .part3 .con ul li:nth-child(2){
+	left: 0;
+	top: 43%;
+}
+.ys .part3 .con ul li:nth-child(3){
+    right: -.2rem;
+    top: 75.5%;
+
+}
+
+.ys .part4{
+    height: 12rem;
+    padding-top: .56rem;
+    box-sizing: border-box;
+}
+.ys .part4 .con p{
+	font-size: .26rem;
+	line-height: .4rem;
+	text-indent: .32rem;
+	margin-top: 32%;
+}
+
+/*20190524*/
+.ys .part5{
+	box-sizing: border-box;
+}
+.ys .part5 .con{
+	padding: 0 .3rem;
+	box-sizing: border-box;
+	text-align:left;
+	margin-top: 0.4rem;
+}
+.ys .part5 .con p{
+	font-size: 0.24rem;
+	color:#e1be7b;
+	text-align: justify;
+	line-height: 0.36rem;
+	text-indent: 0.34rem;
+}
+.ys .part5 .con ul li{
+	float:left;
+	width: 3.35rem;
+	height:3.45rem;
+	margin-right: 0.2rem;
+	margin-top: 0.2rem;
+}
+.ys .part5 .con ul li:nth-child(2n){
+	margin-right: 0;
+}
+.ys .part5 .con ul li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.ys .part6{
+	box-sizing: border-box;
+}
+.ys .part6 .con{
+	padding: 0 .3rem;
+	box-sizing: border-box;
+	text-align:left;
+	margin-top: 0.4rem;
+}
+.ys .part6 .con p{
+	font-size: 0.24rem;
+	color:#e1be7b;
+	text-align: justify;
+	line-height: 0.36rem;
+	text-indent: 0.34rem;
+}
+.ys .part6 .con ul li{
+	float:left;
+	width: 3.35rem;
+	height: 3.35rem;
+	margin-right: 0.2rem;
+	margin-top: 0.4rem;
+}
+.ys .part6 .con ul li:nth-child(2n){
+	margin-right: 0;
+}
+.ys .part6 .con ul li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.ys{
+	padding-bottom: 1.2rem;
+}
+@media (max-width: 350px) {
+	.ys .part1 .con .p2 {
+		font-size: .24rem;
+		transform: scale(.92);
+		-webkit-transform: scale(.92);
+		-o-transform: scale(.92);
+		-moz-transform: scale(.92);
+		-ms-transform: scale(.92);
+		width: 108%;
+		margin-left: -4%;
+	}	
+	.ys .part6 .title .box .p2{
+		/*	font-size: .18rem;*/
+		font-size: .24rem;
+		transform: scale(.5);
+		-webkit-transform: scale(.5);
+		-o-transform: scale(.5);
+		-moz-transform: scale(.5);
+		-ms-transform: scale(.5);
+		width: 200%;
+		margin-left: -50%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

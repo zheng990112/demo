@@ -1,0 +1,203 @@
+.part1 {
+  position: relative;
+  z-index: 0;
+}
+
+.part1::after {
+  content: "";
+  width: 1.96rem;
+  height: 5.2rem;
+  background: url(../img/news/bg1.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+  top: 3rem;
+}
+
+.part1::before {
+  content: "";
+  width: 4.97rem;
+  height: 2.61rem;
+  background: url(../img/news/bg2.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0;
+  bottom: .6rem;
+  z-index: -1;
+}
+.part1{
+  padding-bottom: 0.95rem;
+}
+.part1 .part-box {
+  width: 14rem;
+  margin: auto;
+  margin-top: 0.5rem;
+}
+
+.part1 .str .p1 {
+  font-size: 0.4rem;
+  color: #d2147d;
+  font-family: "myfont_Magpie";
+  text-transform: uppercase;
+}
+
+.part1 .str .p2 {
+  font-size: 0.45rem;
+  color: #3e3a39;
+  font-family: "myfont_Magpie";
+}
+
+.part1 ul {
+  width: 100%;
+  padding-top: 0.2rem;
+}
+
+.part1 ul li {
+  float: left;
+  width: 100%;
+  margin-top: 0.4rem;
+}
+
+.part1 ul .pic {
+  width: 4.5rem;
+  height: 2.7rem;
+  padding: 0.05rem;
+  float: left;
+  background-color: #cccccc;
+}
+
+.part1 ul .pic img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.part1 ul .word {
+  float: right;
+  width: 9rem;
+  height: 2.78rem;
+  border-bottom: 0.02rem dashed #cccccc;
+}
+
+.part1 ul .p1 {
+  float: left;
+  width: 4.6rem;
+  font-size: 0.4rem;
+  color: #a62024;
+  font-family: "myfont_Magpie";
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: justify;
+}
+
+.part1 ul .p2 {
+  width: 100%;
+  float: left;
+  margin-top: 0.15rem;
+  font-size: 0.2rem;
+  line-height: 0.35rem;
+  height: 1.05rem;
+  text-align: justify;
+  color: #3e3a39;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+.part1 ul .p3{
+  margin-top: 0.6rem;
+  float: left;
+  width: 100%;
+  height: 0.4rem;
+  line-height: 0.4rem;
+}
+.part1 ul .p3 a{
+  width: 1.6rem;
+  height: 0.4rem;
+  float: left;
+  background: #a62024;
+  color: #ffffff;
+  font-size: 0.2rem;
+  text-align: center;
+}
+.part1 ul .p3 span{
+  float: right;
+  font-size: 0.16rem;
+  color: #3e3a39;
+}
+.part1 ul .p3 a:hover{
+  opacity: 0.7;
+}
+.part1 .btn-box{
+  display: flex;
+  justify-content: center;
+  margin-top: 0.58rem;
+}
+.part1 .btn-box a{
+  display: inline-block;
+  margin: 0 0.05rem;
+  height: 0.3rem;
+  line-height: 0.3rem;
+  text-align: center;
+  background: #9f9fa0;
+  font-size: 0.14rem;
+  padding: 0 0.18rem;
+  color: #ffffff;
+  font-weight: bold;
+}
+.part1 .btn-box a:first-child,
+.part1 .btn-box a:last-child{
+  margin: 0 0.15rem;
+  background: #a62024;
+}
+.part1 .btn-box a:hover,
+.part1 .btn-box a.on{
+  background: #a62024;
+}
+
+
+
+.news-text {
+  width: 12rem;
+  margin: auto;
+  padding-bottom: 0.5rem;
+}
+
+.news-text h1 {
+  text-align: center;
+  font-size: 0.48rem;
+  color: #474747;
+  margin-top: 0.3rem;
+}
+
+.news-text h3 {
+  width: 5rem;
+  margin: auto;
+  font-size: 0.18rem;
+  margin-top: 0.2rem;
+  color: #707070;
+}
+
+.news-text h3 .span1 {
+  float: left;
+}
+
+.news-text h3 .span2 {
+  float: right;
+}
+
+.news-text img {
+  width: 100%;
+  display: block;
+  margin-top: 0.2rem;
+}
+
+.news-text p {
+  text-align: justify;
+  margin-top: 0.3rem;
+  font-size: 0.16rem;
+  color: #707070;
+  line-height: 1.5;
+}

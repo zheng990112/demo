@@ -1,0 +1,88 @@
+.er-nav .box .list a {
+  font-size: 0.16rem;
+}
+
+.hz-title .p1 {
+  font-size: 0.34rem;
+  color: #322280;
+  line-height: 1;
+  margin-top: 0.4rem;
+  font-weight: bold;
+}
+
+.hz-title .p1 span {
+  color: #eeb033;
+}
+
+.kc-text {
+  font-size: 0.18rem;
+  color: #333333;
+  text-align: justify;
+  line-height: 1.5;
+  margin-top: 0.3rem;
+}
+
+.kc .listPic {
+  margin-top: 0.8rem;
+}
+
+.kc .listPic li {
+  width: 1.49rem;
+  float: left;
+  margin-left: 0.25rem;
+  height: 2.85rem;
+}
+
+.kc .listPic li:nth-child(5n+1) {
+  margin-left: 0;
+}
+
+.kc .listPic .kc_img {
+  width: 1.49rem;
+  height: 1.946rem;
+  display: block;
+}
+
+.kc .listPic p {
+  width: 1.22rem;
+  font-size: 0.18rem;
+  color: #333333;
+  line-height: 0.3rem;
+  float: right;
+  text-align: center;
+}
+
+.kc .listPic .kc_icon {
+  width: 0.12rem;
+  height: 0.11rem;
+  margin-left: 0.1rem;
+  margin-top: 0.1rem;
+  float: left;
+}
+
+.kc .kc_btn {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.kc .kc_btn span,
+.kc .kc_btn a {
+  display: inline-block;
+  min-width: 0.25rem;
+  margin: 0 0.1rem;
+  color: #595757;
+  font-size: 0.24rem;
+  height: 0.25rem;
+  line-height: 0.25rem;
+}
+
+.kc .kc_btn a.now {
+  color: #ffffff;
+  background-color: #322283;
+}
+
+.kc .kc_btn a:hover {
+  color: #ffffff;
+  background-color: #322283;
+}

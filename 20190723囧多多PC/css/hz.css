@@ -1,0 +1,255 @@
+.public-title{
+	font-size: 48px;
+	color:#231815;
+	line-height: 1;
+	margin-top:20px;
+	padding-bottom: 20px;
+	position:relative;
+}
+.public-title::before{
+	content:"";
+	display: inline-block;
+	width: 55px;
+	height: 1px;
+	background-color: #7d746f;
+	position:absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.bg-img{
+	width: 1920px;
+	height:960px;
+	position:absolute;
+	z-index: -1;
+	top: 0;
+	left: 50%;
+	margin-left: -960px;
+	
+}
+
+.hz1 .part1{
+	width: 1100px;
+	margin:0 auto;
+}
+.hz1 .part1 .top-img{
+	display: block;
+	width: 100%;
+	margin-top: 45px;
+} 
+.hz1 .part1 .public-title{
+	margin-top:30px;
+}
+.hz1 ul{
+	display: block;
+	width: 1030px;
+	margin:0 auto;
+	margin-top: 35px;
+}
+.hz1 ul li{
+	text-align:center;
+	float: left;
+	width: 110px;
+	position:relative;
+	margin-right: 120px;
+	margin-bottom: 70px;
+}
+.hz1 ul li:nth-child(5n){
+	margin-right: 0;
+}
+.hz1 ul li p{
+	color:#030000;
+	font-weight: bold;
+	margin-top: 15px;
+	font-size: 24px;
+}
+.hz1 ul li::after{
+	content:"";
+	display: inline-block;
+	width: 50px;
+	height: 14px;
+	background-size: 100% 100%;
+	position:absolute;
+	top:74px;
+	right: -90px;
+}
+.hz1 ul li:nth-child(1)::after,
+.hz1 ul li:nth-child(2)::after,
+.hz1 ul li:nth-child(3)::after,
+.hz1 ul li:nth-child(4)::after{
+	background: url(../img/hz/icon.png) no-repeat;
+}
+
+.hz1 ul li:nth-child(5)::after{
+	background: url(../img/hz/icon3.png) no-repeat;
+    width: 14px;
+    height: 35px;
+    top: 140px;
+    right: 46px;
+}
+.hz1 ul li:nth-child(6)::after,
+.hz1 ul li:nth-child(7)::after,
+.hz1 ul li:nth-child(8)::after,
+.hz1 ul li:nth-child(9)::after{
+	background: url(../img/hz/icon2.png) no-repeat;
+}
+
+
+
+
+
+.hz2{
+	width: 1100px;
+	margin:0 auto;
+	height:625px;
+}
+.public-title span{
+	font-size: 36px;
+	display: block;
+	margin-top: 15px;
+}
+.hz2 .part1 .b1-img{
+	display: block;
+	width: 757px;
+	height: 50px;
+	margin-top: 35px;
+}
+.hz2 .part1 ul li{
+	float: left;
+	width: 176px;
+	text-align: center;
+	margin-right: 8.8px;
+	margin-top: 40px;
+}
+.hz2 .part1 ul li:last-child{
+	margin-right: 0;
+}
+.hz2 .part1 ul li .li-img{
+	width: 176px;
+	height: 219px;
+}
+.hz2 .part1 ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.hz2 .part1 ul li .p1{
+	width: 170px;
+	height: 30px;
+	line-height: 30px;
+	border:1px solid #030000;
+	box-sizing: border-box;
+	color:#030000;
+	border-radius: 5px;
+	margin-top: 12px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.hz2 .part1 ul li .p2{
+	font-size: 13px;
+	color:#030000;
+	line-height: 18px;
+	margin-top: 15px;
+}
+.bg-img2{
+	height: 880px;
+	top: -152px;
+}
+
+
+
+.hz3{
+	width: 1100px;
+	margin:0 auto;
+	height:588px;
+}
+.hz3 .part1 ul li{
+	width: 541px;
+	text-align: center;
+	margin-top: 40px;
+}
+.hz3 .part1 ul li img{
+	display: block;
+	width: 100%;
+	height: 283px;
+}
+.hz3 .part1 ul li p{
+	font-size: 24px;
+	color:#030000;
+	font-weight: bold;
+	margin-top: 25px;
+}
+.bg-img3{
+	height: 880px;
+	top: -152px;
+}
+
+
+.hz4{
+	width: 1100px;
+	margin:0 auto;
+	height:800px;
+}
+.hz4 ul{
+	margin-top: 60px;
+}
+.hz4 ul li{
+	text-align: center;
+	float: left;
+	width: 174px;
+	margin-right: 57.5px;
+	margin-bottom: 20px;
+}
+.hz4 ul li:nth-child(5n){
+	margin-right: 0;
+}
+.hz4 ul li .li-img{
+	width: 174px;
+	height: 174px;
+}
+.hz4 ul li .li-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.hz4 ul li .p1{
+	font-size: 24px;
+	color:#030000;
+	font-weight: bold;
+	margin-top: 15px;
+}
+.hz4 ul li .p2{
+	font-size: 14px;
+	color:#595757;
+	line-height: 22px;
+	margin-top: 10px;
+	position:relative;
+	height: 66px;
+}
+.hz4 ul li .p2 span{
+	display: block;
+	white-space: nowrap;
+	position:absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+}
+
+
+/*20190806*/
+.hz3{
+	height: auto;
+}
+.hz3 .part2{
+	width: 1100px;
+	margin-top: 30px;
+}
+.hz3 .part2_img2{
+	position: relative;
+    left: -275px;
+    top: -95px;
+}

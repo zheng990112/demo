@@ -1,0 +1,215 @@
+.top_big img{
+	width: 1920px;
+	height: 959px;
+	position:absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+}
+
+
+
+
+
+.lx .part1 .div1 {
+	width: 798px;
+	display: block;
+	margin: 0 auto;
+}
+
+.lx .part1 .div1 img {
+	width: 100%;
+	height: 100%;
+}
+
+.lx .part1 .div2 {
+	width: 700px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 60px;
+	;
+}
+
+.lx .part1 .div2 h3 {
+	font-size: 75px;
+	color: #aa804f;
+	font-family: myfont;
+	font-weight: 400;
+	display: inline-block;
+}
+
+.lx .part1 .div2 span {
+	font-size: 30px;
+	color: #3e3a39;
+	font-weight: bold;
+}
+
+.map-box {
+	width: 684px;
+	height: 320px;
+	background-size: 100% 100%;
+	border: 8px solid #48a38d;
+	box-sizing: border-box;
+	clear: both;
+	overflow: hidden;
+	display: block;
+	margin: 0 auto;
+	margin-top: 14px;
+}
+
+.map-box .map {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
+
+.lx .part1 .div3 {
+	width: 700px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.lx .part1 .div3 .p1 {
+	font-size: 24px;
+	color: #aa804f;
+}
+
+.lx .part1 .div3 .p2 {
+	font-size: 20px;
+	color: #000000;
+	margin-top: 4px;
+}
+
+.lx .part2 {
+	display: block;
+	margin: 0 auto;
+	width: 686px;
+	height: 520px;
+	background: #c5b39f;
+	margin-top: 30px;
+}
+
+.lx .part2 .div1 {
+	text-align: center;
+}
+
+.lx .part2 .div1 h3 {
+	font-size: 18px;
+	color: #fff;
+	font-weight: 400;
+	padding-top: 26px;
+}
+
+.lx .part2 .div1 p {
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 26px;
+	display: block;
+}
+
+.lx .part2 .div2 input {
+	display: block;
+	margin: 0 auto;
+	width: 500px;
+	height: 50px;
+	line-height: 50px;
+	margin-bottom: 18px;
+	padding-left: 20px;
+	font-size: 16px;
+	color: #8b8b8b
+}
+
+.lx .part2 .div3 textarea {
+	display: block;
+	margin: 0 auto;
+	width: 500px;
+	height: 146px;
+	line-height: 50px;
+	padding-left: 20px;
+	resize: none;
+	font-size: 16px;
+}
+
+.lx .part2 .div2 input ::-webkit-input-placeholder {
+	color: #8b8b8b;
+}
+
+.lx .part2 .div2 input::-moz-placeholder {
+	color: #8b8b8b;
+}
+
+.lx .part2 .div2 input::-ms-input-placeholder {
+	color: #8b8b8b;
+}
+
+.lx .part2 .div3 textarea ::-webkit-input-placeholder {
+	color: #8b8b8b;
+}
+
+.lx .part2 .div3 textarea::-moz-placeholder {
+	color: #8b8b8b;
+}
+
+.lx .part2 .div3 textarea::-ms-input-placeholder {
+	color: #8b8b8b;
+}
+
+.lx .part3 button {
+	width: 158px;
+	height: 52px;
+	line-height: 52px;
+	font-size: 18px;
+	color: #fff;
+	background: #8c6842;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	margin: 25px auto;
+	border-radius: 26px;
+}
+
+.lx .part5 {
+	width: 700px;
+	height: 290px;
+	background: #f9f9f9;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+}
+
+.lx .part4 {
+	width: 700px;
+	display: block;
+	margin: 0 auto;
+	height: 200px;
+	overflow: hidden;
+	position: absolute;
+	top: 50px;
+}
+
+.lx .part4 ul li {
+	width: 92%;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 14px;
+	color: #bdb9b9;
+	height: 20px;
+	line-height: 20px;
+}
+
+.lx .part4 ul li p {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.lx .part4 .line {
+	width: 100%;
+	text-align: center;
+}

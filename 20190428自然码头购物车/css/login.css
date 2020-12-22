@@ -1,0 +1,185 @@
+
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.login{
+	position:relative;
+	width: 100%;
+	height: 100%;
+}
+.login .login-bg{
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.login .login-logo{
+	width: 165px;
+	margin:0 auto;
+}
+.login .login-logo img{
+	display: block;
+	width: 100%;
+	box-shadow:5px 5px 5px #a39586;
+	
+}
+.login .login-title{
+	font-size: 28px;
+	text-align: center;
+	color:#c51f1e;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.login .form{
+	text-align: center;
+	margin-top: 100px;
+}
+.login .form .input-box{
+	display: inline-block;
+	vertical-align: top;
+	position:relative;
+	width: 282px;
+	height: 45px;
+	box-shadow:0px 8px 8px #a39586;
+	border-radius: 5px;
+	margin:0 20px;
+}
+.login .form .input-box img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.login .form .input-box input{
+	width: 235px;
+	height: 30px;
+	position:absolute;
+	left: 35px;
+	top:7px;
+	padding-left: 5px;
+	box-sizing: border-box;
+	font-size: 18px;
+	color:#735e45;
+	background: transparent;
+}
+.login .form .input-box2 input{
+	width: 130px;
+}
+.login .form .input-box2 div{
+	display: inline-block;
+	width: 70px;
+	height: 25px;
+	background-color: #fff;
+	text-align: center;
+	position:absolute;
+	top:9px;
+	right: 30px;
+	font-size: 14px;
+	color:#231815;
+	line-height: 28px;
+}
+.login .form .btn-box{
+	margin-top: 50px;
+}
+.login .form .btn{
+	display: inline-block;
+	vertical-align: middle;
+	position:relative;
+	width: 282px;
+	height: 46px;
+}
+
+.login .form .btn img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	box-shadow:0px 8px 8px #a39586;
+}
+.login .form .btn button{
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	top: 0;
+	left: 0;
+	font-size: 28px;
+	font-weight: bold;
+	color:#c51f1e;
+	background: transparent;
+}
+.login .form .btn-box label{
+	display: inline-block;
+	vertical-align: middle;
+	color:#231815;
+	margin-left: 70px;
+}
+.login .form .btn-box label input,
+.login .form .btn-box label span{
+	margin:0 2px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.login .copy{
+	text-align: center;
+	margin-top: 130px;
+}
+.login .copy span{
+	display:inline-block;
+	font-size: 14px;
+	color:#231815;
+	margin:0 4px;
+}
+
+
+
+
+@media (max-width:1680px) {
+	.login .login-logo,
+	.login .login-title,
+	.login .form,
+	.login .copy{
+		position:relative;
+		top: -50px;
+	}
+}
+@media (max-width:1444px) {
+	.login .login-logo,
+	.login .login-title,
+	.login .form{
+		position:relative;
+		top: -100px;
+	}
+	.login .copy{
+		position:relative;
+		top: -150px;
+	}
+}
+@media (max-width:1366px) {
+	.login .login-logo,
+	.login .login-title,
+	.login .form{
+		position:relative;
+		top: -140px;
+	}
+	.login .copy{
+		position:relative;
+		top: -200px;
+	}
+}
+@media (max-width:1280px) {
+	.login .login-logo{
+		width: 120px;
+	}
+	.login .login-title,
+	.login .form{
+		position:relative;
+		top: -140px;
+	}
+	.login .copy{
+		position:relative;
+		top: -200px;
+	}
+}

@@ -1,0 +1,57 @@
+.listPic{
+	padding: 10px 0 30px;
+}
+.listPic li{
+	float: left;
+	width: 600px;
+	height: 330px;
+	margin-bottom: 45px;
+	text-align: left;
+	color: #333333;
+}
+.listPic li>img{
+	width: 600px;
+	height: 330px;
+}
+.listPic li.now{
+	padding-left: 90px;
+	padding-right: 45px;
+	width: 465px;
+	background: url(../img/ys5/04.png) 45px 10px no-repeat;
+	background-size: 27px;
+}
+.listPic li h5{
+	padding: 5px 0;
+	font-size: 24px;
+}
+.listPic li p{
+	height: 280px;
+	padding-top: 10px;
+	font-size: 15px;
+	text-align: justify;
+	line-height: 28px;
+	position: relative;
+}
+.listPic li p span{
+	display: block;
+	width: 68px;
+	height: 18px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.listPic li p.left span{
+	background: url(../img/ys5/left.png) center no-repeat;
+	background-size: 68px;
+	left: 0;
+}
+.listPic li p.left{
+	left: 0;
+}
+.listPic li p.right{
+	right: 0;
+}
+.listPic li p.right span{
+	background: url(../img/ys5/right.png) center no-repeat;
+	background-size: 68px;
+}

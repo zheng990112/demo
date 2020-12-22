@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+		<link rel="shortcut icon" type="image/x-icon" href="../img/logoIcon.png" media="screen">
+		<link rel="stylesheet" href="../css/common.css">
+		<link rel="stylesheet" href="../css/cart.css" />
+		
+		
+		<!--<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>-->
+		<!--<script src="../js/jquery-1.8.3.min.js"> </script>-->
+		<script src="../js/jquery-1.11.2.min.js"></script>
+		<script src="../js/scroll.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$('.myscroll').myScroll({
+					speed: 40, //数值越大，速度越慢
+					rowHeight: 36 //li的高度
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="header-box">
+			<div class="header1">
+				<div class="y-row clearfix">
+					<div class="header1-l fl-lt"><img src="../img/tel.png" alt="" /><span>400-1801-178</span></div>
+					<div class="header1-c">您好！123！欢迎来到 自然码头 在线商城！</div>
+					<div class="header1-r fl-rt">
+						<a href="">我的订单</a>
+						<a href="">账号信息</a>
+						<a href="">退出登录</a>
+						<a href="">帮助中心</a>
+					</div>
+				</div>
+			</div>
+			<div class="header2">
+				<div class="y-row">
+					<div class="header2-l">
+						<img src="../img/header.png" alt="" />
+					</div>
+					<div class="header2-c">
+						<div class="search-box">
+							<img src="../img/search.png" alt="" />
+							<input type="text" />
+							<button class="search-btn">搜索</button>
+						</div>
+						<div class="search-term">
+							<span>热门搜索词：</span>
+							<a href="">关键词1</a>
+							<a href="">关键词1</a>
+							<a href="">关键词1</a>
+						</div>
+					</div>
+					<div class="header2-r">
+						<a href="cart.html">
+							<img src="../img/shopping_cart.png" alt="" />
+							<span class="span1">8</span>
+							<span class="span2">我的购物车</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="header-nav">
+				<div class="y-row clearfix">
+					<ul class="clearfix fl-lt">
+						<li><a href="index.html">商城首页</a></li>
+						<li><a href="products.html">商城产品</a></li>
+						<li class="active"><a href="cart.html">购物车</a></li>
+						<li><a href="order.html">订单管理</a></li>
+						<li><a href="password.html">修改密码</a></li>
+						<li><a href="exit.html">退出登录</a></li>
+					</ul>
+					<div class="help fl-rt">
+						<a href="">
+							<img src="../img/help.png" alt="" />
+							<span>帮助中心</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="announcement">
+				<div class="announcement-title">公告：</div>
+				<marquee onmouseover="stop()" onmouseout="start()"><a href="announcement.html">在线商城公告内容</a></marquee>
+			</div>
+			<div class="main-box clearfix">
+				<div class="series fl-lt">
+					<div class="box">
+						<div class="box-top clearfix">
+							<span class="span1 fl-lt">经销商新闻</span>
+							<span class="span2 fl-rt"><a href="">更多>></a></span>
+						</div>
+					</div>
+					<div class="box box2">
+						<ul>
+							<li><div class="box2-top">产品系列</div></li>
+							<li><div class="title"><a href="">特价商品</a></div></li>
+							<li>
+								<div class="title">蜜饯果脯</div>
+								<div class="item">
+									<a href="">·葡萄干</a>
+									<a href="">·麦芒</a>
+									<a href="">·菠萝圈</a>
+									<a href="">·香蕉片</a>
+									<a href="">·话梅粒</a>
+									<a href="">·山楂条</a>
+								</div>
+							</li>
+							<li>
+								<div class="title">糖果果冻</div>
+								<div class="item">
+									<a href="">· 优酪果冻蜜桃味</a>
+									<a href="">· 黑森林松露巧克力</a>
+									<a href="">· 卡布奇诺牛奶松露巧</a>
+									<a href="">· 橡皮糖酸桃心</a>
+								</div>
+							</li>
+							<li>
+								<div class="title">干果炒货</div>
+								<div class="item">
+									<a href="">· 开心果</a>
+									<a href="">· 核桃仁</a>
+									<a href="">· 五味香瓜子</a>
+									<a href="">· 鱼皮花生</a>
+									<a href="">· 碧根果仁</a>
+								</div>
+							</li>
+							<li>
+								<div class="title">糕点点心</div>
+								<div class="item">
+									<a href="">· 手撕面包</a>
+									<a href="">· 蜜松煎饼</a>
+									<a href="">· 熊猫曲奇</a>
+									<a href="">· 原味桃酥</a>
+								</div>
+							</li>
+							<li>
+								<div class="title">豆制品</div>
+								<div class="item">
+									<a href="">· 嫩豆腐</a>
+									<a href="">· 骨香豆棒</a>
+									<a href="">· 豆腐干</a>
+								</div>
+							</li>
+							<li>
+								<div class="title">蛋制品</div>
+								<div class="item">
+									<a href="">· 卤蛋</a>
+									<a href="">· 鸡蛋干</a>
+									<a href="">· 鹌鹑蛋</a>
+								</div>
+							</li>
+							<li>
+								<div class="title">水产品</div>
+								<div class="item">
+									<a href="">· 水产品</a>
+									<a href="">· 水产品</a>
+									<a href="">· 水产品</a>
+								</div>
+							</li>
+							<li>
+								<div class="title">肉制品</div>
+								<div class="item">
+									<a href="">· 肉制品</a>
+									<a href="">· 肉制品</a>
+									<a href="">· 肉制品</a>
+									<a href="">· 肉制品</a>
+								</div>
+							</li>
+							<li>
+								<div class="title">进口食品</div>
+								<div class="item">
+									<a href="">· 进口食品</a>
+									<a href="">· 进口食品</a>
+									<a href="">· 进口食品</a>
+								</div>
+							</li>
+							<li>
+								<div class="title">膨化食品</div>
+								<div class="item">
+									<a href="">· 膨化食品</a>
+									<a href="">· 膨化食品</a>
+									<a href="">· 膨化食品</a>
+								</div>
+							</li>
+							<li>
+								<div class="title">果蔬类</div>
+								<div class="item">
+									<a href="">· 果蔬类</a>
+									<a href="">· 果蔬类</a>
+									<a href="">· 果蔬类</a>
+								</div>
+							</li>
+							<li>
+								<div class="title">饮料罐头</div>
+								<div class="item">
+									<a href="">· 饮料罐头</a>
+									<a href="">· 饮料罐头</a>
+									<a href="">· 饮料罐头</a>
+								</div>
+							</li>
+							<li>
+								<div class="title"><a href="">预售商品 </a></div>
+							</li>
+						</ul>
+					</div>
+					<div class="box box3">
+						<div class="box-top clearfix">
+							<span class="span1 fl-lt">新品上架</span>
+							<span class="span2 fl-rt"><a href="">更多>></a></span>
+						</div>
+						<div class="picScroll-left">
+						    <div class="bd">
+								<ul>
+									<li><a href=""><span class="span1">新</span><span class="span2">优酪果冻蜜桃味</span></a></li>
+									<li><a href=""><span class="span1">新</span><span class="span2">优酪果冻蜜桃味</span></a></li>
+									<li><a href=""><span class="span1">新</span><span class="span2">优酪果冻蜜桃味</span></a></li>
+									<li><a href=""><span class="span1">新</span><span class="span2">优酪果冻蜜桃味</span></a></li>
+									<li><a href=""><span class="span1">新</span><span class="span2">优酪果冻蜜桃味</span></a></li>
+									<li><a href=""><span class="span1">新</span><span class="span2">优酪果冻蜜桃味</span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="box box3">
+						<div class="box-top clearfix">
+							<span class="span1 fl-lt">热卖产品</span>
+							<span class="span2 fl-rt"><a href="">更多>></a></span>
+						</div>
+						<!--<div class="picScroll-left">
+						    <div class="bd">-->
+						    <div class="myscroll">
+								<ul>
+									<li><a href=""><span class="span1">热</span><span class="span2">五味香瓜子</span></a></li>
+									<li><a href=""><span class="span1">热</span><span class="span2">五味香瓜子</span></a></li>
+									<li><a href=""><span class="span1">热</span><span class="span2">五味香瓜子</span></a></li>
+									<li><a href=""><span class="span1">热</span><span class="span2">五味香瓜子</span></a></li>
+									<li><a href=""><span class="span1">热</span><span class="span2">五味香瓜子</span></a></li>
+									<li><a href=""><span class="span1">热</span><span class="span2">五味香瓜子</span></a></li>
+									<li><a href=""><span class="span1">热</span><span class="span2">五味香瓜子</span></a></li>
+									<li><a href=""><span class="span1">热</span><span class="span2">五味香瓜子</span></a></li>
+									<li><a href=""><span class="span1">热</span><span class="span2">五味香瓜子</span></a></li>
+									<li><a href=""><span class="span1">热</span><span class="span2">五味香瓜子</span></a></li>
+									<li><a href=""><span class="span1">热</span><span class="span2">五味香瓜子</span></a></li>
+									<li><a href=""><span class="span1">热</span><span class="span2">五味香瓜子</span></a></li>
+									<li><a href=""><span class="span1">热</span><span class="span2">五味香瓜子</span></a></li>
+								</ul>
+							</div>
+							<!--</div>
+						</div>-->
+					</div>
+				</div>
+				<div class="main fl-rt cart">
+					<div class="part1">
+						<div class="part1-top">购物车</div>
+						<div id="cart">
+							<table id="mytable" border="1" cellspacing="0">
+								<tr>
+									<th></th>
+									<th>商品编号</th>
+									<th>产品名称</th>
+									<th>品牌价</th>
+									<th>折扣价</th>
+									<th>数量</th>
+									<th>品牌价小计</th>
+									<th>折扣价小计</th>
+									<th></th>
+									<!--<th class="delete" @click="deleteProduct"><span>删除</span></th>-->
+								</tr>
+								<!--<tr v-for="(item,index) in productList" :class="{on:index%2!=0}">
+									<td class="td-img"><img :src="item.image" alt=""  class="Product_picture"/></td>
+									<td class="td-num">{{item.number}}</td>
+									<td class="td-name">{{item.proName}}</td>
+									<td>{{item.proPrice}}</td>
+									<td>{{item.proPrice*0.8}}</td>
+									<td>
+										<span class="operation_img"><a href="#" @click="item.proNum>1?item.proNum--:'';commit()"><img src="../img/cart/shop_num_sub.jpg" alt="" /></a></span>
+										<input type="text" v-model="item.proNum" class="pronum_inp"/>
+										<span class="operation_img"><a href="#" @click="item.proNum++;commit()"><img src="../img/cart/shop_num_add.jpg" alt="" /></a></span>
+									</td>
+									<td>{{item.proPrice*item.proNum}}</td>
+									<td>{{item.proPrice*item.proNum*0.8}}</td>
+									<td><button class="delete" @click.prevent="del(item.id)">删除</button></td>
+								</tr>-->
+								<tbody id="goods">
+									<tr>
+										<td class="td-img"><img src="../img/cart/a1.jpg" alt="" /></td>
+										<td class="td-num">11111</td>
+										<td class="td-name">本色新开心果  1*12</td>
+										<td class="brand_price">10</td>
+										<td class="sale_price">5</td>
+										<td class="quantity">
+											<img src="../img/cart/shop_num_sub.jpg" alt="" class="operation_img sub-btn"/>
+											<input type="text" class="pronum_inp" value="10"/>
+											<img src="../img/cart/shop_num_add.jpg" alt="" class="operation_img add-btn"/>
+										</td>
+										<td class="total_brand_price">10</td>
+										<td class="total_sale_price">5</td>
+										<td><button class="delete">删除</button></td>
+									</tr>
+									<tr>
+										<td class="td-img"><img src="../img/cart/a1.jpg" alt="" /></td>
+										<td class="td-num">11111</td>
+										<td class="td-name">本色新开心果  1*12</td>
+										<td class="brand_price">20</td>
+										<td class="sale_price">15</td>
+										<td class="quantity">
+											<img src="../img/cart/shop_num_sub.jpg" alt="" class="operation_img sub-btn"/>
+											<!--<input type="text" class="pronum_inp" value="1" onblur="b(nowVal);"/>-->
+											<input type="text" class="pronum_inp" value="1"/>
+											<img src="../img/cart/shop_num_add.jpg" alt="" class="operation_img add-btn"/>
+										</td>
+										<td class="total_brand_price">20</td>
+										<td class="total_sale_price">15</td>
+										<td><button class="delete">删除</button></td>
+										<input type="hidden" class="goods_id" value="1"/>
+										<input type="hidden" class="users_id" value="1"/>
+									</tr>
+								</tbody>
+							</table>
+							<div class="part2">
+								<div class="part2-top">简要说明购买过程中有任何要求，欢迎给我们留言</div>
+								<textarea name="" rows="" cols=""></textarea>
+							</div>
+							<div class="clearfix">
+								<div class="table-fonts">
+									<p>商品数量合计：<span class="total_num"></span></p>
+									<p>品牌价合计：<span class="total_bp"></span></p>
+									<p>折扣价合计：<span class="total_sp"></span></p>
+									<div class="btn">
+										<span @click="submit_btn"><a href="#"><img src="../img/cart/submit.jpg" alt="" /></a></span>
+										<span @click="refresh"><a href="javascript:;"><img src="../img/cart/Recalculate.jpg" alt="" /></a></span>
+										<span><a href="#"><img src="../img/cart/keep_shopping.jpg" alt="" /></a></span>
+									</div>
+								</div>
+				
+							</div>
+						</div>
+					</div>
+					
+					
+				</div>
+			</div>
+		</div>
+		<!--<input class="" type="hidden" value="1" />-->
+		
+		<div class="footer">
+			<img src="../img/foot.jpg" alt=""/>
+			<div class="foot-b">
+				<img src="../img/header.png" alt="" />
+				<div>北京自然码头食品有限公司 <br />热线电话：400—180—1178 <br />地址：北京市石景山区国睿大厦</div>
+			</div>
+		</div>
+		<!--<script src="../js/jquery-1.11.2.min.js"></script>-->
+		<script src="../js/jquery.SuperSlide.2.1.1.js"></script>
+		<script src="../layer.js"></script>
+		<script>
+			jQuery(".picScroll-left").slide({titCell:".hd ul",mainCell:".bd ul",autoPlay:true,autoPage:true,effect:"topLoop",vis:5,interTime:1500,delayTime:300});
+		</script>
+		
+		<!--<script src="../js/jquery-1.8.3.min.js"></script>
+		<script src="../js/scroll.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$('.myscroll').myScroll({
+					speed: 40, //数值越大，速度越慢
+					rowHeight: 36 //li的高度
+				});
+			});
+		</script>-->
+		<script>
+			sum()
+			
+			$(".sub-btn").click(function(){
+//				var quantity = $(this).siblings(".pronum_inp").val();
+				
+				var brand_price = $(this).parent().siblings(".brand_price").text();
+				var sale_price = $(this).parent().siblings(".sale_price").text();
+				
+				var nowVal = $(this).siblings(".pronum_inp").val();
+//				var quantity = nowVal--;
+
+				var quantity = parseInt($(this).siblings(".pronum_inp").val())-1;
+				var goods_id = $(this).parent().siblings(".goods_id").val();
+				var users_id = $(this).parent().siblings(".users_id").val();
+				var data={
+					quantity:quantity,
+					goods_id:goods_id,
+					users_id:users_id,
+					
+				};
+				var url="/Shop/Goods/del";
+				$.post(url,data,function(msg){
+					layer.open({
+						content:msg
+						,skin:'msg'
+						,time:3
+						,style:'bottom:0;'
+					});
+					setTimeout(function(){
+						window.location.reload();
+					},1500);
+				})
+
+
+
+				if(nowVal>1){
+					$(this).siblings(".pronum_inp").val(nowVal--)
+//					console.log(nowVal)
+					$(this).siblings(".pronum_inp").val(nowVal)
+					
+					
+					$(this).parent().siblings(".total_brand_price").html((brand_price*10*nowVal).toFixed(1))
+//					alert(typeof(brand_price*nowVal))
+//					alert((brand_price*nowVal).toFixed(1))
+					$(this).parent().siblings(".total_sale_price").html(sale_price*nowVal)
+				}else{
+					alert("不能再减了哦！");
+					return false;
+				}
+				sum()
+//				$(".total_num").html($(".pronum_inp").val())
+			})
+			$(".add-btn").click(function(){
+				var brand_price = $(this).parent().siblings(".brand_price").text();
+				var sale_price = $(this).parent().siblings(".sale_price").text();
+				var nowVal = $(this).siblings(".pronum_inp").val();
+				$(this).siblings(".pronum_inp").val(nowVal++)
+				$(this).siblings(".pronum_inp").val(nowVal)
+				
+				$(this).parent().siblings(".total_brand_price").html(brand_price*nowVal)
+				$(this).parent().siblings(".total_sale_price").html(sale_price*nowVal)
+				
+				
+//				var _this = $(this);
+//		        times =1;
+//		        _this.val(times + '秒可以重新发送');
+//		        var timer = setInterval(function(){
+//		            times--;
+//		            alert(times);
+//		            _this.val(times + '秒可以重新发送');
+//					alert("您点得太快了!")
+//		            if(times == 0){
+////		                _this.val('发送手机验证码');
+//		                _this.removeAttr('disabled');
+//		                clearInterval(timer);
+//		            }
+//		        },1000);
+//		        _this.attr('disabled','disabled');
+//				sum()
+			})
+			
+			
+			$(".pronum_inp").blur(function(){
+				var brand_price = $(this).parent().siblings(".brand_price").text();
+				var sale_price = $(this).parent().siblings(".sale_price").text();
+				var nowVal = $(this).val();
+				$(this).parent().siblings(".total_brand_price").html(brand_price*nowVal)
+				$(this).parent().siblings(".total_sale_price").html(sale_price*nowVal)
+//				var quantity = parseInt($(this).val());
+//				alert(quantity)
+				
+				if (nowVal.length == 0) {
+			        $(this).val(1);
+			        $(this).parent().siblings(".total_brand_price").html(brand_price)
+					$(this).parent().siblings(".total_sale_price").html(sale_price)
+			    }
+				if(typeof nowVal === 'number' && nowVal%1 === 0){
+					$(this).val(nowVal)
+					
+				}else{
+					$(this).val(Math.ceil($(this).val()))
+				}
+				
+				var quantity = parseInt($(this).val());
+				alert(quantity)
+					
+				sum()
+			})
+			
+			$(".delete").click(function(){
+				
+//				var quantity = $(this).parent().siblings().children(".pronum_inp").val();
+//				var goods_id = $(this).parent().siblings(".goods_id").val();
+				
+				
+				if(confirm('你确定删除该商品么？')){
+					
+					$(this).parent().parent().remove();
+					if($("table tr").length == 1){
+						 alert("您的购物车没有商品，返回首页中。。。")
+		                window.location.href="index.html";
+					}
+				}
+				
+				
+				
+				
+//				var quantity = $(this).parent().siblings().children(".pronum_inp").val();
+//				var goods_id = $(this).parent().siblings(".goods_id").val();
+//				var data={
+//					quantity:quantity,
+//					goods_id:goods_id,
+//					
+//				};
+//				var url="/Shop/Goods/del";
+//				$.post(url,data,function(msg){
+//					layer.open({
+//						content:msg
+//						,skin:'msg'
+//						,time:3
+//						,style:'bottom:0;'
+//					});
+//					setTimeout(function(){
+//						window.location.reload();
+//					},1500);
+//				})
+//				
+				
+				
+				
+			})
+			
+			// 求订单的总计
+			function sum() {
+				var $trs = $("#goods tr");
+				var mny_num = 0;
+				var mny_bp = 0;
+				var mny_sp = 0;
+				for(var i = 0; i < $trs.length; i++) {
+					var $tr = $trs.eq(i);
+					// 获取所有数量
+					var num = $tr.children().children(".pronum_inp").val();
+					mny_num += parseFloat(num);
+					
+					//获取所有品牌价格
+					var bp = $tr.children(".total_brand_price").html();
+					mny_bp += parseFloat(bp);
+					
+					//获取所有折扣价格
+					var sp = $tr.children(".total_sale_price").html();
+					mny_sp += parseFloat(sp);
+				}
+				// 写入到合计
+				$(".total_num").html(mny_num);
+				$(".total_bp").html((mny_bp).toFixed(2));
+				$(".total_sp").html((mny_sp).toFixed(2));
+			};
+			
+		</script>
+		
+		
+		<script>
+			
+		</script>
+
+	</body>
+</html>

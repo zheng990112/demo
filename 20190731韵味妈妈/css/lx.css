@@ -1,0 +1,136 @@
+.content-main {
+    width: 995px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 52px;
+}
+
+.content-main .title {
+    text-align: center;
+    margin-top: 87px;
+    color: #552512;
+}
+
+.title .main-title {
+    font-size: 51px;
+    font-weight: lighter;
+}
+
+.title .sub-title {
+    font-size: 29px;
+    font-weight: lighter;
+}
+
+.content-main .form-group {
+    width: 100%;
+    margin-top: 33px;
+}
+
+.form-group .input-group {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-group .input-group input {
+    width: 286px;
+    height: 63px;
+    padding-left: 25px;
+    background-color: #f7eee7;
+    font-size: 20px;
+}
+
+.form-group .textarea-group {
+    /* width: 100%; */
+    padding: 18px 25px;
+    margin-top: 20px;
+    height: 262px;
+    background-color: #f7eee7;
+    background-image: url(../img/lx/text-area.png);
+    background-size: 340px 260px;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+.form-group .textarea-group textarea {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    font-size: 20px;
+    resize: none;
+}
+
+.form-group .btn-group {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.form-group .btn-group button {
+    width: 100%;
+    height: 64px;
+    background-color: #e0b99e;
+    font-size: 21px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.content-main .company {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-top: 37px;
+}
+
+.company .bg-img {
+    position: absolute;
+    bottom: 0;
+    left:50%;
+    z-index: -1;
+    transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+}
+
+.company .company-map {
+    width: 100%;
+    height: 428px;
+    background-color: #552512;
+}
+
+.company .addr {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.company .company-tel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.company .company-tel img {
+    width: 30px;
+    height: 30px;
+}
+
+.company .company-tel span {
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.company .company-name {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 26px;
+}

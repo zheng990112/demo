@@ -1,0 +1,138 @@
+.content {
+    position: relative;
+}
+
+.content .content-icon {
+    position: absolute;
+    left: 0;
+    top: 6.82rem;
+    width: 1.92rem;
+    vertical-align: top;
+}
+
+.content .content-icon-02 {
+    position: absolute;
+    right: 0;
+    top: 1.62rem;
+    width: 2.60rem;
+    vertical-align: top;
+}
+
+.public .part-title::before {
+    width: 3.20rem;
+    margin-left: -1.60rem;
+}
+
+.public .part-title .cn {
+    padding: 0 0.05rem;
+}
+
+.public .part-title .en {
+    padding: 0 0rem;
+}
+
+.part-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.60rem;
+}
+
+.part-info p.desc {
+    font-size: 0.41rem;
+    font-family: myfont;
+    color: #333333;
+}
+
+.part-info .img-box {
+    width: 12rem;
+    box-sizing: border-box;
+    padding: 0.12rem;
+    background-color: #ffffff;
+    margin-top: 0.64rem;
+}
+
+.part-info .pages-box {
+    display: flex;
+    align-items: center;
+    margin-top: 0.54rem;
+}
+
+.part-info .pages-box .page-btn {
+    width: 1.06rem;
+    height: 0.33rem;
+    color: #ffffff;
+    background-color: #B19662;
+    font-size: 0.24rem;
+    line-height: 0.33rem;
+    text-align: center;
+    font-family: myfont;
+}
+
+.part-info .pages-box .pages {
+    margin: 0 0.40rem;
+}
+
+.part-info .pages-box .pages a {
+    font-size: 0.24rem;
+    margin: 0 0.12rem;
+    position: relative;
+}
+
+.part-info .pages-box .pages a.on::after {
+    content: '';
+    display: block;
+    width: 0.20rem;
+    height: 0.20rem;
+    background-image: url(../img/index/page_on.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    bottom: -0.03rem;
+}
+
+.fc1 .fc1-main{
+	width: 100%;
+	background:#fff;
+	padding:0.17rem 0.22rem 0.22rem;
+	margin-top: 0.45rem;
+}
+.fc1 .fc1-main ul li{
+	float:left;
+	width: 3.82rem;
+	height: 2.49rem;
+	margin-right: 0.05rem;
+	margin-top: 0.05rem;
+}
+.fc1 .fc1-main ul li:nth-child(3n){
+	margin-right: 0;
+}
+.fc1 .fc1-main ul li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+
+.fc2 .fc2-main{
+	width: 100%;
+	background:#fff;
+	padding:0.02rem 0.18rem 0.18rem;
+	margin-top: 0.45rem;
+}
+.fc2 .fc2-main ul li{
+	float:left;
+	width: 3.78rem;
+	height: 5.42rem;
+	margin-right: 0.15rem;
+	margin-top: 0.15rem;
+}
+.fc2 .fc2-main ul li:nth-child(3n){
+	margin-right: 0;
+}
+.fc2 .fc2-main ul li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}

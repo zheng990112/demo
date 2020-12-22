@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatitle" content="IE=edge">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<link rel="shortcut icon" type="image/x-icon" href="../img/logoIcon.png" media="screen">
+		<link rel="stylesheet" href="../css/adver2.css" />
+		
+	</head>
+	<body>
+		<div class="adver">
+			<div class="adver_header">
+				<img src="../img/adver2/a0.jpg" alt="" class="lazy"/>
+				<div class="adver_nav">
+					<a href="javascript:;" class="backtop">回到顶部</a>
+					<a href="adver2.html#zs">招商策划</a>
+					<a href="adver2.html#al">案例</a>
+					<a href="adver2.html#hz">合作流程</a>
+					<a href="index.html">网站首页</a>
+				</div>
+			</div>
+			<div class="part part1">
+				<div class="banner">
+					<ul class="banner-list">
+						<li><img src="../img/adver2/a1.jpg" alt="" /></li>
+						<li><img src="../img/adver2/a1.jpg" alt="" /></li>
+						<li><img src="../img/adver2/a1.jpg" alt="" /></li>
+					</ul>
+				</div>
+				<div class="form1">
+					<p class="p1">免费报名咨询</p>
+					<input type="text" placeholder="姓名："/>
+					<input type="text" placeholder="电话："/>
+					<button>提   交</button>
+				</div>
+			</div>
+			<div class="part">
+				<div class="anchor" id="zs"></div>
+				<img data-original="../img/adver2/a2.jpg" alt="" class="lazy"/>
+			</div>
+			<div class="part">
+				<div class="al-anchor" id="al"></div>
+				<img data-original="../img/adver2/a3.jpg" alt="" class="lazy"/>
+				<a href="al-mmr.html" class="mmr-a"></a>
+			</div>
+			<div class="part">
+				<img data-original="../img/adver2/a4.jpg" alt="" class="lazy"/>
+				<a href="al-wjx.html" class="wjx-a"></a>
+			</div>
+			
+			<img data-original="../img/adver2/a5.jpg" alt="" class="lazy"/>
+			<div class="part">
+				<img data-original="../img/adver2/a6.jpg" alt="" class="lazy"/>
+				<a href="al-bsy.html" class="bsy-a"></a>
+			</div>
+			<div class="part part2">
+				<div class="anchor" id="hz"></div>
+				<img data-original="../img/adver2/a7.jpg" alt="" class="lazy"/>
+				<div class="form2">
+					<p class="p1">免费报名咨询</p>
+					<input type="text" placeholder="姓名："/>
+					<input type="text" placeholder="电话："/>
+					<button>提   交</button>
+				</div>
+				<div class="part2-font">
+					<ul class="clearfix">
+						<li>资深顾问沟通</li>
+						<li>双方互通资料</li>
+						<li class="li2">签订合作</li>
+						<li class="li2">若邻提案</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		<script src="../js/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="../js/jq.lazyload.js"></script>
+		<script type="text/javascript">
+            $('img.lazy').lazyload({threshold:100});
+        </script>
+		<script>
+			$(function() {
+				$(window).scroll(function() {
+					var scrollTop = $(window).scrollTop();
+					
+					if(scrollTop > 225) {
+						$(".adver .adver_header .adver_nav").addClass("adver_nav_fix");
+						$(".adver .part1").css({"margin-top": "46px"});
+					} else {
+						$(".adver .adver_header .adver_nav").removeClass("adver_nav_fix");
+						$(".adver .part1").css({"margin-top": "0"});
+					}
+					
+					console.log(scrollTop)
+					if(scrollTop < 800){
+						$(".adver .adver_nav a").removeClass("on");
+						$(".adver .adver_nav a").eq(1).addClass("on");
+					}
+					if(scrollTop > 950 && scrollTop < 1750){
+						$(".adver .adver_nav a").removeClass("on");
+						$(".adver .adver_nav a").eq(2).addClass("on");
+					}
+					if(scrollTop > 1760){
+						$(".adver .adver_nav a").removeClass("on");
+						$(".adver .adver_nav a").eq(3).addClass("on");
+					}
+					
+				});
+				
+				$('.backtop').click(function(){
+					var scrollTop = $(window).scrollTop();
+					$("html,body").animate({ scrollTop: 0 }, 600);
+				});
+				
+				
+				
+				
+				//banner图显示第一个
+				$(".banner-list li").eq(0).fadeIn(0).siblings().fadeOut(0);
+				$(".banner-btn-list li").eq(0).addClass('light').siblings().removeClass('light');
+				//banner图的索引按钮
+				var b_len = $(".banner-list li").length;
+				var li = "";
+				for(var i=0;i<b_len;i++){
+					li += '<li></li>';
+				}
+				var b_create = document.createElement('ul');
+				b_create.className = "banner-btn-list";
+				$(".banner-list").after(b_create);
+				$(".banner-btn-list").html(li);
+				$(".banner-btn-list li").eq(0).addClass('light');
+				
+				//part1中的banner图切换效果
+				var b = 0;
+				var timer,timeout;
+				$(".banner-btn-list li").mouseover(function(){
+					clearInterval(timer);
+					$(this).addClass('light').siblings().removeClass('light');
+					var index = $(this).index();
+					b=index;
+					$(".banner-list li").eq(index).fadeIn(800).siblings().fadeOut(600);
+				})
+				$(".banner-btn-list li").mouseout(function(){
+					timer = setInterval(timeout,3000);
+				})
+				timeout = function(){
+					b++;
+					if(b>=b_len){
+						b = 0;
+					}
+					$(".banner-list li").eq(b).fadeIn(800).siblings().fadeOut(600);
+					$(".banner-btn-list li").eq(b).addClass('light').siblings().removeClass('light');
+				}
+				timer = setInterval(timeout,3000);
+			})
+		</script>
+	</body>
+</html>

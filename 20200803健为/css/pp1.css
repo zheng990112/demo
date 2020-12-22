@@ -1,0 +1,257 @@
+.er-nav {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pp_title {
+  text-align: center;
+}
+.pp_title .p1 {
+  font-size: 58px;
+  color: #006857;
+  margin-top: 45px;
+}
+.pp_title .p1 .span1 {
+  color: #ba9063;
+}
+.pp_title .p1 .span2 {
+  font-size: 36px;
+}
+.pp_title .p1 img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 32px;
+  height: 42px;
+  margin-left: 10px;
+}
+.pp_title .p1_2 {
+  font-size: 72px;
+  color: #006857;
+}
+.pp_title .p1_2 img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 46px;
+  height: 61px;
+}
+.pp_title .p3 {
+  margin-top: 10px;
+  color: #bd986c;
+  font-size: 18px;
+}
+.pp_title .p4 {
+  width: 680px;
+  line-height: 36px;
+  margin: auto;
+  color: #595757;
+  font-size: 24px;
+  margin-top: 25px;
+}
+.pp::before {
+  /*height: 100%;*/
+}
+.pp1 {
+  padding-bottom: 150px;
+}
+.pp1 .listPic {
+  width: 1200px;
+  margin: auto;
+  margin-top: 40px;
+}
+.pp1 .listPic li {
+  float: left;
+  text-align: center;
+  width: 240px;
+}
+.pp1 .listPic li div {
+  height: 125px;
+  width: 239px;
+  border-left: 1px solid #ba9063;
+  margin-bottom: 20px;
+}
+.pp1 .listPic li:first-child div {
+  width: 240px;
+  border-left: none;
+}
+.pp1 .listPic p {
+  font-size: 24px;
+}
+.pp1 .listPic .p1 {
+  color: #006857;
+}
+.pp1 .listPic .p2 {
+  color: #595757;
+  padding-top: 10px;
+}
+.pp1 .listPic .img1 {
+  display: block;
+  margin: auto;
+  width: 26px;
+  height: 29px;
+  margin-top: 20px;
+}
+.pp1 .listPic .img2 {
+  display: block;
+  margin: auto;
+  width: 223px;
+  height: 223px;
+  border-radius: 50%;
+}
+
+.pp2 .pp_title .p1 {
+  margin: auto;
+  margin-top: 45px;
+  position: relative;
+     margin-bottom: 15px;
+}
+.pp2 .pp_title .p1 .span1 {
+  color: #006857;
+  font-size: 58px;
+  line-height: 1;
+  width: 235px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.pp2 .pp_title .p1 .span1 b{
+ display: block;
+  color: #ba9063;
+}
+.pp2 .pp_title .p1 .span3{
+	font-size: 116px;
+	line-height: 1;
+  color: #006857;
+  display: inline-block;
+  vertical-align: middle;
+ font-weight: bold;
+}
+.pp2 .listPic {
+  width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+}
+.pp2 .listPic li {
+  width: 399.33px;
+  height: 520px;
+  float: left;
+  border-left: 1px solid #ba9063;
+  text-align: center;
+}
+.pp2 .listPic li:first-child {
+  border-left: none;
+}
+.pp2 .listPic li img {
+  display: block;
+  margin: auto;
+}
+.pp2 .listPic p {
+  color: #ba9063;
+  font-size: 36px;
+  line-height: 47px;
+}
+.pp2 .listPic li .img1 {
+  margin: 15px auto;
+  width: 31px;
+  height: 24px;
+}
+.pp2 .listPic li .img2 {
+  width: 323px;
+  height: 372px;
+}
+.pp2 .solid {
+  width: 1200px;
+  height: 2px;
+  margin: 70px auto 60px;
+  background-color: #ba9063;
+  position: relative;
+}
+.pp2 .solid::after {
+  content: "";
+  width: 100px;
+  height: 6px;
+  background-color: #006857;
+  position: absolute;
+  top: -2px;
+  left: 50%;
+  margin-left: -50px;
+}
+.pp2 .pp_title2 .p1 {
+  padding: 0;
+  width: 100%;
+  color: #ba9063;
+  font-size: 48px;
+  margin-bottom: 0;
+}
+.pp2 .pp_title2 .p2 {
+  font-size: 120px;
+  color: #006857;
+  font-weight: bold;
+     line-height: 1;
+}
+.pp2 .pp_title2 .p5 {
+  font-size: 36px;
+  color: #ba9063;
+  letter-spacing: 16px;
+  margin-top: 10px;
+}
+.pp2 .pp_title2 img {
+  margin: auto;
+  margin-top: 20px;
+  display: block;
+  width: 31px;
+  height: 45px;
+}
+.pp2 .boxs {
+  width: 1200px;
+  margin: auto;
+  margin-top: 20px;
+  position: relative;
+  height: 660px;
+}
+.pp2 .boxs .boxs-left {
+  float: left;
+}
+.pp2 .boxs .boxs-right {
+  float: right;
+  text-align: right;
+}
+.pp2 .boxs img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 865px;
+  height: 660px;
+}
+.pp2 .boxs .p1 {
+  margin-top: 50px;
+  font-size: 36px;
+  color: #006857;
+}
+.pp2 .boxs .p1:first-child {
+  margin-top: 20px;
+}
+.pp2 .boxs .p2 {
+  font-size: 24px;
+  height: 68px;
+  line-height: 34px;
+  color: #333333;
+}
+.pp2 .pp2-text {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+.pp2 .pp2-text .p1 {
+  font-size: 36px;
+  color: #ba9063;
+  margin-bottom: 20px;
+}
+.pp2 .pp2-text .p2 {
+  font-size: 24px;
+  line-height: 32px;
+  color: #333333;
+}

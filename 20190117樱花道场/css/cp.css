@@ -1,0 +1,23 @@
+.er-title .title-nav li{
+	width:16.66%;
+}
+.xx-title{
+	text-align: center;
+	font-family: myfont;
+}
+.xx-title .p1{
+	font-size: 48px;
+	color:#050b26;
+	line-height: 52px;
+	margin-top: 60px;
+	letter-spacing: 10px;
+}
+.xx-title .p2{
+	font-size: 20px;
+	letter-spacing: 5px;
+}
+.xx-title img{
+	display: block;
+	margin:0 auto; 
+	margin-top:20px;
+}

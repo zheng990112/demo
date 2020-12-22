@@ -1,0 +1,211 @@
+
+
+
+.main {
+    padding-bottom: 1.8rem;
+}
+.ar-title{
+	text-align: center;	
+	text-transform: uppercase;
+}
+.ar-title .p1{
+	font-size: 0.47rem;
+	color:#d9d9d9;
+}
+.ar-title .p1 span{
+	font-weight: bold;
+}
+.ar-title .p2{
+	font-size: 0.47rem;
+	color:#c09862;
+	font-weight: bold;
+	display: inline-block;
+	position:relative;
+}
+.ar-title .p2::before,
+.ar-title .p2::after{
+	content:"";
+	display: inline-block;
+	width: 2.2rem;
+	height: 0.36rem;
+	background: url(../img/ar/a1.jpg) no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	top: 50%;
+	margin-top: -0.18rem;
+}
+.ar-title .p2::before{
+	left:-2.5rem;
+}
+.ar-title .p2::after{
+	right:-2.5rem;
+}
+.ar-title .line{
+	width: 0.5rem;
+	height: 3px;
+	background-color: #d8d8d8;	
+	margin:0.3rem auto;
+}
+
+
+
+.vedio-box {
+	float:left;
+	display: inline-block;
+	width: 3.84rem;
+	height:2.56rem;
+	position: relative;
+	margin-right: 0.39rem;
+	/*background: #000;*/
+}
+.vedio-box:last-child{
+	margin-right: 0;
+}
+.vedio-img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.vedio-box video,
+.vedio-box embed {
+	width: 100%!important;
+	height: 100%!important;
+}
+
+.play {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 0.7rem;
+	height:0.7rem;
+	display: block;
+	margin-top:-0.35rem;
+	margin-left:-0.35rem;
+	cursor: pointer;
+	z-index: 12;
+}
+
+
+.form{
+	width: 12.3rem;
+	margin:0 auto;
+	height: 4.44rem;
+	background: url(../img/ar/a3.jpg) no-repeat;
+	background-size: 100% 100%;
+	margin-top: 0.6rem;
+}
+.form .box{
+	width: 9.75rem;
+	margin:0 auto;
+	font-size:0;
+	padding-top: 0.45rem;
+	box-sizing: border-box;
+}
+.form .box .p1{
+	font-size: 0.63rem;
+	color:#fff;
+	font-weight: bold;
+	text-align: center;
+	position:relative;
+}
+.form .box .p1::before,
+.form .box .p1::after{
+	content:"";
+	display: inline-block;
+	width: 2.65rem;
+	height: 1px;
+	background-color: #fff;
+	position:absolute;
+	top: 50%;
+}
+.form .box .p1::before{
+	left: 0;
+}
+.form .box .p1::after{
+	right: 0;
+}
+.form .box input{
+	display: inline-block;
+	width: 3.05rem;
+	height: 0.48rem;
+	background-color: #fff;
+	margin-right: 0.3rem;
+	font-size: 0.25rem;
+	color:#c6c6c6;
+	padding-left: 0.15rem;
+	box-sizing: border-box;
+	margin-top: 0.3rem;
+}
+.form .box input.input3{
+	margin-right: 0;
+}
+.form .box textarea{
+	width:9.75rem;
+	height: 1.5rem;
+	background-color: #fff;
+	resize: none;
+	margin-top: 0.3rem;
+	font-size: 0.25rem;
+	color:#c6c6c6;
+	padding-left: 0.15rem;
+	padding-top: 0.1rem;
+	box-sizing: border-box;
+}
+.form button{
+	width: 2.7rem;
+	height: 0.66rem;
+	display: block;
+	margin:0 auto;
+	border-radius:0.2rem;
+	background-color: #b58d62;
+	color:#fff;
+	margin-top:1rem;
+	font-size: 0.32rem;
+	cursor: pointer;
+}
+.form .box .p2{
+	position:relative;
+}
+.form .box .p2::before,
+.form .box .p2::after{
+	content:"";
+	display: inline-block;
+	width: 2.65rem;
+	height: 1px;
+	background-color: #b58d62;
+	position:absolute;
+	top: 50%;
+}
+.form .box .p2::before{
+	left: 0;
+}
+.form .box .p2::after{
+	right: 0;
+}
+
+
+
+
+input::-webkit-input-placeholder ,
+textarea::-webkit-input-placeholder {
+	color:#c6c6c6;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+/* FF 4-18 */
+	color:#c6c6c6;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+/* FF 19+ */
+	color:#c6c6c6;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+/* IE 10+ */
+	color:#c6c6c6;
+}

@@ -1,0 +1,14 @@
+@function px2vw($px) {
+    @return $px*100/$designWidth+vw;
+}
+
+@function px2vh($px) {
+    @return $px*100/$designHeight+vh;
+}
+
+@function pxvw($px) {
+    @return ($px/$designWidth) * 1280+px;
+}
+
+$designWidth: 1920;
+$designHeight: 880;

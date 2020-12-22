@@ -1,0 +1,1122 @@
+.section {
+  overflow: hidden;
+}
+
+#fp-nav {
+  top: 0.9rem;
+  right: 0.6rem;
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  top: 0;
+  left: 0;
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  background: #ffffff;
+}
+
+#fp-nav ul li a.active span,
+#fp-nav ul li:hover a.active span,
+.fp-slidesNav ul li a.active span,
+.fp-slidesNav ul li:hover a.active span {
+  margin: 0;
+  background: #d4b996;
+}
+
+#fp-nav ul li a:hover span,
+.fp-slidesNav ul li a:hover span {
+  margin: 1px;
+  width: 10px;
+  height: 10px;
+  background: #d4b996;
+}
+
+
+.section .page_main {
+  min-width: 2rem;
+  min-height: 1rem;
+  margin: auto;
+  position: relative;
+  z-index: 0;
+  padding-top: 0.01rem;
+}
+
+.page1 {
+  background: url(../img/index/bg1.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+.page1 .page_main {
+  width: 15.2rem;
+  margin-left: 2.64rem;
+}
+
+.page1 .fl-lt {
+  width: 6.1rem;
+}
+
+.page1 .fl-lt .img1 {
+  margin-left: 1.36rem;
+  width: 3.38rem;
+  height: 1.26rem;
+}
+
+.page1 .fl-lt .p1 {
+  margin-top: 0.52rem;
+  font-weight: bold;
+  margin-left: 0.4rem;
+  color: #c00e12;
+  font-size: 0.22rem;
+  font-family: "myfont_Magpie";
+}
+
+.page1 .fl-lt .p2 {
+  width: 6.1rem;
+  height: 1.16rem;
+  background: url(../img/index/a_icon2.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+.page1 .fl-lt .p2 span {
+  display: block;
+  font-size: 0.36rem;
+  color: #ffffff;
+  font-family: "myfont_Magpie";
+  margin-top: 0.4rem;
+  margin-left: 0.54rem;
+}
+
+.page1 .fl-lt .p3 {
+  width: 5.4rem;
+  margin-left: 0.4rem;
+  text-align: justify;
+  font-size: 0.2rem;
+  color: #595757;
+  line-height: 0.36rem;
+  margin-top: 0.1rem;
+}
+
+.page1 .fl-lt .p4 {
+  width: 100%;
+  text-align: right;
+}
+
+.page1 .fl-lt .p4 a {
+  display: inline-block;
+  width: 0.76rem;
+  height: 0.26rem;
+  border: 2px solid #d4b996;
+  border-radius: 0.13rem;
+  background-color: #b5221c;
+  text-align: center;
+  line-height: 0.2rem;
+  font-size: 0.22rem;
+  color: #d4b996;
+  font-family: "myfont_Magpie";
+  font-weight: bold;
+}
+
+.page1 .fl-lt .p4 a:hover {
+  opacity: 0.6;
+}
+
+.page1 .fl-rt {
+  margin-top: 0.2rem;
+  width: 8.7rem;
+  padding: 0.1rem;
+  background-color: #474747;
+  border-radius: 0.1rem;
+}
+
+.page1 .vedio-box {
+	display: inline-block;
+	width: 8.7rem;
+	position: relative;
+	z-index: 9;
+}
+
+.page1 .vedio-img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.page1 .vedio-box video,
+.page1 .vedio-box video,
+ .vedio-box embed {
+	width: 100%!important;
+	height: 100%!important;
+}
+
+.page1 .play {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	display: block;
+  top: 50%;
+  left: 50%;
+  margin-left: -24px;
+  margin-top: -24px;
+	cursor: pointer;
+	z-index: 12;
+}
+/* 
+.page1 .fl-rt .img1 {
+  display: block;
+  margin: auto;
+  width: 8.46rem;
+  height: 5.08rem;
+  margin-top: 0.12rem;
+}
+
+.page1 .fl-rt .img2 {
+  width: 8.3rem;
+  height: 0.4rem;
+  display: block;
+  margin: auto;
+  margin-top: 0.1rem;
+} */
+
+.page2 {
+  background: url(../img/index/bg2.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+.page2 .page_main {
+  width: 13.96rem;
+  margin-left: 3.46rem;
+}
+
+.page2 .page_title {
+  float: left;
+}
+
+.page2 .page_title .p1 {
+  color: #c00e12;
+  font-size: 0.2rem;
+  font-family: "myfont_Magpie";
+  font-weight: bold;
+  margin-left: 0.7rem;
+}
+
+.page2 .page_title .p2 {
+  width: 4.66rem;
+  height: 1.1rem;
+  background: url(../img/index/b_icon1.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+.page2 .page_title .p2 span {
+  font-size: 0.4rem;
+  font-family: "myfont_Magpie";
+  color: #ffffff;
+  display: block;
+  margin-top: 0.3rem;
+  margin-left: 1.2rem;
+}
+
+.page2 .page_title .p3 {
+  color: #595757;
+  font-size: 0.42rem;
+  margin-left: 0.7rem;
+  font-family: "myfont_Magpie";
+}
+
+.page2 ul {
+  margin-left: 0.7rem;
+}
+
+.page2 ul li {
+  float: left;
+  margin-left: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.page2 ul li:nth-child(3n+3) {
+  margin-left: 0;
+}
+
+.page2 ul .img1 {
+  float: left;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+}
+
+.page2 ul div {
+  float: left;
+}
+
+.page2 ul .img2 {
+  display: block;
+  margin: auto;
+  width: 1.66rem;
+  height: 1.66rem;
+}
+
+.page2 ul p {
+  text-align: center;
+  font-size: 0.26rem;
+  color: #3e3a39;
+  padding-bottom: 0.06rem;
+  border-bottom: 1px solid #3e3a39;
+}
+
+.page3 {
+  background: url(../img/index/bg3.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+.page3 .page_main {
+  float: right;
+  width: 13.46rem;
+  height: 100%;
+  padding: 0;
+  margin-left: 5.74rem;
+}
+
+.page3 .fl-lt {
+  width: 4.24rem;
+}
+
+.page3 .fl-lt img {
+  display: block;
+  margin-top: 0.3rem;
+  width: 4.24rem;
+  height: 2.76rem;
+}
+
+.page3 .fl-lt ul {
+  width: 2.4rem;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 0.1rem;
+  margin-left: 0.7rem;
+}
+
+.page3 .fl-lt ul li {
+  width: 0.48rem;
+  height: 1.84rem;
+  background: url(../img/index/c_icon1.png) no-repeat;
+  background-size: 100% 100%;
+  font-size: 0.32rem;
+  color: #ac1f25;
+  font-family: "myfont_Magpie";
+  line-height: 1;
+}
+
+.page3 .fl-lt ul p {
+  padding-top: 0.28rem;
+}
+
+.page3 .fl-rt {
+  width: 9.76rem;
+  height: 2rem;
+  margin-left: -1rem;
+}
+
+.page3 .fl-rt .p1 {
+  margin-top: 0.8rem;
+  color: #c00e12;
+  font-size: 0.2rem;
+  font-family: "myfont_Magpie";
+  font-weight: bold;
+  margin-left: 0.7rem;
+}
+
+.page3 .fl-rt .p2 {
+  width: 4.66rem;
+  height: 1.1rem;
+  background: url(../img/index/b_icon1.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+.page3 .fl-rt .p2 span {
+  font-size: 0.4rem;
+  font-family: "myfont_Magpie";
+  color: #ffffff;
+  display: block;
+  margin-top: 0.3rem;
+  margin-left: 0.8rem;
+}
+
+.page3 .fl-rt .p3 {
+  color: #ffffff;
+  font-size: 0.42rem;
+  margin-left: 0.7rem;
+  font-family: "myfont_Magpie";
+}
+
+.page3 .fl-rt ul {
+  width: 100%;
+  margin-top: -1.36rem;
+}
+
+.page3 .fl-rt ul li {
+  float: left;
+  position: relative;
+}
+
+.page3 .fl-rt ul li:first-child {
+  float: right;
+  width: 3.34rem;
+  height: 4.74rem;
+}
+
+.page3 .fl-rt ul li:nth-child(2) {
+  margin-top: 2rem;
+  margin-left: -0.2rem;
+  width: 3.82rem;
+  height: 2.93rem;
+}
+
+.page3 .fl-rt ul li:last-child {
+  margin-left: 2.9rem;
+  margin-top: -1.4rem;
+  width: 3.89rem;
+  height: 3.33rem;
+}
+
+.page3 .fl-rt ul li img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.page3 .fl-rt ul .list_title {
+  position: absolute;
+}
+
+.page3 .fl-rt ul .list_title .p4 {
+  font-size: 0.3rem;
+  color: #ac1f25;
+  line-height: 1;
+}
+
+.page3 .fl-rt ul .list_title .p5 {
+  font-size: 0.46rem;
+  color: #ffffff;
+  font-family: "myfont_Magpie";
+  line-height: 1;
+  position: relative;
+  z-index: -1;
+}
+
+.page3 .fl-rt ul .list_title .p5::after {
+  content: "";
+  width: 0.58rem;
+  height: 0.62rem;
+  background: url(../img/index/c_icon4.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: -0.18rem;
+  top: 0;
+  z-index: -1;
+}
+
+.page3 .fl-rt ul li:first-child .p5::after {
+  right: 1.88rem;
+  top: -0.12rem;
+}
+
+.page3 .fl-rt ul li:first-child .list_title {
+  left: -0.86rem;
+  top: 0.8rem;
+}
+
+.page3 .fl-rt ul li:nth-child(2) .list_title {
+  left: 0.86rem;
+  bottom: -1.1rem;
+}
+
+.page3 .fl-rt ul li:last-child .list_title {
+  top: -1.2rem;
+  left: 1rem;
+}
+
+.page3 .fl-rt ul li:first-child::after {
+  content: "";
+  width: 0.12rem;
+  height: 0.78rem;
+  background: url(../img/index/c_icon3.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0.4rem;
+  top: 1.6rem;
+}
+
+.page3 .fl-rt ul li:nth-child(2)::after {
+  content: "";
+  width: 0.12rem;
+  height: 0.78rem;
+  background: url(../img/index/c_icon2.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 1.9rem;
+  top: 2.4rem;
+}
+
+.page3 .fl-rt ul li:last-child::after {
+  content: "";
+  width: 0.12rem;
+  height: 0.78rem;
+  background: url(../img/index/c_icon3.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 1.9rem;
+  top: -0.4rem;
+}
+
+.page4 {
+  background: url(../img/index/bg4.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+.page4 .page_main {
+  width: 12.8rem;
+  margin-left: 3.66rem;
+}
+
+.page4 .fl-lt {
+  width: 3.3rem;
+  height: 7.6rem;
+}
+
+.page4 .fl-lt img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.page4 .fl-rt {
+  width: 8.56rem;
+}
+
+.page4 .subTitle {
+  margin-left: 1.4rem;
+  padding-top: 0.8rem;
+}
+
+.page4 .subTitle .p2 {
+  margin-left: -2rem;
+}
+
+.page4 .subTitle .p2 span {
+  display: block;
+  margin-top: 0.38rem;
+  margin-left: 2.2rem;
+}
+
+.page4 ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.page4 ul:after {
+  content: "";
+  width: 2.78rem;
+  display: block;
+  height: 0;
+}
+
+.page4 ul li {
+  width: 2.78rem;
+  margin-top: 0.3rem;
+}
+
+.page4 ul img {
+  display: block;
+  width: 2.78rem;
+  height: 1.6rem;
+  border-radius: 0.26rem;
+}
+
+.page4 ul p {
+  text-align: center;
+  font-size: 0.32rem;
+  color: #3e3a39;
+  font-family: "myfont_Magpie";
+}
+
+.page6 {
+  background: url(../img/index/bg6.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+.page6 .page_main {
+  padding: 0;
+  height: 100%;
+}
+
+.page6 .fl-rt {
+  width: 10rem;
+  height: 100%;
+}
+
+.page6 .fl-rt img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.page6 .page_box {
+  width: 5.76rem;
+  float: right;
+}
+
+.page6 .subTitle {
+  margin-top: 1.4rem;
+}
+
+.page6 .subTitle .p2 {
+  width: 6.62rem;
+  height: 1.16rem;
+  background: url(../img/index/subTitle_f.png) no-repeat;
+  background-size: 100% 100%;
+  margin-left: -0.2rem;
+}
+
+.page6 .subTitle .p2 span {
+  margin-top: 0.4rem;
+  margin-left: 0.4rem;
+}
+
+.page6 .lastP {
+  font-size: .32rem;
+  color: #595757;
+  margin-top: 0.2rem;
+}
+
+.page6 .str p {
+  width: 2.2rem;
+  height: 0.34rem;
+  line-height: 0.34rem;
+  border: 2px solid #d4b996;
+  text-align: center;
+  font-size: 0.2rem;
+  color: #595757;
+  display: inline-block;
+  margin-top: 0.2rem;
+}
+
+.page6 .str p:last-child {
+  margin-left: 0.06rem;
+}
+
+.page6 .pic {
+  display: block;
+  justify-content: space-between;
+  width: 9.2rem;
+  margin-top: 0.4rem;
+}
+
+.page6 .pic img {
+  width: 4.5rem;
+  height: 3rem;
+}
+
+.page7 {
+  background: url(../img/index/bg7.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+.page7 .page_main {
+  width: 13.1rem;
+  margin-left: 4rem;
+}
+
+.page7 .list_pic {
+  width: 13.1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page7 .list_pic li {
+  width: 3.8rem;
+  height: 2.76rem;
+}
+
+.page7 .list_pic li:nth-child(2) {
+  width: 5.3rem;
+}
+
+.page7 .list_pic img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.page7 .list_pic p {
+  width: 2rem;
+  height: 0.5rem;
+  line-height: 0.48rem;
+  background: url(../img/index/g_icon1.png) no-repeat;
+  background-size: 100% 100%;
+  margin-top: -0.76rem;
+  margin-left: -0.1rem;
+  position: relative;
+  z-index: 2;
+  font-size: 0.26rem;
+  color: #ffffff;
+  padding-left: 0.28rem;
+}
+
+.page7 .firstP {
+  text-align: center;
+  font-size: 0.22rem;
+  color: #c00e12;
+  font-family: "myfont_Magpie";
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 0.2rem;
+}
+
+.page7 .firstP2 {
+  width: 11.54rem;
+  height: 0.76rem;
+  padding-top: 0.3rem;
+  margin: auto;
+  background: url(../img/index/subTitle_g.png) no-repeat;
+  background-size: 100% 100%;
+  margin-top: -0.2rem;
+  text-align: center;
+  font-size: 0.42rem;
+  color: #ffffff;
+  font-family: "myfont_Magpie";
+}
+
+.page7 .str {
+  margin-top: 0.2rem;
+  width: 100%;
+  height: 0.6rem;
+  background-color: #d4b996;
+  text-align: center;
+}
+
+.page7 .str span {
+  display: inline-block;
+  width: 6.98rem;
+  height: 0.4rem;
+  background: url(../img/index/g_icon2.png) no-repeat;
+  background-size: 100% 100%;
+  font-size: 0.28rem;
+  color: #ffffff;
+}
+
+.page7 .listStr {
+  width: 11.76rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 0.2rem;
+}
+
+.page7 .listStr li {
+  margin-top: 0.2rem;
+  width: 2.66rem;
+  height: 0.64rem;
+  background: url(../img/index/g_icon3.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.page7 .listStr img {
+  display: inline-block;
+  vertical-align: top;
+  width: 0.54rem;
+  height: 0.54rem;
+  border-radius: 50%;
+  margin-top: 0.05rem;
+  margin-left: 0.04rem;
+}
+
+.page7 .listStr span {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 0.36rem;
+  color: #c00e12;
+  margin-left: 0.2rem;
+  padding-top: 0.06rem;
+}
+
+.page8 {
+  background: url(../img/index/bg8.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+.page8 .page_main {
+  margin-left: 3.7rem;
+}
+
+.page8_swiper {
+  width: 7.68rem;
+  height: 5.7rem;
+  position: relative;
+}
+
+.page8-swiper {
+  width: 7.68rem;
+  height: 5.24rem;
+}
+
+.page8-swiper .swiper-slide {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.page8-swiper img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.page8-swiper img:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+}
+
+.page8_swiper .swiper-pagination {
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.page8_swiper .swiper-pagination-bullet {
+  width: 0.14rem;
+  height: 0.14rem;
+  margin-left: 0.12rem;
+  background: #ffffff;
+  opacity: 1;
+}
+
+.page8_swiper .swiper-pagination-bullet-active {
+
+  background: #d4b996;
+  opacity: 1;
+}
+
+.page8_swiper .swiper-pagination-bullet:focus {
+  display: none;
+}
+
+.page8 .news {
+  margin-left: 0.64rem;
+  width: 5.64rem;
+  padding-top: 0.7rem;
+}
+
+.page8 .news .news_title {
+  padding-top: 0.01rem;
+  height: 0.81rem;
+  background: url(../img/index/h_iocn1.png) right no-repeat;
+  background-size: 3.76rem 0.82rem;
+}
+
+.page8 .news .news_title span {
+  display: block;
+  width: 4.4rem;
+  font-size: 0.56rem;
+  color: #c30d23;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: -0.18rem;
+  padding-bottom: 0.1rem;
+  border-bottom: 2px solid #d4b996;
+}
+
+.page8 .news .listStr {
+  width: 5rem;
+  padding-top: 0.2rem;
+}
+
+.page8 .news .listStr li {
+  width: 100%;
+  float: left;
+  font-size: 0.2rem;
+  margin-top: 0.18rem;
+}
+
+.page8 .news .listStr a {
+  width: 100%;
+  float: left;
+}
+
+.page8 .news .listStr p {
+  font-weight: bold;
+  color: #59553b;
+}
+
+.page8 .news .listStr .p1 {
+  float: left;
+  width: 3.7rem;
+}
+
+.page8 .news .listStr .p2 {
+  float: right;
+}
+
+.page8 .news .listStr a.on p,
+.page8 .news .listStr a:hover p {
+  color: #c30d23;
+}
+
+.page8 .news .more {
+  width: 5.14rem;
+  margin-top: 0.6rem;
+  text-align: right;
+  position: relative;
+  z-index: 0;
+}
+
+.page8 .news .more a {
+  display: inline-block;
+  padding: 0 0.1rem;
+  border: 2px solid #d4b996;
+  height: 0.24rem;
+  line-height: 0.24rem;
+  font-size: 0.2rem;
+  color: #d4b996;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #c00e12;
+  border-radius: 0.13rem;
+}
+
+.page8 .news .more a:hover {
+  opacity: 0.8;
+}
+
+.page8 .news .more::after {
+  content: "";
+  width: 4.8rem;
+  height: 2px;
+  background: #d4b996;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -1px;
+  z-index: -1;
+}
+
+.page9 {
+  background: url(../img/index/bg9.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+.page9 .fp-tableCell {
+  vertical-align: bottom;
+}
+
+.page9 .page_main {
+  width: 12.54rem;
+  margin-left: 4.2rem;
+  padding-bottom: 0.54rem;
+}
+
+.page9 .form_box {
+  width: 6.12rem;
+  height: 5.24rem;
+  float: left;
+  background: #d4b996;
+  border-radius: 0.2rem;
+}
+
+.page9 .form_box .p1 {
+  text-align: center;
+  background: url(../img/index/i_icon1.png) center top no-repeat;
+  background-size: 3.24rem 0.44rem;
+  color: #ffffff;
+  line-height: 0.44rem;
+  font-size: 0.3rem;
+  text-indent: 0.1rem;
+  letter-spacing: 0.1rem;
+}
+
+.page9 input,
+.page9 textarea {
+  display: block;
+  margin: auto;
+  padding-left: 0.34rem;
+  width: 4.66rem;
+  height: 0.38rem;
+  margin-top: 0.38rem;
+  background: #ffffff url(../img/index/input1.png) left center no-repeat;
+  background-size: 0.34rem 0.34rem;
+  font-size: 0.16rem;
+  color: #a6a7a7;
+  font-weight: bold;
+}
+
+.page9 input:nth-child(2) {
+  background: #ffffff url(../img/index/input2.png) left center no-repeat;
+  background-size: 0.34rem 0.34rem;
+}
+
+.page9 input:nth-child(3) {
+  background: #ffffff url(../img/index/input3.png) left center no-repeat;
+  background-size: 0.34rem 0.34rem;
+}
+
+.page9 textarea {
+  width: 4.56rem;
+  padding: 0.08rem 0.1rem 0.08rem 0.34rem;
+  height: 1.1rem;
+  resize: none;
+  background: #ffffff url(../img/index/input4.png) left top no-repeat;
+  background-size: 0.34rem 0.34rem;
+}
+
+.page9 input:first-child {
+  margin-top: 0.32rem;
+}
+
+.page9 input:last-child {
+  padding: 0;
+  width: 3.22rem;
+  height: 0.52rem;
+  cursor: pointer;
+  padding-bottom: 0.08rem;
+  background: url(../img/index/input5.png) center no-repeat;
+  background-size: 100% 100%;
+  color: #ffffff;
+  font-size: 0.28rem;
+  text-indent: 0.1rem;
+  letter-spacing: 0.1rem;
+  margin-top: 0.2rem;
+}
+
+.page9 .pic {
+  float: left;
+  margin-left: 0.26rem;
+}
+
+.page9 .pic .p1 {
+  color: #ffffff;
+  height: 0.4rem;
+  padding: 0 0.2rem;
+  background: #c00e12;
+  font-size: 0.26rem;
+  display: inline-block;
+  line-height: 0.4rem;
+  border-radius: 0.2rem;
+  position: relative;
+  margin-top: 0.34rem;
+}
+
+.page9 .pic .p1::before {
+  content: "";
+  display: inline-block;
+  width: 4.18rem;
+  height: 2px;
+  background: #c00e12;
+  position: absolute;
+  top: 50%;
+  margin-top: -1px;
+  right: -4.4rem;
+}
+
+.page9 .pic img {
+  display: block;
+  width: 5.96rem;
+  height: 3.8rem;
+  margin-top: 0.5rem;
+}
+
+.page9 .page_footer {
+  display: flex;
+  justify-content: space-between;
+  width: 12.36rem;
+  margin: auto;
+  margin-top: 0.8rem;
+}
+
+.page9 .page_footer .code {
+  width: 1.02rem;
+  height: 1.02rem;
+}
+
+.page9 .page_footer .code img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.page9 .page_footer .str {
+  border-top: 0.08rem solid #d4b996;
+  width: 11rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page9 .page_footer .str .p1 img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0.54rem;
+  height: 0.54rem;
+}
+
+.page9 .page_footer .str .p1 p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.page9 .page_footer .str .p1 span {
+  display: block;
+  line-height: 1;
+  color: #59553b;
+}
+
+.page9 .page_footer .str .p1 span:last-child {
+  font-size: 0.34rem;
+  font-family: "myfont_Magpie";
+}
+
+.page9 .page_footer .str .p2 {
+  font-size: 0.22rem;
+  color: #59553b;
+}
+
+.page9 .page_footer .str .p3 {
+  width: 3.4rem;
+  font-size: 0.22rem;
+  color: #59553b;
+  text-align: justify;
+}
+
+.page9 .page_footer .str .p4 {
+  font-size: 0.16rem;
+  line-height: 0.26rem;
+  color: #59553b;
+  text-align: justify;
+  width: 2rem;
+}
+
+
+.animated {
+  -webkit-animation-duration: 2s; 
+  animation-duration: 2s; 
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+} 
+
+@media(max-width: 1366px) {
+  .page9 .page_footer .str .p4 {
+    width: 2.04rem;
+  }
+}

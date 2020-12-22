@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+   		<meta charset="utf-8">
+	    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	    <title></title>
+	    <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--网站开启对 web app 程序的支持-->
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <!--改变顶部状态条的颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no,email=no,adress=no" />
+	    <link rel="stylesheet" href="../css/phone.css" type="text/css"/>
+	    <script type="text/javascript">
+	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
+	    </script>
+	</head>
+	<body>
+		<div class="adver_phone">
+			<div class="advphone_title">
+				<img src="../img/phone/a1.jpg" alt="" class="lazy"/>
+			</div>
+			<div class="part1">
+				<img src="../img/phone/a2.jpg"/>
+				<img src="../img/phone/a3.jpg"/>
+				<div class="form">
+					<div class="form-box">
+						<p class="p1">报名表单</p>
+						<p class="p2">ENTRY FORM</p>
+						<input type="text" placeholder="姓名"/>
+						<input type="text" placeholder="电话"/>
+						<button>提   交</button>
+					</div>
+				</div>
+			</div>
+			
+			<div class="part2">
+				<img src="../img/phone/b1.jpg" alt="" class="part2-img"/>
+				<img src="../img/phone/b2.jpg" alt="" class="part2-img"/>
+				<img src="../img/phone/b3.jpg" alt="" class="part2-img"/>
+				<div class="part2-main">
+					<div class="part2-btn">
+						<p class="on">葫芦娃火锅</p>
+						<p>膜法传奇</p>
+					</div>
+					<div class="part2-tab">
+						<div class="tab block">
+							<img src="../img/phone/c2.jpg" alt="" />
+							<p class="p1">葫芦娃一家人火锅</p>
+							<p class="line"></p>
+							<p class="p2">若邻打造京城醉美火锅</p>
+						</div>
+						<div class="tab">
+							<img src="../img/phone/c3.jpg" alt="" />
+							<p class="p1">膜法传奇面膜</p>
+							<p class="line"></p>
+							<p class="p2">从0到15亿年销售额</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	
+		<script src="../js/jquery-1.11.2.min.js"></script>
+		<script>
+			$(".part2-btn p").on("click",function(){
+				let index = $(this).index()
+				$(this).addClass("on").siblings().removeClass("on")
+				$(".part2-tab .tab").eq(index).addClass('block').siblings('.part2-tab .tab').removeClass("block");
+			})
+		</script>
+	
+	</body>
+</html>

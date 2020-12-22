@@ -1,0 +1,85 @@
+.xx1 .bigSmall{
+	background-color: #e3b569;
+	width: 880px;
+	margin:0 auto;
+	padding: 10px 0;
+	margin-top: 50px;
+}
+.xx1 .bigSmall .large_box{
+	width: 850px;
+	margin:0 auto;
+	overflow: hidden;
+	height: 367px;
+}
+.xx1 .bigSmall .large_box ul{
+	position: relative;
+}
+.xx1 .bigSmall .large_box ul li{
+	position: relative;
+	width: 850px;
+	height: 367px; 
+}
+.xx1 .bigSmall .large_box ul li img{
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+
+.xx1 .bigSmall .small_box{
+	width: 850px;
+	height: 118px;
+	margin: 0 auto;
+	margin-top: 10px;
+	position: relative;
+	background-color: #e3b569;
+}
+.xx1 .bigSmall .small_box .small_list{
+	width: 852px;
+	height: 118px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.xx1 .bigSmall .small_box .small_list ul{
+	position: relative;
+}
+.xx1 .bigSmall .small_box .small_list ul li{
+	width: 270px;
+	height: 116px;
+	position: relative;
+	float: left;
+	cursor: pointer;
+	margin: 0 6px;
+	overflow: hidden;
+	z-index:3;
+	border:1px solid transparent;
+}
+.xx1 .bigSmall .small_box ul li img{
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+.xx1 .bigSmall .small_box ul li.on{
+	border: 1px solid red;
+}
+.xx1 .arrow{
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+	z-index: 2;
+	width: 24px;
+	height: 69px;
+	cursor: pointer;
+	z-index: 99;
+}
+.xx1 .arrow-left{
+	left: 0;
+}
+.xx1 .arrow-right{
+	right:0;
+} 
+.xx1 .arrow img{
+	overflow: hidden;
+	display: block;
+	width: 24px;
+	height: 69px;
+}
