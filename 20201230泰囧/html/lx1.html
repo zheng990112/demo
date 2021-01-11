@@ -52,6 +52,8 @@
         <p class="p2">400-1811-328</p>
       </div>
     </div>
+
+
   </div>
   <div class="content">
     <div class="banner">
@@ -175,14 +177,22 @@
 
 
 
-
-
-
   <script src="../js/jquery-1.11.2.min.js"></script>
   <script src="../js/swiper.min.js "></script>
+  <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=6ALaE7y1e8N171T2CfPrHqZC3Ed000Cl"></script>
   <script src="../js/hotcss.js"></script>
   <script src="../js/common.js"></script>
-
+  <script type="text/javascript">
+    var map = new BMap.Map("map"); // 创建Map实例
+    var point = new BMap.Point(104.067963, 30.572777);
+    map.centerAndZoom(point, 15);
+    var marker = new BMap.Marker(point); // 创建标注
+    map.addOverlay(marker); // 将标注添加到地图中
+    marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+    map.panTo(point);
+    map.addControl(new BMap.NavigationControl()); // 添加默认缩放平移控件
+    map.enableScrollWheelZoom(true); //开启鼠标滚轮缩放
+  </script>
 
 
 </body>
