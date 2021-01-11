@@ -1,0 +1,269 @@
+body {
+  background: #fdf4df;
+}
+
+.part_main {
+  width: 12rem;
+  margin: auto;
+}
+
+.sub_title {
+  width: 12rem;
+  margin: auto;
+  margin-top: 0.4rem;
+  border-top: 1px solid #dcac5c;
+  text-align: center;
+  position: relative;
+}
+
+.sub_title::before {
+  content: "";
+  width: 1.2rem;
+  height: 0.08rem;
+  background: #007851;
+  position: absolute;
+  top: -0.045rem;
+  left: 50%;
+  margin-left: -0.6rem;
+}
+
+.sub_title .p1 {
+  margin-top: 0.5rem;
+  font-size: 0.6rem;
+  color: #007851;
+  font-weight: bold;
+}
+
+.sub_title .p1 span {
+  color: #dcac5c;
+}
+
+.sub_title .p2 {
+  font-size: 0.36rem;
+  color: #007851;
+  margin-top: 0.1rem;
+}
+
+.part1 {
+  position: relative;
+}
+
+.part1::after {
+  content: "";
+  width: 2.58rem;
+  height: 6rem;
+  background: url(../img/pp/a_bg1.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0.24rem;
+  left: 0;
+}
+
+.part1::before {
+  content: "";
+  width: 3rem;
+  height: 6.74rem;
+  background: url(../img/pp/a_bg2.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: -0.88rem;
+  right: 0;
+}
+
+.pp1 .first_img {
+  display: block;
+  width: 12rem;
+  margin: auto;
+  margin-top: 0.46rem;
+}
+
+.pp1 .str {
+  width: 12rem;
+  margin: auto;
+  text-align: justify;
+  line-height: 0.26rem;
+  font-size: 0.16rem;
+  color: #595757;
+  margin-top: 0.26rem;
+}
+
+.pp1 .first_str {
+  margin-top: 0.46rem;
+}
+
+.pp1 .last_p {
+  width: 12rem;
+  margin: 0.5rem auto 0.96rem;
+  text-align: right;
+  font-size: 0.76rem;
+  color: #e1d4b7;
+}
+
+.pp1 .last_p img {
+  display: inline-block;
+  vertical-align: baseline;
+  width: 0.74rem;
+  height: 0.16rem;
+  margin-right: 0.3rem;
+}
+
+.pp2 .listPic {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.pp2 .listPic li {
+  width: 2.8rem;
+}
+
+.pp2 .listPic .p1 {
+  margin: auto;
+  font-size: 0;
+  text-align: center;
+  width: 2.6rem;
+  height: 0.54rem;
+  line-height: 0.5rem;
+  background: url(../img/pp/b_icon1.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.pp2 .listPic .p1 img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0.16rem;
+  height: 0.2rem;
+}
+
+.pp2 .listPic .p1 span {
+  display: inline-block;
+  vertical-align: middle;
+  color: #007851;
+  font-size: 0.24rem;
+  margin: 0 0.16rem;
+  font-weight: bold;
+}
+
+.pp2 .listPic li>img {
+  display: block;
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 50%;
+}
+
+.pp2 .listPic .p2 {
+  text-align: justify;
+  height: 0.72rem;
+  font-size: 0.16rem;
+  color: #595757;
+  line-height: 0.24rem;
+  margin-top: 0.1rem;
+  margin-bottom: 0.28rem;
+}
+
+.pp2 .last_title{
+  margin-top: 0.66rem;
+}
+.pp2 .part2 p {
+  text-align: center;
+  color: #595757;
+  line-height: 0.28rem;
+  font-size: 0.16rem;
+  margin-top: 0.24rem;
+  font-weight: bold;
+}
+.pp2 .part2 img{
+  display: block;
+  width: 12rem;
+  margin: auto;
+  margin-top: 0.38rem;
+  margin-bottom: 0.9rem;
+}
+
+.pp3 .part1 .first_img{
+  display: block;
+  width: 12rem;
+  margin: auto;
+  margin-top: 0.56rem;
+}
+.pp3 .part1 ul{
+  font-size: 0.2rem;
+  padding-top: 0.5rem;
+  margin-bottom: 1.3rem;
+}
+.pp3 .part1 ul li{
+  float: left;
+  margin-top: 0.16rem;
+}
+.pp3 .part1 ul li:nth-child(2n+2){
+  float: right;
+}
+.pp3 .part1 ul .p1{
+  width: 1.44rem;
+  height: 0.4rem;
+  background: #007851;
+  border-radius: 0.2rem;
+  text-align: center;
+  line-height: 0.4rem;
+  color: #ffffff;
+}
+.pp3 .part1 ul .p2{
+  height: 0.44rem;
+  line-height: 0.4rem;
+  border-bottom: 1px solid #c9cbc9;
+  width: 2.9rem;
+  margin-left: 0.24rem;
+}
+.pp3 .part1 ul li:first-child .p1,
+.pp3 .part1 ul li:last-child .p1{
+  background: #dcac5c;
+}
+.pp3 .part1 ul li:nth-child(2n+2) .p2{
+  width: 4.9rem;
+}
+.pp3 .part1 ul p{
+  float: left;
+}
+
+.pp4 .sub_title .p2{
+  margin-top: 0.5rem;
+}
+.pp4 .sub_title .p1{
+  margin-top: 0.1rem;
+}
+.pp4 .part_box{
+  margin-top: 0.6rem;
+  margin-bottom: 1.4rem;
+}
+.pp4 .str{
+  width: 5.4rem;
+}
+.pp4 .fl-rt{
+  width: 6.6rem;
+  height: 4.24rem;
+}
+.pp4 ul{
+  float: left;
+}
+.pp4 ul ol{
+  float: left;
+}
+.pp4 ul ol:last-child{
+  margin-left: 0.3rem;
+}
+.pp4 ul li{
+  display: block;
+  font-size: 0.2rem;
+  line-height: 0.4rem;
+  color: #595757;
+}
+.pp4 .str p{
+  float: left;
+  font-size: 0.28rem;
+  color: #dcac5c;
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+  padding-top: 0.3rem;
+  border-top: 1px solid #dcac5c;
+}
