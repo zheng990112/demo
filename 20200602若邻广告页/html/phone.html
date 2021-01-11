@@ -1,102 +1,143 @@
 <!DOCTYPE html>
 <html>
-	<head>
-	    <meta charset="UTF-8">
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	    <meta name="apple-mobile-web-app-capable" content="yes">
-	    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-	    <meta name="format-detection" content="telephone=no,email=no,adress=no" />
-	    <title></title>
-	    <link rel="stylesheet" href="../css/aos.css" />
-	    <script src="../js/aos.js"></script>
-	    <link rel="stylesheet" href="../css/animate.min.css" />
-	    <link rel="stylesheet" href="../css/phone.css" />
-	    <script type="text/javascript">
-	        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +'px';
-	    </script>
-	</head>
-	<body>
-		<div class="main">
-			<div class="part part1">
-				<img src="../img/phone/bg_1.jpg" alt="" class="bg_img lazy" />
-				<div class="box">
-					<img src="../img/phone/logo.png" alt="" class="logo"  aos="fade-right" aos-delay="200"/>
-					<img src="../img/phone/a1.png" alt="" class="a1_img"  aos="zoom-in" aos-delay="400"/>
-					<img src="../img/phone/a2.png" alt="" class="a2_img"  aos="fade-up" aos-delay="600"/>
-				</div>
-			</div>
-			<div class="part part2">
-				<img data-original="../img/phone/bg_2.jpg" alt="" class="bg_img lazy" />
-				
-				<a href="tel:13552015616" class="animated pulse infinite"><img src="../img/phone/tel.png" alt="" class="tel_img" /></a>
-			</div>
-			<div class="part part3">
-				<img data-original="../img/phone/bg_3.jpg" alt="" class="bg_img lazy" />
-			</div>
-			
-			<div class="part part4">
-				<img data-original="../img/phone/bg_4.jpg" alt="" class="bg_img lazy" />
-			</div>
-			<div class="part part5">
-				<img src="../img/phone/e1.jpg" alt="" class="bg_img lazy" />
-				<img data-original="../img/phone/e2.jpg" alt="" class="bg_img lazy" />
-				<img data-original="../img/phone/e3.jpg" alt="" class="bg_img lazy" />
-				<img data-original="../img/phone/e4.jpg" alt="" class="bg_img lazy" />
-				<img data-original="../img/phone/e5.jpg" alt="" class="bg_img lazy" />
-				<img data-original="../img/phone/e6.jpg" alt="" class="bg_img lazy" />
-				<img data-original="../img/phone/e7.jpg" alt="" class="bg_img lazy" />
-				<img data-original="../img/phone/e8.jpg" alt="" class="bg_img lazy" />
-			</div>
-			<div class="part part6">
-				<img data-original="../img/phone/f1.jpg" alt="" class="bg_img lazy" />
-				<a href="tel:13552015616" class="animated bounce infinite"><img src="../img/phone/tel.png" alt="" class="tel_img" /></a>
-			</div>
-			<div class="part part7">
-				<img data-original="../img/phone/g1.jpg" alt="" class="bg_img lazy" />
-				<img data-original="../img/phone/g2.jpg" alt="" class="bg_img lazy" />
-				<img data-original="../img/phone/g3.jpg" alt="" class="bg_img lazy" />
-				<a href="tel:13552015616" class="animated pulse infinite"><img src="../img/phone/tel.png" alt="" class="tel_img" /></a>
-			</div>
-		</div>
-		
-		<div class="footer">
-	        <a href="tel:13552015616"><img src="../img/phone/tel.jpg" alt="" /><span>拨打电话</span></a>
-	        <a href="javascript:;" id="codeBtn"><img src="../img/phone/wx.jpg" alt="" /><span>微信咨询</span></a>
-	        <i id="codeNum">david8975</i>
-	    </div>
-		
-		<script src="../js/jquery-2.1.1.min.js"></script>
-    	<script src="../js/jq.lazyload.js"></script>
-    	<script src="../layer.js"></script>
-		<script type="text/javascript">
-	        $('img.lazy').lazyload({
-	            threshold: 100
-	        });
-	    </script>
-	    <script>
-	        AOS.init({
-	            easing: 'ease-out-back',
-	            duration: 1500
-	        });
-	    </script>
-	    <script>
-	        function copyArticle(event) {
-	            const range = document.createRange();
-	            range.selectNode(document.getElementById('codeNum'));
-	
-	            const selection = window.getSelection();
-	            if (selection.rangeCount > 0) selection.removeAllRanges();
-	            selection.addRange(range);
-	            document.execCommand('copy');
-				layer.open({
-					content:'微信号复制成功，快去添加好友吧！'
-					,skin:'msg'
-					,time:40
-					,style:'bottom:0;'
-				});
-	        }
-	        document.getElementById('codeBtn').addEventListener('click', copyArticle, false);
-	    </script>
-	</body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no" />
+  <title></title>
+  <link rel="stylesheet" href="../css/aos.css" />
+  <script src="../js/aos.js"></script>
+  <link rel="stylesheet" href="../css/animate.min.css" />
+  <link rel="stylesheet" href="../css/phone.css" />
+  <script type="text/javascript">
+    document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + 'px';
+  </script>
+</head>
+
+<body>
+  <div class="main">
+    <div class="part part1">
+      <img src="../img/phone/bg_1.jpg" alt="" class="bg_img lazy" />
+      <div class="box">
+        <img src="../img/phone/logo.png" alt="" class="logo" aos="fade-right" aos-delay="200" />
+        <img src="../img/phone/a1.png" alt="" class="a1_img" aos="zoom-in" aos-delay="400" />
+        <img src="../img/phone/a2.png" alt="" class="a2_img" aos="fade-up" aos-delay="600" />
+      </div>
+    </div>
+    <div class="part part2">
+      <img data-original="../img/phone/bg_2.jpg" alt="" class="bg_img lazy" />
+
+      <a href="tel:13552015616" class="animated pulse infinite"><img src="../img/phone/tel.png" alt=""
+          class="tel_img" /></a>
+    </div>
+    <div class="part part3">
+      <img data-original="../img/phone/bg_3.jpg" alt="" class="bg_img lazy" />
+    </div>
+
+    <div class="part part4">
+      <img data-original="../img/phone/bg_4.jpg" alt="" class="bg_img lazy" />
+    </div>
+    <div class="part part5">
+      <img src="../img/phone/e1.jpg" alt="" class="bg_img lazy" />
+      <img data-original="../img/phone/e2.jpg" alt="" class="bg_img lazy" />
+      <img data-original="../img/phone/e3.jpg" alt="" class="bg_img lazy" />
+      <img data-original="../img/phone/e4.jpg" alt="" class="bg_img lazy" />
+      <img data-original="../img/phone/e5.jpg" alt="" class="bg_img lazy" />
+      <img data-original="../img/phone/e6.jpg" alt="" class="bg_img lazy" />
+      <img data-original="../img/phone/e7.jpg" alt="" class="bg_img lazy" />
+      <img data-original="../img/phone/e8.jpg" alt="" class="bg_img lazy" />
+    </div>
+    <div class="part part6">
+      <img data-original="../img/phone/f1.jpg" alt="" class="bg_img lazy" />
+      <a href="tel:13552015616" class="animated bounce infinite"><img src="../img/phone/tel.png" alt=""
+          class="tel_img" /></a>
+    </div>
+    <div class="part part7">
+      <img data-original="../img/phone/g1.jpg" alt="" class="bg_img lazy" />
+      <img data-original="../img/phone/g2.jpg" alt="" class="bg_img lazy" />
+      <img data-original="../img/phone/g3.jpg" alt="" class="bg_img lazy" />
+      <a href="tel:13552015616" class="animated pulse infinite"><img src="../img/phone/tel.png" alt=""
+          class="tel_img" /></a>
+    </div>
+  </div>
+
+  <div class="footer">
+    <a href="tel:13552015616"><img src="../img/phone/tel.jpg" alt="" /><span>拨打电话</span></a>
+    <a href="javascript:;" id="codeBtn"><img src="../img/phone/wx.jpg" alt="" /><span>微信咨询</span></a>
+    <i id="codeNum">david8975</i>
+  </div>
+
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/jq.lazyload.js"></script>
+  <script src="../layer.js"></script>
+  <script type="text/javascript">
+    $('img.lazy').lazyload({
+      threshold: 100
+    });
+  </script>
+  <script>
+    AOS.init({
+      easing: 'ease-out-back',
+      duration: 1500
+    });
+  </script>
+  <script>
+    function copyArticle(event) {
+      const range = document.createRange();
+      range.selectNode(document.getElementById('codeNum'));
+
+      const selection = window.getSelection();
+      if (selection.rangeCount > 0) selection.removeAllRanges();
+      selection.addRange(range);
+      document.execCommand('copy');
+      layer.open({
+        content: '微信号复制成功，快去添加好友吧！'
+        , skin: 'msg'
+        , time: 40
+        , style: 'bottom:0;'
+      });
+    }
+    document.getElementById('codeBtn').addEventListener('click', copyArticle, false);
+    // $(".part a").onclick(function () {
+    //   console.log(window.location.href)
+    // })
+  //   var str = "";
+  //   $(".part a").on("touchend", function () {
+  //     str = window.location.href;
+  //     //str = href.split("?")[1];
+  //   });
+  //   $.ajax({
+  //     type: 'GET',
+  //     url: '/Web/Index/api',
+  //     data: str,
+  //     processData: false,
+  //     contentType: false,
+  //     success: function (arg) {
+  //       console.log(arg)
+  //     }
+  //   })
+  </script>
+  <script>
+    $(".part a").on("touchend", function () {
+      let str = window.location.href;
+      //str = href.split("?")[1];
+      var data = {
+        url: str
+      };
+      var url = "/Web/Index/api";
+
+      $.post(url, data, function (msg) {
+
+      })
+
+    });
+
+  </script>
+
+</body>
+
 </html>
