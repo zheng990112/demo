@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+  <link rel="stylesheet" href="../css/swiper.min.css">
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/lx.css">
+</head>
+
+<body>
+  <div class="header">
+    <div class="header_nav">
+      <div class="logo"><img src="../img/logo.png" alt=""></div>
+      <ul>
+        <li>
+          <a href="index.html" class="title">首页</a>
+        </li>
+        <li>
+          <a href="pp1.html" class="title">关于我们</a>
+        </li>
+        <li>
+          <a href="cp1.html" class="title">新派产品</a>
+        </li>
+        <li>
+          <a href="ld1.html" class="title">项目亮点</a>
+        </li>
+        <li>
+          <a href="md1.html" class="title">门店形象</a>
+        </li>
+        <li>
+          <a href="hz1.html" class="title">合作优势</a>
+        </li>
+        <li>
+          <a href="news.html" class="title">新闻动态</a>
+        </li>
+        <li class="active">
+          <a href="lx.html" class="title">合作咨询</a>
+        </li>
+    </div>
+  </div>
+  <div class="content clearfix">
+    <div class="main lx">
+      <div class="part1">
+        <div class="sub_title">
+          <!-- <p class="p1">明星单品推荐</p> -->
+          <p class="p2">合作咨询</p>
+          <p class="p3"><span>COOPERATION CONSULTING</span></p>
+          <!-- <p class="p4">纯天然温柔色调，由里及外，相由芯生</p> -->
+        </div>
+        <div class="page_main">
+          <div>
+            <div class="lx_map">
+              <div class="map_box">
+                <div class="map" id="map"></div>
+              </div>
+              <p><span>服务热线： </span><b> 400-XX-XXXX</b></p>
+            </div>
+            <div class="lx_box">
+              <div class="lx_address">
+                <img class="icon" src="../img/lx/icon.png" alt="">
+                <p class="p1">成都迎客莱餐饮管理有限公司</p>
+                <p class="p2">公司地址</p>
+                <p class="p3">此处仅为文案示意，后期请根据实际内容替换</p>
+                <div class="code_div">
+                  <img src="../img/lx/code.jpg" alt="">
+                  <p>扫描二维码，关注青春肴 获取更多品牌资讯！</p>
+                </div>
+              </div>
+              <div class="lx_form">
+                <img src="../img/lx/ly.png" alt="">
+                <form action="">
+                  <div>
+                    <input type="text" placeholder="姓名/Name">
+                    <input type="text" placeholder="电话/Telephone">
+                  </div>
+                  <input type="text" placeholder="地址/Address">
+                  <textarea name="" placeholder="留言/Leaving a message"></textarea>
+                  <button type="submit"><span>提交信息</span></button>
+                </form>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="footer clearfix">
+    <div class="footer_main">
+      <div class="foot_logo"><img src="../img/foot_logo.png" alt=""></div>
+      <div class="foot_str">
+        <p>成都迎客莱餐饮管理有限公司</p>
+        <p>公司地址：此处仅为文案示意，后期请根据实际内容替换</p>
+      </div>
+      <div class="foot_tel">
+        <img src="../img/foot_tel.png" alt="">
+        <p>财富热线:400-XXX-XXXX</p>
+      </div>
+      <div class="foot_code">
+        <div class="foot_code-box"></div>
+        <div class="foot_code-p">
+          <p><span>扫描二维码</span></p>
+          <p><span>关注青春肴</span></p>
+          <p><span>获取更多品牌资讯！</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../js/jquery-1.11.2.min.js"></script>
+  <script src="../js/swiper.min.js "></script>
+  <script src="../js/hotcss.js"></script>
+  <script src="../js/common.js"></script>
+  <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=6ALaE7y1e8N171T2CfPrHqZC3Ed000Cl"></script>
+  <script type="text/javascript">
+    var map = new BMap.Map("map"); // 创建Map实例
+    var point = new BMap.Point(104.067963, 30.572777);
+    map.centerAndZoom(point, 15);
+    var marker = new BMap.Marker(point); // 创建标注
+    map.addOverlay(marker); // 将标注添加到地图中
+    marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+    map.panTo(point);
+    map.addControl(new BMap.NavigationControl()); // 添加默认缩放平移控件
+    map.enableScrollWheelZoom(true); //开启鼠标滚轮缩放
+  </script>
+</body>
+
+</html>

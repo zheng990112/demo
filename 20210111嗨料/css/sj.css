@@ -1,0 +1,156 @@
+.sj_title {
+  text-align: center;
+  margin-top: 0.2rem;
+}
+
+.sj_title .p1 {
+  font-size: 0.74rem;
+  color: #e84b18;
+  width: 12rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sj_title .p1::before,
+.sj_title .p1::after {
+  content: "";
+  display: inline-block;
+  width: 2.14rem;
+  height: 0.03rem;
+  background-image: url(../img/hz/c_icon1.png);
+  background-size: 100% 100%;
+}
+
+.sj2 .sj_title .p1::before,
+.sj2 .sj_title .p1::after {
+  width: 1.5rem;
+}
+
+.sj_title .p1::after {
+  background-image: url(../img/hz/c_icon2.png);
+}
+
+.sj_title .p2 {
+  font-size: 0.34rem;
+  color: #145486;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.part1 .pic {
+  width: 10.5rem;
+  height: 5.86rem;
+  margin: auto;
+  margin-top: 0.36rem;
+}
+
+.part1 .pic img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.part1 .pic .pic_box {
+  margin-top: -5rem;
+  margin-left: 0.88rem;
+  width: 2.58rem;
+  height: 4.22rem;
+  background: rgba(250, 248, 248, 0.9);
+  position: relative;
+  text-align: center;
+  border-radius: 0.3rem;
+  overflow: hidden;
+}
+
+.part1 .pic .p1 {
+  font-size: 0.48rem;
+  color: #145486;
+  padding-top: 0.22rem;
+}
+
+.part1 .pic .p2 {
+  font-size: 0.48rem;
+  color: #d35b1e;
+  line-height: 1;
+  display: inline-block;
+  padding-bottom: 0.2rem;
+  border-bottom: 1px solid #8b8a8c;
+}
+
+.part1 .pic .p2 img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0.38rem;
+  height: 0.42rem;
+  margin-left: 0.08rem;
+}
+
+.part1 .pic .p3 {
+  font-size: 0.24rem;
+  line-height: 0.38rem;
+  color: #717071;
+  text-align: left;
+  padding-left: 0.34rem;
+  padding-top: 0.16rem;
+}
+
+.part1 .pic .p4 {
+  font-size: 0.28rem;
+  color: #717071;
+  text-transform: uppercase;
+  text-align: left;
+  padding-left: 0.34rem;
+  margin-top: 0.36rem;
+}
+
+.sj_banner {
+  width: 10.5rem;
+  height: 2.66rem;
+  margin: auto;
+  margin-top: 0.3rem;
+  position: relative;
+}
+
+.sj_banner .sj_swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.sj_banner .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.sj_banner .sj_swiper-btn {
+  position: absolute;
+  width: 12rem;
+  height: 0.52rem;
+  left: 50%;
+  margin-left: -6rem;
+  top: 50%;
+  margin-top: -0.26rem;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 0.52rem;
+  height: 0.52rem;
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/sj/next.png);
+  background-size: 100% 100%;
+  top: 0;
+  outline: none;
+}
+
+.swiper-button-next {
+  right: 0;
+}
+
+.swiper-button-prev {
+  left: 0;
+  background-image: url(../img/sj/prev.png);
+}

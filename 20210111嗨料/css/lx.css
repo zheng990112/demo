@@ -1,0 +1,176 @@
+.lx{
+  position: relative;
+}
+.lx_title{
+  width: 12rem;
+  margin: auto;
+  margin-top: 0.8rem;
+  line-height: 0.52rem;
+  border-bottom: 1px solid #145486;
+  display: flex;
+  justify-content: left;
+}
+.lx_title span:first-child{
+  width: 1.6rem;
+  padding-right: 0.16rem;
+  height: 0.52rem;
+  background: url(../img/lx/lx_title.png) no-repeat;
+  background-size: 100% 100%;
+  font-size: 0.24rem;
+  text-align: center;
+  color: #ffffff;
+}
+.lx_title span:last-child{
+  color: #595757;
+  font-size: 0.3rem;
+  text-transform: uppercase;
+  margin-left: 0.1rem;
+}
+.map_box{
+  width: 11.72rem;
+  height: 4.3rem;
+  margin: auto;
+  margin-top: 0.46rem;
+  padding: 0.14rem;
+  background: #145486;
+}
+.map{
+  width: 100%;
+  height: 100%;  
+}
+.lx .address{
+  width: 12rem;
+  margin: auto;
+  margin-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #636262;
+}
+.lx .address .p1{
+  font-size: 0.42rem;
+  color: #145486;
+}
+.lx .address .p2{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.lx .address .p2 img{
+  width: 0.56rem;
+  height: 0.56rem;
+}
+.lx .address .p2 img:first-child{
+  width: 0.72rem;
+  height: 0.72rem;
+  margin-right: 0.1rem;
+}
+.lx .address .p2 span{
+  font-weight: bold;
+  font-size: 0.62rem;
+  color: #145486;
+  margin-left: 0.1rem;
+}
+.lx .address .p3{
+  font-size: 0.26rem;
+  color: #595757;
+}
+
+.lx .pic{
+  padding: 0.1rem;
+  background: #145486;
+  width: 1.4rem;
+  height: 1.4rem;
+}
+.lx .pic img{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.lx .fl-rt p{
+  width: 1.6rem;
+  font-size: 0.16rem;
+  line-height: 0.24rem;
+  color: #595757;
+  text-align: center;
+}
+.lx .fl-rt p span{
+  display: block;
+  transform: scale(0.91);
+  -webkit-transform: scale(0.91);
+  -o-transform: scale(0.91);
+  -moz-transform: scale(0.91);
+  -ms-transform: scale(0.91);
+  width: 110%;
+  margin-left: -5%;
+}
+.form_box{
+  width: 12rem;
+  margin: auto;
+  margin-bottom: 2.3rem;
+  margin-top: 0.7rem;
+  background: #145486;
+  height: 6.92rem;
+  border-radius: 0.2rem;
+}
+.form_box form{
+  padding-left: 0.42rem;
+  padding-right: 0.48rem;
+}
+.form_box .p1{
+  width: 7.4rem;
+  height: 0.84rem;
+  background: url(../img/lx/icon_3.png) no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  line-height: 0.84rem;
+  color: #ffffff;
+  margin: auto;
+  font-size: 0.36rem;
+}
+.form_box div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.form_box div p{
+  display: flex;
+  align-items: center;
+  margin-top: 0.7rem;
+}
+.form_box div p:last-child{
+  margin-top: 0.5rem;
+  align-items: flex-start;
+}
+.form_box label{
+  color: #ffffff;
+  font-size: 0.3rem;
+  margin-right: 0.2rem;
+}
+.form_box input{
+  width: 2.28rem;
+  height: 0.64rem;
+  padding: 0 0.1rem;
+  font-size: 0.3rem;
+}
+.form_box textarea{
+  width: 10.1rem;
+  height: 3.3rem;
+  padding: 0.05rem 0.1rem;
+  resize: none;
+  font-size: 0.3rem;
+}
+.form_box .last_input{
+  display: block;
+  padding: 0;
+  margin: auto;
+  margin-top: 1.5rem;
+  width: 2.3rem;
+  height: 0.66rem;
+  background: #dd5d1b;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 0.3rem;
+  text-indent: 0.2rem;
+  letter-spacing: 0.2rem;
+}
