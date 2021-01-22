@@ -1,0 +1,335 @@
+.map_box {
+  width: 6.3rem;
+  height: 2.32rem;
+  margin: 0 auto;
+  border: 5px solid #145486;
+  margin-bottom: 0.25rem;
+  margin-top: 0.4rem;
+}
+
+.map_box .map {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.part1 {
+  padding-top: 0.6rem;
+}
+
+.part_main {
+  width: 6.4rem;
+  margin: auto;
+  position: relative;
+}
+
+.sub_title {
+  text-align: center;
+}
+
+.sub_title .p1 {
+  color: #fff;
+  font-size: 0.3rem;
+  font-weight: bold;
+  line-height: 0.55rem;
+  width: 2.5rem;
+  height: 0.55rem;
+  margin: auto;
+  background: url("../img/lx/font_bg.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.sub_title .p1::before {
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 0.02rem;
+  background: url("../img/lx/font_left01.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0.7rem;
+  top: 0.25rem;
+}
+
+.sub_title .p1::after,
+.sub_title .p2::after {
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 0.02rem;
+  background: url("../img/lx/font_right01.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0.7rem;
+  top: 0.25rem;
+}
+
+.address {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lx .address .p1 {
+  font-size: 0.22rem;
+  color: #145486;
+  font-weight: bold;
+}
+
+.lx .address .p2 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 0.1rem 0;
+}
+
+.lx .address .p2 img:first-child {
+  width: 0.74rem;
+  height: 0.42rem;
+  vertical-align: middle;
+}
+
+.lx .address .p2 span {
+  font-weight: bold;
+  font-size: 0.38rem;
+  line-height: 0.42rem;
+  color: #145486;
+  margin-left: 0.15rem;
+}
+
+.lx .address .p3 {
+  font-size: 0.18rem;
+  color: #595757;
+}
+
+.lx .address .p3 span {
+  display: block;
+  transform: scale(0.63);
+  -webkit-transform: scale(0.63);
+  -o-transform: scale(0.63);
+  -moz-transform: scale(0.63);
+  -ms-transform: scale(0.63);
+  width: 150%;
+  margin-left: -28%;
+  white-space: nowrap;
+  line-height: 0.18rem;
+}
+
+.lx .pic {
+  padding: 0.04rem;
+  background: #145486;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+.lx .pic img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.lx .fl-rt {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.lx .fl-rt p {
+  width: 0.85rem;
+  font-size: 0.16rem;
+  line-height: 0.18rem;
+  color: #595757;
+  text-align: center;
+}
+
+.lx .fl-rt p span {
+  display: block;
+  transform: scale(0.43);
+  -webkit-transform: scale(0.43);
+  -o-transform: scale(0.43);
+  -moz-transform: scale(0.43);
+  -ms-transform: scale(0.43);
+  width: 310%;
+  margin-left: -100%;
+}
+
+.part2 .part_main {
+  margin-top: 0.3rem;
+  border-top: 1px solid #787777;
+  margin-bottom: 1.46rem;
+}
+
+.part2 .sub_title {
+  margin-top: 0.3rem;
+}
+
+.sub_title .p2 {
+  color: #fff;
+  font-size: 0.3rem;
+  font-weight: bold;
+  line-height: 0.55rem;
+  width: 2.5rem;
+  height: 0.55rem;
+  margin: auto;
+  background: url("../img/lx/font_bg02.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.sub_title .p2::before {
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 0.02rem;
+  background: url("../img/lx/font_left02.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0.7rem;
+  top: 0.55rem;
+}
+
+.sub_title .p2::after {
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 0.02rem;
+  background: url("../img/lx/font_right02.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0.7rem;
+  top: 0.55rem;
+}
+
+.from_box {
+  margin: 0.5rem auto;
+  width: 5.9rem;
+  height: 3.7rem;
+  background: #145486;
+  border-radius: 0.2rem;
+  color: #fff;
+  padding-bottom: 0.4rem;
+}
+
+.from_box .p1 {
+  text-align: center;
+  width: 3.95rem;
+  height: 0.45rem;
+  background: url("../img/lx/icon3.png") no-repeat;
+  background-size: 100% 100%;
+  margin: auto;
+  line-height: 0.45rem;
+}
+
+.from_box .p1 span {
+  display: block;
+  transform: scale(0.91);
+  -webkit-transform: scale(0.91);
+  -o-transform: scale(0.91);
+  -moz-transform: scale(0.91);
+  -ms-transform: scale(0.91);
+  width: 110%;
+  margin-left: -5%;
+}
+
+.from_box .inp_div {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  margin-top: 0.35rem;
+}
+
+.from_box .inp_div p {
+  width: 1.8rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.from_box .inp_div p span {
+  display: block;
+  transform: scale(0.74);
+  -webkit-transform: scale(0.74);
+  -o-transform: scale(0.74);
+  -moz-transform: scale(0.74);
+  -ms-transform: scale(0.74);
+  width: 141%;
+  margin-left: -15%;
+}
+
+.from_box .inp_div p input {
+  width: 1.1rem;
+  padding: 0 0.1rem;
+  margin-left: 0.1rem;
+}
+
+.from_box .ly {
+  margin-top: 0.3rem;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.from_box label {
+  width: 0.4rem;
+}
+
+.from_box .ly span {
+  display: block;
+  transform: scale(0.74);
+  -webkit-transform: scale(0.74);
+  -o-transform: scale(0.74);
+  -moz-transform: scale(0.74);
+  -ms-transform: scale(0.74);
+  width: 141%;
+  margin-left: -15%;
+  margin-top: -0.03rem;
+  margin-right: 0.1rem;
+}
+
+.from_box .ly textarea {
+  width: 4.8rem;
+  height: 1.7rem;
+  padding: 0.1rem;
+  resize: none;
+}
+
+.last_input {
+  display: block;
+  padding: 0;
+  margin: auto;
+  margin-top: 1rem;
+  width: 1.75rem;
+  height: 0.5rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 0.22rem;
+  text-indent: 0.2rem;
+  letter-spacing: 0.2rem;
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(left, #dd611b, #db491d);
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, left, from(#dd611b), to(#db491d));
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-linear-gradient(left, #dd611b, #db491d);
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(left, #dd611b, #db491d);
+  /* default */
+  background: linear-gradient(left, #dd611b, #db491d);
+}
+
+@media (max-width:350px) {
+  .lx .fl-rt p span {
+    display: block;
+    transform: scale(0.31);
+    -webkit-transform: scale(0.31);
+    -o-transform: scale(0.31);
+    -moz-transform: scale(0.31);
+    -ms-transform: scale(0.31);
+    width: 310%;
+    margin-left: -100%;
+  }
+}

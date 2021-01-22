@@ -1,0 +1,260 @@
+.part1 {
+  padding-top: 0.44rem;
+}
+
+.part .part_box {
+  background: url(../img/cp/a-a_bg.png) center 1.26rem no-repeat;
+  background-size: 100% 10.1rem;
+  padding-bottom: 0.7rem;
+  margin-top: 0.4rem;
+}
+
+.part .part_box .first_img {
+  display: block;
+  width: 3.32rem;
+  height: 3.32rem;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.part .part_box ul {
+  width: 6.5rem;
+  flex-wrap: wrap;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.part .part_box ul li {
+  width: 3.2rem;
+  margin-top: 0.1rem;
+}
+
+.part .part_box ul div {
+  width: 3.04rem;
+  height: 3.04rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+}
+
+.part .part_box ul img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.part .part_box ul .p1 {
+  width: 100%;
+  height: 0.68rem;
+  line-height: 0.68rem;
+  text-align: center;
+  background: rgba(234, 128, 76, 0.8);
+  margin-top: -0.68rem;
+  position: relative;
+  font-size: 0.24rem;
+  color: #ffffff;
+}
+
+.part .part_box ul .p2 {
+  color: #555555;
+  font-size: 0.24rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+}
+
+.part .part_box2 {
+  background: url(../img/cp/a-b_bg.png) center 1.26rem no-repeat;
+  background-size: 100% 10.1rem;
+}
+
+.part .part_box2 ul .p1 {
+  background: rgba(144, 209, 219, 0.8);
+}
+
+.part .part_box2 ul .p2 {
+  color: #ffffff;
+}
+
+.part .part_box3 {
+  background: url(../img/cp/a-c_bg.png) center 1.26rem no-repeat;
+  background-size: 100% 10.1rem;
+}
+
+.part .part_box3 ul .p1 {
+  background: rgba(244, 218, 111, 0.8);
+}
+
+.part .part_box3 ul .p2 {
+  color: #ffffff;
+}
+
+.part1 .part_list {
+  width: 6.6rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-top: 0.14rem;
+}
+
+.part1 .part_list li {
+  width: 3.14rem;
+  margin-top: 0.3rem;
+}
+
+.part1 .part_list img {
+  display: block;
+  width: 3.14rem;
+  height: 3.14rem;
+  border-radius: 50%;
+}
+
+.part1 .part_list .p1 {
+  width: 3.14rem;
+  height: 0.6rem;
+  border-radius: 0.3rem;
+  background: #ffd331;
+  color: #b7471f;
+  font-size: 0.36rem;
+  line-height: 0.6rem;
+  font-weight: bold;
+  margin-top: 0.16rem;
+}
+
+.part1 .part_list .p2 {
+  font-size: 0.24rem;
+  color: #494949;
+  margin-top: 0.16rem;
+}
+
+.part1 .part_list::after {
+  content: "";
+  display: block;
+  width: 3.14rem;
+  height: 4.28rem;
+  background-image: url(../img/cp/a-d_icon1.png);
+  background-size: 100% 100%;
+}
+
+.part2 {
+  margin-top: 0.6rem;
+  padding-top: 0.16rem;
+}
+
+.part2 .part2-list {
+  width: 6.5rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 0.16rem;
+}
+
+.part2 .part2-list li {
+  width: 3.14rem;
+  text-align: center;
+  margin-top: 0.14rem;
+}
+
+.part2 .part2-list div {
+  width: 3.14rem;
+  height: 2.34rem;
+}
+
+.part2 .part2-list img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 0.31rem;
+  border-top-right-radius: 0.31rem;
+}
+
+.part2 .part2-list .p1 {
+  width: 100%;
+  height: 0.62rem;
+  background: #ffd331;
+  line-height: 0.62rem;
+  border-radius: 0.31rem;
+  margin-top: -0.3rem;
+  position: relative;
+  color: #b7471f;
+  font-size: 0.3rem;
+  font-weight: bold;
+}
+
+.part2 .part2-list .p2 {
+  padding-top: 0.4rem;
+  font-size: 0.24rem;
+  line-height: 0.36rem;
+  color: #494949;
+}
+
+.part3 {
+  padding-top: 0.6rem;
+}
+
+.part3 .list {
+  width: 6.5rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-top: 0.12rem;
+  padding-bottom: 0.5rem;
+}
+
+.part3 .list li {
+  width: 3.08rem;
+  margin-top: 0.2rem;
+}
+
+.part3 .list div {
+  width: 3.08rem;
+  height: 1.9rem;
+}
+
+.part3 .list img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+}
+
+.part3 .list .p1 {
+  width: 100%;
+  height: 0.42rem;
+  line-height: 0.42rem;
+  position: relative;
+  background: rgba(242, 216, 111, 0.8);
+  margin-top: -0.42rem;
+  font-size: 0.26rem;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.part3 .list .p2 {
+  font-size: 0.24rem;
+  color: #333333;
+  padding-top: 0.1rem;
+}
+
+.part3 .list .p2 span {
+  display: block;
+  transform: scale(0.91);
+  -webkit-transform: scale(0.91);
+  -o-transform: scale(0.91);
+  -moz-transform: scale(0.91);
+  -ms-transform: scale(0.91);
+  width: 110%;
+  margin-left: -5%;
+}
+
+.part3 .list li:nth-child(4n+3) .p1,
+.part3 .list li:nth-child(4n+4) .p1 {
+  background: rgba(234, 128, 76, 0.8);
+}

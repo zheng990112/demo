@@ -1,0 +1,124 @@
+.part1 {
+  padding-top: 0.44rem;
+  padding-bottom: 0.62rem;
+}
+
+.part1 .first_img {
+  display: block;
+  width: 6.5rem;
+  margin: auto;
+  margin-top: 0.4rem;
+}
+
+.part1 .list-news {
+  margin: auto;
+  width: 6.5rem;
+  padding-top: 0.22rem;
+}
+
+.part1 .list-news li {
+  width: 6.5rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.1rem;
+}
+
+.part1 .list-news img {
+  width: 1.18rem;
+  height: 0.64rem;
+}
+
+.part1 .list-news p {
+  height: 0.63rem;
+  width: 5.1rem;
+  border-bottom: 1px dashed #b6b6b7;
+}
+
+.part1 .list-news a {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.1rem;
+}
+
+.part1 .list-news span:first-child {
+  width: 3.4rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.part1 .btn-news {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.32rem;
+}
+.part1 .btn-news span,
+.part1 .btn-news a {
+  min-width: 0.3rem;
+  padding: 0 0.15rem;
+  text-align: center;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  margin: 0 0.05rem;
+  background: #595757;
+  color: #ffffff;
+}
+
+.part1 .btn-news a.on {
+  color: #000000;
+  background: #f6dc6f;
+}
+
+.part1 .btn-news a:first-child,
+.part1 .btn-news a:last-child {
+  background: #ec804c;
+  color: #000000;
+  margin: 0 0.2rem;
+}
+
+
+.news_text{
+  padding-top: 2rem;
+  padding-bottom: 0.3rem;
+}
+.news_text h1 {
+  text-align: center;
+  font-size: 0.38rem;
+  color: #474747;
+  width: 5rem;
+  margin: auto;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.news_text h3 {
+  width: 5rem;
+  margin: auto;
+  font-size: 0.26rem;
+  margin-top: 0.2rem;
+  color: #707070;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+
+.news_text img {
+  width: 6.3rem;
+  display: block;
+  margin: auto;
+  margin-top: 0.2rem;
+}
+
+.news_text p {
+  text-align: justify;
+  font-size: 0.24rem;
+  color: #707070;
+  line-height: 1.5;
+  width: 6.3rem;
+  margin: auto;
+  margin-top: 0.3rem;
+}
