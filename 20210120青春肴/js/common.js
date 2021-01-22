@@ -80,12 +80,17 @@ $(function () {
 
 
 $(function () {
+  // 无法在网址使用
   $(".menu li.active .item a").removeClass("on");
   let str = window.location.pathname;
   let arr = str.split('/');
   let len = arr.length;
   let i = arr[len - 1].lastIndexOf(".");
   let url = arr[len - 1].substr(0, i);
+  // 获取id后面信息
+  // let url = window.location.hash;
+  // url = url.substr(1);
+
   $(".menu li.active").addClass(url).siblings().removeClass(url);
   setInterval(function () {
     let scrollTop = $(document).scrollTop() + 110;
