@@ -55,7 +55,7 @@
             </div>
           </div>
         </li>
-        <li>    
+        <li>
           <a href="javascript:;" class="title">项目亮点</a>
           <div class="item">
             <div>
@@ -99,6 +99,22 @@
     </div>
   </div>
   <div class="content">
+    <div class="banner">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="../img/banner.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="../img/banner.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="../img/banner.jpg" alt="" />
+          </div>
+        </div>
+        <div class="swiper-pagination banner-pagination"></div>
+      </div>
+    </div>
     <div class="main">
       <div class="pic">
         <p>视频</p>
@@ -126,7 +142,7 @@
           <li>
             <a href="cp.html#point1">
               <p class="p1">新派产品</p>
-              <p class="p2"><span>New  Products</span></p>
+              <p class="p2"><span>New Products</span></p>
             </a>
           </li>
           <li>
@@ -182,6 +198,31 @@
   <script src="../js/jquery-1.11.2.min.js"></script>
   <script src="../js/swiper.min.js"></script>
   <script src="../js/common.js"></script>
+  <script>
+    $(window).scroll(function () {
+      let ratio = document.documentElement.clientWidth / 7.5;
+      let move1 = ratio * 5;
+      let move2 = ratio * 10;
+      let scrollH = $(document).scrollTop();
+      if (move1 < scrollH) {
+        $(".main .vedio-box").addClass("scaleBox");
+        $(".main .pic").addClass("scaleBox");
+      } else {
+        $(".main .vedio-box").removeClass("scaleBox");
+        $(".main .pic").removeClass("scaleBox");
+      }
+      if (move2 < scrollH) {
+        $(".nav_title li:nth-child(2n+1)").addClass("tfL-translate");
+        $(".nav_title li:nth-child(2n+2)").addClass("tfR-translate");
+      } else {
+        $(".nav_title li:nth-child(2n+1)").removeClass("tfL-translate");
+        $(".nav_title li:nth-child(2n+2)").removeClass("tfR-translate");
+      }
+    })
+
+
+
+  </script>
 </body>
 
 </html>
