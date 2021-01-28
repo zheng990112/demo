@@ -1,0 +1,263 @@
+.cp1 .part1 {
+  width: 100%;
+  height: 7.8rem;
+  background-image: url(../img/cp/a_bg.jpg);
+  background-size: 100% 100%;
+  margin-top: 0.3rem;
+}
+
+.cp1 .part1 .p1 {
+  padding-top: 0.8rem;
+  font-size: 0.84rem;
+  font-weight: bold;
+  color: #e67d1a;
+  display: inline-block;
+  padding-bottom: 0.07rem;
+  background: url(../img/cp/a_solid.png) left bottom no-repeat;
+  background-size: 100% 0.07rem;
+}
+
+.cp1 .part1 .p2 {
+  font-size: 0.38rem;
+  color: #ffffff;
+}
+
+.cp1 .part1 ul {
+  display: flex;
+  justify-content: left;
+  margin-top: 0.56rem;
+}
+
+.cp1 .part1 ul li {
+  padding: 0 0.4rem;
+  border-right: 1px solid #e67d1a;
+}
+
+.cp1 .part1 ul li:first-child {
+  padding-left: 0;
+}
+
+.cp1 .part1 ul li:last-child {
+  border: none;
+}
+
+.cp1 .part1 ul p {
+  font-size: 0.36rem;
+  color: #ffffff;
+}
+
+.cp1 .part1 ul p span {
+  color: #e67d1a;
+}
+
+.cp1 .first-img {
+  display: block;
+  width: 8.1rem;
+  height: 1.36rem;
+  margin-top: 0.64rem;
+}
+
+.part {
+  margin-bottom: 0.96rem;
+}
+
+.part .part-title {
+  padding-top: 0.8rem;
+  text-align: center;
+  padding-bottom: 0.34rem;
+}
+
+.part .part-title .p1 {
+  font-size: 0.78rem;
+  color: #ff8517;
+  font-weight: bold;
+}
+
+.part .part-title .p2 {
+  font-size: 0.18rem;
+  line-height: 0.24rem;
+  color: #888988;
+  display: inline-block;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.part .part-title .p2::before,
+.part .part-title .p2::after {
+  content: "";
+  width: 1.1rem;
+  height: 1px;
+  background: #888988;
+  position: absolute;
+  top: 50%;
+  margin-top: -0.5px;
+}
+
+.part .part-title .p2::before {
+  left: -1.7rem;
+}
+
+.part .part-title .p2::after {
+  right: -1.7rem;
+}
+
+.part .part-title .p2::before {
+  margin-right: 0.52rem;
+}
+
+.part .part-title .p2::after {
+  margin-left: 0.52rem;
+}
+
+.part ul {
+  width: 12rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.part .list1 {
+  margin-bottom: 0.2rem;
+}
+
+.part .list1 li {
+  width: 3.94rem;
+}
+
+.part .list1 .pic {
+  width: 3.94rem;
+  height: 2.8rem;
+}
+
+.part .list1 .pic img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.part .list1 .pic p {
+  width: 0.6rem;
+  height: 0.6rem;
+  border: 1px solid #ffffff;
+  margin-top: -2.6rem;
+  margin-left: 3.1rem;
+  position: relative;
+  font-size: 0.24rem;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 0.3rem;
+  text-align: center;
+}
+
+.part .list1 .pic p::after {
+  content: "";
+  width: 0.6rem;
+  height: 1px;
+  background: #ffffff;
+  position: absolute;
+  left: 0;
+  top: 0.31rem;
+}
+
+.part .list1 .pic p.on {
+  border-color: #ff8517;
+  color: #ff8517;
+}
+
+.part .list1 .pic p.on::after {
+  background: #ff8517;
+}
+
+.part .list1 .str {
+  width: 3.94rem;
+  height: 1.1rem;
+  background: #ff8517;
+  position: relative;
+  text-align: center;
+}
+
+.part .list1 .str::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #ff8517;
+  position: absolute;
+  left: 0;
+  top: -0.04rem;
+}
+
+.part .list1 .str .p1 {
+  width: 3rem;
+  color: #ffffff;
+  font-size: 0.42rem;
+  line-height: 0.58rem;
+  font-weight: bold;
+  display: inline-block;
+  border-bottom: 1px solid #ffffff;
+  position: relative;
+}
+
+.part .list1 .str .p1.on::before,
+.part .list1 .str .p1.on::after {
+  content: "";
+  width: 0.08rem;
+  height: 0.08rem;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  position: absolute;
+  top: 50%;
+  margin-top: -0.04rem;
+}
+
+.part .list1 .str .p1.on::before {
+  left: 0.2rem;
+}
+
+.part .list1 .str .p1.on::after {
+  right: 0.2rem;
+}
+
+.part .list1 .str .p2 {
+  font-size: 0.34rem;
+  color: #3e3b3f;
+}
+
+
+.part .list2 {
+  border-top: 1px dashed #ff8517;
+  padding-top: 0.2rem;
+  flex-wrap: wrap;
+}
+
+.part .list2 li {
+  width: 3.94rem;
+  margin-bottom: 0.08rem;
+}
+
+.part .list2 img {
+  display: block;
+  width: 100%;
+  height: 2.3rem;
+}
+
+.part .list2 p {
+  width: 100%;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  margin-top: -0.4rem;
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+  font-size: 0.26rem;
+  font-weight: bold;
+  background: rgba(231, 125, 26, 0.8);
+}
+
+.part .list2.two li:last-child,
+.part .list2.two li:nth-last-child(2) {
+  width: 5.96rem;
+}
+
+.cp6 .part .list2 li img{
+  height: 3.2rem;
+}

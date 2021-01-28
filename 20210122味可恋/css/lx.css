@@ -1,0 +1,219 @@
+.lx1 .part-box {
+  display: flex;
+  width: 12rem;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.6rem;
+}
+
+.lx1 .part-box>img {
+  width: 5.48rem;
+  height: 2rem;
+}
+
+.lx1 .part-box .str {
+  width: 5.7rem;
+}
+
+.lx1 .part-box .tel {
+  width: 4.7rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-bottom: 1px solid #ff8417;
+  padding-bottom: 0.1rem;
+}
+
+.lx1 .part-box .tel img {
+  width: 0.55rem;
+  height: 0.55rem;
+}
+
+.lx1 .part-box .tel span {
+  font-size: 0.24rem;
+  color: #ff8417;
+}
+
+.lx1 .part-box .tel span:nth-child(2) {
+  width: 0.5rem;
+  height: 0.52rem;
+  line-height: 0.26rem;
+  position: relative;
+  margin-left: 0.1rem;
+  margin-right: 0.3rem;
+}
+
+.lx1 .part-box .tel span:nth-child(2)::before,
+.lx1 .part-box .tel span:nth-child(2)::after {
+  content: "";
+  width: 2px;
+  height: 0.48rem;
+  background: #ff8417;
+  position: absolute;
+  top: 0.02rem;
+  right: -0.07rem;
+}
+
+.lx1 .part-box .tel span:nth-child(2)::after {
+  width: 1px;
+  right: -0.1rem;
+}
+
+.lx1 .part-box .tel span:last-child {
+  font-size: 0.46rem;
+  font-weight: bold;
+}
+
+.lx1 .part-box .p2 {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 0.22rem;
+  color: #3e3b3f;
+  margin-top: 0.1rem;
+}
+
+.lx1 .part-box .p2 img {
+  width: 0.26rem;
+  height: 0.26rem;
+}
+
+.lx1 .part-box .p2 span:nth-child(2) {
+  width: 0.9rem;
+  margin-left: 0.1rem;
+  font-weight: bold;
+}
+
+.lx1 .part-box .p2 span:nth-child(3) {
+  font-weight: bold;
+}
+
+.lx1 .part-box .p2:nth-child(2) span:nth-child(2) {
+  letter-spacing: 0.44rem;
+  white-space: nowrap;
+}
+
+.lx1 .map_box {
+  width: 11.5rem;
+  height: 4.2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.88rem;
+  padding: 0.25rem;
+  background: #ffc18b;
+}
+
+.lx1 .map_box .map {
+  width: 100%;
+  height: 100%;
+}
+
+.lx2 .part-title {
+  text-align: center;
+}
+
+.lx2 .part-title .p1 {
+  font-size: 0.64rem;
+  font-weight: bold;
+  color: #ff8417;
+  display: inline-block;
+  border-bottom: 2px solid #ff8417;
+}
+
+.lx2 .part-title .p2 {
+  font-size: 0.3rem;
+  color: #3e3b3f;
+}
+
+.lx2 .part-title .p1 img,
+.lx2 .part-title .p1 span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.lx2 .part-title .p1 span {
+  margin: 0 0.36rem;
+}
+
+.form-box {
+  width: 11.94rem;
+  height: 5.74rem;
+  background: #ff8417;
+  margin-top: 0.36rem;
+  margin-bottom: 1rem;
+  border-radius: 0.3rem;
+  position: relative;
+  z-index: 0;
+}
+
+.form-box::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ff8417;
+  border-radius: 0.3rem;
+  position: absolute;
+  bottom: 0.06rem;
+  left: 0.06rem;
+  z-index: -1;
+}
+
+.form-box form {
+  width: 10.5rem;
+  margin-left: 0.6rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 0.64rem;
+}
+
+.form-box form input,
+.form-box form textarea {
+  height: 0.54rem;
+  padding: 0 0.1rem;
+  border-radius: 0.14rem;
+  margin-bottom: 0.3rem;
+  font-size: 0.3rem;
+  color: #000000;
+}
+
+.form-box form textarea {
+  width: 10.3rem;
+  padding: 0.1rem;
+  height: 2.74rem;
+  resize: none;
+  font-family: "Microsoft Yahei";
+}
+
+.form-box form input:first-child {
+  width: 2.1rem;
+}
+
+.form-box form input:nth-child(2) {
+  width: 2.6rem;
+}
+
+.form-box form input:nth-child(3) {
+  width: 4.58rem;
+}
+
+.form-box form input:nth-last-child(2),
+.form-box form input:last-child {
+  width: 1.68rem;
+  height: 0.54rem;
+  padding: 0;
+  text-indent: 0.2rem;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+  background: #ffffff;
+}
+
+.form-box form input:nth-last-child(2) {
+  margin-left: auto;
+  margin-right: 0.75rem;
+}
+
+.form-box form input:last-child {
+  margin-left: 0.75rem;
+  margin-right: auto;
+}

@@ -1,0 +1,142 @@
+.news ul{
+  width: 12rem;
+  margin: auto;
+  padding-top: 0.14rem;
+}
+.news ul li{
+  width: 12rem;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.5rem;
+  background: url(../img/news/a_icon1.png) bottom no-repeat;
+  background-size: 100% 0.35rem;
+  margin-top: 0.1rem;
+}
+.news ul img{
+  width: 3.64rem;
+  height: 2.46rem;
+}
+.news ul div{
+  width: 7.8rem;
+  height: 2.46rem;
+}
+.news ul a:first-child{
+  font-size: 0.3rem;
+  color: #ff8417;
+  width: 5.2rem;
+  height: 0.76rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.news ul a:first-child:hover{
+  opacity: 0.9;
+}
+.news ul a:nth-child(2){
+  font-size: 0.16rem;
+  line-height: 0.26rem;
+  height: 1.04rem;
+  color: #717071;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+.news ul p{
+  font-size: 0.18rem;
+  line-height: 0.22rem;
+  height: 0.22rem;
+  color: #585757;
+  margin-top: 0.44rem;
+}
+.news .btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+.news .btn span,
+.news .btn a{
+  min-width: 0.24rem;
+  padding: 0 0.2rem;
+  height: 0.4rem;
+  text-align: center;
+  line-height: 0.4rem;
+  background: #c7c8c9;
+  margin: 0 0.06rem;
+  font-size: 0.22rem;
+  color: #3d3a39;
+}
+.news .btn a:first-child,
+.news .btn a:last-child{
+  margin: 0 0.24rem;
+  background: #ff8417;
+  color: #ffffff;
+}
+.news .btn a.on,
+.news .btn a:hover{
+  background: #3e3b3f;
+  color: #ffffff;
+}
+.news .btn a:first-child:hover,
+.news .btn a:last-child:hover{
+  background: #ff8417;
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
+
+.news_text{
+  padding-top: 1.6rem;
+  padding-bottom: 1rem;
+}
+.news_text h1 {
+  text-align: center;
+  font-size: 0.38rem;
+  color: #474747;
+  width: 12rem;
+  margin: auto;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.news_text h3 {
+  width: 7rem;
+  margin: auto;
+  font-size: 0.26rem;
+  margin-top: 0.2rem;
+  color: #707070;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+
+.news_text img {
+  width: 12rem;
+  display: block;
+  margin: auto;
+  margin-top: 0.2rem;
+}
+
+.news_text p {
+  text-align: justify;
+  font-size: 0.24rem;
+  color: #707070;
+  line-height: 1.5;
+  width: 12rem;
+  margin: auto;
+  margin-top: 0.3rem;
+}
