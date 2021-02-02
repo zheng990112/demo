@@ -1,0 +1,380 @@
+.part1 {
+  background-image: url(../img/pp/a1.jpg);
+  background-size: 100% 100%;
+  padding-top: 0.74rem;
+  padding-bottom: 0.5rem;
+}
+
+.part1 .str {
+  width: 6.6rem;
+  margin: auto;
+  text-align: justify;
+  font-size: 0.24rem;
+  line-height: 0.36rem;
+  color: #ffffff;
+  margin-top: 0.2rem;
+  text-indent: 2em;
+}
+
+.part1 .last-img {
+  display: block;
+  margin: auto;
+  width: 6.6rem;
+  border-radius: 0.22rem;
+  margin-top: 0.4rem;
+}
+
+.part2 {
+  padding-top: 0.5rem;
+}
+
+.part2 .str {
+  text-align: center;
+  padding-bottom: 0.1rem;
+}
+
+.part2 .str .p1 {
+  font-size: 0.44rem;
+  color: #3e3b3f;
+}
+
+.part2 .str .p1 span {
+  font-weight: bold;
+  color: #ff8417;
+  margin-right: 0.1rem;
+}
+
+.part2 .str .p2 {
+  font-size: 0.24rem;
+  color: #3e3b3f;
+  display: inline-block;
+}
+
+.part2 .str .p2::before,
+.part2 .str .p2::after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 0.44rem;
+  height: 1px;
+  background: #3e3b3f;
+  margin: 0 0.3rem;
+}
+
+.part2 .word {
+  width: 6.6rem;
+  margin: auto;
+  text-align: justify;
+  font-size: 0.24rem;
+  line-height: 0.36rem;
+  color: #3e3b3f;
+  margin-top: 0.28rem;
+  text-indent: 2em;
+}
+
+.part3 {
+  margin-top: 0.8rem;
+  background-image: url(../img/pp/c-bg.jpg);
+  background-size: 100% 100%;
+  position: relative;
+  padding-top: 0.3rem;
+  padding-bottom: 2.5rem;
+}
+
+.part3::after,
+.part3::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #ec8c1e;
+  position: absolute;
+  left: 0;
+}
+
+.part3::before {
+  top: -0.1rem;
+}
+
+.part3::after {
+  bottom: -0.1rem;
+}
+
+.part3 .sub-title .p1 {
+  margin-bottom: 0.1rem;
+}
+
+.part3 .sub-title .p1 span {
+  background: #ffffff;
+  color: #ec8c1e;
+}
+
+.part3 .sub-title .p1::before,
+.part3 .sub-title .p1::after {
+  background: #ffffff;
+}
+
+.part3 ul {
+  width: 6.6rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0;
+  flex-wrap: wrap;
+}
+
+.part3 ul li {
+  margin-top: 0.24rem;
+}
+
+.part3 ul p {
+  font-size: 0.24rem;
+  color: #3e3b3f;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.part3 ul .p1 {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.part3 ul .p2 span {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.part3 ul li:first-child p,
+.part3 ul li:nth-child(2) p {
+  display: block;
+}
+
+.part3 ul li:nth-child(3) .p2:last-child {
+  padding-left: 2.6rem;
+  text-align: justify;
+}
+
+.part3 ul li:nth-child(3) .p2:last-child span {
+  margin-left: -1.3rem;
+}
+
+.part3 ul li:last-child {
+  white-space: nowrap;
+}
+
+.part3 ul .p1,
+.part3 ul .p2 span {
+  width: 1.3rem;
+}
+
+.part4 {
+  margin-top: 0.52rem;
+}
+
+.part4 .part-title {
+  text-align: center;
+}
+
+.part4 .part-title .p1 {
+  font-size: 0.46rem;
+  color: #ff8417;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.part4 .part-title .p1::before,
+.part4 .part-title .p1::after {
+  content: "";
+  width: 0.08rem;
+  height: 0.08rem;
+  border-radius: 50%;
+  border: 0.02rem solid #ff8417;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0.24rem;
+}
+
+.part4 .part-title .p2 {
+  font-size: 0.36rem;
+  color: #3e3b3f;
+}
+
+.part4 ul {
+  width: 6.6rem;
+  margin: auto;
+}
+.part4 ul li{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.26rem;
+}
+
+.part4 ul img{
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 50%;
+}
+.part4 ul div{
+  width: 3.3rem;
+}
+.part4 ul .p1{
+  width: 2rem;
+  height: 0.54rem;
+  display: inline-block;
+  line-height: 0.54rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: 0.3rem;
+  background-image: url(../img/pp/d_icon1.png);
+  background-size: 100% 100%;
+  position: relative;
+}
+.part4 ul .p1::after{
+  content: "";
+  width: 1.02rem;
+  height: 0.48rem;
+  background-image: url(../img/pp/d_icon2.png);
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0.03rem;
+}
+
+.part4 ul li:nth-child(2n+2){
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.part4 ul li:nth-child(2n+1) .p1::after{
+  right: -1.3rem;
+}
+.part4 ul li:nth-child(2n+2) .p1::after{
+  background-image: url(../img/pp/d_icon3.png);
+  left: -1.3rem;
+}
+
+.part4 ul .p2{
+  margin-top: 0.16rem;
+  text-align: justify;
+  font-size: 0.24rem;
+  line-height: 0.36rem;
+  color: #000000;
+}
+.part5{
+  background: url(../img/pp/e_bg.jpg);
+  background-size: 100% 100%;
+  padding: 0.4rem 0;
+  margin-top: 0.2rem;
+}
+.part5 .part-title{
+  text-align: center;
+}
+.part5 .part-title .p1{
+  font-size: 0.46rem;
+  color: #ffffff;
+  font-weight: bold;
+}
+.part5 .part-title .p1::before,
+.part5 .part-title .p1::after{
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 0.46rem;
+  height: 1px;
+  background: #ffffff;
+  margin: 0 0.16rem;
+}
+
+.part5 .part-title .p2{
+  font-size: 0.34rem;
+  color: #3e3b3f;
+}
+.part5 ul{
+  width: 6.9rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 0.36rem;
+}
+.part5 ul::before,
+.part5 ul::after{
+  content: "";
+  width: 1px;
+  height: 100%;
+  background: #ffffff;
+  position: absolute;
+  top: 0;
+}
+.part5 ul::before{
+  left: 2.3rem;
+}
+.part5 ul::after{
+  right: 2.3rem;
+}
+.part5 ul li{
+  width: 2.3rem;
+  text-align: center;
+}
+.part5 ul img{
+  display: block;
+  margin: auto;
+  width: 1.06rem;
+  height: 1.06rem;
+}
+.part5 ul .p1{
+  color: #ffffff;
+  font-size: 0.3rem;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 0.1rem;
+  margin-bottom: 0.2rem;
+}
+.part5 ul .p2{
+  width: 2rem;
+  margin: auto;
+  text-align: justify;
+  font-size: 0.24rem;
+  line-height: 0.36rem;
+  color: #ffffff;
+}
+.part6{
+  padding-top: 0.1rem;
+  padding-bottom: 0.46rem;
+}
+.part6 .f-img{
+  display: block;
+  width: 100%;
+  margin-top: 0.1rem;
+}
+
+.part6 p{
+  text-align: center;
+  overflow: hidden;
+  margin-top: 0.24rem;
+  color: #979797;
+  font-size: 0.24rem;
+}
+.part6 p span{
+  display: inline-block;
+  padding: 0 0.46rem;
+  position: relative;
+}
+.part6 p span::before,
+.part6 p span::after{
+  content: "";
+  width: 4rem;
+  height: 1px;
+  background: #c5c4c4;
+  position: absolute;
+  top: 50%;
+  margin-top: -0.5px;
+}
+.part6 p span::before{
+  left: -4rem;
+}
+
+.part6 p span::after{
+  right: -4rem;
+}

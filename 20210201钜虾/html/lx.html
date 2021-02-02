@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title></title>
+  <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <!--网站开启对 web app 程序的支持-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <!--改变顶部状态条的颜色-->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no" />
+  <link rel="stylesheet" href="../css/swiper.min.css" />
+  <link rel="stylesheet" href="../css/common.css" />
+  <link rel="stylesheet" href="../css/lx.css">
+  <script type="text/javascript">
+    document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + 'px';
+  </script>
+</head>
+
+<body>
+  <div class="header-box">
+    <div class="header">
+      <div class="tel">
+        <p class="p1"><img src="../img/tel.png" alt=""><span>合作热线：</span></p>
+        <p class="p2">400-0000-000</p>
+      </div>
+      <div class="btn-menu">
+        <a href="javascript:;" class="on">联系我们</a>
+        <a href="javascript:;">返回</a>
+      </div>
+    </div>
+  </div>
+  <div class="menu">
+    <div class="menu-box">
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="gy.html">关于我们</a></li>
+        <li><a href="zp.html">楚味珍品</a></li>
+        <li><a href="pp.html">品牌优势</a></li>
+        <li><a href="md.html">门店形象</a></li>
+        <li><a href="hz.html">合作共赢</a></li>
+        <li><a href="news.html">新闻热点</a></li>
+        <li><a href="lx.html" class="on">联系我们</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="main">
+      <div class="banner-wrapper">
+        <div class="swiper-container banner-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="../img/banner.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="../img/banner.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="../img/banner.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-pagination banner-pagination"></div>
+        </div>
+      </div>
+      <div class="part1">
+        <div class="map_box">
+          <div class="map" id="map"></div>
+        </div>
+        
+        <div class="address">
+          <div class="str">
+            <p><img src="../img/index/g_icon5.png" alt=""><span>合作热线：</span><span>400-0000-000</span></p>
+            <p><img src="../img/index/g_icon6.png" alt=""><span>公司地址：</span><span>此处文案仅为示意，后期根据内容替换。</span>
+            </p>
+            <p><img src="../img/index/g_icon7.png" alt=""><span>印山红集团岀品</span></p>
+          </div>
+          <div class="code"><img src="../img/index/code.png" alt=""></div>
+        </div>
+        <div class="page-title">
+          <p class="p1">Free access to information</p>
+          <p class="p2">留言<span>免费获取</span>更多项目资料</p>
+        </div>
+        <div class="form_box">
+          <p class="p1">Free access</p>
+          <form action="javascript:;">
+            <input type="text" placeholder="姓名">
+            <input type="text" placeholder="电话">
+            <input type="text" placeholder="地址">
+            <textarea placeholder="留言"></textarea>
+            <input type="submit">
+          </form>
+        </div>
+
+
+      </div>
+
+
+      <div class="fenye-box">
+        <a href="news.html">上一页</a>
+        <a href="index.html">返回首页</a>
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <div class="footer">
+    <p>
+      <a href="javascript::">
+        <img src="../img/foot1.png" alt="">
+        <span>在线留言</span>
+      </a>
+    </p>
+    <p>
+      <a href="javascript::">
+        <img src="../img/foot2.png" alt="">
+        <span>一键拨号</span>
+      </a>
+    </p>
+
+  </div>
+
+
+
+
+  <script src="../js/jquery-1.11.2.min.js"></script>
+  <script src="../js/swiper.min.js"></script>
+  <script src="../js/swiper.animate1.0.2.min.js"></script>
+  <script src="../js/common.js"></script>
+  <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=6ALaE7y1e8N171T2CfPrHqZC3Ed000Cl"></script>
+  <script type="text/javascript">
+    var map = new BMap.Map("map"); // 创建Map实例
+    var point = new BMap.Point(104.067963, 30.572777);
+    map.centerAndZoom(point, 15);
+    var marker = new BMap.Marker(point); // 创建标注
+    map.addOverlay(marker); // 将标注添加到地图中
+    marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+    map.panTo(point);
+    map.addControl(new BMap.NavigationControl()); // 添加默认缩放平移控件
+    map.enableScrollWheelZoom(true); //开启鼠标滚轮缩放
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+.part1 ul {
+  margin-top: 0.4rem;
+}
+
+.part1 ul li {
+  float: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.part1 ul li:first-child {
+  width: 2.7rem;
+  flex-wrap: wrap;
+  padding-left: 4rem;
+  height: 0.78rem;
+  padding-bottom: 0.72rem;
+  padding-top: 2rem;
+  overflow: hidden;
+  background: url(../img/index/c1.png) left top no-repeat;
+  background-size: 6.7rem 3.5rem;
+}
+
+.part1 ul li p {
+  width: 1.14rem;
+  height: 0.34rem;
+  margin-bottom: 0.1rem;
+  padding-left: 0.1rem;
+  line-height: 0.34rem;
+  text-align: center;
+  color: #ffffff;
+  background-image: url(../img/index/c_icon.png);
+  background-size: 100% 100%;
+}
+
+.part1 ul li p span {
+  display: block;
+  transform: scale(0.83);
+  -webkit-transform: scale(0.83);
+  -o-transform: scale(0.83);
+  -moz-transform: scale(0.83);
+  -ms-transform: scale(0.83);
+  width: 120%;
+  margin-left: -10%;
+}
+
+.part1 ul li:nth-child(2) {
+  float: right;
+  width: 7.16rem;
+  height: 0.6rem;
+  padding-top: 2.8rem;
+  background: url(../img/index/c2.png) left top no-repeat;
+  background-size: 7.16rem 3.4rem;
+  justify-content: left;
+  margin-top: -1rem;
+}
+
+.part1 ul li:nth-child(2) p {
+  margin-right: 0.1rem;
+}
+
+.part1 ul li:last-child {
+  height: 0.78rem;
+  padding-bottom: 0.58rem;
+  padding-top: 2rem;
+  padding-left: 4.46rem;
+  width: 2.56rem;
+  background: url(../img/index/c3.png) left top no-repeat;
+  background-size: 6.92rem 3.36rem;
+  flex-wrap: wrap;
+}
+
+.part ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 6.7rem;
+  margin: auto;
+  padding-top: 0.14rem;
+}
+
+.part ul li {
+  width: 3.3rem;
+  margin-top: 0.2rem;
+}
+
+.part ul img {
+  display: block;
+  width: 3.3rem;
+  height: 2.44rem;
+}
+.part ul div{
+  border-top: 2px #e61f19 solid; 
+  height: 1.26rem;
+  background: #f7f7f7;
+  text-align: center;
+}
+.part ul .p1{
+  color: #e61f19;
+  font-size: 0.24rem;
+  font-weight: bold;
+  padding: 0.1rem 0;
+}
+.part ul .p2 {
+  font-size: 0.24rem;
+  color: #333333;
+}
+.part ul .p2 span{
+  display: block;
+  transform: scale(0.75);
+  -webkit-transform: scale(0.75);
+  -o-transform: scale(0.75);
+  -moz-transform: scale(0.75);
+  -ms-transform: scale(0.75);
+  width: 133%;
+  margin-left: -16.5%;
+}

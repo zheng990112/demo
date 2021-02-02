@@ -1,0 +1,145 @@
+.part {
+  padding-top: 0.7rem;
+}
+
+.part .part-mian {
+  width: 6.6rem;
+  margin: auto;
+}
+
+.part-title {
+  font-size: 0.36rem;
+  color: #ffffff;
+  text-align: center;
+  height: 0.52rem;
+  line-height: 0.52rem;
+  background: #ff8417;
+}
+.part ul{
+  padding-top: 0.1rem;
+}
+.part ul li {
+  margin-top: 0.26rem;
+}
+.part ul li:first-child{
+  margin-top: 0;
+}
+.part ul img {
+  display: block;
+  width: 100%;
+}
+
+.part ul .p1 {
+  margin-top: 0.36rem;
+  font-size: 0.32rem;
+  color: #ff8417;
+  background: url(../img/news/icon1.png) right center no-repeat;
+  background-size: 4.64rem 0.36rem;
+}
+
+.part ul a {
+  margin-top: 0.1rem;
+  font-size: 0.24rem;
+  line-height: 0.4rem;
+  color: #3e3b3f;
+  text-align: justify;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.part ul .p2 {
+  text-align: right;
+}
+
+.part ul .p2 span {
+  display: inline-block;
+  font-size: 0.24rem;
+  color: #ff8417;
+}
+.part .btn{
+  margin-top: 0.48rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.part .btn a,
+.part .btn span{
+  min-width: 0.4rem;
+  padding: 0 0.23rem;
+  height: 0.56rem;
+  line-height: 0.56rem;
+  text-align: center;
+  background: #c7c8c9;
+  color: #3e3b3f;
+  margin: 0 0.08rem;
+}
+.part .btn a.on{
+  background: #3e3b3f;
+  color: #ffffff;
+}
+.part .btn a:first-child,
+.part .btn a:last-child{
+  color: #ffffff;
+  background: #ff8417;
+}
+.part .btn a:first-child{
+  margin-right: auto;
+  margin-left: 0;
+}
+.part .btn a:last-child{
+  margin-right: 0;
+  margin-left: auto;
+}
+.fenye-box{
+  margin-top: 0.48rem;
+}
+
+
+.news_text{
+  padding-top: 0.4rem;
+  padding-bottom: 0.3rem;
+}
+.news_text h1 {
+  text-align: center;
+  font-size: 0.38rem;
+  color: #474747;
+  width: 5rem;
+  margin: auto;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.news_text h3 {
+  width: 5rem;
+  margin: auto;
+  font-size: 0.26rem;
+  margin-top: 0.2rem;
+  color: #707070;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+
+.news_text img {
+  width: 6.3rem;
+  display: block;
+  margin: auto;
+  margin-top: 0.2rem;
+}
+
+.news_text p {
+  text-align: justify;
+  font-size: 0.24rem;
+  color: #707070;
+  line-height: 1.5;
+  width: 6.3rem;
+  margin: auto;
+  margin-top: 0.3rem;
+}
