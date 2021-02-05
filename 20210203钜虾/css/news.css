@@ -81,13 +81,17 @@
 .news ul{
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   flex-wrap: wrap;
   padding-top: 0.04rem;
 }
 .news ul li{
   width: 2.78rem;
   margin-top: 0.26rem;
+  margin-left: 0.29rem;
+}
+.news ul li:nth-child(4n+1){
+  margin-left: 0;
 }
 .news ul img{
   display: block;
