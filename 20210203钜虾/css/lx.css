@@ -1,0 +1,134 @@
+.lx .part-box {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lx .map_box {
+  width: 7rem;
+  height: 5.1rem;
+}
+
+.lx .map_box .map {
+  width: 100%;
+  height: 100%;
+}
+
+.lx .part-box .str {
+  width: 5rem;
+  height: 5.1rem;
+  background: url(../img/lx/a1.jpg);
+  background-size: 100% 100%;
+}
+
+.lx .part-box .str>img {
+  display: block;
+  width: 1.88rem;
+  height: 0.92rem;
+  margin: auto;
+  margin-top: 0.86rem;
+}
+
+.lx .part-box .str p {
+  padding-left: 0.3rem;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 0.2rem;
+  padding-right: 0.2rem;
+}
+
+.lx .part-box .str p img {
+  width: 0.26rem;
+  height: 0.26rem;
+  margin-right: 0.04rem;
+}
+
+.lx .part-box .str p span {
+  font-size: 0.2rem;
+  color: #333333;
+}
+
+.lx .part-box .str p.on {
+  margin-top: 0.7rem;
+}
+
+.lx .part-box .str p.on img {
+  margin-top: 0.02rem;
+}
+
+.lx .part-box .str p.on span:last-child {
+  font-size: 0.3rem;
+  color: #e61f19;
+  line-height: 1;
+  font-weight: bold;
+  margin-top: -0.02rem;
+}
+
+.lx .from-box {
+  width: 8.86rem;
+  margin: auto;
+  margin-top: 0.76rem;
+}
+
+.lx .from-box p {
+  font-size: 0.34rem;
+  color: #333333;
+  text-align: center;
+  overflow: hidden;
+}
+
+.lx .from-box p span {
+  display: inline-block;
+  position: relative;
+}
+
+.lx .from-box p span::before,
+.lx .from-box p span::after {
+  content: '';
+  background: #d6d6d6;
+  width: 5rem;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+}
+
+.lx .from-box p span::before {
+  left: -5.2rem;
+}
+
+.lx .from-box p span::after {
+  right: -5.2rem;
+}
+
+.lx .from-box form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 0.04rem;
+  padding-bottom: 1.1rem;
+}
+
+.lx .from-box input {
+  width: 2.3rem;
+  height: 0.48rem;
+  border-radius: 0.3rem;
+  background: #e5e5e5;
+  padding: 0 0.25rem;
+  margin-top: 0.2rem;
+  font-size: 0.24rem;
+  color: #666666;
+}
+
+.lx .from-box input:nth-last-child(2) {
+  width: 8.36rem;
+}
+
+.lx .from-box input:last-child {
+  width: 2.1rem;
+  padding: 0;
+  margin: auto;
+  margin-top: 0.2rem;
+  color: #ffffff;
+  background: #c11414;
+  cursor: pointer;
+}

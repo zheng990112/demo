@@ -1,0 +1,102 @@
+.sub-title .p2 span {
+  margin-left: 0.5rem;
+}
+
+.zp1 .pic {
+  width: 12rem;
+  margin: auto;
+  margin-top: 0.36rem;
+  padding-bottom: 0.8rem;
+  position: relative;
+}
+
+.zp1 .pic img {
+  display: block;
+  width: 12rem;
+  height: 10.2rem;
+}
+
+.zp1 .pic::after {
+  content: "";
+  width: 8.38rem;
+  height: 4.78rem;
+  background-image: url(../img/zp/a-bg.png);
+  background-size: 100% 100%;
+  position: absolute;
+  right: -1.94rem;
+  bottom: 0;
+}
+
+.zp ul {
+  width: 10.24rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 0.26rem;
+  padding-bottom: 1.16rem;
+}
+
+.zp ul li {
+  width: 4.86rem;
+  background: #f7f7f7;
+  height: 2.46rem;
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+.zp ul .pic {
+  width: 2.62rem;
+  height: 2.46rem;
+  position: relative;
+}
+
+.zp ul .pic img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.zp ul .pic::after {
+  content: "";
+  width: 0.05rem;
+  height: 2.16rem;
+  background: #e61f19;
+  position: absolute;
+  right: -0.05rem;
+  bottom: 0;
+}
+
+.zp ul .str {
+  width: 1.98rem;
+  padding-left: 0.26rem;
+  padding-top: 0.3rem;
+}
+
+.zp ul .p1 {
+  font-size: 0.24rem;
+  color: #e61f19;
+  font-weight: bold;
+}
+
+.zp ul .p2 {
+  font-size: 0.16rem;
+  color: #adadad;
+  padding-top: 0.08rem;
+}
+.zp ul .p2 span{
+  display: block;
+  transform: scale(0.75);
+  -webkit-transform: scale(0.75);
+  -o-transform: scale(0.75);
+  -moz-transform: scale(0.75);
+  -ms-transform: scale(0.75);
+  width: 133%;
+  margin-left: -16.5%;
+}
+.zp ul .p3{
+  font-size: 0.18rem;
+  color: #333333;
+  line-height: 0.28rem;
+  margin-top: 0.2rem;
+}
