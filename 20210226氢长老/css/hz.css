@@ -1,0 +1,345 @@
+.part-main {
+  width: 12rem;
+  margin: auto;
+}
+
+.part-title .p1 {
+  font-size: 0.7rem;
+  color: #36b7da;
+}
+
+.part-title .p2 {
+  font-size: 0.3rem;
+  line-height: 0.4rem;
+  color: #9fa0a0;
+}
+
+.hz1 .part1 {
+  position: relative;
+  z-index: 0;
+}
+
+.hz1 .part1::after {
+  content: "";
+  width: 13.44rem;
+  height: 5.54rem;
+  background-image: url(../img/hz/a1.jpg);
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0.7rem;
+  right: 0;
+  z-index: -1;
+}
+
+.hz1 .part1 .first_p {
+  width: 5.1rem;
+  font-size: 0.18rem;
+  line-height: 0.32rem;
+  color: #9e9e9f;
+  text-align: justify;
+  margin-top: 0.4rem;
+}
+
+.hz1 .part2 {
+  margin-top: 0.3rem;
+  position: relative;
+  z-index: 0;
+}
+
+.hz1 .part2 ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 0.1rem;
+  padding-bottom: 0.9rem;
+}
+
+.hz1 .part2 ul li {
+  width: 5.34rem;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.hz1 .part2 ul img {
+  width: 1.9rem;
+  height: 1.9rem;
+  border-radius: 50%;
+}
+
+.hz1 .part2 ul div {
+  width: 3.14rem;
+}
+
+.hz1 .part2 ul .p1 {
+  font-size: 0.26rem;
+  color: #3cb8d8;
+}
+
+.hz1 .part2 ul .p2 {
+  font-size: 0.18rem;
+  line-height: 0.32rem;
+  color: #9e9e9f;
+  text-align: justify;
+  margin-top: 0.14rem;
+  padding-top: 0.14rem;
+  border-top: 1px solid #f1f2f2;
+}
+
+.hz2 .part1 {
+  position: relative;
+  z-index: 0;
+}
+
+.hz2 .part1::before {
+  content: "";
+  width: 100%;
+  height: 6.12rem;
+  background-image: url(../img/hz/b_bg.jpg);
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+  top: -1rem;
+  z-index: -1;
+}
+
+.hz2 .part1 .part-title {
+  margin-top: 0.1rem;
+}
+
+.hz2 .part1 .part_title {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.hz2 .part1 .part_title .circular {
+  width: 1.38rem;
+  height: 1.38rem;
+  background-image: url(../img/hz/b_icon1.png);
+  background-size: 100% 100%;
+  text-align: center;
+  line-height: 1.38rem;
+  font-size: 0.98rem;
+  color: #ffffff;
+}
+
+.hz2 .part1 .part_title.on .circular {
+  background-image: url(../img/hz/b_icon2.png);
+}
+
+.hz2 .part1 .part_title div {
+  margin-left: 0.3rem;
+}
+
+.hz2 .part1 .part_title .p1 {
+  display: inline-block;
+  font-size: 0.4rem;
+  color: #36b3d6;
+  position: relative;
+}
+
+.hz2 .part1 .part_title .p1::after {
+  content: "";
+  width: 10rem;
+  height: 1px;
+  background: #36b3d6;
+  position: absolute;
+  right: -10.4rem;
+  top: 50%;
+  margin-top: -0.5px;
+}
+
+.hz2 .part1 .part_title .p2 {
+  font-size: 0.3rem;
+  color: #9fa0a0;
+}
+
+.hz2 .part1 .img1 {
+  display: block;
+  width: 9.86rem;
+  height: 4.7rem;
+  margin-left: 1.7rem;
+  border-radius: 0.34rem;
+}
+
+.hz2 .part1 .list1 {
+  margin-left: 1.7rem;
+  width: 9.86rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.16rem;
+}
+
+.hz2 .part1 .list1 img {
+  display: block;
+  width: 4.78rem;
+  height: 2.24rem;
+}
+
+.hz2 .part1 .list1 p {
+  margin: auto;
+  width: 4.72rem;
+  height: 0.34rem;
+  line-height: 0.34rem;
+  text-align: center;
+  background-image: url(../img/hz/b_icon3.png);
+  background-size: 100% 100%;
+  margin-top: 0.2rem;
+  font-size: 0.26rem;
+  color: #ffffff;
+}
+.hz2 .part1 .list2 {
+  margin-left: 1.7rem;
+  width: 9.86rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.16rem;
+  text-align: center;
+}
+.hz2 .part1 .list2 li{
+  width: 2.2rem;
+}
+.hz2 .part1 .list2 img{
+  display: block;
+  width: 2.18rem;
+  height: 2.18rem;
+  border-radius: 50%;
+}
+.hz2 .part1 .list2 .p1{
+  font-size: 0.3rem;
+  font-weight: bold;
+  color: #3cb8d8;
+  margin-top: 0.1rem;
+}
+.hz2 .part1 .list2 .p2{
+  font-size: 0.24rem;
+  color: #666666;
+  line-height: 0.34rem;
+  margin-top: 0.04rem;
+}
+.hz2 .part1 .last_box{
+  margin-left: 1.7rem;
+  width: 9.86rem;
+  height: 6.08rem;
+  background-image: url(../img/hz/b8.jpg);
+  background-size: 100% 100%;
+  margin-top: 0.3rem;
+  margin-bottom: 1.2rem;
+  overflow: hidden;
+}
+.hz2 .part1 .last_box .str{
+  text-align: center;
+  width: 3rem;
+  margin-top: 0.2rem;
+  margin-left: 0.82rem;
+}
+.hz2 .part1 .last_box .str:last-child{
+  width: 2.4rem;
+  margin-top: 3.6rem;
+  margin-left: 6.4rem;
+}
+.hz2 .part1 .last_box .p1{
+  width: 2.02rem;
+  height: 0.4rem;
+  margin: auto;
+  line-height: 0.4rem;
+  background-image: url(../img/hz/b_icon4.png);
+  background-size: 100% 100%;
+  font-size: 0.24rem;
+  color: #ffffff;
+}
+.hz2 .part1 .last_box .p2{
+  font-size: 0.18rem;
+  line-height: 0.26rem;
+  color: #888888;
+  margin: auto;
+  margin-top: 0.2rem;
+}
+.hz3 .part1 ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 0.3rem;
+  padding-bottom: 1.6rem;
+}
+.hz3 .part1 ul li{
+  width: 2.52rem;
+  margin-top: 0.3rem;
+}
+
+.hz3 .part1 ul .p1{
+  width: 1.92rem;
+  height: 1.08rem;
+  background-image: url(../img/hz/c_icon.png);
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+}
+.hz3 .part1 ul .p1 span{
+  color: #ffffff;
+  font-size: 0.3rem;
+  line-height: 0.36rem;
+  margin-left: 0.18rem;
+}
+.hz3 .part1 ul .p1 span:last-child{
+  width: 0.6rem;
+  margin-left: 0.56rem;
+}
+.hz3 .part1 ul .p2{
+  font-size: 0.22rem;
+  line-height: 0.36rem;
+  color: #9e9e9f;
+  text-align: justify;
+  margin-top: 0.14rem;
+}
+.hz4 {
+  padding-top: 0.5rem;
+}
+.hz4 ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 0.2rem;
+  padding-bottom: 0.8rem;
+}
+.hz4 ul li{
+  width: 2.82rem;
+  margin-top: 0.24rem;
+}
+.hz4 ul img{
+  display: block;
+  width: 2.82rem;
+  height: 1.34rem;
+}
+.hz4 ul div{
+  display: flex;
+  align-items: center;
+  padding: 0.1rem 0 0.14rem 0.04rem;
+  border-bottom: 1px solid #aaaaaa;
+}
+.hz4 ul li:last-child div,
+.hz4 ul li:nth-last-child(2) div,
+.hz4 ul li:nth-last-child(3) div,
+.hz4 ul li:nth-last-child(4) div{
+  border-bottom: none;
+}
+.hz4 ul p:first-child{
+  width: 1rem;
+  height: 0.3rem;
+  background-image: url(../img/hz/d_icon.png);
+  background-size: 100% 100%;
+  text-align: center;
+  line-height: 0.3rem;
+  font-size: 0.2rem;
+  color: #ffffff;
+}
+.hz4 ul p:last-child{
+  font-size: 0.16rem;
+  color: #3e3a39;
+  margin-left: 0.08rem;
+  border-left: 1px solid #aaaaaa;
+  padding-left: 0.16rem;
+}

@@ -1,0 +1,234 @@
+.part-main {
+  width: 12rem;
+  margin: auto;
+}
+
+.lx1 .part-title {
+  height: 4.54rem;
+  background: url(../img/lx/a1.jpg) right no-repeat;
+  background-size: 6.56rem 4.54rem;
+}
+
+.lx1 .part-title .p1 {
+  font-size: 0.5rem;
+  color: #36b8db;
+  line-height: 0.68rem;
+  padding-top: 0.5rem;
+}
+
+.lx1 .part-title .p2 {
+  font-size: 0.3rem;
+  line-height: 0.48rem;
+  color: #d3d3d3;
+  margin-top: 0.2rem;
+}
+
+.lx1 .part-title .p2::after {
+  content: "";
+  width: 0.46rem;
+  height: 0.02rem;
+  background: #36b8db;
+  display: block;
+  margin-top: 0.4rem;
+}
+
+.form_box {
+  border-radius: 0.3rem;
+  background: #e0e0e0;
+}
+
+.form_title {
+  text-align: center;
+  height: 0.44rem;
+  line-height: 0.44rem;
+  background: #36b8db;
+  border-radius: 0.3rem;
+  font-size: 0.24rem;
+  color: #ffffff;
+  text-indent: 0.1rem;
+  letter-spacing: 0.1rem;
+}
+
+.form_box form {
+  width: 10.8rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 0.66rem;
+}
+
+::-webkit-input-placeholder {
+  color: #a6a7a7;
+  font-family: "Microsoft Yahei";
+}
+
+::-moz-placeholder {
+  color: #a6a7a7;
+  font-family: "Microsoft Yahei";
+}
+
+/* firefox 19+ */
+:-ms-input-placeholder {
+  color: #a6a7a7;
+  font-family: "Microsoft Yahei";
+}
+
+/* ie */
+input:-moz-placeholder {
+  color: #a6a7a7;
+  font-family: "Microsoft Yahei";
+}
+
+.form_box form input,
+.form_box form textarea {
+  padding-left: 0.34rem;
+  padding-right: 0.1rem;
+  width: 3rem;
+  height: 0.42rem;
+  border: 1px solid #dbdbdb;
+  margin-top: 0.3rem;
+  background: #ffffff url(../img/lx/a_icon1.jpg) left center no-repeat;
+  background-size: 0.34rem 0.34rem;
+  color: #595957;
+  font-size: 0.18rem;
+}
+
+.form_box form input:nth-child(2) {
+  background-image: url(../img/lx/a_icon2.jpg);
+}
+
+.form_box form input:nth-child(3) {
+  background-image: url(../img/lx/a_icon3.jpg);
+}
+
+.form_box form textarea {
+  resize: none;
+  width: 10.36rem;
+  height: 2.06rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  background-image: url(../img/lx/a_icon4.jpg);
+  background-position: left 0.04rem;
+}
+
+.form_box form input:last-child {
+  width: 2.8rem;
+  height: 0.36rem;
+  border: none;
+  padding: 0;
+  margin: 0.2rem auto;
+  cursor: pointer;
+  background: #36b8db;
+  color: #ffffff;
+  border-radius: 0.3rem;
+  font-size: 0.24rem;
+  text-indent: 0.1rem;
+  letter-spacing: 0.1rem;
+}
+
+.lx2 .part1 {
+  position: relative;
+  z-index: 0;
+}
+
+.lx2 .part1::after {
+  content: "";
+  width: 100%;
+  height: 5.06rem;
+  background-image: url(../img/lx/b_bg.png);
+  background-size: 100% 100%;
+  position: absolute;
+  top: -1rem;
+  left: 0;
+  z-index: -1;
+}
+
+.lx2 .part1 .part_title {
+  overflow: hidden;
+}
+
+.lx2 .part1 .part_title p {
+  font-size: 0.7rem;
+  color: #36b8db;
+  display: inline-block;
+  position: relative;
+  margin-top: 0.3rem;
+}
+
+.lx2 .part1 .part_title p::after {
+  content: "";
+  background: #36b8db;
+  height: 1px;
+  width: 10rem;
+  position: absolute;
+  right: -10.3rem;
+  top: 50%;
+  margin-top: -0.5px;
+}
+
+.lx2 .part1 .str {
+  display: flex;
+  align-items: center;
+  margin-top: 0.3rem;
+}
+
+.lx2 .part1 .str .tel {
+  margin-left: 1rem;
+}
+
+.lx2 .part1 .str .tel .p1 {
+  color: #36b8db;
+  font-size: 0.26rem;
+}
+
+.lx2 .part1 .str .tel .p2 img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0.53rem;
+  height: 0.53rem;
+}
+
+.lx2 .part1 .str .tel .p2 span {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0.5rem;
+  color: #36b8db;
+  font-weight: bold;
+  margin-left: 0.1rem;
+}
+.lx2 .part1 .text{
+  margin-left: 1.2rem;
+}
+.lx2 .part1 .text .p1{
+  font-size: 0.28rem;
+  color: #36b8db;
+}
+.lx2 .part1 .text .p2,
+.lx2 .part1 .text .p3{
+  font-size: 0.22rem;
+  line-height: 0.36rem;
+  color: #36b8db;
+}
+.lx2 .part1 .text .p2{
+  margin-top: 0.2rem;
+}
+.lx2 .part1 .text .p3{
+  color: #000000;
+}
+
+.lx2 .map_box{
+  height: 11.96rem;
+  height: 4.7rem;
+  margin: auto;
+  border: 2px solid #36b8db;
+  border-radius: 0.3rem;
+  overflow: hidden;
+  margin-top: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+.lx2 .map_box .map{
+  display: block;
+  width: 100%;
+  height: 1005px;
+}

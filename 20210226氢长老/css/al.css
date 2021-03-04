@@ -1,0 +1,56 @@
+.part-main {
+  width: 12rem;
+  margin: auto;
+}
+
+.part-title .p1 {
+  font-size: 0.7rem;
+  color: #36b7da;
+}
+
+.part-title .p2 {
+  font-size: 0.3rem;
+  line-height: 0.4rem;
+  color: #9fa0a0;
+}
+.al .part1 ul{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.6rem;
+  padding-bottom: 1.44rem;
+}
+.al .part1 ul li{
+  width: 2.64rem;
+}
+.al .part1 ul img{
+  display: block;
+  width: 2.64rem;
+  height: 2.64rem;
+  border-radius: 50%;
+}
+.al .part1 ul p{
+  height: 0.42rem;
+  line-height: 0.42rem;
+  text-align: center;
+  color: #ffffff;
+  background: #3cb8d8;
+  font-size: 0.2rem;
+  border-radius: 0.3rem;
+  margin-top: 0.28rem;
+}
+
+.al .part1 ul.list{
+  width: 10.1rem;
+  padding-left: 0.6rem;
+}
+.al .part1 ul.list li{
+  width: 3rem;
+}
+.al .part1 ul.list img{
+  width: 3rem;
+  height: 3rem;
+}
+.al .part1 ul.list p{
+  height: 0.46rem;
+  line-height: 0.46rem;
+}
