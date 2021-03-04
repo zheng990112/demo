@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: 'Microsoft Yahei';
+  font-size: 0.24rem;
+  background-color: #ffffff;
+  color: #000000;
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* @font-face{
+	font-family: "myfont_Magpie";
+	src: url('../font/MagpieSign.TTF');
+} */
+
+
+
+/* 自定义标签样式 */
+
+a {
+  text-decoration: none;
+  color: #000;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+}
+
+label {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ul li,
+ol li {
+  list-style: none;
+}
+
+input,
+img,
+textarea,
+button {
+  outline: none;
+  border: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-appearance: none;
+}
+
+button {
+  background: none;
+  outline: none;
+}
+
+b {
+  font-weight: normal;
+}
+
+u {
+  text-decoration: none;
+}
+
+
+/* 自定义公共类名样式 */
+
+.fl-lt {
+  float: left;
+}
+
+.fl-rt {
+  float: right;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.header-box {
+  width: 100%;
+  height: 1.66rem;
+  background: url(../img/header_bg.png) no-repeat;
+  background-size: 100% 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.header {
+  width: 100%;
+  height: 100%;
+  background: url(../img/logo.png) center no-repeat;
+  background-size: 2.66rem 0.94rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0;
+}
+
+.header .tel {
+  margin-right: auto;
+  margin-left: 0.3rem;
+  margin-top: 0.4rem;
+  line-height: 1;
+}
+
+.header .tel .p1 {
+  line-height: 1;
+}
+
+.header .tel span {
+  font-size: 0.2rem;
+  display: inline-block;
+  vertical-align: middle;
+  color: #73a9bf;
+  margin-left: 0.1rem;
+  padding-left: 0.1rem;
+  border-left: 1px solid #73a9bf;
+}
+
+.header .tel img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0.25rem;
+  height: 0.25rem;
+}
+
+.header .tel .p2 {
+  font-size: 0.22rem;
+  color: #73a9bf;
+  font-weight: bold;
+}
+
+.header .btn-menu {
+  width: 1.36rem;
+  height: 0.86rem;
+  background-image: url(../img/menu_bg.png);
+  background-size: 100% 100%;
+  margin-top: 0.24rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.header .btn-menu a {
+  font-size: 0.24rem;
+  width: 0.6rem;
+  padding: 0 0.13rem;
+  line-height: 0.32rem;
+  color: #ffffff;
+  font-weight: bold;
+  display: none;
+  text-align: center;
+}
+
+.header .btn-menu a.on {
+  display: block;
+}
+
+
+
+
+/*导航*/
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: url(../img/bg.png);
+  background-size: 100% 100%;
+  z-index: 99;
+}
+
+.menu .menu-box {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.menu ul {
+  width: 1.4rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.menu ul li {
+  width: 100%;
+  height: 1rem;
+  border-bottom: 1px solid #ffffff;
+  position: relative;
+}
+
+.menu ul li:last-child {
+  border-bottom: none;
+}
+
+.menu ul .title {
+  text-align: center;
+  color: #ffffff;
+  font-size: 0.34rem;
+  line-height: 1rem;
+  font-weight: bold;
+}
+
+.menu .item {
+  width: 1.4rem;
+  padding: 0.2rem 0;
+  background: #ffffff;
+  text-align: center;
+  position: absolute;
+  right: -1.8rem;
+  top: 0;
+  border-radius: 0.3rem;
+  display: none;
+}
+.menu .active .item{
+  display: block;
+}
+.menu .item::after{
+  content: "";
+  width: 0.12rem;
+  height: 0.18rem;
+  background-image: url(../img/item_on.png);
+  background-size: 100% 100%;
+  position: absolute;
+  left: -0.12rem;
+  top: 0.41rem;
+}
+
+.menu .item a {
+  line-height: 0.84rem;
+  height: 0.84rem;
+  font-size: 0.26rem;
+  color: #666666;
+}
+.menu ul .active .title {
+  color: #dbe491;
+}
+.menu ul .active .item a.on{
+  color: #ffffff;
+  background: url(../img/menu_on.png) center no-repeat;
+  background-size: 100% 0.42rem;
+}
+
+
+
+
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-size: 0;
+  width: 100%;
+  height: 0.88rem;
+  background-size: 100% 100%;
+  z-index: 999;
+  font-size: 0;
+  display: flex;
+  justify-content: space-between;
+  background-image: url(../img/foot_bg.png);
+  background-size: 100% 100%;
+}
+
+.footer p {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  line-height: 0.9rem;
+  position: relative;
+}
+
+.footer p:first-child::after {
+  content: "";
+  width: 1px;
+  height: 0.42rem;
+  background: #ffffff;
+  position: absolute;
+  right: 0.5px;
+  top: 50%;
+  margin-top: -0.21rem;
+}
+
+.footer p a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer img {
+  width: 0.66rem;
+  height: 0.66rem;
+  margin-right: 0.2rem;
+}
+
+.footer span {
+  font-size: 0.26rem;
+  color: #ffffff;
+}
+
+/* banner */
+.banner-wrapper{
+	height:13.4rem;
+}
+.banner-wrapper .banner-swiper{
+  width: 100%;
+  height: 100%;
+}
+.banner-wrapper img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.banner-wrapper .swiper-pagination-bullet{
+	background-color: #ffffff;
+	opacity: 1;
+}
+
+.banner-wrapper .swiper-pagination-bullet.swiper-pagination-bullet-active{
+	background-color: #3cb8d8;
+}
+.banner-wrapper .swiper-container-horizontal>.swiper-pagination-bullets,
+.banner-wrapper .swiper-pagination-custom,
+.banner-wrapper .swiper-pagination-fraction{
+	bottom: 0.4rem;
+}
+
+
+
+.container
+
+
+.main {
+  padding-bottom: 0.88rem;
+}
+
+
+
+
+.fenye-box {
+  width: 5.2rem;
+  margin: auto;
+  margin-bottom: 0.8rem;
+  margin-top: 0.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.fenye-box a {
+  width: 2.2rem;
+  height: 0.54rem;
+  line-height: 0.54rem;
+  font-size: 0.24rem;
+  font-weight: bold;
+  color: #ffffff;
+  background: #e61f19;
+  border-radius: 0.3rem;
+}
