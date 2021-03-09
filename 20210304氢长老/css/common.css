@@ -334,34 +334,53 @@ u {
 
 
 
-.container
 
-
-.main {
-  padding-bottom: 0.88rem;
+.content{
+  padding-top: 1.66rem;
+  padding-bottom: 0.87rem;
 }
 
+.nav{
+  width: 1.36rem;
+  height: 0.86rem;
+  overflow: hidden;
+  background-image: url(../img/nav.png);
+  background-size: 100% 100%;
 
-
+  display: flex;
+  align-items: center;
+}
+.nav a{
+  font-size: 0.24rem;
+  width: 0.6rem;
+  padding: 0 0.13rem;
+  line-height: 0.32rem;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 0.5rem;
+}
 
 .fenye-box {
-  width: 5.2rem;
+  width: 4.2rem;
   margin: auto;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.6rem;
   margin-top: 0.6rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   text-align: center;
+  position: relative;
+  z-index: 9;
 }
 
 .fenye-box a {
-  width: 2.2rem;
-  height: 0.54rem;
-  line-height: 0.54rem;
-  font-size: 0.24rem;
-  font-weight: bold;
+  width: 1.7rem;
+  height: 0.52rem;
+  text-align: center;
+  line-height: 0.52rem;
   color: #ffffff;
-  background: #e61f19;
-  border-radius: 0.3rem;
+  font-size: 0.24rem;
+  background-image: url(../img/btn-prev.png);
+  background-size: 100% 100%;
 }

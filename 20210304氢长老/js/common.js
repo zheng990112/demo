@@ -1,30 +1,26 @@
 $(function () {
-  var bannerSwiper = new Swiper('.banner-swiper',{
-		autoplay: true,
-		pagination: {
-		    el:'.banner-pagination',
-		},
-		// effect : 'coverflow',
-		autoplay:true,
-		loop: true,
-		autoplayDisableOnInteraction: false,
-	});
-	
+  var bannerSwiper = new Swiper('.banner-swiper', {
+    autoplay: true,
+    pagination: {
+      el: '.banner-pagination',
+    },
+    // effect : 'coverflow',
+    autoplay: true,
+    loop: true,
+    autoplayDisableOnInteraction: false,
+  });
 
   $(".play").click(function () {
+    $(this).siblings("p").remove();
     var player = $(this).next()[0];
     if (player.pause) {
       player.play();
       $(this).prev().remove();
-      $(this).css({
-        "display": "none"
-      });
+      $(this).css({ "display": "none" });
       $(this).next().attr("controls", "controls");
     } else {
       player.pause();
-      $(this).css({
-        "display": "block"
-      });
+      $(this).css({ "display": "block" });
     }
   });
 
@@ -51,11 +47,12 @@ $(function () {
   });
   $('.menu .title').on('click', function () {
     $(this).parent().addClass('active').siblings().removeClass('active');
-    if ($(this).siblings().length != 0){
+    if ($(this).siblings().length != 0) {
       return false;
     }
   })
   $('.menu .item a').on('click', function () {
     $(this).addClass("on").siblings().removeClass("on");
   })
+  // $(".container").css("minHeight",$(window).height());
 })

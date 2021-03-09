@@ -1,0 +1,236 @@
+.content {
+	padding-top: 1.66rem !important;
+}
+
+.color_bg {
+	background: linear-gradient(to right, #e0df80, #3ab4d4);
+}
+
+.product_title {
+	margin: .3rem .25rem .4rem .25rem;
+}
+
+.product_title .big {
+	position: relative;
+	font-size: .48rem;
+	color: #36b3d6;
+}
+
+.product_title em {
+	position: absolute;
+	display: block;
+	right: 0;
+	top: 50%;
+	height: .01rem;
+}
+
+.product_title .big em {
+	width: 1rem;
+
+}
+
+.product_title .small em {
+	width: 4rem;
+
+}
+
+.product_title .small {
+	position: relative;
+	font-size: .24rem;
+	color: #333333;
+	display: block;
+	transform: scale(0.91);
+	-webkit-transform: scale(0.91);
+	-o-transform: scale(0.91);
+	-moz-transform: scale(0.91);
+	-ms-transform: scale(0.91);
+	width: 110%;
+	margin-left: -5%;
+}
+
+.product_cont1 .inner_title {
+	margin-bottom: .4rem;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.product_cont1 .inner_title .tx_left {
+	padding-left: .15rem;
+	margin-left: .1rem;
+	width: 2.64rem;
+	height: .56rem;
+	background: url(../img/product/product5_bg1.jpg) center no-repeat;
+	background-size: 2.64rem;
+	font-size: .35rem;
+	color: #fff;
+	line-height: .56rem;
+	text-align: center;
+	border-right: 1px solid #dbdcdc;
+}
+
+.product_cont1 .inner_title .tx_right {
+	position: relative;
+	padding-left: .65rem;
+	margin-left: .1rem;
+	font-size: .3rem;
+	line-height: .45rem;
+	color: #3fadcb;
+	text-align: left;
+}
+
+.product_cont1 .inner_title .tx_right::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: .58rem;
+	height: 1px;
+	background-color: #dbdcdc;
+}
+
+.product_cont1 .cont1 {
+	position: relative;
+	width: 100%;
+	height: 6.94rem;
+}
+
+.product_cont1 .cont1 ul {
+	width: 1.54rem;
+	float: left;
+}
+
+.product_cont1 .cont1 ul.cont1_left_ul {
+	margin: 0 .3rem;
+}
+
+.product_cont1 .cont1 ul.cont1_right_ul {
+	margin-top: .85rem;
+}
+
+.product_cont1 .cont1 img {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 3.54;
+	height: 6.94rem;
+}
+
+.product_cont1 .cont1 ul li {
+	margin-bottom: .25rem;
+}
+
+.product_cont1 .cont1 .circle {
+	margin-bottom: .1rem;
+	width: 1.54rem;
+	height: 1.54rem;
+	border-radius: 50%;
+	padding: .06rem;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.product_cont1 .cont1 .circle em {
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 1.4rem;
+	font-size: .3rem;
+	font-style: normal;
+	color: #fff;
+}
+
+.product_cont1 .cont1 .pos1 .circle,
+.product_cont1 .cont1 .pos2 .circle {
+	border: 1px solid #dce591;
+}
+
+.product_cont1 .cont1 .pos3 .circle,
+.product_cont1 .cont1 .pos4 .circle {
+	border: 1px solid #3cb8d8;
+}
+
+.product_cont1 .cont1 .pos1 .circle em,
+.product_cont1 .cont1 .pos2 .circle em {
+	background-color: #dce591;
+}
+
+.product_cont1 .cont1 .pos3 .circle em,
+.product_cont1 .cont1 .pos4 .circle em {
+	background-color: #3cb8d8;
+}
+
+.product_cont1 .cont1 .text {
+	width: 1.54rem;
+	font-size: .24rem;
+	line-height: .32rem;
+	color: #9fa0a0;
+	text-align: center;
+}
+
+.product_cont2 .product_title {
+	margin-bottom: 0;
+}
+
+.product_cont2 .product_title .big em {
+	width: .8rem;
+
+}
+
+.cont2 {
+	clear: both;
+	min-height: 6.98rem;
+	margin: 0 .4rem 0 .5rem;
+	display: flex;
+}
+
+.cont2 .cont2_left {
+	float: left;
+	width: 5.08rem;
+	overflow: hidden;
+}
+
+.cont2 .cont2_left li {
+	margin-top: .35rem;
+	display: flex;
+	align-items: center;
+}
+
+.cont2 .cont2_left .text h3 {
+	font-size: .26rem;
+	color: #3cb8d8;
+	font-weight: normal;
+	padding-bottom: .35rem;
+	margin-bottom: .3rem;
+	border-bottom: 1px solid #fff;
+}
+
+.cont2 .cont2_left .text p {
+	font-size: .2rem;
+	color: #d2d2d3;
+	display: block;
+	transform: scale(0.91);
+	-webkit-transform: scale(0.91);
+	-o-transform: scale(0.91);
+	-moz-transform: scale(0.91);
+	-ms-transform: scale(0.91);
+	width: 110%;
+	margin-left: -5%;
+	line-height: 1.5em;
+}
+
+.cont2 .cont2_left .icon img {
+	width: 1.98rem;
+}
+
+.cont2 .cont2_right {
+	width: 1.17rem;
+	float: right;
+}
+
+.cont2 .cont2_right img {
+	width: 1.17rem;
+}

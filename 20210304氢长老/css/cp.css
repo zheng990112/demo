@@ -1,0 +1,275 @@
+.part_title {
+  width: 7rem;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 0.3rem;
+}
+
+.part_title p span {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+}
+
+.part_title p span:first-child {
+  align-items: center;
+  font-size: 0.48rem;
+  color: #36b3d6;
+}
+
+.part_title p:last-child span {
+  font-size: 0.24rem;
+  color: #333333;
+  margin-top: 0.14rem;
+}
+
+.part_title p span::after {
+  content: "";
+  background-image: url(../img/index/a_icon2.png);
+  background-size: 100% 100%;
+  width: 6rem;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  right: -6.2rem;
+}
+
+.cp1 .part1 .str {
+  margin-top: 1rem;
+  padding-left: 0.6rem;
+}
+
+.cp1 .part1 .str .p1 {
+  width: 3rem;
+  height: 0.68rem;
+  background-image: url(../img/cp/a_icon1.png);
+  background-size: 100% 100%;
+}
+
+.cp1 .part1 .str .p1 span {
+  font-size: 0.4rem;
+  color: #ffffff;
+  display: inline-block;
+  padding-left: 0.3rem;
+}
+
+.cp1 .part1 .str .p2 {
+  width: 2.7rem;
+  text-align: justify;
+  font-size: 0.3rem;
+  color: #3fadcb;
+  line-height: 0.46rem;
+}
+
+.cp1 .part1 ul {
+  width: 6.7rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: -3.4rem;
+}
+
+.cp1 .part1 ul::before {
+  content: "";
+  width: 3.24rem;
+}
+
+.cp1 .part1 ul li {
+  width: 3.24rem;
+  text-align: center;
+  margin-top: 0.1rem;
+}
+
+.cp1 .part1 ul img {
+  display: block;
+  width: 3.24rem;
+  height: 3.24rem;
+  border-radius: 50%;
+}
+
+.cp1 .part1 ul p {
+  font-size: 0.24rem;
+  color: #3cb8d8;
+  margin: 0.2rem 0;
+}
+
+.cp1 .part3 .part_title p:last-child span::after {
+  top: 25%;
+}
+
+.cp1 .part3 ul {
+  width: 6.9rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cp1 .part3 ul li {
+  width: 2.12rem;
+  text-align: center;
+  margin-top: 0.2rem;
+}
+
+.cp1 .part3 ul img {
+  display: block;
+  width: 2.12rem;
+  height: 3.52rem;
+}
+
+.cp1 .part3 ul p {
+  font-size: 0.28rem;
+  color: #3cb8d8;
+  margin-top: 0.1rem;
+}
+.cp2 .part1 .str{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.4rem;
+}
+.cp2 .part1 .str .p1 {
+  width: 3rem;
+  height: 0.68rem;
+  background-image: url(../img/cp/a_icon1.png);
+  background-size: 100% 100%;
+}
+
+.cp2 .part1 .str .p1 span {
+  font-size: 0.4rem;
+  color: #ffffff;
+  display: inline-block;
+  padding-left: 0.3rem;
+}
+.cp2 .part1 .str .p2{
+  font-size: 0.3rem;
+  color: #3fadcb;
+  line-height: 0.46rem;
+  margin-left: 0.1rem;
+}
+
+.cp2 .part3 ul {
+  width: 6.9rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cp2 .part3 ul li {
+  width: 2.12rem;
+  text-align: center;
+  margin-top: 0.2rem;
+}
+
+.cp2 .part3 ul img {
+  display: block;
+  width: 2.12rem;
+  height: 3.52rem;
+}
+
+.cp2 .part3 ul p {
+  font-size: 0.28rem;
+  color: #3cb8d8;
+  margin-top: 0.1rem;
+}
+
+
+
+.switch_card {
+  margin-top: 0.2rem;
+}
+
+.switch_card ul {
+  width: 6.9rem;
+  height: 0.78rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  background-image: url(../img/cp/switch_card-bg.jpg);
+  background-size: 100% 100%;
+}
+
+.switch_card ul li {
+  width: 1.15rem;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.switch_card ul li.on {
+  background: #36b3d6;
+}
+
+.switch_card ul p {
+  width: 100%;
+  font-size: 0.24rem;
+  color: #ffffff;
+  line-height: 0.3rem;
+}
+
+.switch_card ul p:first-child span {
+  display: block;
+  transform: scale(0.75);
+  -webkit-transform: scale(0.75);
+  -o-transform: scale(0.75);
+  -moz-transform: scale(0.75);
+  -ms-transform: scale(0.75);
+  width: 133%;
+  margin-left: -16.5%;
+}
+
+.card_main {
+  width: 6.9rem;
+  margin: auto;
+}
+
+.card_main .section {
+  display: none;
+}
+
+.card_main .section.active {
+  display: block;
+}
+
+.card_main img {
+  display: block;
+  width: 100%;
+}
+
+.card_main .section-title {
+  background: #36b3d6;
+  text-align: center;
+  height: 0.52rem;
+  line-height: 0.52rem;
+  font-size: 0.3rem;
+  color: #ffffff;
+}
+
+.card_main .section-box {
+  padding: 0.35rem;
+  padding-top: 0.1rem;
+  background: #f7f7f7;
+}
+
+.card_main .section-box .p1 {
+  font-size: 0.28rem;
+  color: #36b3d6;
+  margin-top: 0.2rem;
+}
+
+.card_main .section-box .p2 {
+  text-align: justify;
+  font-size: 0.24rem;
+  line-height: 0.4rem;
+  color: #9e9e9f;
+  margin-top: 0.06rem;
+}
+.cp2 .switch_card ul{
+  justify-content: left;
+}
+.cp2 .switch_card ul li{
+  width: 1.4rem;
+}

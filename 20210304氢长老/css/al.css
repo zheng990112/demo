@@ -1,0 +1,49 @@
+.content {
+	padding-top: 1.66rem !important;
+}
+.case_title{
+	margin: .3rem .4rem 0 .4rem;
+	font-size: .48rem;
+	color: #36b3d6;
+}
+.case_title.bg1{
+	background: url(../img/connect/line.jpg) 4.5rem 50% no-repeat;
+	background-size: 4.03rem;
+}
+.case_title.bg2{
+	font-size: .4rem;
+	background: url(../img/connect/line.jpg) 5.2rem 50% no-repeat;
+	background-size: 4.03rem;
+}
+.case_title.bg3{
+	background: url(../img/connect/line.jpg) 3.5rem 50% no-repeat;
+	background-size: 4.03rem;
+}
+.case_list ul::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.case_list ul{
+	margin:0 .25rem;
+}
+.case_list ul li{
+	float: left;
+	font-size: 0;
+	margin:.28rem .15rem 0 .15rem;
+}
+.case_list ul li img{
+	width:3.18rem;
+	margin-bottom: .35rem;
+}
+.case_list ul li span{
+	display: block;
+	width:3.18rem ;
+	height: .48rem;
+	text-align: center;
+	line-height: .48rem;
+	font-size: .24rem;
+	color: #fff;
+	background-color: #3cb8d8;
+	border-radius: .1rem;
+}
