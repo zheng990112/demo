@@ -1,0 +1,518 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Microsoft Yahei";
+  font-size: 12px;
+  color: #000000;
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* @font-face{
+	font-family: "myfont_Magpie";
+	src: url('../font/MagpieSign.TTF');
+} */
+
+/* 自定义标签样式 */
+
+a {
+  text-decoration: none;
+  color: #000;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+}
+
+label {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ul li,
+ol li {
+  list-style: none;
+}
+
+input,
+img,
+textarea,
+button {
+  outline: none;
+  border: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-appearance: none;
+}
+
+button {
+  background: none;
+  outline: none;
+}
+
+b {
+  font-weight: normal;
+}
+
+u {
+  text-decoration: none;
+}
+
+/* 自定义公共类名样式 */
+
+.fl-lt {
+  float: left;
+}
+
+.fl-rt {
+  float: right;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+/*返回顶部*/
+/* 
+.backTop {
+	position: fixed;
+	bottom: 250px;
+	right: 32px;
+	bottom: 200px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #05469c;
+	cursor: pointer;
+	display: none;
+	z-index: 99;
+}
+
+.backTop span {
+	display: block;
+	font-size: 40px;
+	color: #fff;
+	margin-top: -7px;
+	margin-left: 7px;
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+}
+
+.backTop:hover {
+	opacity: 0.8;
+} */
+
+
+/*banner*/
+.banner {
+  position: relative;
+  width: 100%;
+  height: 8.8rem;
+  font-size: 0;
+  margin-top: 0.98rem;
+}
+
+.banner .swiper-slide img {
+  display: block;
+  min-width: 100%;
+  height: 100%;
+}
+
+.banner .swiper-pagination {
+  bottom: 0.44rem;
+}
+
+.banner .swiper-pagination {
+  text-align: center;
+}
+
+.banner .swiper-pagination .swiper-pagination-bullet {
+  width: 0.7rem;
+  height: 0.1rem;
+  background-color: rgba(255 , 255 , 255, 0.8);
+  opacity: 1;
+  border-radius: 0.2rem;
+  margin: 0 0.05rem;
+}
+
+.banner .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: rgba(255 , 112, 0, 0.8);
+}
+
+
+
+
+
+/* header */
+.header-box {
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 0.98rem;
+  background-image: url(../img/header_bg.jpg);
+  background-size: 100% 100%;
+}
+
+.header {
+  width: 12rem;
+  margin: auto;
+  height: 0.98rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  width: 1.56rem;
+  height: 0.54rem;
+}
+
+.header .logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.header .menu{
+  width: 8.26rem;
+}
+.header .menu ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .menu ul li{
+  width: 1.18rem;
+  text-align: center;
+}
+.header .menu ul a{
+  font-size: 0.18rem;
+  line-height: 0.5rem;
+  height: 0.5rem;
+  color: #ffffff;
+}
+.header .menu ul a:hover,
+.header .menu ul li.active a{
+  font-size: 0.22rem;
+}
+.header .menu ul li.active a::after,
+.header .menu ul a:hover::after{
+  content: "";
+  display: block;
+  background: #ffffff;
+  width: 0.22rem;
+  height: 2px;
+  margin: auto;
+}
+
+
+
+.nav {
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 50%;
+  width: 0.64rem;
+  height: 3.28rem;
+  margin-top: -1.64rem;
+}
+
+.nav img {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+.nav img.on {
+  display: block;
+}
+
+.nav a {
+  position: absolute;
+  width: 0.4rem;
+  height: 0.5rem;
+  left: 0.1rem;
+  top: 50%;
+  margin-top: -0.25rem;
+}
+
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  display: none;
+}
+
+.modal-box {
+  position: fixed;
+  width: 9.04rem;
+  height: 100%;
+  top: 0;
+  left: -9.04rem;
+  background-image: url(../img/modal-bg.png);
+  background-size: 100% 100%;
+  z-index: 99999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-box .esc {
+  margin-left: 0.42rem;
+  width: 0.28rem;
+  height: 0.28rem;
+}
+
+.modal-box .esc img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.modal-box .esc img:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+}
+
+.modal-box ul {
+  width: 5.56rem;
+}
+
+.modal-box ul li {
+  height: 0.86rem;
+  line-height: 0.86rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.modal-box ul li:last-child {
+  border-bottom: none;
+}
+
+.modal-box ul a {
+  color: #ffffff;
+  font-size: 0.16rem;
+}
+
+.modal-box ul a span {
+  display: inline-block;
+}
+
+.modal-box ul a span:first-child {
+  font-size: 0.26rem;
+  margin-right: 0.6rem;
+}
+
+.modal-box ul li.active a,
+.modal-box ul a:hover {
+  color: #36b3d6;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  height: 1.68rem;
+  background: #ff8804;
+  position: relative;
+  z-index: 99;
+}
+.footer .foot{
+  width: 12rem;
+  height: 1.68rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .logo{
+  width: 0.92rem;
+  height: 0.97rem;
+}
+.footer .code{
+  width: 1.1rem;
+  height: 1.1rem;
+}
+.footer .code img,
+.footer .logo img{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.footer ul{
+  display: flex;
+  align-items: center;
+  width: 8.7rem;
+  padding-bottom: 0.16rem;
+  border-bottom: 1px solid #ffffff;
+}
+.footer ul li{
+  width: 1.04rem;
+  text-align: center;
+  border-right: 1px solid #ffffff;
+}
+.footer ul li:last-child{
+  border-right: none;
+}
+.footer ul a{
+  font-size: 0.16rem;
+  color: #ffffff;
+  line-height: 1;
+}
+.footer .foot-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.1rem;
+}
+.footer .address{
+  width: 4.6rem;
+}
+.footer .address p{
+  font-size: 0.16rem;
+  color: #ffffff;
+  line-height: 0.22rem;
+}
+.footer .address p span{
+  display: block;
+  transform: scale(0.75);
+  -webkit-transform: scale(0.75);
+  -o-transform: scale(0.75);
+  -moz-transform: scale(0.75);
+  -ms-transform: scale(0.75);
+  width: 133%;
+  margin-left: -16.5%;
+}
+.footer .tel{
+  display: inline-flex;
+  align-items: center;
+  color: #ffffff;
+}
+.footer .tel img{
+  width: 0.3rem;
+  height: 0.3rem;
+}
+.footer .tel .p1{
+  font-size: 0.16rem;
+  text-align: center;
+  width: 0.4rem;
+  line-height: 0.2rem;
+  margin: 0 0.04rem;
+}
+.footer .tel .p2{
+  font-size: 0.46rem;
+}
+
+/* top_nav */
+.top_nav{
+  width: 12rem;
+  margin: auto;
+  padding-top: 0.4rem;
+  position: relative;
+  z-index: 9;
+  font-weight: bold;
+}
+.top_nav .top_nav-main{
+  display: flex;
+  align-items: center;
+  color: #595757;
+  font-size: 0.18rem;
+}
+.top_nav .top_nav-main a{
+  color: #595757;
+}
+.top_nav .top_nav-main span:nth-last-child(2){
+  margin: 0 0.1rem;
+}
+.top_nav .top_nav-main a:last-child{
+  color: #ff7a00;
+}
+.er-nav {
+  width: 12rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 0.2rem;
+  padding-bottom: 0.46rem;
+  border-bottom: 1px solid #ff7000;
+  position: relative;
+  z-index: 9;
+  font-weight: bold;
+}
+.er-nav a{
+  width: 1.6rem;
+  height: 0.5rem;
+  text-align: center;
+  line-height: 0.5rem;
+  background-image: url(../img/er-nav-bg.png);
+  background-size: 100% 100%;
+  margin: 0 0.2rem;
+  margin-top: 0.28rem;
+  font-size: 0.3rem;
+  color: #ff7000;
+}
+.er-nav a.on,
+.er-nav a:hover{
+  background-image: url(../img/er-nav-on.png);
+  color: #ffffff;
+}
+
+
+
+
+/* container */
+.content {
+  position: relative;
+}
+
+/* point */
+#point {
+  width: 100%;
+  height: 0rem;
+  position: absolute;
+  top: -0.96rem;
+  left: 0;
+  z-index: -100;
+}
+
+/* sub-title */
+.sub-title{
+  text-align: center;
+  padding-top: 0.3rem;
+}
+.sub-title .p1{
+  display: inline-block;
+  font-size: 0.3rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  padding: 0 0.2rem;
+  color: #ffffff;
+  background: #ff7000;
+  border-radius: 0.2rem;
+}
+.sub-title .p2{
+  font-size: 0.56rem;
+  color: #ff7000;
+  font-weight: bold;
+  margin: 0.1rem 0;
+}
+.sub-title .p3{
+  font-size: 0.18rem;
+  line-height: 0.26rem;
+  color: #ff7000;
+  text-transform: uppercase;
+}

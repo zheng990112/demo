@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+  <link rel="stylesheet" href="../css/swiper.min.css">
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/lx.css">
+</head>
+
+<body>
+  <div class="header-box">
+    <div class="header">
+      <div class="logo">
+        <img src="../img/logo.png" alt="">
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="index.html#point">首 页</a></li>
+          <li><a href="pp1.html#point">零食周末</a></li>
+          <li><a href="ys1.html#point">核心优势</a></li>
+          <li><a href="cp1.html#point">产品介绍</a></li>
+          <li><a href="hz1.html#point">合作共赢</a></li>
+          <li><a href="news1.html#point">品牌热点</a></li>
+          <li class="active"><a href="lx.html#point">联系我们</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="banner">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="../img/banner.jpg" width="100%" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="../img/banner.jpg" width="100%" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="../img/banner.jpg" width="100%" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="../img/banner.jpg" width="100%" alt="" />
+        </div>
+      </div>
+      <div class="swiper-pagination index-pagination"></div>
+    </div>
+    <div class="content">
+      <div id="point"></div>
+      <div class="top_nav">
+        <div class="top_nav-main">
+          <span>您当前位置：</span><a href="javascript:;">联系我们</a>
+        </div>
+      </div>
+      <div class="main">
+        <div class="part1">
+          <div class="part_main">
+            <img src="../img/lx/a1.png" alt="" class="first_img">
+            <div class="str">
+              <p>湖南南方食尚食品有限公司</p>
+              <p><span>公司地址：</span><span>黄花镇黄垅新村黄花工业园10号11010010栋全部</span></p>
+              <p><span>电话：</span><span>400-6363-836</span></p>
+            </div>
+            <div class="part_box">
+              <div class="map_box">
+                <div class="map" id="map"></div>
+              </div>
+              <div class="form_box">
+                <form action="javascript:;">
+                  <p class="p1">填写信息，免费索取更多项目资料</p>
+                  <p class="p2">Fill in the information and</p>
+                  <p class="p2 last_p">get more information for free</p>
+                  <input type="text" placeholder="姓名">
+                  <input type="text" placeholder="手机">
+                  <input type="text" placeholder="地址">
+                  <input type="text" placeholder="留言">
+                  <input type="reset">
+                  <input type="submit">
+
+                </form>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="bg"></div>
+  <div class="footer">
+    <div class="foot">
+      <div class="logo"><img src="../img/foot-logo.png" alt=""></div>
+      <div class="foot-main">
+        <ul>
+          <li><a href="index.html#point">网站首页</a></li>
+          <li><a href="pp1.html#point">零食周末</a></li>
+          <li><a href="ys1.html#point">核心优势</a></li>
+          <li><a href="cp1.html#point">产品介绍</a></li>
+          <li><a href="hz1.html#point">合作共赢</a></li>
+          <li><a href="news1.html#point">品牌热点</a></li>
+          <li><a href="lx.html#point">联系我们</a></li>
+        </ul>
+        <div class="foot-box">
+          <div class="address">
+            <p><span>成都迎客莱餐饮管理有限公司</span></p>
+            <p><span>公司地址：四川省成都市成华区航天路50号-国机西南大厦A座32层</span></p>
+          </div>
+          <div class="tel">
+            <img src="../img/tel.png" alt="">
+            <p class="p1">服务热线</p>
+            <p class="p2">400-6363-836</p>
+          </div>
+        </div>
+      </div>
+      <div class="code"><img src="../img/code.png" alt=""></div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <script src="../js/jquery-1.11.2.min.js"></script>
+  <script src="../js/swiper.min.js "></script>
+  <script src="../js/hotcss.js"></script>
+  <script src="../js/common.js"></script>
+  <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=6ALaE7y1e8N171T2CfPrHqZC3Ed000Cl"></script>
+  <script type="text/javascript">
+    var map = new BMap.Map("map"); // 创建Map实例
+    var point = new BMap.Point(113.210451,28.229479);
+    map.centerAndZoom(point, 15);
+    var marker = new BMap.Marker(point); // 创建标注
+    map.addOverlay(marker); // 将标注添加到地图中
+    marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+    map.panTo(point);
+    map.addControl(new BMap.NavigationControl()); // 添加默认缩放平移控件
+    map.enableScrollWheelZoom(true); //开启鼠标滚轮缩放
+  </script>
+</body>
+
+</html>

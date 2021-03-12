@@ -1,0 +1,83 @@
+.main{
+  position: relative;
+  z-index: 0;
+}
+.main::after{
+  content: "";
+  width: 100%;
+  height: 11.16rem;
+  background-image: url(../img/cp/a_bg.jpg);
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.sub-title .p2 {
+  font-size: 0.62rem;
+}
+
+.sub-title .p3 {
+  font-size: 0.16rem;
+}
+.part_main{
+  width: 12rem;
+  margin: auto;
+  padding-bottom: 1.7rem;
+}
+.part-swiper {
+  width: 12rem;
+  margin: auto;
+  margin-top: 0.5rem;
+  position: relative;
+}
+
+.part-swiper .swiper-container {
+  width: 100%;
+}
+
+.part-swiper .swiper-slide {
+  height: 3.48rem;
+}
+
+.part-swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.1rem;
+}
+
+.part-swiper .part_swiper-button {
+  width: 13.7rem;
+  height: 0.64rem;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -0.32rem;
+  margin-left: -6.85rem;
+}
+
+.part-swiper .swiper-button-prev,
+.part-swiper .swiper-container-rtl .swiper-button-next,
+.part-swiper .swiper-button-next,
+.part-swiper .swiper-container-rtl .swiper-button-prev {
+  outline: none;
+  margin: 0;
+  top: 0;
+  width: 0.64rem;
+  height: 0.64rem;
+  background-size: 100% 100%;
+}
+
+.part-swiper .swiper-button-prev,
+.part-swiper .swiper-container-rtl .swiper-button-next {
+  background-image: url(../img/cp/prev.png);
+  left: 0;
+}
+
+.part-swiper .swiper-button-next,
+.part-swiper .swiper-container-rtl .swiper-button-prev {
+  background-image: url(../img/cp/next.png);
+  right: 0;
+}

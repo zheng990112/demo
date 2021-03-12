@@ -1,0 +1,493 @@
+.sub-title .p2 {
+  font-size: 0.62rem;
+}
+
+.sub-title .p3 {
+  font-size: 0.16rem;
+}
+
+.part_main {
+  width: 12rem;
+  margin: auto;
+}
+
+.pp1 .part1 {
+  position: relative;
+  padding-bottom: 1.7rem;
+  z-index: 0;
+}
+
+.pp1 .part1::after {
+  content: "";
+  width: 100%;
+  height: 16.5rem;
+  background-image: url(../img/pp/a_bg.jpg);
+  background-size: 100% 100%;
+  position: absolute;
+  top: -2.6rem;
+  left: 0;
+  z-index: -1;
+}
+
+.pp1 .sub-title {
+  margin-bottom: 0.3rem;
+}
+
+.pp1 .str{
+  text-align: justify;
+  font-size: 0.18rem;
+  line-height: 0.32rem;
+  color: #606060;
+  text-indent: 2em;
+  margin-top: 0.16rem;
+}
+.pp1 .pic {
+  margin: 0.18rem auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pp1 .pic img {
+  width: 5.94rem;
+  height: 5.28rem;
+}
+
+.pp2 .part1 {
+  position: relative;
+  padding-bottom: 0.4rem;
+  z-index: 0;
+}
+
+.pp2 .part1::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 13.68rem;
+  background-image: url(../img/pp/b1_bg.jpg);
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+  top: -2.1rem;
+  z-index: -1;
+}
+
+.pp2 .part1 ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 0.42rem;
+}
+
+.pp2 .part1 ul::after {
+  content: "";
+  width: 3.82rem;
+}
+
+.pp2 .part1 ul li {
+  width: 3.82rem;
+  height: 2.28rem;
+  display: inline-flex;
+  justify-content: space-between;
+  margin-bottom: 0.6rem;
+}
+
+.pp2 .part1 ul img {
+  width: 1.88rem;
+  height: 2.28rem;
+  border-radius: 0.1rem;
+}
+
+.pp2 .part1 ul div {
+  width: 1.84rem;
+  height: 2.28rem;
+}
+
+.pp2 .part1 ul .p1 {
+  font-size: .32rem;
+  color: #ff7000;
+  font-weight: bold;
+}
+
+.pp2 .part1 ul .p2 {
+  font-size: .18rem;
+  color: #323232;
+  line-height: .26rem;
+  text-align: justify;
+  margin-top: 0.4rem;
+}
+
+.pp2 .part2 {
+  position: relative;
+  min-height: 14.06rem;
+  z-index: 1;
+}
+
+.pp2 .part2::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 16.26rem;
+  background-image: url(../img/pp/b2_bg.png);
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+  top: -1.2rem;
+  z-index: -1;
+}
+
+.pp2 .part2 .sub-title {
+  padding-top: 0.45rem;
+}
+
+.pp2 .part2 .sub-title .p1 {
+  color: #ff7000;
+  background: #ffffff;
+}
+
+.pp2 .part2 .sub-title .p2,
+.pp2 .part2 .sub-title .p3 {
+  color: #ffffff;
+}
+
+.pp2 .part2 ul {
+  padding-top: 0.34rem;
+}
+
+.pp2 .part2 ul li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.pp2 .part2 ul li:nth-child(2n+2) {
+  flex-direction: row-reverse;
+}
+
+.pp2 .part2 ul img {
+  width: 8.5rem;
+  height: 3.36rem;
+}
+
+.pp2 .part2 ul div {
+  width: 3.3rem;
+  color: #ffffff;
+}
+
+.pp2 .part2 ul .p1 {
+  font-size: 0.48rem;
+  line-height: 0.56rem;
+}
+
+.pp2 .part2 ul .p2 {
+  font-size: 0.16rem;
+  line-height: 0.2rem;
+  text-transform: uppercase;
+  padding-top: 0.1rem;
+}
+.pp2 .part2 ul li:last-child .p2{
+  white-space: nowrap;
+}
+.pp2 .part2 ul .p3 {
+  font-size: 0.2rem;
+  line-height: 0.36rem;
+  margin-top: 0.3rem;
+}
+.pp2 .part2 ul li:last-child .p3{
+  margin-top: 0.2rem;
+}
+
+.pp2 .part3 {
+  padding-top: 0.4rem;
+  min-height: 16.6rem;
+  position: relative;
+  z-index: 0;
+}
+
+.pp2 .part3::after {
+  content: "";
+  width: 100%;
+  height: 17.4rem;
+  background-image: url(../img/pp/b3_bg.jpg);
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.pp2 .part3 .part-img {
+  display: block;
+  width: 100%;
+  margin-top: 0.16rem;
+}
+
+.pp2 .part3 .part-p {
+  height: 0.4rem;
+  line-height: 0.4rem;
+  text-align: center;
+  overflow: hidden;
+  margin-top: 0.5rem;
+}
+
+.pp2 .part3 .part-p span {
+  position: relative;
+  font-size: 0.38rem;
+  color: #9a9a9a;
+  text-indent: 0.1rem;
+  letter-spacing: 0.1rem;
+}
+
+.pp2 .part3 .part-p span::before,
+.pp2 .part3 .part-p span::after {
+  content: "";
+  width: 6rem;
+  height: 1px;
+  background: #d9d9d9;
+  position: absolute;
+  top: 50%;
+}
+
+.pp2 .part3 .part-p span::before {
+  left: -6.8rem;
+}
+
+.pp2 .part3 .part-p span::after {
+  right: -6.8rem;
+}
+
+.pp2 .part3 .first_img {
+  margin-top: 0.6rem;
+}
+
+.pp3 .part1 {
+  position: relative;
+  padding-bottom: 1.6rem;
+  z-index: 0;
+}
+
+.pp3 .part1::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 15.04rem;
+  background-image: url(../img/pp/c_bg.jpg);
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+  top: -2.1rem;
+  z-index: -1;
+}
+
+.pp3 .part1 ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 0.35rem;
+}
+
+.pp3 .part1 ul li {
+  width: 3.9rem;
+  height: 3.76rem;
+  background-image: url(../img/pp/c_icon1.png);
+  background-size: 100% 100%;
+  margin-top: 0.15rem;
+}
+
+.pp3 .part1 ul p {
+  width: 3.3rem;
+  margin: auto;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.pp3 .part1 ul .p1 {
+  font-size: 0.32rem;
+  line-height: 0.36rem;
+  text-transform: uppercase;
+  padding-top: 0.1rem;
+}
+
+.pp3 .part1 ul .p2 {
+  font-size: 0.32rem;
+  line-height: 0.4rem;
+  margin-top: 0.04rem;
+  margin-bottom: 0.16rem;
+}
+
+.pp3 .part1 ul .p3 {
+  font-size: 0.26rem;
+  padding-top: 0.12rem;
+}
+
+.pp3 .part1 ul .p3 span {
+  display: inline-block;
+  line-height: 0.36rem;
+  border-bottom: 1px solid #ffffff;
+}
+
+.pp3 .part1 ul li:nth-child(2n+2) {
+  background-image: url(../img/pp/c_icon2.png);
+}
+
+.pp3 .part1 ul li:nth-child(2n+2) p {
+  color: #ff7000;
+}
+
+.pp3 .part1 ul li:nth-child(2n+2) .p3 span {
+  border-bottom: 2px solid #ff7000;
+}
+
+.pp3 .part1 .part-img {
+  display: block;
+  width: 100%;
+  margin-top: 0.2rem;
+  border-radius: 0.1rem;
+}
+
+.pp4 .sub-title .p1:last-child {
+  margin-top: 0.08rem;
+}
+
+.pp4 .part1 {
+  position: relative;
+  z-index: 0;
+}
+
+.pp4 .part1::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 24rem;
+  background-image: url(../img/pp/d_bg.jpg);
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+  top: -2.1rem;
+  z-index: -1;
+}
+
+
+.dm-swiper {
+  width: 12rem;
+  margin: auto;
+  position: relative;
+  margin-top: 0.5rem;
+}
+
+.dm-swiper .swiper-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dm-swiper .swiper-container img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 5;
+}
+
+.dm-swiper .gallery-top {
+  width: 100%;
+  height: 6.7rem;
+}
+
+.dm-swiper .gallery-thumbs {
+  margin-top: 0.3rem;
+}
+
+.dm-swiper .gallery-thumbs .swiper-slide {
+  height: 100%;
+  opacity: 0.4;
+}
+
+.dm-swiper .gallery-thumbs .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.dm-swiper .swiper-button-next,
+.dm-swiper .swiper-button-prev {
+  width: 0.54rem;
+  height: 0.54rem;
+  background-image: url(../img/pp/btn-next.png);
+  background-size: 100% 100%;
+  outline: none;
+  margin: 0;
+  top: 0;
+}
+
+.dm-swiper .swiper-button-next {
+  right: 0;
+}
+
+.dm-swiper .swiper-button-prev {
+  left: 0;
+  background-image: url(../img/pp/btn-prev.png);
+}
+
+.dm-swiper-btn {
+  width: 13.8rem;
+  height: 0.54rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -6.9rem;
+  margin-bottom: -0.27rem;
+}
+
+.pp4 .part2 {
+  position: relative;
+  z-index: 0;
+  padding-top: 0.35rem;
+  padding-bottom: 1.7rem;
+}
+
+.pp4 .part2 ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 0.18rem;
+}
+
+.pp4 .part2 ul li {
+  height: 4.87rem;
+  margin-top: 0.13rem;
+}
+
+.pp4 .part2 ul img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.pp4 .part2 ul li:first-child {
+  width: 4.58rem;
+  height: 4.87rem;
+}
+
+.pp4 .part2 ul li:nth-child(2) {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 3.91rem;
+  font-size: 0;
+}
+
+.pp4 .part2 ul li:nth-child(3) {
+  width: 3.24rem;
+}
+.pp4 .part2 ul li:last-child,
+.pp4 .part2 ul li:nth-last-child(2){
+  width: 5.36rem;
+  height: 4.17rem;
+}
+.pp4 .part2 ul li:last-child{
+  width: 6.54rem;
+}
+.pp4 .part2 ul li:nth-child(2) img {
+  height: 2.37rem;
+}
+.pp4 .part2 ul li:nth-child(2) img:last-child{
+  margin-top: 0.13rem;
+}
